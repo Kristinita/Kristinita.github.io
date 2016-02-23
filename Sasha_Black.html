@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title> Sasha_Black — проверка наличия сайта в чёрных списках и его репутации</title>
+<meta charset="UTF-8" name="description"content="Sasha_Black — удобная страница проверки сайта на возможно вредоносное содержимое, наличие в вирусных и спам-базах, репутации на основе пользовательских оценок." http-equiv="content-type" >
+
+<!-- Иконочка Сашеньки -->
+<link rel="icon" href="other_images/Sasha_Black.ico" type="image/x-icon">
+<link rel="shortcut icon" href="other_images/Sasha_Black.ico" type="image/x-icon">
+<!-- Иконочка Сашеньки вставлена -->
+
+<script>
+
+function test(url, tester)
+{
+  if (url.substring(0,7)=="http://") url=url.substring(7);
+  if (url.substring(0,8)=="https://") url=url.substring(8);
+  if (url.substring(0,4)=="www.") url=url.substring(4);
+
+  var l = url.length; if(url.substring(l-1,l)=='/') url=url.substring(0,l-1);
+
+  var query = tester + url; // Для большинства сайтов достаточно сформировать строку так, но если появятся исключения добавим
+  //window.open(query, "nw");  nw.focus();
+  window.open(query).focus();
+};
+</script>
+</head>
+
+<body>
+
+<div>
+<center> <h3> Проверьте ваш сайт </h3> </center>
+</div>
+<br>
+
+<input value="" name="sitename" id="sitename" required="" placeholder="Введите URL сайта" style="width:90%">
+
+<br><br>
+
+Мультифункциональные сканеры:<button onclick="test(document.all.sitename.value, 'http://quttera.com/sitescan/');"> Quttera </button>
+<button onclick="test(document.all.sitename.value, 'http://sitecheck.sucuri.net/results/');"> Sucuri </button>
+<button onclick="test(document.all.sitename.value, 'http://www.isithacked.com/check/');"> Is it Hacked? </button>
+<br />
+Чёрные списки: <button onclick="test(document.all.sitename.value, 'http://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a');"> MX Toolbox </button>
+<button onclick="test(document.all.sitename.value, 'http://www.urlvoid.com/scan/');"> URL Void </button>
+<button onclick="test(document.all.sitename.value, 'http://vurl.mysteryfcm.co.uk/default.asp?btnvURL=Dissect&selUAStr=1&selServer=0&ref=&cbxSource=on&cbxBlacklist=on&url=http%3A%2F%2F');"> vURL </button>
+<br />
+Пользовательские оценки: <button onclick="test(document.all.sitename.value, 'http://www.mywot.com/en/scorecard/');"> Web of Trust </button>
+<button onclick="test(document.all.sitename.value, 'http://www.webutations.net/go/review/');"> Webutation </button>
+<button onclick="test(document.all.sitename.value, 'https://ru.trustpilot.com/review/');"> TrustPilot </button>
+
+</body>
+</html>
+
+
+
+
