@@ -2,7 +2,7 @@ User-agent: *
 Disallow: /backgrounds/
 Disallow: /logo/
 Disallow: /other_images/
-Disallow: /404/
+Disallow: /404_files/
 Disallow: /zohoverify/
 Disallow: /reaction_trainer_images/
 Disallow: /aside/
