@@ -5,3 +5,10 @@ Disallow: /other_images/
 Disallow: /404/
 Disallow: /zohoverify/
 Disallow: /reaction_trainer_images/
+Disallow: /aside/
+Disallow: /fonts/
+Disallow: /Sasha_Black_files/
+Disallow: /cufon/
+Disallow: /articles_css/
+
+

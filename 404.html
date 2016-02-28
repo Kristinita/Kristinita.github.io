@@ -19,7 +19,7 @@ html { overflow-x: hidden; }
 @media screen and (max-width: 1600px) {
     div.for-example {width: 1500px;}
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 855px) {
     div.for-example {width: 1100px;}
 }
 @media screen and (max-width: 1024px) {
@@ -32,7 +32,6 @@ body {
         -o-background-size: cover;
         background-size: cover;
 }
-img {   max-width: 100% }
 </style>  
 <!-- Конец полей, отступов, оптимизации для мобильных устройств, растягивания бэкграунда и ширины картинок, не превышающей ширину экрана-->
 
@@ -47,7 +46,7 @@ img {   max-width: 100% }
 <!-- Конец стиля ссылок -->
 
 <!-- Бэкграунд -->
-<body text="MediumVioletRed" bgcolor="PapayaWhip" link="#0066CC"  alink="#9932CC" vlink="DarkOrange" background="backgrounds/Бэкграунд_с_вешалкой.jpg"><img src="http://2no.co/1sHR.jpg"><!-- Конец бэкграунда -->
+<body text="MediumVioletRed" bgcolor="PapayaWhip" link="#0066CC"  alink="#9932CC" vlink="DarkOrange" background="backgrounds/Бэкграунд_с_вешалкой.jpg"><!-- Конец бэкграунда -->
 
 <!-- Ошибка 404 -->
 <center><h1><a href="https://ru.wikipedia.org/wiki/HTTP_404" target="_blank" class="Error404"><big><big>Ошибка 404</big></big></a></h1></center>
@@ -74,16 +73,45 @@ text-shadow: 0 6px 4px #85c226,
 </style>
 <!-- Конец сообщения ошибки 404 -->
 
-<br clear="all">
+<!-- Центрирование скрипта -->
+<style>
+  #slide-container #slideShowImages IMG {
+margin: auto;
+position: absolute;
+top: 0; 
+left: 0; 
+bottom: 0; 
+right: 0;
+}
+</style>
+<!-- Конец центрирования скрипта -->
 
 <br /><br />
 
 <!-- Божьи иконы -->
-   <img src="404/Накрашенные_уста.jpg" align="left" width="537" height="700" alt="Накрашенные_уста" border="0" leftmargin="0"></a>
-   <img src="404/Синие_волосы.jpg" align="left" width="537" height="700" alt="Синие_волосы" border="0" leftmargin="0"></a> 
-   <img src="404/На_лавочке.jpg" align="left" width="537" height="700" alt="На_лавочке" border="0" leftmargin="0"></a>
-   <img src="404/Коронованное_чело.jpg" align="left" width="537" height="700" alt="Коронованное_чело" border="0" leftmargin="0"></a> 
+ <center> 
+  <div id="slide-container">
+  <div id="slideShowImages">
+    <img src="404/С_голубочком.jpg" alt="Slide 1" class="SashaIcons" width="855" height="591" />
+    <img src="404/У_реки.jpg" alt="Slide 2" class="SashaIcons" width="855" height="591" />
+    <img src="404/Шимский_район_Новгорода.jpg" alt="Slide 3" class="SashaIcons" width="855" height="591" />
+    <img src="404/Бантик.jpg" alt="Slide 4" class="SashaIcons" width="855" height="591" />
+    <img src="404/Нос.jpg" alt="Slide 5" class="SashaIcons" width="855" height="591" />
+    <img src="404/На_свадьбе_знакомых.jpg" alt="Slide 6" class="SashaIcons" width="855" height="591" />
+    <img src="404/Синие_волосы_на_травке.jpg" alt="Slide 7" class="SashaIcons" width="855" height="591" />
+  </div>
+  </div>
+</center>
+  <script src="404/slideShow.js"></script>
 <!-- Божьи иконы вставлены -->
+
+<style>
+img {
+  max-width: 100%;
+  min-height: 35%;
+  height: 20;
+}
+</style>
 
 </body>
 </html>
