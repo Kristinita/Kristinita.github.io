@@ -79,7 +79,7 @@ function SashaFunction(url, SashaSite)
      { var domain = ms[l-1];
        var adr = ms[l-2]; // нужен только домен 2-го уровня
        query = SashaSite+domain+'/'+adr+'/';
-       if(l==3) query = tester + ms[l-1] + '/'+ms[l-2]+'/'+ms[l-3];
+       if(l==3) query = SashaSite + ms[l-1] + '/'+ms[l-2]+'/'+ms[l-3];
      };
   };
 
