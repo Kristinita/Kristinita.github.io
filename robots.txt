@@ -10,5 +10,6 @@ Disallow: /fonts/
 Disallow: /Sasha_Black_files/
 Disallow: /cufon/
 Disallow: /articles_css/
+Disallow: /Ashmanov/
 
 
