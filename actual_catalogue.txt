@@ -1,3 +1,4 @@
+Саша Бог
 URL	Label
 *.niv.ru/*	_cse_lmo7aip_90c
 forum.textologia.ru/*	_cse_exclude_lmo7aip_90c
