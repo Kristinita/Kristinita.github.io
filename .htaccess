@@ -1,19 +1,13 @@
-<-- Кастомная страница 404 -->
 ErrorDocument 404 /404.html
-<-- Конец кастомной страницы 404 -->
 
-<-- Скрытие расширений .html -->
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
-<-- Конец скрытия расширений .html -->
 
-<-- Переадресация index.html на заглавную -->
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
-<-- Конец переадресации index.html на заглавную -->
 
 
 
