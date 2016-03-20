@@ -8,7 +8,3 @@ RewriteRule ^(.*)$ $1.html
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
-
-
-
-
