@@ -29,6 +29,14 @@
     b {
         font-weight: bold;
     }
+    ol
+{
+    list-style-position: inside; /* Чтобы маркеры списка не пропадали на мобильных версиях */
+}
+	ul
+{
+    list-style-position: inside; /* Чтобы маркеры списка не пропадали на мобильных версиях */
+}
 
     h1 {
         font-family: Tahoma;
@@ -42,7 +50,14 @@
     img {
         max-width: 100%
     }
-
+    img.leftimg {
+        float:left; /* Картинка слева */
+        margin: 5px 5px 5px 0; /* Расстояние между картинкой и текстом */
+    }
+    img.rightimg {
+        float:right; /* Картинка справа */
+        margin: 5px 0 5px 5px; /* Расстояние между картинкой и текстом */
+    }
     SashaVersion {
         font-size: 0.8em;
         font-weight: bold;
@@ -62,7 +77,6 @@
     }
 
     .cover {
-        transition: all .8s ease 0s;
         text-align: center;
         position: relative;
         background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.75)) repeat scroll 0 0 transparent
@@ -76,18 +90,6 @@
         width: 80%;
         left: 10%
     }
-
-    .cover-text .heading a {
-        position: relative;
-        margin-right: 5px
-    }
-
-    .cover-text .heading a:not(:last-child):after {
-        content: " , ";
-        position: absolute;
-        bottom: 0
-    }
-
     .sidebar,
     .cover {
         width: 100%;

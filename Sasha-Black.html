@@ -13,8 +13,8 @@
   <!-- Конец описания страницы, изменения названия Эксплорера и адаптации для разных экранов -->
 
   <!-- Поля, отступы, оптимизация для мобильных устройств, растянул бэкграунд, ширина картинок не превышает ширину экрана -->
-  <style type="text/css"><!--
-    body{margin:0px;
+  <style type="text/css">
+     body{margin:0px;
      padding-right:0px;
      background: black;}
      a {text-decoration: none;}
@@ -47,7 +47,7 @@
       color: Tomato;
     }
     img { max-width: 100% }
-  </style>  
+  </style>
   <!-- Конец полей, отступов, оптимизации для мобильных устройств, растягивания бэкграунда и ширины картинок, не превышающей ширину экрана-->
 
   <!-- Иконочка Сашеньки -->
@@ -62,7 +62,7 @@
     {
   //url = parse_url(url).hostname; // выделяем из произвольного адреса только hostname
   //убрано, т.к. если адрес введут неполным, т.е. не "http://Kristinita.ru" а просто "Kristinita.ru", работает не корректно
-  
+
   if (url.substring(0,7)=="http://") url=url.substring(7);
   if (url.substring(0,8)=="https://") url=url.substring(8);
   if (url.substring(0,4)=="www.") url=url.substring(4);
@@ -75,7 +75,7 @@
   {  // здесь нужны запросы вида https://www.robtex.com/en/advisory/dns/ru/Kristinita/
    var ms = url.split(".");
    var l = ms.length;
-   if(l>1) 
+   if(l>1)
      { var domain = ms[l-1];
        var adr = ms[l-2]; // нужен только домен 2-го уровня
        query = SashaSite+domain+'/'+adr+'/';
@@ -136,7 +136,7 @@
     .SashaBorder {
       border: 4px double black; /* Параметры границы */
       border-style: outset;
-      border-color: DarkOrange;    
+      border-color: DarkOrange;
     }
   </style>
   <!-- Конец поля ввода -->
@@ -156,7 +156,7 @@
   <a onclick="SashaFunction(document.all.sitename.value, 'http://www.urlvoid.com/scan/');" class="SashaLove" style="color:black; background-color: DarkOrange">&nbsp;URL&nbsp;Void&nbsp;</a>
   <a onclick="SashaFunction(document.all.sitename.value, 'http://vurl.mysteryfcm.co.uk/default.asp?btnvURL=Dissect&selUAStr=1&selServer=0&ref=&cbxSource=on&cbxBlacklist=on&url=http%3A%2F%2F');" class="SashaLove" style="color:black; background-color: Silver">&nbsp;vURL&nbsp;</a>
   <br />
-  <SashaGreat>Пользовательские оценки:</SashaGreat> 
+  <SashaGreat>Пользовательские оценки:</SashaGreat>
   <a onclick="SashaFunction(document.all.sitename.value, 'http://www.mywot.com/en/scorecard/');" class="SashaLove" style="color:black; background-color: Tomato">&nbsp;Web&nbsp;of&nbsp;Trust&nbsp;</a>
   <a onclick="SashaFunction(document.all.sitename.value, 'http://www.webutations.net/go/review/');" class="SashaLove" style="color:black; background-color: SeaGreen">&nbsp;Webutation&nbsp;</a>
   <a onclick="SashaFunction(document.all.sitename.value, 'https://ru.trustpilot.com/review/');" class="SashaLove" style="color:black; background-color: Chocolate">&nbsp;Trustpilot&nbsp;</a>
@@ -165,7 +165,7 @@
   <!-- Стиль кнопок и всплывающей подсказки -->
   <style>
     a.SashaLove {
-      color: #fff; 
+      color: #fff;
       text-decoration: none;
       background: rgb(212,75,56);
       outline: none;
@@ -177,9 +177,9 @@
       -moz-border-radius: 14px;
       -o-border-radius: 14px;
       border-radius: 14px;
-    } 
+    }
     a.SashaLove:hover  {
-      color: #fff; 
+      color: #fff;
       text-decoration: none;
       background: rgb(212,75,56);
       outline: none;
@@ -192,7 +192,7 @@
       -o-border-radius: 14px;
       border-radius: 14px;}
       a.SashaLove:active {
-        color: #fff; 
+        color: #fff;
         text-decoration: none;
         background: rgb(212,75,56);
         outline: none;
