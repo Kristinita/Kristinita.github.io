@@ -1,0 +1,47 @@
+sales1.xls
+orders3.xls
+sales2.xls
+apac1.xls
+europe2.xls
+na1.xls
+
+
+na2.xls
+sa1.xls
+sa3.doc
+ca1.doc
+usa1.xls
+sam.xls
+
+
+\r
+
+
+\home\ben\sales\
+
+
+var myArray = new Array();
+    ...
+if (myArray[0] == 0) {
+	...
+}
+
+11213
+A1C2E3
+113456
+
+Ёё
+кот
+
+aaaaaaaaa
+
+111+++
+
+cat@cat.ru кошка
+myr@mail.ru мурлычет
+kot@gmail.com мяумурка
+cat@mail.cat.ru кошач.
+cat.sfs@cat.cat.tret.ru
+.b@forta.com
+
+с. 65 — ошибка. Указанным регулярным выражением выделится и точка перед ben@forta.com

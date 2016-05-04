@@ -1,0 +1,87 @@
+    h1 {
+        font-family: Tahoma;
+        font-size: 3em;
+    }
+
+    img {
+        max-width: 100%
+    }
+    img.leftimg {
+        float:left; /* Картинка слева */
+        margin: 5px 5px 5px 0; /* Расстояние между картинкой и текстом */
+    }
+    img.rightimg {
+        float:right; /* Картинка справа */
+        margin: 5px 0 5px 5px; /* Расстояние между картинкой и текстом */
+    }
+    SashaVersion {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    .sidebar {
+        background-image: url('../../img/bg.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #000;
+        font-size: 5px;
+        line-height: 1;
+        display: none;
+        float: right
+    }
+
+    .cover {
+        text-align: center;
+        position: relative;
+        background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.75)) repeat scroll 0 0 transparent
+    }
+
+    .cover-text {
+        color: #fff;
+        text-shadow: 2px 0 5px #333;
+        position: absolute;
+        bottom: 20%;
+        width: 80%;
+        left: 10%
+    }
+    .sidebar,
+    .cover {
+        width: 100%;
+        height: 100vh
+    }
+            .main-header {
+                position: static
+            }
+            .nav-main {
+                padding: 0;
+                text-align: left
+            }
+            .nav-main a {
+                font-size: .8125em;
+                display: block;
+                padding-right: 2em;
+                margin: 0
+            }
+            .sidebar {
+                width: 35%;
+                height: 100%;
+                position: fixed;
+                left: 0;
+                top: 0;
+                background-attachment: scroll;
+                z-index: 200;
+                display: block
+            }
+            .cover {
+                height: 100%
+            }
+            .content-wrapper {
+                width: 59%;
+                max-width: 1000px;
+                margin-left: 38%
+            }
+            main {
+                padding-top: 1em
+            }
