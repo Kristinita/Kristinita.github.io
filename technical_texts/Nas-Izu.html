@@ -3,69 +3,28 @@
 
 <head>
     <!-- Титульная фраза -->
-    <title>Нас Изу</title>
+    <title>Заголовок</title>
     <!-- Конец титульной фразы -->
     <!-- Описание страницы, отображение в Эксплорере и адаптация для разных экранов -->
     <meta charset="utf-8">
-    <meta name="description" content="Nas Izu — интеллигентные способы завершить диалог">
+    <meta name="description" content="Описание">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Конец описания страницы , отображения в Эксплорере и адаптации для разных экранов -->
+
     <style type="text/css">
     body {
         background: bisque;
         color: crimson;
     }
-
-    a {
-        text-decoration: none;
-        color: mediumvioletred;
-        /* Цвет ссылок */
-    }
-
     h1 {
         font-family: Tahoma;
         font-size: 3em;
-    }
-
-    blockquote {
-        border: dotted #666 1px;
-        border-left: solid #ff5a00 5px;
-        margin: 10px 40px;
-        padding: 15px;
-        color: #333;
-        font-style: italic;
-        font-size: 14px;
-        background: #fcfcfc;
-    }
-
-    SashaDot {
-        border-bottom: 1px dotted crimson;
-        /* Параметры линии */
-    }
-
-    .SashaSign {
-        float: right;
-        /* Выравнивание по правому краю */
-        border: 1px solid #333;
-        /* Параметры рамки */
-        padding: 7px;
-        /* Поля внутри блока */
-        margin: 10px 0 5px 5px;
-        /* Отступы вокруг */
-        background: #f0f0f0;
-        /* Цвет фона */
-        max-width: 507px;
-    }
-
-    .SashaSign figcaption {
-        margin: 0 auto 5px;
-        /* Отступы вокруг абзаца */
     }
     .test {
         color: yellow;
     }
     </style>
+
     <!--[if lt IE 9]-->
     <script>
     document.createElement('figure');
@@ -75,25 +34,12 @@
     <!-- Конец полей, отступов, оптимизации для мобильных устройств, растягивания бэкграунда и ширины картинок, не превышающей ширину экрана-->
     <!-- Загрузка шрифтов -->
     <script type="text/javascript" src="../cufon/cufon-yui.js"></script>
-    <script type="text/javascript" src="../cufon/Мечта.js"></script>
     <script type="text/javascript" src="../cufon/Истина.js"></script>
-    <script type="text/javascript" src="../cufon/Волнится_синей_пастой.js"></script>
+
     <script type="text/javascript">
     Cufon.set("fontFamily", "Истина");
     Cufon.set("fontSize", "31");
     Cufon.replace("h1");
-
-    Cufon.set("fontFamily", "Мечта");
-    Cufon.set("fontSize", "19");
-    Cufon.replace("a");
-
-    Cufon.set("fontFamily", "Волнится_синей_пастой");
-    Cufon.set("fontSize", "57");
-    Cufon.replace("WorkOnYourself");
-
-    Cufon.set("fontFamily", "Мечта");
-    Cufon.set("fontSize", "31");
-    Cufon.replace("h2");
     </script>
     <!-- Конец загрузки шрифтов-->
     <!-- Иконочка Сашеньки -->
@@ -122,8 +68,10 @@
             </div>
         </div>
     </aside>
-    <!-- Конец описания заголовка aside -->
-    <!-- Текст -->
+
+    <main class="content-wrapper">
+        <div class="test"><h1>Текст</h1></div>
+    </main>
 </body>
 
 </html>
