@@ -79,7 +79,6 @@
     .cover {
         text-align: center;
         position: relative;
-        background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.75)) repeat scroll 0 0 transparent
     }
 
     .cover-text {
@@ -146,9 +145,6 @@
                 background-attachment: scroll;
                 z-index: 200;
                 display: block
-            }
-            .cover {
-                height: 100%
             }
             .content-wrapper {
                 width: 59%;

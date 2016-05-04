@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <title>Саша Miracle</title>
+    <title>Саша Королева Мира</title>
     <meta charset="utf-8">
     <meta name="description" content="Описание">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,20 +16,67 @@
     .test {
         color: yellow;
     }
+    h1 {
+        font-family: Tahoma;
+        font-size: 3em;
+    }
+    .sidebar {
+        background-image: url('../../img/bg.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: bisque;
+        font-size: 5px;
+        line-height: 1;
+        display: none;
+        float: right
+    }
+    .cover {
+        text-align: center;
+        position: relative;
+    }
+    .cover-text {
+        color: lime;
+        text-shadow: 2px 0 5px #333;
+        position: absolute;
+        bottom: 20%;
+        width: 80%;
+        left: 10%
+    }
+    .sidebar,
+    .cover {
+        width: 100%;
+        height: 100vh
+    }
+    .sidebar {
+        width: 35%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-attachment: scroll;
+        z-index: 200;
+        display: block
+    }
+    .content-wrapper {
+        width: 59%;
+        max-width: 1000px;
+        margin-left: 38%
+    }
     </style>
 
     <script type="text/javascript" src="../cufon/cufon-yui.js"></script>
-    <script type="text/javascript" src="../cufon/Истина.js"></script>
+    <script type="text/javascript" src="../technical_texts/Шрифт.js"></script>
 
     <script type="text/javascript">
-    Cufon.set("fontFamily", "Истина");
+    Cufon.set("fontFamily", "Шрифт");
     Cufon.set("fontSize", "31");
     Cufon.replace("h1");
     </script>
 
     <link rel="shortcut icon" href="../other_images/Sasha.ico" type="image/x-icon">
     <link rel="icon" href="../other_images/Sasha.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../technical_texts/style_left.css">
 
 </head>
 
@@ -44,7 +91,9 @@
     </aside>
 
     <main class="content-wrapper">
-        <div class="test"><h1>Текст</h1></div>
+        <div class="test">
+            <h1>Текст</h1>
+        </div>
     </main>
 </body>
 
