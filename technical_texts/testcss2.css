@@ -1,12 +1,12 @@
 p {
-    color: red;
-    /* цвет текста параграфов */
-    font-family: Helvetica, sans-serif;
-    /* гарнитура шрифта параграфов */
-    font-size: 150%;
-    /* размер шрифта */
-    text-align: center;
-    /* текст по центру */
-    border: 5px green double;
-    /* стили рамки */
+	color: red;
+	/* цвет текста параграфов */
+	font-family: Helvetica, sans-serif;
+	/* гарнитура шрифта параграфов */
+	font-size: 150%;
+	/* размер шрифта */
+	text-align: center;
+	/* текст по центру */
+	border: 5px green double;
+	/* стили рамки */
 }
