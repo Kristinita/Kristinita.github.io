@@ -3,7 +3,7 @@
 @font-face { font-family: 'PT Sans Narrow'; font-style: normal; font-weight: 400; src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/UyYrYy3ltEffJV9QueSi4S4mX3cpNo8MnLri8k21-rs.woff) format('woff'); }
 @font-face { font-family: 'PT Sans Narrow'; font-style: normal; font-weight: 700; src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/Q_pTky3Sc3ubRibGToTAYigwe3ZcNEyK1ut-Sjba9Qg.woff) format('woff'); }
 
-html { background: #B80000; }
+html { background:url(https://i.gyazo.com/711a23920443668800929d8ecfbc1c6e.png); }
 body { font-family: 'PT Sans Narrow', Georgia, serif; color:#fff; }
 
 .bl-center { text-align:center; }
