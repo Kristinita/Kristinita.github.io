@@ -9,6 +9,14 @@ body { font-family: 'PT Sans Narrow', Georgia, serif; color:#fff; }
 .bl-center { text-align:center; }
 .background { position:absolute;z-index:-1;height:100%;width:100%;top:0px;left:0px;}
 
+a { text-decoration:none; color:#666; padding-bottom:2px; }
+a:hover { text-decoration: underline;  }
+h1 { color:#fff; font-size:2em; margin:10px 0; text-align:center; }
+
+#logo { width:1000px; margin:0px auto; text-align:center; }
+#global-block { width:1000px; margin:0px auto; text-align:center; overflow:hidden; padding:20px; position:relative; }
+#head-block { width:1000px; margin:0px auto; text-align:center; position:relative; font-size:10px; }
+
 .article-timer { width:1000px; margin:0px auto; text-align:center; }
 .article-other { width:1000px; margin:0px auto; text-align:center; }
 .footer-block{ width:1000px; margin:0px auto; text-align:center; }
