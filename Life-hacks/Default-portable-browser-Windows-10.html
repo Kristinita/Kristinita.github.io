@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Титульная фраза -->
+    <title>Портативный браузер по умолчанию в Windows 10</title>
+    <!-- Конец титульной фразы -->
+    <!-- Описание страницы, отображение в Эксплорере и адаптация для разных экранов -->
+    <meta charset="utf-8">
+    <meta name="description" content="Описание">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Конец описания страницы , отображения в Эксплорере и адаптации для разных экранов -->
+    <style type="text/css">
+    body {
+        background: rgb(135, 225, 190);
+        color: rgb(070, 085, 080);
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(220, 063, 023);
+        /* Цвет ссылок */
+    }
+
+    .cover-text {
+        color: #fff;
+        position: absolute;
+        bottom: 20%;
+        width: 80%;
+        left: 10%;
+        line-height: 1em;
+    }
+
+    blockquote {
+        border-left: solid lavender 5px;
+        margin: 10px 40px;
+        padding: 15px;
+        color: #333;
+        font-style: italic;
+        font-size: 19px;
+        color: slateblue;
+        background: #fcfcfc;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cover-text {
+        bottom: 65px;
+    }
+
+    .russianletters {
+        list-style-type: none;
+        /* Прячем исходную нумерацию */
+    }
+
+    .russianletters li {
+        margin: 0em;
+    }
+
+    .russianletters li:nth-of-type(1)::before {
+        content: 'а.';
+    }
+
+    .russianletters li:nth-of-type(2)::before {
+        content: 'б.';
+    }
+
+    .russianletters li:nth-of-type(3)::before {
+        content: 'в.';
+    }
+    </style>
+    <!--[if lt IE 9]-->
+    <script>
+    document.createElement('figure');
+    document.createElement('figcaption');
+    </script>
+    <!-- [endif]-->
+    <!-- Конец полей, отступов, оптимизации для мобильных устройств, растягивания бэкграунда и ширины картинок, не превышающей ширину экрана-->
+    <!-- Загрузка шрифтов -->
+    <script type="text/javascript" src="../cufon/cufon-yui.js"></script>
+    <script type="text/javascript" src="../cufon/Мечта.js"></script>
+    <script type="text/javascript" src="../cufon/Истина.js"></script>
+    <script type="text/javascript" src="../cufon/Волнится_синей_пастой.js"></script>
+    <script type="text/javascript">
+    Cufon.set("fontFamily", "Истина");
+    Cufon.set("fontSize", "31");
+    Cufon.replace("h1");
+    Cufon.set("fontFamily", "Мечта");
+    Cufon.set("fontSize", "19");
+    Cufon.replace("a");
+    Cufon.set("fontFamily", "Волнится_синей_пастой");
+    Cufon.set("fontSize", "57");
+    Cufon.replace("WorkOnYourself");
+    Cufon.set("fontFamily", "Мечта");
+    Cufon.set("fontSize", "31");
+    Cufon.replace("h2");
+    </script>
+    <!-- Конец загрузки шрифтов-->
+    <!-- Иконочка Сашеньки -->
+    <link rel="shortcut icon" href="../other_images/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="../other_images/Sasha.ico" type="image/x-icon">
+    <!-- Иконочка Сашеньки вставлена -->
+    <!-- Стиль страницы -->
+    <link rel="stylesheet" href="../articles_css/style_left.css">
+    <!-- Конец стиля страницы -->
+    <!-- Открытие ссылок в новой вкладке -->
+    <base target="_blank">
+    <!-- Конец открытия ссылок в новой вкладке -->
+</head>
+
+<body>
+    <!-- Бэкграунд aside -->
+    <aside class="sidebar" style="background-image: url(../aside/Зелёная_кофта.jpg)">
+        <div class="cover">
+            <div class="cover-text">
+                <!-- Конец бэкграунда aside -->
+                <!-- Заголовок aside -->
+                <h1>Портативный браузер по умолчанию в Windows 10</h1>
+                <!-- Конец заголовка aside -->
+                <!-- Описание заголовка aside -->
+                <div id="switcher"></div>
+            </div>
+        </div>
+    </aside>
+    <!-- Конец описания заголовка aside -->
+    <!-- Текст -->
+    <main class="content-wrapper">
+        <h1 class="SashaHeader">Установка портативной версии Pale Moon в качестве браузера по умолчанию в Windows 10</h1>
+        <SashaVersion>Версия 1.0,
+            <time datetime="2016-07-08T00:50:00 07:00">8 июля 2016</time>
+        </SashaVersion>
+        <br />
+        <br />
+        <br />
+        <br />
+        <a href="#Why-Portable"></a>
+        <a href="#Why-Pale-Moon"></a>
+        <a href="#Not-work"></a>
+        <a href="#Solution"></a>
+        <h3 id="Why-Portable">Почему портативный браузер?</h3>
+        <br />
+        <ol>
+            Всё нижеперечисленное можно отнести к достоинствам любых других <a href="http://computerstory.ru/?p=3524">портативных программ,</a> не только браузеров.
+            <br />
+            <br />
+            <li>Настройки браузера: профили, расширения, скрипты, стили и т. д. не слетают без всяких дополнительных действий со стороны пользователя при следующих обстоятельствах:
+                <br />
+                <br />
+                <ul type="disc">
+                    <li>Предстоит переустановка — число каковых на моём веку перевалило за десяток — операционной системы.</li>
+                    <li>Когда вы на некоторое время оказались отлучённым от компьютера, которым обычно пользуетесь. Запустив Pale Moon Portable (далее также просто <em>Pale Moon</em>, <em>PM</em>) на чужом компьютере c внешнего съёмного носителя, окажетесь в родной среде, со всеми настройками, которые у вас присутствовали. Портативный браузер можно установить с флэшки, внешнего жёсткого диска, как который можно использовать и диск с интерфейсом SATA, подключив его к док-станции.</li>
+                </ul>
+                <br />
+            </li>
+            <li>При пользовании другим компьютером или замене жёсткого диска, чтобы продолжить работу в PM со всеми накопленными настройками достаточно перенести в новое место только папку, куда установлен этот браузер, — и не придётся ничего копировать с локального диска
+                <dfn>С</dfn>, переживая, что что-то пойдёт не так. А после переустановки ОС будет достаточно запустить свой портативный браузер, прежде настроенный под ваши предпочтения, не предпринимая иных действий.</li>
+            <br />
+            <ul type="disc" class="russianletters">Существуют отдельные средства для экспорта/импорта паролей, закладок, однако
+                <br />
+                <br />
+                <li> лично у меня они, бывало, отказывали, когда возникала в них острая необходимость,</li>
+                <li> восстанавливают не всё-всё, как было,</li>
+                <li> перенос отнимает время.</li>
+                <br /> В силу причин
+                <dfn>а</dfn> и
+                <dfn>в</dfn> я вообще стараюсь не использовать программы, сохраняющие какие-либо пользовательские данные на системном диске.
+            </ul>
+            <br />
+            <li>Чтобы просмотреть созданные файлы Pale Moon и/или изменить их через проводник Windows либо файловый менеджер, в инсталлированной версии браузера придётся переходить по пути
+                <dfn>C:\Users\SashaGoddess\AppData\Roaming\Moonchild Productions\Pale Moon</dfn>, используя переносимую —
+                <dfn>E:\Pale Moon</dfn>. Лично для меня второй вариант много удобнее.</li>
+            <br />
+            <li>Дополнительное подспорье к безопасности ваших данных. Известные мне <a href="http://tophope.ru/threads/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B5%D1%80-%D1%81%D1%82%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-stealer-%D0%B8-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D0%B0-%D1%81-%D0%BD%D0%B8%D0%BC.1965/">стилеры</a>, в том числе встроенные в «<a href="http://www.spy-soft.net/chto-takoe-rat/">ратники</a>», не воруют пароли из portable программ.</li>
+        </ol>
+        <br />
+        <br />
+        <h3 id="Why-Pale-Moon">Почему Pale Moon?</h3>
+        <br /> Pale Moon я рассматриваю как оптимизированную под низкое — по личному опыту, меньше, нежели у Firefox, Chrome, Opera, Avant, Maxthon и SeaMonkey — потребление оперативной памяти версию Firefox — наиболее функционального на мой взгляд браузера. Аддоны для Mozilla поддерживаются Pale Moon.
+        <br />
+        <br />
+        <br />
+        <h3 id="Not-work">Установка Pale Moon браузером по умолчанию обычными методами</h3>
+        <br />
+        <img src="http://i.imgur.com/gQywm8B.png" alt="">
+        <br /> Не помогает. В «Выборе программ по умолчанию», «Приложениях по умолчанию» и «Настройке доступа программ и параметров компьютера по умолчанию» Pale Moon Portable нет.
+        <br />
+        <br />
+        <img src="http://i.imgur.com/HCIt8xR.png" alt="">
+        <img src="http://i.imgur.com/l9HgjBJ.png" alt="">
+        <img src="http://i.imgur.com/LNFEjsi.png" alt="">
+        <br /> Связать протоколы с Pale Moon также не получается:
+        <br />
+        <br />
+        <img src="http://i.imgur.com/UiS638u.png" alt="">
+        <br />
+        <br />
+        <h3 id="Solution">Решение</h3>
+        <br />
+         Устанавливаем <a href="http://portableapps.com/apps/internet/firefox_portable">Firefox Portable</a>, <a href="https://support.mozilla.org/ru/kb/kak-sdelat-firefox-brauzerom-po-umolchaniyu">делаем Firefox браузером по умолчанию</a>, — в отличие от Pale Moon «огнелис» становится браузером по умолчанию без особых проблем.
+        <br />
+        <br />Правой кнопкой мыши по окошку меню «Пуск» → <em>Выполнить</em> → <em>regedit.exe</em> → проходим по реестру дважды до <em>command</em>:
+        <br />
+        <br />HKEY_CLASSES_ROOT
+        <br />├───FirefoxHTML
+        <br />│ └───shell
+        <br />│ └───open
+        <br />│ └───command
+        <br />└───FirefoxURL
+        <br />└───shell
+        <br />└───open
+        <br />└───command
+        <br />
+        <br />
+        Т. е. <em>HKEY_CLASSES_ROOT</em> → <em>FirefoxHTML</em> → <em>shell</em> → <em>open</em> → <em>command</em>. Заменяем путь к Firefox на путь к Pale Moon: правой кнопкой мыши на «По умолчанию» → <em>Изменить</em>.
+        <br />
+        <br />
+		<img src="http://i.imgur.com/qKogH11.png" alt="" />
+		<br />
+        Например, у меня
+        <br />Было: "<em>E:\FirefoxPortable\App\Firefox\firefox.exe" -osint -url "%1"</em>
+        <br />Стало: <em>"E:Pale Moon\Palemoon-Portable.exe" -osint -url "%1"</em>
+        <br />
+        <br />
+        Далее там же в реестре <em>HKEY_CLASSES_ROOT</em> → <em>FirefoxURL</em> → <em>shell</em> → <em>open</em> → <em>command</em>. Снова заменяем путь к Firefox на путь к Pale Moon.
+        <br />
+        <br />Пробуем открыть гиперссылку при работе в какой-нибудь программе, например, почтовой, → в диалоговом окне выбираем <em>Palemoon-Portable</em>, дополнительно поставив галочку напротив <em>Всегда использовать это приложение</em>:
+        <br />
+        <br /><img src="http://i.imgur.com/mcGNijr.png" alt="" />
+        <br />Отныне ссылки, кликнутые в любой программе, будут открываться браузером Pale Moon Portable. При открытии файлов с расширениями <em>html</em>, <em>htm</em>, <em>xhtml</em> в появившемся диалоговом окне выбираем <em>Palemoon-Portable.exe</em>, помня о галочке.
+        <br />
+        <br />
+        <img src="http://i.imgur.com/DjwBc2Q.png" alt="">
+        <br />
+        Pale Moon Portable установлен браузером по умолчанию.
+        <br />
+        <br />
+        <br />
+        <em>По всем касающимся статьи вопросам пишите по адресу
+				<script>eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%22%3e%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3c%2f%61%3e%27%29%3b'))</script>
+				<noscript>[Включите в браузере JavaScript для возможности связаться по электронной почте]</noscript> либо на <a href="https://github.com/Kristinita/Kristinita.github.io/issues" title="Багтрекер Гитхаба">GitHub</a>, кликнув «New Issue».</em>
+        <br />
+        <br />
+        <br />
+        <WorkOnYourself>Работайте над собой</WorkOnYourself>
+        <!-- Конец текста -->
+    </main>
+</body>
+
+</html>
