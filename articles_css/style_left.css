@@ -108,6 +108,15 @@
 		margin-left: 1em;
 	}
 	/*Отступ от левого края элементов вложенного списка*/
+
+	    img.Sasha470 {
+        width: 470px;
+    }
+
+    img.Sasha700 {
+        width: 700px;
+    }
+
 	@media screen and (min-width: 1px) {
 	    .sidebar {
 	        display: block
