@@ -16,7 +16,9 @@
 	    margin: 0;
 	    padding: 0;
 	}
-
+	a {
+		text-decoration: none;
+	}
 	body {
 	    width: 100%;
 	    height: 100%;
@@ -32,7 +34,12 @@
 	b {
 	    font-weight: bold;
 	}
-
+	blockquote {
+		margin: 10px 40px;
+        padding: 15px;
+        font-style: italic;
+        font-size: 19px;
+	}
 	ol {
 	    list-style-position: inside;
 	    /* Чтобы маркеры списка не пропадали на мобильных версиях */
