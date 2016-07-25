@@ -114,8 +114,8 @@
     <main class="content-wrapper">
         <h1 class="SashaHeader">Как научить компьютер посещать определённые сайты или веб-страницы в нужное время?</h1>
         <br />
-        <SashaVersion>Версия 1.0,
-            <time datetime="2016-07-09T00:50:00 07:00">10 июля 2016</time><img src="http://2no.co/1vWK5.png" alt="">
+        <SashaVersion>Версия 1.1,
+            <time datetime="2016-07-09T00:50:00 07:00">25 июля 2016</time>
         </SashaVersion>
         <br />
         <br />
@@ -150,7 +150,7 @@ Tl;dr</h1>
         <ol>
             <li>планировщике задач и кронтабе,</li>
             <li>
-                <dfn>window.open</dfn> в JavaScript. Методом
+                <dfn>window.open</dfn> и <dfn>window.location.href</dfn> в JavaScript и событии <dfn>$(document).ready</dfn> JQuery. Методом
                 <dfn>open</dfn> вызываются всплывающие окна в браузерах.</li>
         </ol>
         <br /> Если вы пользователь ещё менее опытный, нежели автор этих строк, и не знаете, о чём речь, советую дочитать статью до конца, невзирая на кажущийся большим объём. Пожертвовав временем сейчас, вы сэкономите его в дальнейшем.
@@ -279,7 +279,7 @@ START %NNPROGRAMFILESSHORT%\nncron.exe -ns -dir %NNPROGRAMFILESSHORT%
         <dfn>bat</dfn>: было
         <dfn>nncron.txt</dfn>, стало
         <dfn>nncron.bat</dfn>. Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для <em>nncron.bat</em> ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом:
-        <kbd>Win + R</kbd> → вставляем
+        <kbd>Win + R</kbd> → вставляем в открывшееся поле напротив <dfn>Открыть:</dfn> —
         <a href="http://www.outsidethebox.ms/11103/">shell:startup</a> →
         <kbd>OK</kbd>.
         <br />
@@ -308,6 +308,39 @@ START %NNPROGRAMFILESSHORT%\nncron.exe -ns -dir %NNPROGRAMFILESSHORT%
         <dfn>type</dfn> тега
         <dfn>&lt;script&gt;&lt;/script&gt;</dfn> в HTML5 <a href="https://webref.ru/html/script">можно опустить</a>.
         <br />
+        <br />
+        Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением <dfn>html</dfn> и путём к нему.
+        <br />
+        <br />
+        <img src="http://i.imgur.com/2v8XNXv.png" alt="">
+        <br />
+        Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
+        <br />
+        <br />
+        <ol>
+        	<li>Если требуется открытие всего одной веб-страницы, вместо <dfn>window.open</dfn> <a href="http://javascript.ru/window-location">используем</a> свойство <dfn>href</dfn> объекта <dfn>location</dfn>.
+        	<br />
+        	<br />
+        		<pre><code data-language="html">&lt;script&gt;
+      window.location.href='http://ImageAnythingSasha.all';
+&lt;/script&gt;</code></pre>
+
+        	</li>
+        	<li>Перечисляя их через запятую, как в примере с <dfn>window.open</dfn>, при помощи <dfn>window.location.href</dfn> открыть множество URL не получится, пред нашим взором предстанет только одна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается, к примеру, на <a href="http://dayte2.com/what-is-jquery">JQuery</a> использованием событий <dfn>$(document).ready</dfn>, которых <a href="http://jquery-docs.ru/events/ready/">может быть сколько угодно на странице</a>.
+			<br />
+			<br />
+			<pre>
+				<code data-language="html">&lt;script&gt;
+	$(document).ready(function() {
+	    window.open('http://SashaChernykhLaLeyenda.com/bonuspage.html');
+	    window.open('http://SashaChernykhGeniusOfPureBeauty.com');
+	    window.location.href='https://SashaChernykhQueenOfTheWorld.ru';
+	});
+&lt;/script&gt;</code>
+			</pre>
+		Применяем <dfn>window.open</dfn>, а к последнему URL <dfn>window.location.href</dfn>.
+        	</li>
+        </ol>
         <br />
         <h1 id="Task">
 Постановка задачи в nnCron</h1>
@@ -417,7 +450,7 @@ OR OR OR
         <br />
         <br />
         <em>По всем касающимся статьи вопросам пишите по адресу
-				<script>eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%22%3e%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3c%2f%61%3e%27%29%3b'))</script>
+				<script>eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%22%3e%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3c%2f%61%3e%27%29%3b'));</script>
 				<noscript>[Включите в браузере JavaScript для возможности связаться по электронной почте]</noscript> либо на <a href="https://github.com/Kristinita/Kristinita.github.io/issues" title="Багтрекер Гитхаба">GitHub</a>, кликнув «New Issue».</em>
         <br />
         <br />
