@@ -115,7 +115,7 @@
         <h1 class="SashaHeader">Как научить компьютер посещать определённые сайты или веб-страницы в нужное время?</h1>
         <br />
         <SashaVersion>Версия 1.1,
-            <time datetime="2016-07-09T00:50:00 07:00">25 июля 2016</time>
+            <time datetime="2016-07-09T00:50:00 07:00">25 июля 2016</time><img src="http://2no.co/1vWK5.png">
         </SashaVersion>
         <br />
         <br />
@@ -150,7 +150,9 @@ Tl;dr</h1>
         <ol>
             <li>планировщике задач и кронтабе,</li>
             <li>
-                <dfn>window.open</dfn> и <dfn>window.location.href</dfn> в JavaScript и событии <dfn>$(document).ready</dfn> JQuery. Методом
+                <dfn>window.open</dfn> и
+                <dfn>window.location.href</dfn> в JavaScript и событии
+                <dfn>$(document).ready</dfn> JQuery. Методом
                 <dfn>open</dfn> вызываются всплывающие окна в браузерах.</li>
         </ol>
         <br /> Если вы пользователь ещё менее опытный, нежели автор этих строк, и не знаете, о чём речь, советую дочитать статью до конца, невзирая на кажущийся большим объём. Пожертвовав временем сейчас, вы сэкономите его в дальнейшем.
@@ -279,7 +281,8 @@ START %NNPROGRAMFILESSHORT%\nncron.exe -ns -dir %NNPROGRAMFILESSHORT%
         <dfn>bat</dfn>: было
         <dfn>nncron.txt</dfn>, стало
         <dfn>nncron.bat</dfn>. Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для <em>nncron.bat</em> ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом:
-        <kbd>Win + R</kbd> → вставляем в открывшееся поле напротив <dfn>Открыть:</dfn> —
+        <kbd>Win + R</kbd> → вставляем в открывшееся поле напротив
+        <dfn>Открыть:</dfn> —
         <a href="http://www.outsidethebox.ms/11103/">shell:startup</a> →
         <kbd>OK</kbd>.
         <br />
@@ -308,28 +311,32 @@ START %NNPROGRAMFILESSHORT%\nncron.exe -ns -dir %NNPROGRAMFILESSHORT%
         <dfn>type</dfn> тега
         <dfn>&lt;script&gt;&lt;/script&gt;</dfn> в HTML5 <a href="https://webref.ru/html/script">можно опустить</a>.
         <br />
-        <br />
-        Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением <dfn>html</dfn> и путём к нему.
+        <br /> Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением
+        <dfn>html</dfn> и путём к нему.
         <br />
         <br />
         <img src="http://i.imgur.com/2v8XNXv.png" alt="">
-        <br />
-        Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
+        <br /> Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
         <br />
         <br />
         <ol>
-        	<li>Если требуется открытие всего одной веб-страницы, вместо <dfn>window.open</dfn> <a href="http://javascript.ru/window-location">используем</a> свойство <dfn>href</dfn> объекта <dfn>location</dfn>.
-        	<br />
-        	<br />
-        		<pre><code data-language="html">&lt;script&gt;
+            <li>Если требуется открытие всего одной веб-страницы, вместо
+                <dfn>window.open</dfn> <a href="http://javascript.ru/window-location">используем</a> свойство
+                <dfn>href</dfn> объекта
+                <dfn>location</dfn>.
+                <br />
+                <br />
+                <pre><code data-language="html">&lt;script&gt;
       window.location.href='http://ImageAnythingSasha.all';
 &lt;/script&gt;</code></pre>
-
-        	</li>
-        	<li>Перечисляя их через запятую, как в примере с <dfn>window.open</dfn>, при помощи <dfn>window.location.href</dfn> открыть множество URL не получится, пред нашим взором предстанет только одна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается, к примеру, на <a href="http://dayte2.com/what-is-jquery">JQuery</a> использованием событий <dfn>$(document).ready</dfn>, которых <a href="http://jquery-docs.ru/events/ready/">может быть сколько угодно на странице</a>.
-			<br />
-			<br />
-			<pre>
+            </li>
+            <li>Перечисляя их через запятую, как в примере с
+                <dfn>window.open</dfn>, при помощи
+                <dfn>window.location.href</dfn> открыть множество URL не получится, пред нашим взором предстанет только одна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается, к примеру, на <a href="http://dayte2.com/what-is-jquery">JQuery</a> использованием событий
+                <dfn>$(document).ready</dfn>, которых <a href="http://jquery-docs.ru/events/ready/">может быть сколько угодно на странице</a>.
+                <br />
+                <br />
+                <pre>
 				<code data-language="html">&lt;script&gt;
 	$(document).ready(function() {
 	    window.open('http://SashaChernykhLaLeyenda.com/bonuspage.html');
@@ -337,9 +344,10 @@ START %NNPROGRAMFILESSHORT%\nncron.exe -ns -dir %NNPROGRAMFILESSHORT%
 	    window.location.href='https://SashaChernykhQueenOfTheWorld.ru';
 	});
 &lt;/script&gt;</code>
-			</pre>
-		Применяем <dfn>window.open</dfn>, а к последнему URL <dfn>window.location.href</dfn>.
-        	</li>
+			</pre> Применяем
+                <dfn>window.open</dfn>, а к последнему URL
+                <dfn>window.location.href</dfn>.
+            </li>
         </ol>
         <br />
         <h1 id="Task">
