@@ -95,18 +95,17 @@
         if (SashaSite == 'https://www.robtex.com/en/advisory/dns/') // Вот и исключение
         { // Здесь нужны запросы вида https://www.robtex.com/en/advisory/dns/ru/Kristinita/
             var ms = url.split(".");
-            var l = ms.length;
             if (l > 1) {
                 var domain = ms[l - 1];
                 var adr = ms[l - 2]; // Нужен только домен 2-го уровня
                 query = SashaSite + domain + '/' + adr + '/';
                 if (l == 3) query = SashaSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3];
-            };
-        };
+            }
+        }
 
         //Window.open(query, "nw");  nw.focus();
         window.open(query).focus();
-    };
+    }
     </script>
     <!-- Конец скрипта -->
     <!-- Загрузка шрифтов -->
