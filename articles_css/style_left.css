@@ -40,16 +40,10 @@
         font-style: italic;
         font-size: 19px;
 	}
-	ol {
+	ol, ul {
 	    list-style-position: inside;
 	    /* Чтобы маркеры списка не пропадали на мобильных версиях */
 	}
-
-	ul {
-	    list-style-position: inside;
-	    /* Чтобы маркеры списка не пропадали на мобильных версиях */
-	}
-
 	h1 {
 	    font-family: Tahoma;
 	    font-size: 3em;

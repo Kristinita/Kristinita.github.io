@@ -21,17 +21,17 @@ var myTime = new Date();
 var starTime = myTime.getTime();
 var endTime = myTime.getTime();
 
-//preload reaction_trainer_images
+//preload ../reaction_trainer_images
 if (document.images){
 img = new Array();
-img[1]=new Image(); img[1].src="reaction_trainer_images/rttest_stoplight_yellow.gif";
-img[2]=new Image(); img[2].src="reaction_trainer_images/rttest_stoplight_red.gif";
-img[3]=new Image(); img[3].src="reaction_trainer_images/rttest_stoplight_green.gif";
-img[4]=new Image(); img[4].src="reaction_trainer_images/rttest_wait.gif";
-img[5]=new Image(); img[5].src="reaction_trainer_images/rttest_ready.gif";
-img[6]=new Image(); img[6].src="reaction_trainer_images/rttest_go.gif";
-img[7]=new Image(); img[7].src="reaction_trainer_images/rttest_done.gif";
-img[8]=new Image(); img[8].src="reaction_trainer_images/rttest_continue.gif";
+img[1]=new Image(); img[1].src="../reaction_trainer_images/rttest_stoplight_yellow.gif";
+img[2]=new Image(); img[2].src="../reaction_trainer_images/rttest_stoplight_red.gif";
+img[3]=new Image(); img[3].src="../reaction_trainer_images/rttest_stoplight_green.gif";
+img[4]=new Image(); img[4].src="../reaction_trainer_images/rttest_wait.gif";
+img[5]=new Image(); img[5].src="../reaction_trainer_images/rttest_ready.gif";
+img[6]=new Image(); img[6].src="../reaction_trainer_images/rttest_go.gif";
+img[7]=new Image(); img[7].src="../reaction_trainer_images/rttest_done.gif";
+img[8]=new Image(); img[8].src="../reaction_trainer_images/rttest_continue.gif";
 }
 
 //starts from the top
@@ -256,8 +256,8 @@ a:hover {color : #000099}
 	<tr>
 		<td><center>1</center></td>
 		<td><input type="text" size="15" name="test1"></td>
-		<td rowspan="6"><center><img src="reaction_trainer_images/rttest_stoplight_yellow.gif" name="stoplight" width="72" height="144" border="0"></center></td>
-		<td rowspan="6"><center><a href="#" onmousedown="buttClicked();return false" onclick="return false"><img src="reaction_trainer_images/rttest_wait.gif" name="jensen" width="72" height="144" border="0"></a></center></td>
+		<td rowspan="6"><center><img src="../reaction_trainer_images/rttest_stoplight_yellow.gif" name="stoplight" width="72" height="144" border="0"></center></td>
+		<td rowspan="6"><center><a href="#" onmousedown="buttClicked();return false" onclick="return false"><img src="../reaction_trainer_images/rttest_wait.gif" name="jensen" width="72" height="144" border="0"></a></center></td>
 	</tr>
 	<tr>
 		<td><center>2</center></td>
@@ -293,7 +293,7 @@ a:hover {color : #000099}
 		<td>
 			<table align="right">
 			<tr>
-			<td><a href="http://gywh.com/"><img src="reaction_trainer_images/jswb1.gif" width=156 height=43 border=1 alt="gywh.com"></a></td>
+			<td><a href="http://gywh.com/"><img src="../reaction_trainer_images/jswb1.gif" width=156 height=43 border=1 alt="gywh.com"></a></td>
 			</tr>
 			</table>
 		<p><b>Hints:</b></p>
@@ -345,24 +345,24 @@ a:hover {color : #000099}
 		<td><p><b>Using the Reaction Time Test offline:</b></p>
 		<p>A number of people have e-mailed me to ask how they can use this timer offline.
 		Apparently when one uses the IE browser's Save command, it doesn't collect all the files needed.<br><br>
-		<img src="reaction_trainer_images/rttest.gif" width=227 height=226 align="right" border="1" hspace="5">So
+		<img src="../reaction_trainer_images/rttest.gif" width=227 height=226 align="right" border="1" hspace="5">So
 		to make this easier, here are links to ALL the files used in the Reaction Time Test, and you
 		can collect them yourself. The Reaction Time Test script expects to find all
-		the images in an 'reaction_trainer_images' subfolder,
+		the images in an '../reaction_trainer_images' subfolder,
 		directly below the folder holding the html file.<br><br>
 
 <a href="Тренажёр_реакции">Тренажёр_реакции</a><br>
-<a href="reaction_trainer_images/rttest_stoplight_yellow.gif">reaction_trainer_images/rttest_stoplight_yellow.gif</a><br>
-<a href="reaction_trainer_images/rttest_stoplight_red.gif">reaction_trainer_images/rttest_stoplight_red.gif</a><br>
-<a href="reaction_trainer_images/rttest_stoplight_green.gif">reaction_trainer_images/rttest_stoplight_green.gif</a><br>
-<a href="reaction_trainer_images/rttest_wait.gif">reaction_trainer_images/rttest_wait.gif</a><br>
-<a href="reaction_trainer_images/rttest_ready.gif">reaction_trainer_images/rttest_ready.gif</a><br>
-<a href="reaction_trainer_images/rttest_go.gif">reaction_trainer_images/rttest_go.gif</a><br>
-<a href="reaction_trainer_images/rttest_done.gif">reaction_trainer_images/rttest_done.gif</a><br>
-<a href="reaction_trainer_images/rttest_continue.gif">reaction_trainer_images/rttest_continue.gif</a><br>
-<a href="reaction_trainer_images/jswb1.gif">reaction_trainer_images/jswb1.gif</a><br>
-<a href="reaction_trainer_images/transparent.gif">reaction_trainer_images/transparent.gif</a><br>
-<a href="reaction_trainer_images/rttest.gif">reaction_trainer_images/rttest.gif</a><br>
+<a href="../reaction_trainer_images/rttest_stoplight_yellow.gif">../reaction_trainer_images/rttest_stoplight_yellow.gif</a><br>
+<a href="../reaction_trainer_images/rttest_stoplight_red.gif">../reaction_trainer_images/rttest_stoplight_red.gif</a><br>
+<a href="../reaction_trainer_images/rttest_stoplight_green.gif">../reaction_trainer_images/rttest_stoplight_green.gif</a><br>
+<a href="../reaction_trainer_images/rttest_wait.gif">../reaction_trainer_images/rttest_wait.gif</a><br>
+<a href="../reaction_trainer_images/rttest_ready.gif">../reaction_trainer_images/rttest_ready.gif</a><br>
+<a href="../reaction_trainer_images/rttest_go.gif">../reaction_trainer_images/rttest_go.gif</a><br>
+<a href="../reaction_trainer_images/rttest_done.gif">../reaction_trainer_images/rttest_done.gif</a><br>
+<a href="../reaction_trainer_images/rttest_continue.gif">../reaction_trainer_images/rttest_continue.gif</a><br>
+<a href="../reaction_trainer_images/jswb1.gif">../reaction_trainer_images/jswb1.gif</a><br>
+<a href="../reaction_trainer_images/transparent.gif">../reaction_trainer_images/transparent.gif</a><br>
+<a href="../reaction_trainer_images/rttest.gif">../reaction_trainer_images/rttest.gif</a><br>
 		<br><br>
 		Thanks!<br>
 		Jim Allen

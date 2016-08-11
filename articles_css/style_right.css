@@ -1,4 +1,4 @@
- article,
+	article,
 	aside,
 	details,
 	figcaption,
@@ -40,12 +40,7 @@
         font-style: italic;
         font-size: 19px;
 	}
-	ol {
-	    list-style-position: inside;
-	    /* Чтобы маркеры списка не пропадали на мобильных версиях */
-	}
-
-	ul {
+	ol, ul {
 	    list-style-position: inside;
 	    /* Чтобы маркеры списка не пропадали на мобильных версиях */
 	}
@@ -65,9 +60,10 @@
 	    font-weight: bold;
 	}
 
-	img {
+	img, iframe {
 	    max-width: 100%
 	}
+
 
 	img.leftimg {
 	    float: left;
@@ -177,9 +173,9 @@
 	            display: block
 	        }
 	        .content-wrapper {
-	            width: 55%;
+	            width: 59%;
 	            max-width: 1000px;
-	            margin-left: 5%
+	            margin-left: 3%
 	        }
 	        main {
 	            padding-top: 1em
@@ -386,7 +382,11 @@
 	        box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
 	    }
 	    .SashaShadow {
-	    text-shadow: 0 0 10px rgba(255,0,222,1) , 0 0 20px rgba(255,0,222,1) , 0 0 30px rgba(255,0,222,1) , 0 0 40px rgba(255,0,222,1) , 0 0 50px rgba(255,0,222,1) , 0 0 60px rgba(255,0,222,1) , 0 0 70px rgba(255,0,222,1) , 0 0 80px rgba(255,0,222,1) , 0 0 90px rgba(255,0,222,1) , 0 0 100px rgba(255,0,222,1)  ; /* Параметры тени */
+	    text-shadow: 0 0 10px rgba(255,0,222,1) , 0 0 20px rgba(255,0,222,1) , 0 0 30px rgba(255,0,222,1) , 0 0 40px rgba(255,0,222,1) , 0 0 50px rgba(255,0,222,1) , 0 0 60px rgba(255,0,222,1)  ; /* Параметры тени */
 	     font-size: 1.6em; /* Размер надписи */
-	     font-family: 'Times New Roman'
+	     font-family: 'Times New Roman';
+	     width: auto;
+	    }
+	    .SashaCenter {
+	    	text-align: center;
 	    }
