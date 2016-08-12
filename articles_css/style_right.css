@@ -112,20 +112,20 @@
 	}
 	/*Отступ от левого края элементов вложенного списка*/
 
-	img.Sasha140 {
+	.Sasha140 {
 		width: 140px;
 	}
 
-	img.Sasha280 {
+	.Sasha280 {
 		width: 280px;
 	}
 
 
-	    img.Sasha470 {
+	.Sasha470 {
         width: 470px;
     }
 
-    img.Sasha700 {
+    .Sasha700 {
         width: 700px;
     }
 
