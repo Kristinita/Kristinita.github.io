@@ -44,6 +44,7 @@
 	    list-style-position: inside;
 	    /* Чтобы маркеры списка не пропадали на мобильных версиях */
 	}
+
 	h1 {
 	    font-family: Tahoma;
 	    font-size: 3em;
@@ -111,11 +112,20 @@
 	}
 	/*Отступ от левого края элементов вложенного списка*/
 
-	    img.Sasha470 {
+	.Sasha140 {
+		width: 140px;
+	}
+
+	.Sasha280 {
+		width: 280px;
+	}
+
+
+	.Sasha470 {
         width: 470px;
     }
 
-    img.Sasha700 {
+    .Sasha700 {
         width: 700px;
     }
 
