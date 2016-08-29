@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1600px) {
+    div.for-example {
+        width: 1500px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    div.for-example {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    div.for-example {
+        width: 980px;
+    }
+}
+
+body {
+    background-color: papayawhip;
+    color: mediumvioletred;
+    background: url("../backgrounds/Бэкграунд_Красные_листья.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%
+}
+
+
+/* Кнопки */
+
+.Sasha {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 11px 32px;
+    border: solid 4px #ffb6c1;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 27px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ff8c00;
+    background-color: #ffe4e1;
+    background-image: -moz-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -o-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#ffc0cb', GradientType=0);
+    background-image: linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Sasha:hover {
+    padding: 11px 32px;
+    border: solid 4px #ffb6c1;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ff8c00;
+    background-position: 0 -32px;
+    background-color: #ffe4e1;
+    background-image: -moz-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -o-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#ffc0cb', GradientType=0);
+    background-image: linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Sasha:active {
+    padding: 11px 32px;
+    border: solid 4px #ffb6c1;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #EE82EE;
+    background-position: 0 -64px;
+    background-color: #ffe4e1;
+    background-image: -moz-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -o-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#ffc0cb', GradientType=0);
+    background-image: linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Chernykh {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 11px 32px;
+    border: solid 4px #FFE4C4;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 27px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ff8c00;
+    background-color: #FDF5E6;
+    background-image: -moz-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -webkit-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -o-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -ms-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
+    background-image: linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Chernykh:hover {
+    padding: 11px 32px;
+    border: solid 4px #FFE4C4;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ff8c00;
+    background-color: #f5fffa;
+    background-image: -moz-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -webkit-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -o-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -ms-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
+    background-image: linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Chernykh:active {
+    padding: 11px 32px;
+    border: solid 4px #FFE4C4;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ADD8E6;
+    background-color: #f5fffa;
+    background-image: -moz-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -webkit-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -o-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    background-image: -ms-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
+    background-image: linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Empress {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 11px 32px;
+    border: solid 4px #ba55d8;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 27px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ff8c00;
+    background-color: #DDA0DD;
+    background-image: -moz-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -o-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -ms-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
+    background-image: linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Empress:hover {
+    padding: 11px 32px;
+    border: solid 4px #ba55d8;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ff8c00;
+    background-color: #ee82ee;
+    background-image: -moz-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -o-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -ms-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
+    background-image: linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.Empress:active {
+    padding: 11px 32px;
+    border: solid 4px #ba55d8;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #ffc0cb;
+    background-color: #ee82ee;
+    background-image: -moz-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -o-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -ms-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
+    background-image: linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
+}
+
+.button {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    font: normal 28px/normal "Lora", "Palatino Linotype", "Book Antiqua";
+    color: #7FFF00;
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #7FFF00, 0 0 70px #7FFF00, 0 0 80px #7FFF00, 0 0 100px #7FFF00;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #FFEFD5, 0 0 70px #FFEFD5, 0 0 80px #FFEFD5, 0 0 100px #FFEFD5;
+}
+
+/* Подвал в head */
+
+.SashaFooter {
+    position: relative;
+    /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    /* Левый нижний угол */
+    padding: 14px;
+    /* Поля вокруг текста */
+    color: orange;
+    /* Цвет текста */
+    width: 100%;
+    /* Ширина слоя */
+}
+
+
+/* Выравнивание по центру*/
+
+.SashaCenter {
+    text-align: center;
+}
+
+
+/* Надпись Поиск Кристиниты*/
+
+.SashaKristinita {
+    letter-spacing: 2px;
+    text-shadow: 0 1px 0 #FFA500, 0 2px 0 #FFA500, 0 3px 0 #FFD700, 0 4px 0 #ffae42, 0 5px 0 #FFEFD5, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    color: darkorange;
+    font-size: 3em;
+    font-style: italic;
+}
+
+
+/* Надпись beta */
+
+.SashaBeta {
+    color: darkorange;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+
+/* Надпись «Минималистская версия*/
+
+.SashaMinimal {
+    color: #ffbf00;
+    font-family: "Palatino Linotype, Geneva, sans-serif";
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Надпись копирайта */
+
+.SashaCopyright {
+    color: gold;
+    font-family: "Palatino Linotype, Geneva, sans-serif";
+    font-weight: bold;
+}
+
+
+/*Ссылка на Божий профиль ВКонтакте*/
+
+.SashaVKontakte {
+    color: gold;
+}
+
+
+/*Сашин логотип*/
+
+.SashaLogo {
+    text-align: left;
+}
