@@ -1,7 +1,7 @@
 ## Bitcoin
 
 
-<a href="http://Kristinita.ru/Donate-files/Bitcoin-back" target="_blank"><img src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png"></a>
+<a href="http://Kristinita.ru/technical_texts/Bitcoin-back" target="_blank"><img src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png"></a>
 
 <a href="http://tny.im/66m"><img src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png"></a>
 
