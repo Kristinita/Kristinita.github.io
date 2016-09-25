@@ -1,8 +1,8 @@
 ## Bitcoin
 
-<a href="http://Kristinita.ru/technical_texts/Redirect" target="_blank"><img src="https://www.drupal.org/files/project-images/bitcoindonate.png" alt="Bitcoin Donate Button"></a>
+<a href="http://Kristinita.ru/technical_texts/Redirect" target="_blank"><img src="http://www.drupal.org/files/project-images/bitcoindonate.png" alt="Bitcoin Donate Button"></a>
 
-[![Bitcoin Donate Button](https://www.drupal.org/files/project-images/bitcoindonate.png)](bitcoin:1DF9jgzftTFn4ZnDV2YEjUtZ3uHtBywj57?label=In%20the%20treatment%20of%20Sasha's%20teeth&amount=0.0037)
+[![Bitcoin Donate Button](http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png)](http://Kristinita.ru/Donate-files/Bitcoin-Redirect)
 
 <a href="bitcoin:1DF9jgzftTFn4ZnDV2YEjUtZ3uHtBywj57?label=In%20the%20treatment%20of%20Sasha's%20teeth&amount=0.0037">![Bitcoin Donate Button](https://www.drupal.org/files/project-images/bitcoindonate.png)</a>
 
