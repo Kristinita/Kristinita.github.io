@@ -4,7 +4,6 @@
 	body {
 	    width: 100%;
 	    height: 100%;
-	    font-weight: 300;
 	    font-family: Arial;
 	    font-size: 19px;
 	}
@@ -13,10 +12,6 @@
 	    -ms-text-size-adjust: 100%;
 	    -webkit-text-size-adjust: 100%;
 	    overflow-x: hidden;
-	}
-
-	b {
-	    font-weight: bold;
 	}
 	blockquote {
 		margin: 10px 40px;

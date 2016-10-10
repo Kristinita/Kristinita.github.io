@@ -1,680 +1,724 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<!-- Титульная фраза -->
-	<title> </title>
-	<!-- Кодировка, описание страницы, адаптация для разных экранов и отображение в Edge -->
-	<meta charset="utf-8">
-	<meta name="description" content="Описание">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<style type="text/css">
-	body {
-		background: aliceblue;
-		color: indianred;
-	}
-	a {
-		color: blue;
-		/* Цвет ссылок */
-	}
-	.cover-text {
-		color: #fff;
-		position: absolute;
-		bottom: 20%;
-		width: 80%;
-		left: 10%;
-		line-height: 1em;
-	}
-	blockquote {
-		border-left: solid lavender 5px;
-		color: slateblue;
-		background: #fcfcfc;
-	}
-	img {
-		margin: 0 auto;
-		box-shadow: 0 0 2rem black;
-	}
-	img.SashaInline {
-		float: left;
-	}
-	</style>
-	<!--[if lt IE 9]-->
-	<!-- Обтекание картинок -->
-	<script>
-	document.createElement('figure');
-	document.createElement('figcaption');
-	</script>
-	<!-- [endif]-->
-	<!-- Загрузка шрифтов -->
-	<script type="text/javascript" src="../bower-components/Cufon/cufon.js"></script>
-	<script type="text/javascript" src="../cufon/Мечта.js"></script>
-	<script type="text/javascript" src="../cufon/Истина.js"></script>
-	<script type="text/javascript" src="../cufon/Волнится_синей_пастой.js"></script>
-	<script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
-	<script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
-	<script>
-		new Clipboard('pre');
-	</script>
-	<script type="text/javascript">
-	Cufon.set("fontFamily", "Истина");
-	Cufon.set("fontSize", "31");
-	Cufon.replace("h1");
-	Cufon.set("fontFamily", "Мечта");
-	Cufon.set("fontSize", "19");
-	Cufon.replace("a");
-	Cufon.set("fontFamily", "Волнится_синей_пастой");
-	Cufon.set("fontSize", "57");
-	Cufon.replace("WorkOnYourself");
-	Cufon.set("fontFamily", "Мечта");
-	Cufon.set("fontSize", "31");
-	Cufon.replace("h2");
-	</script>
-	<!-- Иконочка Сашеньки -->
-	<link rel="shortcut icon" href="../other_images/Sasha.ico" type="image/x-icon">
-	<link rel="icon" href="../other_images/Sasha.ico" type="image/x-icon">
-	<!-- Стиль страницы -->
-	<link rel="stylesheet" href="../articles_css/style_left.css">
-	<link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/espresso-libre.css">
-	<!-- Открытие ссылок в новой вкладке -->
-	<base target="_blank">
+    <!-- Титульная фраза -->
+    <title> </title>
+    <!-- Кодировка, описание страницы, адаптация для разных экранов и отображение в Edge -->
+    <meta charset="utf-8">
+    <meta name="description" content="Описание">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style type="text/css">
+    body {
+        background: sienna;
+        color: pink;
+        margin: 0;
+        overflow: hidden;
+        /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах*/
+    }
+
+    a {
+        color: violet;
+        /* Цвет ссылок */
+    }
+
+    em {
+        color: deepskyblue;
+    }
+
+    .cover-text {
+        color: #fff;
+        position: absolute;
+        bottom: 10%;
+        width: 80%;
+        left: 10%;
+        line-height: 1em;
+    }
+
+    blockquote {
+        border-left: solid lavender 5px;
+        color: slateblue;
+        background: #fcfcfc;
+    }
+
+    img {
+        margin: 0 auto;
+        box-shadow: 0 0 2rem black;
+    }
+
+    img.SashaInline {
+        float: left;
+    }
+
+    .SashaEmNoColor {
+        color: pink;
+    }
+
+    kbd {
+        background: maroon;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+    /* Для Rainbow*/
+    code {
+        font-size: 19px;
+    }
+    /* Код переносится на следующую строку, если не помещается */
+    pre {
+    	white-space: pre-wrap;
+    }
+
+    hr {
+    	color: mediumvioletred;
+    }
+    </style>
+    <!--[if lt IE 9]-->
+    <!-- Обтекание картинок -->
+    <script>
+    document.createElement('figure');
+    document.createElement('figcaption');
+    </script>
+    <!-- [endif]-->
+    <!-- Загрузка шрифтов -->
+    <script type="text/javascript" src="../bower-components/Cufon/cufon.js"></script>
+    <script type="text/javascript" src="../cufon/Мечта.js"></script>
+    <script type="text/javascript" src="../cufon/Истина.js"></script>
+    <script type="text/javascript" src="../cufon/Волнится_синей_пастой.js"></script>
+    <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
+    <script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
+    <script>
+    new Clipboard('pre');
+    </script>
+    <script type="text/javascript">
+    Cufon.set("fontFamily", "Истина");
+    Cufon.set("fontSize", "31");
+    Cufon.replace("h1");
+    Cufon.set("fontFamily", "Мечта");
+    Cufon.set("fontSize", "19");
+    Cufon.replace("a");
+    Cufon.set("fontFamily", "Волнится_синей_пастой");
+    Cufon.set("fontSize", "57");
+    Cufon.replace("WorkOnYourself");
+    Cufon.set("fontFamily", "Мечта");
+    Cufon.set("fontSize", "31");
+    Cufon.replace("h2");
+    </script>
+    <!-- Иконочка Сашеньки -->
+    <link rel="shortcut icon" href="../other_images/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="../other_images/Sasha.ico" type="image/x-icon">
+    <!-- Стиль страницы -->
+    <link rel="stylesheet" href="../articles_css/style_right.css">
+    <link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/espresso-libre.css">
+    <!-- Открытие ссылок в новой вкладке -->
+    <base target="_blank">
 </head>
+
 <body>
-	<!-- Бэкграунд aside -->
-	<aside class="sidebar" style="background-image: url(../aside/Голубые_очи.jpg)">
-		<div class="cover">
-			<div class="cover-text">
-				<!-- Заголовок aside -->
-					<h1>Заголовок aside</h1>
-				<!-- Описание заголовка aside -->
-				<div id="switcher"></div></div></div>
-	</aside>
-	<!-- Текст -->
-	<main class="content-wrapper">
-		<h1 class="SashaHeader">Заголовок aside</h1>
-		<SashaVersion>Версия 0.5,
-			<time datetime="2016-04-10T00:50:00 07:00">14 апреля 2016</time>
-		</SashaVersion>
-		<br />
-		<br />
-		<br />
-		<br />
-		<h2>Заголовок H2</h2>
-		<p>
-			<a href="http://Kristinita.ru/Donate-files/Bitcoin-Redirect"><img alt="Bitcoin Donate Button" src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png" class="SashaInline" /></a>
-			<a href="http://Kristinita.ru/Donate-files/Litecoin-Redirect"><img alt="Litecoin Donate Button" src="http://Kristinita.ru/Donate-files/Litecoin-Donate-button.png" class="SashaInline" /></a>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=W6MP468ZZV66Q"><img class="SashaInline" alt="PayPal Dollar button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Dollar.png" class="SashaInline"/></a>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DGT7K29LDD2HQ"><img alt="PayPal Euro button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Euro.png" class="SashaInline" /></a>
-			<br clear="all">
-			<br>
-			<a href=""><img src="https://img.shields.io/badge/s-status-color.svg?style=flat-square" title="s" alt="s" /></a>
-			<img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" class="SashaInline"/>
-			<img alt="Release" src="https://img.shields.io/badge/Release-1.2.0-orange.svg" class="SashaInline"/>
-			<img src="https://img.shields.io/github/stars/Kristinita/SashaSublime.svg" alt="Stars">
-			<img src="https://img.shields.io/github/forks/Kristinita/SashaSublime.svg" alt="Forks">
-			<a href="https://packagecontrol.io/packages/SashaS"><img alt="Package Control" src="https://packagecontrol.herokuapp.com/downloads/SashaS.svg?style=flat-square" /></a>
-			<a href="https://github.com/Kristinita/SashaSublime/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Kristinita/SashaSublime.svg" /></a>
-		</p>
-		<ol>
-			<li><a href="#description">Description</a></li>
-			<li><a href="#support">Support</a>
-				<ol>
-					<li><a href="#platforms">Platforms</a></li>
-					<li><a href="#sublime-text">Sublime Text</a></li>
-					<li><a href="#syntaxes">Syntaxes</a></li>
-				</ol>
-			</li>
-			<li><a href="#screenshots">Screenshots</a>
-				<ol>
-					<li><a href="#general">General</a>
-						<ol>
-							<li><a href="#overall-plan">Overall plan</a></li>
-							<li><a href="#details">Details</a></li>
-							<li><a href="#gutter">Gutter</a></li>
-							<li><a href="#autocomplete">Autocomplete</a></li>
-							<li><a href="#tabs">Tabs</a></li>
-							<li><a href="#sidebar">Sidebar</a></li>
-							<li><a href="#indexing-status">Indexing status</a></li>
-							<li><a href="#phantom">Phantom</a></li>
-						</ol>
-					</li>
-					<li><a href="#plugins">Plugins</a>
-						<ol>
-							<li><a href="#sublimerge-3--gitgutter">Sublimerge 3 + GitGutter</a></li>
-							<li><a href="#hexviewer">HexViewer</a></li>
-							<li><a href="#gitgutter--sublimelinter">GitGutter + SublimeLinter</a></li>
-							<li><a href="#brackethighlighter">BracketHighlighter</a></li>
-							<li><a href="#emmet">Emmet</a></li>
-							<li><a href="#color-helper">Color Helper</a></li>
-							<li><a href="#drmonthscalendar">dr_months_calendar</a></li>
-							<li><a href="#suricate">Suricate</a></li>
-						</ol>
-					</li>
-					<li><a href="#selected-text-sasha">Selected text Sasha</a>
-						<ol>
-							<li><a href="#selected-text">Selected text</a></li>
-							<li><a href="#selected-text-when-the-carriage-is-not-on-text-field">Selected text when the carriage is not on text field</a></li>
-							<li><a href="#find-ctrlf-text">Find (Ctrl+F) text</a></li>
-							<li><a href="#find-text-when-the-carriage-is-out-of-the-found-text">Find text when the carriage is out of the found text.</a></li>
-						</ol>
-					</li>
-					<li><a href="#panels-and-consoles">Panels and consoles</a>
-						<ol>
-							<li><a href="#gotoanything-panel">GotoAnything panel</a></li>
-							<li><a href="#switch-project-panel">Switch Project panel</a></li>
-							<li><a href="#find-and-replace-panel">Find and Replace panel</a></li>
-							<li><a href="#console">Console</a></li>
-							<li><a href="#build-system-output-console">Build System output console</a></li>
-							<li><a href="#scopehunter-output-console">ScopeHunter output console</a></li>
-						</ol>
-					</li>
-					<li><a href="#syntaxes-1">Syntaxes</a>
-						<ol>
-							<li><a href="#json">JSON</a></li>
-							<li><a href="#xml">XML</a></li>
-							<li><a href="#html">HTML</a></li>
-							<li><a href="#css">CSS</a></li>
-							<li><a href="#javascript">JavaScript</a></li>
-							<li><a href="#diff">Diff</a></li>
-							<li><a href="#regular-expression">Regular Expression</a></li>
-							<li><a href="#mediawiki-ng">Mediawiki NG</a></li>
-						</ol>
-					</li>
-				</ol>
-			</li>
-			<li><a href="#comparison-of-monokai-default-color-scheme-and-sashasublime">Comparison of Monokai (default color scheme) and SashaSublime</a>
-				<ol>
-					<li><a href="#monokai-scopes">Monokai scopes</a></li>
-					<li><a href="#sashasublime-scopes">SashaSublime scopes</a></li>
-				</ol>
-			</li>
-			<li><a href="#downloading-and-installation">Downloading and installation</a>
-				<ol>
-					<li><a href="#package-control">Package Control</a></li>
-					<li><a href="#git">Git</a></li>
-					<li><a href="#hub">Hub</a></li>
-					<li><a href="#manually">Manually</a></li>
-				</ol>
-			</li>
-			<li><a href="#activation">Activation</a>
-				<ol>
-					<li><a href="#themr-and-schemr">Themr and Schemr</a></li>
-					<li><a href="#manually-1">Manually</a></li>
-				</ol>
-			</li>
-			<li><a href="#preferences">Preferences</a></li>
-			<li><a href="#setting-sashasublime-for-some-plugins">Setting SashaSublime for some plugins</a>
-				<ol>
-					<li><a href="#brackethighlighter-1">BracketHighlighter</a></li>
-					<li><a href="#gitgutter">GitGutter</a></li>
-				</ol>
-			</li>
-			<li><a href="#customization-non-sublime-text-settings-for-windows">Customization non-Sublime Text settings for Windows</a>
-				<ol>
-					<li><a href="#changing-favicon-in-sublime-text-3">Changing favicon in Sublime Text 3</a></li>
-					<li><a href="#title-bar-and-window-border-color">Title Bar and window border color</a></li>
-					<li><a href="#winaero-tweaker">Winaero Tweaker</a>
-						<ol>
-							<li><a href="#inactive-title-bar-color">Inactive Title Bar color</a></li>
-							<li><a href="#menu-bar-settings">Menu Bar settings</a></li>
-							<li><a href="#title-bar-settings">Title Bar settings</a></li>
-						</ol>
-					</li>
-				</ol>
-			</li>
-			<li><a href="#editing-sashasublime-settings">Editing SashaSublime settings</a>
-				<ol>
-					<li><a href="#editing-default-files">Editing default files</a>
-						<ol>
-							<li><a href="#steps">Steps</a></li>
-							<li><a href="#problem">Problem</a></li>
-						</ol>
-					</li>
-					<li><a href="#editing-user-files">Editing user files</a>
-						<ol>
-							<li><a href="#steps-1">Steps</a></li>
-							<li><a href="#problem-1">Problem</a></li>
-						</ol>
-					</li>
-				</ol>
-			</li>
-			<li><a href="#known-defects">Known defects</a>
-				<ol>
-					<li><a href="#sublimelinter-wrote-own-color-scheme-file-in-preferences">SublimeLinter wrote own color scheme file in preferences</a></li>
-				</ol>
-			</li>
-			<li><a href="#see-also">See also</a></li>
-			<li><a href="#thanks">Thanks</a></li>
-			<li><a href="#contacts">Contacts</a></li>
-			<li><a href="#donate">Donate</a>
-				<ol>
-					<li><a href="#bitcoin">Bitcoin</a></li>
-					<li><a href="#litecoin">Litecoin</a></li>
-					<li><a href="#paypal-">Paypal $</a></li>
-					<li><a href="#paypal-€">Paypal Euro</a></li>
-				</ol>
-			</li>
-			<li><a href="#license">License</a></li>
-		</ol>
-		<hr />
-		<hr />
-		<p align="center"><strong>SashaSublime is devoted to God, the only Creation for the sake of Which it makes sense to live on this planet, the Greatest being of all times and peoples, Queen of the World <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a> (Kira Kenyukhova)</strong>.</p>
-		<p align="center"><img src="http://i.imgur.com/OJSBK4V.jpg" alt="Queen of the World Sasha Chernykh"></p>
-		<h2><a name="user-content-description" href="#description" aria-hidden="true"><span></span></a>Description</h2>
-		<p>i faced a problem that in already available themes and color schemes many elements of syntaxes have badly distinguishable an eye of color. i tried to use many themes and schemes, but the result in one of them didn&rsquo;t satisfy me. Therefore, i decided to write own theme/scheme; its concept:</p>
-		<ol>
-			<li><strong>all colors of all elements are well visible</strong>,</li>
-			<li>change colors made not for beauty, and for better visibility,</li>
-			<li>different colors for each syntax,</li>
-			<li>each element of syntax has to have color.</li>
-		</ol>
-		<h2><a name="user-content-support" href="#support" aria-hidden="true"><span></span></a>Support</h2>
-		<h3><a name="user-content-platforms" href="#platforms" aria-hidden="true"><span></span></a>Platforms</h3>
-		<p>Windows, macOS, Linux.</p>
-		<h3><a name="user-content-sublime-text" href="#sublime-text" aria-hidden="true"><span></span></a>Sublime Text</h3>
-		<p>Only Build 3114 and higher. Older versions of Sublime Text are not supported. Please take the automatic upgrade Sublime Text, if you wanted use SashaSublime.</p>
-		<p>Cause — <a href="https://forum.sublimetext.com/t/changing-scopes-in-build-3114/20088">serious updating</a> <a href="http://ru.stackoverflow.com/a/516668/199934">scopes</a> for syntaxes in new builds. After each new update Sublime Text, color schemes developers <a href="https://toster.ru/q/321006#answer_852035">needs to many changes</a> color scheme files.</p>
-		<p>Example, how to view JavaScript code:</p>
-		<p><strong>Build 3114:</strong>
-			<br />
-			<img alt="Build 3114" src="http://i.imgur.com/fTv7zgG.png" /></p>
-		<p><strong>Build 3103:</strong>
-			<br />
-			<img alt="Build 3103" src="http://i.imgur.com/9vnVBy4.png" /></p>
-		<p>In Build 3103 many syntax elements are not own colors.</p>
-		<h3><a name="user-content-syntaxes" href="#syntaxes" aria-hidden="true"><span></span></a>Syntaxes</h3>
-		<p>Supported syntaxes: JSON, XML, HTML, CSS, JavaScript, Diff, Regular Expression, Mediawiki NG, dr_months_calendar. The color scheme is incompatible with syntaxes of <a href="https://packagecontrol.io/packages/CSS3_Syntax">CSS3</a> and <a href="https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax">JavaScriptNext - ES6</a>. Please, use default syntax for JavaScript and CSS for compatibility with SashaSublime. If you want use SashaSublime, but in some syntaxes you want use another color scheme, please, read page 73 in «<a href="http://nbviewer.jupyter.org/github/Kristinita/SashaBooks/blob/master/IT/Sublime%20Text/Sublime%20Text%20Power%20User.pdf#page=73">Sublime Text Power User</a>» book. If you want other color scheme for <a href="https://www.sublimetext.com/docs/2/distraction_free.html">Distraction Free Mode</a>, please, see <a href="http://stackoverflow.com/a/15908023/5951529">this answer</a>.</p>
-		<h2><a name="user-content-screenshots" href="#screenshots" aria-hidden="true"><span></span></a>Screenshots</h2>
-		<p>Screenshots are made in the Windows 10 operating system, Sublime Text 3, Build 3114. If i make changes to my color theme and color scheme, i try not to forget to take screenshots of the changes. But Sublime Text and plugins updated, and look at my screenshots may differ from appearance to reality. If you see a discrepancy, please let me know.</p>
-		<h3><a name="user-content-general" href="#general" aria-hidden="true"><span></span></a>General</h3>
-		<h4><a name="user-content-overall-plan" href="#overall-plan" aria-hidden="true"><span></span></a>Overall plan</h4>
-		<p><img alt="SashaSublime" src="http://i.imgur.com/ljT5eJp.png" /></p>
-		<h4><a name="user-content-details" href="#details" aria-hidden="true"><span></span></a>Details</h4>
-		<p>In a theme/scheme the smallest details are well visible.
-			<br />
-			<img alt="Overall plan details" src="http://i.imgur.com/DlrJCes.png" /></p>
-		<h4><a name="user-content-gutter" href="#gutter" aria-hidden="true"><span></span></a>Gutter</h4>
-		<p><img alt="Gutter" src="http://i.imgur.com/VqeuQtH.png" /></p>
-		<h4><a name="user-content-autocomplete" href="#autocomplete" aria-hidden="true"><span></span></a>Autocomplete</h4>
-		<p><img alt="Autocomplete" src="http://i.imgur.com/3RPAwA7.png" /></p>
-		<h4><a name="user-content-tabs" href="#tabs" aria-hidden="true"><span></span></a>Tabs</h4>
-		<p><img alt="Tabs" src="http://i.imgur.com/CTOQ9WG.png" /></p>
-		<h4><a name="user-content-sidebar" href="#sidebar" aria-hidden="true"><span></span></a>Sidebar</h4>
-		<p><img alt="Side bar" src="http://i.imgur.com/N8UWi1Q.png" /></p>
-		<h4><a name="user-content-indexing-status" href="#indexing-status" aria-hidden="true"><span></span></a>Indexing status</h4>
-		<p><img alt="Indexing status" src="http://i.imgur.com/FMo5NLK.png" /></p>
-		<h4><a name="user-content-phantom" href="#phantom" aria-hidden="true"><span></span></a>Phantom</h4>
-		<p><img alt="Phantom" src="http://i.imgur.com/C2aZ7oy.png" /></p>
-		<h3><a name="user-content-plugins" href="#plugins" aria-hidden="true"><span></span></a>Plugins</h3>
-		<h4><a href="http://www.sublimerge.com/sm3/">Sublimerge 3</a> + <a href="https://packagecontrol.io/packages/GitGutter">GitGutter</a></h4>
-		<p><img alt="Sublimerge" src="http://i.imgur.com/YnfYXWD.png" /></p>
-		<h4><a href="https://github.com/facelessuser/HexViewer">HexViewer</a></h4>
-		<p><img alt="Hex Viewer" src="http://i.imgur.com/c0t0Iqy.png" /></p>
-		<h4><a href="https://packagecontrol.io/packages/GitGutter">GitGutter</a> + <a href="http://www.sublimelinter.com/en/latest/">SublimeLinter</a></h4>
-		<p><img alt="GitGutter and SublimeLinter" src="http://i.imgur.com/24kzw67.png" /></p>
-		<h4><a href="https://facelessuser.github.io/BracketHighlighter/">BracketHighlighter</a></h4>
-		<p><img alt="BracketHighlighter" src="http://i.imgur.com/S8SE9nh.png" /></p>
-		<h4><a href="http://emmet.io/">Emmet</a></h4>
-		<p><img alt="Emmet" src="http://i.imgur.com/Arhzbgl.png" /></p>
-		<h4><a href="https://github.com/facelessuser/ColorHelper">Color Helper</a></h4>
-		<p><img alt="Color Helper" src="http://i.imgur.com/ZcmyymH.png" /></p>
-		<h4><a href="https://github.com/dragon/dr_months_calendar">dr_months_calendar</a></h4>
-		<p><img alt="dr_months_calendar" src="http://i.imgur.com/Pq1HXC7.png" /></p>
-		<h4><a href="https://github.com/nsubiron/SublimeSuricate">Suricate</a></h4>
-		<p><img alt="Suricate" src="http://i.imgur.com/ivsdfXM.png" /></p>
-		<p>If <code>"popup_style_file": "Packages/Suricate/css/dark.css",</code> in Suricate settings.</p>
-		<h3><a name="user-content-selected-text-sasha" href="#selected-text-sasha" aria-hidden="true"><span></span></a>Selected text</h3>
-		<p>Results with the established <a href="https://github.com/SublimeText/WordHighlight">WordHighlight</a> plugin.</p>
-		<h4><a name="user-content-selected-text" href="#selected-text" aria-hidden="true"><span></span></a>Selected text</h4>
-		<p><img alt="Accentuation" src="http://i.imgur.com/yJ2EdbD.png" /></p>
-		<h4><a name="user-content-selected-text-when-the-carriage-is-not-on-text-field" href="#selected-text-when-the-carriage-is-not-on-text-field" aria-hidden="true"><span></span></a>Selected text when the carriage is not on text field</h4>
-		<p><img alt="Accentuation2" src="http://i.imgur.com/y715wdq.png" /></p>
-		<h4><a name="user-content-find-ctrlf-text" href="#find-ctrlf-text" aria-hidden="true"><span></span></a>Find (<kbd>Ctrl+F</kbd>) text</h4>
-		<p><img alt="Find result" src="http://i.imgur.com/Z3lGryq.png" /></p>
-		<h4><a name="user-content-find-text-when-the-carriage-is-out-of-the-found-text" href="#find-text-when-the-carriage-is-out-of-the-found-text" aria-hidden="true"><span></span></a>Find text when the carriage is out of the found text.</h4>
-		<p><img alt="Find result2" src="http://i.imgur.com/Tyqv7to.png" />
-			<br /> Сarriage color and this border color set to the same parameter.</p>
-		<h3><a name="user-content-panels-and-consoles" href="#panels-and-consoles" aria-hidden="true"><span></span></a>Panels and consoles</h3>
-		<h4><a name="user-content-gotoanything-panel" href="#gotoanything-panel" aria-hidden="true"><span></span></a>GotoAnything panel</h4>
-		<p><img alt="GotoAnything panel" src="http://i.imgur.com/2hRinyv.png" /></p>
-		<h4><a name="user-content-switch-project-panel" href="#switch-project-panel" aria-hidden="true"><span></span></a>Switch Project panel</h4>
-		<p><img alt="Switch Project panel" src="http://i.imgur.com/YVcfF0k.png" /></p>
-		<h4><a name="user-content-find-and-replace-panel" href="#find-and-replace-panel" aria-hidden="true"><span></span></a>Find and Replace panel</h4>
-		<p><img alt="Find and Replace panel" src="http://i.imgur.com/H6tolbC.png" /></p>
-		<h4><a name="user-content-console" href="#console" aria-hidden="true"><span></span></a>Console</h4>
-		<p><img alt="Console" src="http://i.imgur.com/JwQyqyU.png" /></p>
-		<h4><a name="user-content-build-system-output-console" href="#build-system-output-console" aria-hidden="true"><span></span></a>Build System output console</h4>
-		<p>For get a black and white colors, Install <a href="https://github.com/aziz/SublimeANSI">SublimeANSI</a> plugin and <a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel">add</a> in your <code>.sublime-build</code> file these lines:</p>
-		<pre><code>&quot;target&quot;: &quot;ansi_color_build&quot;,
+    <!-- Бэкграунд aside -->
+    <aside class="sidebar" style="background-image: url(../aside/Шоколадка.jpg)">
+        <div class="cover">
+            <div class="cover-text">
+                <!-- Заголовок aside -->
+                <h1>SashaSublime</h1>
+                <!-- Описание заголовка aside -->
+                <div id="switcher"></div>
+            </div>
+        </div>
+    </aside>
+    <!-- Текст -->
+    <main class="content-wrapper">
+        <h1 class="SashaHeader">Заголовок aside</h1>
+        <SashaVersion>Версия 0.5,
+            <time datetime="2016-04-10T00:50:00 07:00">14 апреля 2016</time>
+        </SashaVersion>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Заголовок H2</h2>
+        <p>
+            <a href="http://Kristinita.ru/Donate-files/Bitcoin-Redirect"><img alt="Bitcoin Donate Button" src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png" class="SashaInline" /></a>
+            <a href="http://Kristinita.ru/Donate-files/Litecoin-Redirect"><img alt="Litecoin Donate Button" src="http://Kristinita.ru/Donate-files/Litecoin-Donate-button.png" class="SashaInline" /></a>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=W6MP468ZZV66Q"><img class="SashaInline" alt="PayPal Dollar button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Dollar.png" class="SashaInline" /></a>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DGT7K29LDD2HQ"><img alt="PayPal Euro button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Euro.png" class="SashaInline" /></a>
+            <br clear="all">
+            <br>
+            <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" class="SashaInline" />
+            <img alt="Release" src="https://img.shields.io/badge/Release-1.2.0-orange.svg" class="SashaInline" />
+            <img src="https://img.shields.io/github/stars/Kristinita/SashaSublime.svg" alt="Stars">
+            <img src="https://img.shields.io/github/forks/Kristinita/SashaSublime.svg" alt="Forks">
+            <a href="https://packagecontrol.io/packages/SashaS"><img alt="Package Control" src="https://packagecontrol.herokuapp.com/downloads/SashaS.svg?style=flat-square" /></a>
+            <a href="https://github.com/Kristinita/SashaSublime/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Kristinita/SashaSublime.svg" /></a>
+        </p>
+        <ol>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#support">Support</a>
+                <ol>
+                    <li><a href="#platforms">Platforms</a></li>
+                    <li><a href="#sublime-text">Sublime Text</a></li>
+                    <li><a href="#syntaxes">Syntaxes</a></li>
+                </ol>
+            </li>
+            <li><a href="#screenshots">Screenshots</a>
+                <ol>
+                    <li><a href="#general">General</a>
+                        <ol>
+                            <li><a href="#overall-plan">Overall plan</a></li>
+                            <li><a href="#details">Details</a></li>
+                            <li><a href="#gutter">Gutter</a></li>
+                            <li><a href="#autocomplete">Autocomplete</a></li>
+                            <li><a href="#tabs">Tabs</a></li>
+                            <li><a href="#sidebar">Sidebar</a></li>
+                            <li><a href="#indexing-status">Indexing status</a></li>
+                            <li><a href="#phantom">Phantom</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#plugins">Plugins</a>
+                        <ol>
+                            <li><a href="#sublimerge-3--gitgutter">Sublimerge 3 + GitGutter</a></li>
+                            <li><a href="#hexviewer">HexViewer</a></li>
+                            <li><a href="#gitgutter--sublimelinter">GitGutter + SublimeLinter</a></li>
+                            <li><a href="#brackethighlighter">BracketHighlighter</a></li>
+                            <li><a href="#emmet">Emmet</a></li>
+                            <li><a href="#color-helper">Color Helper</a></li>
+                            <li><a href="#drmonthscalendar">dr_months_calendar</a></li>
+                            <li><a href="#suricate">Suricate</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#selected-text-sasha">Selected text Sasha</a>
+                        <ol>
+                            <li><a href="#selected-text">Selected text</a></li>
+                            <li><a href="#selected-text-when-the-carriage-is-not-on-text-field">Selected text when the carriage is not on text field</a></li>
+                            <li><a href="#find-ctrlf-text">Find (Ctrl+F) text</a></li>
+                            <li><a href="#find-text-when-the-carriage-is-out-of-the-found-text">Find text when the carriage is out of the found text.</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#panels-and-consoles">Panels and consoles</a>
+                        <ol>
+                            <li><a href="#gotoanything-panel">GotoAnything panel</a></li>
+                            <li><a href="#switch-project-panel">Switch Project panel</a></li>
+                            <li><a href="#find-and-replace-panel">Find and Replace panel</a></li>
+                            <li><a href="#console">Console</a></li>
+                            <li><a href="#build-system-output-console">Build System output console</a></li>
+                            <li><a href="#scopehunter-output-console">ScopeHunter output console</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#syntaxes-1">Syntaxes</a>
+                        <ol>
+                            <li><a href="#json">JSON</a></li>
+                            <li><a href="#xml">XML</a></li>
+                            <li><a href="#html">HTML</a></li>
+                            <li><a href="#css">CSS</a></li>
+                            <li><a href="#javascript">JavaScript</a></li>
+                            <li><a href="#diff">Diff</a></li>
+                            <li><a href="#regular-expression">Regular Expression</a></li>
+                            <li><a href="#mediawiki-ng">Mediawiki NG</a></li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li><a href="#comparison-of-monokai-default-color-scheme-and-sashasublime">Comparison of Monokai (default color scheme) and SashaSublime</a>
+                <ol>
+                    <li><a href="#monokai-scopes">Monokai scopes</a></li>
+                    <li><a href="#sashasublime-scopes">SashaSublime scopes</a></li>
+                </ol>
+            </li>
+            <li><a href="#downloading-and-installation">Downloading and installation</a>
+                <ol>
+                    <li><a href="#package-control">Package Control</a></li>
+                    <li><a href="#git">Git</a></li>
+                    <li><a href="#hub">Hub</a></li>
+                    <li><a href="#manually">Manually</a></li>
+                </ol>
+            </li>
+            <li><a href="#activation">Activation</a>
+                <ol>
+                    <li><a href="#themr-and-schemr">Themr and Schemr</a></li>
+                    <li><a href="#manually-1">Manually</a></li>
+                </ol>
+            </li>
+            <li><a href="#preferences">Preferences</a></li>
+            <li><a href="#setting-sashasublime-for-some-plugins">Setting SashaSublime for some plugins</a>
+                <ol>
+                    <li><a href="#brackethighlighter-1">BracketHighlighter</a></li>
+                    <li><a href="#gitgutter">GitGutter</a></li>
+                </ol>
+            </li>
+            <li><a href="#customization-non-sublime-text-settings-for-windows">Customization non-Sublime Text settings for Windows</a>
+                <ol>
+                    <li><a href="#changing-favicon-in-sublime-text-3">Changing favicon in Sublime Text 3</a></li>
+                    <li><a href="#title-bar-and-window-border-color">Title Bar and window border color</a></li>
+                    <li><a href="#winaero-tweaker">Winaero Tweaker</a>
+                        <ol>
+                            <li><a href="#inactive-title-bar-color">Inactive Title Bar color</a></li>
+                            <li><a href="#menu-bar-settings">Menu Bar settings</a></li>
+                            <li><a href="#title-bar-settings">Title Bar settings</a></li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li><a href="#editing-sashasublime-settings">Editing SashaSublime settings</a>
+                <ol>
+                    <li><a href="#editing-default-files">Editing default files</a>
+                        <ol>
+                            <li><a href="#steps">Steps</a></li>
+                            <li><a href="#problem">Problem</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#editing-user-files">Editing user files</a>
+                        <ol>
+                            <li><a href="#steps-1">Steps</a></li>
+                            <li><a href="#problem-1">Problem</a></li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li><a href="#known-defects">Known defects</a>
+                <ol>
+                    <li><a href="#sublimelinter-wrote-own-color-scheme-file-in-preferences">SublimeLinter wrote own color scheme file in preferences</a></li>
+                </ol>
+            </li>
+            <li><a href="#see-also">See also</a></li>
+            <li><a href="#thanks">Thanks</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#donate">Donate</a>
+                <ol>
+                    <li><a href="#bitcoin">Bitcoin</a></li>
+                    <li><a href="#litecoin">Litecoin</a></li>
+                    <li><a href="#paypal-">Paypal $</a></li>
+                    <li><a href="#paypal-€">Paypal Euro</a></li>
+                </ol>
+            </li>
+            <li><a href="#license">License</a></li>
+        </ol>
+        <hr />
+        <hr />
+        <p align="center"><strong>SashaSublime is devoted to God, the only Creation for the sake of Which it makes sense to live on this planet, the Greatest being of all times and peoples, Queen of the World <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a> (Kira Kenyukhova)</strong>.</p>
+        <p align="center"><img src="http://i.imgur.com/OJSBK4V.jpg" alt="Queen of the World Sasha Chernykh"></p>
+        <h2><a name="user-content-description" href="#description" aria-hidden="true"><span></span></a>Description</h2>
+        <p>i faced a problem that in already available themes and color schemes many elements of syntaxes have badly distinguishable an eye of color. i tried to use many themes and schemes, but the result in one of them didn&rsquo;t satisfy me. Therefore, i decided to write own theme/scheme; its concept:</p>
+        <ol>
+            <li><strong>all colors of all elements are well visible</strong>,</li>
+            <li>change colors made not for beauty, and for better visibility,</li>
+            <li>different colors for each syntax,</li>
+            <li>each element of syntax has to have color.</li>
+        </ol>
+        <h2><a name="user-content-support" href="#support" aria-hidden="true"><span></span></a>Support</h2>
+        <h3><a name="user-content-platforms" href="#platforms" aria-hidden="true"><span></span></a>Platforms</h3>
+        <p>Windows, macOS, Linux.</p>
+        <h3><a name="user-content-sublime-text" href="#sublime-text" aria-hidden="true"><span></span></a>Sublime Text</h3>
+        <p>Only Build 3114 and higher. Older versions of Sublime Text are not supported. Please take the automatic upgrade Sublime Text, if you wanted use SashaSublime.</p>
+        <p>Cause — <a href="https://forum.sublimetext.com/t/changing-scopes-in-build-3114/20088">serious updating</a> <a href="http://ru.stackoverflow.com/a/516668/199934">scopes</a> for syntaxes in new builds. After each new update Sublime Text, color schemes developers <a href="https://toster.ru/q/321006#answer_852035">needs to many changes</a> color scheme files.</p>
+        <p>Example, how to view JavaScript code:</p>
+        <p><strong>Build 3114:</strong>
+            <br />
+            <br>
+            <img alt="Build 3114" src="http://i.imgur.com/fTv7zgG.png" /></p>
+        <p><strong>Build 3103:</strong>
+            <br />
+            <br>
+            <img alt="Build 3103" src="http://i.imgur.com/9vnVBy4.png" /></p>
+        <p>In Build 3103 many syntax elements are not own colors.</p>
+        <h3><a name="user-content-syntaxes" href="#syntaxes" aria-hidden="true"><span></span></a>Syntaxes</h3>
+        <p>Supported syntaxes: JSON, XML, HTML, CSS, JavaScript, Diff, Regular Expression, Mediawiki NG, dr_months_calendar. The color scheme is incompatible with syntaxes of <a href="https://packagecontrol.io/packages/CSS3_Syntax">CSS3</a> and <a href="https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax">JavaScriptNext - ES6</a>. Please, use default syntax for JavaScript and CSS for compatibility with SashaSublime. If you want use SashaSublime, but in some syntaxes you want use another color scheme, please, read page 73 in «<a href="http://nbviewer.jupyter.org/github/Kristinita/SashaBooks/blob/master/IT/Sublime%20Text/Sublime%20Text%20Power%20User.pdf#page=73">Sublime Text Power User</a>» book. If you want other color scheme for <a href="https://www.sublimetext.com/docs/2/distraction_free.html">Distraction Free Mode</a>, please, see <a href="http://stackoverflow.com/a/15908023/5951529">this answer</a>.</p>
+        <h2><a name="user-content-screenshots" href="#screenshots" aria-hidden="true"><span></span></a>Screenshots</h2>
+        <p>Screenshots are made in the Windows 10 operating system, Sublime Text 3, Build 3114. If i make changes to my color theme and color scheme, i try not to forget to take screenshots of the changes. But Sublime Text and plugins updated, and look at my screenshots may differ from appearance to reality. If you see a discrepancy, please let me know.</p>
+        <h3><a name="user-content-general" href="#general" aria-hidden="true"><span></span></a>General</h3>
+        <h4><a name="user-content-overall-plan" href="#overall-plan" aria-hidden="true"><span></span></a>Overall plan</h4>
+        <p><img alt="SashaSublime" src="http://i.imgur.com/ljT5eJp.png" /></p>
+        <h4><a name="user-content-details" href="#details" aria-hidden="true"><span></span></a>Details</h4>
+        <p>In a theme/scheme the smallest details are well visible.
+            <br />
+            <br>
+            <img alt="Overall plan details" src="http://i.imgur.com/DlrJCes.png" /></p>
+        <h4><a name="user-content-gutter" href="#gutter" aria-hidden="true"><span></span></a>Gutter</h4>
+        <p><img alt="Gutter" src="http://i.imgur.com/VqeuQtH.png" /></p>
+        <h4><a name="user-content-autocomplete" href="#autocomplete" aria-hidden="true"><span></span></a>Autocomplete</h4>
+        <p><img alt="Autocomplete" src="http://i.imgur.com/3RPAwA7.png" /></p>
+        <h4><a name="user-content-tabs" href="#tabs" aria-hidden="true"><span></span></a>Tabs</h4>
+        <p><img alt="Tabs" src="http://i.imgur.com/CTOQ9WG.png" /></p>
+        <h4><a name="user-content-sidebar" href="#sidebar" aria-hidden="true"><span></span></a>Sidebar</h4>
+        <p><img alt="Side bar" src="http://i.imgur.com/N8UWi1Q.png" /></p>
+        <h4><a name="user-content-indexing-status" href="#indexing-status" aria-hidden="true"><span></span></a>Indexing status</h4>
+        <p><img alt="Indexing status" src="http://i.imgur.com/FMo5NLK.png" /></p>
+        <h4><a name="user-content-phantom" href="#phantom" aria-hidden="true"><span></span></a>Phantom</h4>
+        <p><img alt="Phantom" src="http://i.imgur.com/C2aZ7oy.png" /></p>
+        <h3><a name="user-content-plugins" href="#plugins" aria-hidden="true"><span></span></a>Plugins</h3>
+        <h4><a href="http://www.sublimerge.com/sm3/">Sublimerge 3</a> + <a href="https://packagecontrol.io/packages/GitGutter">GitGutter</a></h4>
+        <p><img alt="Sublimerge" src="http://i.imgur.com/YnfYXWD.png" /></p>
+        <h4><a href="https://github.com/facelessuser/HexViewer">HexViewer</a></h4>
+        <p><img alt="Hex Viewer" src="http://i.imgur.com/c0t0Iqy.png" /></p>
+        <h4><a href="https://packagecontrol.io/packages/GitGutter">GitGutter</a> + <a href="http://www.sublimelinter.com/en/latest/">SublimeLinter</a></h4>
+        <p><img alt="GitGutter and SublimeLinter" src="http://i.imgur.com/24kzw67.png" /></p>
+        <h4><a href="https://facelessuser.github.io/BracketHighlighter/">BracketHighlighter</a></h4>
+        <p><img alt="BracketHighlighter" src="http://i.imgur.com/S8SE9nh.png" /></p>
+        <h4><a href="http://emmet.io/">Emmet</a></h4>
+        <p><img alt="Emmet" src="http://i.imgur.com/Arhzbgl.png" /></p>
+        <h4><a href="https://github.com/facelessuser/ColorHelper">Color Helper</a></h4>
+        <p><img alt="Color Helper" src="http://i.imgur.com/ZcmyymH.png" /></p>
+        <h4><a href="https://github.com/dragon/dr_months_calendar">dr_months_calendar</a></h4>
+        <p><img alt="dr_months_calendar" src="http://i.imgur.com/Pq1HXC7.png" /></p>
+        <h4><a href="https://github.com/nsubiron/SublimeSuricate">Suricate</a></h4>
+        <p><img alt="Suricate" src="http://i.imgur.com/ivsdfXM.png" /></p>
+        <p>If <em>"popup_style_file": "Packages/Suricate/css/dark.css",</em> in Suricate settings.</p>
+        <h3><a name="user-content-selected-text-sasha" href="#selected-text-sasha" aria-hidden="true"><span></span></a>Selected text</h3>
+        <p>Results with the established <a href="https://github.com/SublimeText/WordHighlight">WordHighlight</a> plugin.</p>
+        <h4><a name="user-content-selected-text" href="#selected-text" aria-hidden="true"><span></span></a>Selected text</h4>
+        <p><img alt="Accentuation" src="http://i.imgur.com/yJ2EdbD.png" /></p>
+        <h4><a name="user-content-selected-text-when-the-carriage-is-not-on-text-field" href="#selected-text-when-the-carriage-is-not-on-text-field" aria-hidden="true"><span></span></a>Selected text when the carriage is not on text field</h4>
+        <p><img alt="Accentuation2" src="http://i.imgur.com/y715wdq.png" /></p>
+        <h4><a name="user-content-find-ctrlf-text" href="#find-ctrlf-text" aria-hidden="true"><span></span></a>Find (<kbd>Ctrl+F</kbd>) text</h4>
+        <p><img alt="Find result" src="http://i.imgur.com/Z3lGryq.png" /></p>
+        <h4><a name="user-content-find-text-when-the-carriage-is-out-of-the-found-text" href="#find-text-when-the-carriage-is-out-of-the-found-text" aria-hidden="true"><span></span></a>Find text when the carriage is out of the found text.</h4>
+        <p><img alt="Find result2" src="http://i.imgur.com/Tyqv7to.png" />
+            <br>
+            <br /> Сarriage color and this border color set to the same parameter.</p>
+        <h3><a name="user-content-panels-and-consoles" href="#panels-and-consoles" aria-hidden="true"><span></span></a>Panels and consoles</h3>
+        <h4><a name="user-content-gotoanything-panel" href="#gotoanything-panel" aria-hidden="true"><span></span></a>GotoAnything panel</h4>
+        <p><img alt="GotoAnything panel" src="http://i.imgur.com/2hRinyv.png" /></p>
+        <h4><a name="user-content-switch-project-panel" href="#switch-project-panel" aria-hidden="true"><span></span></a>Switch Project panel</h4>
+        <p><img alt="Switch Project panel" src="http://i.imgur.com/YVcfF0k.png" /></p>
+        <h4><a name="user-content-find-and-replace-panel" href="#find-and-replace-panel" aria-hidden="true"><span></span></a>Find and Replace panel</h4>
+        <p><img alt="Find and Replace panel" src="http://i.imgur.com/H6tolbC.png" /></p>
+        <h4><a name="user-content-console" href="#console" aria-hidden="true"><span></span></a>Console</h4>
+        <p><img alt="Console" src="http://i.imgur.com/JwQyqyU.png" /></p>
+        <h4><a name="user-content-build-system-output-console" href="#build-system-output-console" aria-hidden="true"><span></span></a>Build System output console</h4>
+        <p>For get a black and white colors, Install <a href="https://github.com/aziz/SublimeANSI">SublimeANSI</a> plugin and <a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel">add</a> in your <em>.sublime-build</em> file these lines:</p>
+        <pre><code>
+		&quot;target&quot;: &quot;ansi_color_build&quot;,
 		&quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
 		</code></pre>
-		<p><img alt="Build console" src="http://i.imgur.com/4s81HhM.png" /></p>
-		<h4><a name="user-content-scopehunter-output-console" href="#scopehunter-output-console" aria-hidden="true"><span></span></a>ScopeHunter output console</h4>
-		<p><img alt="ScopeHunter console" src="http://i.imgur.com/CsxZ8XW.png" /></p>
-		<h3><a name="user-content-syntaxes_1" href="#syntaxes_1" aria-hidden="true"><span></span></a>Syntaxes</h3>
-		<h4><a name="user-content-json" href="#json" aria-hidden="true"><span></span></a>JSON</h4>
-		<p><img alt="JSON1" src="http://i.imgur.com/N2LvbNZ.png" />
-			<br />
-			<img alt="JSON2" src="http://i.imgur.com/epuwjOb.png" /></p>
-		<p>With <a href="https://packagecontrol.io/packages/LanguageTool">LanguageTool</a> plugin:</p>
-		<p><img alt="JSON3" src="http://i.imgur.com/6kWo4aW.png" /></p>
-		<h4><a name="user-content-xml" href="#xml" aria-hidden="true"><span></span></a>XML</h4>
-		<p><img alt="XML" src="http://i.imgur.com/0s4EFYN.png" /></p>
-		<h4><a name="user-content-html" href="#html" aria-hidden="true"><span></span></a>HTML</h4>
-		<p><img alt="HTML1" src="http://i.imgur.com/POTMTWq.png" />
-			<br />
-			<img alt="HTML2" src="http://i.imgur.com/LFKMdDX.png" />
-			<br />
-			<img alt="HTML3" src="http://i.imgur.com/AbGgQa9.png" /></p>
-		<h4><a name="user-content-css" href="#css" aria-hidden="true"><span></span></a>CSS</h4>
-		<p><img alt="CSS" src="http://i.imgur.com/Rr9AmIZ.png" /></p>
-		<h4><a name="user-content-javascript" href="#javascript" aria-hidden="true"><span></span></a>JavaScript</h4>
-		<p>It turned out to work not so carefully as i wanted.</p>
-		<p><img alt="JS1" src="http://i.imgur.com/dedldIL.png" />
-			<br />
-			<img alt="JS2" src="http://i.imgur.com/2e34vGr.png" /></p>
-		<h4><a name="user-content-diff" href="#diff" aria-hidden="true"><span></span></a>Diff</h4>
-		<p><img alt="Diff" src="http://i.imgur.com/AF7BgIU.png" /></p>
-		<h4><a name="user-content-regular-expression" href="#regular-expression" aria-hidden="true"><span></span></a>Regular Expression</h4>
-		<p><img alt="Regex1" src="http://i.imgur.com/kzwyA4E.png" />
-			<br />
-			<img alt="Regex2" src="http://i.imgur.com/Fu2Slm6.png" />
-			<br />
-			<img alt="Regex3" src="http://i.imgur.com/1kvOeeK.png" /></p>
-		<h4><a name="user-content-mediawiki-ng" href="#mediawiki-ng" aria-hidden="true"><span></span></a>Mediawiki NG</h4>
-		<p><img alt="Mediawiki1" src="http://i.imgur.com/Y2FYuFI.png" />
-			<br />
-			<img alt="Mediawiki2" src="http://i.imgur.com/sSzqfsm.png" /></p>
-		<h2><a name="user-content-comparison-of-monokai-default-color-scheme-and-sashasublime" href="#comparison-of-monokai-default-color-scheme-and-sashasublime" aria-hidden="true"><span></span></a>Comparison of Monokai (default color scheme) and SashaSublime</h2>
-		<p>SashaSublime has several times more than parameters, than a default theme Monokai. See mouse cursor on the thumb of vertical scroll bar SashaSublime color scheme. Testing was carried out on <a href="https://tmtheme-editor.herokuapp.com">TmTheme Editor</a>. </p>
-		<h3><a name="user-content-monokai-scopes" href="#monokai-scopes" aria-hidden="true"><span></span></a>Monokai scopes</h3>
-		<p><img alt="Monokai scopes" src="http://i.imgur.com/YITyD6A.png" /></p>
-		<h3><a name="user-content-sashasublime-scopes" href="#sashasublime-scopes" aria-hidden="true"><span></span></a>SashaSublime scopes</h3>
-		<p><img alt="SashaSublime scopes" src="http://i.imgur.com/JzT6vnk.png" /></p>
-		<h2><a name="user-content-downloading-and-installation" href="#downloading-and-installation" aria-hidden="true"><span></span></a>Downloading and installation</h2>
-		<p>After installation, you need to activate SashaSublime, see <a href="#Activation">Activation</a> section. Sublime Text no needs to be restarted after installation SashaSublime.</p>
-		<h3><a name="user-content-package-control" href="#package-control" aria-hidden="true"><span></span></a>Package Control</h3>
-		<p><a href="https://packagecontrol.io/">Package Control</a> — package manager for Sublime Text, via Package Control you may install thousands of plugins. If you never used Package Control, make steps.</p>
-		<p>Open your Sublime Text. After Build 3124 install Package Control may quick, use <code>Tools</code> menu item: <code>Tools</code> → <code>Install Package Control...</code>.</p>
-		<p><img alt="Install Package Control" src="http://i.imgur.com/JSw5Rbw.png" /></p>
-		<p>
-			<kbd>Ctrl+Shift+P</kbd> → <code>Package Control: Install Package</code></p>
-		<p><img alt="Install Package" src="http://i.imgur.com/qxOBpFq.png" /></p>
-		<p>Print <code>SashaS</code>. Name package in Package Control is different right name package, because <a href="https://packagecontrol.io/docs/submitting_a_package#Step_2">not recommended use «Sublime» word</a> in names of Package Control packages. </p>
-		<p><img alt="SashaS" src="http://i.imgur.com/KgvXigD.png" /></p>
-		<h3><a name="user-content-git" href="#git" aria-hidden="true"><span></span></a>Git</h3>
-		<p><code>Preferences</code> → <code>Browse Packages...</code> → in this folder open terminal, preferable to you, and run command:</p>
-		<pre><code>git clone https://github.com/Kristinita/SashaSublime.git
+        <p><img alt="Build console" src="http://i.imgur.com/4s81HhM.png" /></p>
+        <h4><a name="user-content-scopehunter-output-console" href="#scopehunter-output-console" aria-hidden="true"><span></span></a>ScopeHunter output console</h4>
+        <p><img alt="ScopeHunter console" src="http://i.imgur.com/CsxZ8XW.png" /></p>
+        <h3><a name="user-content-syntaxes_1" href="#syntaxes_1" aria-hidden="true"><span></span></a>Syntaxes</h3>
+        <h4><a name="user-content-json" href="#json" aria-hidden="true"><span></span></a>JSON</h4>
+        <p><img alt="JSON1" src="http://i.imgur.com/N2LvbNZ.png" />
+            <br />
+            <br>
+            <img alt="JSON2" src="http://i.imgur.com/epuwjOb.png" /></p>
+        <p>With <a href="https://packagecontrol.io/packages/LanguageTool">LanguageTool</a> plugin:</p>
+        <p><img alt="JSON3" src="http://i.imgur.com/6kWo4aW.png" /></p>
+        <h4><a name="user-content-xml" href="#xml" aria-hidden="true"><span></span></a>XML</h4>
+        <p><img alt="XML" src="http://i.imgur.com/0s4EFYN.png" /></p>
+        <h4><a name="user-content-html" href="#html" aria-hidden="true"><span></span></a>HTML</h4>
+        <p><img alt="HTML1" src="http://i.imgur.com/POTMTWq.png" />
+            <br />
+            <br>
+            <img alt="HTML2" src="http://i.imgur.com/LFKMdDX.png" />
+            <br />
+            <br>
+            <img alt="HTML3" src="http://i.imgur.com/AbGgQa9.png" /></p>
+        <h4><a name="user-content-css" href="#css" aria-hidden="true"><span></span></a>CSS</h4>
+        <p><img alt="CSS" src="http://i.imgur.com/Rr9AmIZ.png" /></p>
+        <h4><a name="user-content-javascript" href="#javascript" aria-hidden="true"><span></span></a>JavaScript</h4>
+        <p>It turned out to work not so carefully as i wanted.</p>
+        <p><img alt="JS1" src="http://i.imgur.com/dedldIL.png" />
+            <br />
+            <br />
+            <br />
+            <img alt="JS2" src="http://i.imgur.com/2e34vGr.png" /></p>
+        <h4><a name="user-content-diff" href="#diff" aria-hidden="true"><span></span></a>Diff</h4>
+        <p><img alt="Diff" src="http://i.imgur.com/AF7BgIU.png" /></p>
+        <h4><a name="user-content-regular-expression" href="#regular-expression" aria-hidden="true"><span></span></a>Regular Expression</h4>
+        <p><img alt="Regex1" src="http://i.imgur.com/kzwyA4E.png" />
+            <br />
+            <br>
+            <img alt="Regex2" src="http://i.imgur.com/Fu2Slm6.png" />
+            <br />
+            <br>
+            <img alt="Regex3" src="http://i.imgur.com/1kvOeeK.png" /></p>
+        <h4><a name="user-content-mediawiki-ng" href="#mediawiki-ng" aria-hidden="true"><span></span></a>Mediawiki NG</h4>
+        <p><img alt="Mediawiki1" src="http://i.imgur.com/Y2FYuFI.png" />
+            <br />
+            <br>
+            <img alt="Mediawiki2" src="http://i.imgur.com/sSzqfsm.png" /></p>
+        <h2><a name="user-content-comparison-of-monokai-default-color-scheme-and-sashasublime" href="#comparison-of-monokai-default-color-scheme-and-sashasublime" aria-hidden="true"><span></span></a>Comparison of Monokai (default color scheme) and SashaSublime</h2>
+        <p>SashaSublime has several times more than parameters, than a default theme Monokai. See mouse cursor on the thumb of vertical scroll bar SashaSublime color scheme. Testing was carried out on <a href="https://tmtheme-editor.herokuapp.com">TmTheme Editor</a>. </p>
+        <h3><a name="user-content-monokai-scopes" href="#monokai-scopes" aria-hidden="true"><span></span></a>Monokai scopes</h3>
+        <p><img alt="Monokai scopes" src="http://i.imgur.com/YITyD6A.png" /></p>
+        <h3><a name="user-content-sashasublime-scopes" href="#sashasublime-scopes" aria-hidden="true"><span></span></a>SashaSublime scopes</h3>
+        <p><img alt="SashaSublime scopes" src="http://i.imgur.com/JzT6vnk.png" /></p>
+        <h2><a name="user-content-downloading-and-installation" href="#downloading-and-installation" aria-hidden="true"><span></span></a>Downloading and installation</h2>
+        <p>After installation, you need to activate SashaSublime, see <a href="#Activation">Activation</a> section. Sublime Text no needs to be restarted after installation SashaSublime.</p>
+        <h3><a name="user-content-package-control" href="#package-control" aria-hidden="true"><span></span></a>Package Control</h3>
+        <p><a href="https://packagecontrol.io/">Package Control</a> — package manager for Sublime Text, via Package Control you may install thousands of plugins. If you never used Package Control, make steps.</p>
+        <p>Open your Sublime Text. After Build 3124 install Package Control may quick, use <em>Tools</em> menu item: <em>Tools</em> → <em>Install Package Control...</em>.</p>
+        <p><img alt="Install Package Control" src="http://i.imgur.com/JSw5Rbw.png" /></p>
+        <p>
+            <kbd>Ctrl+Shift+P</kbd> → <em>Package Control: Install Package</em></p>
+        <p><img alt="Install Package" src="http://i.imgur.com/qxOBpFq.png" /></p>
+        <p>Print <em>SashaS</em>. Name package in Package Control is different right name package, because <a href="https://packagecontrol.io/docs/submitting_a_package#Step_2">not recommended use «Sublime» word</a> in names of Package Control packages. </p>
+        <p><img alt="SashaS" src="http://i.imgur.com/KgvXigD.png" /></p>
+        <h3><a name="user-content-git" href="#git" aria-hidden="true"><span></span></a>Git</h3>
+        <p><em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
+        <pre><code>git clone https://github.com/Kristinita/SashaSublime.git</code></pre>
+        <h3><a name="user-content-hub" href="#hub" aria-hidden="true"><span></span></a>Hub</h3>
+        <p>I recommend use <a href="https://hub.github.com/">Hub</a> — a command-line wrapper for git that makes you better at GitHub.</p>
+        <p>If you use Hub, <em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
+        <pre><code>hub clone Kristinita/SashaSublime</code></pre>
+        <h3><a name="user-content-manually" href="#manually" aria-hidden="true"><span></span></a>Manually</h3>
+        <p>Open the page <a href="https://github.com/Kristinita/SashaSublime">https://github.com/Kristinita/SashaSublime</a> in browser. In right bottom angle select
+            <kbd>Clone or download</kbd> and then
+            <kbd>Download ZIP</kbd>:</p>
+        <p><img alt="Download ZIP" src="http://i.imgur.com/fzvUXYo.png" /></p>
+        <p>Download zip-archive and unpack it to
+            <kbd>Alt+N</kbd> → <em>Browse Packages...</em> folder. Rename <em>SashaSublime-master</em> to <em>SashaSublime</em>.</p>
+        <br>
+        <p>As a result, your folder with SashaSublime has to settle down on the path <em>Preferences</em> → <em>Browse Packages...</em> → <em>SashaSublime</em>. For example, absolute path for me is <em>E:\Sublime Text 3\Data\Packages</em>.</p>
+        <h2><a name="user-content-activation" href="#activation" aria-hidden="true"><span></span></a>Activation</h2>
+        <h3><a name="user-content-themr-and-schemr" href="#themr-and-schemr" aria-hidden="true"><span></span></a>Themr and Schemr</h3>
+        <p>Install <a href="https://github.com/benweier/Themr">Themr</a> plugin.
+            <kbd>Ctrl+Shift+P</kbd> → <em>Themr: List themes</em> → <em>SashaSublime</em> →
+            <kbd>Enter</kbd>.</p>
+        <p><img alt="Theme SashaSublime" src="http://i.imgur.com/dgIVs3Y.png" /></p>
+        <p>Then install <a href="https://github.com/benweier/Schemr">Schemr</a> plugin.
+            <kbd>Ctrl+Shift+P</kbd> → <em>Schemr: List all schemes</em> → <em>SashaSublime  [Dark]</em> →
+            <kbd>Enter</kbd>.</p>
+        <p><img alt="Scheme SashaSublime" src="http://i.imgur.com/UYOiBB9.png" /></p>
+        <h3><a name="user-content-manually_1" href="#manually_1" aria-hidden="true"><span></span></a>Manually</h3>
+        <p>
+            <kbd>Alt+N</kbd> → <em>Settings - User</em> → add in open file 2 lines:</p>
+        <pre><code data-language="json">
+&quot;color_scheme&quot;: &quot;Packages/SashaSublime/SashaSublime.tmTheme&quot;,
+&quot;theme&quot;: &quot;SashaSublime.sublime-theme&quot;,
 		</code></pre>
-		<h3><a name="user-content-hub" href="#hub" aria-hidden="true"><span></span></a>Hub</h3>
-		<p>I recommend use <a href="https://hub.github.com/">Hub</a> — a command-line wrapper for git that makes you better at GitHub.</p>
-		<p>If you use Hub, <code>Preferences</code> → <code>Browse Packages...</code> → in this folder open terminal, preferable to you, and run command:</p>
-		<pre><code>hub clone Kristinita/SashaSublime
+        <p>Be attentive, <a href="http://ru.stackoverflow.com/a/238934/199934">correctly place</a> commas, quotes, brackets and colons.</p>
+        <h2><a name="user-content-preferences" href="#preferences" aria-hidden="true"><span></span></a>Preferences</h2>
+        <p>Also, you can make that all your settings were as at me. Copy into your file<em>Preferences</em> → <em>Settings - User</em> these lines from my file <em>Preferences</em> → <em>Preferences.sublime-settings</em>:</p>
+        <pre><code data-language="json">
+&quot;always_show_minimap_viewport&quot;: true,
+&quot;auto_find_in_selection&quot;: false,
+&quot;bold_folder_labels&quot;: true,
+&quot;caret_style&quot;: &quot;wide&quot;,
+&quot;detect indentation&quot;: false,
+&quot;draw_indent_guides&quot;: false,
+&quot;draw_minimap_border&quot;: true,
+&quot;fade_fold_buttons&quot;: false,
+&quot;font_face&quot;: &quot;Consolas&quot;,
+&quot;font_options&quot;:
+[
+	&quot;subpixel_antialias&quot;,
+	&quot;directwrite&quot;
+],
+&quot;highlight_line&quot;: true,
+&quot;highlight_modified_tabs&quot;: true,
+&quot;line_padding_bottom&quot;: 1,
+&quot;line_padding_top&quot;: 1,
+&quot;match_brackets&quot;: false,
+&quot;match_brackets_angle&quot;: false,
+&quot;match_brackets_braces&quot;: false,
+&quot;match_brackets_content&quot;: false,
+&quot;match_brackets_square&quot;: false,
+&quot;match_tags&quot;: false,
+&quot;menu_visible&quot;: true,
+&quot;show_encoding&quot;: true,
 		</code></pre>
-		<h3><a name="user-content-manually" href="#manually" aria-hidden="true"><span></span></a>Manually</h3>
-		<p>Open the page <a href="https://github.com/Kristinita/SashaSublime">https://github.com/Kristinita/SashaSublime</a> in browser. In right bottom angle select
-			<kbd>Clone or download</kbd> and then
-			<kbd>Download ZIP</kbd>:</p>
-		<p><img alt="Download ZIP" src="http://i.imgur.com/fzvUXYo.png" /></p>
-		<p>Download zip-archive and unpack it to
-			<kbd>Alt+N</kbd> → <code>Browse Packages...</code> folder. Rename <code>SashaSublime-master</code> to <code>SashaSublime</code>.</p>
-		<hr />
-		<p>As a result, your folder with SashaSublime has to settle down on the path <code>Preferences</code> → <code>Browse Packages...</code> → <code>SashaSublime</code>. For example, absolute path for me is <code>E:\Sublime Text 3\Data\Packages</code>.</p>
-		<h2><a name="user-content-activation" href="#activation" aria-hidden="true"><span></span></a>Activation</h2>
-		<h3><a name="user-content-themr-and-schemr" href="#themr-and-schemr" aria-hidden="true"><span></span></a>Themr and Schemr</h3>
-		<p>Install <a href="https://github.com/benweier/Themr">Themr</a> plugin.
-			<kbd>Ctrl+Shift+P</kbd> → <code>Themr: List themes</code> → <code>SashaSublime</code> →
-			<kbd>Enter</kbd>.</p>
-		<p><img alt="Theme SashaSublime" src="http://i.imgur.com/dgIVs3Y.png" /></p>
-		<p>Then install <a href="https://github.com/benweier/Schemr">Schemr</a> plugin.
-			<kbd>Ctrl+Shift+P</kbd> → <code>Schemr: List all scheme</code>s → <code>SashaSublime  [Dark]</code> →
-			<kbd>Enter</kbd>.</p>
-		<p><img alt="Scheme SashaSublime" src="http://i.imgur.com/UYOiBB9.png" /></p>
-		<h3><a name="user-content-manually_1" href="#manually_1" aria-hidden="true"><span></span></a>Manually</h3>
-		<p>
-			<kbd>Alt+N</kbd> → <code>Settings - User</code> → add in open file 2 lines:</p>
-		<pre><code data-language="json">
-		&quot;color_scheme&quot;: &quot;Packages/SashaSublime/SashaSublime.tmTheme&quot;,
-		&quot;theme&quot;: &quot;SashaSublime.sublime-theme&quot;,
-		</code></pre>
-		<p>Be attentive, <a href="http://ru.stackoverflow.com/a/238934/199934">correctly place</a> commas, quotes, brackets and colons.</p>
-		<h2><a name="user-content-preferences" href="#preferences" aria-hidden="true"><span></span></a>Preferences</h2>
-		<p>Also, you can make that all your settings were as at me. Copy into your file<code>Preferences</code> → <code>Settings - User</code> these lines from my file <code>Preferences</code> → <code>Preferences.sublime-settings</code>:</p>
-		<pre><code data-language="json">
-		&quot;always_show_minimap_viewport&quot;: true,
-		&quot;auto_find_in_selection&quot;: false,
-		&quot;bold_folder_labels&quot;: true,
-		&quot;caret_style&quot;: &quot;wide&quot;,
-		&quot;detect indentation&quot;: false,
-		&quot;draw_indent_guides&quot;: false,
-		&quot;draw_minimap_border&quot;: true,
-		&quot;fade_fold_buttons&quot;: false,
-		&quot;font_face&quot;: &quot;Consolas&quot;,
-		&quot;font_options&quot;:
-		[
-			&quot;subpixel_antialias&quot;,
-			&quot;directwrite&quot;
-		],
-		&quot;highlight_line&quot;: true,
-		&quot;highlight_modified_tabs&quot;: true,
-		&quot;line_padding_bottom&quot;: 1,
-		&quot;line_padding_top&quot;: 1,
-		&quot;match_brackets&quot;: false,
-		&quot;match_brackets_angle&quot;: false,
-		&quot;match_brackets_braces&quot;: false,
-		&quot;match_brackets_content&quot;: false,
-		&quot;match_brackets_square&quot;: false,
-		&quot;match_tags&quot;: false,
-		&quot;menu_visible&quot;: true,
-		&quot;show_encoding&quot;: true,
-		</code></pre>
-		<p>Before copying save in a safe place file <em>Preferences.sublime-settings</em> from the <code>User</code> folder or, what better, use <a href="https://github.com/vishr/local-history">Local History</a> plugin. If you don&rsquo;t like my preferences, you will be able to return to your preferable settings.</p>
-		<h2><a name="user-content-setting-sashasublime-for-some-plugins" href="#setting-sashasublime-for-some-plugins" aria-hidden="true"><span></span></a>Setting SashaSublime for some plugins</h2>
-		<h3><a name="user-content-brackethighlighter_1" href="#brackethighlighter_1" aria-hidden="true"><span></span></a>BracketHighlighter</h3>
-		<p>To paint in different colors of a bracket of a plugin of BracketHighlighter, execute the following actions:</p>
-		<ul>
-			<li>Install plugin BracketHighlighter via Package Control,</li>
-			<li><code>Preferences</code> → <code>Package Settings</code> → <code>BracketHighlighter</code> → <code>Bracket Settings - User</code> → add in open file this code and save file:</li>
-		</ul>
-		<pre><code data-language="json">
-		{
-			&quot;bracket_styles&quot;: {
-				&quot;unmatched&quot;: {
-					&quot;icon&quot;: &quot;question&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.unmatched&quot;,
-					&quot;style&quot;: &quot;highlight&quot;
-				},
-				&quot;curly&quot;: {
-					&quot;icon&quot;: &quot;curly_bracket&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.curly&quot;,
-					&quot;style&quot;: &quot;highlight&quot;
-				},
-				&quot;round&quot;: {
-					&quot;icon&quot;: &quot;round_bracket&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.round&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				},
-				&quot;square&quot;: {
-					&quot;icon&quot;: &quot;square_bracket&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.square&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				},
-				&quot;angle&quot;: {
-					&quot;icon&quot;: &quot;angle_bracket&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.angle&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				},
-				&quot;tag&quot;: {
-					&quot;icon&quot;: &quot;tag&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.tag&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				},
-				&quot;single_quote&quot;: {
-					&quot;icon&quot;: &quot;single_quote&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				},
-				&quot;double_quote&quot;: {
-					&quot;icon&quot;: &quot;double_quote&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				},
-				&quot;regex&quot;: {
-					&quot;icon&quot;: &quot;regex&quot;,
-					&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
-					&quot;style&quot;: &quot;outline&quot;
-				}
-			}
-		}
-		</code></pre>
-		<h3><a name="user-content-gitgutter" href="#gitgutter" aria-hidden="true"><span></span></a>GitGutter</h3>
-		<p>Probably you are faced with the <a href="https://github.com/jisaacks/GitGutter/issues/199#issuecomment-227016698">same</a> problem of small icons in GitGutter. To solve this problem, at first install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin.
-			<kbd>Ctrl+Shift+P</kbd> → <code>PackageResourceViewer: Extract Package</code> → <code>GitGutter</code>. Then <code>Preferences</code> → <code>Browse Packages...</code> → <code>icons</code> → change the already available icons to icons in folder <code>icons</code> → <code>GitGutter</code> of SashaSublime repository. Your icons for GitGutter have to replace on icons of the bigger size.</p>
-		<h2><a name="user-content-customization-non-sublime-text-settings-for-windows" href="#customization-non-sublime-text-settings-for-windows" aria-hidden="true"><span></span></a>Customization non-Sublime Text settings for Windows</h2>
-		<p>Some settings not customizable via Sublime Text, to change them, you need to use other programs.</p>
-		<p>All settings in sections <strong>Title Bar</strong> color and <strong>Winaero Tweaker</strong> will affect <strong>all</strong> programs that do not have their own settings for these options, not only for Sublime Text. You will see the changes made, and when you open other programs.</p>
-		<p>All manuals in this section for Windows 10 users, use default theme. Users of others operating systems, please, see instructions for your OS in other sources.</p>
-		<p>If you follow all the steps in this section, you will get the result:</p>
-		<strong>Active window</strong>
-		<p><img alt="Active window" src="http://i.imgur.com/AUdJEug.png" /></p>
-		<strong>Inactive window</strong>
-		<p><img alt="Inactive window" src="http://i.imgur.com/3E1qY10.png" /></p>
-		<h3><a name="user-content-changing-favicon-in-sublime-text-3" href="#changing-favicon-in-sublime-text-3" aria-hidden="true"><span></span></a>Changing favicon in Sublime Text 3</h3>
-		<p>Unfortunately, after Sublime Text updates, you will have to make this steps again.</p>
-		<p>Mac users possible help <a href="http://apple.stackexchange.com/questions/153176/changing-sublime-text-3-icon-in-dock-on-yosemite">this</a> answer.</p>
-		<p>For Windows users: download and open <a href="http://rsload.net/soft/editor/9133-resource-hacker.html">Resource Hacker</a> or <a href="http://alternativeto.net/software/resource-hacker/">alternate</a> programs for edit <em>.exe</em> files. For example, in Resource Hacker: <code>File</code> → <code>Open</code> → <em>sublime_text.exe</em> → <code>Icon Group</code> → right mouse button on <em>103:3081</em> → <code>Replace Icon ...</code></p>
-		<p><img alt="Resource Hacker" src="http://i.imgur.com/XcLuNqS.png" /></p>
-		<p>→ select <em>SashaSublime.ico</em> in <code>icons</code> → <code>favicon</code> folder of this repository → <code>Replace</code> → <code>File</code> → <code>Save As</code> → <code>Yes</code> → <code>Save</code> → restart Windows.</p>
-		<p>In Sublime Text folder <em>sublime_text_original.exe</em> file is created. If you don&rsquo;t like my icons, you can replace <em>sublime_text_original.exe</em> → <em>sublime_text.exe</em>. Besides, you can always replace your <em>sublime_text.exe</em> file on <a href="https://www.sublimetext.com/3">original version</a> this file.</p>
-		<p>Examples, when use colors of «S» letter my favicon:</p>
-		<p><img alt="SashaSublime.ico" src="http://i.imgur.com/b2DxblV.png" /></p>
-		<ul>
-			<li>yellow — for smallest favicons, because is good visible; use in top left angle Sublime Text 3 and in Windows Explorer,</li>
-			<li>blue — icons in taskbar,</li>
-			<li>violet — icons on desktop,</li>
-			<li>orange — in <a href="http://portableapps.com/node/25965">Rocket Dock</a> panel and at drag and drop file with icon Sublime Text.</li>
-		</ul>
-		<h3><a name="user-content-title-bar-and-window-border-color" href="#title-bar-and-window-border-color" aria-hidden="true"><span></span></a>Title Bar and window border color</h3>
-		<p>
-			<kbd>Win+R</kbd> → insert in input area this text</p>
-		<pre><code>rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
-		</code></pre>
-		<p>→
-			<kbd>OK</kbd> → move thumbs. You can preview changes in title bar your window. I select orange color:</p>
-		<p><img alt="Orange Title bar" src="http://i.imgur.com/iZDK322.png" /></p>
-		<p><code>Save changes</code>. Window border will have exactly the same color as title bar.</p>
-		<p><img alt="Orange windows border" src="http://i.imgur.com/jdWUb5m.png" /></p>
-		<h3><a name="user-content-winaero-tweaker" href="#winaero-tweaker" aria-hidden="true"><span></span></a>Winaero Tweaker</h3>
-		<p>Install program <a href="http://rsload.net/soft/optimization/19590-winaero-tweaker.html">Winaero Tweaker</a> — GUI for customization Windows 10 settings — and run it.</p>
-		<h4><a name="user-content-inactive-title-bar-color" href="#inactive-title-bar-color" aria-hidden="true"><span></span></a>Inactive Title Bar color</h4>
-		<p><code>Appearance</code> → <code>Inactive Title Bars Color</code> → click on the square near <em>Current color (Click to change)</em> to select the color. I select pink color:</p>
-		<p><img alt="Pink inactive Title Bar" src="http://i.imgur.com/ZdcNwMQ.png" /></p>
-		<h4><a name="user-content-menu-bar-settings" href="#menu-bar-settings" aria-hidden="true"><span></span></a>Menu Bar settings</h4>
-		<p><code>Advanced Appearance Settings</code> → <code>Menus</code> → change values of parameters. I select <code>Adjust menu height</code> → <em>27</em>, <code>font</code> — <em>Segoe UI</em>, <code>font size</code> — <em>10</em>.</p>
-		<p><img alt="Menu Bar" src="http://i.imgur.com/TxDmEIg.png" /></p>
-		<p><code>Apply changes</code> → <code>Sign out now</code> → settings are viewed in new Windows session.</p>
-		<h4><a name="user-content-title-bar-settings" href="#title-bar-settings" aria-hidden="true"><span></span></a>Title Bar settings</h4>
-		<p><code>Advanced Appearance Settings</code> → <code>Window Title Bars</code> → change values of parameters. I select <code>Window Title bar height</code> → <em>30</em>, <code>font</code> — <em>Segoe UI</em>, <code>font size</code> — <em>11</em>.</p>
-		<p><img alt="Title bar settings" src="http://i.imgur.com/mFnVWxi.png" /></p>
-		<p><code>Apply changes</code> → <code>Sign out now</code> → settings are viewed in new Windows session.</p>
-		<h2><a name="user-content-editing-sashasublime-settings" href="#editing-sashasublime-settings" aria-hidden="true"><span></span></a>Editing SashaSublime settings</h2>
-		<p>Parameters in the file of SashaSublime package are comments in Russian. You can see which color corresponds to which element. Exception — <code>Preferences.sublime-settings</code>. Comments in this file automatically <a href="https://forum.sublimetext.com/t/bug-comments-deleted-in-preferences-user/7064/6?u=sasha_chernykh">removed</a>. About all parameters containing in <code>Preferences.sublime-settings</code> file it is <a href="http://www.sublimetext.ru/documentation/preferences/list">possible to read</a> on the Russian site Sublime Text 3.</p>
-		<p>If you don&rsquo;t like some colors in SashaSublime, you can change them yourself, see <a href="http://ru.stackoverflow.com/a/516668/199934">detailed instructions in Russian</a>. You can also find a set of other solutions on themes and schemes in other my answers on <a href="http://ru.stackoverflow.com/search?q=user:199934%20[sublime-text]%20is:answer">Stack Overflow in Russian</a> and <a href="https://toster.ru/user/Kristinita/answers">Toster</a>.</p>
-		<p>But there&rsquo;re problems. You have 2 options, how to customize SashaSublime.</p>
-		<h3><a name="user-content-editing-default-files" href="#editing-default-files" aria-hidden="true"><span></span></a>Editing default files</h3>
-		<h4><a name="user-content-steps" href="#steps" aria-hidden="true"><span></span></a>Steps</h4>
-		<p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin:
-			<kbd>Ctrl+Shift+P</kbd> → <code>PackageResourseViewer:Open Resourse</code> → <code>SashaSublime</code> → edit SashaSublime files.</p>
-		<h4><a name="user-content-problem" href="#problem" aria-hidden="true"><span></span></a>Problem</h4>
-		<p>After updates, SashaSublime your changes will be lost. You will need to copy the modified file in a separate place, and after the upgrade SashaSublime, you will need to merge you changes from your file into the file of SashaSublime, for example, via <a href="http://www.sublimerge.com/sm3/">Sublimerge 3</a>.</p>
-		<h3><a name="user-content-editing-user-files" href="#editing-user-files" aria-hidden="true"><span></span></a>Editing user files</h3>
-		<h4><a name="user-content-steps_1" href="#steps_1" aria-hidden="true"><span></span></a>Steps</h4>
-		<ol>
-			<li>
-				<p><strong>Theme file</strong>
-					<br />
-					<code>Preferences</code> → <code>Browse Packages...</code> → <code>User</code> → create file <code>Example.sublime-theme</code>, if you want to make a changes in theme. Instead of <code>Example</code> you can name your file by any other name. Copy the contents of the file <code>SashaSublime.sublime-theme</code> into <code>Example.sublime-theme</code> make a changes and save <code>Example.sublime-theme</code> file. Via <a href="#themr-and-schemr">Themr</a> select Example theme.</p>
-			</li>
-			<li>
-				<p><strong>Scheme file</strong>
-					<br />
-					<code>Preferences</code> → <code>Browse Packages...</code> → <code>User</code> → create file <code>Example.tmTheme</code>. Instead of <code>Example</code> you can name your file by any other name. Copy the contents of the file <code>SashaSublime.tmTheme</code> into <code>Example.tmTheme</code> make a changes and save <code>Example.tmTheme</code> file. Via <a href="#themr-and-schemr">Schemr</a> select Example scheme.</p>
-			</li>
-		</ol>
-		<h4><a name="user-content-problem_1" href="#problem_1" aria-hidden="true"><span></span></a>Problem</h4>
-		<p>Will be updated <code>SashaSublime.sublime-theme</code> and <code>SashaSublime.tmTheme</code> files, no <code>Example.sublime-theme</code> and <code>Example.tmTheme</code> files. You will not see updates, if you not select SashaSublime theme and scheme files. You will need to merge you changes from SashaSublime into your file, for example, via <a href="http://www.sublimerge.com/sm3/">Sublimerge 3</a>.</p>
-		<h2><a name="user-content-known-defects" href="#known-defects" aria-hidden="true"><span></span></a>Known defects</h2>
-		<p>If you know how to solve these problems, please, <a href="https://github.com/Kristinita/SashaSublime/issues">tell me</a>.</p>
-		<ul>
-			<li><a href="https://forum.sublimetext.com/t/how-to-style-placeholders-text-like-open-files-and-folders-in-the-find-in-files-dialog/21650">not change color text «Open files and folders» in placeholder</a>,</li>
-			<li><a href="https://github.com/SublimeTextIssues/Core/issues/694">lower half of font is cut off when increasing tab_label font.size</a>,</li>
-			<li><a href="https://github.com/jisaacks/GitGutter/issues/307">reset Custom Settings icon after updating GitGutter</a>,</li>
-			<li><a href="https://forum.sublimetext.com/t/how-to-disable-new-color-scheme-generating-color-highlighter/22949">Color Highlighter are generated new schemes</a>,</li>
-			<li><a href="https://github.com/benweier/Schemr/issues/34">double schemes in Schemr list if you use Color Highlighter</a>,</li>
-			<li><a href="https://forum.sublimetext.com/t/where-i-can-to-make-regex-syntax-highlight-for-replace-with/22961">no syntax highlighting in <em>Replace With:</em> field</a>,</li>
-			<li><a href="https://forum.sublimetext.com/t/how-to-change-border-color-and-square-in-error-color-for-phantomcss/23265/3?u=sasha_chernykh">not working <code>body#inline-error</code> CSS selector in phantomCss</a>,</li>
-			<li><a href="https://github.com/SublimeTextIssues/Core/issues/1415">font-family property not worked for «Show Definition» popups</a>,</li>
-			<li><a href="http://winreview.ru/forum/viewtopic.php?f=6&amp;t=294">not change Menu Bar color in default Windows 10 theme</a>,</li>
-			<li><a href="http://winreview.ru/forum/viewtopic.php?f=6&amp;t=295">not change window border thickness in default Windows 10 theme</a>,</li>
-		</ul>
-		<h3><a name="user-content-sublimelinter-wrote-own-color-scheme-file-in-preferences" href="#sublimelinter-wrote-own-color-scheme-file-in-preferences" aria-hidden="true"><span></span></a>SublimeLinter wrote own color scheme file in preferences</h3>
-		<p>If you use <a href="https://github.com/SublimeLinter/SublimeLinter3">SublimeLinter</a>, you may not like that Sublime Linter additional sets the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:</p>
-		<p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin →
-			<kbd>Ctrl+Shift+P</kbd> → PackageResourceViewer: <code>Open Resource</code> → <code>SublimeLinter</code> → <code>lint</code> → <code>util.py</code> → in open file to comment out or remove line 215:</p>
-		<pre><code>sublime.set_timeout_async(generate_color_scheme_async, 0)
-		</code></pre>
-		<p>Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks <a href="https://github.com/r-stein">@r-stein</a> at <a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh">solution</a>.</p>
-		<h2><a name="user-content-see-also" href="#see-also" aria-hidden="true"><span></span></a>See also</h2>
-		<ul>
-			<li><a href="http://kristinita.ru">Kristinita&rsquo;s Search</a> — search engine, searching only authoritative sources, materials are written by experts on the subject.</li>
-			<li><a href="http://kristinita.ru/Sasha-Black">Sasha Black</a> — mini-service checks the reputation of your site and the availability of the site in the blacklists.</li>
-		</ul>
-		<h2><a name="user-content-thanks" href="#thanks" aria-hidden="true"><span></span></a>Thanks</h2>
-		<p>Many thanks to those who answered my questions on themes and color schemes on <a href="http://stackoverflow.com/">Stack Overflow</a>, <a href="https://forum.sublimetext.com/">English</a> and <a href="http://forum.sublimetext.ru">Russian</a> Sublime Text forums: <a href="https://github.com/keith-hall">@Keith Hall</a>, <a href="https://github.com/MattDMo">@MattDMo</a>, <a href="https://github.com/Enteleform">@Enteleform</a>, <a href="https://github.com/r-stein">@r-stein</a>, <a href="https://github.com/maximsmol">@maximsmol</a>, <a href="https://github.com/braver">@braver</a> and <a href="https://vk.com/id206422835">@Дмитрий Лоак</a>.</p>
-		<p>During the work on a theme the theme <a href="http://colorsublime.com/theme/Espresso_Libre">Espresso Libre</a> of Chris Thomas is taken as a basis.</p>
-		<h2><a name="user-content-contacts" href="#contacts" aria-hidden="true"><span></span></a>Contacts</h2>
-		<p>
-			<kbd>Ctrl+Shift+P</kbd> → <code>SashaSublime: Report SashaSublime issue</code> → write your issue.</p>
-		<p>After the Sublime Text 3 updates, settings of the color theme <a href="https://forum.sublimetext.com/t/changing-scopes-in-build-3114/20088?u=sasha_chernykh">can get off</a>. Please, if you found out that colors became not such as before, <a href="https://github.com/Kristinita/SashaSublime/issues/new">report to me</a> about it.</p>
-		<p>If the icon for your markup language or a programming language is absent in SashaSublime, you can add it independently, having carried out the <a href="http://ru.stackoverflow.com/a/544861/199934">these instructions</a> or to ask me.</p>
-		<h2><a name="user-content-donate" href="#donate" aria-hidden="true"><span></span></a>Donate</h2>
-		<p>I do not hope that I will get at least a penny, but suddenly I&rsquo;m feeling lucky&hellip; <a href="https://vk.com/hair_in_the_wind">Goddess Kira</a> needs money for dental treatment.</p>
-		<h3><a name="user-content-bitcoin" href="#bitcoin" aria-hidden="true"><span></span></a>Bitcoin</h3>
-		<p>
-			<a href="http://Kristinita.ru/Donate-files/Bitcoin-Redirect"><img alt="Bitcoin Donate Button" src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png" /></a>
-		</p>
-		<p>See <a href="http://bitcoin.stackexchange.com/a/48744/41598">my answer</a> to Bitcoin Stack Exchange, if you want to know how to make exactly the same button. If you Bitcoin client not supported <a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki">standard bitcoin schema URI</a>, my Bitcoin address is:</p>
-		<pre><code>17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
-		</code></pre>
-		<h3><a name="user-content-litecoin" href="#litecoin" aria-hidden="true"><span></span></a>Litecoin</h3>
-		<p>
-			<a href="http://Kristinita.ru/Donate-files/Litecoin-Redirect"><img alt="Litecoin Donate Button" src="http://Kristinita.ru/Donate-files/Litecoin-Donate-button.png" /></a>
-		</p>
-		<p>If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:</p>
-		<pre><code>LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP</code></pre>
-		<h3><a name="user-content-paypal" href="#paypal" aria-hidden="true"><span></span></a>Paypal $</h3>
-		<p>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=W6MP468ZZV66Q"><img alt="PayPal Dollar button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Dollar.png" /></a>
-		</p>
-		<h3><a name="user-content-paypal_1" href="#paypal_1" aria-hidden="true"><span></span></a>Paypal €</h3>
-		<p>
-			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DGT7K29LDD2HQ"><img alt="PayPal Euro button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Euro.png" /></a>
-		</p>
-		<h2><a name="user-content-license" href="#license" aria-hidden="true"><span></span></a>License</h2>
-		<p><a href="https://opensource.org/licenses/MIT">MIT License</a></p>
-		<p>Copyright (c) 2016: <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a></p>
-		<p>SashaSublime belongs to Goddess <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a>, as well as all the rest in this world. All of us are insignificant creations which completely belong Legendary to Sasha Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.</p>
-
-		<br />
-		<br />
-		<br />
-		<em>По всем касающимся статьи вопросам пишите по адресу
+        <p>Before copying save in a safe place file <em>Preferences.sublime-settings</em> from the <em>User</em> folder or, what better, use <a href="https://github.com/vishr/local-history">Local History</a> plugin. If you don&rsquo;t like my preferences, you will be able to return to your preferable settings.</p>
+        <h2><a name="user-content-setting-sashasublime-for-some-plugins" href="#setting-sashasublime-for-some-plugins" aria-hidden="true"><span></span></a>Setting SashaSublime for some plugins</h2>
+        <h3><a name="user-content-brackethighlighter_1" href="#brackethighlighter_1" aria-hidden="true"><span></span></a>BracketHighlighter</h3>
+        <p>To paint in different colors of a bracket of a plugin of BracketHighlighter, execute the following actions:</p>
+        <ul>
+            <li>Install plugin BracketHighlighter via Package Control,</li>
+            <li><em>Preferences</em> → <em>Package Settings</em> → <em>BracketHighlighter</em> → <em>Bracket Settings - User</em> → add in open file this code and save file:</li>
+        </ul>
+<pre><code data-language="json">
+{
+&quot;bracket_styles&quot;: {
+	&quot;unmatched&quot;: {
+		&quot;icon&quot;: &quot;question&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.unmatched&quot;,
+		&quot;style&quot;: &quot;highlight&quot;
+	},
+	&quot;curly&quot;: {
+		&quot;icon&quot;: &quot;curly_bracket&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.curly&quot;,
+		&quot;style&quot;: &quot;highlight&quot;
+	},
+	&quot;round&quot;: {
+		&quot;icon&quot;: &quot;round_bracket&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.round&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	},
+	&quot;square&quot;: {
+		&quot;icon&quot;: &quot;square_bracket&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.square&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	},
+	&quot;angle&quot;: {
+		&quot;icon&quot;: &quot;angle_bracket&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.angle&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	},
+	&quot;tag&quot;: {
+		&quot;icon&quot;: &quot;tag&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.tag&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	},
+	&quot;single_quote&quot;: {
+		&quot;icon&quot;: &quot;single_quote&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	},
+	&quot;double_quote&quot;: {
+		&quot;icon&quot;: &quot;double_quote&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	},
+	&quot;regex&quot;: {
+		&quot;icon&quot;: &quot;regex&quot;,
+		&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
+		&quot;style&quot;: &quot;outline&quot;
+	}
+	}
+}
+</code></pre>
+        <h3><a name="user-content-gitgutter" href="#gitgutter" aria-hidden="true"><span></span></a>GitGutter</h3>
+        <p>Probably you are faced with the <a href="https://github.com/jisaacks/GitGutter/issues/199#issuecomment-227016698">same</a> problem of small icons in GitGutter. To solve this problem, at first install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin.
+            <kbd>Ctrl+Shift+P</kbd> → <em>PackageResourceViewer: Extract Package</em> → <em>GitGutter</em>. Then <em>Preferences</em> → <em>Browse Packages...</em> → <em>icons</em> → change the already available icons to icons in folder <em>icons</em> → <em>GitGutter</em> of SashaSublime repository. Your icons for GitGutter have to replace on icons of the bigger size.</p>
+        <h2><a name="user-content-customization-non-sublime-text-settings-for-windows" href="#customization-non-sublime-text-settings-for-windows" aria-hidden="true"><span></span></a>Customization non-Sublime Text settings for Windows</h2>
+        <p>Some settings not customizable via Sublime Text, to change them, you need to use other programs.</p>
+        <p>All settings in sections <strong>Title Bar</strong> color and <strong>Winaero Tweaker</strong> will affect <strong>all</strong> programs that do not have their own settings for these options, not only for Sublime Text. You will see the changes made, and when you open other programs.</p>
+        <p>All manuals in this section for Windows 10 users, use default theme. Users of others operating systems, please, see instructions for your OS in other sources.</p>
+        <p>If you follow all the steps in this section, you will get the result:</p>
+        <strong>Active window</strong>
+        <p><img alt="Active window" src="http://i.imgur.com/AUdJEug.png" /></p>
+        <strong>Inactive window</strong>
+        <p><img alt="Inactive window" src="http://i.imgur.com/3E1qY10.png" /></p>
+        <h3><a name="user-content-changing-favicon-in-sublime-text-3" href="#changing-favicon-in-sublime-text-3" aria-hidden="true"><span></span></a>Changing favicon in Sublime Text 3</h3>
+        <p>Unfortunately, after Sublime Text updates, you will have to make this steps again.</p>
+        <p>Mac users possible help <a href="http://apple.stackexchange.com/questions/153176/changing-sublime-text-3-icon-in-dock-on-yosemite">this</a> answer.</p>
+        <p>For Windows users: download and open <a href="http://rsload.net/soft/editor/9133-resource-hacker.html">Resource Hacker</a> or <a href="http://alternativeto.net/software/resource-hacker/">alternate</a> programs for edit <em>exe</em> files. For example, in Resource Hacker: <em>File</em> → <em>Open</em> → <em>sublime_text.exe</em> → <em>Icon Group</em> → right mouse button on <em>103:3081</em> → <em>Replace Icon ...</em></p>
+        <p><img alt="Resource Hacker" src="http://i.imgur.com/XcLuNqS.png" /></p>
+        <p>→ select <em>SashaSublime.ico</em> in <em>icons</em> → <em>favicon</em> folder of this repository → <em>Replace</em> → <em>File</em> → <em>Save As</em> → <em>Yes</em> → <em>Save</em> → restart Windows.</p>
+        <p>In Sublime Text folder <em>sublime_text_original.exe</em> file is created. If you don&rsquo;t like my icons, you can replace <em>sublime_text_original.exe</em> → <em>sublime_text.exe</em>. Besides, you can always replace your <em>sublime_text.exe</em> file on <a href="https://www.sublimetext.com/3">original version</a> this file.</p>
+        <p>Examples, when use colors of «S» letter my favicon:</p>
+        <p><img alt="SashaSublime.ico" src="http://i.imgur.com/b2DxblV.png" /></p>
+        <ul>
+            <li>yellow — for smallest favicons, because is good visible; use in top left angle Sublime Text 3 and in Windows Explorer,</li>
+            <li>blue — icons in taskbar,</li>
+            <li>violet — icons on desktop,</li>
+            <li>orange — in <a href="http://portableapps.com/node/25965">Rocket Dock</a> panel and at drag and drop file with icon Sublime Text.</li>
+        </ul>
+        <h3><a name="user-content-title-bar-and-window-border-color" href="#title-bar-and-window-border-color" aria-hidden="true"><span></span></a>Title Bar and window border color</h3>
+        <p>
+            <kbd>Win+R</kbd> → insert in input area this text</p>
+        <pre><code>rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced</code></pre>
+        <p>→
+            <kbd>OK</kbd> → move thumbs. You can preview changes in title bar your window. I select orange color:</p>
+        <p><img alt="Orange Title bar" src="http://i.imgur.com/iZDK322.png" /></p>
+        <p><em>Save changes</em>. Window border will have exactly the same color as title bar.</p>
+        <p><img alt="Orange windows border" src="http://i.imgur.com/jdWUb5m.png" /></p>
+        <h3><a name="user-content-winaero-tweaker" href="#winaero-tweaker" aria-hidden="true"><span></span></a>Winaero Tweaker</h3>
+        <p>Install program <a href="http://rsload.net/soft/optimization/19590-winaero-tweaker.html">Winaero Tweaker</a> — GUI for customization Windows 10 settings — and run it.</p>
+        <h4><a name="user-content-inactive-title-bar-color" href="#inactive-title-bar-color" aria-hidden="true"><span></span></a>Inactive Title Bar color</h4>
+        <p><em>Appearance</em> → <em>Inactive Title Bars Color</em> → click on the square near <em>Current color (Click to change)</em> to select the color. I select pink color:</p>
+        <p><img alt="Pink inactive Title Bar" src="http://i.imgur.com/ZdcNwMQ.png" /></p>
+        <h4><a name="user-content-menu-bar-settings" href="#menu-bar-settings" aria-hidden="true"><span></span></a>Menu Bar settings</h4>
+        <p><em>Advanced Appearance Settings</em> → <em>Menus</em> → change values of parameters. I select <em>Adjust menu height</em> → <em>27</em>, <em>font</em> — <em>Segoe UI</em>, <em>font size</em> — <em>10</em>.</p>
+        <p><img alt="Menu Bar" src="http://i.imgur.com/TxDmEIg.png" /></p>
+        <p><em>Apply changes</em> → <em>Sign out now</em> → settings are viewed in new Windows session.</p>
+        <h4><a name="user-content-title-bar-settings" href="#title-bar-settings" aria-hidden="true"><span></span></a>Title Bar settings</h4>
+        <p><em>Advanced Appearance Settings</em> → <em>Window Title Bars</em> → change values of parameters. I select <em>Window Title bar height</em> → <em>30</em>, <em>font</em> — <em>Segoe UI</em>, <em>font size</em> — <em>11</em>.</p>
+        <p><img alt="Title bar settings" src="http://i.imgur.com/mFnVWxi.png" /></p>
+        <p><em>Apply changes</em> → <em>Sign out now</em> → settings are viewed in new Windows session.</p>
+        <h2><a name="user-content-editing-sashasublime-settings" href="#editing-sashasublime-settings" aria-hidden="true"><span></span></a>Editing SashaSublime settings</h2>
+        <p>Parameters in the file of SashaSublime package are comments in Russian. You can see which color corresponds to which element. Exception — <em>Preferences.sublime-settings</em>. Comments in this file automatically <a href="https://forum.sublimetext.com/t/bug-comments-deleted-in-preferences-user/7064/6?u=sasha_chernykh">removed</a>. About all parameters containing in <em>Preferences.sublime-settings</em> file it is <a href="http://www.sublimetext.ru/documentation/preferences/list">possible to read</a> on the Russian site Sublime Text 3.</p>
+        <p>If you don&rsquo;t like some colors in SashaSublime, you can change them yourself, see <a href="http://ru.stackoverflow.com/a/516668/199934">detailed instructions in Russian</a>. You can also find a set of other solutions on themes and schemes in other my answers on <a href="http://ru.stackoverflow.com/search?q=user:199934%20[sublime-text]%20is:answer">Stack Overflow in Russian</a> and <a href="https://toster.ru/user/Kristinita/answers">Toster</a>.</p>
+        <p>But there&rsquo;re problems. You have 2 options, how to customize SashaSublime.</p>
+        <h3><a name="user-content-editing-default-files" href="#editing-default-files" aria-hidden="true"><span></span></a>Editing default files</h3>
+        <h4><a name="user-content-steps" href="#steps" aria-hidden="true"><span></span></a>Steps</h4>
+        <p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin:
+            <kbd>Ctrl+Shift+P</kbd> → <em>PackageResourseViewer:Open Resourse</em> → <em>SashaSublime</em> → edit SashaSublime files.</p>
+        <h4><a name="user-content-problem" href="#problem" aria-hidden="true"><span></span></a>Problem</h4>
+        <p>After updates, SashaSublime your changes will be lost. You will need to copy the modified file in a separate place, and after the upgrade SashaSublime, you will need to merge you changes from your file into the file of SashaSublime, for example, via <a href="http://www.sublimerge.com/sm3/">Sublimerge 3</a>.</p>
+        <h3><a name="user-content-editing-user-files" href="#editing-user-files" aria-hidden="true"><span></span></a>Editing user files</h3>
+        <h4><a name="user-content-steps_1" href="#steps_1" aria-hidden="true"><span></span></a>Steps</h4>
+        <ol>
+            <li><strong>Theme file</strong>
+                <br />
+                <em>Preferences</em> → <em>Browse Packages...</em> → <em>User</em> → create file <em>Example.sublime-theme</em>, if you want to make a changes in theme. Instead of <em>Example</em> you can name your file by any other name. Copy the contents of the file <em>SashaSublime.sublime-theme</em> into <em>Example.sublime-theme</em> make a changes and save <em>Example.sublime-theme</em> file. Via <a href="#themr-and-schemr">Themr</a> select Example theme.
+            </li>
+            <br>
+            <li><strong>Scheme file</strong>
+                <br />
+                <em>Preferences</em> → <em>Browse Packages...</em> → <em>User</em> → create file <em>Example.tmTheme</em>. Instead of <em>Example</em> you can name your file by any other name. Copy the contents of the file <em>SashaSublime.tmTheme</em> into <em>Example.tmTheme</em> make a changes and save <em>Example.tmTheme</em> file. Via <a href="#themr-and-schemr">Schemr</a> select Example scheme.
+            </li>
+        </ol>
+        <h4><a name="user-content-problem_1" href="#problem_1" aria-hidden="true"><span></span></a>Problem</h4>
+        <p>Will be updated <em>SashaSublime.sublime-theme</em> and <em>SashaSublime.tmTheme</em> files, no <em>Example.sublime-theme</em> and <em>Example.tmTheme</em> files. You will not see updates, if you not select SashaSublime theme and scheme files. You will need to merge you changes from SashaSublime into your file, for example, via <a href="http://www.sublimerge.com/sm3/">Sublimerge 3</a>.</p>
+        <h2><a name="user-content-known-defects" href="#known-defects" aria-hidden="true"><span></span></a>Known defects</h2>
+        <p>If you know how to solve these problems, please, <a href="https://github.com/Kristinita/SashaSublime/issues">tell me</a>.</p>
+        <ul>
+            <li><a href="https://forum.sublimetext.com/t/how-to-style-placeholders-text-like-open-files-and-folders-in-the-find-in-files-dialog/21650">not change color text «Open files and folders» in placeholder</a>,</li>
+            <li><a href="https://github.com/SublimeTextIssues/Core/issues/694">lower half of font is cut off when increasing tab_label font.size</a>,</li>
+            <li><a href="https://github.com/jisaacks/GitGutter/issues/307">reset Custom Settings icon after updating GitGutter</a>,</li>
+            <li><a href="https://forum.sublimetext.com/t/how-to-disable-new-color-scheme-generating-color-highlighter/22949">Color Highlighter are generated new schemes</a>,</li>
+            <li><a href="https://github.com/benweier/Schemr/issues/34">double schemes in Schemr list if you use Color Highlighter</a>,</li>
+            <li><a href="https://forum.sublimetext.com/t/where-i-can-to-make-regex-syntax-highlight-for-replace-with/22961">no syntax highlighting in <em>Replace With:</em> field</a>,</li>
+            <li><a href="https://forum.sublimetext.com/t/how-to-change-border-color-and-square-in-error-color-for-phantomcss/23265/3?u=sasha_chernykh">not working <em>body#inline-error</em> CSS selector in phantomCss</a>,</li>
+            <li><a href="https://github.com/SublimeTextIssues/Core/issues/1415">font-family property not worked for «Show Definition» popups</a>,</li>
+            <li><a href="http://winreview.ru/forum/viewtopic.php?f=6&amp;t=294">not change Menu Bar color in default Windows 10 theme</a>,</li>
+            <li><a href="http://winreview.ru/forum/viewtopic.php?f=6&amp;t=295">not change window border thickness in default Windows 10 theme</a>,</li>
+        </ul>
+        <h3><a name="user-content-sublimelinter-wrote-own-color-scheme-file-in-preferences" href="#sublimelinter-wrote-own-color-scheme-file-in-preferences" aria-hidden="true"><span></span></a>SublimeLinter wrote own color scheme file in preferences</h3>
+        <p>If you use <a href="https://github.com/SublimeLinter/SublimeLinter3">SublimeLinter</a>, you may not like that Sublime Linter additional sets the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:</p>
+        <p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin →
+            <kbd>Ctrl+Shift+P</kbd> → PackageResourceViewer: <em>Open Resource</em> → <em>SublimeLinter</em> → <em>lint</em> → <em>util.py</em> → in open file to comment out or remove line 215:</p>
+        <pre><code>sublime.set_timeout_async(generate_color_scheme_async, 0)</code></pre>
+        <p>Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks <a href="https://github.com/r-stein">@r-stein</a> at <a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh">solution</a>.</p>
+        <h2><a name="user-content-see-also" href="#see-also" aria-hidden="true"><span></span></a>See also</h2>
+        <ul>
+            <li><a href="http://kristinita.ru">Kristinita&rsquo;s Search</a> — search engine, searching only authoritative sources, materials are written by experts on the subject.</li>
+            <li><a href="http://kristinita.ru/Sasha-Black">Sasha Black</a> — mini-service checks the reputation of your site and the availability of the site in the blacklists.</li>
+        </ul>
+        <h2><a name="user-content-thanks" href="#thanks" aria-hidden="true"><span></span></a>Thanks</h2>
+        <p>Many thanks to those who answered my questions on themes and color schemes on <a href="http://stackoverflow.com/">Stack Overflow</a>, <a href="https://forum.sublimetext.com/">English</a> and <a href="http://forum.sublimetext.ru">Russian</a> Sublime Text forums: <a href="https://github.com/keith-hall">@Keith Hall</a>, <a href="https://github.com/MattDMo">@MattDMo</a>, <a href="https://github.com/Enteleform">@Enteleform</a>, <a href="https://github.com/r-stein">@r-stein</a>, <a href="https://github.com/maximsmol">@maximsmol</a>, <a href="https://github.com/braver">@braver</a> and <a href="https://vk.com/id206422835">@Дмитрий Лоак</a>.</p>
+        <p>During the work on a theme the theme <a href="http://colorsublime.com/theme/Espresso_Libre">Espresso Libre</a> of Chris Thomas is taken as a basis.</p>
+        <h2><a name="user-content-contacts" href="#contacts" aria-hidden="true"><span></span></a>Contacts</h2>
+        <p>
+            <kbd>Ctrl+Shift+P</kbd> → <em>SashaSublime: Report SashaSublime issue</em> → write your issue.</p>
+        <p>After the Sublime Text 3 updates, settings of the color theme <a href="https://forum.sublimetext.com/t/changing-scopes-in-build-3114/20088?u=sasha_chernykh">can get off</a>. Please, if you found out that colors became not such as before, <a href="https://github.com/Kristinita/SashaSublime/issues/new">report to me</a> about it.</p>
+        <p>If the icon for your markup language or a programming language is absent in SashaSublime, you can add it independently, having carried out the <a href="http://ru.stackoverflow.com/a/544861/199934">these instructions</a> or to ask me.</p>
+        <h2><a name="user-content-donate" href="#donate" aria-hidden="true"><span></span></a>Donate</h2>
+        <p>I do not hope that I will get at least a penny, but suddenly I&rsquo;m feeling lucky&hellip; <a href="https://vk.com/hair_in_the_wind">Goddess Kira</a> needs money for dental treatment.</p>
+        <h3><a name="user-content-bitcoin" href="#bitcoin" aria-hidden="true"><span></span></a>Bitcoin</h3>
+        <p>
+            <a href="http://Kristinita.ru/Donate-files/Bitcoin-Redirect"><img alt="Bitcoin Donate Button" src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png" /></a>
+        </p>
+        <p>See <a href="http://bitcoin.stackexchange.com/a/48744/41598">my answer</a> to Bitcoin Stack Exchange, if you want to know how to make exactly the same button. If you Bitcoin client not supported <a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki">standard bitcoin schema URI</a>, my Bitcoin address is:</p>
+        <pre><code>17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2</code></pre>
+        <h3><a name="user-content-litecoin" href="#litecoin" aria-hidden="true"><span></span></a>Litecoin</h3>
+        <p>
+            <a href="http://Kristinita.ru/Donate-files/Litecoin-Redirect"><img alt="Litecoin Donate Button" src="http://Kristinita.ru/Donate-files/Litecoin-Donate-button.png" /></a>
+        </p>
+        <p>If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:</p>
+        <pre><code>LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP</code></pre>
+        <h3><a name="user-content-paypal" href="#paypal" aria-hidden="true"><span></span></a>Paypal $</h3>
+        <p>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=W6MP468ZZV66Q"><img alt="PayPal Dollar button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Dollar.png" /></a>
+        </p>
+        <h3><a name="user-content-paypal_1" href="#paypal_1" aria-hidden="true"><span></span></a>Paypal €</h3>
+        <p>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DGT7K29LDD2HQ"><img alt="PayPal Euro button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Euro.png" /></a>
+        </p>
+        <h2><a name="user-content-license" href="#license" aria-hidden="true"><span></span></a>License</h2>
+        <p><a href="https://opensource.org/licenses/MIT">MIT License</a></p>
+        <p>Copyright (c) 2016: <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a></p>
+        <p>SashaSublime belongs to Goddess <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a>, as well as all the rest in this world. All of us are insignificant creations which completely belong Legendary to Sasha Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.</p>
+        <br />
+        <br />
+        <br />
+        <em class="SashaEmNoColor">По всем касающимся статьи вопросам пишите по адресу
 				<script>eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%22%3e%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3c%2f%61%3e%27%29%3b'));</script>
-				<noscript>[Включите в браузере JavaScript для возможности связаться по электронной почте]</noscript> либо на <a href="https://github.com/Kristinita/Kristinita.github.io/issues" title="Багтрекер ГитХаба">GitHub</a>, кликнув «New Issue». С комментариями в стиле <a href="./Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a></em> оставляю право распоряжаться по собственному усмотрению.
-		<br />
-		<br />
-		<br />
-		<WorkOnYourself>Работайте над собой</WorkOnYourself>
-		<!-- Конец текста -->
-	</main>
+				<noscript>[Включите в браузере JavaScript для возможности связаться по электронной почте]</noscript> либо на <a href="https://github.com/Kristinita/Kristinita.github.io/issues" title="Багтрекер ГитХаба">GitHub</a>, кликнув «New Issue». С комментариями в стиле <a href="./Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a>оставляю право распоряжаться по собственному усмотрению.</em>
+        <br />
+        <br />
+        <br />
+        <WorkOnYourself>Работайте над собой</WorkOnYourself>
+        <!-- Конец текста -->
+    </main>
 </body>
+
 </html>
