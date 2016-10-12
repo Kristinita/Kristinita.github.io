@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="../node_modules/clipboard/lib/clipboard.js"></script>
+    <script src="../bower-components/rainbow/src/rainbow.js"></script>
+    <link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/espresso-libre.css">
+    <style type="text/css">
+    * {
+        background: sienna;
+        color: pink;
+    }
+    /* Для Rainbow*/
+    code {
+        font-size: 25px;
+    }
+    </style>
+    <script>
+    var clipboard = new Clipboard('.SashaButton');
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+</head>
+
+<body>
+    Test
+    <pre class="SashaClipboard"><code>17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2 <button class="SashaButton" data-clipboard-target=".SashaClipboard"><img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13"></button></code></pre> Example
+    <pre><code>
+        &quot;target&quot;: &quot;ansi_color_build&quot;,
+        &quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
+        </code></pre>
+</body>
+
+</html>
