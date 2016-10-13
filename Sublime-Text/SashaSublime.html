@@ -3,10 +3,10 @@
 
 <head>
     <!-- Титульная фраза -->
-    <title> </title>
+    <title>SashaSublime</title>
     <!-- Кодировка, описание страницы, адаптация для разных экранов и отображение в Edge -->
     <meta charset="utf-8">
-    <meta content="Описание">
+    <meta content="SashaSublime — theme and color scheme for Sublime Text 3, where all elements are good visible">
     <meta content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <style type="text/css">
@@ -67,6 +67,10 @@
     /* Код переносится на следующую строку, если не помещается */
     pre {
     	white-space: pre-wrap;
+		-o-tab-size: 4;
+		-moz-tab-size: 4;
+		/* Иначе tab=8 в Rainbow коде*/
+		tab-size: 4;
     }
 
     hr {
@@ -115,7 +119,7 @@
     <link rel="icon" href="../other_images/Sasha.ico" type="image/x-icon">
     <!-- Стиль страницы -->
     <link rel="stylesheet" href="../articles_css/style_right.css">
-    <link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/espresso-libre.css">
+    <link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/rainbow.css">
     <!-- Открытие ссылок в новой вкладке -->
     <base target="_blank">
 </head>
@@ -134,15 +138,13 @@
     </aside>
     <!-- Текст -->
     <main class="content-wrapper">
-        <h1 class="SashaHeader">Заголовок aside</h1>
-        <SashaVersion>Версия 0.5,
-            <time datetime="2016-04-10T00:50:00 07:00">14 апреля 2016</time>
+        <h1 class="SashaHeader">SashaSublime</h1>
+        <SashaVersion>Version 1.3.0<time datetime="2016-10-13T00:50:00 07:00">, 13 october 2016</time><img src="http://2no.co/1g9b6.png">
         </SashaVersion>
         <br />
         <br />
         <br />
         <br />
-        <h2>Заголовок H2</h2>
         <p>
             <a href="http://Kristinita.ru/Donate-files/Bitcoin-HTML-Redirect"><img alt="Bitcoin Donate Button" src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png" class="SashaInline" /></a>
             <a href="http://Kristinita.ru/Donate-files/Litecoin-HTML-Redirect"><img alt="Litecoin Donate Button" src="http://Kristinita.ru/Donate-files/Litecoin-Donate-button.png" class="SashaInline" /></a>
@@ -151,7 +153,7 @@
             <br clear="all">
             <br>
             <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" class="SashaInline" />
-            <img alt="Release" src="https://img.shields.io/badge/Release-1.2.0-orange.svg" class="SashaInline" />
+            <img alt="Release" src="https://img.shields.io/badge/Release-1.3.0-orange.svg" class="SashaInline" />
             <img src="https://img.shields.io/github/stars/Kristinita/SashaSublime.svg" alt="Stars">
             <img src="https://img.shields.io/github/forks/Kristinita/SashaSublime.svg" alt="Forks">
             <a href="https://packagecontrol.io/packages/SashaS"><img alt="Package Control" src="https://packagecontrol.herokuapp.com/downloads/SashaS.svg?style=flat-square" /></a>
@@ -395,9 +397,9 @@
         <p><img alt="Console" src="http://i.imgur.com/JwQyqyU.png" /></p>
         <h4 id="build-system-output-console">Build System output console</h4>
         <p>For get a black and white colors, Install <a href="https://github.com/aziz/SublimeANSI">SublimeANSI</a> plugin and <a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel">add</a> in your <em>.sublime-build</em> file these lines:</p>
-        <pre><code>
-		&quot;target&quot;: &quot;ansi_color_build&quot;,
-		&quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
+        <pre><code data-language="json">
+	&quot;target&quot;: &quot;ansi_color_build&quot;,
+	&quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
 		</code></pre>
         <p><img alt="Build console" src="http://i.imgur.com/4s81HhM.png" /></p>
         <h4 id="scopehunter-output-console">ScopeHunter output console</h4>
@@ -459,8 +461,7 @@
         <p>
             <kbd>Ctrl+Shift+P</kbd> → <em>Package Control: Install Package</em></p>
         <p><img alt="Install Package" src="http://i.imgur.com/qxOBpFq.png" /></p>
-        <p>Print <em>SashaS</em>. Name package in Package Control is different right name package, because <a href="https://packagecontrol.io/docs/submitting_a_package#Step_2">not recommended use «Sublime» word</a> in names of Package Control packages. </p>
-        <p><img alt="SashaS" src="http://i.imgur.com/KgvXigD.png" /></p>
+        <p>Print <em>SashaSublime</em> → <kbd>Enter</kbd>.
         <h3 id="git">Git</h3>
         <p><em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
         <pre><code>git clone https://github.com/Kristinita/SashaSublime.git</code></pre>
@@ -489,14 +490,14 @@
         <p><img alt="Scheme SashaSublime" src="http://i.imgur.com/UYOiBB9.png" /></p>
         <h3 id="manually_1">Manually</h3>
         <p>
-            <kbd>Alt+N</kbd> → <em>Settings - User</em> → add in open file 2 lines:</p>
+            <kbd>Alt+N</kbd> → <em>Settings</em> → in file in right <a href="http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html">pane</a> add 2 lines:</p>
         <pre><code data-language="json">
 &quot;color_scheme&quot;: &quot;Packages/SashaSublime/SashaSublime.tmTheme&quot;,
 &quot;theme&quot;: &quot;SashaSublime.sublime-theme&quot;,
 		</code></pre>
         <p>Be attentive, <a href="http://ru.stackoverflow.com/a/238934/199934">correctly place</a> commas, quotes, brackets and colons.</p>
         <h2 id="preferences">Preferences</h2>
-        <p>Also, you can make that all your settings were as at me. Copy into your file<em>Preferences</em> → <em>Settings - User</em> these lines from my file <em>Preferences</em> → <em>Preferences.sublime-settings</em>:</p>
+        <p>Also, you can make that all your settings were as at me. Copy into your file <em>Preferences</em> → <em>Settings - User</em> these lines from my file <em>Preferences</em> → <em>Preferences.sublime-settings</em>:</p>
         <pre><code data-language="json">
 &quot;always_show_minimap_viewport&quot;: true,
 &quot;auto_find_in_selection&quot;: false,
@@ -535,7 +536,8 @@
         </ul>
 <pre><code data-language="json">
 {
-&quot;bracket_styles&quot;: {
+  &quot;bracket_styles&quot;:
+  {
 	&quot;unmatched&quot;: {
 		&quot;icon&quot;: &quot;question&quot;,
 		&quot;color&quot;: &quot;brackethighlighter.unmatched&quot;,
@@ -581,7 +583,7 @@
 		&quot;color&quot;: &quot;brackethighlighter.quote&quot;,
 		&quot;style&quot;: &quot;outline&quot;
 	}
-	}
+  }
 }
 </code></pre>
         <h3 id="gitgutter">GitGutter</h3>
@@ -716,13 +718,13 @@
         <h2 id="license">License</h2>
         <p><a href="https://opensource.org/licenses/MIT">MIT License</a></p>
         <p>Copyright (c) 2016: <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a></p>
-        <p>SashaSublime belongs to Goddess <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a>, as well as all the rest in this world. All of us are insignificant creations which completely belong Legendary to Sasha Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.</p>
+        <p>SashaSublime belongs to Goddess <a href="https://vk.com/hair_in_the_wind">Sasha Chernykh</a>, as well as all the rest in this world. All of us are insignificant creations which completely belong to Legendary Sasha Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.</p>
         <br />
         <br />
         <br />
-        <em class="SashaEmNoColor">По всем касающимся статьи вопросам пишите по адресу
+        <em class="SashaEmNoColor">For all matters relating to article please contact me at
 				<script>eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%22%3e%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3c%2f%61%3e%27%29%3b'));</script>
-				<noscript>[Включите в браузере JavaScript для возможности связаться по электронной почте]</noscript> либо на <a href="https://github.com/Kristinita/Kristinita.github.io/issues" title="Багтрекер ГитХаба">GitHub</a>, кликнув «New Issue». С комментариями в стиле <a href="./Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a>оставляю право распоряжаться по собственному усмотрению.</em>
+				<noscript>[Включите в браузере JavaScript для возможности связаться по электронной почте]</noscript> e-mail or at <a href="https://github.com/Kristinita/SashaSublime/issues" title="Багтрекер ГитХаба">GitHub</a>, click «New Issue». With commentary in the style of <a href="./Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own discretion.</em>
         <br />
         <br />
         <br />
