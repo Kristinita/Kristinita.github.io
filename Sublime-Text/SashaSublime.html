@@ -286,6 +286,7 @@
             <li><a href="#known-defects" target="_self">Known defects</a>
                 <ol>
                     <li><a href="#sublimelinter-wrote-own-color-scheme-file-in-preferences" target="_self">SublimeLinter wrote own color scheme file in preferences</a></li>
+                    <li><a href="#changing-color-of-square-inline-error" target="_self">Changing color of square inline error</a></li>
                 </ol>
             </li>
             <li><a href="#see-also" target="_self">See also</a></li>
@@ -669,8 +670,6 @@
             <li><a href="https://forum.sublimetext.com/t/how-to-disable-new-color-scheme-generating-color-highlighter/22949">Color Highlighter are generated new schemes</a>,</li>
             <li><a href="https://github.com/benweier/Schemr/issues/34">double schemes in Schemr list if you use Color Highlighter</a>,</li>
             <li><a href="https://forum.sublimetext.com/t/where-i-can-to-make-regex-syntax-highlight-for-replace-with/22961">no syntax highlighting in <em>Replace With:</em> field</a>,</li>
-            <li><a href="https://forum.sublimetext.com/t/how-to-change-border-color-and-square-in-error-color-for-phantomcss/23265/3?u=sasha_chernykh">not working <em>body#inline-error</em> CSS selector in phantomCss</a>,</li>
-            <li><a href="https://github.com/SublimeTextIssues/Core/issues/1415">font-family property not worked for «Show Definition» popups</a>,</li>
             <li><a href="http://winreview.ru/forum/viewtopic.php?f=6&amp;t=294">not change Menu Bar color in default Windows 10 theme</a>,</li>
             <li><a href="http://winreview.ru/forum/viewtopic.php?f=6&amp;t=295">not change window border thickness in default Windows 10 theme</a>,</li>
         </ul>
@@ -680,6 +679,22 @@
             <kbd>Ctrl+Shift+P</kbd> → PackageResourceViewer: <em>Open Resource</em> → <em>SublimeLinter</em> → <em>lint</em> → <em>util.py</em> → in open file to comment out or remove line 215:</p>
         <pre><code>sublime.set_timeout_async(generate_color_scheme_async, 0)</code></pre>
         <p>Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks <a href="https://github.com/r-stein">@r-stein</a> at <a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh">solution</a>.</p>
+        <h3 id="changing-color-of-square-inline-error">Changing color of square inline error</h3>
+        <p>Color of the square of minihtml phantoms look like background color.</p>
+        <p><strong>Actual phantom</strong><br /><br>
+        <img alt="Actual phantom" src="http://i.imgur.com/C2aZ7oy.png" /></p>
+        <p><strong>Expected phantom</strong><br /><br>
+        <img alt="Expected phantom" src="http://i.imgur.com/LB5EWfR.png" /></p>
+        <p>In the files of color scheme you can not change the color of the square of minihtml phantoms. You need again edit <em>exec.py</em> file after each update Sublime Text.</p>
+       	<p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin → <kbd>Ctrl+Shift+P</kbd> → <em>PackageResourceViewer: Open Resource</em> → <em>Default</em> → <em>exec.py</em> → between <em>&lt;style&gt;&lt;/style&gt;</em> add these lines:</p>
+        <pre><code data-language="css">
+        body#inline-error div.error a
+        {
+            background-color: #28071a;
+        }
+        </code></pre>
+        <p>→ save <em>exec.py</em>.</p>
+        <p></p>
         <h2 id="see-also">See also</h2>
         <ul>
             <li><a href="http://kristinita.ru">Kristinita&rsquo;s Search</a> — search engine, searching only authoritative sources, materials are written by experts on the subject.</li>
