@@ -26,20 +26,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
     <script src="http://Kristinita.ru/bower-components/rainbow/dist/rainbow.min.js"></script>
     <script>
-    new Clipboard('.SashaButton');
+    document.addEventListener('DOMContentLoaded', _ => new Clipboard('.SashaButton'));
     </script>
     <link rel="stylesheet" type="text/css" href="http://Kristinita.ru/bower-components/rainbow/themes/css/espresso-libre.css">
 </head>
 
 <body>
     <p>Test code</p>
-    <pre class="SashaClipboard1"><code>Саша прекрасна!</code>&nbsp;<button class="SashaButton" data-clipboard-target=".SashaClipboard1"><img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13"></button></pre>
+    <pre class="SashaClipboard1"><code>Саша прекрасна!</code>&nbsp;<button class="SashaButton" data-clipboard-target=".SashaClipboard1"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13"></button></pre>
     <p>Example</p>
     <p>Another example code:</p>
     <pre class="SashaClipboard2"><code data-language="json">
         &quot;Sasha&quot;: &quot;never&quot;,
         &quot;forgive&quot;: &quot;me&quot;
-        </code><button class="SashaButton" data-clipboard-target=".SashaClipboard2"><img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13"></button></pre>
+        </code><button class="SashaButton" data-clipboard-target=".SashaClipboard2"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13"></button></pre>
 </body>
 
 </html>

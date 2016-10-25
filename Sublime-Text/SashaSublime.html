@@ -76,6 +76,12 @@
     hr {
     	color: mediumvioletred;
     }
+
+    .SashaButton {
+        position: absolute;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
     </style>
     <!--[if lt IE 9]-->
     <!-- Обтекание картинок -->
@@ -92,13 +98,7 @@
     <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
     <script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
     <script>
-    var clipboard = new Clipboard('.SashaButton');
-    clipboard.on('success', function(e) {
-        console.log(e);
-    });
-    clipboard.on('error', function(e) {
-        console.log(e);
-    });
+    document.addEventListener('DOMContentLoaded', _ => new Clipboard('.SashaButton'));
     </script>
     <script type="text/javascript">
     Cufon.set("fontFamily", "Истина");
@@ -398,10 +398,10 @@
         <p><img alt="Console" src="http://i.imgur.com/JwQyqyU.png" /></p>
         <h4 id="build-system-output-console">Build System output console</h4>
         <p>For get a black and white colors, Install <a href="https://github.com/aziz/SublimeANSI">SublimeANSI</a> plugin and <a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel">add</a> in your <em>.sublime-build</em> file these lines:</p>
-        <pre><code data-language="json">
+        <pre class="SashaClipboard1"><code data-language="json">
 	&quot;target&quot;: &quot;ansi_color_build&quot;,
 	&quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
-		</code></pre>
+		</code><button class="SashaButton" data-clipboard-target=".SashaClipboard1"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13"></button></pre>
         <p><img alt="Build console" src="http://i.imgur.com/4s81HhM.png" /></p>
         <h4 id="scopehunter-output-console">ScopeHunter output console</h4>
         <p><img alt="ScopeHunter console" src="http://i.imgur.com/CsxZ8XW.png" /></p>
@@ -465,7 +465,7 @@
         <p>Print <em>SashaSublime</em> → <kbd>Enter</kbd>.
         <h3 id="git">Git</h3>
         <p><em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
-        <pre><code>git clone https://github.com/Kristinita/SashaSublime.git</code></pre>
+        <pre class="SashaClipboard2"><code>git clone https://github.com/Kristinita/SashaSublime.git</code><button class="SashaButton" data-clipboard-target=".SashaClipboard2"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13"></button></pre>
         <h3 id="hub">Hub</h3>
         <p>I recommend use <a href="https://hub.github.com/">Hub</a> — a command-line wrapper for git that makes you better at GitHub.</p>
         <p>If you use Hub, <em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
