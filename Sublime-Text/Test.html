@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <title> </title>
-    <style type="text/css">
+    <title></title>
+    <style>
     body {
         background: sienna;
         color: pink;
@@ -13,25 +13,30 @@
     code {
         font-size: 19px;
     }
+
+    .SashaButton {
+    	position: absolute;
+    	top: 0.5rem;
+    	right: 0.5rem;
+    }
     </style>
-    <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
-    <script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
+    <script src="http://Kristinita.ru/bower-components/rainbow/dist/rainbow.min.js"></script>
     <script>
     new Clipboard('.SashaButton');
     </script>
-    <link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/espresso-libre.css">
+    <link rel="stylesheet" type="text/css" href="http://Kristinita.ru/bower-components/rainbow/themes/css/espresso-libre.css">
 </head>
 
 <body>
-    <main>
-        <p>Test</p>
-        <pre class="SashaClipboard"><code>17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2</code>&nbsp;<button class="SashaButton" data-clipboard-target=".SashaClipboard"><img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13"></button></pre>
+        <p>Test code</p>
+        <pre class="SashaClipboard1"><code>Саша прекрасна!</code>&nbsp;<button class="SashaButton" data-clipboard-target=".SashaClipboard1"><img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13"></button></pre>
         <p>Example</p>
         <p>Another example code:</p>
-        <pre><code data-language="json">
-        &quot;target&quot;: &quot;ansi_color_build&quot;,
-        &quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
-        </code></pre></main>
+        <pre class="SashaClipboard2"><code data-language="json">
+        &quot;Sasha&quot;: &quot;never&quot;,
+        &quot;forgive&quot;: &quot;me&quot;
+        </code><button class="SashaButton" data-clipboard-target=".SashaClipboard2"><img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13"></button></pre>
 </body>
 
 </html>
