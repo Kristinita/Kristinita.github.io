@@ -82,6 +82,22 @@
         right: 0.5rem;
         top: 0.5rem;
     }
+
+    .tooltipster-sidetip.tooltipster-punk-purple .tooltipster-box
+	{
+		border-radius: 5px;
+		border: none;
+		border-bottom: 3px solid orange;
+ 		background: purple
+	}
+
+	.tooltipster-sidetip.tooltipster-punk-aquamarine .tooltipster-box
+	{
+		border-radius: 5px;
+		border: none;
+		border-bottom: 3px solid hotpink;
+ 		background: forestgreen
+	}
     </style>
     <!--[if lt IE 9]-->
     <!-- Обтекание картинок -->
@@ -95,11 +111,41 @@
     <script type="text/javascript" src="../cufon/Мечта.js"></script>
     <script type="text/javascript" src="../cufon/Истина.js"></script>
     <script type="text/javascript" src="../cufon/Волнится_синей_пастой.js"></script>
+    <!-- Rainbow -->
+	<script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/rainbow.css">
+	<!-- JQuery -->
+    <script type="text/javascript" src="../bower-components/jQuery/dist/jquery.min.js"></script>
+    <!-- Tooltipster -->
+    <script type="text/javascript" src="../node_modules/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+    <script>
+    	$(document).ready(function() {
+    	var $SashaElement = $('.SashaTooltip');
+    		$SashaElement.tooltipster({
+    			content: 'Click to copy code to clipboard',
+    			theme: ['tooltipster-punk-purple'],
+    			timer: 2000,
+    			side: ['left', 'top', 'bottom', 'right']
+    		});
+    		$SashaElement.tooltipster({
+    			content: 'Copied!',
+    			theme: 'tooltipster-punk-aquamarine',
+    			trigger: 'click',
+    			multiple: true,
+    			timer: 2000,
+    			side: ['left', 'top', 'bottom', 'right']
+    		});
+    		});
+    	var instances = $.tooltipster.instances($SashaElement);
+    </script>
+    <!-- Clipboard.js -->
     <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
-    <script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', _ => new Clipboard('.SashaButton'));
     </script>
+    <!-- Настройки шрифтов -->
     <script type="text/javascript">
     Cufon.set("fontFamily", "Истина");
     Cufon.set("fontSize", "31");
@@ -401,7 +447,7 @@
         <pre class="SashaClipboard1"><code data-language="json">
 	&quot;target&quot;: &quot;ansi_color_build&quot;,
 	&quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
-		</code><button class="SashaButton" data-clipboard-target=".SashaClipboard1"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+		</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard1"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p><img alt="Build console" src="http://i.imgur.com/4s81HhM.png" /></p>
         <h4 id="scopehunter-output-console">ScopeHunter output console</h4>
         <p><img alt="ScopeHunter console" src="http://i.imgur.com/CsxZ8XW.png" /></p>
@@ -465,11 +511,11 @@
         <p>Print <em>SashaSublime</em> → <kbd>Enter</kbd>.
         <h3 id="git">Git</h3>
         <p><em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
-        <pre class="SashaClipboard2"><code>git clone https://github.com/Kristinita/SashaSublime.git</code><button class="SashaButton" data-clipboard-target=".SashaClipboard2"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard2"><code>git clone https://github.com/Kristinita/SashaSublime.git</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard2"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="hub">Hub</h3>
         <p>I recommend use <a href="https://hub.github.com/">Hub</a> — a command-line wrapper for git that makes you better at GitHub.</p>
         <p>If you use Hub, <em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
-        <pre class="SashaClipboard3"><code>hub clone Kristinita/SashaSublime</code><button class="SashaButton" data-clipboard-target=".SashaClipboard3"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard3"><code>hub clone Kristinita/SashaSublime</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard3"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="manually">Manually</h3>
         <p>Open the page <a href="https://github.com/Kristinita/SashaSublime">https://github.com/Kristinita/SashaSublime</a> in browser. In right bottom angle select
             <kbd>Clone or download</kbd> and then
@@ -495,7 +541,7 @@
         <pre class="SashaClipboard4"><code data-language="json">
 &quot;color_scheme&quot;: &quot;Packages/SashaSublime/SashaSublime.tmTheme&quot;,
 &quot;theme&quot;: &quot;SashaSublime.sublime-theme&quot;,
-		</code><button class="SashaButton" data-clipboard-target=".SashaClipboard4"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+		</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard4"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>Be attentive, <a href="http://ru.stackoverflow.com/a/238934/199934">correctly place</a> commas, quotes, brackets and colons.</p>
         <h2 id="preferences">Preferences</h2>
         <p>Also, you can make that all your settings were as at me. Copy into your file <em>Preferences</em> → <em>Settings - User</em> these lines from my file <em>Preferences</em> → <em>Preferences.sublime-settings</em>:</p>
@@ -526,7 +572,7 @@
 &quot;match_tags&quot;: false,
 &quot;menu_visible&quot;: true,
 &quot;show_encoding&quot;: true,
-		</code><button class="SashaButton" data-clipboard-target=".SashaClipboard5"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+		</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard5"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>Before copying save in a safe place file <em>Preferences.sublime-settings</em> from the <em>User</em> folder or, what better, use <a href="https://github.com/vishr/local-history">Local History</a> plugin. If you don&rsquo;t like my preferences, you will be able to return to your preferable settings.</p>
         <h2 id="setting-sashasublime-for-some-plugins">Setting SashaSublime for some plugins</h2>
         <h3 id="brackethighlighter_1">BracketHighlighter</h3>
@@ -586,7 +632,7 @@
 	}
   }
 }
-</code><button class="SashaButton" data-clipboard-target=".SashaClipboard6"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard6"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="gitgutter">GitGutter</h3>
         <p>Probably you are faced with the <a href="https://github.com/jisaacks/GitGutter/issues/199#issuecomment-227016698">same</a> problem of small icons in GitGutter. To solve this problem, at first install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin.
             <kbd>Ctrl+Shift+P</kbd> → <em>PackageResourceViewer: Extract Package</em> → <em>GitGutter</em>. Then <em>Preferences</em> → <em>Browse Packages...</em> → <em>icons</em> → change the already available icons to icons in folder <em>icons</em> → <em>GitGutter</em> of SashaSublime repository. Your icons for GitGutter have to replace on icons of the bigger size.</p>
@@ -617,7 +663,7 @@
         <h3 id="title-bar-and-window-border-color">Title Bar and window border color</h3>
         <p>
             <kbd>Win+R</kbd> → insert in input area this text</p>
-        <pre class="SashaClipboard7"><code>rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced</code><button class="SashaButton" data-clipboard-target=".SashaClipboard7"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard7"><code>rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard7"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>→
             <kbd>OK</kbd> → move thumbs. You can preview changes in title bar your window. I select orange color:</p>
         <p><img alt="Orange Title bar" src="http://i.imgur.com/iZDK322.png" /></p>
@@ -677,7 +723,7 @@
         <p>If you use <a href="https://github.com/SublimeLinter/SublimeLinter3">SublimeLinter</a>, you may not like that Sublime Linter additional sets the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:</p>
         <p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin →
             <kbd>Ctrl+Shift+P</kbd> → PackageResourceViewer: <em>Open Resource</em> → <em>SublimeLinter</em> → <em>lint</em> → <em>util.py</em> → in open file to comment out or remove line 215:</p>
-        <pre class="SashaClipboard8"><code>sublime.set_timeout_async(generate_color_scheme_async, 0)</code><button class="SashaButton" data-clipboard-target=".SashaClipboard8"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard8"><code>sublime.set_timeout_async(generate_color_scheme_async, 0)</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard8"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks <a href="https://github.com/r-stein">@r-stein</a> at <a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh">solution</a>.</p>
         <h3 id="changing-color-of-square-inline-error">Changing color of square inline error</h3>
         <p>Color of the square of minihtml phantoms look like background color.</p>
@@ -692,7 +738,7 @@
         {
             background-color: #28071a;
         }
-        </code><button class="SashaButton" data-clipboard-target=".SashaClipboard9"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        </code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard9"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>→ save <em>exec.py</em>.</p>
         <p></p>
         <h2 id="see-also">See also</h2>
@@ -715,13 +761,13 @@
             <a href="http://Kristinita.ru/Donate-files/Bitcoin-HTML-Redirect"><img alt="Bitcoin Donate Button" src="http://Kristinita.ru/Donate-files/Bitcoin-Donate-button.png" /></a>
         </p>
         <p>See <a href="http://bitcoin.stackexchange.com/a/48744/41598">my answer</a> to Bitcoin Stack Exchange, if you want to know how to make exactly the same button. If you Bitcoin client not supported <a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki">standard bitcoin schema URI</a>, my Bitcoin address is:</p>
-        <pre class="SashaClipboard10"><code>17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2</code><button class="SashaButton" data-clipboard-target=".SashaClipboard10"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard10"><code>17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard10"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="litecoin">Litecoin</h3>
         <p>
             <a href="http://Kristinita.ru/Donate-files/Litecoin-HTML-Redirect"><img alt="Litecoin Donate Button" src="http://Kristinita.ru/Donate-files/Litecoin-Donate-button.png" /></a>
         </p>
         <p>If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:</p>
-        <pre class="SashaClipboard11"><code>LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP</code><button class="SashaButton" data-clipboard-target=".SashaClipboard11"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard11"><code>LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard11"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="paypal">Paypal $</h3>
         <p>
             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=W6MP468ZZV66Q"><img alt="PayPal Dollar button" src="http://Kristinita.ru/Donate-files/PayPal-Donate-Button-Dollar.png" /></a>
