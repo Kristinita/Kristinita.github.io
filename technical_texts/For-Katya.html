@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset=utf-8>
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+    body {
+        background: sienna;
+        color: pink;
+        margin: 0;
+    }
+
+    code {
+        font-size: 19px;
+    }
+
+    .tooltipster-sidetip.tooltipster-punk-customized .tooltipster-box
+	{
+		border-radius: 5px;
+		border: none;
+		border-bottom: 3px solid orange;
+ 		background: #2a2a2a
+	}
+
+	.SashaButton {
+	    position: absolute;
+	    right: 0.5rem;
+	    top: 0.5rem;
+	}
+    </style>
+
+	<script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/rainbow.css">
+    <script type="text/javascript" src="../bower-components/jQuery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../node_modules/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+    <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
+
+   <script>
+   document.addEventListener('DOMContentLoaded', _ => new Clipboard('.SashaButton'));
+   </script>
+   <script>
+   	$(document).ready(function() {
+   	var $SashaElement = $('.SashaTooltip');
+   		$SashaElement.tooltipster({
+   			content: 'Click to copy',
+   			theme: ['tooltipster-punk-customized'],
+   			timer: 2000,
+   			side: ['bottom', 'top', 'left', 'right']
+   		});
+   		$SashaElement.tooltipster({
+   			content: 'Copied!',
+   			theme: 'tooltipster-punk',
+   			trigger: 'click',
+   			multiple: true,
+   			timer: 2000,
+   			side: ['bottom', 'top', 'left', 'right']
+   		});
+   		});
+   	var instances = $.tooltipster.instances($SashaElement);
+   </script>
+</head>
+
+<body>
+    <pre class="SashaClipboard7"><code>Example code</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard7"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+<pre class="SashaClipboard5"><code data-language="json">
+    &quot;always_show_minimap_viewport&quot;: true,
+    &quot;auto_find_in_selection&quot;: false,
+    &quot;bold_folder_labels&quot;: true,
+    &quot;caret_style&quot;: &quot;wide&quot;,
+    &quot;detect indentation&quot;: false,
+    &quot;draw_indent_guides&quot;: false,
+    &quot;draw_minimap_border&quot;: true,
+    &quot;fade_fold_buttons&quot;: false,
+    &quot;font_face&quot;: &quot;Consolas&quot;,
+    &quot;font_options&quot;:
+    [
+    	&quot;subpixel_antialias&quot;,
+    	&quot;directwrite&quot;
+    ],
+    &quot;highlight_line&quot;: true,
+    &quot;highlight_modified_tabs&quot;: true,
+    &quot;line_padding_bottom&quot;: 1,
+    &quot;line_padding_top&quot;: 1,
+    &quot;match_brackets&quot;: false,
+    &quot;match_brackets_angle&quot;: false,
+    &quot;match_brackets_braces&quot;: false,
+    &quot;match_brackets_content&quot;: false,
+    &quot;match_brackets_square&quot;: false,
+    &quot;match_tags&quot;: false,
+    &quot;menu_visible&quot;: true,
+    &quot;show_encoding&quot;: true,
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard5"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+</body>
+
+</html>
