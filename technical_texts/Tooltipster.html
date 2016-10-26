@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset=utf-8>
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+    body {
+        background: sienna;
+        color: pink;
+        margin: 0;
+    }
+
+    code {
+        font-size: 19px;
+    }</style>
+
+   <link rel="stylesheet" type="text/css" href="http://ps-studio.info/katalog/tooltips/1/tooltipster.bundle.min.css" />
+   <link rel="stylesheet" type="text/css" href="http://ps-studio.info/katalog/tooltips/1/sideTip/tooltipster-sideTip-punk.min.css" />
+   <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk-orange.min.css" />
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+   <script type="text/javascript" src="http://ps-studio.info/katalog/tooltips/1/tooltipster.bundle.min.js"></script>
+   <script>
+   	$(document).ready(function() {
+   	var $myElement = $('.tooltip');
+   		$myElement.tooltipster({
+   			content: 'Может, это ветерок Твои губы колышет',
+   			theme: 'tooltipster-punk',
+   			timer: 2000,
+   			side: ['bottom', 'top', 'left', 'right']
+   		});
+   		$myElement.tooltipster({
+   			content: 'Может, это я кричу Тебе, но Ты меня не слышишь',
+   			theme: 'tooltipster-punk-orange',
+   			trigger: 'click',
+   			multiple: true,
+   			timer: 2000,
+   			side: ['bottom', 'top', 'left', 'right']
+   		});
+   		});
+   	var instances = $.tooltipster.instances($myElement);
+   </script>
+</head>
+
+<body>
+    <img src="https://pp.vk.me/c638630/v638630177/6efb/FE4gx8Xucow.jpg" width="500" class="tooltip">
+</body>
+
+</html>
