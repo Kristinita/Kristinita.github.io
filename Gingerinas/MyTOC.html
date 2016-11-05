@@ -55,6 +55,11 @@
 	Cufon.set("fontSize", "31");
 	Cufon.replace("h2");
 	</script>
+	<script>
+	function myFunction() {
+	    document.getElementById("SashaID").target = "_self";
+	}
+	</script>
 	<!-- Иконочка Сашеньки -->
 	<link rel="shortcut icon" href="../other_images/Sasha.ico" type="image/x-icon">
 	<link rel="icon" href="../other_images/Sasha.ico" type="image/x-icon">
@@ -63,7 +68,7 @@
 	<!-- Открытие ссылок в новой вкладке -->
 	<base target="_blank">
 	<!-- TOC JS и CSS -->
-	<script src="../node_modules/html-table-of-contents/src/html-table-of-contents.js" type="text/javascript">
+	<script src="../node_modules/html-table-of-contents/src/html-table-of-contents.js">
 	</script>
 	<link rel="stylesheet" type="text/css" href="../node_modules/html-table-of-contents/html-table-of-contents.css" />
 </head>
@@ -90,8 +95,8 @@
 		</div>
 		<hr>
 		<hr>
-		<h3>Психология</h3>
-		<h3>Базы</h3>
+		<h3 id="SashaID" onclick="myFunction()">Психология</h3>
+		<h3 id="SashaID" onclick="myFunction()">Базы</h3>
 		<h3>Для прокачки</h3>
 		<h3>Полезное чтение</h3>
 		<h3>Специфические</h3>
