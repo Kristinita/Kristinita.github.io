@@ -15,7 +15,7 @@
         color: pink;
         margin: 0;
         overflow: hidden;
-        /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах*/
+        /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах*/
     }
 
     a {
@@ -98,6 +98,28 @@
 		border-bottom: 3px solid hotpink;
  		background: forestgreen
 	}
+	/* Произвольный цвет выделения в браузерах, отличных от Firefox.*/
+	::selection {
+	  background: rgba(255, 228, 181, 0.99);
+	  color: lightcoral;
+	}
+
+	::selection:window-inactive {
+	  background: rgba(255, 228, 181, 0.99);
+	  color: lightcoral;
+	}
+
+	img::selection {
+	  background: transparent;
+	  color: lightcoral;
+	}
+	/* Произвольный цвет выделения текста для Firefox */
+
+	::-moz-selection {
+		background: moccasin;
+		color: lightcoral;
+	}
+
     </style>
     <!--[if lt IE 9]-->
     <!-- Обтекание картинок -->
@@ -171,7 +193,7 @@
 
 <body>
     <!-- Бэкграунд aside -->
-    <aside class="sidebar" style="background-image: url(../aside/Шоколадка1.jpg)">
+    <aside class="sidebar" style="background-image: url(../aside/Шоколадка.jpg)">
         <div class="cover">
             <div class="cover-text">
                 <!-- Заголовок aside -->
@@ -446,7 +468,8 @@
         <pre class="SashaClipboard1"><code data-language="json">
 	&quot;target&quot;: &quot;ansi_color_build&quot;,
 	&quot;syntax&quot;: &quot;Packages/ANSIescape/ANSI.tmLanguage&quot;
-		</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard1"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard1"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p><img alt="Build console" src="http://i.imgur.com/4s81HhM.png" /></p>
         <h4 id="scopehunter-output-console">ScopeHunter output console</h4>
         <p><img alt="ScopeHunter console" src="http://i.imgur.com/CsxZ8XW.png" /></p>
@@ -510,7 +533,10 @@
         <p>Print <em>SashaSublime</em> → <kbd>Enter</kbd>.
         <h3 id="git">Git</h3>
         <p><em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
-        <pre class="SashaClipboard2"><code>git clone https://github.com/Kristinita/SashaSublime.git</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard2"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard2"><code>
+
+git clone https://github.com/Kristinita/SashaSublime.git
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard2"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="hub">Hub</h3>
         <p>I recommend use <a href="https://hub.github.com/">Hub</a> — a command-line wrapper for git that makes you better at GitHub.</p>
         <p>If you use Hub, <em>Preferences</em> → <em>Browse Packages...</em> → in this folder open terminal, preferable to you, and run command:</p>
@@ -540,7 +566,8 @@
         <pre class="SashaClipboard4"><code data-language="json">
 &quot;color_scheme&quot;: &quot;Packages/SashaSublime/SashaSublime.tmTheme&quot;,
 &quot;theme&quot;: &quot;SashaSublime.sublime-theme&quot;,
-		</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard4"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard4"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>Be attentive, <a href="http://ru.stackoverflow.com/a/238934/199934">correctly place</a> commas, quotes, brackets and colons.</p>
         <h2 id="preferences">Preferences</h2>
         <p>Also, you can make that all your settings were as at me. Copy into your file <em>Preferences</em> → <em>Settings - User</em> these lines from my file <em>Preferences</em> → <em>Preferences.sublime-settings</em>:</p>
@@ -571,7 +598,8 @@
 &quot;match_tags&quot;: false,
 &quot;menu_visible&quot;: true,
 &quot;show_encoding&quot;: true,
-		</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard5"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard5"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>Before copying save in a safe place file <em>Preferences.sublime-settings</em> from the <em>User</em> folder or, what better, use <a href="https://github.com/vishr/local-history">Local History</a> plugin. If you don&rsquo;t like my preferences, you will be able to return to your preferable settings.</p>
         <h2 id="setting-sashasublime-for-some-plugins">Setting SashaSublime for some plugins</h2>
         <h3 id="brackethighlighter_1">BracketHighlighter</h3>
@@ -631,6 +659,7 @@
 	}
   }
 }
+
 </code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard6"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <h3 id="gitgutter">GitGutter</h3>
         <p>Probably you are faced with the <a href="https://github.com/jisaacks/GitGutter/issues/199#issuecomment-227016698">same</a> problem of small icons in GitGutter. To solve this problem, at first install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin.
@@ -722,7 +751,10 @@
         <p>If you use <a href="https://github.com/SublimeLinter/SublimeLinter3">SublimeLinter</a>, you may not like that Sublime Linter additional sets the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:</p>
         <p>Install <a href="https://github.com/skuroda/PackageResourceViewer">PackageResourceViewer</a> plugin →
             <kbd>Ctrl+Shift+P</kbd> → PackageResourceViewer: <em>Open Resource</em> → <em>SublimeLinter</em> → <em>lint</em> → <em>util.py</em> → in open file to comment out or remove line 215:</p>
-        <pre class="SashaClipboard8"><code>sublime.set_timeout_async(generate_color_scheme_async, 0)</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard8"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+        <pre class="SashaClipboard8"><code>
+
+sublime.set_timeout_async(generate_color_scheme_async, 0)
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard8"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks <a href="https://github.com/r-stein">@r-stein</a> at <a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh">solution</a>.</p>
         <h3 id="changing-color-of-square-inline-error">Changing color of square inline error</h3>
         <p>Color of the square of minihtml phantoms look like background color.</p>
@@ -737,7 +769,8 @@
         {
             background-color: #28071a;
         }
-        </code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard9"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
+
+</code><button class="SashaButton SashaTooltip" data-clipboard-target=".SashaClipboard9"><img src="../other_images/clipboard.js/clippy.svg" width="13"></button></pre>
         <p>→ save <em>exec.py</em>.</p>
         <p></p>
         <h2 id="see-also">See also</h2>
