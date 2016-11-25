@@ -1,45 +1,94 @@
-<!doctype html>
-<html lang="en">
-
 <head>
-    <meta charset=utf-8>
-    <meta name=description content="">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title></title>
-    <style>
-    body {
-        background: sienna;
-        color: pink;
-        margin: 0;
-    }
+  <meta charset="utf-8">
 
-    code {
-        font-size: 19px;
-    }
+  <title>breathing halftone</title>
 
-    .SashaButton {
-        position: absolute;
-        right: 0.5rem;
-        top: 0.5rem;
-    }
-    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
-    <script src="http://Kristinita.ru/bower-components/rainbow/dist/rainbow.min.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', _ => new Clipboard('.SashaButton'));
-    </script>
-    <link rel="stylesheet" type="text/css" href="http://Kristinita.ru/bower-components/rainbow/themes/css/espresso-libre.css">
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <style>
+  .halftone {
+    width: 50%;
+    display: block;
+  }
+  </style>
+
+<meta name="wikEdStartupFlag"><script id="wikEdGetGlobalScript0">var globalObj = {};globalObj.hookNumber = 1;globalObj.scriptId = 'wikEdGetGlobalScript0';globalObj.wikEdGetGlobals = {};if (typeof skin != 'undefined') {  globalObj.wikEdGetGlobals['skin'] = skin;}if (typeof wgServer != 'undefined') {  globalObj.wikEdGetGlobals['wgServer'] = wgServer;}if (typeof wgTitle != 'undefined') {  globalObj.wikEdGetGlobals['wgTitle'] = wgTitle;}if (typeof wgCanonicalNamespace != 'undefined') {  globalObj.wikEdGetGlobals['wgCanonicalNamespace'] = wgCanonicalNamespace;}if (typeof wgArticlePath != 'undefined') {  globalObj.wikEdGetGlobals['wgArticlePath'] = wgArticlePath;}if (typeof wgScript != 'undefined') {  globalObj.wikEdGetGlobals['wgScript'] = wgScript;}if (typeof wgScriptPath != 'undefined') {  globalObj.wikEdGetGlobals['wgScriptPath'] = wgScriptPath;}if (typeof wgUserName != 'undefined') {  globalObj.wikEdGetGlobals['wgUserName'] = wgUserName;}if (typeof wgCurRevisionId != 'undefined') {  globalObj.wikEdGetGlobals['wgCurRevisionId'] = wgCurRevisionId;}if (typeof wgContentLanguage != 'undefined') {  globalObj.wikEdGetGlobals['wgContentLanguage'] = wgContentLanguage;}if (typeof wgUserLanguage != 'undefined') {  globalObj.wikEdGetGlobals['wgUserLanguage'] = wgUserLanguage;}if (typeof wgEnableAPI != 'undefined') {  globalObj.wikEdGetGlobals['wgEnableAPI'] = wgEnableAPI;}if (typeof wgPageName != 'undefined') {  globalObj.wikEdGetGlobals['wgPageName'] = wgPageName;}if (typeof wgNamespaceIds != 'undefined') {  globalObj.wikEdGetGlobals['wgNamespaceIds'] = wgNamespaceIds;}if (typeof wgFormattedNamespaces != 'undefined') {  globalObj.wikEdGetGlobals['wgFormattedNamespaces'] = wgFormattedNamespaces;}if (typeof wgUseAutomaticEditSummaries != 'undefined') {  globalObj.wikEdGetGlobals['wgUseAutomaticEditSummaries'] = wgUseAutomaticEditSummaries;}if (typeof wgVersion != 'undefined') {  globalObj.wikEdGetGlobals['wgVersion'] = wgVersion;}if (typeof wgPageContentModel != 'undefined') {  globalObj.wikEdGetGlobals['wgPageContentModel'] = wgPageContentModel;}if (typeof wikEdConfig != 'undefined') {  globalObj.wikEdGetGlobals['wikEdConfig'] = wikEdConfig;}if (typeof wikEdText != 'undefined') {  globalObj.wikEdGetGlobals['wikEdText'] = wikEdText;}var globalObjStr = 'wikEd:' + JSON.stringify(globalObj);window.postMessage(globalObjStr, 'http://www.moodurian.com');</script><meta name="wikEdSetupFlag"></head>
 <body>
-    <p>Test code</p>
-    <pre class="SashaClipboard1"><code>Саша прекрасна!</code>&nbsp;<button class="SashaButton" data-clipboard-target=".SashaClipboard1"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13"></button></pre>
-    <p>Example</p>
-    <p>Another example code:</p>
-    <pre class="SashaClipboard2"><code data-language="json">
-        &quot;Sasha&quot;: &quot;never&quot;,
-        &quot;forgive&quot;: &quot;me&quot;
-        </code><button class="SashaButton" data-clipboard-target=".SashaClipboard2"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13"></button></pre>
-</body>
 
-</html>
+  <!-- <h1>breathing halftone</h1> -->
+
+  <!-- <img id="breathing-halftone" src="http://www.moodurian.com/tornado/breathing-halftone-master/img/korodark2.jpg" /> -->
+  <img id="breathing-halftone" class="halftone" src="http://www.moodurian.com/tornado/breathing-halftone-master/martin.jpg" data-src="http://www.moodurian.com/tornado/breathing-halftone-master/martin.jpg" style="visibility: hidden; display: none;">
+
+<canvas class="halftone" width="632" height="341"></canvas><script src="http://www.moodurian.com/tornado/breathing-halftone-master/js/vector.js"></script>
+<script src="http://www.moodurian.com/tornado/breathing-halftone-master/js/particle.js"></script>
+<script src="http://www.moodurian.com/tornado/breathing-halftone-master/js/breathing-halftone.js"></script>
+<script>
+window.onload = function() {
+  var img = document.querySelector('#breathing-halftone');
+  var halftone = window.halftone = new BreathingHalftone( img, {
+
+  // ----- dot size ----- //
+
+  dotSize: 1/200,
+  // size of dots
+  // as a fraction of the diagonal of the image
+  // smaller dots = more dots = poorer performance
+
+  dotSizeThreshold: 0.05,
+  // hides dots that are smaller than a percentage
+
+  initVelocity: 0.02,
+  // speed at which dots initially grow
+
+  oscPeriod: 3,
+  // duration in seconds of a cycle of dot size oscilliation or 'breathing'
+
+  oscAmplitude: 0.2,
+  // percentage of change of oscillation
+
+  // ----- color & layout ----- //
+
+  isAdditive: true,
+  // additive is black with RGB dots,
+  // subtractive is white with CMK dots
+
+  isRadial: false,
+  // enables radial grid layout
+
+  channels: [ 'red', 'green', 'blue' ],
+  //channels: [ 'lum'],
+  // layers of dots
+  // 'lum' is another supported channel, for luminosity
+
+  isChannelLens: true,
+  // disables changing size of dots when displaced
+
+  // ----- behavior ----- //
+
+  friction: 0.06,
+  // lower makes dots easier to move, higher makes it harder
+
+  hoverDiameter: 0.3,
+  // size of hover effect
+  // as a fraction of the diagonal of the image
+
+  hoverForce: -0.02,
+  // amount of force of hover effect
+  // negative values pull dots in, positive push out
+
+  activeDiameter: 0.6,
+  // size of click/tap effect
+  // as a fraction of the diagonal of the image
+
+  activeForce: 0.01
+  // amount of force of hover effect
+  // negative values pull dots in, positive push out
+
+  });
+};
+
+</script>
+
+
+	</body>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://raw.githubusercontent.com/auth0/rel-to-abs/master/test/converter.tests.js"></script>
+    <script type="text/javascript">
+    var converter = require('rel-to-abs');
+
+    var converted = converter.convert('<img src="foo.png">', 'http://mysite.com');
+
+    converted == < img src = "http://www.thepetedesign.com/demos/planetarium_demo.html" >
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

@@ -106,7 +106,6 @@
         window.open(query).focus();
     }
     </script>
-    <!-- Конец скрипта -->
     <!-- Загрузка шрифтов -->
     <script type="text/javascript" src="bower-components/Cufon/cufon.js"></script>
     <script type="text/javascript" src="cufon/Мечта.js"></script>
@@ -122,126 +121,126 @@
     Cufon.replace("a");
     Cufon.replace("SashaHint");
     </script>
-    <!-- Конец загрузки шрифтов-->
 </head>
-
 <!-- Бэкграунд -->
+
 <body text="DarkOrange" bgcolor="Black" link="Black" alink="Violet" vlink="Pink">
     <!-- Конец бэкграунда -->
-    	<!-- Логотип -->
-        <center><font><img src="logo/Sasha_Black_logo.jpg" alt="Логотип" border="0" margin="0"></font><img src="http://2no.co/1QBY.jpg"> </center>
-        <!-- Конец логотипа -->
-        <br />
-        <br />
-        <!-- Поле ввода -->
+    <!-- Логотип -->
+    <center>
+        <font><img src="logo/Sasha_Black_logo.jpg" alt="Логотип" border="0" margin="0"></font><img src="http://2no.co/1QBY.jpg"> </center>
+    <!-- Конец логотипа -->
+    <br />
+    <br />
+    <!-- Поле ввода -->
+    <center>
+        <input class="SashaBorder" value="" name="sitename" id="sitename" required="" placeholder="Введите URL сайта" style="width:90%">
+    </center>
+    <style>
+    input {
+        font-weight: bold;
+        color: maroon;
+        height: 21px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -o-border-radius: 7px;
+        border-radius: 7px;
+    }
+
+    .SashaBorder {
+        border: 4px double black;
+        /* Параметры границы */
+        border-style: outset;
+        border-color: darkorange;
+    }
+    </style>
+    <!-- Конец поля ввода -->
+    <!-- Кнопки-->
+    <br>
+    <br>
+    <SashaGreat>Онлайн-сканеры:</SashaGreat>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://quttera.com/sitescan/');" class="SashaLove" style="color:black; background-color: lightskyblue">&nbsp;Quttera&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://sitecheck.sucuri.net/results/');" class="SashaLove" style="color:black; background-color: limegreen">&nbsp;Sucuri&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://www.isithacked.com/check/');" class="SashaLove" style="color:black; background-color: plum">&nbsp;Is&nbsp;It&nbsp;Hacked?&nbsp;</a>
+    <a href="https://www.virustotal.com/ru/" target="_blank" class="SashaLove" style="color:black; background-color: snow">&nbsp;VirusTotal&nbsp;</a>
+    <br />
+    <SashaGreat>Блэклисты:</SashaGreat>
+    <a onclick="SashaFunction(document.all.sitename.value, 'https://www.robtex.com/en/advisory/dns/');" class="SashaLove" style="color:black; background-color: bisque">&nbsp;Robtex&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a');" class="SashaLove" style="color:black; background-color: #f4a900">&nbsp;MX&nbsp;Toolbox&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://rosinstrument.com/cgi-bin/blqw.pl?key=');" class="SashaLove" style="color:black; background-color: yellow">&nbsp;Rosinstrument&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://www.urlvoid.com/scan/');" class="SashaLove" style="color:black; background-color: darkorange">&nbsp;URL&nbsp;Void&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://vurl.mysteryfcm.co.uk/default.asp?btnvURL=Dissect&selUAStr=1&selServer=0&ref=&cbxSource=on&cbxBlacklist=on&url=http%3A%2F%2F');" class="SashaLove" style="color:black; background-color: Silver">&nbsp;vURL&nbsp;</a>
+    <br />
+    <SashaGreat>Пользовательские оценки:</SashaGreat>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://www.mywot.com/en/scorecard/');" class="SashaLove" style="color:black; background-color: tomato">&nbsp;Web&nbsp;of&nbsp;Trust&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'http://www.webutations.net/go/review/');" class="SashaLove" style="color:black; background-color: seagreen">&nbsp;Webutation&nbsp;</a>
+    <a onclick="SashaFunction(document.all.sitename.value, 'https://ru.trustpilot.com/review/');" class="SashaLove" style="color:black; background-color: chocolate">&nbsp;Trustpilot&nbsp;</a>
+    <!-- Конец кнопок -->
+    <!-- Стиль кнопок и всплывающей подсказки -->
+    <style>
+    a.SashaLove {
+        color: #fff;
+        text-decoration: none;
+        background: rgb(212, 75, 56);
+        outline: none;
+        font-size: 28px;
+        border-style: outset;
+        border-color: bisque;
+        box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -o-border-radius: 14px;
+        border-radius: 14px;
+    }
+
+    a.SashaLove:hover {
+        color: #fff;
+        text-decoration: none;
+        background: rgb(212, 75, 56);
+        outline: none;
+        font-size: 28px;
+        border-style: solid;
+        border-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -o-border-radius: 14px;
+        border-radius: 14px;
+    }
+
+    a.SashaLove:active {
+        color: #fff;
+        text-decoration: none;
+        background: rgb(212, 75, 56);
+        outline: none;
+        font-size: 28px;
+        border-style: solid;
+        border-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -o-border-radius: 14px;
+        border-radius: 14px;
+        box-shadow: 0 0 0 200px rgba(0, 0, 0, .09) inset;
+    }
+    </style>
+    <!-- Конец стиля кнопок и всплывающей подсказки -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Текст -->
+    <div>
         <center>
-            <input class="SashaBorder" value="" name="sitename" id="sitename" required="" placeholder="Введите URL сайта" style="width:90%">
+            <h1>Sasha Black — проверьте свой сайт</h1>
+            <SashaMini>на онлайн-сканерах, наличие в антивирусных базах, DNSBL и прочих чёрных списках, негативной репутации</SashaMini>
+            <br />
+            <br />
+            <SashaBravo>1. Введите URL заглавной страницы. Неважно, в каком виде: kristinita.ru , http://kristinita.ru , https://kristinita.ru , kristinita.ru/ или www.kristinita.ru .
+                <br /> 2. Нажимайте на кнопки, и по ссылкам всё должно быть понятно. Если нет, читайте <a href="Sasha-Black-description" target="_blank" title="Описание Sasha Black" style="color: orchid">справку</a>.</SashaBravo>
         </center>
-        <style>
-        input {
-            font-weight: bold;
-            color: maroon;
-            height: 21px;
-            -webkit-border-radius: 7px;
-            -moz-border-radius: 7px;
-            -o-border-radius: 7px;
-            border-radius: 7px;
-        }
-
-        .SashaBorder {
-            border: 4px double black;
-            /* Параметры границы */
-            border-style: outset;
-            border-color: darkorange;
-        }
-        </style>
-        <!-- Конец поля ввода -->
-        <!-- Кнопки-->
-        <br>
-        <br>
-        <SashaGreat>Онлайн-сканеры:</SashaGreat>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://quttera.com/sitescan/');" class="SashaLove" style="color:black; background-color: lightskyblue">&nbsp;Quttera&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://sitecheck.sucuri.net/results/');" class="SashaLove" style="color:black; background-color: limegreen">&nbsp;Sucuri&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://www.isithacked.com/check/');" class="SashaLove" style="color:black; background-color: plum">&nbsp;Is&nbsp;It&nbsp;Hacked?&nbsp;</a>
-        <a href="https://www.virustotal.com/ru/" target="_blank" class="SashaLove" style="color:black; background-color: snow">&nbsp;VirusTotal&nbsp;</a>
-        <br />
-        <SashaGreat>Блэклисты:</SashaGreat>
-        <a onclick="SashaFunction(document.all.sitename.value, 'https://www.robtex.com/en/advisory/dns/');" class="SashaLove" style="color:black; background-color: bisque">&nbsp;Robtex&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a');" class="SashaLove" style="color:black; background-color: #f4a900">&nbsp;MX&nbsp;Toolbox&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://rosinstrument.com/cgi-bin/blqw.pl?key=');" class="SashaLove" style="color:black; background-color: yellow">&nbsp;Rosinstrument&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://www.urlvoid.com/scan/');" class="SashaLove" style="color:black; background-color: darkorange">&nbsp;URL&nbsp;Void&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://vurl.mysteryfcm.co.uk/default.asp?btnvURL=Dissect&selUAStr=1&selServer=0&ref=&cbxSource=on&cbxBlacklist=on&url=http%3A%2F%2F');" class="SashaLove" style="color:black; background-color: Silver">&nbsp;vURL&nbsp;</a>
-        <br />
-        <SashaGreat>Пользовательские оценки:</SashaGreat>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://www.mywot.com/en/scorecard/');" class="SashaLove" style="color:black; background-color: tomato">&nbsp;Web&nbsp;of&nbsp;Trust&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'http://www.webutations.net/go/review/');" class="SashaLove" style="color:black; background-color: seagreen">&nbsp;Webutation&nbsp;</a>
-        <a onclick="SashaFunction(document.all.sitename.value, 'https://ru.trustpilot.com/review/');" class="SashaLove" style="color:black; background-color: chocolate">&nbsp;Trustpilot&nbsp;</a>
-        <!-- Конец кнопок -->
-        <!-- Стиль кнопок и всплывающей подсказки -->
-        <style>
-        a.SashaLove {
-            color: #fff;
-            text-decoration: none;
-            background: rgb(212, 75, 56);
-            outline: none;
-            font-size: 28px;
-            border-style: outset;
-            border-color: bisque;
-            box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset;
-            -webkit-border-radius: 14px;
-            -moz-border-radius: 14px;
-            -o-border-radius: 14px;
-            border-radius: 14px;
-        }
-
-        a.SashaLove:hover {
-            color: #fff;
-            text-decoration: none;
-            background: rgb(212, 75, 56);
-            outline: none;
-            font-size: 28px;
-            border-style: solid;
-            border-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            -webkit-border-radius: 14px;
-            -moz-border-radius: 14px;
-            -o-border-radius: 14px;
-            border-radius: 14px;
-        }
-
-        a.SashaLove:active {
-            color: #fff;
-            text-decoration: none;
-            background: rgb(212, 75, 56);
-            outline: none;
-            font-size: 28px;
-            border-style: solid;
-            border-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            -webkit-border-radius: 14px;
-            -moz-border-radius: 14px;
-            -o-border-radius: 14px;
-            border-radius: 14px;
-            box-shadow: 0 0 0 200px rgba(0, 0, 0, .09) inset;
-        }
-        </style>
-        <!-- Конец стиля кнопок и всплывающей подсказки -->
-        <br />
-        <br />
-        <br />
-        <br />
-        <!-- Текст -->
-        <div>
-            <center>
-                <h1>Sasha Black — проверьте свой сайт</h1>
-                <SashaMini>на онлайн-сканерах, наличие в антивирусных базах, DNSBL и прочих чёрных списках, негативной репутации</SashaMini>
-                <br />
-                <br />
-                <SashaBravo>1. Введите URL заглавной страницы. Неважно, в каком виде: kristinita.ru , http://kristinita.ru , https://kristinita.ru , kristinita.ru/ или www.kristinita.ru .
-                    <br /> 2. Нажимайте на кнопки, и по ссылкам всё должно быть понятно. Если нет, читайте <a href="Sasha-Black-description" target="_blank" title="Описание Sasha Black" style="color: orchid">справку</a>.</SashaBravo>
-            </center>
-        </div>
-        <!-- Конец текста -->
+    </div>
+    <!-- Конец текста -->
 </body>
 
 </html>
