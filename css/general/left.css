@@ -1,0 +1,413 @@
+a
+{
+	text-decoration: none; /* Чтобы ссылки не подчёркивались */
+}
+body
+{
+	font-family: Arial;
+	font-size: 19px;
+
+	overflow: hidden; /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах*/
+
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+html
+{
+	overflow-x: hidden; /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах */
+}
+blockquote
+{
+	font-size: 19px;
+	font-style: italic;
+
+	margin: 10px 40px;
+	padding: 15px;
+}
+ol,
+ul
+{
+	list-style-position: inside;
+	/* Чтобы маркеры списка не пропадали на мобильных версиях */
+}
+
+h1
+{
+	font-family: Tahoma;
+	font-size: 3em;
+}
+
+.SashaHeader
+{
+	line-height: .7em;
+	/* Интерлиньяж в заголовке */
+}
+
+time
+{
+	font-size: .9em;
+	font-weight: bold;
+}
+
+img,
+iframe
+{
+	max-width: 100%;
+}
+
+
+.leftimg
+{
+	float: left;
+	/* Картинка слева */
+
+	margin: 5px 5px 5px 0;
+	/* Расстояние между картинкой и текстом */
+}
+
+.rightimg
+{
+	float: right;
+	/* Картинка справа */
+
+	margin: 5px 0 5px 5px;
+	/* Расстояние между картинкой и текстом */
+}
+
+sashaversion
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.sidebar
+{
+	font-size: 5px;
+	line-height: 1;
+
+	display: none;
+	float: right;
+
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: cover;
+}
+
+.cover
+{
+	position: relative;
+
+	text-align: center;
+}
+
+.sidebar,
+.cover
+{
+	width: 100%;
+	height: 100vh;
+}
+ul li
+{
+	margin-left: 1em;
+}
+/*Отступ от левого края элементов вложенного списка*/
+
+.Sasha140
+{
+	width: 140px;
+}
+
+.Sasha280
+{
+	width: 280px;
+}
+
+
+.Sasha470
+{
+	width: 470px;
+}
+
+.Sasha700
+{
+	width: 700px;
+}
+
+@media screen and (min-width: 1px)
+{
+	.sidebar
+	{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 640px)
+{
+	.nav-main
+	{
+		text-align: center;
+	}
+	.nav-main a:not(.blog-logo)
+	{
+		display: block;
+	}
+	.nav-main .blog-logo
+	{
+		width: auto;
+	}
+	.sidebar
+	{
+		display: block;
+	}
+}
+@media screen and (max-width: 960px)
+{
+	.nav-main a
+	{
+		font-size: .875em;
+	}
+}
+@media screen and (min-width: 960px)
+{
+	#switcher
+	{
+		display: block;
+	}
+	.main-header
+	{
+		position: static;
+	}
+	.nav-main
+	{
+		padding: 0;
+
+		text-align: left;
+	}
+	.nav-main a
+	{
+		font-size: .8125em;
+
+		display: block;
+
+		margin: 0;
+		padding-right: 2em;
+	}
+	.sidebar
+	{
+		position: fixed;
+		z-index: 200;
+		top: 0;
+		left: 0;
+
+		display: block;
+
+		width: 35%;
+		height: 100%;
+
+		background-attachment: scroll;
+	}
+	.content-wrapper
+	{
+		width: 59%;
+		max-width: 1000px;
+		margin-left: 38%;
+	}
+	main
+	{
+		padding-top: 1em;
+	}
+	footer[role='contentinfo']
+	{
+		width: 55%;
+		max-width: 1000px;
+		margin-left: 35%;
+	}
+}
+.Sasha
+{
+	font: 27px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	float: right;
+
+	padding: 11px 32px;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: #ff8c00;
+	border: solid 4px #ffb6c1;
+	border-radius: 14px;
+	background-color: #ffe4e1;
+	background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+	background-image:     linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Sasha:hover
+{
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	padding: 11px 32px;
+
+	color: #ff8c00;
+	border: solid 4px #ffb6c1;
+	border-radius: 14px;
+	background-color: #ffe4e1;
+	background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+	background-image:     linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Sasha:active
+{
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	padding: 11px 32px;
+
+	color: #ee82ee;
+	border: solid 4px #ffb6c1;
+	border-radius: 14px;
+	background-color: #ffe4e1;
+	background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+	background-image:     linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Chernykh
+{
+	font: 27px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	float: right;
+
+	padding: 11px 32px;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: #ff8c00;
+	border: solid 4px #ffe4c4;
+	border-radius: 14px;
+	background-color: #fdf5e6;
+	background-image: -ms-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+	background-image:     linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Chernykh:hover
+{
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	padding: 11px 32px;
+
+	color: #ff8c00;
+	border: solid 4px #ffe4c4;
+	border-radius: 14px;
+	background-color: #f5fffa;
+	background-image: -ms-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+	background-image:     linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Chernykh:active
+{
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	padding: 11px 32px;
+
+	color: #add8e6;
+	border: solid 4px #ffe4c4;
+	border-radius: 14px;
+	background-color: #f5fffa;
+	background-image: -ms-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+	background-image:     linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Empress
+{
+	font: 27px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	float: right;
+
+	padding: 11px 32px;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: #ff8c00;
+	border: solid 4px #ba55d8;
+	border-radius: 14px;
+	background-color: #dda0dd;
+	background-image: -ms-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+	background-image:     linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Empress:hover
+{
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	padding: 11px 32px;
+
+	color: #ff8c00;
+	border: solid 4px #ba55d8;
+	border-radius: 14px;
+	background-color: #ee82ee;
+	background-image: -ms-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+	background-image:     linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.Empress:active
+{
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+
+	padding: 11px 32px;
+
+	color: #ffc0cb;
+	border: solid 4px #ba55d8;
+	border-radius: 14px;
+	background-color: #ee82ee;
+	background-image: -ms-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+	background-image:     linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+
+}
+.SashaShadow
+{
+	font-family: 'Times New Roman';
+	font-size: 1.6em; /* Размер надписи */
+
+	width: auto;
+
+	text-shadow: 0 0 10px rgba(255,0,222,1) , 0 0 20px rgba(255,0,222,1) , 0 0 30px rgba(255,0,222,1) , 0 0 40px rgba(255,0,222,1) , 0 0 50px rgba(255,0,222,1) , 0 0 60px rgba(255,0,222,1)  ; /* Параметры тени */
+}
+
+.SashaCenter
+{
+	text-align: center;
+}
