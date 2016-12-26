@@ -1,5 +1,5 @@
 	a {
-		text-decoration: none;
+		text-decoration: none; /* Отменить подчёркивание ссылок */
 	}
 	body {
 	    width: 100%;
@@ -9,8 +9,6 @@
 	}
 
 	html {
-	    -ms-text-size-adjust: 100%;
-	    -webkit-text-size-adjust: 100%;
 	    overflow-x: hidden;
 	}
 	blockquote {
