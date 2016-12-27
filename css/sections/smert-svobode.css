@@ -1,0 +1,62 @@
+body {
+	background: rgb(008, 005, 078);
+	color: lavenderblush;
+}
+
+a {
+	text-decoration: none;
+	color: plum;
+	/* Цвет ссылок */
+}
+
+h2 {
+	color: lightcoral;
+}
+
+.cover-text {
+	color: #fff;
+}
+
+blockquote {
+	border-left: solid lavender 5px;
+	color: slateblue;
+	background: #fcfcfc;
+}
+/* Подчёркивание точками */
+SashaDot {
+	border-bottom: 1px dotted mediumvioletred;
+	/* Параметры линии */
+}
+
+/* Светлое подчёркивание точками */
+SashaDotLight {
+	border-bottom: 1px dotted cornsilk;
+}
+
+.SashaBlockquote {
+	border-color: #FF5730;
+	background-color: peachpuff;
+	color: mediumvioletred;
+}
+
+.SashaBlockquote a {
+	color: red;
+}
+
+.SashaEpigraph {
+	color: bisque;
+}
+
+.SashaEpigraph cite {
+	color: lightpink;
+}
+
+/* Цитата между разноуровневыми кавычками */
+SashaCitation {
+	color: lightgreen;
+}
+/* Текст в цвете */
+SashaSpan {
+	color: mediumvioletred;
+	background-color: bisque;
+}

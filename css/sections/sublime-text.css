@@ -1,0 +1,47 @@
+body {
+    background: sienna;
+    color: pink;
+}
+
+a {
+    color: violet;
+    /* Цвет ссылок */
+}
+
+em {
+    color: deepskyblue;
+}
+
+.cover-text {
+    color: #fff;
+}
+
+/* Тени для изображений */
+img {
+    box-shadow: 0 0 2rem black;
+}
+
+blockquote {
+    border-left: solid lavender 5px;
+    color: slateblue;
+    background: #fcfcfc;
+}
+    .SashaEmNoColor {
+        color: pink;
+    }
+
+    kbd {
+        background: maroon;
+    }
+
+    hr {
+    	color: mediumvioletred;
+    }
+
+
+	/* Произвольный цвет выделения текста для Firefox */
+
+	::-moz-selection {
+		background: moccasin;
+		color: lightcoral;
+	}

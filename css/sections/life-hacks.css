@@ -1,0 +1,39 @@
+body {
+    background: rgb(135, 225, 190);
+    color: rgb(070, 085, 080);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(220, 063, 023);
+    /* Цвет ссылок */
+}
+dfn {
+    color: palevioletred;
+}
+
+kbd {
+    background: #e7e9db;
+}
+
+.cover-text {
+    color: #fff;
+    bottom: 8%;
+}
+
+blockquote {
+    border-left: solid palevioletred 5px;
+    color: navy;
+    background: #fcfcfc;
+}
+/*
+ * Русские буквы как маркеры списка
+ */
+.russianletters {
+	list-style-type: none;
+	/* Прячем исходную нумерацию */
+}
+
+.russianletters li {
+	margin: 0;
+}

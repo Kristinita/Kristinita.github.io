@@ -1,0 +1,20 @@
+body {
+	background: rgb(243, 239, 214);
+	color: rgb(115, 142, 139);
+}
+
+a {
+	color: rgb(188, 132, 117);
+	/* Цвет ссылок */
+}
+
+.cover-text {
+	color: #fff;
+	bottom: 8%;
+}
+
+blockquote {
+	border-left: solid lavender 5px;
+	color: slateblue;
+	background: #fcfcfc;
+}
