@@ -60,6 +60,7 @@ img
 {
     max-width: 100%;
     margin: 0 auto;
+
 }
 
 kbd
@@ -231,7 +232,6 @@ sashaversion
         position: fixed;
         z-index: 200;
         top: 0;
-        right: 0;
 
         display: block;
 
@@ -244,7 +244,6 @@ sashaversion
     {
         width: 59%;
         max-width: 1000px;
-        margin-left: 3%;
     }
     main
     {
