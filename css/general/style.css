@@ -182,14 +182,6 @@ sashaversion
     {
         text-align: center;
     }
-    .nav-main a:not(.blog-logo)
-    {
-        display: block;
-    }
-    .nav-main .blog-logo
-    {
-        width: auto;
-    }
     .sidebar
     {
         display: block;
