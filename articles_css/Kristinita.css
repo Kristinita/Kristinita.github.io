@@ -1,348 +1,366 @@
-body {
+body
+{
     margin: 0;
     padding-right: 0;
 }
 
-a {
+a
+{
     text-decoration: none;
 }
 
-html {
+html
+{
     overflow-x: hidden;
 }
 
-@media screen and (max-width: 1600px) {
-    div.for-example {
+@media screen and (max-width: 1600px)
+{
+    div.for-example
+    {
         width: 1500px;
     }
 }
 
-@media screen and (max-width: 1280px) {
-    div.for-example {
+@media screen and (max-width: 1280px)
+{
+    div.for-example
+    {
         width: 1100px;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    div.for-example {
+@media screen and (max-width: 1024px)
+{
+    div.for-example
+    {
         width: 980px;
     }
 }
 
-body {
-    background-color: papayawhip;
+body
+{
     color: mediumvioletred;
-    background: url("../backgrounds/Бэкграунд_Красные_листья.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../backgrounds/Бэкграунд_Красные_листья.jpg') no-repeat center center fixed;
+    background-color: papayawhip;
     background-size: cover;
 }
 
-img {
-    max-width: 100%
+img
+{
+    max-width: 100%;
 }
 
 
 /* Кнопки */
 
-.Sasha {
-    text-decoration: none;
-    text-align: center;
-    float: right;
-    padding: 11px 32px;
-    border: solid 4px #ffb6c1;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
+.Sasha
+{
     font: 27px Tahoma, Geneva, sans-serif;
     font-weight: bold;
+
+    float: right;
+
+    padding: 11px 32px;
+
+    text-align: center;
+    text-decoration: none;
+
     color: #ff8c00;
+    border: solid 4px #ffb6c1;
+    border-radius: 14px;
     background-color: #ffe4e1;
-    background-image: -moz-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
     background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -o-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image:     -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image:         linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#ffc0cb', GradientType=0);
-    background-image: linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
 }
 
-.Sasha:hover {
-    padding: 11px 32px;
-    border: solid 4px #ffb6c1;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
+.Sasha:hover
+{
     font: 36px Tahoma, Geneva, sans-serif;
     font-weight: bold;
+
+    padding: 11px 32px;
+
     color: #ff8c00;
+    border: solid 4px #ffb6c1;
+    border-radius: 14px;
+    background-color: #ffe4e1;
+    background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image:     -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image:         linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
     background-position: 0 -32px;
-    background-color: #ffe4e1;
-    background-image: -moz-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -o-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#ffc0cb', GradientType=0);
-    background-image: linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
 }
 
-.Sasha:active {
+.Sasha:active
+{
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+
     padding: 11px 32px;
+
+    color: #ee82ee;
     border: solid 4px #ffb6c1;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
     border-radius: 14px;
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    color: #EE82EE;
-    background-position: 0 -64px;
     background-color: #ffe4e1;
-    background-image: -moz-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
     background-image: -webkit-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -o-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    background-image: -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image:     -ms-linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-image:         linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
+    background-position: 0 -64px;
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc0cb', endColorstr='#ffc0cb', GradientType=0);
-    background-image: linear-gradient(top, #ffe4e1 0%, #ffc0cb 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
 }
 
-.Chernykh {
-    text-decoration: none;
-    text-align: center;
-    float: right;
-    padding: 11px 32px;
-    border: solid 4px #FFE4C4;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
+.Chernykh
+{
     font: 27px Tahoma, Geneva, sans-serif;
     font-weight: bold;
-    color: #ff8c00;
-    background-color: #FDF5E6;
-    background-image: -moz-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -webkit-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -o-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -ms-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
-    background-image: linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-}
 
-.Chernykh:hover {
-    padding: 11px 32px;
-    border: solid 4px #FFE4C4;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    color: #ff8c00;
-    background-color: #f5fffa;
-    background-image: -moz-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -webkit-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -o-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -ms-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
-    background-image: linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-}
-
-.Chernykh:active {
-    padding: 11px 32px;
-    border: solid 4px #FFE4C4;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    color: #ADD8E6;
-    background-color: #f5fffa;
-    background-image: -moz-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -webkit-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -o-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    background-image: -ms-linear-gradient(top, #FDF5E6 0%, #FFDEAD 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
-    background-image: linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-}
-
-.Empress {
-    text-decoration: none;
-    text-align: center;
     float: right;
+
     padding: 11px 32px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #ff8c00;
+    border: solid 4px #ffe4c4;
+    border-radius: 14px;
+    background-color: #fdf5e6;
+    background-image: -webkit-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+    background-image:     -ms-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+    background-image: -webkit-linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    background-image:         linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
+}
+
+.Chernykh:hover
+{
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+
+    padding: 11px 32px;
+
+    color: #ff8c00;
+    border: solid 4px #ffe4c4;
+    border-radius: 14px;
+    background-color: #f5fffa;
+    background-image: -webkit-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+    background-image:     -ms-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+    background-image: -webkit-linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    background-image:         linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
+}
+
+.Chernykh:active
+{
+    font: 36px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+
+    padding: 11px 32px;
+
+    color: #add8e6;
+    border: solid 4px #ffe4c4;
+    border-radius: 14px;
+    background-color: #f5fffa;
+    background-image: -webkit-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+    background-image:     -ms-linear-gradient(top, #fdf5e6 0%, #ffdead 100%);
+    background-image: -webkit-linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    background-image:         linear-gradient(top, #f5fffa 0%, #f0f8ff 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f8ff', endColorstr='#f0f8ff', GradientType=0);
+}
+
+.Empress
+{
+    font: 27px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+
+    float: right;
+
+    padding: 11px 32px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #ff8c00;
     border: solid 4px #ba55d8;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
     border-radius: 14px;
-    font: 27px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    color: #ff8c00;
-    background-color: #DDA0DD;
-    background-image: -moz-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -o-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -ms-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-color: #dda0dd;
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+    background-image:     -ms-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    background-image:         linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
-    background-image: linear-gradient(top, #ee82ee 0%, #da70d6 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
 }
 
-.Empress:hover {
-    padding: 11px 32px;
-    border: solid 4px #ba55d8;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
+.Empress:hover
+{
     font: 36px Tahoma, Geneva, sans-serif;
     font-weight: bold;
+
+    padding: 11px 32px;
+
     color: #ff8c00;
+    border: solid 4px #ba55d8;
+    border-radius: 14px;
     background-color: #ee82ee;
-    background-image: -moz-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -o-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -ms-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+    background-image:     -ms-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    background-image:         linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
-    background-image: linear-gradient(top, #ee82ee 0%, #da70d6 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
 }
 
-.Empress:active {
-    padding: 11px 32px;
-    border: solid 4px #ba55d8;
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
+.Empress:active
+{
     font: 36px Tahoma, Geneva, sans-serif;
     font-weight: bold;
+
+    padding: 11px 32px;
+
     color: #ffc0cb;
+    border: solid 4px #ba55d8;
+    border-radius: 14px;
     background-color: #ee82ee;
-    background-image: -moz-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -o-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
-    background-image: -ms-linear-gradient(top, #ee82ee 0%, #BA55D3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+    background-image:     -ms-linear-gradient(top, #ee82ee 0%, #ba55d3 100%);
+    background-image: -webkit-linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    background-image:         linear-gradient(top, #ee82ee 0%, #da70d6 100%);
+    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
-    background-image: linear-gradient(top, #ee82ee 0%, #da70d6 100%);
-    -webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #ffffff;
 }
 
-.button {
+.button
+{
+    font: normal 28px/normal 'Lora', 'Palatino Linotype', 'Book Antiqua';
+
     display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+
     box-sizing: border-box;
     padding: 0;
-    border: none;
-    font: normal 28px/normal "Lora", "Palatino Linotype", "Book Antiqua";
-    color: #7FFF00;
-    text-decoration: normal;
+
+    -webkit-transition: all 200ms cubic-bezier(.42, 0, .58, 1);
+            transition: all 200ms cubic-bezier(.42, 0, .58, 1);
     text-align: center;
-    -o-text-overflow: clip;
-    text-overflow: clip;
     white-space: pre;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #7FFF00, 0 0 70px #7FFF00, 0 0 80px #7FFF00, 0 0 100px #7FFF00;
-    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    text-decoration: normal;
+    text-overflow: clip;
+
+    color: #7fff00;
+    border: none;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #7fff00, 0 0 70px #7fff00, 0 0 80px #7fff00, 0 0 100px #7fff00;
 }
 
-.button:hover {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #FFEFD5, 0 0 70px #FFEFD5, 0 0 80px #FFEFD5, 0 0 100px #FFEFD5;
+.button:hover
+{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ffefd5, 0 0 70px #ffefd5, 0 0 80px #ffefd5, 0 0 100px #ffefd5;
 }
 
 /* Подвал в head */
 
-.SashaFooter {
+.SashaFooter
+{
     position: relative;
+    bottom: 0;
     /* Фиксированное положение */
     left: 0;
-    bottom: 0;
+    /* Цвет текста */
+
+    width: 100%;
     /* Левый нижний угол */
     padding: 14px;
     /* Поля вокруг текста */
+
     color: orange;
-    /* Цвет текста */
-    width: 100%;
     /* Ширина слоя */
 }
 
 
 /* Выравнивание по центру*/
 
-.SashaCenter {
+.SashaCenter
+{
     text-align: center;
 }
 
 
 /* Надпись Поиск Кристиниты*/
 
-.SashaKristinita {
-    letter-spacing: 2px;
-    text-shadow: 0 1px 0 #FFA500, 0 2px 0 #FFA500, 0 3px 0 #FFD700, 0 4px 0 #ffae42, 0 5px 0 #FFEFD5, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
-    color: darkorange;
+.SashaKristinita
+{
     font-size: 3em;
     font-style: italic;
+
+    letter-spacing: 2px;
+
+    color: darkorange;
+    text-shadow: 0 1px 0 #ffa500, 0 2px 0 #ffa500, 0 3px 0 #ffd700, 0 4px 0 #ffae42, 0 5px 0 #ffefd5, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
 
 
 /* Надпись beta */
 
-.SashaBeta {
-    color: darkorange;
+.SashaBeta
+{
     font-size: 2.5em;
     font-style: italic;
+
+    color: darkorange;
 }
 
 
 /* Надпись «Минималистская версия*/
 
-.SashaMinimal {
-    color: #ffbf00;
-    font-family: "Palatino Linotype, Geneva, sans-serif";
+.SashaMinimal
+{
+    font-family: 'Palatino Linotype, Geneva, sans-serif';
     font-weight: bold;
     font-style: italic;
+
+    color: #ffbf00;
 }
 
 
 /* Надпись копирайта */
 
-.SashaCopyright {
-    color: gold;
-    font-family: "Palatino Linotype, Geneva, sans-serif";
+.SashaCopyright
+{
+    font-family: 'Palatino Linotype, Geneva, sans-serif';
     font-weight: bold;
+
+    color: gold;
 }
 
 
 /*Ссылка на Божий профиль ВКонтакте*/
 
-.SashaVKontakte {
+.SashaVKontakte
+{
     color: gold;
 }
 
 
 /*Сашин логотип*/
 
-.SashaLogo {
+.SashaLogo
+{
     text-align: left;
 }
