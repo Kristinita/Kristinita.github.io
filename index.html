@@ -30,6 +30,7 @@
     <link rel="search" type="application/opensearchdescription+xml" title="Поиск Кристиниты" href="opensearch.xml">
     <!-- Открытие ссылок в новой вкладке -->
     <base target="_blank">
+    <script src="./bower-components/jQuery/dist/jquery.min.js"></script>
 </head>
 
 <body>
@@ -39,6 +40,7 @@
     <a href="http://cyclowiki.org/wiki/Участник:Саша_Черных/Поиск_Кристиниты/Каталог_Кристиниты" class="Empress" style="float:right" title="Каталог Кристиниты. Полный список включённых сайтов и некоторые не вошедшие в него.">Каталог</a>
     <a href="http://cyclowiki.org/wiki/Участник:Саша_Черных/Поиск_Кристиниты/Примеры" class="Chernykh" style="float:right" title="Обзор сервисов поиска энциклопедичесremovкой информации и сравнение с ними Поиска Кристиниты">Примеры</a>
     <a href="http://cyclowiki.org/wiki/Участник:Саша_Черных/Поиск_Кристиниты" class="Sasha" style="float:right" title="Подробный рассказ о Поиске Кристиниты">Описание</a>
+
     <br />
     <br />
     <br />
@@ -79,6 +81,7 @@
         s.parentNode.insertBefore(gcse, s);
     })();
     </script>
+    <!-- JQuery -->
     <gcse:search enableHistory=true enableAutoComplete=true autoCompleteMaxCompletions="10" enableOrderBy=false> </gcse:search>
     <br />
     <!-- Девиз -->
@@ -87,10 +90,6 @@
         <link href="https://fonts.googleapis.com/css?family=Lora" data-generated="http://enjoycss.com" rel="stylesheet" /><img src="http://2no.co/18mR.png" alt="">
     </div>
     <br />
-    <!-- Закладки QIP -->
-    <div align="center">
-        <script src="//pip.qip.ru/js/pip_button.js" charset="utf-8" data-type="2"></script>
-    </div>
     <br />
     <!-- Подвал -->
     <div class="SashaFooter">
@@ -117,6 +116,18 @@
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hcc, s.nextSibling);
     })();
+    </script>
+    <!-- Хоткеи для поисковой формы, работает в Firefox и Internet Explorer, см. http://ru.stackoverflow.com/a/560571/199934 -->
+    <script>
+    	$(document).ready(function() {
+    	  function setAccessKey() {
+    	    if ($('#gsc-i-id1').length === 0)
+    	      setTimeout(setAccessKey, 500);
+    	    else
+    	      $('#gsc-i-id1').attr('accesskey', 'k');
+    	  }
+    	  setTimeout(setAccessKey, 500); // Нужно, потому что поиск от Google может загрузиться позже страницы
+    	});
     </script>
 </body>
 
