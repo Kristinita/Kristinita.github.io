@@ -2,7 +2,7 @@
 * @Author: Kristinita
 * @Date:   2016-11-25 10:51:23
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2017-01-07 18:28:44
+* @Last Modified time: 2017-01-07 18:52:32
 */
 
 body
@@ -260,7 +260,7 @@ img
     font-size: 40px;
 
     color: #7fff00;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #7fff00, 0 0 70px #7fff00, 0 0 80px #7fff00, 0 0 100px #7fff00;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 40px #7fff00, 0 0 0 #7fff00, 0 0 0 #7fff00, 0 0 0 #7fff00;
 }
 
 .SashaMotto:hover
