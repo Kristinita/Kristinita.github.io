@@ -1,3 +1,9 @@
+/*
+* @Author: Kristinita
+* @Date:   2016-12-26 15:48:38
+* @Last Modified by:   Kristinita
+* @Last Modified time: 2017-01-07 17:49:30
+*/
 a
 {
     text-decoration: none; /* Чтобы ссылки не подчёркивались */
@@ -356,6 +362,7 @@ pre
 {
     white-space: pre-wrap;
     -moz-tab-size: 4;
+    -o-tab-size: 4;
     /* Иначе tab=8 в Rainbow коде*/
          tab-size: 4;
 }

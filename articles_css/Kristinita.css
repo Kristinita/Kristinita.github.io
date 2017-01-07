@@ -1,3 +1,10 @@
+/*
+* @Author: Kristinita
+* @Date:   2016-11-25 10:51:23
+* @Last Modified by:   Kristinita
+* @Last Modified time: 2017-01-07 18:28:44
+*/
+
 body
 {
     margin: 0;
@@ -13,7 +20,6 @@ html
 {
     overflow-x: hidden;
 }
-
 @media screen and (max-width: 1600px)
 {
     div.for-example
@@ -248,28 +254,16 @@ img
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6', GradientType=0);
 }
 
-.button
+.SashaMotto
 {
-    font: normal 28px/normal 'Lora', 'Palatino Linotype', 'Book Antiqua';
-
-    display: inline-block;
-
-    box-sizing: border-box;
-    padding: 0;
-
-    -webkit-transition: all 200ms cubic-bezier(.42, 0, .58, 1);
-            transition: all 200ms cubic-bezier(.42, 0, .58, 1);
-    text-align: center;
-    white-space: pre;
-    text-decoration: normal;
-    text-overflow: clip;
+    font-family: 'Cormorant';
+    font-size: 40px;
 
     color: #7fff00;
-    border: none;
     text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #7fff00, 0 0 70px #7fff00, 0 0 80px #7fff00, 0 0 100px #7fff00;
 }
 
-.button:hover
+.SashaMotto:hover
 {
     text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ffefd5, 0 0 70px #ffefd5, 0 0 80px #ffefd5, 0 0 100px #ffefd5;
 }
@@ -279,6 +273,8 @@ img
 .SashaFooter
 {
     position: relative;
+    float: left;
+    text-align: left;
     bottom: 0;
     /* Фиксированное положение */
     left: 0;
@@ -289,18 +285,44 @@ img
     padding: 14px;
     /* Поля вокруг текста */
 
-    color: orange;
     /* Ширина слоя */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: paleturquoise;
 }
 
+#SashaBowserExplorer, #SashaBowserFirefox
+{
+    position: relative;
+    float: left;
+    text-align: left;
+    vertical-align: 6em;
+    bottom: 0;
+    /* Фиксированное положение */
+    right: 0;
+    /* Цвет текста */
 
+    width: 100%;
+    /* Левый нижний угол */
+    padding: 14px;
+    /* Поля вокруг текста */
+
+    color: orange;
+    /* Ширина слоя */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: paleturquoise;
+}
 /* Выравнивание по центру*/
 
 .SashaCenter
 {
     text-align: center;
 }
-
+/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
+#SashaBr {
+	margin: 21rem 0 0 0;
+}
 
 /* Надпись Поиск Кристиниты*/
 
@@ -332,7 +354,6 @@ img
 .SashaMinimal
 {
     font-family: 'Palatino Linotype, Geneva, sans-serif';
-    font-weight: bold;
     font-style: italic;
 
     color: #ffbf00;
@@ -344,7 +365,6 @@ img
 .SashaCopyright
 {
     font-family: 'Palatino Linotype, Geneva, sans-serif';
-    font-weight: bold;
 
     color: gold;
 }
