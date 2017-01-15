@@ -25,9 +25,10 @@
 	<script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/rainbow.css">
 	<!-- JQuery -->
-    <script type="text/javascript" src="../bower-components/jQuery/dist/jquery.min.js"></script>
+	    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <script type="text/javascript" src="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="http://manos.malihu.gr/tuts/custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <!-- Tooltipster -->
     <script type="text/javascript" src="../node_modules/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
@@ -64,10 +65,8 @@
     })(jQuery);
 </script>
 <style type="text/css">
-			.content{margin:40px 40px 40px 0; width:60%; height:300px; padding:20px; overflow:auto; background:#333; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
-		.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
-		.content p:nth-child(3n+0){color:#c96;}
-		/*body custom scrollbar style*/
+				html,body{height:100%;}
+		body{margin:0; color:#eee; background:#222; }
 		body>.mCustomScrollBox>.mCSB_scrollTools{top:2%; height:96%;}
 </style>
     <!-- Настройки шрифтов -->
@@ -730,9 +729,8 @@ sublime.set_timeout_async(generate_color_scheme_async, 0)
         <WorkOnYourself>Работайте над собой</WorkOnYourself>
         <!-- Конец текста -->
     </main>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/minified/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
 	<!-- custom scrollbars plugin -->
-    <script type="text/javascript" src="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>	<script>
+    <script type="text/javascript" src="http://manos.malihu.gr/tuts/custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>	<script>
 		(function($){
 			$(window).load(function(){
 				$("body,.content").mCustomScrollbar({
