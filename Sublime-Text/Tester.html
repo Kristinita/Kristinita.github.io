@@ -4,8 +4,6 @@
 <head>
     <title>Test</title>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="http://manos.malihu.gr/tuts/custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <style type="text/css">
     html,
@@ -18,75 +16,6 @@
         color: #eee;
         background: #222;
     }
-	/* theme "rounded", "rounded-dark", "rounded-dots", "rounded-dots-dark" */
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_draggerRail{ background-color: #fff; background-color: rgba(255,255,255,0.15); }
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_dragger,
-	.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger,
-	.mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger,
-	.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger{ height: 14px; }
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-		width: 14px;
-		margin: 0 1px;
-	}
-
-	.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger,
-	.mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger,
-	.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger,
-	.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger{ width: 14px; }
-
-	.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
-		height: 14px;
-		margin: 1px 0;
-	}
-
-	.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
-	.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
-	.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{
-		width: 16px; /* auto-expanded scrollbar */
-		height: 16px;
-		margin: -1px 0;
-	}
-
-	.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail,
-	.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,
-	.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail,
-	.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{ width: 4px; /* auto-expanded scrollbar */ }
-
-	.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
-	.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar,
-	.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
-	.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{
-		height: 16px; /* auto-expanded scrollbar */
-		width: 16px;
-		margin: 0 -1px;
-	}
-
-	.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail,
-	.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,
-	.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail,
-	.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{
-		height: 4px; /* auto-expanded scrollbar */
-		margin: 6px 0;
-	}
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_buttonUp{ background-position: 0 -72px; }
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_buttonDown{ background-position: 0 -92px; }
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_buttonLeft{ background-position: 0 -112px; }
-
-	.mCS-rounded.mCSB_scrollTools .mCSB_buttonRight{ background-position: 0 -128px; }
-
     </style>
 </head>
 
@@ -96,25 +25,29 @@
     <div>Dolor, sunt ab! Veritatis dignissimos odit quod repudiandae voluptas consequatur, incidunt reiciendis dolorum aliquid, sapiente, assumenda quisquam. Exercitationem tempore possimus debitis, nesciunt at ipsum sequi consequatur ad atque, natus cupiditate.</div>
     <div>Nam obcaecati quae iure quos quidem, iusto, autem, corporis expedita quo nobis sit nisi sint nesciunt, voluptatum modi eligendi asperiores dicta laboriosam at ea! Voluptatibus rerum minus ut, ipsa minima.</div>
     <div>Repellendus reprehenderit harum similique error dolore ipsa quo vel ratione officia incidunt amet cum, temporibus corrupti explicabo tempora consequatur nostrum dolorum aliquam optio a, nemo, consequuntur earum? Autem, at, consequatur.</div>
-	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis rerum eveniet, ipsa soluta illo mollitia cumque dolorum adipisci sint, ad repellendus maiores incidunt eligendi tempora harum inventore aperiam ab. Sapiente?</div>
-	<div>Unde alias ab facere deleniti doloremque dicta soluta minima eaque, qui quam, sint dolorem, iure debitis atque nam, repellendus fugiat! Quasi perspiciatis consequuntur adipisci nihil repudiandae impedit dolores amet ipsum.</div>
-	<div>Atque ad eius voluptatibus id, perspiciatis, numquam quasi architecto commodi omnis. Ut nobis alias, minima quia, sit quibusdam voluptates iusto maiores vel rem ex id perspiciatis culpa voluptate doloribus sequi.</div>
-	<div>Dignissimos fugit tempora qui, exercitationem assumenda quas et accusantium dolorem, cupiditate voluptates labore cumque animi officia quibusdam reprehenderit fugiat eveniet architecto, voluptatum reiciendis accusamus nobis nulla. Porro molestias nobis harum?</div>
-	<div>Ipsa cum omnis, eum labore praesentium. Neque ipsum distinctio sapiente magnam error sequi. Atque quia, rerum temporibus fugit dicta cumque excepturi totam alias reiciendis quidem aliquid perferendis repudiandae, maiores magni.</div>
-	<div>Sit labore libero sed facilis asperiores culpa corrupti nobis. Animi, amet veniam laboriosam, modi laudantium suscipit sed distinctio quas reprehenderit impedit doloremque quo in, aut quaerat sunt. Esse explicabo, assumenda?</div>
-	<div>Nostrum, ut, quisquam. Modi, ipsum natus unde a dolorem laboriosam, amet deleniti et recusandae, necessitatibus nam temporibus ut aspernatur accusantium nostrum distinctio hic voluptas, quaerat. Doloribus ex aperiam possimus voluptas.</div>
-	<div>Rem impedit dolore maiores nihil ex in similique delectus recusandae libero, earum odit a accusantium sapiente, natus nesciunt obcaecati accusamus molestiae iste ut. Minus ullam rerum, distinctio dolore expedita, nisi.</div>
-	<div>Incidunt pariatur nisi laudantium laboriosam beatae voluptates officiis, officia accusamus harum. Asperiores accusantium, et placeat consequatur fugit vero! Velit tempora ratione fugiat libero expedita incidunt nobis eveniet temporibus distinctio blanditiis!</div>
-	<div id="content">Inventore eveniet in impedit, repellendus aliquid, quia nemo ipsum soluta provident perspiciatis sint recusandae culpa sapiente facere quis aperiam assumenda! Labore repudiandae, distinctio hic illum repellat odio illo ea est.
-	</div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis rerum eveniet, ipsa soluta illo mollitia cumque dolorum adipisci sint, ad repellendus maiores incidunt eligendi tempora harum inventore aperiam ab. Sapiente?</div>
+    <div>Unde alias ab facere deleniti doloremque dicta soluta minima eaque, qui quam, sint dolorem, iure debitis atque nam, repellendus fugiat! Quasi perspiciatis consequuntur adipisci nihil repudiandae impedit dolores amet ipsum.</div>
+    <div>Atque ad eius voluptatibus id, perspiciatis, numquam quasi architecto commodi omnis. Ut nobis alias, minima quia, sit quibusdam voluptates iusto maiores vel rem ex id perspiciatis culpa voluptate doloribus sequi.</div>
+    <div>Dignissimos fugit tempora qui, exercitationem assumenda quas et accusantium dolorem, cupiditate voluptates labore cumque animi officia quibusdam reprehenderit fugiat eveniet architecto, voluptatum reiciendis accusamus nobis nulla. Porro molestias nobis harum?</div>
+    <div>Ipsa cum omnis, eum labore praesentium. Neque ipsum distinctio sapiente magnam error sequi. Atque quia, rerum temporibus fugit dicta cumque excepturi totam alias reiciendis quidem aliquid perferendis repudiandae, maiores magni.</div>
+    <div>Sit labore libero sed facilis asperiores culpa corrupti nobis. Animi, amet veniam laboriosam, modi laudantium suscipit sed distinctio quas reprehenderit impedit doloremque quo in, aut quaerat sunt. Esse explicabo, assumenda?</div>
+    <div>Nostrum, ut, quisquam. Modi, ipsum natus unde a dolorem laboriosam, amet deleniti et recusandae, necessitatibus nam temporibus ut aspernatur accusantium nostrum distinctio hic voluptas, quaerat. Doloribus ex aperiam possimus voluptas.</div>
+    <div>Rem impedit dolore maiores nihil ex in similique delectus recusandae libero, earum odit a accusantium sapiente, natus nesciunt obcaecati accusamus molestiae iste ut. Minus ullam rerum, distinctio dolore expedita, nisi.</div>
+    <div>Incidunt pariatur nisi laudantium laboriosam beatae voluptates officiis, officia accusamus harum. Asperiores accusantium, et placeat consequatur fugit vero! Velit tempora ratione fugiat libero expedita incidunt nobis eveniet temporibus distinctio blanditiis!</div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum atque distinctio doloremque, explicabo ex voluptatibus veritatis quibusdam a laboriosam ad impedit consequuntur aperiam amet perspiciatis totam illum illo natus modi!</div>
+    <div>Consequatur distinctio, doloremque aliquam blanditiis aliquid dolor facilis explicabo tempore, iure molestiae eveniet maiores! Accusantium, beatae quis voluptate id deserunt voluptatem numquam unde illum ipsa cumque praesentium exercitationem earum fuga.</div>
+    <div>Earum saepe velit, porro, pariatur tempore cumque obcaecati ad voluptatem assumenda iure, quo, magni nostrum. Quibusdam reiciendis molestiae ipsa commodi expedita est eius maiores delectus deserunt rerum, impedit nihil perspiciatis!</div>
+    <div>Earum ex sapiente, voluptatum ipsum quis et incidunt consectetur quod dolore facere nihil, accusantium explicabo at aliquam vero voluptatibus officia sequi excepturi ipsam reiciendis possimus aliquid, cupiditate nostrum? Sequi, debitis.</div>
+    <div>Quasi labore at eligendi expedita ratione, odio amet dolorem omnis maxime eos dolor doloribus, rem laboriosam odit voluptate ut aliquam, totam ipsa sequi illo! Repellendus delectus facilis dolorem, eum id.</div>
+    <div>Enim error doloribus eius laudantium cum neque temporibus tenetur quas. Maiores, neque exercitationem laboriosam temporibus perspiciatis corporis qui atque quia rem dolorem, ad numquam facilis voluptates commodi accusantium voluptatibus, quidem!</div>
     <div>Quod accusamus delectus quis, culpa illo consequatur cupiditate quae error quaerat autem ducimus nihil nulla atque soluta nesciunt quia amet neque nam animi fugiat praesentium. Minima obcaecati optio illum facere.</div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="http://manos.malihu.gr/tuts/custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>
     (function($) {
         $(window).load(function() {
             $("body").mCustomScrollbar({
-            	theme:"rounded"
+                theme: "rounded"
             });
         });
     })(jQuery);

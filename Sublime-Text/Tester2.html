@@ -10,7 +10,6 @@
 	<title>jQuery custom scrollbar demo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- stylesheet for demo and examples -->
-	<link rel="stylesheet" href="http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/style.css">
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -30,33 +29,7 @@
 </head>
 
 <body>
-	<!-- ad --><div class="top-ad"><div id="md-inline-widget"></div>
-	<script type="text/javascript">
-	(function() {
-	var mdWidgetUrl = "http://www.mightydeals.com/widgets/small/refID/164c173a/target/_blank";
-	var s = document.createElement("script"), s1 = document.getElementsByTagName("script")[0];
-	s.type = "text/javascript";
-	s.async = true;
-	s.src = mdWidgetUrl;
-	s1.parentNode.insertBefore(s, s1);
-	})();
-	</script></div><!-- /ad -->
 
-	<header>
-		<a href="http://manos.malihu.gr/jquery-custom-content-scroller/" class="logo"><img src="logo.png" alt="jQuery custom scrollbar" /></a>
-		<!-- ad --><a class="ad468" href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=36986_0_1_7" target="_blank" rel="nofollow"><img style="border:0px" src="http://www.elegantthemes.com/affiliates/media/banners/468x60.gif" width="468" height="60"></a><!-- /ad -->
-		<hr />
-	</header>
-
-	<div id="demo" class="all-themes">
-		<section id="info">
-			<div class="all-themes-switch">
-				<ul>
-					<li><a href="#" rel="toggle-content">Expand/contract content horizontally (for y &amp; x scrollbars)</a></li>
-				</ul>
-			</div>
-		</section>
-		<section id="examples">
 
 			<!-- content -->
 			<div id="content-l" class="content">
@@ -425,11 +398,6 @@
 		</section>
 	</div>
 
-	<footer>
-		<hr />
-		<p><a href="http://manos.malihu.gr/jquery-custom-content-scroller">Plugin home</a> <a href="https://github.com/malihu/malihu-custom-scrollbar-plugin">Project on Github</a> <a href="http://opensource.org/licenses/MIT">MIT License</a></p>
-	</footer>
-
 	<!-- Google CDN jQuery with fallback to local -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="../js/minified/jquery-1.11.0.min.js"><\/script>')</script>
@@ -441,58 +409,10 @@
 		(function($){
 			$(window).load(function(){
 
-				$.mCustomScrollbar.defaults.scrollButtons.enable=true; //enable scrolling buttons by default
-				$.mCustomScrollbar.defaults.axis="yx"; //enable 2 axis scrollbars by default
 
 				$("#content-l").mCustomScrollbar();
 
 				$("#content-d").mCustomScrollbar({theme:"dark"});
-
-				$("#content-l2").mCustomScrollbar({theme:"light-2"});
-
-				$("#content-d2").mCustomScrollbar({theme:"dark-2"});
-
-				$("#content-l3").mCustomScrollbar({theme:"light-3"});
-
-				$("#content-d3").mCustomScrollbar({theme:"dark-3"});
-
-				$("#content-ltk").mCustomScrollbar({theme:"light-thick"});
-
-				$("#content-dtk").mCustomScrollbar({theme:"dark-thick"});
-
-				$("#content-ltn").mCustomScrollbar({theme:"light-thin"});
-
-				$("#content-dtn").mCustomScrollbar({theme:"dark-thin"});
-
-				$("#content-m").mCustomScrollbar({theme:"minimal"});
-
-				$("#content-md").mCustomScrollbar({theme:"minimal-dark"});
-
-				$("#content-i").mCustomScrollbar({theme:"inset"});
-
-				$("#content-id").mCustomScrollbar({theme:"inset-dark"});
-
-				$("#content-i2").mCustomScrollbar({theme:"inset-2"});
-
-				$("#content-i2d").mCustomScrollbar({theme:"inset-2-dark"});
-
-				$("#content-i3").mCustomScrollbar({theme:"inset-3"});
-
-				$("#content-i3d").mCustomScrollbar({theme:"inset-3-dark"});
-
-				$("#content-r").mCustomScrollbar({theme:"rounded"});
-
-				$("#content-rd").mCustomScrollbar({theme:"rounded-dark"});
-
-				$("#content-rds").mCustomScrollbar({theme:"rounded-dots"});
-
-				$("#content-rdsd").mCustomScrollbar({theme:"rounded-dots-dark"});
-
-				$("#content-3d").mCustomScrollbar({theme:"3d"});
-
-				$("#content-3dd").mCustomScrollbar({theme:"3d-dark"});
-
-				$("#content-3dt").mCustomScrollbar({theme:"3d-thick"});
 
 				$("#content-3dtd").mCustomScrollbar({theme:"3d-thick-dark"});
 
