@@ -5,16 +5,13 @@
     <title>Test</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="../css/general/style.css">
+    <link rel="stylesheet" href="../css/general/image_right.css">
+    <link rel="stylesheet" href="../css/sections/sublime-text.css">
     <style type="text/css">
     html,
     body {
         height: 100%;
-    }
-
-    body {
-        margin: 0;
-        color: #eee;
-        background: #222;
     }
 
     .mCS-sasha-scrollbar.mCSB_scrollTools .mCSB_draggerContainer {
@@ -28,6 +25,17 @@
 </head>
 
 <body>
+  <aside class="sidebar" style="background-image: url(../aside/Шоколадка.jpg)">
+        <div class="cover">
+            <div class="cover-text">
+                <!-- Заголовок aside -->
+                <h1>SashaSublime</h1>
+                <!-- Описание заголовка aside -->
+                <div id="switcher"></div>
+            </div>
+        </div>
+    </aside>
+        <main class="content-wrapper">
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nesciunt eius quo placeat architecto mollitia aspernatur provident qui quidem consectetur ipsam, obcaecati necessitatibus repellat minus ab molestiae praesentium? Repellendus, deleniti!</div>
     <div>Recusandae architecto minus, incidunt magnam ipsam quas, quibusdam corporis ratione delectus nemo aperiam iure accusantium culpa est cum optio sint illum modi in vero. In rerum obcaecati nobis illum iste.</div>
     <div>Dolor, sunt ab! Veritatis dignissimos odit quod repudiandae voluptas consequatur, incidunt reiciendis dolorum aliquid, sapiente, assumenda quisquam. Exercitationem tempore possimus debitis, nesciunt at ipsum sequi consequatur ad atque, natus cupiditate.</div>
@@ -49,6 +57,7 @@
     <div>Quasi labore at eligendi expedita ratione, odio amet dolorem omnis maxime eos dolor doloribus, rem laboriosam odit voluptate ut aliquam, totam ipsa sequi illo! Repellendus delectus facilis dolorem, eum id.</div>
     <div>Enim error doloribus eius laudantium cum neque temporibus tenetur quas. Maiores, neque exercitationem laboriosam temporibus perspiciatis corporis qui atque quia rem dolorem, ad numquam facilis voluptates commodi accusantium voluptatibus, quidem!</div>
     <div>Quod accusamus delectus quis, culpa illo consequatur cupiditate quae error quaerat autem ducimus nihil nulla atque soluta nesciunt quia amet neque nam animi fugiat praesentium. Minima obcaecati optio illum facere.</div>
+    </main>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>
@@ -57,7 +66,7 @@
             $("body").mCustomScrollbar({
                 theme: "sasha-scrollbar",
                 autoHideScrollbar: true,
-                alwaysShowScrollbar: 0
+                alwaysShowScrollbar: 2
             });
         });
     })(jQuery);
