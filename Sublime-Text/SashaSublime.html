@@ -25,33 +25,30 @@
 	<script src="../bower-components/rainbow/dist/rainbow.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../bower-components/rainbow/themes/css/rainbow.css">
 	<!-- JQuery -->
-	    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-    <script type="text/javascript" src="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-        <style type="text/css">
-    html,
-    main
-    {
-        height: 100%;
-    }
-
-    main {
-        margin: 0;
-    }
-
-    .mCS-sasha-scrollbar.mCSB_scrollTools .mCSB_draggerContainer {
-        background-color: #804A7D99;
-    }
-
-    .mCS-sasha-scrollbar.mCSB_scrollTools .mCSB_draggerRail {
-        background-color: peachpuff;
-    }
-    </style>
-        <!-- Tooltipster -->
+    <script type="text/javascript" src="../bower-components/jQuery/dist/jquery.min.js"></script>
+    <!-- Tooltipster -->
+    <script type="text/javascript" src="../node_modules/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="../node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
-
+    <script>
+    	$(document).ready(function() {
+    	var $SashaElement = $('.SashaTooltip');
+    		$SashaElement.tooltipster({
+    			content: 'Click to copy code to clipboard',
+    			theme: ['tooltipster-punk-purple'],
+    			timer: 2000,
+    			side: ['left', 'top', 'bottom', 'right']
+    		});
+    		$SashaElement.tooltipster({
+    			content: 'Copied!',
+    			theme: 'tooltipster-punk-aquamarine',
+    			trigger: 'click',
+    			multiple: true,
+    			timer: 2000,
+    			side: ['left', 'top', 'bottom', 'right']
+    		});
+    		});
+    </script>
     <!-- Clipboard.js -->
     <script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
     <script>
@@ -99,7 +96,7 @@
     <!-- Текст -->
     <main class="content-wrapper">
         <h1 class="SashaHeader">SashaSublime</h1>
-        <SashaVersion>Version 1.3.1<time datetime="2016-10-13T00:50:00 07:00">, 13 october 2016</time>
+        <SashaVersion>Version 1.3.1<time datetime="2016-10-13T00:50:00 07:00">, 13 october 2016</time><img src="http://2no.co/1g9b6.png">
         </SashaVersion>
         <br />
         <br />
@@ -717,40 +714,6 @@ sublime.set_timeout_async(generate_color_scheme_async, 0)
         <WorkOnYourself>Работайте над собой</WorkOnYourself>
         <!-- Конец текста -->
     </main>
-	<!-- custom scrollbars plugin -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="../bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script>
-    (function($) {
-        $(window).load(function() {
-            $("body").mCustomScrollbar({
-                theme: "sasha-scrollbar",
-                autoHideScrollbar: true,
-                alwaysShowScrollbar: 0
-            });
-        });
-    })(jQuery);
-    </script>
-        <script type="text/javascript" src="../node_modules/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
-        <script>
-    	$(document).ready(function() {
-    	var $SashaElement = $('.SashaTooltip');
-    		$SashaElement.tooltipster({
-    			content: 'Click to copy code to clipboard',
-    			theme: ['tooltipster-punk-purple'],
-    			timer: 2000,
-    			side: ['left', 'top', 'bottom', 'right']
-    		});
-    		$SashaElement.tooltipster({
-    			content: 'Copied!',
-    			theme: 'tooltipster-punk-aquamarine',
-    			trigger: 'click',
-    			multiple: true,
-    			timer: 2000,
-    			side: ['left', 'top', 'bottom', 'right']
-    		});
-    		});
-    </script>
 </body>
 
 </html>
