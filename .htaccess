@@ -13,7 +13,9 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
 
 # Скрытие папки Portfolios
+RewriteEngine On
 RewriteRule ^Portfolios/(.+)$ http://Kristinita.github.io/ [R=301,L]
 
+RewriteEngine On
 DirectoryIndex Sasha-Black.html
 
