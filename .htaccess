@@ -15,3 +15,5 @@ RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
 # Скрытие папки Portfolios
 RewriteRule ^Portfolios/(.+)$ http://Kristinita.github.io/ [R=301,L]
 
+DirectoryIndex Sasha-Black.html
+
