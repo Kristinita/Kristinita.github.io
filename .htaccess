@@ -1,21 +1,8 @@
 # Кастомная страница 404
 ErrorDocument 404 /404.html
 
-# Скрытие расширений .html
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html
-
 # Переадресация index.html на заглавную
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
-
-# Скрытие папки Portfolios
-RewriteEngine On
-RewriteRule ^Portfolios/(.+)$ http://Kristinita.github.io/ [R=301,L]
-
-RewriteEngine On
-DirectoryIndex Sasha-Black.html
 
