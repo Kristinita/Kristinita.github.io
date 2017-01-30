@@ -1,8 +1,0 @@
-# Кастомная страница 404
-ErrorDocument 404 /404.html
-
-# Переадресация index.html на заглавную
-RewriteEngine On
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
-
