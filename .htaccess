@@ -13,18 +13,5 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://Kristinita.github.io/ [R=301,L]
 
 # Скрытие папки Portfolios
-Options +FollowSymLinks -MultiViews
-# Turn mod_rewrite on
-RewriteEngine On
-RewriteBase /
-
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule (.*) $1\.php [L]
-
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+Portfolios/([^\s]+) [NC]
-RewriteRule ^ %1 [R=301,L]
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (?!^Portfolios/)^(.*)$ /Portfolios/$1 [L,NC]
+RewriteRule ^Portfolios/(.+)$ http://www.yourdomain.com/ [R=301,L]
 
