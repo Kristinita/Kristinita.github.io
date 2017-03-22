@@ -1,0 +1,387 @@
+/*
+* @Author: Kristinita
+* @Date:   2016-12-26 15:48:38
+* @Last Modified by:   Kristinita
+* @Last Modified time: 2017-03-21 21:49:51
+*/
+
+a
+{
+    text-decoration: none; /* Чтобы ссылки не подчёркивались */
+}
+body
+{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 19px;
+
+    overflow: hidden; /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах*/
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    overflow-x: hidden; /* Чтобы margin-top для Сашиных икон работал на мобильных устройствах */
+}
+ol,
+ul
+{
+    list-style-position: inside;
+    /* Чтобы маркеры списка не пропадали на мобильных версиях */
+}
+
+/*Отступ от левого края элементов вложенного списка*/
+ul li
+{
+    margin-left: 1em;
+}
+
+h1
+{
+    font-family: 'Истина';
+        font-size: 31px;
+        font-weight: lighter;
+        font-style: normal;
+       -webkit-filter: brightness(97%); /* Снизить яркость тексту */
+            filter: brightness(97%);
+}
+
+h2
+{
+    font-family: 'Мечта';
+        font-size: 31px;
+}
+
+
+/* Заголовок H1 */
+.SashaHeader
+{
+    line-height: .7em;
+    /* Интерлиньяж в заголовке */
+}
+
+time
+{
+    font-size: .9em;
+    font-weight: bold;
+}
+
+img
+{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+kbd
+{
+    font-weight: bold;
+
+    border-radius: 3px;
+}
+
+/* Картинка слева */
+.leftimg
+{
+    float: left;
+    /* Картинка слева */
+
+    margin: 5px 5px 5px 0;
+    /* Расстояние между картинкой и текстом */
+}
+
+/* Картинка справа */
+.rightimg
+{
+    float: right;
+    /* Картинка справа */
+
+    margin: 5px 0 5px 5px;
+    /* Расстояние между картинкой и текстом */
+}
+
+/* Версия статьи */
+sashaversion
+{
+    font-size: .8em;
+    font-weight: bold;
+}
+
+/*
+ * Сайдбар
+ */
+
+.sidebar
+{
+    font-size: 5px;
+    line-height: 1;
+
+    display: none;
+    float: right;
+
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+.cover
+{
+    position: relative;
+
+    text-align: center;
+}
+
+.sidebar,
+.cover
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.cover-text
+{
+    line-height: 6em;
+
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+
+    width: 80%;
+}
+/*
+ * Ширина изображения
+ */
+.Sasha140
+{
+    width: 140px;
+}
+
+.Sasha280
+{
+    width: 280px;
+}
+
+
+.Sasha470
+{
+    width: 470px;
+}
+
+.Sasha700
+{
+    width: 700px;
+}
+
+/*
+ * Медиа-запросы
+ */
+
+@media screen and (min-width: 1px)
+{
+    .sidebar
+    {
+        display: block;
+    }
+}
+@media screen and (min-width: 960px)
+{
+    .nav-main
+    {
+        padding: 0;
+
+        text-align: left;
+    }
+    .sidebar
+    {
+        position: fixed;
+        z-index: 200;
+        top: 0;
+
+        display: block;
+
+        width: 35%;
+        height: 100%;
+
+        background-attachment: scroll;
+    }
+    .content-wrapper
+    {
+        width: 59%;
+        max-width: 1000px;
+    }
+    main
+    {
+        padding-top: 1em;
+    }
+    footer[role='contentinfo']
+    {
+        width: 55%;
+        max-width: 1000px;
+        margin-left: 35%;
+    }
+}
+
+/* Тень вверху страницы. */
+.SashaShadow
+{
+    font-family: 'Times New Roman';
+    font-size: 1.6em; /* Размер надписи */
+
+    width: auto;
+
+    text-shadow: 0 0 10px rgba(255,0,222,1) , 0 0 20px rgba(255,0,222,1) , 0 0 30px rgba(255,0,222,1) , 0 0 40px rgba(255,0,222,1) , 0 0 50px rgba(255,0,222,1) , 0 0 60px rgba(255,0,222,1)  ; /* Параметры тени */
+}
+
+/* Расположение элемента по центру */
+.SashaCenter
+{
+    text-align: center;
+}
+
+/*
+ * Цитаты
+ */
+
+/*  Цитата в прямоугольнике */
+.SashaBlockquote
+{
+    padding: 4px;
+
+    border-width: thick;
+    border-top-style: ridge;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-style: ridge;
+}
+
+/* Эпиграф */
+.SashaEpigraph
+{
+    margin-right: 1em;
+    margin-left: 3em;
+
+    text-align: right;
+}
+
+.SashaEpigraph cite
+{
+    line-height: 1em;
+}
+
+/* Цитата — кавычки сверху и снизу */
+sashatopquote
+{
+    font-size: 3em;
+    line-height: 0;
+
+    vertical-align: -.2em;
+}
+
+sashabottomquote
+{
+    font-size: 3em;
+    line-height: 1.2em;
+
+    vertical-align: -.7em;
+}
+
+/* Цитата с вертикальной полосой слева */
+blockquote
+{
+    font-size: 19px;
+    font-style: italic;
+
+    margin: 10px 40px;
+    padding: 15px;
+}
+/* Обрамление изображения с Настей*/
+.SashaSign
+{
+	/* Параметры рамки */
+	padding: 7px;
+	/* Поля внутри блока */
+	margin: 5px 0 5px 0;
+}
+
+/* Подчёркивание точками */
+SashaDot {
+	border-bottom: 1px dotted crimson;
+	/* Параметры линии */
+}
+
+/* TOC статей */
+.SashaTOC
+{
+    list-style-type: none;
+    /* Прячем исходную нумерацию */
+}
+.SashaTOC
+{
+    padding: 0 0 0 1em;
+}
+
+/* Отступы в списке */
+.SashaOlMargin
+{
+    margin-left: 1em;
+}
+/* Сделать инлайновыми блочные элементы */
+.SashaInline
+{
+    float: left;
+}
+/* Отступ сверху см. http://ru.stackoverflow.com/a/613468/199934 */
+.SashaEmNoColor, .WorkOnYourself
+{
+    margin: 5rem 0 0;
+}
+
+.SashaEmNoColor
+{
+	font-style: italic;
+}
+/*
+ * Код и его выделение
+ */
+code
+{
+    font-size: 19px;
+}
+/* Код переносится на следующую строку, если не помещается */
+pre
+{
+    white-space: pre-wrap;
+    -moz-tab-size: 4;
+      -o-tab-size: 4;
+    /* Иначе tab=8 в Rainbow коде*/
+         tab-size: 4;
+}
+
+/* Кнопка Clipboard.js */
+.SashaButton
+{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+
+/* Tooltipster */
+.tooltipster-punk-purple .tooltipster-box
+{
+    border: none;
+    border-bottom: 3px solid orange;
+    border-radius: 5px;
+    background: purple;
+}
+
+.tooltipster-punk-aquamarine .tooltipster-box
+{
+    border: none;
+    border-bottom: 3px solid hotpink;
+    border-radius: 5px;
+    background: forestgreen;
+}

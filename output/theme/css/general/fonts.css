@@ -1,0 +1,111 @@
+/*
+* @Author: Kristinita
+* @Date:   2017-01-30 16:32:10
+* @Last Modified by:   Kristinita
+* @Last Modified time: 2017-03-22 11:47:23
+*/
+@font-face {
+    font-family: 'AleksandraC';
+    src: local('AleksandraCRegular'), url('../../fonts/AleksandraC/aleksandracregular.woff2') format('woff2'), url('../../fonts/AleksandraC/aleksandracregular.woff') format('woff'), url('../../fonts/AleksandraC/aleksandracregular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face
+{
+    font-family: 'Истина';
+
+    src: url('../../fonts/Истина/Истина.eot');
+    src: url('../../fonts/Истина/Истина.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Истина/Истина.woff') format('woff'),
+    url('../../fonts/Истина/Истина.ttf') format('truetype');
+    -webkit-filter: brightness(97%); /* Снизить яркость тексту */
+            filter: brightness(97%);
+}
+
+@font-face
+{
+    font-family: 'Мечта';
+    font-weight: 500;
+    font-style: italic;
+
+    src: url('../../fonts/Мечта/Мечта.eot');
+    src: url('../../fonts/Мечта/Мечта.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Мечта/Мечта.woff') format('woff'),
+    url('../../fonts/Мечта/Мечта.ttf') format('truetype');
+    -webkit-filter: brightness(97%);
+            filter: brightness(97%);
+}
+
+@font-face
+{
+    font-family: 'Кира_Бог';
+
+    src: url('../../fonts/Кира_Бог/Кира_Бог.eot');
+    src: url('../../fonts/Кира_Бог/Кира_Бог.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Кира_Бог/Кира_Бог.woff') format('woff'),
+    url('../../fonts/Кира_Бог/Кира_Бог.ttf') format('truetype');
+    -webkit-filter: brightness(97%);
+            filter: brightness(97%);
+}
+
+@font-face
+{
+    font-family: 'Волнится_синей_пастой';
+
+    src: url('../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot');
+    src: url('../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.woff') format('woff'),
+    url('../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.ttf') format('truetype');
+    -webkit-filter: brightness(97%);
+            filter: brightness(97%);
+}
+h1,
+.SashaGreat
+{
+    font-family: 'Истина';
+    font-size: 31px;
+    font-weight: lighter;
+    font-style: normal;
+
+    -webkit-filter: brightness(97%); /* Снизить яркость тексту */
+            filter: brightness(97%);
+}
+
+h2
+{
+    font-family: 'Мечта';
+    font-size: 31px;
+}
+
+a
+{
+    font-family: 'Мечта';
+    font-size: 19px;
+}
+.WorkOnYourself
+{
+    font-family: 'Волнится_синей_пастой';
+    font-size: 57px;
+}
+/*Для Sasha Black*/
+sashamini
+{
+    font-family: 'Истина';
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: normal;
+
+    color: tomato;
+
+    -webkit-filter: brightness(97%); /* Снизить яркость тексту */
+            filter: brightness(97%);
+}
+.SashaBravo
+{
+    font-family: 'Мечта';
+    font-size: 23px;
+}
+.SashaLove
+{
+	font-size: 28px;
+}

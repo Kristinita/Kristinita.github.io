@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+<!-- Титульная фраза -->
+{% block base_pagetitle %}{{ page.pagetitle }}{% endblock %}
+<!-- Содержимое <meta content="|"> -->
+{% block base_metacontent %}{{ page.metacontent }}{% endblock %}
+
+<!--=============================
+=            Scripts            =
+==============================-->
+<!-- jQuery -->
+{% block base_jquery -%}
+    {%- if page.jquery == 'true' -%}
+		<script src="{{SITEURL}}/{{ THEME_STATIC_DIR }}/bower-components/jquery/dist/jquery.min.js"></script>
+    {%- endif -%}
+{%- endblock %}
+
+<!-- Rainbow -->
+{% block base_rainbow -%}
+    {%- if page.rainbow == 'true' -%}
+		<script src="{{SITEURL}}/{{ THEME_STATIC_DIR }}/bower-components/rainbow/dist/rainbow.min.js"></script>
+	    <link rel="stylesheet" href="{{SITEURL}}/{{ THEME_STATIC_DIR }}/bower-components/rainbow/themes/css/rainbow.css">
+    {%- endif -%}
+{%- endblock %}
+
+<!-- Tooltipster -->
+{% block base_tooltipster -%}
+    {%- if page.tooltipster == 'true' -%}
+		<script src="{{SITEURL}}/{{ THEME_STATIC_DIR }}/node_modules/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+		<link rel="stylesheet" href="{{SITEURL}}/{{ THEME_STATIC_DIR }}/node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
+		<link rel="stylesheet" href="{{SITEURL}}/{{ THEME_STATIC_DIR }}/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+		<script src="{{SITEURL}}/{{ THEME_STATIC_DIR }}/js/Tooltipster/tooltip.js"></script>
+    {%- endif -%}
+{%- endblock %}
+
+<!-- Clipboard.js -->
+{% block base_clipboardjs -%}
+    {%- if page.clipboardjs == 'true' -%}
+	    <script src="{{SITEURL}}/{{ THEME_STATIC_DIR }}/node_modules/clipboard/dist/clipboard.min.js"></script>
+		<script src="{{SITEURL}}/{{ THEME_STATIC_DIR }}/js/Clipboard.js/DOMClipboard.js"></script>
+    {%- endif -%}
+{%- endblock %}
+
+<!-- Details-Polyfill -->
+{% block base_detailspolyfill -%}
+    {%- if page.detailspolyfill == 'true' -%}
+		<script src="{{SITEURL}}/js/Details-Polyfill/details1.js"></script>
+		<script src="{{SITEURL}}/js/Details-Polyfill/details2.js"></script>
+    {%- endif -%}
+{%- endblock %}
+
+<!-- Находится ли Сашина икона слева или справа -->
+{% block base_iconleftorright %}{{ page.iconleftorright }}{% endblock %}
+<!-- Оформление страницы -->
+{% block base_pagecolors %}{{ page.pagecolors }}{% endblock %}
+
+<!-- Текст, отображаемый в aside блоке -->
+{% block base_asidetitle %}{{ page.pagetitle }}{% endblock %}
+
+<!-- Заголовок основного контента -->
+{% block base_h1 %}{{ page.pagetitle }}{% endblock %}
+{% block base_noco %}{{ page.noco }}{% endblock %}
+{% block base_date %}{{ page.date }}{% endblock %}
+{% block base_date_displayed %}{{ page.modified }}{% endblock %}
+
+<!-- Содержание -->
+{% block base_content %}{{ page.content }}{% endblock %}
+
+<!-- Футер: ннр и подпись -->
+{% block base_new_russian %}
+	{%- if page.lang == 'ru' -%}
+	<div class="SashaEmNoColor">По любым вопросам касающимся статьи, можете связаться со мной по электронной почте
+<span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:FnfunPurealxuRzcerffBsHavirefr@xevfgvavgn.eh?fhowrpg=R-znvy gb Fnfun Purealxu\" gnetrg=\"_oynax\">r-znvy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span> или же оставив комментарий в <a href="https://github.com/Kristinita/SashaSublime/issues" title="GitHub bugtracker">issue tracker GitHub</a>, кликнув по «New Issue». С комментариями в стиле <a href="{{SITEURL}}/Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.
+	{% else %}
+	<div class="SashaEmNoColor">For all matters relating to article please contact me by
+<span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:FnfunPurealxuRzcerffBsHavirefr@xevfgvavgn.eh?fhowrpg=R-znvy gb Fnfun Purealxu\" gnetrg=\"_oynax\">r-znvy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span> or by <a href="https://github.com/Kristinita/SashaSublime/issues" title="GitHub bugtracker">GitHub</a>, click «New Issue». With commentary in the style of <a href="{{SITEURL}}/Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own&nbsp;discretion.</div>
+	{% endif %}
+{% endblock %}
+

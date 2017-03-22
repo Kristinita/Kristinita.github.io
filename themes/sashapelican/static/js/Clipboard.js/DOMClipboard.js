@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', _ => new Clipboard('.SashaButton'));
