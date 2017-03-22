@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /images/
+Disallow: /js/
+Disallow: /css/
+Disallow: /zohoverify/
+Disallow: /Life-hacks/
+Disallow: /Smert-svobode/
+
+User-Agent: LinkChecker
+Allow: /
