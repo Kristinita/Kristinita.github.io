@@ -1,6 +1,3 @@
-User-Agent: LinkChecker
-Allow: /
-
 User-agent: *
 Disallow: /images/
 Disallow: /js/
@@ -9,3 +6,5 @@ Disallow: /zohoverify/
 Disallow: /Life-hacks/
 Disallow: /Smert-svobode/
 
+User-Agent: LinkChecker
+Allow: /
