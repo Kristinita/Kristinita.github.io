@@ -2,7 +2,7 @@
 * @Author: Kristinita
 * @Date:   2016-12-26 15:48:38
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2017-03-21 21:49:51
+* @Last Modified time: 2017-03-23 09:37:24
 */
 
 a
@@ -107,51 +107,7 @@ sashaversion
 {
     font-size: .8em;
     font-weight: bold;
-}
-
-/*
- * Сайдбар
- */
-
-.sidebar
-{
-    font-size: 5px;
-    line-height: 1;
-
-    display: none;
-    float: right;
-
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top center;
-    background-size: cover;
-}
-
-.cover
-{
-    position: relative;
-
-    text-align: center;
-}
-
-.sidebar,
-.cover
-{
-    width: 100%;
-    height: 100vh;
-}
-
-.cover-text
-{
-    line-height: 6em;
-
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-
-    width: 80%;
-}
+}h
 /*
  * Ширина изображения
  */
@@ -176,54 +132,7 @@ sashaversion
     width: 700px;
 }
 
-/*
- * Медиа-запросы
- */
 
-@media screen and (min-width: 1px)
-{
-    .sidebar
-    {
-        display: block;
-    }
-}
-@media screen and (min-width: 960px)
-{
-    .nav-main
-    {
-        padding: 0;
-
-        text-align: left;
-    }
-    .sidebar
-    {
-        position: fixed;
-        z-index: 200;
-        top: 0;
-
-        display: block;
-
-        width: 35%;
-        height: 100%;
-
-        background-attachment: scroll;
-    }
-    .content-wrapper
-    {
-        width: 59%;
-        max-width: 1000px;
-    }
-    main
-    {
-        padding-top: 1em;
-    }
-    footer[role='contentinfo']
-    {
-        width: 55%;
-        max-width: 1000px;
-        margin-left: 35%;
-    }
-}
 
 /* Тень вверху страницы. */
 .SashaShadow
