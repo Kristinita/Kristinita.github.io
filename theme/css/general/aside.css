@@ -2,98 +2,81 @@
 * @Author: Kristinita
 * @Date:   2017-03-23 09:16:25
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2017-03-23 09:20:59
+* @Last Modified time: 2017-03-31 17:02:39
 */
 
-/*
- * Сайдбар
- */
 
-.sidebar
-{
-    font-size: 5px;
+/* ==========================================================================
+   General
+   ========================================================================== */
+
+aside {
+    font-size: 0.3125rem;
     line-height: 1;
-
-    display: none;
-    float: right;
-
-    background-color: #000;
+    position: relative;
+    text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
-}
-
-.cover
-{
-    position: relative;
-
-    text-align: center;
-}
-
-.sidebar,
-.cover
-{
     width: 100%;
     height: 100vh;
 }
 
-.cover-text
-{
-    line-height: 6em;
 
+/* Text in aside bottom */
+
+.cover-text {
+    line-height: 2rem;
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     left: 10%;
-
     width: 80%;
 }
 
-/*
- * Медиа-запросы
- */
 
-@media screen and (min-width: 1px)
-{
-    .sidebar
-    {
+/* Disable margin and padding for .SashaMargin */
+
+.SashaMargin {
+    display: inline-block;
+}
+
+
+/* Margin for top header */
+
+.SashaTopHeader {
+    margin-top: .4rem;
+}
+
+
+/* ==========================================================================
+   Media
+   ========================================================================== */
+
+
+/* For mobile devices */
+
+@media screen and (min-width: .0625rem) {
+    aside {
+        display: block;
+        width: 100%;
+    }
+    /* Margins for main text */
+    .SashaMargin {
+        /* That the text does not go beyond the screen */
         display: block;
     }
 }
-@media screen and (min-width: 960px)
-{
-    .nav-main
-    {
-        padding: 0;
 
-        text-align: left;
-    }
-    .sidebar
-    {
-        position: fixed;
-        z-index: 200;
-        top: 0;
 
-        display: block;
+/* For PC */
 
+@media screen and (min-width: 60rem) {
+    aside {
         width: 35%;
-        height: 100%;
-
         background-attachment: scroll;
     }
-    .content-wrapper
-    {
-        width: 59%;
-        max-width: 1000px;
-    }
-    main
-    {
-        padding-top: 1em;
-    }
-    footer[role='contentinfo']
-    {
-        width: 55%;
-        max-width: 1000px;
-        margin-left: 35%;
+    main {
+        width: 65%;
     }
 }

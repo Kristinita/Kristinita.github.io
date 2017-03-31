@@ -2,82 +2,88 @@
 <html lang="ru">
 
 <head>
-    <!-- Титульная фраза -->
+    <!-- Title phrase -->
     <title> Поиск Кристиниты — поисковая система по энциклопедическому содержимому </title>
-    <!-- Кодировка, описание страницы, адаптации для разных экранов, теги подтверждения владением -->
+    <!-- Encoding -->
     <meta charset="utf-8">
+    <!-- Description, EDGE-compatible, different screens -->
     <meta name="description" content="Поисковик, который ищет авторитетную энциклопедическую информацию по любой тематике. Впитывайте знания, не всякую информацию!">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Подтверждение владения сайтом -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Verification -->
     <meta name="wot-verification" content="6389203cb8057dd1b8e6" />
     <meta name='wmail-verification' content='eed58073a052abeca0167609b80c6e55' />
     <meta name='yandex-verification' content='5effdd88ab8a818d' />
     <meta name="google-site-verification" content="Xf6irQ5R_zWQGfvB6LMlFqkCEKLmCVN7P5uL2prCs_A" />
-    <!-- Иконочки Сашеньки, favicon generator, http://realfavicongenerator.net/ -->
+    <!-- Sasha icons via favicon generator, http://realfavicongenerator.net/ -->
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="./manifest.json">
+    <!-- Now be valid, see https://github.com/RealFaviconGenerator/realfavicongenerator/issues/218 -->
     <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
     <meta name="apple-mobile-web-app-title" content="Kristinita's Search">
     <meta name="application-name" content="Kristinita's Search">
     <meta name="theme-color" content="#ffffff">
-    <!-- Стили -->
+    <!-- Styles -->
     <link rel="stylesheet" href="./theme/css/sections/kristinita.css">
+    <!-- Mailhu styles -->
+    <link rel="stylesheet" href="./theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <!-- OpenSearch -->
     <link rel="search" type="application/opensearchdescription+xml" title="Поиск Кристиниты" href="./opensearch.xml">
-    <!-- Открытие ссылок в новой вкладке -->
+    <!-- Open links in new tabs -->
     <base target="_blank">
     <!-- jQuery -->
-    <script src="./theme/bower-components/jquery/dist/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Google Custom Search Engine -->
+    <script src="./js/personal/Kristinita/gcse.js" async></script>
+    <!-- Mailhu -->
+    <script src="./theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" defer></script>
+    <!-- Mailhu personal -->
+    <script src="./theme/js/Mailhu/non-scrollbar.js" defer></script>
     <!-- Bowser -->
-    <script src="./theme/bower-components/bowser/src/bowser.js"></script>
+    <script src="./theme/bower-components/bowser/src/bowser.js" defer></script>
+    <!-- Accesskeys, см. http://ru.stackoverflow.com/a/560571/199934 -->
+    <script src="./js/personal/Kristinita/accesskeys.js" async></script>
+    <!-- Start SiteHeart code -->
+    <script src="./js/personal/Kristinita/siteheart.js" async></script>
 </head>
 
 <body>
-    <!-- Логотип -->
-    <a href="./images/logo/Логотип_без_красного.jpeg"><img src="./images/logo/Логотип_с_жирным_шрифтом.jpg" width="300" height="250" align="left" alt="Логотип Поиска Кристиниты" border="0"></a>
-    <!-- Кнопки меню -->
+    <!-- Logo -->
+    <a href="./images/logo/Логотип_без_красного.jpeg"><img src="./images/logo/Логотип_с_жирным_шрифтом.jpg" class="SashaLogo" width="300" height="250" alt="Логотип Поиска Кристиниты" border="0"></a>
+    <!-- Menu buttons -->
     <a href="http://cyclowiki.org/wiki/Участник:Саша_Черных/Поиск_Кристиниты/Каталог_Кристиниты" class="Empress" style="float:right" title="Каталог Кристиниты. Полный список включённых сайтов и некоторые не вошедшие в него.">Каталог</a>
     <a href="http://cyclowiki.org/wiki/Участник:Саша_Черных/Поиск_Кристиниты/Примеры" class="Chernykh" style="float:right" title="Обзор сервисов поиска энциклопедической информации и сравнение с ними Поиска Кристиниты">Примеры</a>
     <a href="http://cyclowiki.org/wiki/Участник:Саша_Черных/Поиск_Кристиниты" class="Sasha" style="float:right" title="Подробный рассказ о Поиске Кристиниты">Описание</a>
-	<br>
-    <!-- Заголовок -->
-    <div class="SashaCenter" id="SashaBr">
-        <SashaTag class="SashaKristinita">Поиск Кристиниты&nbsp;</SashaTag>
-        <SashaTag class="SashaBeta"><sup>beta</sup></SashaTag>
-    </div>
-    <br />
-    <!-- Google Custom Search Engine -->
-	<script src="./js/personal/Kristinita/gcse.js"></script>
-    <gcse:search enableHistory=true enableAutoComplete=true autoCompleteMaxCompletions="10" enableOrderBy=false> </gcse:search>
-    <br />
-    <!-- Девиз -->
+    <br>
+    <!-- “Kristinita's Search” words -->
     <div class="SashaCenter">
-        <div class="SashaMotto"><i><b>Впитывайте знания,<br />не всякую информацию!</b></i></div>
-        <link href="https://fonts.googleapis.com/css?family=Lora" data-generated="http://enjoycss.com" rel="stylesheet" />
+        <div class="SashaKristinita">Поиск Кристиниты&nbsp;</div>
+        <div class="SashaBeta"><sup>beta</sup></div>
     </div>
     <br />
+    <!-- HTML5 validation, see https://productforums.google.com/d/msg/customsearch/XE-cs3_oVuY/ohwVpwEUAgAJ and https://developers.google.com/custom-search/docs/element#html5 -->
+	<div class="gcse-search" data-enableHistory="true" data-enableAutoComplete="true" data-autoCompleteMaxCompletions="10" data-enableOrderBy="false"></div>
     <br />
-    <!-- Подвал -->
+    <!-- Motto -->
+    <div class="SashaMotto"><i><b>Впитывайте знания,<br />не всякую информацию!</b></i></div>
+    <link href="https://fonts.googleapis.com/css?family=Lora" data-generated="http://enjoycss.com" rel="stylesheet" />
+    <br />
+    <!-- Footer -->
     <div class="SashaFooter">
         <a href="mozoleglazym">
-            <SashaTag class="SashaMinimal">Минималистская версия</SashaTag>
+            <div class="SashaMinimal">Минималистская версия</div>
         </a>
         <br />
-        <SashaTag class="SashaCopyright">© <a class="SashaVKontakte" href="https://vk.com/hair_in_the_wind">Саша Черных</a>, 2016-17</SashaTag>
+        <div class="SashaCopyright">© <a class="SashaVKontakte" href="https://vk.com/hair_in_the_wind">Саша Черных</a>, 2016-17</div>
     </div>
-    <div id="SashaBowserFirefox"></div>
-    <div id="SashaBowserExplorer"></div>
-    <!-- Accesskeys, см. http://ru.stackoverflow.com/a/560571/199934 -->
-	<script src="./js/personal/Kristinita/accesskeys.js"></script>
-	<!-- Bowser, см. http://ru.stackoverflow.com/a/611507/199934 -->
-	<script src="./js/personal/Kristinita/bowser.js"></script>
-    <!-- Start SiteHeart code -->
-    <script src="./js/personal/Kristinita/siteheart.js"></script>
+    <div class="SashaBowserFirefox"></div>
+    <div class="SashaBowserExplorer"></div>
+    <!-- Bowser personal, see. http://ru.stackoverflow.com/a/611507/199934 -->
+    <script src="./js/personal/Kristinita/bowser.js" defer></script>
 </body>
 
 </html>

@@ -2,53 +2,56 @@
 <html lang="en">
 
 <head>
-    <!-- Кодировка -->
+    <!-- Encoding -->
     <meta charset="utf-8">
-    <!-- Титульная фраза -->
+    <!-- Title phrase -->
     <title>“Sublime Text Power User” notes</title>
-    <!-- Описание страницы, адаптация для разных экранов и отображение в Edge -->
+    <!-- Description, EDGE-compatible, different screens-->
     <meta content="Notes of book “Sublime Text Power User”">
     <meta content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- JQuery -->
-<script src="../theme/bower-components/jquery/dist/jquery.min.js"></script>    <!-- Rainbow -->
-<script src="../theme/bower-components/rainbow/dist/rainbow.min.js"></script>
-	    <link rel="stylesheet" href="../theme/bower-components/rainbow/themes/css/rainbow.css">    <!-- Tooltipster, см. http://ru.stackoverflow.com/a/584718/199934 -->
-    <!-- Clipboard.js, см. http://ru.stackoverflow.com/a/582520/199934 -->
-<script src="../theme/node_modules/clipboard/dist/clipboard.min.js"></script>
-		<script src="../theme/js/Clipboard.js/DOMClipboard.js"></script>	<!-- Details Polyfill, см. http://ru.stackoverflow.com/a/498984/199934 -->
-<script src="../js/Details-Polyfill/details1.js"></script>
-		<script src="../js/Details-Polyfill/details2.js"></script>    <!-- Иконочка Сашеньки -->
+<script src="../theme/bower-components/jquery/dist/jquery.min.js"></script>    <!-- Mailhu -->
+<script src="../theme/js/Resize/resize.js" defer></script>
+		<script src="../theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" defer></script>
+		<script src="../theme/js/Mailhu/mailhu.js" defer></script>
+		<link rel="stylesheet" href="../theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="../theme/css/script-colors/Mailhu/Sasha-Mailhu.css">    <!-- Rainbow -->
+<script src="../theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
+	    <link rel="stylesheet" href="../theme/bower-components/rainbow/themes/css/rainbow.css">    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+<script src="../theme/node_modules/clipboard/dist/clipboard.min.js" defer></script>
+		<script src="../theme/js/Clipboard.js/DOMClipboard.js" defer></script>    <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
+<script src="../js/Details-Polyfill/details1.js" defer></script>
+		<script src="../js/Details-Polyfill/details2.js" defer></script>    <!-- Sasha icon -->
     <link rel="shortcut icon" href="../theme/images/icons/Sasha.ico" type="image/x-icon">
     <link rel="icon" href="../theme/images/Sasha.ico" type="image/x-icon">
-    <!-- Стиль страницы -->
+    <!-- Pages style -->
     <link rel="stylesheet" href="../theme/css/general/basic.css">
     <link rel="stylesheet" href="../theme/css/general/aside.css">
     <link rel="stylesheet" href="../theme/css/general/image_right.css">
     <link rel="stylesheet" href="../theme/css/sections/sublime-text.css">
     <link rel="stylesheet" href="../theme/css/general/fonts.css">
-    <!-- Открытие ссылок в новой вкладке -->
+    <!-- Custom styles -->
+    <!-- Open links in new tabs -->
     <base target="_blank">
-    <!-- Персональные css-файлы для страниц, pelican_javascript, https://github.com/mortada/pelican_javascript/tree/58e7335e5f5fa0acc945425c2d12bf9dcadb150f -->
-</head>
+    <!-- Personal CSS for pages, pelican_javascript, https://github.com/mortada/pelican_javascript/tree/58e7335e5f5fa0acc945425c2d12bf9dcadb150f -->
+  </head>
 
 <body>
-    <!-- Бэкграунд aside -->
-    <aside class="sidebar">
-        <div class="cover">
-            <div class="cover-text">
-                <!-- Заголовок aside -->
-                <h1>“Sublime Text Power User” notes</h1>
-            </div>
-        </div>
+    <!-- Background aside -->
+    <aside>
+        <!-- Header aside -->
+        <h1 class="cover-text">“Sublime Text Power User” notes</h1>
     </aside>
-    <!-- Текст -->
-    <main class="content-wrapper">
-    <h1>“Sublime Text Power User” notes</h1>
-    <img src="http://2no.co/1EBY.png">
-    <SashaVersion>
-    <time datetime="2017-02-13 19:15:15+03:00"></time>
-	</SashaVersion>
+    <!-- Content -->
+    <main>
+        <div class="SashaMargin">
+            <h1 class="SashaTopHeader">“Sublime Text Power User” notes</h1>
+            <img src="http://2no.co/1EBY.png">
+            <SashaVersion>
+                <time datetime="2017-02-13 19:15:15+03:00"></time>
+            </SashaVersion>
 <h2>Preamble</h2>
 
 <p><br /> All comments on <a href="http://jmp.sh/xasKD18">this</a> (<a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723">alternate link</a>) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.
@@ -235,11 +238,13 @@ If you only press the spacebar,
     <kbd>Ctrl+Shift+/</kbd>, <kbd>Alt</kbd> is not used.
     <br /><br /><b>201</b>
     <br /> You have not written, how to call Fullscreen Mode, in my opinion, you need to specify the hot keys —
-    <kbd>Shift+F11</kbd>.</p>	<div class="SashaEmNoColor">For all matters relating to article please contact me by
+    <kbd>Shift+F11</kbd>.</p> 	<div class="SashaEmNoColor">For all matters relating to article please contact me by
 <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:FnfunPurealxuRzcerffBsHavirefr@xevfgvavgn.eh?fhowrpg=R-znvy gb Fnfun Purealxu\" gnetrg=\"_oynax\">r-znvy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
 <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span> or by <a href="https://github.com/Kristinita/SashaSublime/issues" title="GitHub bugtracker">GitHub</a>, click «New Issue». With commentary in the style of <a href="../Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own&nbsp;discretion.</div>
-    <div class="WorkOnYourself">Работайте над собой</div>
+            <div class="WorkOnYourself">Работайте над собой</div>
+        </div>
     </main>
 </body>
-	<!-- Персональный JS для страниц, pelican_javascript, https://github.com/mortada/pelican_javascript/ -->
+<!-- Personal JavaScript for pages, pelican_javascript, see https://github.com/mortada/pelican_javascript/ -->
+  
 </html>

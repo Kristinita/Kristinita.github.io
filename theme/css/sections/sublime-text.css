@@ -25,7 +25,7 @@ aside {
 }
 
 
-/* Тени для изображений */
+/* Images shadows */
 
 img {
     box-shadow: 0 0 2rem black;
@@ -50,7 +50,8 @@ hr {
     color: pink;
 }
 
-/* Произвольный цвет выделения текста */
+/* Custom selection, see http://ru.stackoverflow.com/a/595809/199934
+   ========================================================================== */
 
 ::-moz-selection {
     background: moccasin;
@@ -70,4 +71,24 @@ hr {
 ::-moz-selection {
     background: rgba(255, 228, 181, 0.99);
     color: lightcoral;
+}
+
+
+/* Tooltipster theme
+   ========================================================================== */
+
+.tooltipster-punk-purple .tooltipster-box
+{
+    border: none;
+    border-bottom: 3px solid orange;
+    border-radius: 5px;
+    background: purple;
+}
+
+.tooltipster-punk-aquamarine .tooltipster-box
+{
+    border: none;
+    border-bottom: 3px solid hotpink;
+    border-radius: 5px;
+    background: forestgreen;
 }

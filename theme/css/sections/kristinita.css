@@ -2,8 +2,14 @@
 * @Author: Kristinita
 * @Date:   2016-11-25 10:51:23
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2017-03-22 16:22:45
+* @Last Modified time: 2017-03-29 20:44:46
 */
+
+/* For correct Mailhu display in body tag */
+html,
+body {
+    height: 100%;
+}
 
 body
 {
@@ -23,6 +29,11 @@ a
 html
 {
     overflow-x: hidden;
+}
+
+/* Inline displaying some div classes */
+.SashaKristinita, .SashaBeta, .SashaMinimal, .SashaCopyright, .SashaVKontakte {
+	display: inline;
 }
 
 @media screen and (max-width: 1600px)
@@ -256,6 +267,7 @@ img
     font-family: 'Cormorant';
     font-size: 40px;
 
+	text-align: center;
     color: #7fff00;
 }
 
@@ -287,7 +299,7 @@ img
     color: paleturquoise;
 }
 
-#SashaBowserExplorer, #SashaBowserFirefox
+.SashaBowserExplorer, .SashaBowserFirefox
 {
     position: relative;
     float: left;
@@ -303,7 +315,6 @@ img
     padding: 14px;
     /* Поля вокруг текста */
 
-    color: orange;
     /* Ширина слоя */
     font-size: 1.2rem;
     font-weight: bold;
@@ -314,10 +325,8 @@ img
 .SashaCenter
 {
     text-align: center;
-}
-/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
-#SashaBr {
-	margin: 21rem 0 0 0;
+    /* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
+    margin: 21rem 0 0 0;
 }
 
 /* Надпись Поиск Кристиниты*/
@@ -375,8 +384,8 @@ img
 
 
 /*Сашин логотип*/
-
+/* https://www.w3schools.com/tags/att_img_align.asp */
 .SashaLogo
 {
-    text-align: left;
+    float: left;
 }

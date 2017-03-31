@@ -1,8 +1,58 @@
-.sidebar
-    {
-        right: 0;
+/* Sasha icon in right side */
+
+aside {
+    float: right;
+}
+
+
+/*****************************************************************************
+*                                  Mailhu                                  *
+****************************************************************************
+*/
+
+
+/* Left scrollbar */
+
+
+/* See https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/501#issuecomment-275629140 */
+
+
+/* FIXME: If scrollbar if right side in mobile devices it show outside, not inside; */
+
+.mCustomScrollbar .mCSB_scrollTools {
+    right: auto;
+}
+
+.mCustomScrollbar .mCSB_inside > .mCSB_container {
+    margin-right: 0;
+}
+
+
+/* Media */
+
+
+/* PC */
+
+@media screen and (min-width: 60rem) {
+    .SashaMargin {
+        margin-right: 1rem;
+        margin-left: 2rem;
     }
-.content-wrapper
-{
-    margin-left: 3%;
+    /* Text float to left side */
+    main {
+        float: left;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 60rem) {
+    .mCustomScrollbar .mCSB_scrollTools {
+        right: auto;
+    }
+    .SashaMargin {
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
 }
