@@ -8,10 +8,22 @@ a {
     /* Цвет ссылок */
 }
 
+/*
+ * Background color of links by hover
+ */
 a:hover {
-    background-color: darkslategray;
-    /* Background color of link */
+    background-color: #F0808077;
 }
+
+/*
+ * Background color of links, if user move between links use tab key
+ * https://css-tricks.com/almanac/selectors/f/focus/
+ */
+
+a:focus {
+	background: whitesmoke;
+}
+
 em {
     color: deepskyblue;
 }
@@ -24,6 +36,19 @@ aside {
     color: #fff;
 }
 
+/*
+ * Multiline code all black
+ */
+pre > code {
+	background-color: black;
+}
+
+/*
+ * Inline code
+ */
+code {
+	background-color: darkslategray;
+}
 
 /* Images shadows */
 
@@ -46,9 +71,6 @@ hr {
     color: mediumvioletred;
 }
 
-.SashaEmNoColor {
-    color: pink;
-}
 
 /* Custom selection, see http://ru.stackoverflow.com/a/595809/199934
    ========================================================================== */
@@ -91,4 +113,26 @@ hr {
     border-bottom: 3px solid hotpink;
     border-radius: 5px;
     background: forestgreen;
+}
+
+/* ==========================================================================
+   Sasha classes
+   ========================================================================== */
+
+/*
+ * Epigraph
+ */
+
+.SashaEpigraph {
+	margin: 4rem 0;
+	/* Блестящий зеленовато-жёлтый, Яндекс.Колдунщик */
+	color: #ffdc33;
+}
+
+.SashaEpigraph cite {
+	color: lightpink;
+}
+
+.SashaEmNoColor {
+    color: pink;
 }

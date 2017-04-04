@@ -2,7 +2,7 @@
 * @Author: Kristinita
 * @Date:   2016-12-26 15:48:38
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2017-03-31 17:00:32
+* @Last Modified time: 2017-04-04 15:24:40
 */
 
 
@@ -40,6 +40,15 @@ a {
     /* Чтобы ссылки не подчёркивались */
 }
 
+/*
+ * Disable dotted outline, if user move by links use tab key, see
+ * https://css-tricks.com/removing-the-dotted-outline/
+ */
+
+a:focus {
+    outline: 0;
+}
+
 ol,
 ul {
     list-style-position: inside;
@@ -65,7 +74,7 @@ h1 {
 
 h2 {
     font-family: 'Мечта';
-    font-size: 31px;
+    font-size: 1.4rem;
 }
 
 time {
@@ -209,7 +218,7 @@ pre {
 
 /* Версия статьи */
 
-sashaversion {
+.SashaVersion {
     font-size: .8em;
     font-weight: bold;
 }
