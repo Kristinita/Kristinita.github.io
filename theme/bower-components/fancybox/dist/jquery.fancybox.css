@@ -13,7 +13,6 @@
   width: 100%;
   height: 100%;
   z-index: 99993;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
 /* Make sure that the first one is on the top */
@@ -29,7 +28,6 @@
   background: #0f0f11;
   opacity: 0;
   transition-timing-function: cubic-bezier(0.55, 0.06, 0.68, 0.19);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
 .fancybox-container--ready .fancybox-bg {
@@ -46,7 +44,6 @@
   z-index: 99994;
   transition: opacity .2s;
   pointer-events: none;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   direction: ltr; }
 
@@ -102,7 +99,6 @@
   padding: 0;
   margin: 0;
   z-index: 99993;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent; }
 
@@ -190,12 +186,9 @@
   background: transparent;
   cursor: default;
   overflow: visible;
-  -webkit-transform-origin: top left;
-  -ms-transform-origin: top left;
   transform-origin: top left;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
 .fancybox-image,
@@ -214,19 +207,15 @@
   background-size: 100% 100%; }
 
 .fancybox-controls--canzoomOut .fancybox-placeholder {
-  cursor: -webkit-zoom-out;
   cursor: zoom-out; }
 
 .fancybox-controls--canzoomIn .fancybox-placeholder {
-  cursor: -webkit-zoom-in;
   cursor: zoom-in; }
 
 .fancybox-controls--canGrab .fancybox-placeholder {
-  cursor: -webkit-grab;
   cursor: grab; }
 
 .fancybox-controls--isGrabbing .fancybox-placeholder {
-  cursor: -webkit-grabbing;
   cursor: grabbing; }
 
 .fancybox-spaceball {
@@ -246,8 +235,6 @@
   left: 50%;
   width: 380px;
   max-width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: #fff;
   cursor: default; }
@@ -311,7 +298,6 @@
   right: 0;
   padding: 60px 30px 0 30px;
   z-index: 99998;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-sizing: border-box;
   background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8) 100%);
@@ -391,8 +377,6 @@
   background: transparent;
   border-top: solid 2px currentColor;
   border-right: solid 2px currentColor;
-  -webkit-transform: rotate(-135deg);
-  -ms-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
 .fancybox-button--right::after {
@@ -403,8 +387,6 @@
   background: transparent;
   border-top: solid 2px currentColor;
   border-right: solid 2px currentColor;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
 .fancybox-button--left {
@@ -426,13 +408,9 @@
   left: calc(50% - 8px); }
 
 .fancybox-button--close::before {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
 .fancybox-button--close::after {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
 /* Loading spinner */
@@ -442,7 +420,6 @@
   border-radius: 100%;
   height: 50px;
   width: 50px;
-  -webkit-animation: fancybox-rotate .8s infinite linear;
   animation: fancybox-rotate .8s infinite linear;
   background: transparent;
   position: absolute;
@@ -452,20 +429,10 @@
   margin-left: -25px;
   z-index: 99999; }
 
-@-webkit-keyframes fancybox-rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg); } }
-
 @keyframes fancybox-rotate {
   from {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   to {
-    -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
 /* Styling for Small-Screen Devices */
@@ -569,7 +536,6 @@
   border-top-width: 0;
   border-right-width: 0;
   -webkit-tap-highlight-color: transparent;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-sizing: border-box; }
 

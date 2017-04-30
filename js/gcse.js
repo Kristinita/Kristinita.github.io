@@ -3,11 +3,15 @@
 
     < gcse: searchbox enableHistory = true autoCompleteMaxCompletions = 10 > < /gcse:searchbox> < gcse: searchresults > < /gcse:searchresults>
 */
+
+// I set new search engine, because in old I have an error:
+// 'X-Frame-Options'
+// http://stackoverflow.com/a/32696709/5951529
 (function() {
-    var cx = '013024336414733191742:lmo7aip_90c'; // Insert your own Custom Search engine ID here
+    var cx = '013024336414733191742:sps98skj394';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
-    // Gcse.async = true;
+    gcse.async = true;
     gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
     var s = document.getElementsByTagName('script')[0];
     /*

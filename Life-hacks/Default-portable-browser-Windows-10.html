@@ -1,3 +1,6 @@
+<!-- @Author: Kristinita -->
+<!-- @Date:   2017-04-15 17:42:59 -->
+<!-- @Last Modified time: 2017-04-17 10:38:15 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,40 +9,51 @@
     <meta charset="utf-8">
     <!-- Title phrase -->
     <title>Портативный браузер по умолчанию в Windows 10</title>
-    <!-- Description, EDGE-compatible, different screens-->
+    <!-- Description, EDGE-compatible, different screens -->
     <meta content="Description, how to make Pale Moon default browser in Windows">
     <meta content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Open Graph, http://ruogp.me/ -->
+    <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+    <meta property="og:title" content="Портативный браузер по умолчанию в Windows 10" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Description, how to make Pale Moon default browser in Windows" />
+    <meta property="og:site_name" content="Поиск Кристиниты" />
     <!-- JQuery -->
-<script src="../theme/bower-components/jquery/dist/jquery.min.js"></script>    <!-- Mailhu -->
-<script src="../theme/js/Resize/resize.js" defer></script>
-		<script src="../theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" defer></script>
-		<script src="../theme/js/Mailhu/mailhu.js" defer></script>
-		<link rel="stylesheet" href="../theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-		<link rel="stylesheet" href="../theme/css/script-colors/Mailhu/Sasha-Mailhu.css">    <!-- Fancybox -->
+    <script src="http://kristinita.ru/theme/bower-components/jquery/dist/jquery.min.js"></script>
+    <!-- Mailhu -->
+    <script src="http://kristinita.ru/theme/js/Resize/resize.js" defer></script>
+    <script src="http://kristinita.ru/theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" defer></script>
+    <script src="http://kristinita.ru/theme/js/Mailhu/mailhu.js" defer></script>
+    <link rel="stylesheet" href="http://kristinita.ru/theme/bower-components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/script-colors/Mailhu/Sasha-Mailhu.css">
+    <!-- Fancybox -->
     <!-- Rainbow -->
-<script src="../theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
-	    <link rel="stylesheet" href="../theme/bower-components/rainbow/themes/css/rainbow.css">    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
-<script src="../theme/node_modules/tooltipster/dist/js/tooltipster.bundle.min.js" defer></script>
-		<link rel="stylesheet" href="../theme/node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
-		<link rel="stylesheet" href="../theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
-		<script src="../theme/js/Tooltipster/tooltip.js" defer></script>    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
-<script src="../theme/node_modules/clipboard/dist/clipboard.min.js" defer></script>
-		<script src="../theme/js/Clipboard.js/DOMClipboard.js" defer></script>    <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
+    <script src="http://kristinita.ru/theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
+    <link rel="stylesheet" href="http://kristinita.ru/theme/bower-components/rainbow/themes/css/rainbow.css">
+    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+    <script src="http://kristinita.ru/theme/node_modules/tooltipster/dist/js/tooltipster.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="http://kristinita.ru/theme/node_modules/tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" href="http://kristinita.ru/theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+    <script src="http://kristinita.ru/theme/js/Tooltipster/tooltip.js" defer></script>
+    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+    <script src="http://kristinita.ru/theme/node_modules/clipboard/dist/clipboard.min.js" defer></script>
+    <script src="http://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
+    <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
     <!-- Sasha icon -->
-    <link rel="shortcut icon" href="../theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="../theme/images/Sasha.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="http://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
     <!-- Pages style -->
-    <link rel="stylesheet" href="../theme/css/general/basic.css">
-    <link rel="stylesheet" href="../theme/css/general/aside.css">
-    <link rel="stylesheet" href="../theme/css/general/image_left.css">
-    <link rel="stylesheet" href="../theme/css/sections/life-hacks.css">
-    <link rel="stylesheet" href="../theme/css/general/fonts.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/basic.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/aside.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/image_left.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/sections/life-hacks.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/fonts.css">
+    <!-- CodeHilite, https://pythonhosted.org/Markdown/extensions/code_hilite.html , http://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/ -->
     <!-- Custom styles -->
-    <!-- Open links in new tabs -->
-    <base target="_blank">
     <!-- Personal CSS for pages, pelican_javascript, https://github.com/mortada/pelican_javascript/tree/58e7335e5f5fa0acc945425c2d12bf9dcadb150f -->
-   <link rel="stylesheet" href="../css/personal/Life-hacks/default-portable-browser.css" type="text/css" />   </head>
+</head>
 
 <body>
     <!-- Background aside -->
@@ -53,113 +67,331 @@
             <h1 class="SashaTopHeader">Портативный браузер по умолчанию в Windows 10</h1>
             <img src="http://2no.co/1vWK5.png" alt="image">
             <div class="SashaVersion">Version </div>
-            <time datetime="2017-02-13 19:15:15+03:00"></time>
-<p><a href="#Why-Portable" target="_self">Почему портативный браузер?</a>
-<br />
-<a href="#Why-Pale-Moon" target="_self">Почему Pale Moon?</a>
-<br />
-<a href="#Not-work" target="_self">Установка Pale Moon браузером по умолчанию обычными методами</a>
-<br />
-<a href="#Solution" target="_self">Решение</a>
-<br />
-<br />
-<br />
-<h3 id="Why-Portable">Почему портативный&nbsp;браузер?</h3>
-<br />
-<ol>
-    Всё нижеперечисленное можно отнести к достоинствам любых других <a href="http://computerstory.ru/?p=3524">портативных программ</a>, не только браузеров.
-    <br />
-    <br />
-    <li>Настройки браузера: профили, расширения, скрипты, стили и т. д. не слетают без всяких дополнительных действий со стороны пользователя при следующих обстоятельствах:
-        <br />
-        <br />
-        <ul type="disc">
-            <li>Если предстоит переустановка — число каковых на моём веку перевалило за десяток — операционной&nbsp;системы.</li>
-            <li>Когда вы на некоторое время оказались отлучённым от компьютера, которым обычно пользуетесь. Запустив Pale Moon Portable (далее также просто <em>Pale Moon</em>, <em><span class="caps">PM</span></em>) на чужом компьютере c внешнего съёмного носителя, окажетесь в родной среде, со всеми настройками, которые у вас присутствовали. Портативный браузер можно установить с флэшки, внешнего жёсткого диска, как который допустимо использовать и диск с интерфейсом <span class="caps">SATA</span>, подключив его к&nbsp;док-станции.</li>
-        </ul>
-        <br />
-    </li>
-    <li>При пользовании другим компьютером или замене жёсткого диска, чтобы продолжить работу в <span class="caps">PM</span> со всеми накопленными настройками достаточно перенести в новое место только папку, куда установлен этот браузер, — и не придётся ничего копировать с локального диска
-        <dfn>С</dfn>, переживая, как что-то пойдёт не так. А после переустановки ОС будет достаточно запустить свой портативный браузер, прежде настроенный под ваши предпочтения, не предпринимая иных&nbsp;действий.</li>
-    <br />
-    <ul type="disc" class="russianletters">Существуют отдельные средства для экспорта/импорта паролей, закладок, однако
-        <br />
-        <br />
-        <li> лично у меня они, бывало, отказывали, когда возникала в них острая&nbsp;необходимость,</li>
-        <li> восстанавливают не всё-всё, как&nbsp;было,</li>
-        <li> перенос отнимает&nbsp;время.</li>
-        <br /> В силу причин
-        <dfn>а</dfn> и
-        <dfn>в</dfn> я вообще стараюсь не использовать программы, сохраняющие какие-либо пользовательские данные на системном диске.
-    </ul>
-    <br />
-    <li>Чтобы просмотреть созданные файлы Pale Moon и/или изменить их через проводник Windows либо файловый менеджер, в инсталлированной версии браузера придётся переходить по пути
-        <dfn>C:\Users\SashaGoddess\AppData\Roaming\Moonchild Productions\Pale Moon</dfn>, используя переносимую —
-        <dfn>E:\Pale Moon</dfn>. Лично для меня второй вариант много&nbsp;удобнее.</li>
-    <br />
-    <li>Дополнительное подспорье к безопасности ваших данных. Известные мне <a href="http://tophope.ru/threads/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B5%D1%80-%D1%81%D1%82%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-stealer-%D0%B8-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D0%B0-%D1%81-%D0%BD%D0%B8%D0%BC.1965/">стилеры</a>, в том числе встроенные в «<a href="http://www.spy-soft.net/chto-takoe-rat/">ратники</a>», не воруют пароли из portable&nbsp;программ.</li>
-</ol>
-<br />
-<br />
-<h3 id="Why-Pale-Moon">Почему Pale&nbsp;Moon?</h3>
-<br /> Pale Moon я рассматриваю как оптимизированную под низкое — по личному опыту, меньшее, нежели у Firefox, Chrome, Opera, Avant, Maxthon и SeaMonkey — потребление оперативной памяти версию Firefox — наиболее функционального на мой взгляд браузера. Аддоны для Mozilla поддерживаются Pale Moon.
-<br />
-<br />
-<br />
-<h3 id="Not-work">Установка Pale Moon браузером по умолчанию обычными&nbsp;методами</h3>
-<br />
-<img src="http://i.imgur.com/gQywm8B.png" alt="">
-<br /> Не помогает. В «Выборе программ по умолчанию», «Приложениях по умолчанию» и «Настройке доступа программ и параметров компьютера по умолчанию» Pale Moon Portable нет.
-<br />
-<br />
-<img src="http://i.imgur.com/HCIt8xR.png" alt="">
-<img src="http://i.imgur.com/l9HgjBJ.png" alt="">
-<img src="http://i.imgur.com/LNFEjsi.png" alt="">
-<br /> Связать протоколы с Pale Moon также не получается:
-<br />
-<br />
-<img src="http://i.imgur.com/UiS638u.png" alt="">
-<br />
-<br />
-<h3 id="Solution">Решение</h3>
-<br /> Устанавливаем <a href="http://portableapps.com/apps/internet/firefox_portable">Firefox Portable</a>, <a href="https://support.mozilla.org/ru/kb/kak-sdelat-firefox-brauzerom-po-umolchaniyu">делаем Firefox браузером по умолчанию</a>, — в отличие от Pale Moon «огнелис» становится браузером по умолчанию без особых проблем.
-<br />
-<br />Правой кнопкой мыши по окошку меню «Пуск» → <em>Выполнить</em> → <em>regedit.exe</em> → проходим по реестру дважды до <em>command</em>:
-<br />
-<br />HKEY_CLASSES_ROOT
-<br />├───FirefoxHTML
-<br />│ └───shell
-<br />│ └───open
-<br />│ └───command
-<br />└───FirefoxURL
-<br />└───shell
-<br />└───open
-<br />└───command
-<br />
-<br /> Т. е. <em>HKEY_CLASSES_ROOT</em> → <em>FirefoxHTML</em> → <em>shell</em> → <em>open</em> → <em>command</em>. Заменяем путь к Firefox на путь к Pale Moon Portable: правой кнопкой мыши на «По умолчанию» → <em>Изменить</em>.
-<br />
-<br />
-<img src="http://i.imgur.com/qKogH11.png" alt="" />
-<br /> Например, у меня
-<br />Было: &#8220;<em>E:\FirefoxPortable\App\Firefox\firefox.exe&#8221; -osint -url &#8220;%1&#8221;</em>
-<br />Стало: <em>&#8220;E:Pale Moon\Palemoon-Portable.exe&#8221; -osint -url &#8220;%1&#8221;</em>
-<br />
-<br /> Далее там же в реестре <em>HKEY_CLASSES_ROOT</em> → <em>FirefoxURL</em> → <em>shell</em> → <em>open</em> → <em>command</em>. Снова вместо пути к Firefox указываем путь к <span class="caps">PM</span>.
-<br />
-<br />Пробуем открыть гиперссылку при работе в какой-нибудь программе, например, почтовой, → в диалоговом окне выбираем <em>Palemoon-Portable</em>, дополнительно поставив галочку напротив <em>Всегда использовать это приложение</em>:
-<br />
-<br /><img src="http://i.imgur.com/mcGNijr.png" alt="" />
-<br />Отныне ссылки, кликнутые в любой программе, будут открываться браузером Pale Moon Portable. При открытии файлов с расширениями <em>html</em>, <em>htm</em>, <em>xhtml</em> в появившемся диалоговом окне выбираем <em>Palemoon-Portable.exe</em>, помня о галочке.
-<br />
-<br />
-<img src="http://i.imgur.com/DjwBc2Q.png" alt="">
-<br /> Pale Moon Portable установлен браузером по&nbsp;умолчанию.</p> 	<div class="SashaEmNoColor">For all matters relating to article please contact me by
-<span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:FnfunPurealxuRzcerffBsHavirefr@xevfgvavgn.eh?fhowrpg=R-znvy gb Fnfun Purealxu\" gnetrg=\"_oynax\">r-znvy</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
-<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span> or by <a href="https://github.com/Kristinita/SashaMiscellaneous" title="GitHub bugtracker">GitHub</a>, click «New Issue». With commentary in the style of <a href="../Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own&nbsp;discretion.</div>
-            <div class="WorkOnYourself">Работайте над собой</div>
-        </div>
+            <div class="SashaVersion">
+                Posted —
+                <time datetime="2017-02-13 19:15:15+03:00">2017-02-13 19:15:15+03:00</time>
+            </div>
+            <div class="SashaVersion">
+                Last modified —
+                <time pubdate=""></time>
+            </div>
+            <p><a href="#Why-Portable" target="_self">Почему портативный браузер?</a>
+                <br>
+                <br/>
+                <br>
+                <a href="#Why-Pale-Moon" target="_self">Почему Pale Moon?</a>
+                <br>
+                <br/>
+                <br>
+                <a href="#Not-work" target="_self">Установка Pale Moon браузером по умолчанию обычными методами</a>
+                <br>
+                <br/>
+                <br>
+                <a href="#Solution" target="_self">Решение</a>
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <h3 id="Why-Portable">Почему портативный браузер?</h3>
+                <br>
+                <br/>
+                <br>
+                <ol>
+                    <br> Всё нижеперечисленное можно отнести к достоинствам любых других <a href="http://computerstory.ru/?p=3524">портативных программ</a>, не только браузеров.
+                    <br>
+                    <br/>
+                    <br>
+                    <br/>
+                    <br>
+                    <li>Настройки браузера: профили, расширения, скрипты, стили и т. д. не слетают без всяких дополнительных действий со стороны пользователя при следующих обстоятельствах:
+                        <br>
+                        <br/>
+                        <br>
+                        <br/>
+                        <br>
+                        <ul type="disc">
+                            <br>
+                            <li>Если предстоит переустановка — число каковых на моём веку перевалило за десяток — операционной системы.</li>
+                            <br>
+                            <li>Когда вы на некоторое время оказались отлучённым от компьютера, которым обычно пользуетесь. Запустив Pale Moon Portable (далее также просто <em>Pale Moon</em>, <em>PM</em>) на чужом компьютере c внешнего съёмного носителя,
+                                окажетесь в родной среде, со всеми настройками, которые у вас присутствовали. Портативный браузер можно установить с флэшки, внешнего жёсткого диска, как который допустимо использовать и диск с интерфейсом SATA, подключив
+                                его к док-станции.</li>
+                            <br>
+                            </br>
+                            </br>
+                            </br>
+                        </ul>
+                        <br>
+                        <br/>
+                        <br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                    </li>
+                    <br>
+                    <li>При пользовании другим компьютером или замене жёсткого диска, чтобы продолжить работу в PM со всеми накопленными настройками достаточно перенести в новое место только папку, куда установлен этот браузер, — и не придётся ничего копировать
+                        с локального диска
+                        <br>
+                        <dfn>С</dfn>, переживая, как что-то пойдёт не так. А после переустановки ОС будет достаточно запустить свой портативный браузер, прежде настроенный под ваши предпочтения, не предпринимая иных действий.</br>
+                    </li>
+                    <br>
+                    <br/>
+                    <br>
+                    <ul class="russianletters" type="disc">Существуют отдельные средства для экспорта/импорта паролей, закладок, однако
+                        <br>
+                        <br/>
+                        <br>
+                        <br/>
+                        <br>
+                        <li> лично у меня они, бывало, отказывали, когда возникала в них острая необходимость,</li>
+                        <br>
+                        <li> восстанавливают не всё-всё, как было,</li>
+                        <br>
+                        <li> перенос отнимает время.</li>
+                        <br>
+                        <br/> В силу причин
+                        <br>
+                        <dfn>а</dfn> и
+                        <br>
+                        <dfn>в</dfn> я вообще стараюсь не использовать программы, сохраняющие какие-либо пользовательские данные на системном диске.
+                        <br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                    </ul>
+                    <br>
+                    <br/>
+                    <br>
+                    <li>Чтобы просмотреть созданные файлы Pale Moon и/или изменить их через проводник Windows либо файловый менеджер, в инсталлированной версии браузера придётся переходить по пути
+                        <br>
+                        <dfn>C:\Users\SashaGoddess\AppData\Roaming\Moonchild Productions\Pale Moon</dfn>, используя переносимую —
+                        <br>
+                        <dfn>E:\Pale Moon</dfn>. Лично для меня второй вариант много удобнее.</br>
+                        </br>
+                    </li>
+                    <br>
+                    <br/>
+                    <br>
+                    <li>Дополнительное подспорье к безопасности ваших данных. Известные мне <a href="http://tophope.ru/threads/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B5%D1%80-%D1%81%D1%82%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-stealer-%D0%B8-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D0%B0-%D1%81-%D0%BD%D0%B8%D0%BC.1965/">стилеры</a>,
+                        в том числе встроенные в «<a href="http://www.spy-soft.net/chto-takoe-rat/">ратники</a>», не воруют пароли из portable программ.</li>
+                    <br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                </ol>
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <h3 id="Why-Pale-Moon">Почему Pale Moon?</h3>
+                <br>
+                <br/> Pale Moon я рассматриваю как оптимизированную под низкое — по личному опыту, меньшее, нежели у Firefox, Chrome, Opera, Avant, Maxthon и SeaMonkey — потребление оперативной памяти версию Firefox — наиболее функционального на мой взгляд
+                браузера. Аддоны для Mozilla поддерживаются Pale Moon.
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <h3 id="Not-work">Установка Pale Moon браузером по умолчанию обычными методами</h3>
+                <br>
+                <br/>
+                <br>
+                <img alt="" src="http://i.imgur.com/gQywm8B.png">
+                <br>
+                <br/> Не помогает. В «Выборе программ по умолчанию», «Приложениях по умолчанию» и «Настройке доступа программ и параметров компьютера по умолчанию» Pale Moon Portable нет.
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <img alt="" src="http://i.imgur.com/HCIt8xR.png">
+                <br>
+                <img alt="" src="http://i.imgur.com/l9HgjBJ.png">
+                <br>
+                <img alt="" src="http://i.imgur.com/LNFEjsi.png">
+                <br>
+                <br/> Связать протоколы с Pale Moon также не получается:
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <img alt="" src="http://i.imgur.com/UiS638u.png">
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <h3 id="Solution">Решение</h3>
+                <br>
+                <br/> Устанавливаем <a href="http://portableapps.com/apps/internet/firefox_portable">Firefox Portable</a>, <a href="https://support.mozilla.org/ru/kb/kak-sdelat-firefox-brauzerom-po-umolchaniyu">делаем Firefox браузером по умолчанию</a>, —
+                в отличие от Pale Moon «огнелис» становится браузером по умолчанию без особых проблем.
+                <br>
+                <br/>
+                <br>
+                <br/>Правой кнопкой мыши по окошку меню «Пуск» → <em>Выполнить</em> → <em>regedit.exe</em> → проходим по реестру дважды до <em>command</em>:
+                <br>
+                <br/>
+                <br>
+                <br/>HKEY_CLASSES_ROOT
+                <br>
+                <br/>├───FirefoxHTML
+                <br>
+                <br/>│ └───shell
+                <br>
+                <br/>│ └───open
+                <br>
+                <br/>│ └───command
+                <br>
+                <br/>└───FirefoxURL
+                <br>
+                <br/>└───shell
+                <br>
+                <br/>└───open
+                <br>
+                <br/>└───command
+                <br>
+                <br/>
+                <br>
+                <br/> Т. е. <em>HKEY_CLASSES_ROOT</em> → <em>FirefoxHTML</em> → <em>shell</em> → <em>open</em> → <em>command</em>. Заменяем путь к Firefox на путь к Pale Moon Portable: правой кнопкой мыши на «По умолчанию» → <em>Изменить</em>.
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <img alt="" src="http://i.imgur.com/qKogH11.png" />
+                <br>
+                <br/> Например, у меня
+                <br>
+                <br/>Было: "<em>E:\FirefoxPortable\App\Firefox\firefox.exe" -osint -url "%1"</em>
+                <br>
+                <br/>Стало: <em>"E:Pale Moon\Palemoon-Portable.exe" -osint -url "%1"</em>
+                <br>
+                <br/>
+                <br>
+                <br/> Далее там же в реестре <em>HKEY_CLASSES_ROOT</em> → <em>FirefoxURL</em> → <em>shell</em> → <em>open</em> → <em>command</em>. Снова вместо пути к Firefox указываем путь к PM.
+                <br>
+                <br/>
+                <br>
+                <br/>Пробуем открыть гиперссылку при работе в какой-нибудь программе, например, почтовой, → в диалоговом окне выбираем <em>Palemoon-Portable</em>, дополнительно поставив галочку напротив <em>Всегда использовать это приложение</em>:
+                <br>
+                <br/>
+                <br>
+                <br/><img alt="" src="http://i.imgur.com/mcGNijr.png" />
+                <br>
+                <br/>Отныне ссылки, кликнутые в любой программе, будут открываться браузером Pale Moon Portable. При открытии файлов с расширениями <em>html</em>, <em>htm</em>, <em>xhtml</em> в появившемся диалоговом окне выбираем <em>Palemoon-Portable.exe</em>,
+                помня о галочке.
+                <br>
+                <br/>
+                <br>
+                <br/>
+                <br>
+                <img alt="" src="http://i.imgur.com/DjwBc2Q.png">
+                <br>
+                <br/> Pale Moon Portable установлен браузером по умолчанию.</br>
+                </img>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </img>
+                </br>
+                </br>
+                </br>
+                </br>
+                </img>
+                </br>
+                </img>
+                </br>
+                </img>
+                </br>
+                </br>
+                </br>
+                </br>
+                </img>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+            </p>
+            <div class="SashaEmNoColor"> Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Life-hacks/Default-portable-browser-Windows-10.md">отредактировать её</a> и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
+                Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по электронной почте <span id="obf"><script src="http://kristinita.ru/js/personal/mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
+                </span>. С комментариями в стиле <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.
+                <div class="WorkOnYourself">Работайте над собой</div>
+            </div>
     </main>
     <!-- Personal JavaScript for pages, pelican_javascript, see https://github.com/mortada/pelican_javascript/ -->
-  </body>
+</body>
 
 </html>

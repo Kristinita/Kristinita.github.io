@@ -81,7 +81,10 @@ li.fancybox-thumbs-loading {
 	max-width: none;
 	max-height: none;
 	-webkit-touch-callout: none;
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
 
 .fancybox-thumbs > ul > li:before {
