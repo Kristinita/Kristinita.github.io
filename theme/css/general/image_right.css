@@ -1,60 +1,57 @@
-/* ==========================================================================
+ /*==========================================================================*
    General
    ========================================================================== */
+ /* Sasha icon to right */
 
-
-/* Sasha icon to right */
-
-aside {
-    float: right;
-}
-
-
-/* ==========================================================================
-   Mailhu
+ aside {
+     float: right;
+ }
+ /* ==========================================================================
+   Malihu
    ========================================================================== */
-
-
-/* See https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/501#issuecomment-275629140 */
-
-
-.mCustomScrollbar .mCSB_scrollTools {
+ /* Don't use Malihu, plugin have bugs */
+ /* See https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/501#issuecomment-275629140 */
+ /*.mCustomScrollbar .mCSB_scrollTools {
     right: auto;
 }
 
 .mCustomScrollbar .mCSB_inside > .mCSB_container {
     margin-right: 0;
 }
+*/
 
-
-/* ==========================================================================
-   Media
+ /* ==========================================================================
+   Gemini
    ========================================================================== */
 
+ /* Scrollbar in left side */
+ .gm-scrollbar.-vertical {
+     right: auto;
+ }
 
-/* PC */
+ /* ==========================================================================
+   Media
+   ========================================================================== */
+ /* PC */
 
-@media screen and (min-width: 60rem) {
-    .SashaMargin {
-        margin-right: 1rem;
-        margin-left: 2rem;
-    }
-    /* Text float to left side */
-    main {
-        float: left;
-    }
-}
+ @media screen and (min-width: 60rem) {
+     /* Container without scrollbar */
+     .SashaMargin {
+         margin-right: 1rem;
+         margin-left: 2rem;
+     }
+ }
+ /* Mobile */
 
-
-/* Mobile */
-
-@media screen and (max-width: 60rem) {
-    .mCustomScrollbar .mCSB_scrollTools {
+ @media screen and (max-width: 60rem) {
+     /* Don't use Malihu */
+     /* .mCustomScrollbar .mCSB_scrollTools {
         right: auto;
-    }
-    .SashaMargin {
-        margin-right: 1rem;
-        margin-left: 2rem;
-    }
-}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImltYWdlX3JpZ2h0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Z0ZBRWdGOzs7QUFHaEYseUJBQXlCOztBQUV6QjtJQUNJLGFBQWE7Q0FDaEI7OztBQUdEOztnRkFFZ0Y7OztBQUdoRixvR0FBb0c7OztBQUdwRztJQUNJLFlBQVk7Q0FDZjs7QUFFRDtJQUNJLGdCQUFnQjtDQUNuQjs7O0FBR0Q7O2dGQUVnRjs7O0FBR2hGLFFBQVE7O0FBRVI7SUFDSTtRQUNJLG1CQUFtQjtRQUNuQixrQkFBa0I7S0FDckI7SUFDRCw2QkFBNkI7SUFDN0I7UUFDSSxZQUFZO0tBQ2Y7Q0FDSjs7O0FBR0QsWUFBWTs7QUFFWjtJQUNJO1FBQ0ksWUFBWTtLQUNmO0lBQ0Q7UUFDSSxtQkFBbUI7UUFDbkIsa0JBQWtCO0tBQ3JCO0NBQ0oiLCJmaWxlIjoiaW1hZ2VfcmlnaHQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cbiAgIEdlbmVyYWxcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cblxuLyogU2FzaGEgaWNvbiB0byByaWdodCAqL1xuXG5hc2lkZSB7XG4gICAgZmxvYXQ6IHJpZ2h0O1xufVxuXG5cbi8qID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4gICBNYWlsaHVcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cblxuLyogU2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9tYWxpaHUvbWFsaWh1LWN1c3RvbS1zY3JvbGxiYXItcGx1Z2luL2lzc3Vlcy81MDEjaXNzdWVjb21tZW50LTI3NTYyOTE0MCAqL1xuXG5cbi5tQ3VzdG9tU2Nyb2xsYmFyIC5tQ1NCX3Njcm9sbFRvb2xzIHtcbiAgICByaWdodDogYXV0bztcbn1cblxuLm1DdXN0b21TY3JvbGxiYXIgLm1DU0JfaW5zaWRlID4gLm1DU0JfY29udGFpbmVyIHtcbiAgICBtYXJnaW4tcmlnaHQ6IDA7XG59XG5cblxuLyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cbiAgIE1lZGlhXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG5cbi8qIFBDICovXG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDYwcmVtKSB7XG4gICAgLlNhc2hhTWFyZ2luIHtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAxcmVtO1xuICAgICAgICBtYXJnaW4tbGVmdDogMnJlbTtcbiAgICB9XG4gICAgLyogVGV4dCBmbG9hdCB0byBsZWZ0IHNpZGUgKi9cbiAgICBtYWluIHtcbiAgICAgICAgZmxvYXQ6IGxlZnQ7XG4gICAgfVxufVxuXG5cbi8qIE1vYmlsZSAqL1xuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MHJlbSkge1xuICAgIC5tQ3VzdG9tU2Nyb2xsYmFyIC5tQ1NCX3Njcm9sbFRvb2xzIHtcbiAgICAgICAgcmlnaHQ6IGF1dG87XG4gICAgfVxuICAgIC5TYXNoYU1hcmdpbiB7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXJlbTtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDJyZW07XG4gICAgfVxufVxuIl19 */
+    }*/
+     /* Container without scrollbar */
+     .SashaMargin {
+         margin-right: 1rem;
+         margin-left: 2rem;
+     }
+ }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImltYWdlX3JpZ2h0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQ0FBQzs7Z0ZBRStFO0NBQy9FLHlCQUF5Qjs7Q0FFekI7S0FDSSxhQUFhO0VBQ2hCO0NBQ0Q7O2dGQUUrRTtDQUMvRSx3Q0FBd0M7Q0FDeEMsb0dBQW9HO0NBQ3BHOzs7Ozs7O0VBT0M7O0NBRUQ7O2dGQUUrRTs7Q0FFL0UsNEJBQTRCO0NBQzVCO0tBQ0ksWUFBWTtFQUNmOztDQUVEOztnRkFFK0U7Q0FDL0UsUUFBUTs7Q0FFUjtLQUNJLGlDQUFpQztLQUNqQztTQUNJLG1CQUFtQjtTQUNuQixrQkFBa0I7TUFDckI7RUFDSjtDQUNELFlBQVk7O0NBRVo7S0FDSSxzQkFBc0I7S0FDdEI7O09BRUU7S0FDRixpQ0FBaUM7S0FDakM7U0FDSSxtQkFBbUI7U0FDbkIsa0JBQWtCO01BQ3JCO0VBQ0oiLCJmaWxlIjoiaW1hZ2VfcmlnaHQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIC8qPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0qXG4gICBHZW5lcmFsXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuIC8qIFNhc2hhIGljb24gdG8gcmlnaHQgKi9cblxuIGFzaWRlIHtcbiAgICAgZmxvYXQ6IHJpZ2h0O1xuIH1cbiAvKiA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuICAgTWFsaWh1XG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuIC8qIERvbid0IHVzZSBNYWxpaHUsIHBsdWdpbiBoYXZlIGJ1Z3MgKi9cbiAvKiBTZWUgaHR0cHM6Ly9naXRodWIuY29tL21hbGlodS9tYWxpaHUtY3VzdG9tLXNjcm9sbGJhci1wbHVnaW4vaXNzdWVzLzUwMSNpc3N1ZWNvbW1lbnQtMjc1NjI5MTQwICovXG4gLyoubUN1c3RvbVNjcm9sbGJhciAubUNTQl9zY3JvbGxUb29scyB7XG4gICAgcmlnaHQ6IGF1dG87XG59XG5cbi5tQ3VzdG9tU2Nyb2xsYmFyIC5tQ1NCX2luc2lkZSA+IC5tQ1NCX2NvbnRhaW5lciB7XG4gICAgbWFyZ2luLXJpZ2h0OiAwO1xufVxuKi9cblxuIC8qID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4gICBHZW1pbmlcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbiAvKiBTY3JvbGxiYXIgaW4gbGVmdCBzaWRlICovXG4gLmdtLXNjcm9sbGJhci4tdmVydGljYWwge1xuICAgICByaWdodDogYXV0bztcbiB9XG5cbiAvKiA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuICAgTWVkaWFcbiAgID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG4gLyogUEMgKi9cblxuIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDYwcmVtKSB7XG4gICAgIC8qIENvbnRhaW5lciB3aXRob3V0IHNjcm9sbGJhciAqL1xuICAgICAuU2FzaGFNYXJnaW4ge1xuICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxcmVtO1xuICAgICAgICAgbWFyZ2luLWxlZnQ6IDJyZW07XG4gICAgIH1cbiB9XG4gLyogTW9iaWxlICovXG5cbiBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MHJlbSkge1xuICAgICAvKiBEb24ndCB1c2UgTWFsaWh1ICovXG4gICAgIC8qIC5tQ3VzdG9tU2Nyb2xsYmFyIC5tQ1NCX3Njcm9sbFRvb2xzIHtcbiAgICAgICAgcmlnaHQ6IGF1dG87XG4gICAgfSovXG4gICAgIC8qIENvbnRhaW5lciB3aXRob3V0IHNjcm9sbGJhciAqL1xuICAgICAuU2FzaGFNYXJnaW4ge1xuICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxcmVtO1xuICAgICAgICAgbWFyZ2luLWxlZnQ6IDJyZW07XG4gICAgIH1cbiB9XG4iXX0= */
