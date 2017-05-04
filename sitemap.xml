@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/</loc>
-<lastmod>2017-05-03T07:28:19-00:00</lastmod>
+<lastmod>2017-05-04T17:50:22-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/archives.html</loc>
-<lastmod>2017-05-03T07:28:19-00:00</lastmod>
+<lastmod>2017-05-04T17:50:22-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/categories.html</loc>
-<lastmod>2017-05-03T07:28:19-00:00</lastmod>
+<lastmod>2017-05-04T17:50:22-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html</loc>
-<lastmod>2017-05-02T12:31:25+03:00</lastmod>
+<lastmod>2017-05-04T14:04:14+03:00</lastmod>
 <changefreq>never</changefreq>
 <priority>0</priority>
 </url>
@@ -152,7 +152,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/category/sublime-text.html</loc>
-<lastmod>2017-05-02T12:31:25+02:30</lastmod>
+<lastmod>2017-05-04T14:04:14+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -166,14 +166,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/sublime-text.html</loc>
-<lastmod>2017-05-02T12:31:25+02:30</lastmod>
+<lastmod>2017-05-04T14:04:14+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/tag/yaspeller.html</loc>
-<lastmod>2017-05-02T12:31:25+02:30</lastmod>
+<lastmod>2017-05-04T14:04:14+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -243,7 +243,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2017-05-02T12:31:25+02:30</lastmod>
+<lastmod>2017-05-04T14:04:14+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

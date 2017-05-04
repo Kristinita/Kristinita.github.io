@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2017-05-03 07:14:17 -->
+<!-- @Last Modified time: 2017-05-04 16:36:53 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,6 +28,9 @@
     <script src="http://kristinita.ru/theme/js/Gemini/gemini.js" defer></script>
     <link rel="stylesheet" href="http://kristinita.ru/theme/bower-components/gemini-scrollbar/gemini-scrollbar.css">
     <link rel="stylesheet" href="http://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
+    <!-- JQuery Lazy -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
     <!-- Fancybox -->
     <script src="http://kristinita.ru/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
     <script src="http://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
@@ -70,7 +73,7 @@
     <main>
         <div class="SashaMargin">
             <h1 class="SashaTopHeader">ValeriyaSpeller</h1>
-            <img src="http://2no.co/1g9b6.png" alt="image">
+            <img class="SashaNotModified" src="http://2no.co/1g9b6.png" alt="image">
             <div class="SashaVersion">Version 0.1.0</div>
             <div class="SashaVersion">
                 Posted —
@@ -78,7 +81,7 @@
             </div>
             <div class="SashaVersion">
                 Last modified —
-                <time pubdate="2017-05-02 12:31:25+03:00">2017-05-02 12:31:25+03:00</time>
+                <time pubdate="2017-05-04 14:04:14+03:00">2017-05-04 14:04:14+03:00</time>
             </div>
             <div class="SashaEpigraph">
                 <em>i express my gratitude to Her <br>
@@ -91,12 +94,12 @@ perfect fan of <a href="https://vk.com/hair_in_the_wind">Goddess</a>
                     <a href="https://vk.com/zombelina">Valeria Zveginceva</a>
                 </div>
             </div>
-            <p><a class="fancybox" href="http://i.imgur.com/iciGBgN.jpg"><img src="http://i.imgur.com/iciGBgN.jpg" alt="Angelovaleria"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/iciGBgN.jpg"><img class="SashaLazy" data-src="http://i.imgur.com/iciGBgN.jpg" alt="Angelovaleria"></a></p>
             <h2>1. Briefly</h2>
             <p>Russian-language spellchecker for Sublime Text.</p>
             <h2>2. Demonstration</h2>
-            <p><a class="fancybox" href="http://i.imgur.com/bqRl8eD.png"><img src="http://i.imgur.com/bqRl8eD.png" alt="Sublime Text Window"></a></p>
-            <p><a class="fancybox" href="http://i.imgur.com/5x542fy.png"><img src="http://i.imgur.com/5x542fy.png" alt="Error report"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/bqRl8eD.png"><img class="SashaLazy" data-src="http://i.imgur.com/bqRl8eD.png" alt="Sublime Text Window"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/5x542fy.png"><img class="SashaLazy" data-src="http://i.imgur.com/5x542fy.png" alt="Error report"></a></p>
             <h2>3. Motivation</h2>
             <p>i need extra spellchecker for Russian-language texts.</p>
             <h2>4. Testing</h2>
@@ -155,8 +158,8 @@ Capitalization: 1
 Letter Ё (Yo): 1
 1. довел (3:108, count: 2, suggest: довёл)
 -----
-</code><button class="SashaButton SashaTooltip"><img src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
-            <p><a class="fancybox" href="http://i.imgur.com/uC1hthv.png"><img src="http://i.imgur.com/uC1hthv.png" alt="Detailed output"></a></p>
+</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <p><a class="fancybox" href="http://i.imgur.com/uC1hthv.png"><img class="SashaLazy" data-src="http://i.imgur.com/uC1hthv.png" alt="Detailed output"></a></p>
             <p><kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <code class="SashaInlineHighlight">SublimeLinter: Enable Debug Mode</code> → open file, which you needs to linting → <a href="http://stackoverflow.com/q/13965877/5951529" target="_blank">open Sublime Text console</a>                → see output.</p>
             <h2>7. Description</h2>
             <h3>7.1. Command line arguments</h3>
@@ -164,7 +167,7 @@ Letter Ё (Yo): 1
             <pre><code data-language="shell">
 
 yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
-</code><button class="SashaButton SashaTooltip"><img src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
             <h3>7.2. Limits</h3>
             <p>10 thousands queries and 10 millions symbols in a day, see <a href="https://yandex.ru/legal/speller_api/" target="_blank">3.2 item</a> terms of rules.</p>
             <h2>8. Known problems and issues</h2>
