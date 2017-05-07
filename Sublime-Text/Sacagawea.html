@@ -1,0 +1,503 @@
+<!-- @Author: Kristinita -->
+<!-- @Date:   2017-04-15 17:42:59 -->
+<!-- @Last Modified time: 2017-05-07 15:19:53 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Encoding -->
+    <meta charset="utf-8">
+    <!-- Title phrase -->
+    <title>Sacagawea</title>
+    <!-- Description, EDGE-compatible, different screens -->
+    <meta content="Таймер для джинджерин “Что? Где? Когда?”, “Брейн Ринг”">
+    <meta content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Open Graph, http://ruogp.me/ -->
+    <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+    <meta property="og:title" content="Sacagawea" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Таймер для джинджерин “Что? Где? Когда?”, “Брейн Ринг”" />
+    <meta property="og:site_name" content="Поиск Кристиниты" />
+    <!-- JQuery -->
+    <script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Gemini -->
+    <script src="http://kristinita.ru/theme/js/Resize/resize.js" defer></script>
+    <script src="http://kristinita.ru/theme/bower-components/gemini-scrollbar/index.js" defer></script>
+    <script src="http://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+    <link rel="stylesheet" href="http://kristinita.ru/theme/bower-components/gemini-scrollbar/gemini-scrollbar.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
+    <!-- JQuery Lazy -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+    <!-- Fancybox -->
+    <script src="http://kristinita.ru/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
+    <script src="http://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
+    <link rel="stylesheet" href="http://kristinita.ru/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
+    <!-- Rainbow -->
+    <script src="http://kristinita.ru/theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
+    <link rel="stylesheet" href="http://kristinita.ru/theme/bower-components/rainbow/themes/css/rainbow.css">
+    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+    <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" href="http://kristinita.ru/theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+    <script src="http://kristinita.ru/theme/js/Tooltipster/tooltip.js" defer></script>
+    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+    <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
+    <script src="http://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
+    <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
+    <!-- Sasha icon -->
+    <link rel="shortcut icon" href="http://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="http://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
+    <!-- Pages style -->
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/basic.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/fonts.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/aside.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/general/image_right.css">
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/sections/sublime-text.css">
+    <!-- CodeHilite, https://pythonhosted.org/Markdown/extensions/code_hilite.html , http://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/ -->
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/python-markdown/fruity.css" />
+    <link rel="stylesheet" href="http://kristinita.ru/theme/css/python-markdown/progressbar.css" />
+    <!-- Custom styles -->
+    <!-- Personal CSS for pages, pelican_javascript, https://github.com/mortada/pelican_javascript/tree/58e7335e5f5fa0acc945425c2d12bf9dcadb150f -->
+</head>
+
+<body>
+    <!-- Background aside -->
+    <aside>
+        <!-- Header aside -->
+        <h1 class="cover-text">Sacagawea</h1>
+    </aside>
+    <!-- Content -->
+    <main>
+        <div class="SashaMargin">
+            <header>
+                <h1 class="SashaTopHeader">Sacagawea</h1>
+                <img class="SashaNotModified" src="http://2no.co/1g9b6.png" alt="image">
+                <div class="SashaVersion">Version 0.1.0</div>
+                <div class="SashaVersion">
+                    Posted —
+                    <time datetime="2017-05-05 06:49:34+03:00">2017-05-05 06:49:34+03:00</time>
+                </div>
+                <div class="SashaVersion">
+                    Last modified —
+                    <time pubdate="2017-05-07 18:51:32+03:00">2017-05-07 18:51:32+03:00</time>
+                </div>
+            </header>
+            <div class="SashaEpigraph">
+                <em>Посвящено <a href="https://vk.com/id152198389">Наталье Степуриной (Шмелёвой)</a>, <br>
+никогда не оставлявшую меня в трудную минуту. <br>
+Названо в честь <a href="http://www.history.com/topics/native-american-history/sacagawea">Её игрового никнейма</a>.
+</br></br></em>
+            </div>
+            <p><a class="fancybox" href="http://i64.tinypic.com/b6x7ac.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i64.tinypic.com/b6x7ac.jpg" alt="Sacagawea"></a></p>
+            <p><code class="SashaInlineHighlight">“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.</code></p>
+            <!-- MarkdownTOC -->
+            <ol>
+                <li><a href="#Краткое-описание">Краткое описание</a></li>
+                <li><a href="#Мотивация">Мотивация</a></li>
+                <li><a href="#Ограничения-к-использованию">Ограничения к использованию</a></li>
+                <li><a href="#Заявленное-поведение">Заявленное поведение</a>
+                    <ol>
+                        <li><a href="#Без-использования-third-party-программ">Без использования third-party программ</a>
+                            <ol>
+                                <li><a href="#Режим-БлицСуперблицБрейн-Ринг">Режим Блиц/Суперблиц/Брейн Ринг</a></li>
+                                <li><a href="#60-секундный-режим">60-секундный режим</a></li>
+                            </ol>
+                        </li>
+                        <li><a href="#c-использованием-сторонних-программ">C использованием сторонних программ</a>
+                            <ol>
+                                <li><a href="#windows">Windows</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li><a href="#Установка-и-настройка">Установка и настройка</a>
+                    <ol>
+                        <li><a href="#Установка">Установка</a>
+                            <ol>
+                                <li><a href="#Обязательно">Обязательно</a></li>
+                                <li><a href="#Опционально">Опционально</a></li>
+                            </ol>
+                        </li>
+                        <li><a href="#Настройка">Настройка</a>
+                            <ol>
+                                <li><a href="#Активация-шорткатов">Активация шорткатов</a></li>
+                                <li><a href="#autohotkey">AutoHotkey</a></li>
+                                <li><a href="#nncron">nnCron</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li><a href="#Опции">Опции</a></li>
+                <li><a href="#Известные-проблемы">Известные проблемы</a>
+                    <ol>
+                        <li><a href="#sacagawea">Sacagawea</a></li>
+                        <li><a href="#Зависимости">Зависимости</a></li>
+                    </ol>
+                </li>
+                <li><a href="#Примечания">Примечания</a></li>
+                <li><a href="#Программное-обеспечение-при-тестировании">Программное обеспечение при тестировании</a></li>
+                <li><a href="#todo">TODO</a></li>
+                <li><a href="#Разработка">Разработка</a></li>
+                <li><a href="#Благодарности">Благодарности</a></li>
+                <li><a href="#Лицензии">Лицензии</a></li>
+            </ol>
+            <!-- /MarkdownTOC -->
+            <p>
+                <a name="Краткое-описание"></a>
+            </p>
+            <h2>1. Краткое описание</h2>
+            <p>Пакет для <a href="https://www.sublimetext.com/3" target="_blank">Sublime Text 3</a> — countdown timer для «Что? Где? Когда?».</p>
+            <p>
+                <a name="Мотивация"></a>
+            </p>
+            <h2>2. Мотивация</h2>
+            <p>По интернету смотрю записи игр «Что? Где? Когда?». Стараюсь находиться в таких же условиях, что и знатоки, — это касается и времени, отведённому на раздумывание. Среди готовых программ мне не удалось найти таймера, симулирующего поведение
+                таймера телевизионных версий «Что? Где? Когда?» и отвечающего следующим условиям:</p>
+            <ol>
+                <li>Тренирующемуся игроку перед компьютером (далее по тексту <em>игрок</em>) требуется нажать один раз одно сочетание клавиш → можно сосредоточиться на обдумывании вопроса.</li>
+                <li>Проигрывается звук за 10 секунд до окончания обдумывания.</li>
+                <li>Не нужно ничего перенастраивать, если обдумываешь блиц/суперблиц. Нажал другое сочетание клавиш → у тебя 20, а не 60 секунд на обдумывание.</li>
+            </ol>
+            <p>Поэтому решил написать таймер сам.</p>
+            <p>
+                <a name="Ограничения-к-использованию"></a>
+            </p>
+            <h2>3. Ограничения к использованию</h2>
+            <ol>
+                <li>Пакет должен корректно работать в Windows не раньше Windows XP, macOS и *nix-подобных операционных системах.</li>
+                <li>Если не хотите производить действия, описанные в разделе <a href="#Установка">«Установка»</a> и <a href="#Настройка">«Настройка»</a>, пожалуйста, не пользуйтесь таймером. я ненавижу писать самостоятельно то, что уже качественно написано
+                    до меня.
+                    <br>
+                    <br> На установку и настройку должно уйти не более нескольких минут.</br>
+                    </br>
+                </li>
+            </ol>
+            <p>
+                <a name="Заявленное-поведение"></a>
+            </p>
+            <h2>4. Заявленное поведение</h2>
+            <p>
+                <a name="Без-использования-third-party-программ"></a>
+            </p>
+            <h3>4.1. Без использования third-party программ</h3>
+            <p>Sacagawea можно использовать, например, ведущему, если игра проходит оффлайн.</p>
+            <p>
+                <a name="Режим-БлицСуперблицБрейн-Ринг"></a>
+            </p>
+            <h4>4.1.1. Режим Блиц/Суперблиц/Брейн Ринг</h4>
+            <p>В активном окне Sublime Text 3: игрок нажимает <kbd>Ctrl+Alt+Context_Menu</kbd> — или (зная о <a href="https://umaar.com/dev-tips/36-sublime-fuzzy-search/" target="_blank">fuzzy-поиске</a>) набирает в <a href="https://www.youtube.com/watch?v=QDajzykRdn0"
+                target="_blank">command palette</a> <em>Suricate: Sacagawea: Blitz/Supeblitz/Brain Ring</em> → раздаётся звук + открывается вкладка, где 20 секунд происходит обратный отсчёт времени, → за 10 секунд до окончания отсчёта раздаётся другой
+                звук → спустя ещё 10 секунд таймер доходит до нуля + раздаётся третий звук + вкладка с таймером закрывается.</p>
+            <div class="SashaVideo">
+                <iframe class="SashaLazy" data-src="https://streamable.com/s/vsowo/uemzak"></iframe>
+            </div>
+            <p>При записи видео с экрана использовались следующие приложения:</p>
+            <ul>
+                <li><a href="https://packagecontrol.io/packages/MarkdownEditing" target="_blank">MarkdownEditing</a> — цветовая схема для вкладки,</li>
+                <li><a href="https://packagecontrol.io/packages/SashaSublime" target="_blank">SashaSublime</a> — тема для Sublime Text,</li>
+                <li><a href="https://packagecontrol.io/packages/LastModifiedIndicator" target="_blank">LastModifiedIndicator</a> — отображает прямоугольники в <a href="https://ru.stackoverflow.com/posts/comments/901650" target="_blank">gutter</a>,</li>
+                <li><a href="https://autohotkey.com/boards/viewtopic.php?t=225" target="_blank">KeypressOSD</a> — отображает на экране нажатые клавиши.</li>
+            </ul>
+            <p>
+                <a name="60-секундный-режим"></a>
+            </p>
+            <h4>4.1.2. 60-секундный режим</h4>
+            <p>В активном окне Sublime Text 3: игрок нажимает <kbd>Ctrl+Context_Menu</kbd> — или (зная о <a href="https://umaar.com/dev-tips/36-sublime-fuzzy-search/" target="_blank">fuzzy-поиске</a>) набирает в <a href="https://www.youtube.com/watch?v=QDajzykRdn0"
+                target="_blank">command palette</a> <em>Suricate: Sacagawea: “What? Where? When?”</em> → раздаётся звук + открывается вкладка, где 60 секунд происходит обратный отсчёт времени → за 10 секунд до окончания отсчёта раздаётся другой звук →
+                спустя ещё 10 секунд таймер доходит до нуля + раздаётся третий звук + вкладка с таймером закрывается.</p>
+            <p>
+                <a name="c-использованием-сторонних-программ"></a>
+            </p>
+            <h3>4.2. C использованием сторонних программ</h3>
+            <p>Если игрок смотрит запись телепередач, использование Sacagawea без third-party программ неудобно, поскольку приходится переключаться между окнами браузера (или другой программы, где воспроизводится видео) и Sublime Text. К сожалению, вызвать
+                команды Sublime Text, когда окно Sublime Text не находится в активном фокусе <a href="https://forum.sublimetext.com/t/question-is-it-possible-to-use-sublime-text-hotkey-as-global-system-hotkey/27885/2?u=sasha_chernykh" target="_blank">проблематично</a>,
+                без сторонних программ.</p>
+            <p>
+                <a name="windows"></a>
+            </p>
+            <h4>4.2.1. Windows</h4>
+            <p>Прозвучал вопрос → ведущий ТВ-передачи даёт сигнал к началу отсчёта — например, говорит «Время», — игрок нажимает <kbd>Ctrl+Alt+Context_Menu</kbd> (<a href="https://en.wikipedia.org/wiki/Menu_key" target="_blank">местонахождение клавиши Context_Menu</a>)
+                → запускается скрипт.</p>
+            <p>Скрипт автоматически выполняет следующие действия: нажимается пробел — клавишей <kbd>Space</kbd> в web-плейерах, которые знаю, останавливается воспроизведение видео, → <kbd>Alt+Tab</kbd> — <a href="https://support.microsoft.com/ru-ru/help/79869/pressing-alt-tab-to-switch-between-applications"
+                target="_blank">переключение между приложениями</a>, — в Sublime Text запускается процесс, <a href="#Заявленное-поведение">описанный в разделе «Заявленное поведение»</a>, → вновь <kbd>Alt+Tab</kbd> → происходит возвращение во вкладку браузера
+                со «Что? Где? Когда?».</p>
+            <div class="SashaVideo">
+                <iframe class="SashaLazy" data-src="https://streamable.com/s/jbvny/mqofcq"></iframe>
+            </div>
+            <p>При записи видео с экрана помимо <a href="#Режим-БлицСуперблицБрейн-Ринг">вышеупомянутых</a> использовались следующие приложения:</p>
+            <ul>
+                <li><a href="https://addons.mozilla.org/en-us/firefox/addon/tabcinema/" target="_blank">TabCinema</a> — дополнение для Firefox, разворачивающее видео в размеры окна, не экрана;</li>
+                <li><a href="#autohotkey">AutoHotkey</a>;</li>
+                <li><a href="#nncron">nnCron</a>.</li>
+            </ul>
+            <p>
+                <a name="Установка-и-настройка"></a>
+            </p>
+            <h2>5. Установка и настройка</h2>
+            <p>
+                <a name="Установка"></a>
+            </p>
+            <h3>5.1. Установка</h3>
+            <p>
+                <a name="Обязательно"></a>
+            </p>
+            <h4>5.1.1. Обязательно</h4>
+            <ol>
+                <li><a href="http://www.sublimetext.com/3" target="_blank">Sublime Text 3</a>, если ещё не установлен.</li>
+                <li>
+                    <p>Кроссплатформенный CLI-плейер <a href="http://mpg123.de/" target="_blank">mpg123</a>. Для пользователей Windows рекомендовал бы <a href="https://lifehacker.ru/2015/01/08/chocolatey/" target="_blank">установить Chocolatey</a>, если
+                        ещё не установлен, → <a href="https://chocolatey.org/packages/mpg123/1.24.0" target="_blank">наберите в терминале</a>:</p>
+                    <pre><code>choco install mpg123 -y
+</code></pre>
+                    <p>Установка стороннего плейера необходима, поскольку встроенные средства для воспроизведения аудио для Python, на котором написана Sacagawea, — <a href="https://docs.python.org/3/library/ossaudiodev.html" target="_blank">ossaudiodev</a>                        и <a href="https://docs.python.org/3/library/winsound.html" target="_blank">winsound</a> — <a href="http://stackoverflow.com/a/34179010/5951529" target="_blank">не кроссплатформенные</a> → придётся всё равно что-то дополнительно
+                        устанавливать.</p>
+                </li>
+                <li>
+                    <p><a href="https://www.youtube.com/watch?v=lx9nIHABnmY" target="_blank">Пакет для Sublime Text</a> <a href="https://packagecontrol.io/packages/FileCommands" target="_blank">FileCommands</a> — нужен, чтобы принудительно закрыть вкладку
+                        с таймером.</p>
+                </li>
+                <li>Пакет <a href="https://github.com/nsubiron/SublimeSuricate" target="_blank">Sublime Suricate</a> — чтобы активировать горячие клавиши. <a href="https://github.com/r-stein/sublime-text-keybinding-helper/issues/2#issue-198411616" target="_blank">Аргументы</a>,
+                    почему стоит использовать его, а не встроенный функционал Sublime Text.</li>
+                <li><a href="http://www.macdrifter.com/2012/08/install-sublime-packages-from-github.html" target="_blank">Установите</a> пакет Sacagawea.</li>
+            </ol>
+            <p>
+                <a name="Опционально"></a>
+            </p>
+            <h4>5.1.2. Опционально</h4>
+            <ol>
+                <li>Пакет <a href="https://packagecontrol.io/packages/Preferences%20Editor" target="_blank">Preferences Editor</a> — если пожелаете использовать звуки, отличные от звуков по умолчанию.</li>
+                <li><a href="https://www.autohotkey.com/" target="_blank">AutoHotkey</a>, <a href="https://github.com/ahkscript/SublimeAutoHotkey" target="_blank">Sublime AutoHotkey</a>, <a href="http://nncron.ru/" target="_blank">nnCron</a> — для пользователей
+                    Windows и Firefox, <a href="#autohotkey">см.</a> <a href="#nncron">ниже</a>.</li>
+            </ol>
+            <p>
+                <a name="Настройка"></a>
+            </p>
+            <h3>5.2. Настройка</h3>
+            <p>После установки.</p>
+            <p>
+                <a name="Активация-шорткатов"></a>
+            </p>
+            <h4>5.2.1. Активация шорткатов</h4>
+            <p>В активном окне Sublime Text: <kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> для Mac) → <em>Suricate: Add Profile</em> → <kbd>Enter</kbd> → <a href="http://i.imgur.com/VNC1Kzs.png" target="_blank">Sacagawea</a> → <kbd>Enter</kbd>.</p>
+            <p><a class="fancybox" href="http://i66.tinypic.com/35314l2.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i66.tinypic.com/35314l2.png" alt="Sacagawea"></a></p>
+            <p>→ горячие клавиши активированы.</p>
+            <p>Если данные хоткеи задействованы в других Ваших плагинах или программах, можете их деактивировать. В активном окне Sublime Text: <kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> для Mac) → <em>Suricate: Add Profile</em> → <kbd>Enter</kbd> → <a href="http://i.imgur.com/VNC1Kzs.png"
+                target="_blank">Sacagawea</a> → <kbd>Enter</kbd>.</p>
+            <p>
+                <a name="autohotkey"></a>
+            </p>
+            <h4>5.2.2. AutoHotkey</h4>
+            <p>Создайте и сохраните 2 файла: <em>Sacagawea-CHGK.ahk</em> и <em>Sacagawea-Blitz.ahk</em>.</p>
+            <p><em>Sacagawea-CHGK.ahk</em>:</p>
+            <pre><code data-language="json">
+
+WinActivate, Mozilla Firefox ahk_class MozillaWindowClass
+Sleep, 300
+Send, {Space}
+Sleep, 300
+Send, {LAlt Down}
+Sleep, 300
+Send, {Tab}
+Sleep, 300
+Send, {LAlt Up}
+Sleep, 1000
+WinActivate, Sublime Text ahk_class PX_WINDOW_CLASS
+Send, {LControl Down}
+Sleep, 300
+Send, {LShift Down}
+Sleep, 300
+Send, {p}
+Sleep, 300
+Send, {LShift Up}
+Sleep, 300
+Send, {LControl Up}
+Sleep, 300
+Send, Suricate: Sacagawea: “What? Where? When?”
+Sleep, 300
+Send, {Enter}
+Sleep, 300
+Send, {LAlt Down}
+Sleep, 300
+Send, {Tab}
+Sleep, 300
+Send, {LAlt Up}
+Sleep, 300
+ExitApp
+#esc::ExitApp
+</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <p><em>Sacagawea-Blitz.ahk</em>:</p>
+            <pre><code data-language="json">
+
+WinActivate, Mozilla Firefox ahk_class MozillaWindowClass
+Sleep, 300
+Send, {Space}
+Sleep, 300
+Send, {LAlt Down}
+Sleep, 300
+Send, {Tab}
+Sleep, 300
+Send, {LAlt Up}
+Sleep, 1000
+WinActivate, Sublime Text ahk_class PX_WINDOW_CLASS
+Send, {LControl Down}
+Sleep, 300
+Send, {LShift Down}
+Sleep, 300
+Send, {p}
+Sleep, 300
+Send, {LShift Up}
+Sleep, 300
+Send, {LControl Up}
+Sleep, 300
+Send, Suricate: Sacagawea: Blitz/Superblitz/Brain Ring
+Sleep, 300
+Send, {Enter}
+Sleep, 300
+Send, {LAlt Down}
+Sleep, 300
+Send, {Tab}
+Sleep, 300
+Send, {LAlt Up}
+Sleep, 300
+ExitApp
+#esc::ExitApp
+</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <p><a href="http://windata.ru/windows-world/utility/zapusk-skriptov-autohotkey-ot-imeni-administratora/" target="_blank">Скомпилируйте оба файла</a> — это можно сделать <a href="https://github.com/ahkscript/SublimeAutoHotkey/blob/master/Default.sublime-commands#L6-L9"
+                target="_blank">в Sublime Text 3</a>, если использовать пакет <a href="https://github.com/ahkscript/SublimeAutoHotkey" target="_blank">Sublime AutoHotkey</a>.</p>
+            <p>
+                <a name="nncron"></a>
+            </p>
+            <h4>5.2.3. nnCron</h4>
+            <p><a href="http://www.nncron.ru/help/RU/working/task/starting_task.htm" target="_blank">Добавьте в кронтаб</a> следующие строки:</p>
+            <pre><code data-language="ruby">#( Sacagawea-CHGK
+WatchHotKey: "^{APP}"
+Action:
+StartIn: "D:\AutoHotkey"
+START-APP: D:\AutoHotkey\Sacagawea-CHGK.exe
+)#
+
+#( Sacagawea-Blitz
+WatchHotKey: "^@{APP}"
+Action:
+StartIn: "D:\AutoHotkey"
+START-APP: D:\AutoHotkey\Sacapawea-Blitz.exe
+)#
+</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <p>Где:</p>
+            <ul>
+                <li><em>D:\AutoHotkey\Sacagawea-CHGK.exe</em> и <em>D:\AutoHotkey\Sacagawea-Blitz.exe</em> — пути к скомпилированным файлам <em>Sacagawea-CHGK.ahk</em> и <em>Sacagawea-Blitz.ahk</em> соответственно,</li>
+                <li><em>D:\AutoHotkey</em> — папка, в которой содержатся скомпилированные файлы из предыдущего пункта списка,</li>
+                <li><code class="SashaInlineHighlight">^@{APP}</code> и <code class="SashaInlineHighlight">^{APP}</code> — <a href="http://www.nncron.ru/help/RU/add_info/keys_mnemonics.htm" target="_blank">горячие клавиши nnCron</a>: <kbd>Ctrl+Context_Menu</kbd>                    и <kbd>Ctrl+Alt+Context_Menu</kbd> соответственно.</li>
+            </ul>
+            <p>
+                <a name="Опции"></a>
+            </p>
+            <h2>6. Опции</h2>
+            <ol>
+                <li>Вы <a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/Sacagawea.sublime-settings" target="_blank">можете использовать звуки</a>, отличные от звуков по умолчанию.</li>
+            </ol>
+            <p>
+                <a name="Известные-проблемы"></a>
+            </p>
+            <h2>7. Известные проблемы</h2>
+            <p>
+                <a name="sacagawea"></a>
+            </p>
+            <h3>7.1. Sacagawea</h3>
+            <p>
+                <a name="Зависимости"></a>
+            </p>
+            <h3>7.2. Зависимости</h3>
+            <ol>
+                <li>По состоянию на май 2017 Package Control <a href="https://forum.sublimetext.com/t/question-how-install-package-control-package-as-dependency/28083/4?u=sasha_chernykh" target="_blank">не поддерживает</a> автоматическую установку зависимых
+                    пакетов. Было бы неплохо, если больше людей напишут <a href="https://github.com/wbond/package_control/issues/1089" target="_blank">в этой теме</a>, что им нужен данный функционал, или хотя бы оставят комментарий вроде <em>+1</em>,
+                    дабы повысились шансы, что разработчики займутся проблемой.</li>
+            </ol>
+            <p>
+                <a name="Примечания"></a>
+            </p>
+            <h2>8. Примечания</h2>
+            <ol>
+                <li>
+                    <p>Сочетания <kbd>Ctrl+Context_Menu</kbd> и <kbd>Ctrl+Alt+Context_Menu</kbd> выбраны по следующим причинам:</p>
+                    <ol>
+                        <li>находятся близко к середине клавиатуры, что удобно для правшей и левшей;</li>
+                        <li>доступны для нажатия одной рукой, тогда как другая записывает вопрос;</li>
+                        <li>если Вы используете другие пакеты для Sublime Text, эти другие пакеты занимают наиболее распространённые сочетания клавиш → возникают конфликты шорткатов.</li>
+                    </ol>
+                    <p>я использую/использовал более 400 пакетов → в кеймапе ни одного из них не была задействована клавиша <kbd>Context_Menu</kbd>.
+                        <br>
+                        <br> Если:
+                        </br>
+                        </br>
+                    </p>
+                    <ul>
+                        <li>Вас не устраивают данные сочетания,</li>
+                    </ul>
+                    <p>или:</p>
+                    <ul>
+                        <li>на Вашей клавиатуре нет клавиши <kbd>Context_Menu</kbd>,</li>
+                    </ul>
+                    <p>см. <a href="http://brendankemp.com/essays/how-to-add-a-shortcut-for-any-command-in-sublime-text/" target="_blank">инструкцию</a>, как в Sublime Text задавать собственные сочетания горячих клавиш.</p>
+                </li>
+            </ol>
+            <p>
+                <a name="Программное-обеспечение-при-тестировании"></a>
+            </p>
+            <h2>9. Программное обеспечение при тестировании</h2>
+            <ul>
+                <li>Windows 10 Enterprise LTSB 64-bit EN,</li>
+                <li>Sublime Text 3 Build 3126,</li>
+                <li>mpg123 1.24.0.</li>
+            </ul>
+            <p>
+                <a name="todo"></a>
+            </p>
+            <h2>10. TODO</h2>
+            <ol>
+                <li>Unit-тесты?</li>
+            </ol>
+            <p>
+                <a name="Разработка"></a>
+            </p>
+            <h2>11. Разработка</h2>
+            <ol>
+                <li>
+                    <p>Приветствуются любые конструктивные добавления, исправления ошибок и рефакторинг. При этом:</p>
+                    <ol>
+                        <li>Python-код <a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/.travis.yml" target="_blank">должен соответствовать</a> <a href="https://pypi.python.org/pypi/flake8" target="_blank">flake8</a> и <a href="http://www.pydocstyle.org/"
+                            target="_blank">pydocstyle</a>. Это необходимо для поддержания качества кода.</li>
+                        <li>я считаю неконструктивным писать то, что уже качественно написано другими. Пожалуйста, не встраивайте прямо в пакет возможности, которые есть и хорошо работают в сторонних приложениях.</li>
+                    </ol>
+                </li>
+            </ol>
+            <p>
+                <a name="Благодарности"></a>
+            </p>
+            <h2>12. Благодарности</h2>
+            <ul>
+                <li><a href="https://github.com/keith-hall" target="_blank">@keith-hall</a></li>
+            </ul>
+            <p>
+                <a name="Лицензии"></a>
+            </p>
+            <h2>13. Лицензии</h2>
+            <ol>
+                <li><a href="https://www.soundjay.com/tos.html" target="_blank">правила использования звуков</a>,</li>
+                <li><a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md" target="_blank">лицензия на Sacagawea — MIT</a>.</li>
+            </ol>
+            <footer>
+                <div class="SashaEmNoColor"> Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Sublime-Text/Sacagawea.md">отредактировать её</a> и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
+                    Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по <span id="obf"><script src="http://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
+                    </span>. С комментариями в стиле <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.</div>
+                <div class="WorkOnYourself">Работайте над собой</div>
+            </footer>
+        </div>
+    </main>
+    <!-- Personal JavaScript for pages, pelican_javascript, see https://github.com/mortada/pelican_javascript/ -->
+</body>
+
+</html>

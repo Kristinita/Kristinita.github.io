@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2017-05-04 18:08:57 -->
+<!-- @Last Modified time: 2017-05-07 15:19:53 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,17 +72,19 @@
     <!-- Content -->
     <main>
         <div class="SashaMargin">
-            <h1 class="SashaTopHeader">ValeriyaSpeller</h1>
-            <img class="SashaNotModified" src="http://2no.co/1g9b6.png" alt="image">
-            <div class="SashaVersion">Version 0.1.0</div>
-            <div class="SashaVersion">
-                Posted —
-                <time datetime="2017-04-04 04:14:07+03:00">2017-04-04 04:14:07+03:00</time>
-            </div>
-            <div class="SashaVersion">
-                Last modified —
-                <time pubdate="2017-05-04 14:04:14+03:00">2017-05-04 14:04:14+03:00</time>
-            </div>
+            <header>
+                <h1 class="SashaTopHeader">ValeriyaSpeller</h1>
+                <img class="SashaNotModified" src="http://2no.co/1g9b6.png" alt="image">
+                <div class="SashaVersion">Version 0.1.0</div>
+                <div class="SashaVersion">
+                    Posted —
+                    <time datetime="2017-04-04 04:14:07+03:00">2017-04-04 04:14:07+03:00</time>
+                </div>
+                <div class="SashaVersion">
+                    Last modified —
+                    <time pubdate="2017-05-05 18:23:25+03:00">2017-05-05 18:23:25+03:00</time>
+                </div>
+            </header>
             <div class="SashaEpigraph">
                 <em>i express my gratitude to Her <br>
 for everything She has done for me. <br>
@@ -94,12 +96,12 @@ perfect fan of <a href="https://vk.com/hair_in_the_wind">Goddess</a>
                     <a href="https://vk.com/zombelina">Valeria Zveginceva</a>
                 </div>
             </div>
-            <p><a class="fancybox" href="http://i.imgur.com/iciGBgN.jpg"><img class="SashaLazy" data-src="http://i.imgur.com/iciGBgN.jpg" alt="Angelovaleria"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/iciGBgN.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/iciGBgN.jpg" alt="Angelovaleria"></a></p>
             <h2>1. Briefly</h2>
             <p>Russian-language spellchecker for Sublime Text.</p>
             <h2>2. Demonstration</h2>
-            <p><a class="fancybox" href="http://i.imgur.com/bqRl8eD.png"><img class="SashaLazy" data-src="http://i.imgur.com/bqRl8eD.png" alt="Sublime Text Window"></a></p>
-            <p><a class="fancybox" href="http://i.imgur.com/5x542fy.png"><img class="SashaLazy" data-src="http://i.imgur.com/5x542fy.png" alt="Error report"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/bqRl8eD.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/bqRl8eD.png" alt="Sublime Text Window"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/5x542fy.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/5x542fy.png" alt="Error report"></a></p>
             <h2>3. Motivation</h2>
             <p>i need extra spellchecker for Russian-language texts.</p>
             <h2>4. Testing</h2>
@@ -159,7 +161,7 @@ Letter Ё (Yo): 1
 1. довел (3:108, count: 2, suggest: довёл)
 -----
 </code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
-            <p><a class="fancybox" href="http://i.imgur.com/uC1hthv.png"><img class="SashaLazy" data-src="http://i.imgur.com/uC1hthv.png" alt="Detailed output"></a></p>
+            <p><a class="fancybox" href="http://i.imgur.com/uC1hthv.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/uC1hthv.png" alt="Detailed output"></a></p>
             <p><kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <code class="SashaInlineHighlight">SublimeLinter: Enable Debug Mode</code> → open file, which you needs to linting → <a href="http://stackoverflow.com/q/13965877/5951529" target="_blank">open Sublime Text console</a>                → see output.</p>
             <h2>7. Description</h2>
             <h3>7.1. Command line arguments</h3>
@@ -185,11 +187,13 @@ yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore
                 <li><a href="https://packagecontrol.io/packages/Thesaurus" target="_blank">Thesaurus</a>.</li>
             </ol>
             <p>Also in Sublime Text implemented <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint" target="_blank">proselint</a> package, but <a href="https://github.com/amperser/proselint/issues/686" target="_blank">I have critical CPU usage bug</a>.</p>
-            <div class="SashaEmNoColor">If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Sublime-Text/ValeriyaSpeller.md">edit it</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
-                Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf"><script src="http://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                </span>
-                about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own discretion.</div>
-            <div class="WorkOnYourself">Работайте над собой</div>
+            <footer>
+                <div class="SashaEmNoColor">If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Sublime-Text/ValeriyaSpeller.md">edit it</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
+                    Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf"><script src="http://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
+                    </span>
+                    about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own discretion.</div>
+                <div class="WorkOnYourself">Работайте над собой</div>
+            </footer>
         </div>
     </main>
     <!-- Personal JavaScript for pages, pelican_javascript, see https://github.com/mortada/pelican_javascript/ -->
