@@ -1,0 +1,70 @@
+/*
+* @Author: Kristinita
+* @Date:   2017-03-23 09:16:25
+* @Last Modified by:   Kristinita
+* @Last Modified time: 2017-05-09 14:39:18
+*/
+
+/* ==========================================================================
+   General
+   ========================================================================== */
+
+aside
+	font-size 0.3125rem
+	line-height 1
+	position relative
+	text-align center
+	background-repeat no-repeat
+	background-attachment fixed
+	background-position top center
+	background-size cover
+	width 100%
+	height 100vh
+
+/* Text in aside bottom */
+
+.cover-text
+	line-height 2rem
+	position absolute
+	bottom 7%
+	left 10%
+	width 80%
+
+/* Disable margin and padding for .SashaMargin */
+
+.SashaMargin
+	display inline-block
+
+/* Margin for top header */
+
+.SashaTopHeader
+	margin-top .4rem
+
+/* ==========================================================================
+   Media
+   ========================================================================== */
+
+/* For mobile devices */
+
+@media screen and (min-width: .0625rem)
+	aside
+		display block
+		width 100%
+
+	/* Margins for main text */
+
+	.SashaMargin
+		/* That the text does not go beyond the screen */
+		display block
+
+/* For PC */
+
+@media screen and (min-width: 60rem)
+	aside
+		width 35%
+		background-attachment scroll
+
+	/* Child scrollbar element for <main> tag because child elements have priority to parent elements. */
+
+	.gm-scrollbar-container
+		width 65%
