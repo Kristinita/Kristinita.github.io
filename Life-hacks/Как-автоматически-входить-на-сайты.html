@@ -305,9 +305,9 @@ Tl;dr</h1>
                 <br>
                 <dfn>-ns</dfn>, т. е., если было
                 <br>
-                <dfn>D:\nnCron\nncron.exe</dfn>, станет
+                <dfn>D:nnCronnncron.exe</dfn>, станет
                 <br>
-                <dfn>D:\nnCron\nncron.exe -ns</dfn>, →
+                <dfn>D:nnCronnncron.exe -ns</dfn>, →
                 <br>
                 <kbd>OK</kbd>. Запускаем ярлык.
                 <br>
@@ -324,9 +324,9 @@ Tl;dr</h1>
                 <br>
                 <dfn>Объект</dfn> вписываем
                 <br>
-                <dfn>D:\nnCron\tm.exe xReg</dfn>, где
+                <dfn>D:nnCrontm.exe xReg</dfn>, где
                 <br>
-                <dfn>D:\nnCron</dfn> — папка с
+                <dfn>D:nnCron</dfn> — папка с
                 <br>
                 <dfn>nnCron</dfn>, заменяем её на свою, →
                 <br>
@@ -359,7 +359,7 @@ Tl;dr</h1>
 for /d %%i in ("%CD%") do (<br>
     set NNPROGRAMFILESSHORT=%%~si<br>
 )</p>
-<p>START %NNPROGRAMFILESSHORT%\nncron.exe -ns -dir %NNPROGRAMFILESSHORT%<br>
+<p>START %NNPROGRAMFILESSHORT%nncron.exe -ns -dir %NNPROGRAMFILESSHORT%<br>
 </pre> Сохраняем файл → меняем у него расширение на
                 <br>
                 <dfn>bat</dfn>: было
@@ -389,7 +389,7 @@ for /d %%i in ("%CD%") do (<br>
                 <br>
                 <dfn>SashaTask.html</dfn>, абсолютный путь —
                 <br>
-                <dfn>D:\SashaTask.html</dfn>. В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей
+                <dfn>D:SashaTask.html</dfn>. В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей
                 <br>
                 <kbd>Space</kbd>, — впрочем, ниже я расписал, как должен выглядеть синтаксис задачи и в таком случае. На содержание в имени и пути различных спецсимволов не тестировал, если они для вас важны — пожалуйста, проверьте самостоятельно.
                 <br>
@@ -527,8 +527,8 @@ for /d %%i in ("%CD%") do (<br>
                 <pre><code>RunMissed<br>
 Time: 7 14 * <em> * </em><br>
 Action:<br>
-StartIn: "D:\"<br>
-START-APP: D:\SashaTask.html<br>
+StartIn: "D:"<br>
+START-APP: D:SashaTask.html<br>
 Rule:<br>
   HOST-EXIST: "<a href="http://www.kristinita.ru">www.kristinita.ru</a>"<br>
   HOST-EXIST: "<a href="http://www.google.ru">www.google.ru</a>"<br>
@@ -579,7 +579,7 @@ Rule:<br>
                     <br>
                     <li>
                         <br>
-                        <dfn>StartIn: "D:\"</dfn> — папка, в которой лежит наш файл с JS-кодом. В примере он сразу в корне диска.
+                        <dfn>StartIn: "D:"</dfn> — папка, в которой лежит наш файл с JS-кодом. В примере он сразу в корне диска.
                         <br>
                         <br />
                         <br>
@@ -589,7 +589,7 @@ Rule:<br>
                     <br>
                     <li>
                         <br>
-                        <dfn>START-APP: D:\SashaTask.html</dfn> — абсолютный путь к файлу. Если в нём содержатся пробелы, поступаем одним из двух следующих образов:
+                        <dfn>START-APP: D:SashaTask.html</dfn> — абсолютный путь к файлу. Если в нём содержатся пробелы, поступаем одним из двух следующих образов:
                         <br>
                         <br />
                         <br>
@@ -603,12 +603,12 @@ Rule:<br>
                     <br>
                     <li>Экранируем путь двойными кавычками-лапками:
                         <br>
-                        <dfn>START-APP: ""D:\Пробел ещё пробел\Больше пробелов.html""</dfn>.</li>
+                        <dfn>START-APP: ""D:Пробел ещё пробелБольше пробелов.html""</dfn>.</li>
                     <br>
                     <li>
                         <br> Или, экранируя пути одинарными кавычками-лапками, указываем путь к исполняемому файлу браузера, которым откроем наш HTML-документ:
                         <br>
-                        <dfn>START-APP: "D:\Pale Moon\palemoon.exe" "D:\Пробел ещё пробел\Больше пробелов.html"</dfn>. Пробелы, как видно на примере, могут содержаться в пути к файлу как браузера, так и задачи.
+                        <dfn>START-APP: "D:Pale Moonpalemoon.exe" "D:Пробел ещё пробелБольше пробелов.html"</dfn>. Пробелы, как видно на примере, могут содержаться в пути к файлу как браузера, так и задачи.
                         <br>
                         <br />
                         <br>
