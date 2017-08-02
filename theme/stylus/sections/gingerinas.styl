@@ -8,6 +8,20 @@ body
 	background SashaColor1
 	color SashaColor2
 
+/**
+ * Cursive
+ * For highlighting non-code elements
+ * Text gradient
+ * http://stackoverflow.com/q/37831837/5951529
+ * Don't support all browsers
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip#Browser_compatibility
+ */
+
+em
+	background-image linear-gradient(to right, lightcoral, mediumvioletred)
+	-webkit-background-clip text
+	color transparent
+
 // Link color
 a
 	color SashaColor3
