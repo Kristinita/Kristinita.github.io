@@ -1,7 +1,7 @@
 /* @Author: Kristinita
 * @Date:   2016-11-25 10:51:23
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2017-05-02 18:46:12
+* @Last Modified time: 2017-09-27 11:26:57
 */
 
 
@@ -210,7 +210,7 @@ img {
 
 /* Подвал в head */
 
-.SashaFooter {
+footer {
     position: relative;
     float: left;
     text-align: left;
