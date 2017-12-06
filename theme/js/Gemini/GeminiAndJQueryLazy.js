@@ -1,6 +1,6 @@
 // @Author: Kristinita
 // @Date:   2017-05-02 11:44:00
-// @Last Modified time: 2017-05-04 17:21:59
+// @Last Modified time: 2017-12-06 12:20:30
 ////////////
 // Gemini //
 ////////////
@@ -12,6 +12,9 @@ window.onload = function() {
             // querySelector method — https://www.w3schools.com/jsref/met_document_queryselector.asp
             element: document.querySelector("main"),
             autoshow: true,
+            // Force Gemini for correct scrollbar displaying in mobile devices
+            // https://github.com/noeldelgado/gemini-scrollbar#options
+            forceGemini: true,
         }).create();
 
         // JQuery Lazy support —
@@ -30,7 +33,8 @@ window.onload = function() {
         // For Mobile
         var mobilescrollbar = new GeminiScrollbar({
             element: document.querySelector("body"),
-            autoshow: true
+            autoshow: true,
+            forceGemini: true,
         }).create();
 
         $(".SashaLazy").Lazy({
