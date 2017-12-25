@@ -1,6 +1,6 @@
 // @Author: Kristinita
 // @Date:   2017-05-02 11:44:00
-// @Last Modified time: 2017-12-06 17:20:49
+// @Last Modified time: 2017-12-06 17:52:38
 ////////////
 // Gemini //
 ////////////
@@ -48,7 +48,11 @@ window.onload = function() {
 };
 
 
+$(window).resize( function() {
 
+window.location.href = window.location.href;
+
+});
 
 
 // I replace onload to onresize

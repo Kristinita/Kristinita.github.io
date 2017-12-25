@@ -68,3 +68,28 @@ aside
 
 	.gm-scrollbar-container
 		width 65%
+
+
+/* ==========================================================================
+   Permalinks
+   ========================================================================== */
+
+/* Permalinks hidden by default */
+
+.headerlink
+	visibility hidden
+
+/* Permalinks visible on hover
+   As https://pythonhosted.org/Markdown/extensions/toc.html page */
+
+/* Stylus parent reference, & symbol
+   http://stylus-lang.com/docs/selectors.html#parent-reference */
+
+h1
+h2
+h3
+h4
+h5
+h6
+	&:hover > .headerlink
+		visibility visible
