@@ -5,177 +5,184 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/</loc>
-<lastmod>2017-12-27T15:55:03-00:00</lastmod>
+<lastmod>2017-12-27T20:00:40-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/archives.html</loc>
-<lastmod>2017-12-27T15:55:03-00:00</lastmod>
+<lastmod>2017-12-27T20:00:40-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/categories.html</loc>
-<lastmod>2017-12-27T15:55:03-00:00</lastmod>
+<lastmod>2017-12-27T20:00:40-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
+<loc>http://kristinita.ru/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</loc>
+<lastmod>2017-12-27T19:42:06+03:00</lastmod>
+<changefreq>always</changefreq>
+<priority>1</priority>
+</url>
+
+<url>
 <loc>http://kristinita.ru/Gingerinas/Знания-в-джинджеринах.html</loc>
-<lastmod>2017-12-27T13:19:53+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<lastmod>2017-12-27T19:50:52+03:00</lastmod>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Фоны-и-Карта-С.html</loc>
 <lastmod>2017-12-23T08:14:09+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Грейзи-Фа.html</loc>
 <lastmod>2017-08-02T16:23:46+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Джинджерины.html</loc>
 <lastmod>2017-07-26T08:53:49+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Тао.html</loc>
 <lastmod>2017-07-20T17:56:16+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Testus.html</loc>
 <lastmod>2017-07-27T07:45:13+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Грейс-Ло.html</loc>
 <lastmod>2017-05-14T07:09:31+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Sublime-Text/Sacagawea.html</loc>
 <lastmod>2017-05-09T15:45:14+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html</loc>
 <lastmod>2017-12-25T11:11:59+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Giologica/Демагогия-Нестеренко.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Life-hacks/Как-автоматически-входить-на-сайты.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Книги-для-джинджерин.html</loc>
 <lastmod>2017-09-27T11:30:16+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Korvers.html</loc>
 <lastmod>2017-11-04T20:42:26+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Giologica/Nas-Izu.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Smert-svobode/Новые-недовольные-русские.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Sasha-Black/Sasha-Black-description.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Giologica/Valerywork-Kiravel.html</loc>
 <lastmod>2017-02-13T19:15:15+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Sublime-Text/SashaSublime.html</loc>
 <lastmod>2017-01-31T09:13:30+03:00</lastmod>
-<changefreq>never</changefreq>
-<priority>0</priority>
+<changefreq>always</changefreq>
+<priority>1</priority>
 </url>
 
 <url>
@@ -201,7 +208,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/category/dzhindzheriny-spravka-po-dzhindzherinam.html</loc>
-<lastmod>2017-12-27T13:19:53+02:30</lastmod>
+<lastmod>2017-12-27T19:50:52+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -278,7 +285,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/help.html</loc>
-<lastmod>2017-12-27T13:19:53+02:30</lastmod>
+<lastmod>2017-12-27T19:50:52+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -411,7 +418,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2017-12-27T13:19:53+02:30</lastmod>
+<lastmod>2017-12-27T19:50:52+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
