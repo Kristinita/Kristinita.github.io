@@ -1,14 +1,59 @@
-SashaColor1 = rgba(255, 0, 222, 1)
-
 /** @Author: Kristinita
 * @Date:   2016-12-26 15:48:38
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2017-05-09 19:36:48
 
+/**
+ * Description: Short description.
+ * Version: 1.0.0
+ * Last update: YYYY/MM/DD
+ * Author: User Name <username@gmail.com>
+ *
+ * Summary:
+
+ 	1. General
+ 		- 1.1. HTML, body
+ 		- 1.2. Links
+ 		- 1.3. Headers
+ 		- 1.4. KBD
+ 		- 1.5. noscript
+ 	2. Tables
+ 	3. Lists
+ 		- 3.1. ol, ul, li
+ 		- 3.2. TOC
+ 		- 3.3. dd, dt, dl
+ 	4. Images
+ 		- 4.1. img
+ 		- 4.2. Left and right
+ 		- 4.3. Width of images
+ 		- 4.4. Image border
+ 	5. Videos
+ 		- 5.1. Embed iframe videos
+ 	6. Blockquotes
+ 		- 6.1. Left-border blockquote
+ 		- 6.2. Terms
+ 		- 6.3. Quotes top and bottom
+ 		- 6.4. Epigraph
+ 	7. Code
+ 	8. Sasha tags
+ 		- 8.1. Page version
+ 		- 8.2. Center element
+ 		- 8.3. Inline and block
+ 		- 8.4. Margins and paddings
+ 		- 8.5. Shadows
+ 	9. External scripts and plugins
+ 		- 9.1. Clipboard.js
+ 		- 9.2. Tooltipster
+ 		- 9.3. JQuery Lazy
+ 		- 9.4. Progressbar
+ */
 
 
 /* ==========================================================================
-   General
+   1. General
+   ========================================================================== */
+
+/* 1.1. HTML, body
    ========================================================================== */
 
 /* For correct Mailhu displayed*/
@@ -20,28 +65,71 @@ body
 
 html
 	overflow-x hidden
-	/* Чтобы margin-top для Сашиных икон работал на мобильных устройствах */
 
 body
 	font-family Arial, "Helvetica Neue", Helvetica, sans-serif
 	font-size 1.1875rem
+	/* That margin-top for Sasha's icons correctly for on mobile devices */
 	overflow hidden
-	/* Чтобы margin-top для Сашиных икон работал на мобильных устройствах*/
 	width 100%
 	height 100%
 	margin 0
 	padding 0
 
+/* 1.2. Links
+   ========================================================================== */
+
+/*
+ * Disable dotted outline, if user move by links use tab key, see
+ * https://css-tricks.com/removing-the-dotted-outline/
+ */
+
 a
 	text-decoration none
-	/* Чтобы ссылки не подчёркивались */
 
 	&:focus
 		outline 0
 
-/*
- * Tables
- */
+/* 1.3. Headers
+   ========================================================================== */
+
+h1
+	font-family 'Истина'
+	font-size 1.9375rem
+	font-weight lighter
+	font-style normal
+	/* Decrease text brightness */
+	-webkit-filter brightness(97%)
+	filter brightness(97%)
+
+h2
+	font-family 'Мечта'
+	font-size 1.4rem
+
+/* Interlineage in h1 header */
+
+.SashaHeader
+	line-height .7rem
+
+/* 1.4. KBD
+   ========================================================================== */
+
+kbd
+	font-weight bold
+	border-radius 0.1875rem
+
+/* 1.5. noscript
+   ========================================================================== */
+
+noscript
+	>span
+		unicode-bidi bidi-override
+		direction rtl
+
+
+/* ==========================================================================
+   2. Tables
+   ========================================================================== */
 
 /*
  * Basic style — https://css-tricks.com/complete-guide-table-element/#article-header-id-4
@@ -51,10 +139,13 @@ td
 th
 	padding .5rem
 
-/*
- * Disable dotted outline, if user move by links use tab key, see
- * https://css-tricks.com/removing-the-dotted-outline/
- */
+
+/* ==========================================================================
+   3. Lists
+   ========================================================================== */
+
+/* 3.1. ol, ul, li
+   ========================================================================== */
 
 /* Disable, because incorrect works indents in lists, example:
 <li>
@@ -63,40 +154,32 @@ th
 */
 
 /*
+That the bullets not lost on mobile version
 ol,
 ul {
     list-style-position: inside;
-     Чтобы маркеры списка не пропадали на мобильных версиях
 }
 */
 
-/*Отступ от левого края элементов вложенного списка*/
+// Left margin in nested lists
 
 ul
 	li
 		margin-left 1rem
 
-h1
-	font-family 'Истина'
-	font-size 1.9375rem
-	font-weight lighter
-	font-style normal
-	/* Снизить яркость тексту */
-	-webkit-filter brightness(97%)
-	filter brightness(97%)
+.SashaOlMargin
+	margin-left 1rem
 
-h2
-	font-family 'Мечта'
-	font-size 1.4rem
+/* 3.2. TOC
+   ========================================================================== */
 
-kbd
-	font-weight bold
-	border-radius 0.1875rem
+// Disable default numeration
+.SashaTOC
+	list-style-type none
+	padding 0 0 0 1rem
 
-noscript
-	>span
-		unicode-bidi bidi-override
-		direction rtl
+/* 3.3. dd, dt, dl
+   ========================================================================== */
 
 /*
  * Dd, dt, dl tags
@@ -109,32 +192,31 @@ dt
 dd
 	font-style italic
 
-/* Images
+
+/* ==========================================================================
+   4. Images
+   ========================================================================== */
+
+/* 4.1. img
    ========================================================================== */
 
 img
 	max-width 100%
 	margin 0 auto
 
-/* Картинка слева */
+/* 4.2. Left and right
+   ========================================================================== */
 
 .leftimg
 	float left
-	/* Картинка слева */
 	margin 0.3125rem 0.3125rem 0.3125rem 0
-	/* Расстояние между картинкой и текстом */
-
-/* Картинка справа */
 
 .rightimg
 	float right
-	/* Картинка справа */
 	margin 0.3125rem 0 0.3125rem 0.3125rem
-	/* Расстояние между картинкой и текстом */
 
-/*
- * Ширина изображения
- */
+/* 4.3. Width of images
+   ========================================================================== */
 
 .Sasha140
 	width 8.75rem
@@ -148,22 +230,20 @@ img
 .Sasha700
 	width 43.75rem
 
-/*
- * JQuery Lazy
- * http://jquery.eisbehr.de/lazy/
- * I need add min-width to my images:
- * https://github.com/eisbehr-/jquery.lazy/issues/86
- */
-
-.SashaLazy
-	min-width 1rem
-
-/* Videos
+/* 4.4. Image border
    ========================================================================== */
 
-/*
- * Embed iframes videos
- */
+.SashaSign
+	padding 0.4375rem
+	margin 0.3125rem 0 0.3125rem 0
+
+
+/* ==========================================================================
+   5. Videos
+   ========================================================================== */
+
+/* 5.1. Embed iframe videos
+   ========================================================================== */
 
 .SashaVideo
 	width 100%
@@ -177,10 +257,22 @@ iframe
 	/* Instead of frameborder — http://stackoverflow.com/a/10831379/5951529 */
 	border 0
 
-/* Blockquotes
+
+/* ==========================================================================
+   6. Blockquotes
    ========================================================================== */
 
-/*  Цитата в прямоугольнике */
+/* 6.1. Left-border blockquote
+   ========================================================================== */
+
+blockquote
+	font-size 1.1875rem
+	font-style italic
+	margin 0.625rem 2.5rem
+	padding 0.9375rem
+
+/* 6.2. Terms
+   ========================================================================== */
 
 .SashaBlockquote
 	padding 0.25rem
@@ -190,27 +282,8 @@ iframe
 	border-bottom-style groove
 	border-left-style ridge
 
-/* Epigraph */
-
-.SashaEpigraph
-	font-style italic
-	margin 4rem 0
-	text-align right
-
-	/* Disable gradient for em tag */
-
-	> em
-		background-image none
-
-	/* Inscription after epigraph */
-
-	> .SashaEpigraphAuthor
-		line-height 1rem
-		margin 2rem 0
-		font-style italic
-
-
-/* Цитата — кавычки сверху и снизу */
+/* 6.3. Quotes top and bottom
+   ========================================================================== */
 
 .SashaCitation
 	display inline-block
@@ -228,15 +301,30 @@ iframe
 	line-height 0
 	vertical-align -2.5rem
 
-/* Цитата с вертикальной полосой слева */
+/* 6.4. Epigraph
+   ========================================================================== */
 
-blockquote
-	font-size 1.1875rem
+/*
+ * Disable gradient for em tag
+ * Inscription after epigraph
+ */
+
+.SashaEpigraph
 	font-style italic
-	margin 0.625rem 2.5rem
-	padding 0.9375rem
+	margin 4rem 0
+	text-align right
 
-/* Code
+	> em
+		background-image none
+
+	> .SashaEpigraphAuthor
+		line-height 1rem
+		margin 2rem 0
+		font-style italic
+
+
+/* ==========================================================================
+   7. Code
    ========================================================================== */
 
 code
@@ -251,69 +339,37 @@ pre
 	-o-tab-size 4
 	tab-size 4
 
+
 /* ==========================================================================
-   Sasha-tags
+   8. Sasha tags
    ========================================================================== */
 
-/* Версия статьи */
+/* 8.1. Page version
+   ========================================================================== */
 
 .SashaVersion
 	font-size .9rem
 	font-weight bold
 
-/* Заголовок H1 */
-
-.SashaHeader
-	line-height .7rem
-	/* Интерлиньяж в заголовке */
-
-/* Тень вверху страницы. */
-
-.SashaShadow
-	font-family 'Times New Roman'
-	font-size 1.6rem
-	/* Размер надписи */
-	width auto
-	text-shadow 0 0 0.625rem SashaColor1, 0 0 1.25rem SashaColor1, 0 0 1.875rem SashaColor1, 0 0 2.5rem SashaColor1, 0 0 3.125rem SashaColor1, 0 0 3.75rem SashaColor1
-	/* Параметры тени */
-
-/* Расположение элемента по центру */
+/* 8.2. Center element
+   ========================================================================== */
 
 .SashaCenter
 	text-align center
 
-/* Обрамление изображения с Настей*/
+/* 8.3. Inline and block
+   ========================================================================== */
 
-.SashaSign
-	/* Параметры рамки */
-	padding 0.4375rem
-	/* Поля внутри блока */
-	margin 0.3125rem 0 0.3125rem 0
-
-/* Подчёркивание точками */
-
-SashaDot
-	border-bottom 0.0625rem dotted crimson
-	/* Параметры линии */
-
-/* TOC статей */
-
-.SashaTOC
-	list-style-type none
-	/* Прячем исходную нумерацию */
-	padding 0 0 0 1rem
-
-/* Отступы в списке */
-
-.SashaOlMargin
-	margin-left 1rem
-
-/* Made inline block elements */
-
+// Make block elements to inline
 .SashaInline
 	float left
 
-/* Отступ сверху см. http://ru.stackoverflow.com/a/613468/199934 */
+/* 8.4. Margins and paddings
+   ========================================================================== */
+
+/*
+ * Top margin, see http://ru.stackoverflow.com/a/613468/199934
+ */
 
 .SashaEmNoColor
 .WorkOnYourself
@@ -322,19 +378,32 @@ SashaDot
 .SashaEmNoColor
 	font-style italic
 
-/* ==========================================================================
-   Scripts and plugins
+/* 8.5. Shadows
    ========================================================================== */
 
-/* Clipboard.js button */
+.SashaShadow
+	font-family 'Times New Roman'
+	font-size 1.6rem
+	width auto
 
+
+/* ==========================================================================
+   9. External scripts and plugins
+   ========================================================================== */
+
+/* 9.1. Clipboard.js
+   ========================================================================== */
+
+// Clipboard.js button
 .SashaButton
 	position absolute
 	top .5rem
 	right .5rem
 
-/* Tooltipster theme */
+/* 9.2. Tooltipster
+   ========================================================================== */
 
+// Theme
 .tooltipster-punk-purple
 	.tooltipster-box
 		border none
@@ -344,3 +413,57 @@ SashaDot
 	.tooltipster-box
 		border none
 		border-radius 5px
+
+/* 9.3. JQuery Lazy
+   ========================================================================== */
+
+/*
+ * JQuery Lazy
+ * http://jquery.eisbehr.de/lazy/
+ * I need add min-width to my images:
+ * https://github.com/eisbehr-/jquery.lazy/issues/86
+ */
+
+.SashaLazy
+	min-width 1rem
+
+/* 9.4. Progressbar
+   ========================================================================== */
+
+// https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
+.progress-label
+	position absolute
+	text-align center
+	font-weight 700
+	width 100%
+	margin 0
+	line-height 1.2rem
+	white-space nowrap
+	overflow hidden
+
+
+.progress-bar
+	height 1.2rem
+	float left
+
+.progress
+	display block
+	width 100%
+	margin 0.5rem 0
+	height 1.2rem
+	position relative
+
+
+.progress.thin
+	margin-top 0.9rem
+	height 0.4rem
+
+
+.progress.thin .progress-label
+	margin-top -0.4rem
+
+
+.progress.thin .progress-bar
+	height 0.4rem
+
+

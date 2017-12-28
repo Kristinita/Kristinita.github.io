@@ -27,11 +27,16 @@
  	4. Code
  		- 4.1. Inline code
  		- 4.2. Multiline code
- 	5. Different elements
- 		- 5.1. Custom selection
- 		- 5.2. Child elements
- 	6. Tooltipster theme
+ 	5. Decoration
+ 		- 5.1. Shadows
+ 	6. Different elements
+ 		- 6.1. Custom selection
+ 		- 6.2. Child elements
+ 	7. Tooltipster theme
+ 		- 7.1. Tooltipster
+ 		- 7.2. Proggresbar
  */
+
 
 /* ==========================================================================
    1. General
@@ -121,6 +126,7 @@ td
 th
 	border 0.0625rem solid Sasha-Body-Foreground
 
+
 /* ==========================================================================
    2. Aside
    ========================================================================== */
@@ -137,6 +143,7 @@ th
 
 aside
 	background-image Sasha-Icon
+
 
 /* ==========================================================================
    3. Blockquotes
@@ -185,6 +192,7 @@ blockquote
 .SashaGingerinasExample
 	background-color Sasha-Gingerinas-Example
 
+
 /* ==========================================================================
    4. Code
    ========================================================================== */
@@ -204,11 +212,23 @@ pre
 	>code
 		background-color Sasha-Multiline-Code
 
+
 /* ==========================================================================
-   5. Different elements
+   5. Decoration
    ========================================================================== */
 
-/* 5.1. Custom selection
+/* 5.1. Shadows
+   ========================================================================== */
+
+.SashaShadow
+	text-shadow 0 0 0.625rem Sasha-Shadow, 0 0 1.25rem Sasha-Shadow, 0 0 1.875rem Sasha-Shadow, 0 0 2.5rem Sasha-Shadow, 0 0 3.125rem Sasha-Shadow, 0 0 3.75rem Sasha-Shadow
+
+
+/* ==========================================================================
+   6. Different elements
+   ========================================================================== */
+
+/* 6.1. Custom selection
    ========================================================================== */
 
 /*
@@ -231,7 +251,7 @@ pre
 	color Sasha-Selection-Foreground
 	background Sasha-Selection-Background
 
-/* 5.2. Child elements
+/* 6.2. Child elements
    ========================================================================== */
 
 /*
@@ -243,8 +263,12 @@ pre
 .SashaEmNoColor
 	color Sasha-Body-Foreground
 
+
 /* ==========================================================================
-   6. Tooltipster theme
+   7. External plugins
+   ========================================================================== */
+
+/* 7.1. Tooltipster
    ========================================================================== */
 
 .tooltipster-punk-purple
@@ -256,3 +280,63 @@ pre
 	.tooltipster-box
 		border-bottom 3px solid Sasha-Tooltipster-Aquamarine-Bottom
 		background Sasha-Tooltipster-Aquamarine-Background
+
+/* 7.2. Progressbar
+   ========================================================================== */
+
+// https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
+// The bands, on which is progress-bar
+.progress
+	background-color Sasha-Body-Background
+
+// Don't understand, what it is. Default color?
+.progress-bar
+	background-color Sasha-Progress-Bar
+
+// Text in progress-bar
+.progress-label
+	color Sasha-Progressbar-Text
+
+.progress-100plus
+	.progress-bar
+		background-color Sasha-Progressbar-100
+
+.progress-90plus
+	.progress-bar
+		background-color Sasha-Progressbar-90
+
+.progress-80plus
+	.progress-bar
+		background-color Sasha-Progressbar-80
+
+.progress-70plus
+	.progress-bar
+		background-color Sasha-Progressbar-70
+
+.progress-60plus
+	.progress-bar
+		background-color Sasha-Progressbar-60
+
+.progress-50plus
+	.progress-bar
+		background-color Sasha-Progressbar-50
+
+.progress-40plus
+	.progress-bar
+		background-color Sasha-Progressbar-40
+
+.progress-30plus
+	.progress-bar
+		background-color Sasha-Progressbar-30
+
+.progress-20plus
+	.progress-bar
+		background-color Sasha-Progressbar-20
+
+.progress-10plus
+	.progress-bar
+		background-color Sasha-Progressbar-10
+
+.progress-0plus
+	.progress-bar
+		background-color Sasha-Progressbar-0
