@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2017-12-28 13:50:33 -->
+<!-- @Last Modified time: 2017-12-30 08:24:51 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +28,12 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
     <!-- JQuery Lazy -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
     <!-- Fancybox -->
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
+    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
     <!-- Rainbow -->
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/themes/css/rainbow.css">
@@ -66,7 +71,7 @@
         <div class="SashaMargin">
             <header>
                 <h1 class="SashaTopHeader">Книги для джинджерин</h1>
-                <img class="SashaNotModified" src="http://2no.co/1EBY.png" alt="image">
+                <img class="SashaPageLoading" src="http://2no.co/1EBY.png" alt="Page loading, please, little wait">
                 <div class="SashaVersion">Version </div>
                 <div class="SashaVersion">
                     Posted —
@@ -74,18 +79,269 @@
                 </div>
                 <div class="SashaVersion">
                     Last modified —
-                    <time pubdate="2017-09-27 11:30:16+03:00">2017-09-27 11:30:16+03:00</time>
+                    <time pubdate="2017-12-30 08:51:47+03:00">2017-12-30 08:51:47+03:00</time>
                 </div>
             </header>
-            <div id="toc">
-            </div>
-
+            <h2>1. Поиск</h2>
+            <h3>1.1. Авторитетные источники</h3>
             <p>
-                <br />
-                <br />
-                <br />
+                <div class="justtable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> No. </th>
+                                <th>Название</th>
+                                <th>Обложка</th>
+                                <th>Автор</th>
+                                <th>Издательство</th>
+                                <th>Тематика</th>
+                                <th>Бумажная или электронная версия</th>
+                                <th>Минимальная цена</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 1 </td>
+                                <td>Русский романс</td>
+                                <td><a class="fancybox" href="http://www.libex.ru/dimg/3243b.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://www.libex.ru/dimg/3243b.jpg" alt="О"></a></td>
+                                <td>Галина Соболева</td>
+                                <td>Знание</td>
+                                <td>Русский романс до советского периода</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D0%F3%F1%F1%EA%E8%E9+%F0%EE%EC%E0%ED%F1&amp;authors=%D1%EE%E1%EE%EB%E5%E2%E0&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">50</a></td>
+                            </tr>
+                            <tr>
+                                <td> 2 </td>
+                                <td>Русский советский романс</td>
+                                <td><a class="fancybox" href="http://www.libex.ru/dimg/3b21.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://www.libex.ru/dimg/3b21.jpg" alt="О"></a></td>
+                                <td>Галина Соболева</td>
+                                <td>Знание</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D0%F3%F1%F1%EA%E8%E9+%F1%EE%E2%E5%F2%F1%EA%E8%E9+%F0%EE%EC%E0%ED%F1&amp;authors=%D1%EE%E1%EE%EB%E5%E2%E0&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">50</a></td>
+                            </tr>
+                            <tr>
+                                <td> 3 </td>
+                                <td>Смело, товарищи, в ногу</td>
+                                <td><a class="fancybox" href="http://www.libex.ru/img/x/3a/37/afdfa.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://www.libex.ru/img/x/3a/37/afdfa.jpg" alt="О"></a></td>
+                                <td>Андрей Луковников</td>
+                                <td>Советский композитор</td>
+                                <td>Рассказы о советских песнях</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D1%EC%E5%EB%EE%2C+%F2%EE%E2%E0%F0%E8%F9%E8%2C+%E2+%ED%EE%E3%F3&amp;authors=%CB%F3%EA%EE%E2%ED%E8%EA%EE%E2&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">100</a></td>
+                            </tr>
+                            <tr>
+                                <td> 4 </td>
+                                <td>Песня далёкая и близкая</td>
+                                <td><a class="fancybox" href="https://i.imgur.com/PjOm397.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/PjOm397.png" alt="О"></a></td>
+                                <td>Юрий Бирюков</td>
+                                <td>Советская Россия</td>
+                                <td>Рассказы о советских песнях</td>
+                                <td>Б</td>
+                                <td><a href="http://newauction.ru/offer/sssr_1987_g_pesnja_dalekaja_i_blizkaja_ju_e_birjukov-i62651621279072.html" target="_blank">200</a></td>
+                            </tr>
+                            <tr>
+                                <td> 5 </td>
+                                <td>Ты помнишь, товарищ?</td>
+                                <td><a class="fancybox" href="https://knizhen-pazar.net/books/118/11866/1186611.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://knizhen-pazar.net/books/118/11866/1186611.jpg" alt="О"></a></td>
+                                <td>Андрей Луковников</td>
+                                <td>Советский композитор</td>
+                                <td>Рассказы о советских песнях</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D2%FB+%EF%EE%EC%ED%E8%F8%FC%2C+%F2%EE%E2%E0%F0%E8%F9&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">150</a></td>
+                            </tr>
+                            <tr>
+                                <td> 6 </td>
+                                <td>Через огненные годы. Песни революции и Гражданской войны</td>
+                                <td>—</td>
+                                <td>Александр Лебединский</td>
+                                <td>Знание</td>
+                                <td>Рассказы о советских песнях</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D7%E5%F0%E5%E7+%EE%E3%ED%E5%ED%ED%FB%E5+%E3%EE%E4%FB&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">150</a></td>
+                            </tr>
+                            <tr>
+                                <td> 7 </td>
+                                <td>Почаще пойте песни Революции</td>
+                                <td><a class="fancybox" href="http://docplayer.ru/docs-images/68/58541094/images/11-0.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://docplayer.ru/docs-images/68/58541094/images/11-0.jpg" alt="О"></a></td>
+                                <td>Лев Сидоровский</td>
+                                <td>Советский композитор</td>
+                                <td>Рассказы о советских песнях</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%CF%EE%F7%E0%F9%E5+%EF%EE%E9%F2%E5+%EF%E5%F1%ED%E8+%D0%E5%E2%EE%EB%FE%F6%E8%E8&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">194</a></td>
+                            </tr>
+                            <tr>
+                                <td> 8 </td>
+                                <td>Наши праздники. Советские, общегосударственные, трудовые, воинские, молодёжные и семейно-бытовые обряды, ритуалы</td>
+                                <td><a class="fancybox" href="https://ozon-st.cdn.ngenix.net/multimedia/1000960806.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://ozon-st.cdn.ngenix.net/multimedia/1000960806.jpg" alt="О"></a></td>
+                                <td>В. Г. Синицын</td>
+                                <td>Политиздат</td>
+                                <td>Подробное описание советских праздников</td>
+                                <td>Б</td>
+                                <td><a href="http://www.alib.ru/findp.php4?author=&amp;title=%CD%E0%F8%E8+%EF%F0%E0%E7%E4%ED%E8%EA%E8&amp;god1=1977&amp;god2=1977" target="_blank">100</a></td>
+                            </tr>
+                            <tr>
+                                <td> 9 </td>
+                                <td>100 лучших курортов мира</td>
+                                <td><a class="fancybox" href="https://i.livelib.ru/boocover/1000165395/200/a811/G._N._Ponomarenko__100_luchshih_kurortov_mira.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.livelib.ru/boocover/1000165395/200/a811/G._N._Ponomarenko__100_luchshih_kurortov_mira.jpg" alt="О"></a></td>
+                                <td><a href="http://rumed.ru/ponomarenko.php" target="_blank">Геннадий Пономаренко</a></td>
+                                <td>Балтика</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td> 10 </td>
+                                <td>Золотые строки, лучшие цитаты из фильмов</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/orig/008/815/450.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/orig/008/815/450.jpeg" alt="О"></a></td>
+                                <td>Джордж Тиффин</td>
+                                <td>Эксмо</td>
+                                <td>Известные цитаты не из советских/российских фильмов</td>
+                                <td>Э</td>
+                                <td><a href="http://bookradar.org/search/?q=%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%B5+%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8%2C+%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5+%D1%86%D0%B8%D1%82%D0%B0%D1%82%D1%8B+%D0%B8%D0%B7+%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%BE%D0%B2&amp;type=all"
+                                    target="_blank">200</a></td>
+                            </tr>
+                            <tr>
+                                <td> 11 </td>
+                                <td>О финансах легко и непринуждённо</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/300x300/008/815/446.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/300x300/008/815/446.jpeg" alt="О"></a></td>
+                                <td>Наталья Морозова</td>
+                                <td>«Издательство Наталии Морозовой»</td>
+                                <td>Н</td>
+                                <td>Э</td>
+                                <td><a href="http://bookradar.org/search/?q=%D0%9E%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%B0%D1%85%20%D0%BB%D0%B5%D0%B3%D0%BA%D0%BE%20%D0%B8%20%D0%BD%D0%B5%D0%BF%D1%80%D0%B8%D0%BD%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE&amp;type=all"
+                                    target="_blank">350</a></td>
+                            </tr>
+                            <tr>
+                                <td> 12 </td>
+                                <td>Москва театральная. Путеводитель</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/300x300/008/811/297.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/300x300/008/811/297.jpeg" alt="О"></a></td>
+                                <td>Григорий Заславский</td>
+                                <td>Астрель, Олимп</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%CC%EE%F1%EA%E2%E0+%F2%E5%E0%F2%F0%E0%EB%FC%ED%E0%FF&amp;authors=%C7%E0%F1%EB%E0%E2%F1%EA%E8%E9&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">64</a></td>
+                            </tr>
+                            <tr>
+                                <td> 13 </td>
+                                <td>Последние слова знаменитых людей</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/300x300/008/810/673.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/300x300/008/810/673.jpeg" alt="О"></a></td>
+                                <td>Константин Душенко</td>
+                                <td>Эксмо</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://bookradar.org/search/?q=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B5+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0+%D0%B7%D0%BD%D0%B0%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8B%D1%85+%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9&amp;type=all"
+                                    target="_blank">388</a></td>
+                            </tr>
+                            <tr>
+                                <td> 14 </td>
+                                <td>Фавориты правителей России</td>
+                                <td><a class="fancybox" href="https://www.bookvoed.ru/files/1836/37/04/76.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://www.bookvoed.ru/files/1836/37/04/76.jpg" alt="О"></a></td>
+                                <td>Валерий Вилков</td>
+                                <td>Дом Славянской Книги</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D4%E0%E2%EE%F0%E8%F2%FB+%EF%F0%E0%E2%E8%F2%E5%EB%E5%E9+%D0%EE%F1%F1%E8%E8&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">200</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </p>
-            <h2>1. Сайты</h2>
+            <h3>1.2. Неавторитетные источники</h3>
+            <p>
+                <div class="justtable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> No. </th>
+                                <th>Название</th>
+                                <th>Обложка</th>
+                                <th>Автор</th>
+                                <th>Издательство</th>
+                                <th>Тематика</th>
+                                <th>Бумажная или электронная версия</th>
+                                <th>Минимальная цена</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 1 </td>
+                                <td>100 великих галерей и музеев</td>
+                                <td><a class="fancybox" href="https://j.livelib.ru/boocover/1000104314/200/9427/M._V._Gubareva_N._A._Ionina__100_velikih_galerej_i_muzeev.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://j.livelib.ru/boocover/1000104314/200/9427/M._V._Gubareva_N._A._Ionina__100_velikih_galerej_i_muzeev.jpg" alt="О"></a></td>
+                                <td>М. В. Губарева, Н. А. Ионина</td>
+                                <td>Вече</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=100+%E2%E5%EB%E8%EA%E8%F5+%E3%E0%EB%E5%F0%E5%E9+%E8+%EC%F3%E7%E5%E5%E2&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">200</a></td>
+                            </tr>
+                            <tr>
+                                <td> 2 </td>
+                                <td><a href="http://kravchuk.ucoz.com/publ/rekordy_prirody/7-1-0-18" target="_blank">Рекорды природы</a></td>
+                                <td><a class="fancybox" href="http://kravchuk.ucoz.com/_pu/0/79506.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://kravchuk.ucoz.com/_pu/0/79506.jpg" alt="О"></a></td>
+                                <td>Пётр Кравчук</td>
+                                <td>Эрудит</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td> 3 </td>
+                                <td>Москва литературная: 100 адресов, которые необходимо увидеть</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/orig/008/811/525.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/orig/008/811/525.jpeg" alt="О"></a></td>
+                                <td>Елена Забродина</td>
+                                <td>ЗЕБРА-Е</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://bookradar.org/search/?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0+%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%B0%D1%8F%3A+100+%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%BE%D0%B2%2C+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5+%D0%BD%D0%B5%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%D0%B8%D0%BC%D0%BE+%D1%83%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D1%8C&amp;type=all"
+                                    target="_blank">363</a></td>
+                            </tr>
+                            <tr>
+                                <td> 4 </td>
+                                <td>Театры Петербурга</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/orig/008/811/289.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/orig/008/811/289.jpeg" alt="О"></a></td>
+                                <td>Т. Никон</td>
+                                <td>Дирекция театрально-зрелищных касс</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%D2%E5%E0%F2%F0%FB+%CF%E5%F2%E5%F0%E1%F3%F0%E3%E0&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">250</a></td>
+                            </tr>
+                            <tr>
+                                <td> 5 </td>
+                                <td>Энциклопедия примет и суеверий</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/300x300/008/810/446.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/300x300/008/810/446.jpeg" alt="О"></a></td>
+                                <td>Кристина Хоул</td>
+                                <td>Крон-Пресс</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://bookradar.org/search/?q=%D0%AD%D0%BD%D1%86%D0%B8%D0%BA%D0%BB%D0%BE%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%81%D1%83%D0%B5%D0%B2%D0%B5%D1%80%D0%B8%D0%B9%20%D0%A5%D0%BE%D1%83%D0%BB&amp;type=all"
+                                    target="_blank">160</a></td>
+                            </tr>
+                            <tr>
+                                <td> 6 </td>
+                                <td>Самые удивительные праздники мира</td>
+                                <td><a class="fancybox" href="https://www.chitai-gorod.ru/upload/iblock/b03/b0362430672a5e4ed45b94fcdfbcbf7f.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://www.chitai-gorod.ru/upload/iblock/b03/b0362430672a5e4ed45b94fcdfbcbf7f.jpg" alt="О"></a></td>
+                                <td>П. Н. Малитиков</td>
+                                <td>Феникс</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://bookradar.org/search/?q=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B5%20%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%BC%D0%B8%D1%80%D0%B0&amp;type=all"
+                                    target="_blank">177</a></td>
+                            </tr>
+                            <tr>
+                                <td> 7 </td>
+                                <td>Великие мюзиклы мира</td>
+                                <td><a class="fancybox" href="http://mywishlist.ru/pic/i/wish/300x300/008/810/449.jpeg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://mywishlist.ru/pic/i/wish/300x300/008/810/449.jpeg" alt="О"></a></td>
+                                <td>И. Емельянова</td>
+                                <td>ОЛМА-Пресс</td>
+                                <td>Н</td>
+                                <td>Б</td>
+                                <td><a href="http://www.findbook.ru/search/d1?title=%C2%E5%EB%E8%EA%E8%E5+%EC%FE%E7%E8%EA%EB%FB+%EC%E8%F0%E0&amp;r=0&amp;s=1&amp;viewsize=15&amp;startidx=0" target="_blank">600</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </p>
+            <h2>2. Сайты</h2>
 
             <p>
                 <br />
@@ -101,7 +357,7 @@
             <p>
                 </ul>
                 <br />
-                <h2>2. Психология</h2>
+                <h2>3. Психология</h2>
                 <br />
                 <ul>
                     <li><a href="https://yadi.sk/i/Rn_DBsZUu8Ry4">Дайана Халперн, "Психология критического мышления"</a></li>
@@ -111,7 +367,7 @@
                     <li><a href="https://yadi.sk/i/l0TOsEgfu8S8Y">Н. А. Государев, "Так становятся чемпионами"</a></li>
                 </ul>
                 <br />
-                <h2>3. Базы</h2>
+                <h2>4. Базы</h2>
                 <br>
                 <ul>
                     <li><a href="https://yadi.sk/d/3mpLe52hu8XhQ">База Конквизтадора</a></li>
@@ -119,7 +375,7 @@
                     <li><a href="http://svoya-igra.org/">Выпуски телевизионной "Своей игры"</a></li>
                 </ul>
                 <br>
-                <h2>4. Прокачка отдельных тем</h2>
+                <h2>5. Прокачка отдельных тем</h2>
                 <br>
                 <ul>
                     <li><a href="https://yadi.sk/d/hOVppas-u8hKJ">Валюты стран мира</a></li>
@@ -152,7 +408,7 @@
                     <li><a href="https://yadi.sk/d/VeNxFoa6u8hUD">Христианские праздники</a></li>
                 </ul>
                 <br>
-                <h2>5. Неавторитетные источники</h2>
+                <h2>6. Неавторитетные источники</h2>
                 <br>
                 <ul>
                     <li><a href="https://yadi.sk/d/m-MqjvNKu9Ht5">Греческие и латинские лексические единицы</a></li>
@@ -165,7 +421,7 @@
                     <li><a href="https://yadi.sk/d/98mGeAWwu9JBG">Цитаты из фильмов</a></li>
                 </ul>
                 <br>
-                <h2>6. Полезное чтение</h2>
+                <h2>7. Полезное чтение</h2>
                 <br>
                 <ul>
                     <li><a href="https://yadi.sk/i/g4UU3jG5u9H4i">Джон Митчинсон, "1227 фактов, от которых вы обалдеете"</a></li>
@@ -180,7 +436,7 @@
                     <li><a href="https://yadi.sk/i/Ccx8X1lMu9HEU">Юрий Федосюк, "Что непонятно у классиков, или энциклопедия русского быта XIX века"</a></li>
                 </ul>
                 <br>
-                <h2>7. Специфические по джинджеринам</h2>
+                <h2>8. Специфические по джинджеринам</h2>
                 <br>
                 <ul>
                     <li><a href="https://yadi.sk/i/2uYh7iaOu9JkD">Анастасия Кузьмина, "Самая нужная книга на подумать для самого нужного места"</a></li>
@@ -191,10 +447,16 @@
                 <br>
             </p>
             <footer>
-                <div class="SashaEmNoColor">All rights reserved ©. If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Gingerinas/Книги-для-джинджерин.md">edit it</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
-                    Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf"><script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span>
-                    about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own discretion.</div>
+                <span class="SashaHeadPageLeft"><a href="http://kristinita.ru" title="Kristinita's Search">Поиск Кристиниты</a></span>
+                <!--  -->
+                <span class="SashaNextNeighbor"><a href="http://kristinita.ru/Gingerinas/Грейс-Ло.html" title="Грейс Ло">Следующая статья →</a></span>
+                <div class="SashaClearBoth"></div>
+                <div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия с его автором. Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Gingerinas/Книги-для-джинджерин.md">отредактировать её</a>                    и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по
+                    <span
+                    id="obf">
+                        <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script>
+                        <noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
+                        </span>. С комментариями в стиле <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.</div>
                 <div class="WorkOnYourself">Работайте над собой</div>
             </footer>
         </div>

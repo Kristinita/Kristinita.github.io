@@ -22,30 +22,33 @@
  		- 3.1. ol, ul, li
  		- 3.2. TOC
  		- 3.3. dd, dt, dl
- 	4. Images
- 		- 4.1. img
- 		- 4.2. Left and right
- 		- 4.3. Width of images
- 		- 4.4. Image border
- 	5. Videos
- 		- 5.1. Embed iframe videos
- 	6. Blockquotes
- 		- 6.1. Left-border blockquote
- 		- 6.2. Terms
- 		- 6.3. Quotes top and bottom
- 		- 6.4. Epigraph
- 	7. Code
- 	8. Sasha tags
- 		- 8.1. Page version
- 		- 8.2. Center element
- 		- 8.3. Inline and block
- 		- 8.4. Margins and paddings
- 		- 8.5. Shadows
- 	9. External scripts and plugins
- 		- 9.1. Clipboard.js
- 		- 9.2. Tooltipster
- 		- 9.3. JQuery Lazy
- 		- 9.4. Progressbar
+ 	4. Footer
+ 		- 4.1. Neighbors Pelican
+ 		- 4.2. Another footer
+ 	5. Images
+ 		- 5.1. img
+ 		- 5.2. Left and right
+ 		- 5.3. Width of images
+ 		- 5.4. Image border
+ 		- 5.5. External links image
+ 	6. Videos
+ 		- 6.1. Embed iframe videos
+ 	7. Blockquotes
+ 		- 7.1. Left-border blockquote
+ 		- 7.2. Terms
+ 		- 7.3. Quotes top and bottom
+ 		- 7.4. Epigraph
+ 	8. Code
+ 	9. Sasha tags
+ 		- 9.1. Page version
+ 		- 9.2. Center element
+ 		- 9.3. Inline and block
+ 		- 9.4. Shadows
+ 	10. External scripts and plugins
+ 		- 10.1. Clipboard.js
+ 		- 10.2. Tooltipster
+ 		- 10.3. JQuery Lazy
+ 		- 10.4. Progressbar
  */
 
 
@@ -69,7 +72,7 @@ html
 body
 	font-family Arial, "Helvetica Neue", Helvetica, sans-serif
 	font-size 1.1875rem
-	/* That margin-top for Sasha's icons correctly for on mobile devices */
+	/* That margin-top for Sasha's icons correct for on mobile devices */
 	overflow hidden
 	width 100%
 	height 100%
@@ -192,19 +195,74 @@ dt
 dd
 	font-style italic
 
-
 /* ==========================================================================
-   4. Images
+   4. Footer
    ========================================================================== */
 
-/* 4.1. img
+/* 4.1. Neighbors Pelican
+   ========================================================================== */
+
+/*
+ * Add links for previous and next buttons
+ * https://github.com/getpelican/pelican-plugins/tree/master/neighbors
+ *  Example — https://github.com/whatifrussian/website/blob/9e29831dcf61c85e711a392709aaf711212ba7c9/themes/whatif/templates/includes/article_content.html
+ */
+
+.SashaHeadPageLeft
+.SashaPreviousNeighbor
+	float left
+
+.SashaNextNeighbor
+.SashaHeadPageRight
+	float right
+
+/*
+ * Stop float — https://stackoverflow.com/a/6205224/5951529
+ * Need to add empty div tag after tags with float; not use for same as float tag
+ */
+
+.SashaClearBoth
+	clear both
+
+.SashaHeadPageLeft
+.SashaPreviousNeighbor
+.SashaNextNeighbor
+.SashaHeadPageRight
+	margin 5rem 0 0
+
+.SashaHeadPageLeft
+.SashaPreviousNeighbor
+.SashaNextNeighbor
+.SashaHeadPageRight
+	a
+		font-size 2rem
+
+/* 4.2. Another footer
+   ========================================================================== */
+
+/*
+ * Top margin, see http://ru.stackoverflow.com/a/613468/199934
+ */
+
+.SashaEmNoColor
+.WorkOnYourself
+	margin 5rem 0 0
+
+.SashaEmNoColor
+	font-style italic
+
+/* ==========================================================================
+   5. Images
+   ========================================================================== */
+
+/* 5.1. img
    ========================================================================== */
 
 img
 	max-width 100%
 	margin 0 auto
 
-/* 4.2. Left and right
+/* 5.2. Left and right
    ========================================================================== */
 
 .leftimg
@@ -215,7 +273,7 @@ img
 	float right
 	margin 0.3125rem 0 0.3125rem 0.3125rem
 
-/* 4.3. Width of images
+/* 5.3. Width of images
    ========================================================================== */
 
 .Sasha140
@@ -230,19 +288,31 @@ img
 .Sasha700
 	width 43.75rem
 
-/* 4.4. Image border
+/* 5.4. Image border
    ========================================================================== */
 
 .SashaSign
 	padding 0.4375rem
 	margin 0.3125rem 0 0.3125rem 0
 
-
-/* ==========================================================================
-   5. Videos
+/* 5.5. External links image
    ========================================================================== */
 
-/* 5.1. Embed iframe videos
+/*
+ * Pelican plugin linkclass, see
+ * https://github.com/rlaboiss/pelican-linkclass
+ */
+
+.external
+	&:after
+		content url('../../../images/interface_images/external-link.png')
+		margin-left 0.2rem
+
+/* ==========================================================================
+   6. Videos
+   ========================================================================== */
+
+/* 6.1. Embed iframe videos
    ========================================================================== */
 
 .SashaVideo
@@ -259,10 +329,10 @@ iframe
 
 
 /* ==========================================================================
-   6. Blockquotes
+   7. Blockquotes
    ========================================================================== */
 
-/* 6.1. Left-border blockquote
+/* 7.1. Left-border blockquote
    ========================================================================== */
 
 blockquote
@@ -271,7 +341,7 @@ blockquote
 	margin 0.625rem 2.5rem
 	padding 0.9375rem
 
-/* 6.2. Terms
+/* 7.2. Terms
    ========================================================================== */
 
 .SashaBlockquote
@@ -282,7 +352,7 @@ blockquote
 	border-bottom-style groove
 	border-left-style ridge
 
-/* 6.3. Quotes top and bottom
+/* 7.3. Quotes top and bottom
    ========================================================================== */
 
 .SashaCitation
@@ -301,7 +371,7 @@ blockquote
 	line-height 0
 	vertical-align -2.5rem
 
-/* 6.4. Epigraph
+/* 7.4. Epigraph
    ========================================================================== */
 
 /*
@@ -324,61 +394,49 @@ blockquote
 
 
 /* ==========================================================================
-   7. Code
+   8. Code
    ========================================================================== */
 
 code
 	font-size 1.1875rem
 
-/* Код переносится на следующую строку, если не помещается */
+/*
+ * pre-wrap — code wraps to the next line
+ * tab-size — because tab=8 in Rainbow code
+ */
 
 pre
 	white-space pre-wrap
 	-moz-tab-size 4
-	/* Иначе tab=8 в Rainbow коде*/
 	-o-tab-size 4
 	tab-size 4
 
 
 /* ==========================================================================
-   8. Sasha tags
+   9. Sasha tags
    ========================================================================== */
 
-/* 8.1. Page version
+/* 9.1. Page version
    ========================================================================== */
 
 .SashaVersion
 	font-size .9rem
 	font-weight bold
 
-/* 8.2. Center element
+/* 9.2. Center element
    ========================================================================== */
 
 .SashaCenter
 	text-align center
 
-/* 8.3. Inline and block
+/* 9.3. Inline and block
    ========================================================================== */
 
 // Make block elements to inline
 .SashaInline
 	float left
 
-/* 8.4. Margins and paddings
-   ========================================================================== */
-
-/*
- * Top margin, see http://ru.stackoverflow.com/a/613468/199934
- */
-
-.SashaEmNoColor
-.WorkOnYourself
-	margin 5rem 0 0
-
-.SashaEmNoColor
-	font-style italic
-
-/* 8.5. Shadows
+/* 9.4. Shadows
    ========================================================================== */
 
 .SashaShadow
@@ -388,10 +446,10 @@ pre
 
 
 /* ==========================================================================
-   9. External scripts and plugins
+   10. External scripts and plugins
    ========================================================================== */
 
-/* 9.1. Clipboard.js
+/* 10.1. Clipboard.js
    ========================================================================== */
 
 // Clipboard.js button
@@ -400,7 +458,7 @@ pre
 	top .5rem
 	right .5rem
 
-/* 9.2. Tooltipster
+/* 10.2. Tooltipster
    ========================================================================== */
 
 // Theme
@@ -414,7 +472,7 @@ pre
 		border none
 		border-radius 5px
 
-/* 9.3. JQuery Lazy
+/* 10.3. JQuery Lazy
    ========================================================================== */
 
 /*
@@ -427,7 +485,7 @@ pre
 .SashaLazy
 	min-width 1rem
 
-/* 9.4. Progressbar
+/* 10.4. Progressbar
    ========================================================================== */
 
 // https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
@@ -465,5 +523,3 @@ pre
 
 .progress.thin .progress-bar
 	height 0.4rem
-
-

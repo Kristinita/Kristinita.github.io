@@ -34,6 +34,10 @@ hr {
   color: #c71585;
 }
 
+td,th {
+  border: 0.0625rem solid #738e8b;
+}
+
 .cover-text {
   color: #fff;
   bottom: 8%;
