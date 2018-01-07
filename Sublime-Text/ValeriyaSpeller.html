@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2017-12-30 14:43:10 -->
+<!-- @Last Modified time: 2018-01-07 13:29:04 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,9 +34,6 @@
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
-    <!-- Rainbow -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/themes/css/rainbow.css">
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
     <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
@@ -57,10 +54,6 @@
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_right.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/sublime-text.css">
-    <!-- CodeHilite, https://pythonhosted.org/Markdown/extensions/code_hilite.html , http://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/python-markdown/fruity.css" />
-    <!-- Progressbar -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/python-markdown/progressbar.css" />
     <!-- Custom CSS -->
     <!-- Atom feed -->
     <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
@@ -86,7 +79,7 @@
                 </div>
                 <div class="SashaVersion">
                     Last modified —
-                    <time pubdate="2017-12-30 08:57:05+03:00">2017-12-30 08:57:05+03:00</time>
+                    <time pubdate="2018-01-07 13:34:13+03:00">2018-01-07 13:34:13+03:00</time>
                 </div>
             </header>
             <div class="SashaEpigraph">
@@ -154,24 +147,22 @@ perfect fan of <a href="https://vk.com/hair_in_the_wind">Goddess</a>
                 for all opened files.</p>
             <h3>6.3. Detail output</h3>
             <p>You can to give detailed output, example:</p>
-            <pre><code data-language="json">
+            <div class="SashaBlockHighlight"><pre><span></span><span class="err">SublimeLinter:</span> <span class="err">valeriyaspeller:</span> <span class="err">TheChorusGirl.Chekhov</span> <span class="p">[</span><span class="err">&#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&#39;</span><span class="p">,</span> <span class="err">&#39;--check-yo&#39;</span><span class="p">,</span> <span class="err">&#39;--find-repeat-words&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-digits&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-latin&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-roman-numerals&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-uppercase&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-urls&#39;</span><span class="p">]</span>
+<span class="err">SublimeLinter:</span> <span class="err">valeriyaspeller</span> <span class="err">output:</span>
+<span class="err">Checking</span> <span class="err">finished:</span> <span class="mf">1.154</span> <span class="err">sec.</span>
+<span class="p">[</span><span class="err">ERR</span><span class="p">]</span> <span class="err">stdin</span> <span class="mi">710</span> <span class="err">ms</span>
+<span class="err">-----</span>
+<span class="err">Typos:</span> <span class="mi">2</span>
+<span class="mi">1</span><span class="err">.</span> <span class="err">Бoже</span> <span class="err">(</span><span class="mi">3</span><span class="err">:</span><span class="mi">3</span><span class="err">,</span> <span class="err">en:</span> <span class="err">*o**,</span> <span class="err">ru:</span> <span class="err">Б*же,</span> <span class="err">suggest:</span> <span class="err">Боже)</span>
+<span class="mi">2</span><span class="err">.</span> <span class="err">ПСаши</span> <span class="err">(</span><span class="mi">5</span><span class="err">:</span><span class="mi">116</span><span class="err">,</span> <span class="err">suggest:</span> <span class="err">Саши)</span>
 
-SublimeLinter: valeriyaspeller: TheChorusGirl.Chekhov ['C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd', '--check-yo', '--find-repeat-words', '--ignore-digits', '--ignore-latin', '--ignore-roman-numerals', '--ignore-uppercase', '--ignore-urls']
-SublimeLinter: valeriyaspeller output:
-Checking finished: 1.154 sec.
-[ERR] stdin 710 ms
------
-Typos: 2
-1. Бoже (3:3, en: *o**, ru: Б*же, suggest: Боже)
-2. ПСаши (5:116, suggest: Саши)
+<span class="err">Capitalization:</span> <span class="mi">1</span>
+<span class="mi">1</span><span class="err">.</span> <span class="err">ВсПомнила</span> <span class="err">(</span><span class="mi">9</span><span class="err">:</span><span class="mi">113</span><span class="err">,</span> <span class="err">suggest:</span> <span class="err">Вспомнила)</span>
 
-Capitalization: 1
-1. ВсПомнила (9:113, suggest: Вспомнила)
-
-Letter Ё (Yo): 1
-1. довел (3:108, count: 2, suggest: довёл)
------
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+<span class="err">Letter</span> <span class="err">Ё</span> <span class="err">(Yo):</span> <span class="mi">1</span>
+<span class="mi">1</span><span class="err">.</span> <span class="err">довел</span> <span class="err">(</span><span class="mi">3</span><span class="err">:</span><span class="mi">108</span><span class="err">,</span> <span class="err">count:</span> <span class="mi">2</span><span class="err">,</span> <span class="err">suggest:</span> <span class="err">довёл)</span>
+<span class="err">-----</span>
+<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <p>
                 <a class="fancybox" href="http://i.imgur.com/uC1hthv.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/uC1hthv.png" alt="Detailed output"></a>
@@ -180,10 +171,8 @@ Letter Ё (Yo): 1
             <h2>7. Description</h2>
             <h3>7.1. Command line arguments</h3>
             <p><a href="https://www.npmjs.com/package/yaspeller" target="_blank">Description of yaspeller npm module</a>, <a href="https://www.npmjs.com/package/yaspeller#options" target="_blank">command line keys</a>. Default command is</p>
-            <pre><code data-language="shell">
-
-yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <div class="SashaBlockHighlight"><pre><span></span>yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
+</pre></div>
 
             <h3>7.2. Limits</h3>
             <p>10 thousands queries and 10 millions symbols in a day, see <a href="https://yandex.ru/legal/speller_api/" target="_blank">3.2 item</a> terms of rules.</p>

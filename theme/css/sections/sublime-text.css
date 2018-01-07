@@ -106,3 +106,193 @@ pre >code {
     border-bottom: 3px solid #ff69b4;
     background: #228b22;
 }
+
+.SashaInlineHighlight,
+.SashaBlockHighlight {
+    background-color: #5e3b47;
+    color: #fff;
+}
+
+.SashaInlineHighlight .c,
+.SashaBlockHighlight .c {
+    background-color: #0f140f;
+    font-style: italic;
+    color: #008000;
+}
+
+.SashaInlineHighlight .err,
+.SashaBlockHighlight .err {
+    color: #fff;
+}
+
+.SashaInlineHighlight .esc,
+.SashaBlockHighlight .esc {
+    color: #fff;
+}
+
+.SashaInlineHighlight .g,
+.SashaBlockHighlight .g {
+    color: #fff;
+}
+
+.SashaInlineHighlight .k,
+.SashaBlockHighlight .k {
+    color: #fb660a;
+    font-weight: bold;
+}
+
+.SashaInlineHighlight .l,
+.SashaBlockHighlight .l {
+    color: #fff;
+}
+
+.SashaInlineHighlight .n,
+.SashaBlockHighlight .n {
+    color: #fff;
+}
+
+.SashaInlineHighlight .o,
+.SashaBlockHighlight .o {
+    color: #fff;
+}
+
+.SashaInlineHighlight .x,
+.SashaBlockHighlight .x {
+    color: #fff;
+}
+
+.SashaInlineHighlight .p,
+.SashaBlockHighlight .p {
+    color: #f4a460;
+}
+
+.SashaInlineHighlight .c1,
+.SashaBlockHighlight .c1 {
+    color: #008000;
+    background-color: #0f140f;
+    font-style: italic;
+}
+
+.SashaInlineHighlight .cs,
+.SashaBlockHighlight .cs {
+    color: #008000;
+    background-color: #0f140f;
+    font-style: italic;
+}
+
+.SashaInlineHighlight .ge,
+.SashaBlockHighlight .ge {
+    color: #fff;
+}
+
+.SashaInlineHighlight .go,
+.SashaBlockHighlight .go {
+    color: #444;
+    background-color: #222;
+}
+
+.SashaInlineHighlight .gt,
+.SashaBlockHighlight .gt {
+    color: #fff;
+}
+
+.SashaInlineHighlight .kc,
+.SashaBlockHighlight .kc {
+    color: #fb660a;
+    font-weight: bold;
+}
+
+.SashaInlineHighlight .m,
+.SashaBlockHighlight .m {
+    color: #0086f7;
+    font-weight: bold;
+}
+
+.SashaInlineHighlight .s,
+.SashaBlockHighlight .s {
+    color: #87ceeb;
+}
+
+.SashaInlineHighlight .nb,
+.SashaBlockHighlight .nb {
+    color: #fff;
+}
+
+.SashaInlineHighlight .nc,
+.SashaBlockHighlight .nc {
+    color: #fff;
+}
+
+.SashaInlineHighlight .no,
+.SashaBlockHighlight .no {
+    color: #87ceeb;
+}
+
+.SashaInlineHighlight .nl,
+.SashaBlockHighlight .nl {
+    color: #fff;
+}
+
+.SashaInlineHighlight .nn,
+.SashaBlockHighlight .nn {
+    color: #fff;
+}
+
+.SashaInlineHighlight .py,
+.SashaBlockHighlight .py {
+    color: #fff;
+}
+
+.SashaInlineHighlight .nt,
+.SashaBlockHighlight .nt {
+    color: #fb660a;
+    font-weight: #fb660a;
+}
+
+.SashaInlineHighlight .w,
+.SashaBlockHighlight .w {
+    color: #888;
+}
+
+.SashaInlineHighlight .mf,
+.SashaBlockHighlight .mf {
+    color: #0086f7;
+    font-weight: bold;
+}
+
+.SashaInlineHighlight .mh,
+.SashaBlockHighlight .mh {
+    color: #0086f7;
+    font-weight: bold;
+}
+
+.SashaInlineHighlight .mi,
+.SashaBlockHighlight .mi {
+    color: #0086f7;
+    font-weight: bold;
+}
+
+.SashaInlineHighlight .sa,
+.SashaBlockHighlight .sa {
+    color: #87ceeb;
+}
+
+.SashaInlineHighlight .s2,
+.SashaBlockHighlight .s2 {
+    color: #87ceeb;
+}
+
+.SashaInlineHighlight .se,
+.SashaBlockHighlight .se {
+    color: #87ceeb;
+}
+
+.SashaInlineHighlight .sh,
+.SashaBlockHighlight .sh {
+    color: #87ceeb;
+}
+
+.SashaInlineHighlight .s1,
+.SashaBlockHighlight .s1 {
+    color: #87ceeb;
+}

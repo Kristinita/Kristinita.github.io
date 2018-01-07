@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2017-12-30 14:43:10 -->
+<!-- @Last Modified time: 2018-01-07 13:29:04 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,9 +34,6 @@
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
-    <!-- Rainbow -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/themes/css/rainbow.css">
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
     <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
     <!-- Visualize, see https://github.com/kellyk/visualize -->
@@ -51,8 +48,6 @@
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_right.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/gingerinas.css">
-    <!-- CodeHilite, https://pythonhosted.org/Markdown/extensions/code_hilite.html , http://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/ -->
-    <!-- Progressbar -->
     <!-- Custom CSS -->
     <!-- Atom feed -->
     <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
@@ -78,7 +73,7 @@
                 </div>
                 <div class="SashaVersion">
                     Last modified —
-                    <time pubdate="2017-12-30 08:50:55+03:00">2017-12-30 08:50:55+03:00</time>
+                    <time pubdate="2018-01-07 13:37:03+03:00">2018-01-07 13:37:03+03:00</time>
                 </div>
             </header>
             <div class="SashaEpigraph">
@@ -215,12 +210,12 @@
             <p><a href="http://forum.sublimetext.ru/index.php?topic=6.0" target="_blank">Установите через Package Control</a> пакет <a href="https://packagecontrol.io/packages/Hover%20Image%20Preview" target="_blank">Hover Image Preview</a> → в текстовый
                 файл вставьте ссылку на изображение
                 <a class="fancybox" href="http://stackoverflow.com/a/14494775/5951529"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://stackoverflow.com/a/14494775/5951529" alt="в формате Markdown"></a>:</p>
-            <pre><code data-language="markdown">![Image description](URL of your link)
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <div class="SashaBlockHighlight"><pre><span></span>![Image description](URL of your link)
+</pre></div>
 
             <p>Пример:</p>
-            <pre><code data-language="markdown">![Герб Чистополя](http://i.imgur.com/zqwGrIt.jpg)
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <div class="SashaBlockHighlight"><pre><span></span>![Герб Чистополя](http://i.imgur.com/zqwGrIt.jpg)
+</pre></div>
 
             <p>Наведите курсор мыши между (круглыми скобками) → должна отобразиться картинка:</p>
             <p>
@@ -254,10 +249,10 @@
                         информацию:</p>
                 </li>
             </ol>
-            <pre><code data-language="markdown">Рудаки — 9 век, родоначальник поэзии на новоперсидском языке, возможно, слепой,
+            <div class="SashaBlockHighlight"><pre><span></span>Рудаки — 9 век, родоначальник поэзии на новоперсидском языке, возможно, слепой,
 Саади — перс, «Гулистан» («Цветочный сад») 13 век, суфий, много где скитался,
 Фирдоуси — «Юсуф и Зулейха», султан отказался заплатить за «Шахнаме», и Фирдоуси вынужден был бежать.
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+</pre></div>
 
             <h2>4. Какую информацию не следует выписывать?</h2>
             <ol>
@@ -309,95 +304,94 @@
                     <summary><b>Кликните сюда, чтобы увидеть список файлов.</b></summary>
                     <br>
             </p>
-            <pre><code data-language="python">Авиация.txt
-Авторская_песня.txt
-Американские_фильмы.txt
-Анатомия.txt
-Архитектура.txt
-Астрономия_и_космонавтика.txt
-Военное_дело.txt
-Вспомогательные_исторические_дисциплины.txt
-Генетика.txt
-Географические_науки.txt
-География_стран_бывшего_СССР.txt
-Грибы.txt
-Декоративно-прикладное_искусство.txt
-Детективы.txt
-Детская_литература.txt
-Женское.txt
-Живопись.txt
-Животные.txt
-Игры_и_развлечения.txt
-Изречения_известных_людей.txt
-Информационные_технологии.txt
-История_Древнего_мира.txt
-История_Средних_веков.txt
-История_стран_бывшего_СССР.txt
-Кинематограф_стран_бывшего_СССР.txt
-Классическая_зарубежная_литература.txt
-Классическая_литература_стран_бывшего_СССР.txt
-Классическая_музыка.txt
-Кулинария.txt
-Литература_ужасов.txt
-Математика.txt
-Медицина.txt
-Металлы_и_минералы.txt
-Мировая_география.txt
-Мировое_кино.txt
-Мифология.txt
-Млекопитающие.txt
-Морское_дело.txt
-Музеи.txt
-Мультфильмы.txt
-Наземные_транспортные_средства.txt
-Напитки.txt
-Наркотики.txt
-Наука_и_образование.txt
-Неакадемические_направления_исследований,_эзотерика.txt
-Одежда_и_аксессуары.txt
-Оружие.txt
-Переводы_и_происхождение_слов.txt
-Печатное_дело_и_журналистика.txt
-Политика_и_судопроизводство.txt
-Поп-музыка_стран_бывшего_СССР.txt
-Поэзия.txt
-Преступность.txt
-Приключенческая_литература.txt
-Психология_и_философия.txt
-Птицы.txt
-Пушкин.txt
-Разное.txt
-Растения.txt
-Религия.txt
-Рок-музыка_стран_бывшего_СССР.txt
-Сельское_хозяйство.txt
-Скульптура.txt
-Советская_литература.txt
-Советская_музыка.txt
-Современная_зарубежная_история.txt
-Современная_зарубежная_литература.txt
-Современная_зарубежная_музыка.txt
-Спорт.txt
-Танцы.txt
-Театр.txt
-Телевидение.txt
-Техника.txt
-Традиции.txt
-Фантастическая_литература.txt
-Физика.txt
-Фразеологизмы.txt
-Фразы_из_фильмов.txt
-Химия.txt
-Цирк.txt
-Шансон_и_романсы.txt
-Экономика.txt
-Электричество,_электронная аппаратура.txt
-Эпиграфы_и_концовки.txt
-Юмор.txt
-Языкознание.txt
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
-
             <p>
+                <div class="SashaBlockHighlight"><pre><span></span><span class="err">Авиация</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Авторская</span><span class="n">_песня</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Американские</span><span class="n">_фильмы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Анатомия</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Архитектура</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Астрономия</span><span class="n">_и_космонавтика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Военное</span><span class="n">_дело</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Вспомогательные</span><span class="n">_исторические_дисциплины</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Генетика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Географические</span><span class="n">_науки</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">География</span><span class="n">_стран_бывшего_СССР</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Грибы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Декоративно</span><span class="o">-</span><span class="err">прикладное</span><span class="n">_искусство</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Детективы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Детская</span><span class="n">_литература</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Женское</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Живопись</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Животные</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Игры</span><span class="n">_и_развлечения</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Изречения</span><span class="n">_известных_людей</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Информационные</span><span class="n">_технологии</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">История</span><span class="n">_Древнего_мира</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">История</span><span class="n">_Средних_веков</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">История</span><span class="n">_стран_бывшего_СССР</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Кинематограф</span><span class="n">_стран_бывшего_СССР</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Классическая</span><span class="n">_зарубежная_литература</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Классическая</span><span class="n">_литература_стран_бывшего_СССР</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Классическая</span><span class="n">_музыка</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Кулинария</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Литература</span><span class="n">_ужасов</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Математика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Медицина</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Металлы</span><span class="n">_и_минералы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Мировая</span><span class="n">_география</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Мировое</span><span class="n">_кино</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Мифология</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Млекопитающие</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Морское</span><span class="n">_дело</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Музеи</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Мультфильмы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Наземные</span><span class="n">_транспортные_средства</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Напитки</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Наркотики</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Наука</span><span class="n">_и_образование</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Неакадемические</span><span class="n">_направления_исследований</span><span class="p">,</span><span class="n">_эзотерика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Одежда</span><span class="n">_и_аксессуары</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Оружие</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Переводы</span><span class="n">_и_происхождение_слов</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Печатное</span><span class="n">_дело_и_журналистика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Политика</span><span class="n">_и_судопроизводство</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Поп</span><span class="o">-</span><span class="err">музыка</span><span class="n">_стран_бывшего_СССР</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Поэзия</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Преступность</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Приключенческая</span><span class="n">_литература</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Психология</span><span class="n">_и_философия</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Птицы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Пушкин</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Разное</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Растения</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Религия</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Рок</span><span class="o">-</span><span class="err">музыка</span><span class="n">_стран_бывшего_СССР</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Сельское</span><span class="n">_хозяйство</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Скульптура</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Советская</span><span class="n">_литература</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Советская</span><span class="n">_музыка</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Современная</span><span class="n">_зарубежная_история</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Современная</span><span class="n">_зарубежная_литература</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Современная</span><span class="n">_зарубежная_музыка</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Спорт</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Танцы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Театр</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Телевидение</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Техника</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Традиции</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Фантастическая</span><span class="n">_литература</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Физика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Фразеологизмы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Фразы</span><span class="n">_из_фильмов</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Химия</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Цирк</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Шансон</span><span class="n">_и_романсы</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Экономика</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Электричество</span><span class="p">,</span><span class="n">_электронная</span> <span class="err">аппаратура</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Эпиграфы</span><span class="n">_и_концовки</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Юмор</span><span class="o">.</span><span class="n">txt</span>
+<span class="err">Языкознание</span><span class="o">.</span><span class="n">txt</span>
+<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
                 </details>
                 <br>
             </p>
@@ -447,16 +441,18 @@
                 </li>
             </ol>
             <p>Примеры записей:</p>
-            <pre><code>+ вирга — дождь, который испаряется, не достигая земли,
+            <div class="highlight"><pre><span></span>+ вирга — дождь, который испаряется, не достигая земли,
 + елань — обширная луговая равнина.
-</code></pre>
+</pre></div>
+
             <ol>
                 <li>Географии «Мировая» и «стран бывшего СССР» — географические и антропогенные объекты в пределах государств.</li>
             </ol>
             <p>Примеры записей:</p>
-            <pre><code>+ Колка — мощнейший в России ледник, убивший в Кармадонском ущелье Сергея Бодрова.
+            <div class="highlight"><pre><span></span>+ Колка — мощнейший в России ледник, убивший в Кармадонском ущелье Сергея Бодрова.
 + Сан-Хавьер — единственный город в Южном полушарии с преобладающим русским населением,
-</code></pre>
+</pre></div>
+
             <ol>
                 <li>«Животные» — все животные, исключая млекопитающих и птиц, для которых созданы отдельные темы,</li>
                 <li>«Наука и науковедение» — науковедение и научные дисциплины, для которых нет отдельных тем,</li>
@@ -485,7 +481,7 @@
             <h2>6. Повторение</h2>
             <h2>7. Мнемоника</h2>
             <footer>
-                <span class="SashaPreviousNeighbor"><a href="http://kristinita.ru/Gingerinas/Книги-для-джинджерин.html" title="Книги для джинджерин">← Предыдущая статья</a></span>
+                <span class="SashaHeadPageLeft"><a href="http://kristinita.ru" title="Поиск Кристиниты">Поиск Кристиниты</a></span>
                 <!--  -->
                 <span class="SashaNextNeighbor"><a href="http://kristinita.ru/Gingerinas/Грейзи-Фа.html" title="Грейзи Фа">Следующая статья →</a></span>
                 <div class="SashaClearBoth"></div>

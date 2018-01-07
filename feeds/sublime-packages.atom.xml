@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Packages</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/sublime-packages.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2017-12-30T08:57:05+03:00</updated><entry><title>Sacagawea</title><link href="http://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:34+03:00</published><updated>2017-12-30T08:56:26+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Packages</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/sublime-packages.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-07T13:37:02+03:00</updated><entry><title>Sacagawea</title><link href="http://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:34+03:00</published><updated>2018-01-07T13:37:02+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;Посвящено &lt;a href="https://vk.com/id152198389"&gt;Наталье Степуриной (Шмелёвой)&lt;/a&gt;, &lt;br&gt;
 никогда не оставлявшую меня в трудную минуту. &lt;br&gt;
 Названо в честь &lt;a href="http://www.history.com/topics/native-american-history/sacagawea"&gt;Её игрового никнейма&lt;/a&gt;.
@@ -115,14 +115,16 @@
 &lt;h3&gt;5.1. Установка&lt;/h3&gt;
 &lt;p&gt;&lt;a name="Обязательно"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;5.1.1. Обязательно&lt;/h4&gt;
+&lt;!-- See 7 item of Nested Fence Format: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/#nested-fence-format --&gt;
+
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="http://www.sublimetext.com/3" target="_blank"&gt;Sublime Text 3&lt;/a&gt;, если ещё не установлен.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Кроссплатформенный CLI-плейер &lt;a href="http://mpg123.de/" target="_blank"&gt;mpg123&lt;/a&gt;. Для пользователей Windows рекомендовал бы &lt;a href="https://lifehacker.ru/2015/01/08/chocolatey/" target="_blank"&gt;установить Chocolatey&lt;/a&gt;, если ещё не установлен, → &lt;a href="https://chocolatey.org/packages/mpg123/1.24.0" target="_blank"&gt;наберите в терминале&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;choco install mpg123 -y
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Кроссплатформенный CLI-плейер &lt;a href="http://mpg123.de/" target="_blank"&gt;mpg123&lt;/a&gt;. Для пользователей Windows рекомендовал бы &lt;a href="https://lifehacker.ru/2015/01/08/chocolatey/" target="_blank"&gt;установить Chocolatey&lt;/a&gt;, если ещё не установлен, → &lt;a href="https://chocolatey.org/packages/mpg123/1.24.0" target="_blank"&gt;наберите в терминале&lt;/a&gt;:
+        &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;choco&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;mpg123&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Установка стороннего плейера необходима, поскольку встроенные средства для воспроизведения аудио для Python, на котором написана Sacagawea, — &lt;a href="https://docs.python.org/3/library/ossaudiodev.html" target="_blank"&gt;ossaudiodev&lt;/a&gt; и &lt;a href="https://docs.python.org/3/library/winsound.html" target="_blank"&gt;winsound&lt;/a&gt; — &lt;a href="http://stackoverflow.com/a/34179010/5951529" target="_blank"&gt;не кроссплатформенные&lt;/a&gt; → придётся всё равно что-то дополнительно устанавливать.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -154,99 +156,94 @@
 &lt;h4&gt;5.2.2. AutoHotkey&lt;/h4&gt;
 &lt;p&gt;Создайте и сохраните 2 файла: &lt;em&gt;Sacagawea-CHGK.ahk&lt;/em&gt; и &lt;em&gt;Sacagawea-Blitz.ahk&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Sacagawea-CHGK.ahk&lt;/em&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="json"&gt;
-
-WinActivate, Mozilla Firefox ahk_class MozillaWindowClass
-Sleep, 300
-Send, {Space}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 1000
-WinActivate, Sublime Text ahk_class PX_WINDOW_CLASS
-Send, {LControl Down}
-Sleep, 300
-Send, {LShift Down}
-Sleep, 300
-Send, {p}
-Sleep, 300
-Send, {LShift Up}
-Sleep, 300
-Send, {LControl Up}
-Sleep, 300
-Send, Suricate: Sacagawea: “What? Where? When?”
-Sleep, 300
-Send, {Enter}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 300
-ExitApp
-#esc::ExitApp
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mozilla&lt;/span&gt; &lt;span class="n"&gt;Firefox&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;MozillaWindowClass&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Space&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Tab&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1000&lt;/span&gt;
+&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Sublime&lt;/span&gt; &lt;span class="n"&gt;Text&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;PX_WINDOW_CLASS&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LControl&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LShift&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LShift&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LControl&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suricate&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Sacagawea&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="err"&gt;“&lt;/span&gt;&lt;span class="n"&gt;What&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt; &lt;span class="n"&gt;Where&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt; &lt;span class="n"&gt;When&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;&lt;span class="err"&gt;”&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Enter&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Tab&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;ExitApp&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Sacagawea-Blitz.ahk&lt;/em&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="json"&gt;
-
-WinActivate, Mozilla Firefox ahk_class MozillaWindowClass
-Sleep, 300
-Send, {Space}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 1000
-WinActivate, Sublime Text ahk_class PX_WINDOW_CLASS
-Send, {LControl Down}
-Sleep, 300
-Send, {LShift Down}
-Sleep, 300
-Send, {p}
-Sleep, 300
-Send, {LShift Up}
-Sleep, 300
-Send, {LControl Up}
-Sleep, 300
-Send, Suricate: Sacagawea: Blitz/Superblitz/Brain Ring
-Sleep, 300
-Send, {Enter}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 300
-ExitApp
-#esc::ExitApp
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mozilla&lt;/span&gt; &lt;span class="n"&gt;Firefox&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;MozillaWindowClass&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Space&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Tab&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1000&lt;/span&gt;
+&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Sublime&lt;/span&gt; &lt;span class="n"&gt;Text&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;PX_WINDOW_CLASS&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LControl&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LShift&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LShift&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LControl&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suricate&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Sacagawea&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Blitz&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Superblitz&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Brain&lt;/span&gt; &lt;span class="n"&gt;Ring&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Enter&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Down&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Tab&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
+&lt;span class="nb"&gt;ExitApp&lt;/span&gt;
+&lt;span class="nl"&gt;#esc::&lt;/span&gt;&lt;span class="n"&gt;ExitApp&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href="http://windata.ru/windows-world/utility/zapusk-skriptov-autohotkey-ot-imeni-administratora/" target="_blank"&gt;Скомпилируйте оба файла&lt;/a&gt; — это можно сделать &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey/blob/master/Default.sublime-commands#L6-L9" target="_blank"&gt;в Sublime Text 3&lt;/a&gt;, если использовать пакет &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey" target="_blank"&gt;Sublime AutoHotkey&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a name="nncron"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;5.2.3. nnCron&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://www.nncron.ru/help/RU/working/task/starting_task.htm" target="_blank"&gt;Добавьте в кронтаб&lt;/a&gt; следующие строки:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="ruby"&gt;#( Sacagawea-CHGK
-WatchHotKey: &amp;quot;^{APP}&amp;quot;
-Action:
-StartIn: &amp;quot;D:\AutoHotkey&amp;quot;
-START-APP: D:\AutoHotkey\Sacagawea-CHGK.exe
-)#
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#( Sacagawea-CHGK&lt;/span&gt;
+&lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^{APP}&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;Action&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="n"&gt;StartIn&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;D:\AutoHotkey&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;START&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;APP&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;D&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;\&lt;span class="n"&gt;AutoHotkey&lt;/span&gt;\&lt;span class="n"&gt;Sacagawea&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;CHGK&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
 
-#( Sacagawea-Blitz
-WatchHotKey: &amp;quot;^@{APP}&amp;quot;
-Action:
-StartIn: &amp;quot;D:\AutoHotkey&amp;quot;
-START-APP: D:\AutoHotkey\Sacapawea-Blitz.exe
-)#
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="c1"&gt;#( Sacagawea-Blitz&lt;/span&gt;
+&lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^@{APP}&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;Action&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="n"&gt;StartIn&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;D:\AutoHotkey&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;START&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;APP&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;D&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;\&lt;span class="n"&gt;AutoHotkey&lt;/span&gt;\&lt;span class="n"&gt;Sacapawea&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Blitz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt;
+&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Где:&lt;/p&gt;
 &lt;ul&gt;
@@ -323,7 +320,7 @@ START-APP: D:\AutoHotkey\Sacapawea-Blitz.exe
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.soundjay.com/tos.html" target="_blank"&gt;правила использования звуков&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md" target="_blank"&gt;лицензия на Sacagawea — MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2017-12-30T08:57:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="http://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-01-07T13:34:13+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="http://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;
@@ -380,34 +377,30 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;Also you open linting file → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Report (Open Files)&lt;/code&gt; → and see all linting errors and warnings of all your enabled SublimeLinter linters for all  opened files.&lt;/p&gt;
 &lt;h3&gt;6.3. Detail output&lt;/h3&gt;
 &lt;p&gt;You can to give detailed output, example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="json"&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller:&lt;/span&gt; &lt;span class="err"&gt;TheChorusGirl.Chekhov&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--check-yo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--find-repeat-words&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-digits&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-latin&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-roman-numerals&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-uppercase&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-urls&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller&lt;/span&gt; &lt;span class="err"&gt;output:&lt;/span&gt;
+&lt;span class="err"&gt;Checking&lt;/span&gt; &lt;span class="err"&gt;finished:&lt;/span&gt; &lt;span class="mf"&gt;1.154&lt;/span&gt; &lt;span class="err"&gt;sec.&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;ERR&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;stdin&lt;/span&gt; &lt;span class="mi"&gt;710&lt;/span&gt; &lt;span class="err"&gt;ms&lt;/span&gt;
+&lt;span class="err"&gt;-----&lt;/span&gt;
+&lt;span class="err"&gt;Typos:&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt; &lt;span class="err"&gt;Бoже&lt;/span&gt; &lt;span class="err"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;en:&lt;/span&gt; &lt;span class="err"&gt;*o**,&lt;/span&gt; &lt;span class="err"&gt;ru:&lt;/span&gt; &lt;span class="err"&gt;Б*же,&lt;/span&gt; &lt;span class="err"&gt;suggest:&lt;/span&gt; &lt;span class="err"&gt;Боже)&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt; &lt;span class="err"&gt;ПСаши&lt;/span&gt; &lt;span class="err"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;116&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;suggest:&lt;/span&gt; &lt;span class="err"&gt;Саши)&lt;/span&gt;
 
-SublimeLinter: valeriyaspeller: TheChorusGirl.Chekhov ['C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd', '--check-yo', '--find-repeat-words', '--ignore-digits', '--ignore-latin', '--ignore-roman-numerals', '--ignore-uppercase', '--ignore-urls']
-SublimeLinter: valeriyaspeller output:
-Checking finished: 1.154 sec.
-[ERR] stdin 710 ms
------
-Typos: 2
-1. Бoже (3:3, en: *o**, ru: Б*же, suggest: Боже)
-2. ПСаши (5:116, suggest: Саши)
+&lt;span class="err"&gt;Capitalization:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt; &lt;span class="err"&gt;ВсПомнила&lt;/span&gt; &lt;span class="err"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;113&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;suggest:&lt;/span&gt; &lt;span class="err"&gt;Вспомнила)&lt;/span&gt;
 
-Capitalization: 1
-1. ВсПомнила (9:113, suggest: Вспомнила)
-
-Letter Ё (Yo): 1
-1. довел (3:108, count: 2, suggest: довёл)
------
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="err"&gt;Letter&lt;/span&gt; &lt;span class="err"&gt;Ё&lt;/span&gt; &lt;span class="err"&gt;(Yo):&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt; &lt;span class="err"&gt;довел&lt;/span&gt; &lt;span class="err"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;108&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;count:&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;suggest:&lt;/span&gt; &lt;span class="err"&gt;довёл)&lt;/span&gt;
+&lt;span class="err"&gt;-----&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img alt="Detailed output" src="http://i.imgur.com/uC1hthv.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Enable Debug Mode&lt;/code&gt; → open file, which you needs to linting → &lt;a href="http://stackoverflow.com/q/13965877/5951529" target="_blank"&gt;open Sublime Text console&lt;/a&gt; → see output.&lt;/p&gt;
 &lt;h2&gt;7. Description&lt;/h2&gt;
 &lt;h3&gt;7.1. Command line arguments&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.npmjs.com/package/yaspeller" target="_blank"&gt;Description of yaspeller npm module&lt;/a&gt;, &lt;a href="https://www.npmjs.com/package/yaspeller#options" target="_blank"&gt;command line keys&lt;/a&gt;. Default command is&lt;/p&gt;
-&lt;pre&gt;&lt;code class="shell"&gt;
-
-yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;7.2. Limits&lt;/h3&gt;
 &lt;p&gt;10 thousands queries and 10 millions symbols in a day, see &lt;a href="https://yandex.ru/legal/speller_api/" target="_blank"&gt;3.2 item&lt;/a&gt; terms of rules.&lt;/p&gt;
@@ -695,11 +688,9 @@ yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore
 &lt;p&gt;&lt;a name="build-system-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.5. Build System output console&lt;/h4&gt;
 &lt;p&gt;For get a black and white colors, Install &lt;a href="https://github.com/aziz/SublimeANSI" target="_blank"&gt;SublimeANSI&lt;/a&gt; plugin and &lt;a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel" target="_blank"&gt;add&lt;/a&gt; in your &lt;em&gt;.sublime-build&lt;/em&gt; file these lines:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="json"&gt;
-
-&amp;quot;target&amp;quot;: &amp;quot;ansi_color_build&amp;quot;,
-&amp;quot;syntax&amp;quot;: &amp;quot;Packages/ANSIescape/ANSI.tmLanguage&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;target&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ansi_color_build&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;syntax&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/ANSIescape/ANSI.tmLanguage&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img alt="Build console" src="http://i.imgur.com/4s81HhM.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a name="scopehunter-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -764,17 +755,15 @@ yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore
 &lt;p&gt;&lt;a name="git"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Git&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → in this folder open terminal, preferable to you, and run command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="shell"&gt;
-
-git clone https://github.com/Kristinita/SashaSublime.git
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/Kristinita/SashaSublime.git
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a name="hub"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.3. Hub&lt;/h3&gt;
 &lt;p&gt;I recommend use &lt;a href="https://hub.github.com/" target="_blank"&gt;Hub&lt;/a&gt; — a command-line wrapper for git that makes you better at GitHub.&lt;/p&gt;
 &lt;p&gt;If you use Hub, &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → in this folder open terminal, preferable to you, and run command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="shell"&gt;hub clone Kristinita/SashaSublime
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hub clone Kristinita/SashaSublime
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a name="manually"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.4. Manually&lt;/h3&gt;
@@ -793,43 +782,41 @@ git clone https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;&lt;a name="manually-activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.2. Manually activation&lt;/h3&gt;
 &lt;p&gt;&lt;kbd&gt;Alt+N&lt;/kbd&gt; → &lt;em&gt;Settings&lt;/em&gt; → in file in right &lt;a href="http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html" target="_blank"&gt;pane&lt;/a&gt; add 2 lines:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="json"&gt;
-
-&amp;quot;color_scheme&amp;quot;: &amp;quot;Packages/SashaSublime/SashaSublime.tmTheme&amp;quot;,
-&amp;quot;theme&amp;quot;: &amp;quot;SashaSublime.sublime-theme&amp;quot;,
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;color_scheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/SashaSublime/SashaSublime.tmTheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;theme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime.sublime-theme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Be attentive, &lt;a href="http://ru.stackoverflow.com/a/238934/199934" target="_blank"&gt;correct place&lt;/a&gt; commas, quotes, brackets and colons.&lt;/p&gt;
 &lt;p&gt;&lt;a name="preferences"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. Preferences&lt;/h2&gt;
 &lt;p&gt;Also, you can make that all your settings were as at me. Copy into your file &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Settings - User&lt;/em&gt; these lines from my file &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Preferences.sublime-settings&lt;/em&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="json"&gt;&amp;quot;always_show_minimap_viewport&amp;quot;: true,
-&amp;quot;auto_find_in_selection&amp;quot;: false,
-&amp;quot;bold_folder_labels&amp;quot;: true,
-&amp;quot;caret_style&amp;quot;: &amp;quot;wide&amp;quot;,
-&amp;quot;detect indentation&amp;quot;: false,
-&amp;quot;draw_indent_guides&amp;quot;: false,
-&amp;quot;draw_minimap_border&amp;quot;: true,
-&amp;quot;fade_fold_buttons&amp;quot;: false,
-&amp;quot;font_face&amp;quot;: &amp;quot;Consolas&amp;quot;,
-&amp;quot;font_options&amp;quot;:
-[
-    &amp;quot;subpixel_antialias&amp;quot;,
-    &amp;quot;directwrite&amp;quot;
-],
-&amp;quot;highlight_line&amp;quot;: true,
-&amp;quot;highlight_modified_tabs&amp;quot;: true,
-&amp;quot;line_padding_bottom&amp;quot;: 1,
-&amp;quot;line_padding_top&amp;quot;: 1,
-&amp;quot;match_brackets&amp;quot;: false,
-&amp;quot;match_brackets_angle&amp;quot;: false,
-&amp;quot;match_brackets_braces&amp;quot;: false,
-&amp;quot;match_brackets_content&amp;quot;: false,
-&amp;quot;match_brackets_square&amp;quot;: false,
-&amp;quot;match_tags&amp;quot;: false,
-&amp;quot;menu_visible&amp;quot;: true,
-&amp;quot;show_encoding&amp;quot;: true,
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;always_show_minimap_viewport&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;auto_find_in_selection&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;bold_folder_labels&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;caret_style&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;wide&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;detect indentation&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;draw_indent_guides&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;draw_minimap_border&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;fade_fold_buttons&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;font_face&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Consolas&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;font_options&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;subpixel_antialias&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;directwrite&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;highlight_line&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;highlight_modified_tabs&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;line_padding_bottom&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;line_padding_top&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;match_brackets&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;match_brackets_angle&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;match_brackets_braces&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;match_brackets_content&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;match_brackets_square&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;match_tags&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;menu_visible&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;quot;show_encoding&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Before copying save in a safe place file &lt;em&gt;Preferences.sublime-settings&lt;/em&gt; from the &lt;em&gt;User&lt;/em&gt; folder or, what better, use &lt;a href="https://github.com/vishr/local-history" target="_blank"&gt;Local History&lt;/a&gt; plugin. If you don’t like my preferences, you will be able to return to your preferable settings.&lt;/p&gt;
 &lt;p&gt;&lt;a name="setting-sashasublime-for-some-plugins"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -841,57 +828,57 @@ git clone https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;Install plugin BracketHighlighter via Package Control,&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Package Settings&lt;/em&gt; → &lt;em&gt;BracketHighlighter&lt;/em&gt; → &lt;em&gt;Bracket Settings - User&lt;/em&gt; → add in open file this code and save file:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class="json"&gt;{
-  &amp;quot;bracket_styles&amp;quot;:
-  {
-    &amp;quot;unmatched&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;question&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.unmatched&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;highlight&amp;quot;
-    },
-    &amp;quot;curly&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;curly_bracket&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.curly&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;highlight&amp;quot;
-    },
-    &amp;quot;round&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;round_bracket&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.round&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    },
-    &amp;quot;square&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;square_bracket&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.square&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    },
-    &amp;quot;angle&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;angle_bracket&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.angle&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    },
-    &amp;quot;tag&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;tag&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.tag&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    },
-    &amp;quot;single_quote&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;single_quote&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.quote&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    },
-    &amp;quot;double_quote&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;double_quote&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.quote&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    },
-    &amp;quot;regex&amp;quot;: {
-&amp;quot;icon&amp;quot;: &amp;quot;regex&amp;quot;,
-&amp;quot;color&amp;quot;: &amp;quot;brackethighlighter.quote&amp;quot;,
-&amp;quot;style&amp;quot;: &amp;quot;outline&amp;quot;
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;bracket_styles&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;unmatched&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;question&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.unmatched&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;highlight&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;curly&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;curly_bracket&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.curly&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;highlight&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;round&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;round_bracket&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.round&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;square&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;square_bracket&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.square&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;angle&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;angle_bracket&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.angle&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;tag&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;tag&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.tag&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;single_quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;single_quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;double_quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;double_quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;regex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;regex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;brackethighlighter.quote&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;quot;style&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;outline&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a name="gitgutter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;8.2. GitGutter&lt;/h3&gt;
@@ -929,10 +916,8 @@ git clone https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;&lt;a name="title-bar-and-window-border-color"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.2. Title Bar and window border color&lt;/h3&gt;
 &lt;p&gt;Win+R → insert in input area this text&lt;/p&gt;
-&lt;pre&gt;&lt;code class="shell"&gt;
-
-rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ OK → move thumbs. You can preview changes in title bar your window. I select orange color:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Orange Title bar" src="http://i.imgur.com/iZDK322.png"&gt;&lt;/p&gt;
@@ -996,10 +981,8 @@ rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
 &lt;h3&gt;11.1. SublimeLinter wrote own color scheme file in preferences&lt;/h3&gt;
 &lt;p&gt;If you use &lt;a href="https://github.com/SublimeLinter/SublimeLinter3" target="_blank"&gt;SublimeLinter&lt;/a&gt;, you may not like that Sublime Linter additional sets the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer" target="_blank"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → PackageResourceViewer: &lt;em&gt;Open Resource&lt;/em&gt; → &lt;em&gt;SublimeLinter&lt;/em&gt; → &lt;em&gt;lint&lt;/em&gt; → &lt;em&gt;util.py&lt;/em&gt; → in open file to comment out or remove line 215:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="python"&gt;
-
-sublime.set_timeout_async(generate_color_scheme_async, 0)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_timeout_async&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generate_color_scheme_async&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks &lt;a href="https://github.com/r-stein" target="_blank"&gt;@r-stein&lt;/a&gt; at &lt;a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh" target="_blank"&gt;solution&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a name="changing-color-of-square-inline-error"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1011,11 +994,11 @@ sublime.set_timeout_async(generate_color_scheme_async, 0)
 &lt;p&gt;&lt;img alt="Expected phantom" src="http://i.imgur.com/LB5EWfR.png"&gt;&lt;/p&gt;
 &lt;p&gt;In the files of color scheme you can not change the color of the square of minihtml phantoms. You need again edit &lt;em&gt;exec.py&lt;/em&gt; file after each update Sublime Text.&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer" target="_blank"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;PackageResourceViewer: Open Resource&lt;/em&gt; → &lt;em&gt;Default&lt;/em&gt; → &lt;em&gt;exec.py&lt;/em&gt; → between &lt;em&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/em&gt; add these lines:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="css"&gt;body#inline-error div.error a
-{
-    background-color: #28071a;
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;inline-error&lt;/span&gt; &lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;error&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mh"&gt;#28071a&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ save &lt;em&gt;exec.py&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a name="see-also"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1040,15 +1023,15 @@ sublime.set_timeout_async(generate_color_scheme_async, 0)
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html" target="_blank"&gt;&lt;img alt="Bitcoin Donate Button" src="http://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598" target="_blank"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki" target="_blank"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="shell"&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a name="litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html" target="_blank"&gt;&lt;img alt="Litecoin Donate Button" src="http://kristinita.ru/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="shell"&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
+&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a name="paypal-"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;

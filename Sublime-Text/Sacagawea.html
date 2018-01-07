@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2017-12-30 14:43:10 -->
+<!-- @Last Modified time: 2018-01-07 13:29:04 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,9 +34,6 @@
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
-    <!-- Rainbow -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/dist/rainbow.min.js" async></script>
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/rainbow/themes/css/rainbow.css">
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
     <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
@@ -57,10 +54,6 @@
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_right.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/sublime-text.css">
-    <!-- CodeHilite, https://pythonhosted.org/Markdown/extensions/code_hilite.html , http://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/python-markdown/fruity.css" />
-    <!-- Progressbar -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/python-markdown/progressbar.css" />
     <!-- Custom CSS -->
     <!-- Atom feed -->
     <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
@@ -86,7 +79,7 @@
                 </div>
                 <div class="SashaVersion">
                     Last modified —
-                    <time pubdate="2017-12-30 08:56:26+03:00">2017-12-30 08:56:26+03:00</time>
+                    <time pubdate="2018-01-07 13:37:02+03:00">2018-01-07 13:37:02+03:00</time>
                 </div>
             </header>
             <div class="SashaEpigraph">
@@ -253,15 +246,18 @@
                 <a name="Обязательно"></a>
             </p>
             <h4>5.1.1. Обязательно <a class="headerlink" href="#Обязательно" title="Permanent link">¶</a></h4>
+            <!-- See 7 item of Nested Fence Format: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/#nested-fence-format -->
+
             <ol>
                 <li>
                     <p><a href="http://www.sublimetext.com/3" target="_blank">Sublime Text 3</a>, если ещё не установлен.</p>
                 </li>
                 <li>
                     <p>Кроссплатформенный CLI-плейер <a href="http://mpg123.de/" target="_blank">mpg123</a>. Для пользователей Windows рекомендовал бы <a href="https://lifehacker.ru/2015/01/08/chocolatey/" target="_blank">установить Chocolatey</a>, если
-                        ещё не установлен, → <a href="https://chocolatey.org/packages/mpg123/1.24.0" target="_blank">наберите в терминале</a>:</p>
-                    <pre><code>choco install mpg123 -y
-</code></pre>
+                        ещё не установлен, → <a href="https://chocolatey.org/packages/mpg123/1.24.0" target="_blank">наберите в терминале</a>:
+                        <div class="SashaBlockHighlight"><pre><span></span><span class="n">choco</span> <span class="n">install</span> <span class="n">mpg123</span> <span class="o">-</span><span class="n">y</span>
+<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
+                    </p>
                     <p>Установка стороннего плейера необходима, поскольку встроенные средства для воспроизведения аудио для Python, на котором написана Sacagawea, — <a href="https://docs.python.org/3/library/ossaudiodev.html" target="_blank">ossaudiodev</a>                        и <a href="https://docs.python.org/3/library/winsound.html" target="_blank">winsound</a> — <a href="http://stackoverflow.com/a/34179010/5951529" target="_blank">не кроссплатформенные</a> → придётся всё равно что-то дополнительно
                         устанавливать.</p>
                 </li>
@@ -308,80 +304,75 @@
             <h4>5.2.2. AutoHotkey <a class="headerlink" href="#autohotkey" title="Permanent link">¶</a></h4>
             <p>Создайте и сохраните 2 файла: <em>Sacagawea-CHGK.ahk</em> и <em>Sacagawea-Blitz.ahk</em>.</p>
             <p><em>Sacagawea-CHGK.ahk</em>:</p>
-            <pre><code data-language="json">
-
-WinActivate, Mozilla Firefox ahk_class MozillaWindowClass
-Sleep, 300
-Send, {Space}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 1000
-WinActivate, Sublime Text ahk_class PX_WINDOW_CLASS
-Send, {LControl Down}
-Sleep, 300
-Send, {LShift Down}
-Sleep, 300
-Send, {p}
-Sleep, 300
-Send, {LShift Up}
-Sleep, 300
-Send, {LControl Up}
-Sleep, 300
-Send, Suricate: Sacagawea: “What? Where? When?”
-Sleep, 300
-Send, {Enter}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 300
-ExitApp
-#esc::ExitApp
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <div class="SashaBlockHighlight"><pre><span></span><span class="nb">WinActivate</span><span class="p">,</span> <span class="n">Mozilla</span> <span class="n">Firefox</span> <span class="n">ahk_class</span> <span class="n">MozillaWindowClass</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Space</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Tab</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">1000</span>
+<span class="nb">WinActivate</span><span class="p">,</span> <span class="n">Sublime</span> <span class="n">Text</span> <span class="n">ahk_class</span> <span class="n">PX_WINDOW_CLASS</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LControl</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LShift</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">p</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LShift</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LControl</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="n">Suricate</span><span class="o">:</span> <span class="n">Sacagawea</span><span class="o">:</span> <span class="err">“</span><span class="n">What</span><span class="o">?</span> <span class="n">Where</span><span class="o">?</span> <span class="n">When</span><span class="o">?</span><span class="err">”</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Enter</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Tab</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">ExitApp</span>
+<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <p><em>Sacagawea-Blitz.ahk</em>:</p>
-            <pre><code data-language="json">
-
-WinActivate, Mozilla Firefox ahk_class MozillaWindowClass
-Sleep, 300
-Send, {Space}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 1000
-WinActivate, Sublime Text ahk_class PX_WINDOW_CLASS
-Send, {LControl Down}
-Sleep, 300
-Send, {LShift Down}
-Sleep, 300
-Send, {p}
-Sleep, 300
-Send, {LShift Up}
-Sleep, 300
-Send, {LControl Up}
-Sleep, 300
-Send, Suricate: Sacagawea: Blitz/Superblitz/Brain Ring
-Sleep, 300
-Send, {Enter}
-Sleep, 300
-Send, {LAlt Down}
-Sleep, 300
-Send, {Tab}
-Sleep, 300
-Send, {LAlt Up}
-Sleep, 300
-ExitApp
-#esc::ExitApp
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+            <div class="SashaBlockHighlight"><pre><span></span><span class="nb">WinActivate</span><span class="p">,</span> <span class="n">Mozilla</span> <span class="n">Firefox</span> <span class="n">ahk_class</span> <span class="n">MozillaWindowClass</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Space</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Tab</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">1000</span>
+<span class="nb">WinActivate</span><span class="p">,</span> <span class="n">Sublime</span> <span class="n">Text</span> <span class="n">ahk_class</span> <span class="n">PX_WINDOW_CLASS</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LControl</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LShift</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">p</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LShift</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LControl</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="n">Suricate</span><span class="o">:</span> <span class="n">Sacagawea</span><span class="o">:</span> <span class="n">Blitz</span><span class="o">/</span><span class="n">Superblitz</span><span class="o">/</span><span class="n">Brain</span> <span class="n">Ring</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Enter</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Down</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">Tab</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">Send</span><span class="p">,</span> <span class="p">{</span><span class="n">LAlt</span> <span class="n">Up</span><span class="p">}</span>
+<span class="nb">Sleep</span><span class="p">,</span> <span class="mi">300</span>
+<span class="nb">ExitApp</span>
+<span class="nl">#esc::</span><span class="n">ExitApp</span>
+<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <p><a href="http://windata.ru/windows-world/utility/zapusk-skriptov-autohotkey-ot-imeni-administratora/" target="_blank">Скомпилируйте оба файла</a> — это можно сделать <a href="https://github.com/ahkscript/SublimeAutoHotkey/blob/master/Default.sublime-commands#L6-L9"
                 target="_blank">в Sublime Text 3</a>, если использовать пакет <a href="https://github.com/ahkscript/SublimeAutoHotkey" target="_blank">Sublime AutoHotkey</a>.</p>
@@ -390,20 +381,20 @@ ExitApp
             </p>
             <h4>5.2.3. nnCron <a class="headerlink" href="#nncron" title="Permanent link">¶</a></h4>
             <p><a href="http://www.nncron.ru/help/RU/working/task/starting_task.htm" target="_blank">Добавьте в кронтаб</a> следующие строки:</p>
-            <pre><code data-language="ruby">#( Sacagawea-CHGK
-WatchHotKey: &quot;^{APP}&quot;
-Action:
-StartIn: &quot;D:\AutoHotkey&quot;
-START-APP: D:\AutoHotkey\Sacagawea-CHGK.exe
-)#
+            <div class="SashaBlockHighlight"><pre><span></span><span class="c1">#( Sacagawea-CHGK</span>
+<span class="n">WatchHotKey</span><span class="p">:</span> <span class="s2">&quot;^{APP}&quot;</span>
+<span class="n">Action</span><span class="p">:</span>
+<span class="n">StartIn</span><span class="p">:</span> <span class="s2">&quot;D:\AutoHotkey&quot;</span>
+<span class="n">START</span><span class="o">-</span><span class="n">APP</span><span class="p">:</span> <span class="n">D</span><span class="p">:</span>\<span class="n">AutoHotkey</span>\<span class="n">Sacagawea</span><span class="o">-</span><span class="n">CHGK</span><span class="o">.</span><span class="n">exe</span>
+<span class="p">)</span><span class="c1">#</span>
 
-#( Sacagawea-Blitz
-WatchHotKey: &quot;^@{APP}&quot;
-Action:
-StartIn: &quot;D:\AutoHotkey&quot;
-START-APP: D:\AutoHotkey\Sacapawea-Blitz.exe
-)#
-</code><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre>
+<span class="c1">#( Sacagawea-Blitz</span>
+<span class="n">WatchHotKey</span><span class="p">:</span> <span class="s2">&quot;^@{APP}&quot;</span>
+<span class="n">Action</span><span class="p">:</span>
+<span class="n">StartIn</span><span class="p">:</span> <span class="s2">&quot;D:\AutoHotkey&quot;</span>
+<span class="n">START</span><span class="o">-</span><span class="n">APP</span><span class="p">:</span> <span class="n">D</span><span class="p">:</span>\<span class="n">AutoHotkey</span>\<span class="n">Sacapawea</span><span class="o">-</span><span class="n">Blitz</span><span class="o">.</span><span class="n">exe</span>
+<span class="p">)</span><span class="c1">#</span>
+<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <p>Где:</p>
             <ul>

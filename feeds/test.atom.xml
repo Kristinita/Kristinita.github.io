@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Тест</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/test.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2017-12-30T12:38:29+03:00</updated><entry><title>Знания в джинджеринах</title><link href="http://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2017-12-30T12:38:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Тест</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/test.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-07T13:37:03+03:00</updated><entry><title>Знания в джинджеринах</title><link href="http://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-01-07T13:37:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
 &lt;p&gt;i ♥ :fa-coffee:&lt;/p&gt;
 &lt;h2&gt;2. Таблицы&lt;/h2&gt;
 &lt;p&gt;
@@ -99,232 +99,42 @@
   &lt;li class="visualize" data-value="3" data-color="antiquewhite"&gt;3 — шустрая кнопка&lt;/li&gt;
   &lt;li class="visualize" data-value="2" data-color="coral"&gt;1 — Елдесы&lt;/li&gt;
   &lt;li class="visualize" data-value="4" data-color="papayawhip"&gt;Oreo&lt;/li&gt;
-&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Sasha Goddess</title><link href="http://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2017-07-27T07:45:13+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Sasha Goddess</title><link href="http://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-01-07T13:37:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="#sasha-first-header"&gt;Sasha first header&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#sasha-second-header"&gt;Sasha second header&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#sasha-22"&gt;Sasha 2.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#sasha-third-header"&gt;Sasha third header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#simple-test"&gt;Simple test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#code-test"&gt;Code test&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- /MarkdownTOC --&gt;
 
-&lt;p&gt;&lt;a name="sasha-first-header"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;1. Sasha first header&lt;/h2&gt;
-&lt;p&gt;Саша&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;div&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi autem, molestiae nihil modi nam, provident omnis sapiente ullam dignissimos natus officiis! Saepe ab optio temporibus, quo aliquid illum cupiditate esse.&lt;/div&gt;
-
-&lt;div&gt;Eos, ab, fugiat. Id, fugit, aspernatur! Cum, atque! Esse repellat voluptatum saepe a nulla, quibusdam. Ipsam cupiditate alias aliquid odit. Aperiam, rerum sunt? Quas rem voluptate id quis, sequi iure.&lt;/div&gt;
-
-&lt;div&gt;Distinctio similique in perspiciatis facilis, numquam veniam quis, nostrum quam nisi dolorem unde, animi, sequi debitis sapiente. Atque quibusdam porro ducimus consequatur eius placeat, provident distinctio ea autem. Blanditiis, dolor.&lt;/div&gt;
-
-&lt;div&gt;Voluptate dolores aliquam ad repudiandae ipsa minus id delectus libero ipsam perferendis provident odit fugit at voluptatibus, eius voluptatum aut reprehenderit minima molestiae alias! Deleniti vitae tempore ipsa dignissimos esse.&lt;/div&gt;
-
-&lt;div&gt;Harum fugit dicta laborum tenetur libero facere quibusdam earum dignissimos doloribus. Corporis amet, aliquid nemo libero repudiandae accusamus vel hic nisi assumenda laboriosam quaerat mollitia eos, enim facilis quae autem!&lt;/div&gt;
-
-&lt;div&gt;Ab nulla, optio assumenda temporibus! Eligendi unde explicabo incidunt, facere cumque tenetur nam recusandae sit? Harum excepturi, perspiciatis sed quam minus ipsum aliquam iste aut delectus labore aspernatur fugiat quia.&lt;/div&gt;
-
-&lt;p&gt;&lt;a name="sasha-second-header"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;2. Sasha second header&lt;/h2&gt;
-&lt;div&gt;Soluta pariatur quis deleniti, magni aliquam ipsam obcaecati, commodi doloribus nemo accusamus iure voluptas, veritatis itaque voluptatum quam veniam esse exercitationem at! Iusto at reiciendis ea sint iure eaque unde.&lt;/div&gt;
-
-&lt;div&gt;Possimus magnam magni minus quo, facere temporibus, reiciendis rerum veritatis ab? Dolorum minus aperiam mollitia commodi explicabo et consequatur dignissimos. Nostrum sed nobis quisquam ipsa veritatis dicta ad quo laborum.&lt;/div&gt;
-
-&lt;div&gt;Voluptas ipsa nesciunt atque quaerat incidunt excepturi fugiat quam deleniti optio dolor, maxime, suscipit debitis, quae sint cumque vel pariatur dolore voluptate distinctio quis provident in! Ullam officia earum soluta.&lt;/div&gt;
-
-&lt;div&gt;Reprehenderit consectetur debitis autem saepe facilis nam, error culpa, eaque omnis aperiam numquam optio quidem cumque fugiat repellendus aspernatur eveniet! Tempore architecto eum maiores qui saepe, quaerat dicta explicabo dolorum!&lt;/div&gt;
-
-&lt;div&gt;Facilis in recusandae sunt totam culpa reprehenderit beatae error voluptas nulla nihil deserunt fugiat, dicta ducimus, veritatis molestiae odio tempore at doloribus et praesentium sint voluptatibus assumenda atque? Numquam, tenetur.&lt;/div&gt;
-
-&lt;div&gt;Distinctio voluptatibus odit eum quos et tempora. Labore cumque odio sint dolor, fugit sunt saepe accusantium obcaecati minus perferendis, iste molestiae nisi ducimus eius laboriosam rem velit. Adipisci, voluptatum, quas.&lt;/div&gt;
-
-&lt;div&gt;Cum, enim. Odio blanditiis perspiciatis officia eligendi aspernatur nisi sunt earum. Quasi nostrum, voluptate ea quibusdam, quaerat adipisci odio excepturi sequi culpa unde odit ad ullam, ducimus id a ipsam.&lt;/div&gt;
-
-&lt;div&gt;Molestias enim cum fugit vel vero accusantium quod sequi consectetur, ipsum labore eaque voluptate, ab. Commodi ullam earum nesciunt nisi eos blanditiis autem repellat nostrum, fuga fugiat atque, aut temporibus.&lt;/div&gt;
-
-&lt;div&gt;Hic perferendis natus molestias, totam porro consectetur quis distinctio officia voluptatum in cumque! Voluptate qui, animi eligendi est neque adipisci, ea quas iusto dolorem itaque excepturi architecto soluta! Unde, fuga!&lt;/div&gt;
-
-&lt;div&gt;Sunt possimus repudiandae placeat ipsum soluta, fugit nobis quia perspiciatis! Suscipit veniam facilis aliquam animi vitae totam, dolor natus, blanditiis commodi, amet velit! Assumenda, est, reiciendis. Perferendis, ullam quaerat laboriosam!&lt;/div&gt;
-
-&lt;div&gt;Veritatis delectus illum repellat sed doloribus voluptas recusandae similique totam cumque, praesentium quaerat obcaecati velit fugit nesciunt iste esse! At fugiat ullam veniam, officia voluptas aperiam maiores perferendis recusandae dolore?&lt;/div&gt;
-
-&lt;div&gt;Dolorem nostrum, iure. Aliquam, minus atque quis illum in exercitationem, numquam nisi fugit pariatur hic nostrum dicta quo, doloremque blanditiis cupiditate quibusdam. Aliquid itaque dicta magnam beatae! Aspernatur, deserunt. Rerum.&lt;/div&gt;
-
-&lt;div&gt;Quod ea, assumenda facilis quae molestiae maxime ab quam tempora itaque sed expedita tempore, est, minus totam blanditiis officiis accusantium, optio placeat obcaecati atque fuga. Amet reprehenderit, at quo. Eaque.&lt;/div&gt;
-
-&lt;div&gt;Tempora quos tempore praesentium corporis repudiandae temporibus itaque aut expedita inventore odit ad deleniti amet, optio nulla dolores ullam, cumque veritatis enim! Consectetur architecto eveniet quo ut natus recusandae numquam.&lt;/div&gt;
-
-&lt;div&gt;Debitis fuga at aperiam repudiandae, eligendi nesciunt cupiditate quae fugiat in tempore ipsum, ducimus ex velit quo, libero eius provident iusto laudantium ullam cum vel reiciendis veritatis! Recusandae, eveniet, minus.&lt;/div&gt;
-
-&lt;div&gt;Eaque repudiandae dolor laborum maxime quibusdam quis porro. Rerum voluptatibus, ab, reprehenderit odio vitae sed natus impedit magni animi porro cupiditate, quis id quibusdam nam. In, culpa nisi. Cumque, aperiam?&lt;/div&gt;
-
-&lt;div&gt;Delectus facere laboriosam mollitia architecto aliquid, quas maxime saepe, maiores rem veritatis autem soluta amet qui, alias repudiandae aliquam. Natus ea ut voluptatum illo, libero. Dolorem ipsa aut recusandae quia!&lt;/div&gt;
-
-&lt;div&gt;Qui dicta minus magni natus sapiente quos quasi recusandae dolores ipsam perferendis similique praesentium iste nihil, illum pariatur tenetur sit quod enim nulla nemo magnam repudiandae harum ratione! Voluptatibus, numquam.&lt;/div&gt;
-
-&lt;div&gt;Aliquid cum sapiente alias natus eligendi, unde nam pariatur commodi ad fuga amet inventore eaque, deleniti veniam dolor. Eum assumenda dignissimos voluptatibus, dolore placeat commodi in corporis sit esse officia.&lt;/div&gt;
-
-&lt;div&gt;Asperiores provident veritatis blanditiis ab a, amet voluptates ratione, dolor sint delectus eos perferendis quibusdam explicabo et porro nihil atque deserunt praesentium, iure ea! Suscipit hic dicta, eligendi mollitia inventore!&lt;/div&gt;
-
-&lt;div&gt;Quo repellat voluptatibus placeat reiciendis, aliquam repudiandae ipsam, autem, dolorum eius omnis minima. Error voluptatem dolor nesciunt pariatur perspiciatis, iure quasi? Vero numquam adipisci dolore illum soluta veniam error fugit.&lt;/div&gt;
-
-&lt;div&gt;Ducimus quis beatae omnis eaque eos ex aspernatur temporibus saepe laudantium praesentium eligendi suscipit dolorum, nesciunt sapiente ea velit eius, consequuntur quibusdam animi. Veritatis aliquam, neque voluptates molestias eligendi repellat!&lt;/div&gt;
-
-&lt;div&gt;Tempore inventore praesentium ex quaerat enim impedit suscipit debitis modi aperiam veritatis delectus autem voluptatem maxime quasi, dolor nemo saepe, voluptatibus incidunt facilis assumenda ad perferendis eum unde laudantium! Odio.&lt;/div&gt;
-
-&lt;div&gt;Aliquam vel pariatur, ea incidunt totam! Tempore aliquid alias, consectetur veniam explicabo rerum numquam rem placeat nihil vero dicta distinctio ullam, ipsum, soluta facilis omnis consequuntur temporibus natus autem pariatur.&lt;/div&gt;
-
-&lt;div&gt;Expedita, similique officiis illo accusantium omnis nobis, ipsam quod ipsa maxime pariatur necessitatibus quia excepturi corporis. Amet mollitia sed aut voluptatibus, qui rem tempore cupiditate, accusamus beatae atque, libero aliquam.&lt;/div&gt;
-
-&lt;p&gt;&lt;a name="sasha-22"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;2.1. Sasha 2.2&lt;/h3&gt;
-&lt;div&gt;Minima velit excepturi, adipisci eligendi consequatur incidunt fugit eveniet explicabo. Quia maiores, beatae ratione architecto adipisci nam nobis dolor cumque, rerum. Adipisci labore, consequatur commodi architecto, eum quibusdam totam necessitatibus.&lt;/div&gt;
-
-&lt;div&gt;Possimus odit facilis aut quidem minima itaque enim provident. Doloribus molestiae porro cumque atque. Deleniti, officia. Vitae soluta ullam, temporibus, quaerat sunt qui! Culpa odit, aperiam, in voluptates consectetur eligendi.&lt;/div&gt;
-
-&lt;div&gt;Repellat minus tempora porro enim, quasi dolorum odit rerum eaque. Cumque unde incidunt iusto magni. Libero minima, sapiente, soluta est consequuntur earum nihil laboriosam, excepturi rerum iusto praesentium quam ipsam.&lt;/div&gt;
-
-&lt;div&gt;Dolorem eveniet dolorum voluptatem nulla, ad inventore nam laudantium eaque, vitae ratione beatae. Suscipit aliquam, perspiciatis quidem reiciendis, earum magnam iusto non adipisci distinctio sapiente fugiat laudantium sit quos! Officiis?&lt;/div&gt;
-
-&lt;div&gt;Laborum error aut recusandae in maiores sit eaque dolorum, enim iste? Voluptates obcaecati eligendi dicta, hic natus incidunt suscipit id libero minima, qui repellat. At doloribus velit, expedita omnis tenetur.&lt;/div&gt;
-
-&lt;div&gt;Nihil voluptatibus, adipisci consequuntur eveniet, repellendus blanditiis deleniti possimus omnis sequi eaque molestiae debitis praesentium assumenda, cum at dolorem! Cupiditate autem quam veritatis, obcaecati magni perferendis debitis eaque. Rem, dolore.&lt;/div&gt;
-
-&lt;div&gt;Deserunt magni laborum rerum. Rem ducimus, atque totam aspernatur vel quam numquam explicabo libero deserunt consequatur hic quasi illum recusandae earum. Consequuntur minima, culpa provident repellendus officia a, optio porro.&lt;/div&gt;
-
-&lt;div&gt;Rem nam repellat, repudiandae nemo perferendis vel similique doloribus sunt provident enim totam dignissimos neque nostrum sint ad, laborum dolores inventore ipsum mollitia beatae adipisci quod. Molestias accusamus, dolorem deleniti!&lt;/div&gt;
-
-&lt;div&gt;Ad delectus ullam sed debitis reprehenderit, natus beatae voluptate molestias soluta error deleniti, quisquam magnam quas ipsum, accusamus in nam doloribus. Dolor sint perspiciatis esse asperiores ab ullam, sit saepe!&lt;/div&gt;
-
-&lt;div&gt;Excepturi blanditiis, neque nemo explicabo. Cumque amet nobis velit, praesentium itaque neque voluptatem. Ducimus dolor incidunt voluptas alias excepturi, optio minus aliquid molestias est pariatur, eveniet, quo dolorum, eos non?&lt;/div&gt;
-
-&lt;div&gt;Ipsa beatae iusto officiis deleniti soluta magnam quod magni odio delectus amet tenetur modi et laboriosam eius inventore eveniet, vitae incidunt nobis, reiciendis sint ea! Fugiat consectetur cupiditate tenetur quod.&lt;/div&gt;
-
-&lt;div&gt;Dolores rerum est eveniet non quis veniam doloribus aliquam deleniti. Quisquam a unde, ratione, delectus consequatur quos? Voluptatibus aut nostrum, culpa, libero corrupti, assumenda odio distinctio facilis tenetur quibusdam provident.&lt;/div&gt;
-
-&lt;div&gt;Consequuntur totam iure neque, ullam culpa. Eos numquam facere quaerat. A ex veritatis repudiandae sequi. Et eum modi laborum minus voluptate cupiditate explicabo, iure aliquid harum necessitatibus qui eaque reprehenderit!&lt;/div&gt;
-
-&lt;p&gt;&lt;a name="sasha-third-header"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;3. Sasha third header&lt;/h2&gt;
-&lt;div&gt;Doloribus, enim! Quas corporis quam, ipsum consectetur maxime temporibus ipsa. Aspernatur atque, praesentium iusto totam ad ipsam amet corporis necessitatibus beatae, magnam quos eius, illo nesciunt minima ducimus officiis alias!&lt;/div&gt;
-
-&lt;div&gt;Laudantium consequatur, cupiditate, vel perferendis laborum aperiam? Distinctio aut dolorem animi repellat ex odit eum, fuga autem quis ipsam sapiente quibusdam dolore aspernatur fugiat velit optio aperiam, vero mollitia necessitatibus.&lt;/div&gt;
-
-&lt;div&gt;Esse, voluptates pariatur quo accusantium fugit sequi ipsa magnam quisquam, assumenda dolores. Odit corporis praesentium mollitia eveniet ab cupiditate, velit voluptatem illo odio, ducimus dignissimos enim distinctio numquam. Odit, quae!&lt;/div&gt;
-
-&lt;div&gt;Doloribus cumque fugit error reprehenderit dolorem! Accusantium tenetur ratione recusandae quasi dicta. Praesentium libero, voluptas repudiandae. Quasi enim itaque eligendi modi possimus, in, tempora maxime aut est sequi adipisci asperiores.&lt;/div&gt;
-
-&lt;div&gt;Ducimus, consequatur, magni. Suscipit, molestias earum quae officiis? Sit excepturi rerum perferendis vel amet explicabo ipsum saepe hic odio iusto necessitatibus quidem a aspernatur, tempore neque, ipsa aliquid? Rem, hic.&lt;/div&gt;
-
-&lt;div&gt;Dolores atque officiis id pariatur commodi sed tempore quaerat hic saepe perferendis voluptatibus placeat deserunt, unde excepturi rem, alias perspiciatis laboriosam sit earum at quasi ea accusantium odit? Aliquid, perspiciatis.&lt;/div&gt;
-
-&lt;div&gt;Nisi omnis quo in repellat. Magni excepturi nihil necessitatibus porro. Accusantium distinctio nulla pariatur, ipsa recusandae mollitia unde, quis, nobis sint esse quam voluptates facilis perspiciatis velit deleniti neque iure.&lt;/div&gt;
-
-&lt;div&gt;Beatae placeat doloribus sequi, in dignissimos? Voluptas, laudantium quia, ut in ab soluta dicta esse iure vel veniam enim optio repellat similique, delectus. Nesciunt possimus fuga ipsa praesentium exercitationem, aliquid!&lt;/div&gt;
-
-&lt;div&gt;Ad officiis blanditiis fugiat nam magnam dicta natus fuga consectetur repudiandae ipsa sapiente, nesciunt explicabo tempore quasi quidem aut iusto eum cum, deserunt neque quas fugit? Magni minus, vel eaque.&lt;/div&gt;
-
-&lt;div&gt;Iure in est, libero, non molestiae tempore optio fugit quae dolores maxime error sed ducimus facilis numquam, officiis reiciendis dicta, perferendis eos excepturi labore ipsa autem voluptatem dolorem. Ex, beatae!&lt;/div&gt;
-
-&lt;div&gt;Aut expedita ipsa sed placeat voluptatibus velit a ratione deleniti vero magni quibusdam recusandae esse voluptas nam, repellendus doloribus fugiat rerum excepturi. Maiores cupiditate, ipsum dolorum maxime illum perferendis et!&lt;/div&gt;
-
-&lt;div&gt;Sint cum asperiores nemo est quibusdam rerum fugit facere veniam facilis repellendus, repellat numquam harum exercitationem quis adipisci, modi eius ipsa optio quaerat aliquid sit consequuntur repudiandae autem? Voluptate, dignissimos!&lt;/div&gt;
-
-&lt;div&gt;Dolores quas dolorum, iste, illum tenetur asperiores accusantium veniam explicabo veritatis tempora deserunt possimus dolorem error deleniti doloremque dolor? Libero fuga vero officia perferendis sed non reprehenderit at ipsa blanditiis.&lt;/div&gt;
-
-&lt;div&gt;Ea, minima! Accusamus nesciunt fugiat dolorem deserunt deleniti laborum facere ad! A excepturi, alias, nemo recusandae sint perspiciatis odio ducimus vitae quisquam quaerat, nesciunt quod dignissimos suscipit assumenda unde facilis.&lt;/div&gt;
-
-&lt;div&gt;Earum aliquam minima, reiciendis non reprehenderit harum tenetur, quos aliquid ipsa suscipit, unde eaque maiores quasi! Facilis, eos, placeat. Quo doloremque reiciendis, impedit eos vitae magni rem necessitatibus possimus labore.&lt;/div&gt;
-
-&lt;div&gt;Iusto soluta odio eligendi ratione cumque asperiores voluptatum saepe fugiat facilis autem, accusamus nisi tempore ipsum sequi eius sapiente temporibus maxime dolorem. Repudiandae magnam odit fugit voluptas provident ea ducimus!&lt;/div&gt;
-
-&lt;div&gt;Harum consequatur ratione dolore expedita rem sapiente libero velit, amet hic molestiae, totam, iure nobis dignissimos debitis, eos quos magnam minima. Quod veniam eligendi optio, quo, ducimus doloremque magni autem.&lt;/div&gt;
-
-&lt;div&gt;Quas possimus ab ut porro omnis harum corporis maxime impedit non modi nostrum esse in, molestiae odit recusandae quod neque. Eaque magni voluptate blanditiis modi, hic porro veritatis distinctio quia!&lt;/div&gt;
-
-&lt;div&gt;Maiores quia exercitationem debitis et rerum voluptas, doloribus illo fugiat sunt cum alias porro ratione voluptatum a blanditiis itaque nihil, natus at ex inventore voluptatem provident quod. Ipsum sint, nesciunt.&lt;/div&gt;
-
-&lt;div&gt;Iusto consectetur velit dignissimos neque tempora, nam tempore possimus optio blanditiis dicta excepturi quisquam minima, quod necessitatibus molestiae quo et repudiandae eaque unde culpa voluptatum. Quam debitis similique, accusamus officia.&lt;/div&gt;
-
-&lt;div&gt;Unde aspernatur, maxime nesciunt, et facere dicta accusantium ad ipsa veritatis, impedit id aut hic dolores pariatur iusto natus at perferendis quibusdam. Nisi numquam, modi, veritatis reprehenderit sit error blanditiis.&lt;/div&gt;
-
-&lt;div&gt;Provident, aspernatur vel odio! Laborum eligendi et sed officiis, excepturi mollitia totam, ea placeat eaque nobis quisquam eius repellendus reprehenderit error autem ullam iure id, accusantium, ipsam nemo voluptatem maxime!&lt;/div&gt;
-
-&lt;div&gt;Quia quos, maxime necessitatibus beatae corporis ad id, iure ut! Enim pariatur obcaecati, id illum quod iure autem minus vel amet, incidunt, atque dolorum nemo vero fugiat aliquid, magni culpa!&lt;/div&gt;
-
-&lt;div&gt;Consequatur veritatis aliquam rerum inventore sunt eligendi doloremque amet ut perspiciatis similique magni quod id quam accusamus dolorum molestias aut deserunt, pariatur dolorem ullam dolores vero porro quis! Placeat, doloremque.&lt;/div&gt;
-
-&lt;div&gt;Cum nostrum impedit, nobis laudantium obcaecati assumenda commodi eligendi. Autem quisquam dolorum, rerum asperiores quibusdam? Eos repudiandae eveniet dicta, aperiam provident! Facilis temporibus voluptatem itaque soluta, aliquam necessitatibus quas atque.&lt;/div&gt;
-
-&lt;div&gt;Quos dolores quisquam laudantium fugit sapiente accusantium, nisi repellendus sunt tempore nam. Asperiores aspernatur at sunt, dignissimos recusandae ut, voluptatum ratione expedita dolore voluptates sed voluptatibus impedit minus consequuntur fuga!&lt;/div&gt;
-
-&lt;div&gt;Perspiciatis sint sit, quasi laboriosam saepe magni, dicta molestiae vero omnis consequatur neque fuga illo quas. Quae cupiditate alias vel quasi, voluptatibus atque, iure quidem sunt, enim eius, corporis hic.&lt;/div&gt;
-
-&lt;div&gt;Libero, ullam voluptates earum vitae nesciunt. Ea, fugiat! Nobis autem pariatur quasi totam, omnis ducimus modi illo dolorem quibusdam, vero sapiente magnam, incidunt voluptas. Exercitationem omnis harum voluptatibus dolor quibusdam.&lt;/div&gt;
-
-&lt;div&gt;Quis atque, consequatur aliquid! Ratione ullam inventore nesciunt nam unde ea eligendi debitis nisi, doloremque sed nemo illo quisquam quibusdam consectetur voluptate itaque esse earum fugiat aspernatur voluptatem dolorum reprehenderit!&lt;/div&gt;
-
-&lt;div&gt;Mollitia voluptates accusamus aperiam sed sapiente, excepturi quisquam maiores optio eius reprehenderit officia, debitis quae cum hic nulla perspiciatis adipisci nihil ex esse beatae autem cupiditate. Odio excepturi, eos dolor.&lt;/div&gt;
-
-&lt;div&gt;Odit id quas, commodi animi vero odio eaque esse molestiae pariatur fugiat debitis at fugit veritatis totam suscipit ipsam cupiditate adipisci dolorem dolore saepe? Sed aliquid, ratione excepturi neque maxime?&lt;/div&gt;
-
-&lt;div&gt;Atque, magnam, optio. Quaerat recusandae quisquam tempore praesentium, ea excepturi pariatur repellat amet distinctio est, delectus voluptatum voluptas esse eum corrupti corporis tenetur consequatur aliquid sapiente odit animi voluptates fuga!&lt;/div&gt;
-
-&lt;div&gt;Quidem, esse. Amet et aperiam voluptate illum nihil veritatis, voluptatem harum, debitis alias laudantium excepturi. Illo doloremque ratione veniam suscipit odio minus alias sunt cupiditate velit, nemo officiis, perferendis aliquid.&lt;/div&gt;
-
-&lt;div&gt;Eos quibusdam voluptas voluptatibus assumenda temporibus laborum expedita voluptate iste, necessitatibus quis culpa iure porro. Vel nihil magnam dolor possimus voluptates. Optio eaque, deserunt eos natus quis voluptas magnam. Possimus!&lt;/div&gt;
-
-&lt;div&gt;Quidem quibusdam accusamus voluptas, quasi neque deleniti aperiam dicta! Fugiat suscipit, hic sint quae tempora, nemo maxime. Dignissimos saepe enim consequatur laudantium error natus sed, aliquid fuga libero? Doloremque, nobis.&lt;/div&gt;
-
-&lt;div&gt;Voluptate eveniet repellendus, officia natus autem nemo, id laudantium aut placeat labore perspiciatis nulla. Incidunt ea veritatis nesciunt dignissimos vel dolorem voluptates delectus, aut, maxime impedit inventore blanditiis ducimus. Cumque.&lt;/div&gt;
-
-&lt;div&gt;Rem esse, autem perspiciatis quis placeat ipsam quas culpa quod soluta facere sequi magni. Enim quae ad voluptas dolore quas, nulla consectetur inventore voluptate porro. Ipsum explicabo dolorum nemo excepturi.&lt;/div&gt;
-
-&lt;div&gt;Libero cum, nemo facilis accusantium, debitis repellendus a fugit perferendis est dicta aperiam mollitia odit, dolore veritatis enim doloribus fugiat! Delectus dolore doloremque laboriosam rerum quo commodi ab est, sequi.&lt;/div&gt;
-
-&lt;div&gt;Dignissimos ab at ipsa numquam doloremque ea distinctio necessitatibus voluptatem deserunt quas quia facere itaque officia voluptatibus molestias maiores voluptate cumque tempore, molestiae quidem eius laudantium optio saepe quo est.&lt;/div&gt;
-
-&lt;div&gt;Dicta non molestiae deserunt modi! Voluptatibus laborum earum id magni mollitia inventore saepe numquam sunt deserunt, ullam nobis similique, molestiae pariatur delectus dolorum at modi quisquam hic debitis consectetur. Unde.&lt;/div&gt;
-
-&lt;div&gt;Necessitatibus fugiat atque, quae reiciendis hic numquam qui possimus ea, placeat ratione omnis quia, quis eligendi nemo provident, iusto culpa. Possimus fugit, omnis sint ipsam perspiciatis tempora nemo inventore. Quae?&lt;/div&gt;
-
-&lt;div&gt;Optio fugit, repellendus necessitatibus placeat praesentium. Dolorum totam debitis officia, tempora repellat ipsam quaerat nesciunt omnis nisi dolor accusantium, laboriosam eveniet aspernatur hic voluptate unde assumenda excepturi dignissimos iusto dolores.&lt;/div&gt;
-
-&lt;div&gt;Fugiat dicta iure, pariatur accusamus voluptatibus aliquam architecto velit error cumque mollitia natus ea suscipit, repellat dolorem deserunt neque rerum quo eaque asperiores animi veritatis commodi tempora? Eaque, amet expedita.&lt;/div&gt;
-
-&lt;div&gt;Possimus corrupti fugiat repudiandae deleniti dolorem ipsum et harum maxime sequi nemo illo id, consequuntur iure perferendis excepturi labore similique recusandae non animi ex porro eaque cum enim. Rerum, deleniti.&lt;/div&gt;
-
-&lt;div&gt;Debitis modi natus molestias nemo vero doloremque voluptas ipsum, porro aspernatur suscipit! Saepe pariatur assumenda molestias iste porro, cumque. Provident nihil sunt obcaecati est quam in, consequuntur nulla dolor adipisci!&lt;/div&gt;
-
-&lt;div&gt;Eligendi, voluptates, fugiat? Delectus neque, aut in dolor doloremque. Officiis alias facilis placeat numquam tenetur odit reiciendis maiores ipsam enim. Quibusdam non illo modi aperiam est esse ab labore eos.&lt;/div&gt;
-
-&lt;div&gt;Voluptates aspernatur eos fugit repellat pariatur perferendis eum esse, illo, quae dignissimos, modi vel. Odit id reprehenderit expedita magnam, nesciunt explicabo temporibus eveniet deleniti accusantium commodi. Incidunt accusantium omnis sapiente?&lt;/div&gt;
-
-&lt;div&gt;Deserunt odit, consequuntur? Assumenda molestias nisi illo odio veritatis culpa inventore, molestiae rerum magnam minima iusto in a, consequuntur sequi pariatur sapiente consequatur excepturi blanditiis laudantium tempora quis. Quia, qui.&lt;/div&gt;
-
-&lt;div&gt;Labore adipisci nulla facilis eum, officiis ut magnam, alias at placeat iusto amet cupiditate commodi inventore voluptatem voluptatum dolor architecto assumenda, nisi voluptates dignissimos doloremque nesciunt repudiandae suscipit! Debitis, ea!&lt;/div&gt;
-
-&lt;div&gt;Quo similique nam obcaecati repellat, quasi error. Animi recusandae nisi ea dolor modi soluta voluptas similique quasi quis excepturi obcaecati debitis distinctio asperiores, labore deserunt, ipsum ducimus libero placeat dolorem!&lt;/div&gt;
-
-&lt;div&gt;Obcaecati reiciendis dolorem nihil commodi natus ea sed, deserunt excepturi optio nostrum quaerat deleniti quae enim ducimus. Explicabo obcaecati eaque illum cumque eius, adipisci id accusantium quis. Impedit, hic saepe.&lt;/div&gt;
-
-&lt;div&gt;Ipsam, excepturi ad eum nostrum aspernatur veritatis doloremque quisquam fugit. Harum laudantium, magnam molestiae distinctio nemo atque, nesciunt blanditiis adipisci sapiente voluptas unde rem culpa asperiores ratione nulla facilis quas?&lt;/div&gt;
-
-&lt;div&gt;Voluptatem ex cum facilis, magnam saepe repellendus enim nobis omnis, architecto dignissimos, officia, eveniet autem unde esse qui eos id nam voluptates odit in eaque! Molestiae eaque, odit. Modi, eos.&lt;/div&gt;
-
-&lt;div&gt;Reprehenderit voluptatum porro, assumenda fugit modi quisquam consectetur reiciendis ad illo excepturi placeat et iusto, ratione suscipit voluptates? Quisquam veniam deserunt fugit asperiores eveniet consequuntur fugiat obcaecati omnis libero ipsam.&lt;/div&gt;
-
-&lt;div&gt;Minima hic aspernatur maxime ipsum, architecto esse corporis ducimus neque quisquam, ratione nesciunt alias perferendis eum cum, necessitatibus quos sed consequuntur impedit voluptas! Iste veritatis ex, nam error, consequatur eum.&lt;/div&gt;
-
-&lt;div&gt;Amet ab facere voluptas illum laborum impedit beatae esse reiciendis temporibus possimus iusto magni, nobis aspernatur, autem illo aliquid ea explicabo. Officiis aperiam facilis harum itaque tenetur qui nihil aspernatur!&lt;/div&gt;
-
-&lt;div class="footnote"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;
-&lt;p&gt;Ideal&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content><category term="Test"></category></entry></feed>
+&lt;p&gt;&lt;a name="simple-test"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Simple test&lt;/h2&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;Sasha&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Goddess&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a name="code-test"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Code test&lt;/h2&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="hll"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;logbook&lt;/span&gt;
+&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
+
+&lt;span class="hll"&gt;&lt;span class="n"&gt;log&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Logger&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Sasha Logbook&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;clize_log_level&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;logbook_level&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;ll&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;NOTICE&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Change log levels via command line.&lt;/span&gt;
+
+&lt;span class="sd"&gt;    User select, which logging messages to see. See about 6 log levels here:&lt;/span&gt;
+&lt;span class="sd"&gt;    https://logbook.readthedocs.io/en/stable/quickstart.html&lt;/span&gt;
+
+&lt;span class="sd"&gt;    :param logbook_level: user select logging level&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;logbook_level&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DEBUG&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                              &lt;span class="n"&gt;level&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DEBUG&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push_application&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="hll"&gt;    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;logbook_level&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ERROR&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/span&gt;        &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                              &lt;span class="n"&gt;level&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ERROR&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push_application&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                              &lt;span class="n"&gt;level&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;NOTICE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push_application&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Test"></category></entry></feed>

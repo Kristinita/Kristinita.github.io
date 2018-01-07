@@ -181,3 +181,158 @@ pre >code {
 .progress-0plus .progress-bar {
     background-color: #9370db;
 }
+
+.SashaInlineHighlight,
+.SashaBlockHighlight {
+    background-color: Sasha-Pygments-Background;
+    color: Sasha-Pygments-Foreground;
+}
+
+.SashaInlineHighlight .c,
+.SashaBlockHighlight .c {
+    background-color: Sasha-Pygments-Comment-Background;
+    font-style: Sasha-Pygments-Comment-Font-Style;
+    color: Sasha-Pygments-Comment;
+}
+
+.SashaInlineHighlight .err,
+.SashaBlockHighlight .err {
+    color: Sasha-Pygments-Error;
+}
+
+.SashaInlineHighlight .hll,
+.SashaBlockHighlight .hll {
+    background-color: Sasha-Pygments-Highlight-Line;
+}
+
+.SashaInlineHighlight .g,
+.SashaBlockHighlight .g {
+    color: Sasha-Pygments-Generic;
+}
+
+.SashaInlineHighlight .k,
+.SashaBlockHighlight .k {
+    color: Sasha-Pygments-Keyword;
+    font-weight: Sasha-Pygments-Keyword-Font-Weight;
+}
+
+.SashaInlineHighlight .n,
+.SashaBlockHighlight .n {
+    color: Sasha-Pygments-Name;
+}
+
+.SashaInlineHighlight .o,
+.SashaBlockHighlight .o {
+    color: Sasha-Pygments-Operator;
+}
+
+.SashaInlineHighlight .x,
+.SashaBlockHighlight .x {
+    color: Sasha-Pygments-Other;
+}
+
+.SashaInlineHighlight .p,
+.SashaBlockHighlight .p {
+    color: Sasha-Pygments-Punctuation;
+}
+
+.SashaInlineHighlight .c1,
+.SashaBlockHighlight .c1 {
+    color: Sasha-Pygments-Comment-Single;
+    background-color: Sasha-Pygments-Comment-Single-Background;
+    font-style: Sasha-Pygments-Comment-Single-Font-Style;
+}
+
+.SashaInlineHighlight .gt,
+.SashaBlockHighlight .gt {
+    color: Sasha-Pygments-Generic-Traceback;
+}
+
+.SashaInlineHighlight .kn,
+.SashaBlockHighlight .kn {
+    color: Sasha-Pygments-Keyword-Namespace;
+    font-weight: Sasha-Pygments-Keyword-Namespace-Font-Weight;
+}
+
+.SashaInlineHighlight .kp,
+.SashaBlockHighlight .kp {
+    color: Sasha-Pygments-Keyword-Pseudo;
+}
+
+.SashaInlineHighlight .m,
+.SashaBlockHighlight .m {
+    color: Sasha-Pygments-Literal-Number;
+    font-weight: Sasha-Pygments-Literal-Number-Font-Weight;
+}
+
+.SashaInlineHighlight .s,
+.SashaBlockHighlight .s {
+    color: Sasha-Pygments-Literal-String;
+}
+
+.SashaInlineHighlight .no,
+.SashaBlockHighlight .no {
+    color: Sasha-Pygments-Name-Constant;
+}
+
+.SashaInlineHighlight .nf,
+.SashaBlockHighlight .nf {
+    color: Sasha-Pygments-Name-Function;
+    font-weight: Sasha-Pygments-Name-Function-Font-Weight;
+}
+
+.SashaInlineHighlight .nn,
+.SashaBlockHighlight .nn {
+    color: Sasha-Pygments-Name-Namespace;
+}
+
+.SashaInlineHighlight .py,
+.SashaBlockHighlight .py {
+    color: Sasha-Pygments-Name-Property;
+}
+
+.SashaInlineHighlight .w,
+.SashaBlockHighlight .w {
+    color: Sasha-Pygments-Text-Whitespace;
+}
+
+.SashaInlineHighlight .sa,
+.SashaBlockHighlight .sa {
+    color: Sasha-Pygments-Literal-String-Affix;
+}
+
+.SashaInlineHighlight .sd,
+.SashaBlockHighlight .sd {
+    color: Sasha-Pygments-Literal-String-Doc;
+}
+
+.SashaInlineHighlight .s2,
+.SashaBlockHighlight .s2 {
+    color: Sasha-Pygments-Literal-String-Double;
+}
+
+.SashaInlineHighlight .se,
+.SashaBlockHighlight .se {
+    color: Sasha-Pygments-Literal-String-Escape;
+}
+
+.SashaInlineHighlight .sh,
+.SashaBlockHighlight .sh {
+    color: Sasha-Pygments-Literal-String-Heredoc;
+}
+
+.SashaInlineHighlight .si,
+.SashaBlockHighlight .si {
+    color: Sasha-Pygments-Literal-String-Interpol;
+}
+
+.SashaInlineHighlight .s1,
+.SashaBlockHighlight .s1 {
+    color: Sasha-Pygments-Literal-String-Single;
+}
+
+.SashaInlineHighlight .il,
+.SashaBlockHighlight .il {
+    color: Sasha-Pygments-Literal-Number-Integer-Long;
+    font-weight: Sasha-Pygments-Literal-Number-Integer-Long-Font-Weight;
+}
