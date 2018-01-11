@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/programs.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-10T21:54:12+03:00</updated><entry><title>KristinitaLuckyLink</title><link href="http://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-01-10T21:54:12+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/programs.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-11T11:48:28+03:00</updated><entry><title>KristinitaLuckyLink</title><link href="http://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-01-11T11:48:28+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#description"&gt;Description&lt;/a&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href="#reason"&gt;Reason&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#demonstration"&gt;Demonstration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#how-it-works"&gt;How it works&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#examples"&gt;Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#saving-time"&gt;Saving time&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#supported-search-engines"&gt;Supported search engines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#supported-markups"&gt;Supported markups&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#features"&gt;Features&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#limits"&gt;Limits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#limitations"&gt;Limitations&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#installation"&gt;Installation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#activation"&gt;Activation&lt;/a&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href="#global-python-packages"&gt;Global Python packages&lt;/a&gt;&lt;/li&gt;
@@ -67,8 +68,8 @@
 &lt;h3&gt;1.2. Demonstration&lt;/h3&gt;
 &lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://streamable.com/s/bj22k/ykgkws"&gt;&lt;/iframe&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a name="how-it-works"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;1.3. How it works&lt;/h3&gt;
+&lt;p&gt;&lt;a name="examples"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.3. Examples&lt;/h3&gt;
 &lt;p&gt;Conversion examples:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;kristinitaluckylife&lt;/code&gt; → &lt;code class="SashaInlineHighlight"&gt;[kristinitaluckylife](https://www.instagram.com/kristinitaluckylife/)&lt;/code&gt;,&lt;/li&gt;
@@ -81,9 +82,9 @@
 &lt;li&gt;Your selected text wrap to Markdown link.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="KristinitaLuckyLink example" src="https://i.imgur.com/1KsfoM6.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a name="examples"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;1.4. Examples&lt;/h3&gt;
-&lt;p&gt;When I write this article, I get these links, use KristinitaLuckyLink:&lt;/p&gt;
+&lt;p&gt;&lt;a name="saving-time"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.4. Saving time&lt;/h3&gt;
+&lt;p&gt;When I wrote this article, I get these links, use KristinitaLuckyLink:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.instagram.com/kristinitaluckylife/" target="_blank"&gt;kristinitaluckylife&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pypi.python.org/pypi/google" target="_blank"&gt;PyPI Google&lt;/a&gt;,&lt;/li&gt;
@@ -94,19 +95,25 @@
 &lt;li&gt;&lt;a href="https://github.com/keith-hall" target="_blank"&gt;keith-hall&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/facelessuser" target="_blank"&gt;facelessuser&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;I save few minutes of my time.&lt;/p&gt;
 &lt;p&gt;&lt;a name="supported-search-engines"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.5. Supported search engines&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;DuckDuckGo,&lt;/li&gt;
 &lt;li&gt;Google.com.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;a name="supported-markups"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.6. Supported markups&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;a name="features"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;1.6. Features&lt;/h3&gt;
+&lt;h3&gt;1.7. Features&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Must work with selection text, contains any UTF-8 symbols.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a name="limits"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;2. Limits&lt;/h2&gt;
+&lt;p&gt;&lt;a name="limitations"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Limitations&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Use KristinitaLuckyLink you can get only top link of search engines. I'm sorry, if in top link not that you want.&lt;/li&gt;
 &lt;li&gt;
@@ -116,7 +123,7 @@
 &lt;li&gt;
 &lt;p&gt;If you don't want by some reasons install any software from &lt;a href="#installation"&gt;Installation&lt;/a&gt; section, please, don't install KristinitaLuckyLink.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;Copy from &lt;a href="https://github.com/aviaryan/python-gsearch#warning" target="_blank"&gt;here&lt;/a&gt;: “Overusing KristinitaLuckyLink might lead to your IP being blocked by Google Search or DuckDuckGo servers. Searches through browser might still work but KristinitaLuckyLink will stop working. I recommend keeping a 5 seconds gap after each usage of this library. In most cases, much lower gaps or even continuous use of the library will still work but still this is something to be kept in mind. If you see a 'rate limit' or a 503 error, it's best to stop using the library and try back after some time (~1 minute).”&lt;/li&gt;
+&lt;li&gt;Copy from &lt;a href="https://github.com/aviaryan/python-gsearch#warning" target="_blank"&gt;here&lt;/a&gt;: “Overusing KristinitaLuckyLink might lead to your IP being blocked by Google Search servers. Searches through browser might still work but KristinitaLuckyLink will stop working. I recommend keeping a 5 seconds gap after each usage of this library. In most cases, much lower gaps or even continuous use of the library will still work but still this is something to be kept in mind. If you see a 'rate limit' or a 503 error, it's best to stop using the library and try back after some time (~1 minute).”&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;At the time supported:&lt;/p&gt;
 &lt;ol&gt;
@@ -144,7 +151,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Where &lt;code class="SashaInlineHighlight"&gt;C:\\Python36\\Lib\\site-packages&lt;/code&gt; — path to Python &lt;em&gt;site-packages&lt;/em&gt; folder. Windows users, please, note to double slashes.&lt;/p&gt;
-&lt;p&gt;That know your path, see &lt;a href="https://docs.python.org/3/install/index.html#how-installation-works" target="_blank"&gt;How installation works&lt;/a&gt; item of Python documentation.&lt;/p&gt;
+&lt;p&gt;That know your path, see “&lt;a href="https://docs.python.org/3/install/index.html#how-installation-works" target="_blank"&gt;How installation works&lt;/a&gt;” item of Python documentation.&lt;/p&gt;
 &lt;p&gt;
 &lt;div class="justtable"&gt;
     &lt;table&gt;
@@ -176,7 +183,7 @@
 &lt;p&gt;KristinitaLuckyLink must successful works.&lt;/p&gt;
 &lt;p&gt;&lt;a name="usage"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Usage&lt;/h2&gt;
-&lt;p&gt;Select text, for which you want to get link...&lt;/p&gt;
+&lt;p&gt;Select text, for which you want to get link and...&lt;/p&gt;
 &lt;p&gt;&lt;a name="shortcuts"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.1. Shortcuts&lt;/h3&gt;
 &lt;p&gt;... press hotkey. Wait a moment to get the result.&lt;/p&gt;
@@ -260,7 +267,7 @@
 &lt;p&gt;&lt;a name="kristinitaluckylink"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.1. KristinitaLuckyLink&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;PyPI google module have many bugs. I am planning fix or replace it.&lt;/li&gt;
+&lt;li&gt;PyPI google module have bugs. I am planning fix or replace it.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a name="external"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.2. External&lt;/h3&gt;
@@ -269,7 +276,7 @@
 &lt;p&gt;About all detected bugs please report to &lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/issues" target="_blank"&gt;issues&lt;/a&gt; page. Please, add information about your operation system, Sublime Text 3 and KristinitaLuckyLink versions.&lt;/p&gt;
 &lt;p&gt;&lt;a name="incorrect-links"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;10.1. Incorrect links&lt;/h3&gt;
-&lt;p&gt;If you get not top link of Google or DuckDuckGo SERP, please, make actions below.&lt;/p&gt;
+&lt;p&gt;If use KristinitaLuckyLink you get not top link of Google or DuckDuckGo SERP, please, make actions below.&lt;/p&gt;
 &lt;p&gt;&lt;a name="sublimerepl"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;10.1.1. SublimeREPL&lt;/h4&gt;
 &lt;ol&gt;
@@ -284,6 +291,7 @@
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/crazedpsyc/python-duckduckgo" target="_blank"&gt;DuckDuckGo&lt;/a&gt; module problem.&lt;/p&gt;
 &lt;p&gt;&lt;a name="google"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;10.1.3. Google&lt;/h4&gt;

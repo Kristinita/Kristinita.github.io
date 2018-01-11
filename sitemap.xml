@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/</loc>
-<lastmod>2018-01-10T21:59:07-00:00</lastmod>
+<lastmod>2018-01-11T11:50:46-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/archives.html</loc>
-<lastmod>2018-01-10T21:59:07-00:00</lastmod>
+<lastmod>2018-01-11T11:50:46-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/categories.html</loc>
-<lastmod>2018-01-10T21:59:07-00:00</lastmod>
+<lastmod>2018-01-11T11:50:46-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/Programs/KristinitaLuckyLink.html</loc>
-<lastmod>2018-01-10T21:54:12+03:00</lastmod>
+<lastmod>2018-01-11T11:48:28+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -82,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Testus.html</loc>
-<lastmod>2018-01-09T19:14:39+03:00</lastmod>
+<lastmod>2018-01-11T09:43:27+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -222,7 +222,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/category/programs.html</loc>
-<lastmod>2018-01-10T21:54:12+02:30</lastmod>
+<lastmod>2018-01-11T11:48:28+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -264,7 +264,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/category/test.html</loc>
-<lastmod>2018-01-09T19:14:39+02:30</lastmod>
+<lastmod>2018-01-11T09:43:27+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -278,14 +278,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/programs.html</loc>
-<lastmod>2018-01-10T21:54:12+02:30</lastmod>
+<lastmod>2018-01-11T11:48:28+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/tag/sublime-text.html</loc>
-<lastmod>2018-01-10T21:54:12+02:30</lastmod>
+<lastmod>2018-01-11T11:48:28+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -320,7 +320,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/test.html</loc>
-<lastmod>2018-01-09T19:14:39+02:30</lastmod>
+<lastmod>2018-01-11T09:43:27+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -418,7 +418,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2018-01-10T21:54:12+02:30</lastmod>
+<lastmod>2018-01-11T11:48:28+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

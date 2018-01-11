@@ -200,11 +200,6 @@ pre >code {
     color: Sasha-Pygments-Error;
 }
 
-.SashaInlineHighlight .hll,
-.SashaBlockHighlight .hll {
-    background-color: Sasha-Pygments-Highlight-Line;
-}
-
 .SashaInlineHighlight .g,
 .SashaBlockHighlight .g {
     color: Sasha-Pygments-Generic;
@@ -248,12 +243,6 @@ pre >code {
     color: Sasha-Pygments-Generic-Traceback;
 }
 
-.SashaInlineHighlight .kn,
-.SashaBlockHighlight .kn {
-    color: Sasha-Pygments-Keyword-Namespace;
-    font-weight: Sasha-Pygments-Keyword-Namespace-Font-Weight;
-}
-
 .SashaInlineHighlight .kp,
 .SashaBlockHighlight .kp {
     color: Sasha-Pygments-Keyword-Pseudo;
@@ -270,25 +259,24 @@ pre >code {
     color: Sasha-Pygments-Literal-String;
 }
 
+.SashaInlineHighlight .nb,
+.SashaBlockHighlight .nb {
+    color: Sasha-Pygments-Name-Builtin;
+}
+
 .SashaInlineHighlight .no,
 .SashaBlockHighlight .no {
     color: Sasha-Pygments-Name-Constant;
 }
 
-.SashaInlineHighlight .nf,
-.SashaBlockHighlight .nf {
-    color: Sasha-Pygments-Name-Function;
-    font-weight: Sasha-Pygments-Name-Function-Font-Weight;
-}
-
-.SashaInlineHighlight .nn,
-.SashaBlockHighlight .nn {
-    color: Sasha-Pygments-Name-Namespace;
-}
-
 .SashaInlineHighlight .py,
 .SashaBlockHighlight .py {
     color: Sasha-Pygments-Name-Property;
+}
+
+.SashaInlineHighlight .ow,
+.SashaBlockHighlight .ow {
+    color: Sasha-Pygments-Operator-Word;
 }
 
 .SashaInlineHighlight .w,

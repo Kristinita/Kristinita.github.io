@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Тест</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/test.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-09T19:14:39+03:00</updated><entry><title>Знания в джинджеринах</title><link href="http://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-01-07T13:37:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Тест</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/test.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-11T09:43:27+03:00</updated><entry><title>Знания в джинджеринах</title><link href="http://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-01-07T13:37:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
 &lt;p&gt;i ♥ :fa-coffee:&lt;/p&gt;
 &lt;h2&gt;2. Таблицы&lt;/h2&gt;
 &lt;p&gt;
@@ -99,50 +99,24 @@
   &lt;li class="visualize" data-value="3" data-color="antiquewhite"&gt;3 — шустрая кнопка&lt;/li&gt;
   &lt;li class="visualize" data-value="2" data-color="coral"&gt;1 — Елдесы&lt;/li&gt;
   &lt;li class="visualize" data-value="4" data-color="papayawhip"&gt;Oreo&lt;/li&gt;
-&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Sasha Goddess</title><link href="http://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-01-09T19:14:39+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Instagram&lt;/h2&gt;
-&lt;p&gt;{% gram BZlYdJbjqh1 %}&lt;/p&gt;
-&lt;h2&gt;2. Head&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;First&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Second:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;choco&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;mpg123&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Sasha Hero!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Third&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a name="simple-test"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;3. Simple test&lt;/h2&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;Sasha&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Goddess&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="hll"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;logbook&lt;/span&gt;
-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
-
-&lt;span class="hll"&gt;&lt;span class="n"&gt;log&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Logger&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Sasha Logbook&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/span&gt;
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;clize_log_level&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;logbook_level&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;ll&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;NOTICE&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;Change log levels via command line.&lt;/span&gt;
-
-&lt;span class="sd"&gt;    User select, which logging messages to see. See about 6 log levels here:&lt;/span&gt;
-&lt;span class="sd"&gt;    https://logbook.readthedocs.io/en/stable/quickstart.html&lt;/span&gt;
-
-&lt;span class="sd"&gt;    :param logbook_level: user select logging level&lt;/span&gt;
-&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;logbook_level&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;DEBUG&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-                              &lt;span class="n"&gt;level&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DEBUG&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push_application&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="hll"&gt;    &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;logbook_level&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ERROR&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-&lt;/span&gt;        &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-                              &lt;span class="n"&gt;level&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ERROR&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push_application&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;StreamHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-                              &lt;span class="n"&gt;level&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;logbook&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;NOTICE&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;push_application&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Sasha Goddess</title><link href="http://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-01-11T09:43:27+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Table&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class="justtable"&gt;
+    &lt;table&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Cat&lt;/th&gt;
+            &lt;th&gt;Dog&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Sasha&lt;/td&gt;
+                &lt;td&gt;God&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;h2&gt;2. long code&lt;/h2&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Lorem&lt;/span&gt; &lt;span class="n"&gt;ipsum&lt;/span&gt; &lt;span class="n"&gt;dolor&lt;/span&gt; &lt;span class="n"&gt;sit&lt;/span&gt; &lt;span class="n"&gt;amet&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;consectetur&lt;/span&gt; &lt;span class="n"&gt;adipisicing&lt;/span&gt; &lt;span class="n"&gt;elit&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;sed&lt;/span&gt; &lt;span class="n"&gt;do&lt;/span&gt; &lt;span class="n"&gt;eiusmod&lt;/span&gt; &lt;span class="n"&gt;tempor&lt;/span&gt; &lt;span class="n"&gt;incididunt&lt;/span&gt; &lt;span class="n"&gt;ut&lt;/span&gt; &lt;span class="n"&gt;laboresas&lt;/span&gt; &lt;span class="n"&gt;et&lt;/span&gt; &lt;span class="n"&gt;dolore&lt;/span&gt; &lt;span class="n"&gt;magna&lt;/span&gt; &lt;span class="n"&gt;aliqua&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Ut&lt;/span&gt; &lt;span class="n"&gt;enim&lt;/span&gt; &lt;span class="n"&gt;ad&lt;/span&gt; &lt;span class="n"&gt;minim&lt;/span&gt; &lt;span class="n"&gt;veniam&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;quis&lt;/span&gt; &lt;span class="n"&gt;nostrud&lt;/span&gt; &lt;span class="n"&gt;exercitation&lt;/span&gt; &lt;span class="n"&gt;ullamco&lt;/span&gt; &lt;span class="n"&gt;laboris&lt;/span&gt; &lt;span class="n"&gt;nisi&lt;/span&gt; &lt;span class="n"&gt;ut&lt;/span&gt; &lt;span class="n"&gt;aliquip&lt;/span&gt; &lt;span class="n"&gt;ex&lt;/span&gt; &lt;span class="n"&gt;ea&lt;/span&gt; &lt;span class="n"&gt;commodo&lt;/span&gt; &lt;span class="n"&gt;consequat&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Duis&lt;/span&gt; &lt;span class="n"&gt;aute&lt;/span&gt; &lt;span class="n"&gt;irure&lt;/span&gt; &lt;span class="n"&gt;dolor&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;reprehenderit&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;voluptate&lt;/span&gt; &lt;span class="n"&gt;velit&lt;/span&gt; &lt;span class="n"&gt;esse&lt;/span&gt; &lt;span class="n"&gt;cillum&lt;/span&gt; &lt;span class="n"&gt;dolore&lt;/span&gt; &lt;span class="n"&gt;eu&lt;/span&gt; &lt;span class="n"&gt;fugiat&lt;/span&gt; &lt;span class="n"&gt;nulla&lt;/span&gt; &lt;span class="n"&gt;pariatur&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Excepteur&lt;/span&gt; &lt;span class="n"&gt;sint&lt;/span&gt; &lt;span class="n"&gt;occaecat&lt;/span&gt; &lt;span class="n"&gt;cupidatat&lt;/span&gt; &lt;span class="n"&gt;non&lt;/span&gt; &lt;span class="n"&gt;proident&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;sunt&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;culpa&lt;/span&gt; &lt;span class="n"&gt;qui&lt;/span&gt; &lt;span class="n"&gt;officia&lt;/span&gt; &lt;span class="n"&gt;deserunt&lt;/span&gt; &lt;span class="n"&gt;mollit&lt;/span&gt; &lt;span class="n"&gt;anim&lt;/span&gt; &lt;span class="nb"&gt;id&lt;/span&gt; &lt;span class="n"&gt;est&lt;/span&gt; &lt;span class="n"&gt;laborum&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</content><category term="Test"></category></entry></feed>
