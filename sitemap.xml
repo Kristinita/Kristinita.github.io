@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/</loc>
-<lastmod>2018-01-11T11:50:46-00:00</lastmod>
+<lastmod>2018-01-14T19:29:03-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/archives.html</loc>
-<lastmod>2018-01-11T11:50:46-00:00</lastmod>
+<lastmod>2018-01-14T19:29:03-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/categories.html</loc>
-<lastmod>2018-01-11T11:50:46-00:00</lastmod>
+<lastmod>2018-01-14T19:29:03-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -33,7 +33,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/Gingerinas/Поиск-книг-для-джинджерин.html</loc>
-<lastmod>2018-01-07T13:37:04+03:00</lastmod>
+<lastmod>2018-01-14T19:28:51+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -271,7 +271,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/category/trenirovki-v-dzhindzherinakh.html</loc>
-<lastmod>2018-01-07T13:37:04+02:30</lastmod>
+<lastmod>2018-01-14T19:28:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -292,7 +292,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/help.html</loc>
-<lastmod>2018-01-07T13:37:04+02:30</lastmod>
+<lastmod>2018-01-14T19:28:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -418,7 +418,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2018-01-11T11:48:28+02:30</lastmod>
+<lastmod>2018-01-14T19:28:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
