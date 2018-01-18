@@ -79,7 +79,7 @@
                 </div>
                 <div class="SashaVersion">
                     Last modified —
-                    <time pubdate="2018-01-11 11:48:28+03:00">2018-01-11 11:48:28+03:00</time>
+                    <time pubdate="2018-01-18 09:58:35+03:00">2018-01-18 09:58:35+03:00</time>
                 </div>
             </header>
             <p>
@@ -100,10 +100,20 @@
                     </ol>
                 </li>
                 <li><a href="#limitations">Limitations</a></li>
-                <li><a href="#installation">Installation</a></li>
+                <li><a href="#installation">Installation</a>
+                    <ol>
+                        <li><a href="#depenedencies">Depenedencies</a></li>
+                        <li><a href="#kristinitaluckylink">KristinitaLuckyLink</a>
+                            <ol>
+                                <li><a href="#stable-version">Stable version</a></li>
+                                <li><a href="#development-version">Development version</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
                 <li><a href="#activation">Activation</a>
                     <ol>
-                        <li><a href="#global-python-packages">Global Python packages</a></li>
+                        <li><a href="#environment-variable">Environment variable</a></li>
                         <li><a href="#commands-and-hotkeys">Commands and hotkeys</a></li>
                         <li><a href="#restart">Restart</a></li>
                     </ol>
@@ -115,11 +125,16 @@
                     </ol>
                 </li>
                 <li><a href="#documentation">Documentation</a></li>
+                <li><a href="#tricks">Tricks</a>
+                    <ol>
+                        <li><a href="#clarify">Clarify</a></li>
+                    </ol>
+                </li>
                 <li><a href="#testing-environment">Testing environment</a></li>
                 <li><a href="#todo">TODO</a></li>
                 <li><a href="#known-bugs-and-another-problems">Known bugs and another problems</a>
                     <ol>
-                        <li><a href="#kristinitaluckylink">KristinitaLuckyLink</a></li>
+                        <li><a href="#kristinitaluckylink-1">KristinitaLuckyLink</a></li>
                         <li><a href="#external">External</a></li>
                     </ol>
                 </li>
@@ -192,7 +207,7 @@
             <p>When I wrote this article, I get these links, use KristinitaLuckyLink:</p>
             <ol>
                 <li><a href="https://www.instagram.com/kristinitaluckylife/" target="_blank">kristinitaluckylife</a>,</li>
-                <li><a href="https://pypi.python.org/pypi/google" target="_blank">PyPI Google</a>,</li>
+                <li><a href="https://github.com/essanpupil/pygoogling" target="_blank">pygoogling</a>,</li>
                 <li><a href="https://github.com/nsubiron/SublimeSuricate" target="_blank">Sublime Suricate</a>,</li>
                 <li><a href="https://github.com/wuub/SublimeREPL" target="_blank">SublimeREPL</a>,</li>
                 <li><a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">PEP8</a>,</li>
@@ -234,7 +249,7 @@
                     <p>But if in top of SERP one link, but KristinitaLuckyLink out another link, please make <a href="#incorrect-links">these actions</a>.</p>
                 </li>
                 <li>
-                    <p>If you don't want by some reasons install any software from <a href="#installation">Installation</a> section, please, don't install KristinitaLuckyLink.</p>
+                    <p>If you don't want by some reasons make actions from <a href="#installation">installation</a> and <a href="#activation">activation</a> section, please, don't install KristinitaLuckyLink.</p>
                 </li>
                 <li>Copy from <a href="https://github.com/aviaryan/python-gsearch#warning" target="_blank">here</a>: “Overusing KristinitaLuckyLink might lead to your IP being blocked by Google Search servers. Searches through browser might still work but
                     KristinitaLuckyLink will stop working. I recommend keeping a 5 seconds gap after each usage of this library. In most cases, much lower gaps or even continuous use of the library will still work but still this is something to be kept
@@ -252,28 +267,42 @@
                 <a name="installation"></a>
             </p>
             <h2>3. Installation <a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
+            <p>
+                <a name="depenedencies"></a>
+            </p>
+            <h3>3.1. Depenedencies <a class="headerlink" href="#depenedencies" title="Permanent link">¶</a></h3>
             <ol>
                 <li>You need to install Python 3 with pip to your computer, if no.</li>
                 <li><code class="SashaInlineHighlight">pip install git+https://github.com/Kristinita/python-duckduckgo</code> — install <a href="https://github.com/crazedpsyc/python-duckduckgo" target="_blank">DuckDuckGo module</a>, that I <a href="https://github.com/Kristinita/python-duckduckgo"
                     target="_blank">ported for Python 3</a>.</li>
-                <li><code class="SashaInlineHighlight">pip install google</code> — install <a href="https://pypi.python.org/pypi/google" target="_blank">PyPI Google</a> module.</li>
+                <li><code class="SashaInlineHighlight">pip install pygoogling</code> — install <a href="https://github.com/essanpupil/pygoogling" target="_blank">pygoogling</a> module.</li>
                 <li>Install <a href="https://github.com/nsubiron/SublimeSuricate" target="_blank">Sublime Suricate</a> package <a href="https://stackoverflow.com/a/19598084/5951529" target="_blank">via Package Control</a>.</li>
-                <li>Install KristinitaLuckyLink: <kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <em>Package Control: Add Repository</em> → paste in opened input field <code class="SashaInlineHighlight">https://github.com/Kristinita/KristinitaLuckyLink/tree/SashaDevelop</code>                    → <kbd>Enter</kbd> → <em>Package Control: Install Package</em> → print <em>KristinitaLuckyLink</em> → <kbd>Enter</kbd>.</li>
             </ol>
+            <p>
+                <a name="kristinitaluckylink"></a>
+            </p>
+            <h3>3.2. KristinitaLuckyLink <a class="headerlink" href="#kristinitaluckylink" title="Permanent link">¶</a></h3>
+            <p>
+                <a name="stable-version"></a>
+            </p>
+            <h4>3.2.1. Stable version <a class="headerlink" href="#stable-version" title="Permanent link">¶</a></h4>
+            <p><kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <em>Package Control: Add Repository</em> → paste in opened input field <code class="SashaInlineHighlight">https://github.com/Kristinita/KristinitaLuckyLink</code> → <kbd>Enter</kbd> → <em>Package Control: Install Package</em>                → print <em>KristinitaLuckyLink</em> → <kbd>Enter</kbd>.</p>
+            <p>
+                <a name="development-version"></a>
+            </p>
+            <h4>3.2.2. Development version <a class="headerlink" href="#development-version" title="Permanent link">¶</a></h4>
+            <p>As <a href="#stable-version">stable version</a>. Only replace <code class="SashaInlineHighlight">https://github.com/Kristinita/KristinitaLuckyLink</code> to <code class="SashaInlineHighlight">https://github.com/Kristinita/KristinitaLuckyLink/tree/SashaDevelop</code>                in instruction above.</p>
             <p>
                 <a name="activation"></a>
             </p>
             <h2>4. Activation <a class="headerlink" href="#activation" title="Permanent link">¶</a></h2>
             <p>
-                <a name="global-python-packages"></a>
+                <a name="environment-variable"></a>
             </p>
-            <h3>4.1. Global Python packages <a class="headerlink" href="#global-python-packages" title="Permanent link">¶</a></h3>
-            <p><a href="https://stackoverflow.com/a/15644431/5951529" target="_blank">Open Sublime Text console</a> → paste in opened input field this code:</p>
-            <div class="SashaBlockHighlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span><span class="p">;</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;C:</span><span class="se">\\</span><span class="s2">Python36</span><span class="se">\\</span><span class="s2">Lib</span><span class="se">\\</span><span class="s2">site-packages&quot;</span><span class="p">)</span>
-<button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
-
-            <p>Where <code class="SashaInlineHighlight">C:\\Python36\\Lib\\site-packages</code> — path to Python <em>site-packages</em> folder. Windows users, please, note to double slashes.</p>
-            <p>That know your path, see “<a href="https://docs.python.org/3/install/index.html#how-installation-works" target="_blank">How installation works</a>” item of Python documentation.</p>
+            <h3>4.1. Environment variable <a class="headerlink" href="#environment-variable" title="Permanent link">¶</a></h3>
+            <p>In your operating system add environment variable <code class="SashaInlineHighlight">PYTHONPACKAGES</code> with value — your Python <code class="SashaInlineHighlight">site-packages</code> folder, if already no. To find out your path, see “
+                <a
+                href="https://docs.python.org/3/install/index.html#how-installation-works" target="_blank">How installation works</a>” item of Python documentation.</p>
             <p>
                 <div class="justtable">
                     <table>
@@ -296,7 +325,8 @@
                     </table>
                 </div>
             </p>
-            <p>If you ever add path to your <em>site-packages</em> folder, you can not re-add it.</p>
+            <p>For example, <code class="SashaInlineHighlight">C:\\Python36\\Lib\\site-packages</code> — path on my Windows.</p>
+            <p>See <a href="https://www.schrodinger.com/kb/1842" target="_blank">examples</a>, how you can add environment variable in your operating system.</p>
             <p>
                 <a name="commands-and-hotkeys"></a>
             </p>
@@ -382,59 +412,87 @@
                 <a name="documentation"></a>
             </p>
             <h2>6. Documentation <a class="headerlink" href="#documentation" title="Permanent link">¶</a></h2>
-            <!-- escapeall facelessuser plugin -->
+            <!-- [NOTE:] escapeall facelessuser plugin -->
 
             <p><em>#FuckTheDocs</em></p>
             <p>
+                <a name="tricks"></a>
+            </p>
+            <h2>7. Tricks <a class="headerlink" href="#tricks" title="Permanent link">¶</a></h2>
+            <p>
+                <a name="clarify"></a>
+            </p>
+            <h3>7.1. Clarify <a class="headerlink" href="#clarify" title="Permanent link">¶</a></h3>
+            <p>To increase the probability of the expected result сlarify search queries as you clarify, when search in search engines.</p>
+            <p>For example:</p>
+            <p>
+                <div class="justtable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Selected text</th>
+                                <th>KristinitaLuckyLink DuckDuckGo link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kristina Kiva</td>
+                                <td><a href="https://www.facebook.com/public/Kristina-Kiva" target="_blank">https://www.facebook.com/public/Kristina-Kiva</a></td>
+                            </tr>
+                            <tr>
+                                <td>Kristina Kiva Marbella</td>
+                                <td><a href="https://www.instagram.com/kristinitaluckylife/" target="_blank">https://www.instagram.com/kristinitaluckylife/</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </p>
+            <p>
                 <a name="testing-environment"></a>
             </p>
-            <h2>7. Testing environment <a class="headerlink" href="#testing-environment" title="Permanent link">¶</a></h2>
+            <h2>8. Testing environment <a class="headerlink" href="#testing-environment" title="Permanent link">¶</a></h2>
             <ol>
                 <li>Windows 10 Enterprise LTSB 64-bit EN_</li>
                 <li>Python 3.6.4,</li>
                 <li>Sublime Text Build 3143,</li>
-                <li>Python Google 1.9.3,</li>
+                <li>pygoogling 0.0.2,</li>
                 <li>Python DuckDuckGo for Python 3 0.242.</li>
             </ol>
             <p>KristinitaLuckyLink must be works in new versions macOS and Linux.</p>
             <p>
                 <a name="todo"></a>
             </p>
-            <h2>8. TODO <a class="headerlink" href="#todo" title="Permanent link">¶</a></h2>
+            <h2>9. TODO <a class="headerlink" href="#todo" title="Permanent link">¶</a></h2>
             <ol>
                 <li>unit tests,</li>
-                <li>fix or replace PyPI Google module,</li>
                 <li>add plugin to Package Control.</li>
             </ol>
             <p>
                 <a name="known-bugs-and-another-problems"></a>
             </p>
-            <h2>9. Known bugs and another problems <a class="headerlink" href="#known-bugs-and-another-problems" title="Permanent link">¶</a></h2>
+            <h2>10. Known bugs and another problems <a class="headerlink" href="#known-bugs-and-another-problems" title="Permanent link">¶</a></h2>
             <p>
-                <a name="kristinitaluckylink"></a>
+                <a name="kristinitaluckylink-1"></a>
             </p>
-            <h3>9.1. KristinitaLuckyLink <a class="headerlink" href="#kristinitaluckylink" title="Permanent link">¶</a></h3>
-            <ol>
-                <li>PyPI google module have bugs. I am planning fix or replace it.</li>
-            </ol>
+            <h3>10.1. KristinitaLuckyLink <a class="headerlink" href="#kristinitaluckylink-1" title="Permanent link">¶</a></h3>
             <p>
                 <a name="external"></a>
             </p>
-            <h3>9.2. External <a class="headerlink" href="#external" title="Permanent link">¶</a></h3>
+            <h3>10.2. External <a class="headerlink" href="#external" title="Permanent link">¶</a></h3>
             <p>
                 <a name="troubleshooting"></a>
             </p>
-            <h2>10. Troubleshooting <a class="headerlink" href="#troubleshooting" title="Permanent link">¶</a></h2>
+            <h2>11. Troubleshooting <a class="headerlink" href="#troubleshooting" title="Permanent link">¶</a></h2>
             <p>About all detected bugs please report to <a href="https://github.com/Kristinita/KristinitaLuckyLink/issues" target="_blank">issues</a> page. Please, add information about your operation system, Sublime Text 3 and KristinitaLuckyLink versions.</p>
             <p>
                 <a name="incorrect-links"></a>
             </p>
-            <h3>10.1. Incorrect links <a class="headerlink" href="#incorrect-links" title="Permanent link">¶</a></h3>
+            <h3>11.1. Incorrect links <a class="headerlink" href="#incorrect-links" title="Permanent link">¶</a></h3>
             <p>If use KristinitaLuckyLink you get not top link of Google or DuckDuckGo SERP, please, make actions below.</p>
             <p>
                 <a name="sublimerepl"></a>
             </p>
-            <h4>10.1.1. SublimeREPL <a class="headerlink" href="#sublimerepl" title="Permanent link">¶</a></h4>
+            <h4>11.1.1. SublimeREPL <a class="headerlink" href="#sublimerepl" title="Permanent link">¶</a></h4>
             <ol>
                 <li>Install <a href="https://github.com/wuub/SublimeREPL" target="_blank">SublimeREPL</a> via Package Control.</li>
                 <li><kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <em>SublimeREPL: Python</em>. Paste to opened tab code below.</li>
@@ -442,7 +500,7 @@
             <p>
                 <a name="duckduckgo"></a>
             </p>
-            <h4>10.1.2. DuckDuckGo <a class="headerlink" href="#duckduckgo" title="Permanent link">¶</a></h4>
+            <h4>11.1.2. DuckDuckGo <a class="headerlink" href="#duckduckgo" title="Permanent link">¶</a></h4>
             <p>Replace <code class="SashaInlineHighlight">Кристина Кива</code> to your real selection text.</p>
             <div class="SashaBlockHighlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">duckduckgo</span> <span class="kn">import</span> <span class="n">query</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">dlink</span> <span class="o">=</span> <span class="n">query</span><span class="p">(</span><span class="s1">&#39;! Кристина Кива&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">redirect</span><span class="o">.</span><span class="n">url</span>
@@ -454,19 +512,21 @@
             <p>
                 <a name="google"></a>
             </p>
-            <h4>10.1.3. Google <a class="headerlink" href="#google" title="Permanent link">¶</a></h4>
+            <h4>11.1.3. Google <a class="headerlink" href="#google" title="Permanent link">¶</a></h4>
             <p>Replace <code class="SashaInlineHighlight">Кристина Кива</code> to your real selection text.</p>
-            <div class="SashaBlockHighlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">google</span> <span class="kn">import</span> <span class="n">search</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">glink</span> <span class="ow">in</span> <span class="n">search</span><span class="p">(</span><span class="s1">&#39;Кристина Кива&#39;</span><span class="p">,</span> <span class="n">num</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">stop</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">pause</span><span class="o">=</span><span class="mf">5.0</span><span class="p">):</span>
+            <div class="SashaBlockHighlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pygoogling.googling</span> <span class="kn">import</span> <span class="n">GoogleSearch</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">google_search</span> <span class="o">=</span> <span class="n">GoogleSearch</span><span class="p">(</span><span class="s1">&#39;Кристина Кива&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">google_search</span><span class="o">.</span><span class="n">start_search</span><span class="p">(</span><span class="n">max_page</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">glink</span> <span class="o">=</span> <span class="n">google_search</span><span class="o">.</span><span class="n">search_result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">glink</span>
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <p>Press <kbd>Enter</kbd>.</p>
-            <p>If link, that you get via KristinitaLuckyLink, and this link match; it <a href="https://pypi.python.org/pypi/google" target="_blank">PyPI Google</a> module problem.</p>
+            <p>If link, that you get via KristinitaLuckyLink, and this link match; it <a href="https://github.com/essanpupil/pygoogling" target="_blank">pygoogling</a> module problem.</p>
             <p>
                 <a name="contributing"></a>
             </p>
-            <h2>11. Contributing <a class="headerlink" href="#contributing" title="Permanent link">¶</a></h2>
+            <h2>12. Contributing <a class="headerlink" href="#contributing" title="Permanent link">¶</a></h2>
             <p>Pull requests welcome! But, please, adhere to the following rules.</p>
             <ol>
                 <li>Please, not add inside this package external modules. My code “philosophy” is that all modules must be installed separately.</li>
@@ -475,7 +535,7 @@
             <p>
                 <a name="thanks"></a>
             </p>
-            <h2>12. Thanks <a class="headerlink" href="#thanks" title="Permanent link">¶</a></h2>
+            <h2>13. Thanks <a class="headerlink" href="#thanks" title="Permanent link">¶</a></h2>
             <ul>
                 <li><a href="https://github.com/keith-hall" target="_blank">keith-hall</a>,</li>
                 <li><a href="https://github.com/facelessuser" target="_blank">facelessuser</a>.</li>
@@ -483,13 +543,13 @@
             <p>
                 <a name="terms-and-conditions"></a>
             </p>
-            <h2>13. Terms and conditions <a class="headerlink" href="#terms-and-conditions" title="Permanent link">¶</a></h2>
-            <p>By using this package, you agree that the author won't be responsible for any damage that comes to you and/or your property. You hereby agree to take all responsibilities for using this package. The author is merely a developer who created
-                this package but you are the one who is using it.</p>
+            <h2>14. Terms and conditions <a class="headerlink" href="#terms-and-conditions" title="Permanent link">¶</a></h2>
+            <p>By using this package, you agree that the KristinitaLuckyLink, Sublime Text, Python DuckDuckGo and pygoogling authors won't be responsible for any damage that comes to you and/or your property. You hereby agree to take all responsibilities
+                for using this package. The author is merely a developer who created this package but you are the one who is using it.</p>
             <p>
                 <a name="license"></a>
             </p>
-            <h2>14. License <a class="headerlink" href="#license" title="Permanent link">¶</a></h2>
+            <h2>15. License <a class="headerlink" href="#license" title="Permanent link">¶</a></h2>
             <ul>
                 <li><a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" target="_blank">MIT</a>.</li>
             </ul>

@@ -190,17 +190,6 @@ pre >code {
     font-weight: #fb660a;
 }
 
-.SashaInlineHighlight .ow,
-.SashaBlockHighlight .ow {
-    color: #fff;
-}
-
-.SashaInlineHighlight .mf,
-.SashaBlockHighlight .mf {
-    color: #0086f7;
-    font-weight: bold;
-}
-
 .SashaInlineHighlight .mi,
 .SashaBlockHighlight .mi {
     color: #0086f7;
@@ -209,11 +198,6 @@ pre >code {
 
 .SashaInlineHighlight .s2,
 .SashaBlockHighlight .s2 {
-    color: #87ceeb;
-}
-
-.SashaInlineHighlight .se,
-.SashaBlockHighlight .se {
     color: #87ceeb;
 }
 
