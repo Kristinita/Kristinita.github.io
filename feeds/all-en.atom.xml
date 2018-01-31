@@ -1,5 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-18T10:07:34+03:00</updated><entry><title>KristinitaLuckyLink</title><link href="http://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-01-18T10:07:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-31T18:02:25+03:00</updated><entry><title>The fastest way to make the release for your Sublime Text package</title><link href="http://kristinita.ru/Life-hacks/Quickest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-01-31T18:02:25+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/Life-hacks/Quickest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*Changelog.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#motivation"&gt;Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#demonstration"&gt;Demonstration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#features"&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#relevance"&gt;Relevance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#limitations"&gt;Limitations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#installation"&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#activation"&gt;Activation&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#github-token"&gt;GitHub token&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#upstream-branch"&gt;Upstream branch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#changelogmd"&gt;Changelog.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#packagejson"&gt;package.json&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#release-itjson"&gt;.release-it.json&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#messagesjson"&gt;messages.json&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#usage"&gt;Usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#details"&gt;Details&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#release-it-command"&gt;release-it command&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#release-itjson-1"&gt;.release-it.json&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#buildcommand"&gt;buildCommand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#another-lines"&gt;Another lines&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#problems-and-non-fixed-bugs"&gt;Problems and non-fixed bugs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#testing-environment"&gt;Testing environment&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a name="overview"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Overview&lt;/h2&gt;
+&lt;p&gt;Tutorial, how you can quick to create detailed release and changelog for your Sublime Text package.&lt;/p&gt;
+&lt;p&gt;This article may be useful for any non-Sublime Text developers, which makes releases and changelog.&lt;/p&gt;
+&lt;p&gt;&lt;a name="motivation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Motivation&lt;/h2&gt;
+&lt;p&gt;When I create new release for my Sublime Text package, I need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Add changelog to &lt;a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank"&gt;GitHub release page&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;Update &lt;em&gt;Changelog.md&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://packagecontrol.io/docs/messaging" target="_blank"&gt;Update version in &lt;em&gt;messages.json&lt;/em&gt;&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;Add changelog to &lt;em&gt;messages/&amp;lt;version&amp;gt;.txt&lt;/em&gt; file,&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It may takes a lot of time.&lt;/p&gt;
+&lt;p&gt;In this article I wrote, how possible to make all these actions use only one command in command line.&lt;/p&gt;
+&lt;p&gt;&lt;a name="demonstration"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Demonstration&lt;/h2&gt;
+&lt;p&gt;I &lt;a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank"&gt;push commit&lt;/a&gt; to my GitHub repository → I print in command line:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it --no-npm.publish -n -V
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Result: &lt;a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank"&gt;1&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank"&gt;2&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Changelog.md&lt;/em&gt; and &lt;em&gt;messages.json&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="*Changelog.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;messages/&amp;lt;version&amp;gt;.txt&lt;/em&gt; and &lt;em&gt;package.json&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank"&gt;Releases page&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;
+&lt;p&gt;If you want to have same behavior, read on.&lt;/p&gt;
+&lt;p&gt;&lt;a name="features"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;4. Features&lt;/h2&gt;
+&lt;p&gt;Tutorial of this article must be support:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;cross-platform,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://semver.org/" target="_blank"&gt;Semver&lt;/a&gt; &lt;a href="https://semver.org/#spec-item-8" target="_blank"&gt;major&lt;/a&gt;, &lt;a href="https://semver.org/#spec-item-7" target="_blank"&gt;minor&lt;/a&gt;, &lt;a href="https://semver.org/#spec-item-6" target="_blank"&gt;patch&lt;/a&gt; and custom tags.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a name="relevance"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;5. Relevance&lt;/h2&gt;
+&lt;p&gt;This article is relevant for January 2018. In the future, the data in this article may be obsolete.&lt;/p&gt;
+&lt;p&gt;&lt;a name="limitations"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;6. Limitations&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Your package must be hosted on GitHub. If your package on BitBucket, GitLab or another hosting, you can't make a release via &lt;a href="https://github.com/webpro/release-it" target="_blank"&gt;release-it&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Your commits must be must be compatible with &lt;a href="https://conventionalcommits.org/" target="_blank"&gt;Conventional Commits&lt;/a&gt;. &lt;a href="https://conventionalcommits.org/" target="_blank"&gt;List of supported scopes&lt;/a&gt;. I recommend use &lt;a href="https://www.npmjs.com/package/commitizen" target="_blank"&gt;commitizen&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a name="installation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;7. Installation&lt;/h2&gt;
+&lt;p&gt;You need to install:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Node.js and npm, if no;&lt;/li&gt;
+&lt;li&gt;git if no, even if you use another VCS;&lt;/li&gt;
+&lt;li&gt;UNIX commands &lt;em&gt;tee&lt;/em&gt;, &lt;em&gt;cat&lt;/em&gt;, &lt;em&gt;mv&lt;/em&gt; and &lt;em&gt;sed&lt;/em&gt;, if no; for Windows users I recommend install &lt;a href="https://chocolatey.org/packages/Cygwin" target="_blank"&gt;Cygwin&lt;/a&gt; and &lt;a href="https://lifehacker.com/362316/use-unix-commands-in-windows-built-in-command-prompt" target="_blank"&gt;add to your &lt;em&gt;Path&lt;/em&gt; environment variable value — path to Cygwin commands folder&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/release-it#global" target="_blank"&gt;release-it globally&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/generate-changelog#installation" target="_blank"&gt;generate-changelog globally&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/js-beautify" target="_blank"&gt;npm js-beautify globally&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a name="activation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;8. Activation&lt;/h2&gt;
+&lt;p&gt;You need to create all files from this section in root folder of your package repository.&lt;/p&gt;
+&lt;p&gt;You can see configuration files of real package in &lt;a href="https://github.com/Kristinita/SashaSublime" target="_blank"&gt;SashaSublime repository&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- FIXME: Faselessuser style --&gt;
+
+&lt;p&gt;WARNING: I recommend in first do actions from &lt;a href="#activation"&gt;Activation&lt;/a&gt; and &lt;a href="#usage"&gt;Usage&lt;/a&gt; sections in the test repository, not real. Argumentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You or I can make a typo(s);&lt;/li&gt;
+&lt;li&gt;Environment problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a name="github-token"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;8.1. GitHub token&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-github-release" target="_blank"&gt;Get your GitHub token and add environment variable with value — your token&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You need to select all &lt;em&gt;repo&lt;/em&gt; scopes.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GitHub token" src="https://i.imgur.com/sWfide5.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="upstream-branch"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;8.2. Upstream branch&lt;/h3&gt;
+&lt;p&gt;You need to &lt;a href="https://stackoverflow.com/a/6089415/5951529" target="_blank"&gt;set upstream branch&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git checkout yourbranch
+git branch --set-upstream
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;yourbranch&lt;/em&gt; — name of branch, which you want to do upstream. Please, change &lt;em&gt;yourbranch&lt;/em&gt; to real branch name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a name="changelogmd"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;8.3. Changelog.md&lt;/h3&gt;
+&lt;p&gt;Create blank file &lt;em&gt;Changelog.md&lt;/em&gt;. If no, generate-changelog will works incorrect.&lt;/p&gt;
+&lt;p&gt;&lt;a name="packagejson"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;8.4. package.json&lt;/h3&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;4.14.7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;scripts&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;release-it&amp;quot;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;SashaSublime&lt;/em&gt; — name of your package,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;4.14.7&lt;/em&gt; — previous version of your package.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Replace &lt;em&gt;SashaSublime&lt;/em&gt; and &lt;em&gt;4.14.7&lt;/em&gt; to your real values.&lt;/p&gt;
+&lt;p&gt;&lt;a name="release-itjson"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;8.5. .release-it.json&lt;/h3&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f - -u https:\/\/github.com\/Kristinita\/SashaSublime | tee messages\/${version}.txt | cat - Changelog.md &amp;gt; temp &amp;amp;&amp;amp; mv temp Changelog.md &amp;amp;&amp;amp; sed -i &amp;#39;\/\\\&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;,&amp;#39; messages.json &amp;amp;&amp;amp; js-beautify -r messages.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;https://github.com/Kristinita/SashaSublime&lt;/em&gt; — URL of your package repository. Please, replace it to URL of your repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- FIXME: Note facelessuser style --&gt;
+
+&lt;p&gt;If you want, you don't need to insert repository URL each time. You can use variable instead of URL in &lt;em&gt;buildCommand&lt;/em&gt;, see how this is done for &lt;a href="https://bash.cyberciti.biz/guide/Command_substitution" target="_blank"&gt;Linux&lt;/a&gt; and &lt;a href="https://stackoverflow.com/a/2340018/5951529" target="_blank"&gt;Windows&lt;/a&gt;. But &lt;a href="https://unix.stackexchange.com/q/420742/237999" target="_blank"&gt;I don't find cross-platform syntax&lt;/a&gt;, that solve this problem.&lt;/p&gt;
+&lt;!-- FIXME: Note facelessuser style --&gt;
+
+&lt;p&gt;Pay attention to slashes escaping. That convert terminal command to JSON I recommend to use &lt;a href="https://www.freeformatter.com/json-escape.html#ad-output" target="_blank"&gt;freeformatter.com service&lt;/a&gt;. For example:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sed -i &lt;span class="s1"&gt;&amp;#39;/\&amp;quot;install\&amp;quot;\: \&amp;quot;messages\/install\.txt\&amp;quot;/i\&amp;quot;4\.14\.7\&amp;quot;\: \&amp;quot;messages\/4\.14\.7\.txt\&amp;quot;,&amp;#39;&lt;/span&gt; messages.json
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;will convert to:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;sed&lt;/span&gt; &lt;span class="err"&gt;-i&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;\/\\\&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&amp;#39;&lt;/span&gt; &lt;span class="err"&gt;messages.json&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a name="messagesjson"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;8.6. messages.json&lt;/h3&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;install&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;messages/install.txt&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a name="usage"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;9. Usage&lt;/h2&gt;
+&lt;p&gt;Add, commit and push your changes to remote GitHub repository. Example:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# Make any changes
+D&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\SashaSublime&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;git add .&lt;/span&gt;
+
+# I use commitizen instead of git commit
+D&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\SashaSublime&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;git cz&lt;/span&gt;
+cz-cli@2.9.6, cz-conventional-changelog@1.2.0
+
+
+Line 1 will be cropped at 100 characters. All other lines will be wrapped after 100 characters.
+
+? Select the type of change that you&amp;#39;re committing: build:     Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+? Denote the scope of this change ($location, $browser, $compile, etc.):
+ release-it
+? Write a short, imperative tense description of the change:
+ Fix .release-it.json
+? Provide a longer description of the change:
+ Add to .release-it.json URL of SashaSublime repository
+? List any breaking changes or issues closed by this change:
+
+[SashaDevelop 52e517a] build(release-it): Fix .release-it.json
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\SashaSublime&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;git push&lt;/span&gt;
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 735 bytes &lt;span class="p"&gt;|&lt;/span&gt; 183.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Kristinita/SashaSublime.git
+   0360628..52e517a  SashaDevelop -&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; SashaDevelop
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now run &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage" target="_blank"&gt;one of command&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;release-it --no-npm.publish -n -V&lt;/em&gt; or &lt;em&gt;release-it patch --no-npm.publish -n -V&lt;/em&gt; — for release patch version;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it --minor --no-npm.publish -n -V&lt;/em&gt; — for release minor version;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it --major --no-npm.publish -n -V&lt;/em&gt; — for release major version;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it 4.14.7 --no-npm.publish -n -V&lt;/em&gt; — for release custom version; &lt;em&gt;4.14.7&lt;/em&gt; in example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also you can &lt;a href="https://www.npmjs.com/package/release-it" target="_blank"&gt;create pre-releases&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Example result see in &lt;a href="#demonstration"&gt;demonstration&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;&lt;a name="details"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;10. Details&lt;/h2&gt;
+&lt;p&gt;If you want to know, how files and commands works, please, read this section.&lt;/p&gt;
+&lt;p&gt;&lt;a name="release-it-command"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;10.1. release-it command&lt;/h3&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it --no-npm.publish -n -V
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;--no-npm.publish&lt;/em&gt; — &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank"&gt;don't publish release to npm&lt;/a&gt;. We are writing Sublime Text package, not npm modules, and needs in this command-line argument.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;-n&lt;/em&gt; — &lt;a href="https://www.npmjs.com/package/release-it#-interactive-vs-non-interactive-mode" target="_blank"&gt;non-interactive mode&lt;/a&gt;. That you don't need input values each time manually.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;-V&lt;/em&gt; — verbose. You can disable this argument, if you don't want to see full output. But this argument can help in debugging process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a name="release-itjson-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;10.2. .release-it.json&lt;/h3&gt;
+&lt;p&gt;&lt;a name="buildcommand"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;10.2.1. buildCommand&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;changelog -f -&lt;/em&gt; — generate changelog. &lt;em&gt;-&lt;/em&gt; — argument, that changelog &lt;a href="https://unix.stackexchange.com/a/419416/237999" target="_blank"&gt;stdout to console&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;-u https:\/\/github.com\/&amp;lt;your name&amp;gt;\/&amp;lt;your repository&amp;gt;&lt;/code&gt; — support URL's in changelog, that the user can quick go to the commit link.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;if &lt;code class="SashaInlineHighlight"&gt;-u https:\/\/github.com\/&amp;lt;your name&amp;gt;\/&amp;lt;your repository&amp;gt;&lt;/code&gt;, changelog generate &lt;code class="SashaInlineHighlight"&gt;([40783aee](https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;if no &lt;code class="SashaInlineHighlight"&gt;-u https:\/\/github.com\/&amp;lt;your name&amp;gt;\/&amp;lt;your repository&amp;gt;&lt;/code&gt;, changelog generate &lt;code class="SashaInlineHighlight"&gt;(40783aee)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="err"&gt;tee&lt;/span&gt; &lt;span class="err"&gt;messages\/$&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="err"&gt;version&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="err"&gt;.txt&lt;/span&gt;&lt;/code&gt; — output changelog to &lt;em&gt;messages/&amp;lt;your new release&amp;gt;.txt&lt;/em&gt; file. File &lt;em&gt;&amp;lt;your new release&amp;gt;.txt&lt;/em&gt; will create automatically. See &lt;a href="https://www.computerhope.com/unix/utee.htm" target="_blank"&gt;description of &lt;em&gt;tee&lt;/em&gt; command&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;cat - Changelog.md &amp;gt; temp &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; mv temp Changelog.md&lt;/code&gt; — &lt;a href="https://superuser.com/a/246841/572069" target="_blank"&gt;append changelog at beginning&lt;/a&gt; of &lt;em&gt;Changelog.md&lt;/em&gt; file. &lt;em&gt;Changelog.md&lt;/em&gt; do not overwrite.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="err"&gt;sed&lt;/span&gt; &lt;span class="err"&gt;-i&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;\/\\\&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&amp;#39;&lt;/span&gt; &lt;span class="err"&gt;messages.json&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://stackoverflow.com/a/11695098/5951529" target="_blank"&gt;add&lt;/a&gt; &lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;&amp;lt;your version&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;messages/&amp;lt;your version&amp;gt;.txt&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; line before &lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;install&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;messages/install.txt&amp;quot;&lt;/span&gt;&lt;/code&gt; line.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;js-beautify -r messages.json&lt;/code&gt; — &lt;a href="https://www.npmjs.com/package/js-beautify#options" target="_blank"&gt;beautify &lt;em&gt;messages.json&lt;/em&gt; file in-place&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a name="another-lines"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;10.2.2. Another lines&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;changelogCommand&lt;/em&gt; — command, that generate changelog to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your name&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;. Command must stdout to console.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt;— &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank"&gt;post changelog&lt;/a&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your name&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; — your &lt;a href="#github-token"&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; environment variable&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — that correct version in &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your name&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;; see &lt;a href="https://github.com/webpro/release-it/issues/218" target="_blank"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797" target="_blank"&gt;correct tag name&lt;/a&gt; for Package Control. Tags for Sublime Text 3 must be in &lt;em&gt;st3-&amp;lt;your version&amp;gt;&lt;/em&gt; format, for example — &lt;em&gt;st3-4.14.7&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a name="problems-and-non-fixed-bugs"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;11. Problems and non-fixed bugs&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/lob/generate-changelog/issues/37" target="_blank"&gt;You can't use&lt;/a&gt; &lt;a href="https://github.com/ngryman/cz-emoji" target="_blank"&gt;cz-emoji&lt;/a&gt; for commit generation. Changelog will blank.&lt;/li&gt;
+&lt;li&gt;release-it &lt;a href="https://github.com/webpro/release-it/issues/218" target="_blank"&gt;can works incorrect&lt;/a&gt; in &lt;em&gt;--dry-run&lt;/em&gt; mode.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/webpro/release-it/issues/213" target="_blank"&gt;You can have bugs&lt;/a&gt;, if you want to use &lt;em&gt;&lt;/em&gt; release-it variable.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a name="testing-environment"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;12. Testing environment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
+&lt;li&gt;Node.js 9.4.0,&lt;/li&gt;
+&lt;li&gt;git 2.16.0.windows.2,&lt;/li&gt;
+&lt;li&gt;release-it 6.1.1,&lt;/li&gt;
+&lt;li&gt;changelog 1.7.0,&lt;/li&gt;
+&lt;li&gt;tee (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
+&lt;li&gt;cat (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
+&lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
+&lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
+&lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="http://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-01-18T12:36:30+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -163,6 +445,7 @@
 &lt;p&gt;&lt;a name="development-version"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.2. Development version&lt;/h4&gt;
 &lt;p&gt;As &lt;a href="#stable-version"&gt;stable version&lt;/a&gt;. Only replace &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink&lt;/code&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink/tree/SashaDevelop&lt;/code&gt; in instruction above.&lt;/p&gt;
+&lt;p&gt;You will get all changes from &lt;code class="SashaInlineHighlight"&gt;SashaDevelop&lt;/code&gt; branch in each Sublime Text start.&lt;/p&gt;
 &lt;p&gt;&lt;a name="activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4. Activation&lt;/h2&gt;
 &lt;p&gt;&lt;a name="environment-variable"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -366,7 +649,7 @@
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>ValeriyaSpeller</title><link href="http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-01-10T21:46:25+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="http://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>ValeriyaSpeller</title><link href="http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-01-31T10:54:57+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="http://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;

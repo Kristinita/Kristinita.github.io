@@ -259,11 +259,6 @@ pre >code {
     color: Sasha-Pygments-Literal-String;
 }
 
-.SashaInlineHighlight .nb,
-.SashaBlockHighlight .nb {
-    color: Sasha-Pygments-Name-Builtin;
-}
-
 .SashaInlineHighlight .no,
 .SashaBlockHighlight .no {
     color: Sasha-Pygments-Name-Constant;
@@ -272,11 +267,6 @@ pre >code {
 .SashaInlineHighlight .py,
 .SashaBlockHighlight .py {
     color: Sasha-Pygments-Name-Property;
-}
-
-.SashaInlineHighlight .ow,
-.SashaBlockHighlight .ow {
-    color: Sasha-Pygments-Operator-Word;
 }
 
 .SashaInlineHighlight .w,

@@ -22,6 +22,7 @@
  		- 3.1. ol, ul, li
  		- 3.2. TOC
  		- 3.3. dd, dt, dl
+ 		- 3.4. Russian letters as markers of list
  	4. Footer
  		- 4.1. Neighbors Pelican
  		- 4.2. Another footer
@@ -194,6 +195,85 @@ dt
 
 dd
 	font-style italic
+
+/* 3.4. Russian letters as markers
+   ========================================================================== */
+
+/*
+ * Russian letters as list markers
+ * https://ru.stackoverflow.com/a/523299/199934
+ */
+
+.russianletters
+	list-style-type none
+	/* Прячем исходную нумерацию */
+
+	li
+		margin 0
+
+@-webkit-keyframes fade-in
+	0%
+		opacity 0
+
+	100%
+		opacity 1
+
+@keyframes fade-in
+	0%
+		opacity 0
+
+	100%
+		opacity 1
+
+@-webkit-keyframes fade
+	10%
+		-webkit-transform scale(1, 1)
+		transform scale(1, 1)
+
+	35%
+		-webkit-transform scale(1, 1.7)
+		transform scale(1, 1.7)
+
+	40%
+		-webkit-transform scale(1, 1.7)
+		transform scale(1, 1.7)
+
+	50%
+		opacity 1
+
+	60%
+		-webkit-transform scale(1, 1)
+		transform scale(1, 1)
+
+	100%
+		-webkit-transform scale(1, 1)
+		transform scale(1, 1)
+		opacity 0
+
+@keyframes fade
+	10%
+		-webkit-transform scale(1, 1)
+		transform scale(1, 1)
+
+	35%
+		-webkit-transform scale(1, 1.7)
+		transform scale(1, 1.7)
+
+	40%
+		-webkit-transform scale(1, 1.7)
+		transform scale(1, 1.7)
+
+	50%
+		opacity 1
+
+	60%
+		-webkit-transform scale(1, 1)
+		transform scale(1, 1)
+
+	100%
+		-webkit-transform scale(1, 1)
+		transform scale(1, 1)
+		opacity 0
 
 /* ==========================================================================
    4. Footer
