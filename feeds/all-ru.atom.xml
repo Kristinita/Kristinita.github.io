@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all-ru.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-14T19:28:51+03:00</updated><entry><title>Поиск книг для джинджерин</title><link href="http://kristinita.ru/Gingerinas/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-30T07:58:12+03:00</published><updated>2018-01-14T19:28:51+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-30:/Gingerinas/Поиск-книг-для-джинджерин.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг, необходимых для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all-ru.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-01-31T19:25:53+03:00</updated><entry><title>Поиск книг для джинджерин</title><link href="http://kristinita.ru/Gingerinas/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-30T07:58:12+03:00</published><updated>2018-01-14T19:28:51+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-30:/Gingerinas/Поиск-книг-для-джинджерин.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг, необходимых для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Содержание-страницы"&gt;Содержание страницы&lt;/a&gt;&lt;/li&gt;
@@ -1858,7 +1858,17 @@
 &lt;p&gt;Тао, юми — сценические псевдонимы Святой Екатерины Десятниковой. &lt;img alt="Тао" src="http://i.imgur.com/dvKxmBO.png"&gt; &lt;img alt="Юми" src="http://i.imgur.com/xOF3urA.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Грейс Ло</title><link href="http://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:45:14+03:00</published><updated>2018-01-07T13:37:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Sasha Goddess</title><link href="http://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-01-31T19:25:53+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- Gallery: {photo}kris --&gt;
+
+&lt;p&gt;Here are my best photos, taken with my favorite camera:&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Note&lt;/p&gt;
+&lt;p&gt;You should note that the title will be automatically capitalized.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition error"&gt;
+&lt;p class="admonition-title"&gt;Error&lt;/p&gt;
+&lt;p&gt;Error&lt;/p&gt;
+&lt;/div&gt;</content><category term="Test"></category></entry><entry><title>Грейс Ло</title><link href="http://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:45:14+03:00</published><updated>2018-01-07T13:37:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;Название методики — сокращённое от «Grace Lawrence», учётной записи &lt;a href="https://vk.com/mk_2802"&gt;Екатерины Десятниковой&lt;/a&gt; в соцсети,&lt;br&gt;
 Тебя нет на этой планете,&lt;br&gt;
 Но Ты навсегда останешься в моём сердце.&lt;br&gt;&lt;br&gt;
