@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-01T13:35:20+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-01T13:35:20+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*Changelog.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-04T16:50:24+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-04T16:50:24+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*Changelog.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -89,7 +89,7 @@
 &lt;li&gt;Node.js and npm, if no;&lt;/li&gt;
 &lt;li&gt;git if no, even if you use another VCS;&lt;/li&gt;
 &lt;li&gt;UNIX commands &lt;em&gt;tee&lt;/em&gt;, &lt;em&gt;cat&lt;/em&gt;, &lt;em&gt;mv&lt;/em&gt; and &lt;em&gt;sed&lt;/em&gt;, if no; for Windows users I recommend install &lt;a href="https://chocolatey.org/packages/Cygwin" target="_blank"&gt;Cygwin&lt;/a&gt; and &lt;a href="https://lifehacker.com/362316/use-unix-commands-in-windows-built-in-command-prompt" target="_blank"&gt;add to your &lt;em&gt;Path&lt;/em&gt; environment variable value — path to Cygwin commands folder&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.npmjs.com/package/release-it#global" target="_blank"&gt;release-it globally&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/release-it#global" target="_blank"&gt;release-it globally&lt;/a&gt; ≥ 6.2.0;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.npmjs.com/package/generate-changelog#installation" target="_blank"&gt;generate-changelog globally&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.npmjs.com/package/js-beautify" target="_blank"&gt;npm js-beautify globally&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -136,13 +136,13 @@ git branch --set-upstream
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;SashaSublime&lt;/em&gt; — name of your package,&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;4.14.7&lt;/em&gt; — previous version of your package.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;4.14.7&lt;/em&gt; — previous version of your package. Use &lt;em&gt;0.0.0&lt;/em&gt;, if you add first release for your package.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Replace &lt;em&gt;SashaSublime&lt;/em&gt; and &lt;em&gt;4.14.7&lt;/em&gt; to your real values.&lt;/p&gt;
 &lt;p&gt;&lt;a name="release-itjson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.5. .release-it.json&lt;/h3&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f - -u https:\/\/github.com\/Kristinita\/SashaSublime | tee messages\/${version}.txt | cat - Changelog.md &amp;gt; temp &amp;amp;&amp;amp; mv temp Changelog.md &amp;amp;&amp;amp; sed -i &amp;#39;\/\\\&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;,&amp;#39; messages.json &amp;amp;&amp;amp; js-beautify -r messages.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - Changelog.md &amp;gt; temp &amp;amp;&amp;amp; mv temp Changelog.md &amp;amp;&amp;amp; sed -i &amp;#39;\/\\\&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;,&amp;#39; messages.json &amp;amp;&amp;amp; js-beautify -r messages.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -155,13 +155,6 @@ git branch --set-upstream
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;https://github.com/Kristinita/SashaSublime&lt;/em&gt; — URL of your package repository. Please, replace it to URL of your repository.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="admonition note"&gt;
-&lt;p class="admonition-title"&gt;Note&lt;/p&gt;
-&lt;p&gt;If you want, you don't need to insert repository URL each time. You can use variable instead of URL in &lt;em&gt;buildCommand&lt;/em&gt;, see how you can do it for &lt;a href="https://bash.cyberciti.biz/guide/Command_substitution" target="_blank"&gt;Linux&lt;/a&gt; and &lt;a href="https://stackoverflow.com/a/2340018/5951529" target="_blank"&gt;Windows&lt;/a&gt;. But &lt;a href="https://unix.stackexchange.com/q/420742/237999" target="_blank"&gt;I don't find cross-platform syntax&lt;/a&gt;, that can solve this problem.&lt;/p&gt;
-&lt;/div&gt;
 &lt;div class="admonition hint"&gt;
 &lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
 &lt;p&gt;Pay attention to slashes escaping. To convert terminal command to JSON I recommend to use &lt;a href="https://www.freeformatter.com/json-escape.html#ad-output" target="_blank"&gt;freeformatter.com service&lt;/a&gt;. For example:&lt;/p&gt;
@@ -245,11 +238,11 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;changelog -f -&lt;/em&gt; — generate changelog. &lt;em&gt;-&lt;/em&gt; — argument, that changelog &lt;a href="https://unix.stackexchange.com/a/419416/237999" target="_blank"&gt;stdout to console&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;-u https:\/\/github.com\/&amp;lt;your name&amp;gt;\/&amp;lt;your repository&amp;gt;&lt;/code&gt; — support URL's in changelog, that the user can quick go to the commit link.&lt;/p&gt;
+&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;-u https:\/\/${repo.host}\/${repo.repository}&lt;/code&gt; — support URL's in changelog, that the user can quick go to the commit link. &lt;code class="SashaInlineHighlight"&gt;${repo.host}&lt;/code&gt; — github.com. &lt;code class="SashaInlineHighlight"&gt;${repo.repository}&lt;/code&gt; — &lt;code class="SashaInlineHighlight"&gt;&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;Kristinita/SashaSublime&lt;/code&gt; for my example.&lt;/p&gt;
 &lt;p&gt;Example:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;if &lt;code class="SashaInlineHighlight"&gt;-u https:\/\/github.com\/&amp;lt;your name&amp;gt;\/&amp;lt;your repository&amp;gt;&lt;/code&gt;, changelog generate &lt;code class="SashaInlineHighlight"&gt;([40783aee](https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea))&lt;/code&gt;,&lt;/li&gt;
-&lt;li&gt;if no &lt;code class="SashaInlineHighlight"&gt;-u https:\/\/github.com\/&amp;lt;your name&amp;gt;\/&amp;lt;your repository&amp;gt;&lt;/code&gt;, changelog generate &lt;code class="SashaInlineHighlight"&gt;(40783aee)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;if &lt;code class="SashaInlineHighlight"&gt;-u https:\/\/${repo.host}\/${repo.repository}&lt;/code&gt;, changelog generate &lt;code class="SashaInlineHighlight"&gt;([40783aee](https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea))&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;if no &lt;code class="SashaInlineHighlight"&gt;-u https:\/\/${repo.host}\/${repo.repository}&lt;/code&gt;, changelog generate &lt;code class="SashaInlineHighlight"&gt;(40783aee)&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -262,10 +255,10 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;&lt;a name="another-lines"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.2.2. Another lines&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;changelogCommand&lt;/em&gt; — command, that generate changelog to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your name&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;. Command must stdout to console.&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank"&gt;post changelog&lt;/a&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your name&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;changelogCommand&lt;/em&gt; — command, that generate changelog to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;. Command must stdout to console.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank"&gt;post changelog&lt;/a&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; — your &lt;a href="#github-token"&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; environment variable&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — that correct version in &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your name&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;; see &lt;a href="https://github.com/webpro/release-it/issues/218" target="_blank"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — that correct version in &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;; see &lt;a href="https://github.com/webpro/release-it/issues/218" target="_blank"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797" target="_blank"&gt;correct tag name&lt;/a&gt; for Package Control. Tags for Sublime Text 3 must be in &lt;em&gt;st3-&amp;lt;your version&amp;gt;&lt;/em&gt; format, for example — &lt;em&gt;st3-4.14.7&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a name="problems-and-non-fixed-bugs"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -281,7 +274,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Node.js 9.4.0,&lt;/li&gt;
 &lt;li&gt;git 2.16.0.windows.2,&lt;/li&gt;
-&lt;li&gt;release-it 6.1.1,&lt;/li&gt;
+&lt;li&gt;release-it 6.2.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;tee (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;cat (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
