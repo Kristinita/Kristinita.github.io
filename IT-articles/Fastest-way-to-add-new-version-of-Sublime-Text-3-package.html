@@ -52,7 +52,7 @@
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/basic.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/fonts.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_right.css">
+    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_left.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/it-articles.css">
     <!-- Material icons font for icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -63,7 +63,7 @@
     <!-- Custom CSS -->
     <!-- Atom feed -->
     <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="http://kristinita.ru/feeds/programs.atom.xml" rel="alternate" type="application/atom+xml">
+    <link href="http://kristinita.ru/feeds/it-articles.atom.xml" rel="alternate" type="application/atom+xml">
 </head>
 
 <body>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="SashaVersion">
                     Last modified —
-                    <time pubdate="2018-02-04 16:50:24+03:00">2018-02-04 16:50:24+03:00</time>
+                    <time pubdate="2018-02-09 20:42:08+03:00">2018-02-09 20:42:08+03:00</time>
                 </div>
             </header>
             <!-- MarkdownTOC -->
@@ -103,7 +103,7 @@
                     <ol>
                         <li><a href="#github-token">GitHub token</a></li>
                         <li><a href="#upstream-branch">Upstream branch</a></li>
-                        <li><a href="#changelogmd">Changelog.md</a></li>
+                        <li><a href="#changelogmd">CHANGELOG.md</a></li>
                         <li><a href="#packagejson">package.json</a></li>
                         <li><a href="#release-itjson">.release-it.json</a></li>
                         <li><a href="#messagesjson">messages.json</a></li>
@@ -149,7 +149,7 @@
             <p>When I create new release for my Sublime Text package, I need:</p>
             <ol>
                 <li>Add changelog to <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">GitHub release page</a>,</li>
-                <li>Update <em>Changelog.md</em>,</li>
+                <li>Update <em>CHANGELOG.md</em>,</li>
                 <li><a href="https://packagecontrol.io/docs/messaging" target="_blank">Update version in <em>messages.json</em></a>,</li>
                 <li>Add changelog to <em>messages/&lt;version&gt;.txt</em> file,</li>
             </ol>
@@ -163,9 +163,9 @@
             <div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <p>Result: <a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank">1</a>, <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">2</a>:</p>
-            <p><em>Changelog.md</em> and <em>messages.json</em>:</p>
-            <p><img alt="*Changelog.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"></p>
+            <p>Result: <a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank">1</a>, <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">2</a>.</p>
+            <p><em>CHANGELOG.md</em> and <em>messages.json</em>:</p>
+            <p><img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"></p>
             <p><em>messages/&lt;version&gt;.txt</em> and <em>package.json</em>:</p>
             <p><img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"></p>
             <p><a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">Releases page</a>:</p>
@@ -244,8 +244,8 @@ git branch --set-upstream
             <p>
                 <a name="changelogmd"></a>
             </p>
-            <h3>9.3. Changelog.md <a class="headerlink" href="#changelogmd" title="Permanent link">¶</a></h3>
-            <p>Create blank file <em>Changelog.md</em>. If no, generate-changelog will works incorrect.</p>
+            <h3>9.3. CHANGELOG.md <a class="headerlink" href="#changelogmd" title="Permanent link">¶</a></h3>
+            <p>Create blank file <em>CHANGELOG.md</em>. If no, generate-changelog will works incorrect.</p>
             <p>
                 <a name="packagejson"></a>
             </p>
@@ -269,7 +269,7 @@ git branch --set-upstream
             </p>
             <h3>9.5. .release-it.json <a class="headerlink" href="#release-itjson" title="Permanent link">¶</a></h3>
             <div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">&quot;buildCommand&quot;</span><span class="p">:</span> <span class="s2">&quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - Changelog.md &gt; temp &amp;&amp; mv temp Changelog.md &amp;&amp; sed -i &#39;\/\\\&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;,&#39; messages.json &amp;&amp; js-beautify -r messages.json&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;buildCommand&quot;</span><span class="p">:</span> <span class="s2">&quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - CHANGELOG.md &gt; temp &amp;&amp; mv temp CHANGELOG.md &amp;&amp; sed -i &#39;\/\\\&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;,&#39; messages.json &amp;&amp; js-beautify -r messages.json&quot;</span><span class="p">,</span>
     <span class="nt">&quot;changelogCommand&quot;</span><span class="p">:</span> <span class="s2">&quot;changelog -f -&quot;</span><span class="p">,</span>
     <span class="nt">&quot;github&quot;</span><span class="p">:</span> <span class="p">{</span>
         <span class="nt">&quot;release&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
@@ -390,7 +390,7 @@ To https://github.com/Kristinita/SashaSublime.git
                     <p><code class="SashaInlineHighlight"><span class="err">tee</span> <span class="err">messages\/$</span><span class="p">{</span><span class="err">version</span><span class="p">}</span><span class="err">.txt</span></code> — output changelog
                         to <em>messages/&lt;your new release&gt;.txt</em> file. File <em>&lt;your new release&gt;.txt</em> will create automatically. See <a href="https://www.computerhope.com/unix/utee.htm" target="_blank">description of <em>tee</em> command</a>.</p>
                 </li>
-                <li><code class="SashaInlineHighlight">cat - Changelog.md &gt; temp <span class="o">&amp;&amp;</span> mv temp Changelog.md</code> — <a href="https://superuser.com/a/246841/572069" target="_blank">append changelog at beginning</a> of <em>Changelog.md</em>                    file. <em>Changelog.md</em> do not overwrite.</li>
+                <li><code class="SashaInlineHighlight">cat - CHANGELOG.md &gt; temp <span class="o">&amp;&amp;</span> mv temp CHANGELOG.md</code> — <a href="https://superuser.com/a/246841/572069" target="_blank">append changelog at beginning</a> of <em>CHANGELOG.md</em>                    file. <em>CHANGELOG.md</em> do not overwrite.</li>
                 <li><code class="SashaInlineHighlight"><span class="err">sed</span> <span class="err">-i</span> <span class="err">&#39;\/\\\</span><span class="s2">&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;</span><span class="err">,&#39;</span> <span class="err">messages.json</span></code>                    — <a href="https://stackoverflow.com/a/11695098/5951529" target="_blank">add</a> <code class="SashaInlineHighlight"><span class="s2">&quot;&lt;your version&gt;&quot;</span><span class="err">:</span> <span class="s2">&quot;messages/&lt;your version&gt;.txt&quot;</span><span class="err">,</span></code>                    line before <code class="SashaInlineHighlight"><span class="s2">&quot;install&quot;</span><span class="err">:</span> <span class="s2">&quot;messages/install.txt&quot;</span></code> line.</li>
                 <li><code class="SashaInlineHighlight">js-beautify -r messages.json</code> — <a href="https://www.npmjs.com/package/js-beautify#options" target="_blank">beautify <em>messages.json</em> file in-place</a></li>
             </ul>
@@ -434,7 +434,7 @@ To https://github.com/Kristinita/SashaSublime.git
                 <li>js-beautify 1.7.5.</li>
             </ul>
             <footer>
-                <span class="SashaPreviousNeighbor"><a href="http://kristinita.ru/Programs/KristinitaLuckyLink.html" title="KristinitaLuckyLink">← Previous article</a></span>
+                <span class="SashaPreviousNeighbor"><a href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" title="How to publish your package to PyPI, 2018">← Previous article</a></span>
                 <!--  -->
                 <span class="SashaHeadPageRight"><a href="http://kristinita.ru" title="Kristinita's Search">Kristinita's Search</a></span>
                 <div class="SashaClearBoth"></div>
