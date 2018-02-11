@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/</loc>
-<lastmod>2018-02-10T21:36:05-00:00</lastmod>
+<lastmod>2018-02-11T10:33:06-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/archives.html</loc>
-<lastmod>2018-02-10T21:36:05-00:00</lastmod>
+<lastmod>2018-02-11T10:33:06-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/categories.html</loc>
-<lastmod>2018-02-10T21:36:05-00:00</lastmod>
+<lastmod>2018-02-11T10:33:06-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,7 +75,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</loc>
-<lastmod>2018-02-10T21:34:00+03:00</lastmod>
+<lastmod>2018-02-10T22:22:51+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -215,7 +215,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/category/it-articles.html</loc>
-<lastmod>2018-02-10T21:34:00+02:30</lastmod>
+<lastmod>2018-02-10T22:22:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -299,7 +299,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/it-articles.html</loc>
-<lastmod>2018-02-10T21:34:00+02:30</lastmod>
+<lastmod>2018-02-10T22:22:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -313,7 +313,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/release.html</loc>
-<lastmod>2018-02-10T21:34:00+02:30</lastmod>
+<lastmod>2018-02-10T22:22:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -355,14 +355,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/tag/python.html</loc>
-<lastmod>2018-02-10T21:34:00+02:30</lastmod>
+<lastmod>2018-02-10T22:22:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://kristinita.ru/tag/pypi.html</loc>
-<lastmod>2018-02-10T21:34:00+02:30</lastmod>
+<lastmod>2018-02-10T22:22:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -467,7 +467,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2018-02-10T21:34:00+02:30</lastmod>
+<lastmod>2018-02-10T22:22:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

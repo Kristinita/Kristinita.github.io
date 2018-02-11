@@ -1,316 +1,406 @@
 <!doctype html>
 <html>
+
 <head>
-	<title>fancyBox - touch enabled, responsive and fully customizable lightbox script</title>
+    <title>fancyBox - touch enabled, responsive and fully customizable lightbox script</title>
 
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet" />
 
-	<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
 
-	<style>
-		/* Reset */
-
-		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-			margin: 0;
-			padding: 0;
-			border: 0;
-			font-size: 100%;
-			font: inherit;
-			vertical-align: baseline;
-		}
-
-		html {
-		 	box-sizing: border-box;
-		}
-
-		*, *:before, *:after {
-		 	box-sizing: inherit;
-		}
-
-		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-			display: block;
-		}
-
-		table {
-			border-collapse: collapse;
-			border-spacing: 0;
-		}
-
-		/* Common styling */
-
-		body {
-			-webkit-text-size-adjust: none;
-			font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.6;
-			color: #333;
-		}
-
-		h1, h2, h3 {
-			font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			font-weight: 700;
-			color: #333;
-		}
-
-		a {
-			color: #FF6666;
-			text-decoration: none;
-		}
-
-		a:hover {
-			text-decoration: underline;
-		}
-
-		a.active {
-			font-weight: bold;
-		}
-
-		h1, h2, h3 {
-		    font-family: 'Montserrat', sans-serif;
-		    font-weight: 700;
-		    color: #333;
-		}
-
-		h1 {
-			font-size: 2.5em;
-			font-weight: bold;
-			letter-spacing: -1px;
-		}
-
-		h1 a:hover {
-			text-decoration: none;
-		}
-
-		h2 {
-			margin: 3em 0 1em 0;
-			padding-bottom: 0.25em;
-			font-size: 2em;
-			border-bottom: 1px solid #eee;
-		}
-
-		h2:first-of-type {
-			margin-top: 0;
-		}
-
-		h3 {
-			margin-top: 2em;
-			font-size: 1.25em;
-		}
-
-		b {
-			font-weight: 700;
-		}
-
-		p {
-			margin: 0.5em 0 1.5em 0;
-		}
-
-		p:last-child {
-			margin-bottom: 0;
-		}
-
-		ul {
-		    padding-left: 2em;
-		    margin: 0.5em 0 1.5em 0;
-		}
-
-		pre, code, .demo {
-			font-family: Consolas,"Liberation Mono",Courier,monospace;
-		}
-
-		pre, code {
-			background: #F4F5F6;
-			color: #66676E;
-		}
-
-		pre {
-			padding: 1em;
-			margin-bottom: 1.5em;
-			overflow: auto;
-			max-height: calc(100vh - 150px);
-			-moz-tab-size: 4;
-			tab-size: 4;
-		}
-
-		code {
-			padding: 2px 5px;
-		}
-
-		pre code {
-			padding: 0;
-		}
-
-		.demo {
-			margin-top: -1em;
-			text-align: right;
-		}
-
-
-		/* Layout */
-
-		header {
-			position: relative;
-			padding: 6em 0 6em 0;
-			margin-bottom: 3em;
-			background: #FF6666;
-			color: #fff;
-			text-align: right;
-		}
-
-		header:before {
-			content: '';
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 100%;
-			height: 500px;
-			background: #fff;
-			-webkit-transform-origin: right;
-			    -ms-transform-origin: right;
-			       transform-origin: right;
-			-webkit-transform: skewY(2deg);
-			    -ms-transform: skewY(2deg);
-			        transform: skewY(2deg);
-		}
-
-		.content {
-			position: relative;
-			max-width: 1020px;
-			margin: 0 auto;
-			padding: 0 50px;
-		}
-
-		section .content {
-			padding-left: 240px;
-		}
-
-		footer .content {
-			padding: 6em 50px 3em 240px;
-		}
-
-		aside {
-			position: absolute;
-			top: 0;
-			left : 50px;
-			width: 200px;
-		}
-
-		/* Header */
-
-		header h1, header h1 a {
-			color: #fff;
-		}
-
-		header ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-
-		header ul li {
-			display: inline-block;
-			margin-right: 0.5em;
-		}
-
-		header ul li a {
-			font-size: 1.125em;
-			color: #fff;
-		}
-
-		/* Sidebar */
-
-		aside ul {
-			position: relative;;
-			top: 0;
-			list-style: none;
-			padding: 1.5em 0;
-			margin: 0;
-		}
-
-		aside ul ul {
-			padding: 0 0 0.5em 1.5em;
-			font-size: 90%;
-		}
-
-		@media all and (max-width: 800px) {
-
-			aside {
-				position: relative;
-				left: 0;
-			}
-
-			.content {
-				padding: 0 25px;
-			}
-
-			section .content,
-			footer .content {
-				padding-left: 25px;
-			}
-
-		}
-
-	</style>
+    <style>
+        /* Reset */
+        
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        /* Common styling */
+        
+        body {
+            -webkit-text-size-adjust: none;
+            font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            color: #333;
+        }
+        
+        a {
+            color: #FF6666;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        a.active {
+            font-weight: bold;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #333;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+        
+        h1 a:hover {
+            text-decoration: none;
+        }
+        
+        h2 {
+            margin: 3em 0 1em 0;
+            padding-bottom: 0.25em;
+            font-size: 2em;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        
+        h3 {
+            margin-top: 2em;
+            font-size: 1.25em;
+        }
+        
+        b {
+            font-weight: 700;
+        }
+        
+        p {
+            margin: 0.5em 0 1.5em 0;
+        }
+        
+        p:last-child {
+            margin-bottom: 0;
+        }
+        
+        ul {
+            padding-left: 2em;
+            margin: 0.5em 0 1.5em 0;
+        }
+        
+        pre,
+        code,
+        .demo {
+            font-family: Consolas, "Liberation Mono", Courier, monospace;
+        }
+        
+        pre,
+        code {
+            background: #F4F5F6;
+            color: #66676E;
+        }
+        
+        pre {
+            padding: 1em;
+            margin-bottom: 1.5em;
+            overflow: auto;
+            max-height: calc(100vh - 150px);
+            -moz-tab-size: 4;
+            tab-size: 4;
+        }
+        
+        code {
+            padding: 2px 5px;
+        }
+        
+        pre code {
+            padding: 0;
+        }
+        
+        .demo {
+            margin-top: -1em;
+            text-align: right;
+        }
+        /* Layout */
+        
+        header {
+            position: relative;
+            padding: 6em 0 6em 0;
+            margin-bottom: 3em;
+            background: #FF6666;
+            color: #fff;
+            text-align: right;
+        }
+        
+        header:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            height: 500px;
+            background: #fff;
+            -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+            transform-origin: right;
+            -webkit-transform: skewY(2deg);
+            -ms-transform: skewY(2deg);
+            transform: skewY(2deg);
+        }
+        
+        .content {
+            position: relative;
+            max-width: 1020px;
+            margin: 0 auto;
+            padding: 0 50px;
+        }
+        
+        section .content {
+            padding-left: 240px;
+        }
+        
+        footer .content {
+            padding: 6em 50px 3em 240px;
+        }
+        
+        aside {
+            position: absolute;
+            top: 0;
+            left: 50px;
+            width: 200px;
+        }
+        /* Header */
+        
+        header h1,
+        header h1 a {
+            color: #fff;
+        }
+        
+        header ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        header ul li {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+        
+        header ul li a {
+            font-size: 1.125em;
+            color: #fff;
+        }
+        /* Sidebar */
+        
+        aside ul {
+            position: relative;
+            ;
+            top: 0;
+            list-style: none;
+            padding: 1.5em 0;
+            margin: 0;
+        }
+        
+        aside ul ul {
+            padding: 0 0 0.5em 1.5em;
+            font-size: 90%;
+        }
+        
+        @media all and (max-width: 800px) {
+            aside {
+                position: relative;
+                left: 0;
+            }
+            .content {
+                padding: 0 25px;
+            }
+            section .content,
+            footer .content {
+                padding-left: 25px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-	<header>
-		<div class="content">
-			<h1><a href="http://fancyapps.com/fancybox/3/">fancyBox3</a> Documentation</h1>
+    <header>
+        <div class="content">
+            <h1><a href="http://fancyapps.com/fancybox/3/">fancyBox3</a> Documentation</h1>
 
-			<ul>
-				<li><a href="http://fancyapps.com/fancybox/3/">Homepage</a></li>
-				<li><a href="http://fancyapps.com/fancybox/3/docs/">Documentation</a></li>
-				<li><a href="http://fancyapps.com/store/">Store</a></li>
-				<li><a href="https://github.com/fancyapps/fancybox">Github</a></li>
-			</ul>
-		</div>
-	</header>
+            <ul>
+                <li><a href="http://fancyapps.com/fancybox/3/">Homepage</a></li>
+                <li><a href="http://fancyapps.com/fancybox/3/docs/">Documentation</a></li>
+                <li><a href="http://fancyapps.com/store/">Store</a></li>
+                <li><a href="https://github.com/fancyapps/fancybox">Github</a></li>
+            </ul>
+        </div>
+    </header>
 
-	<section>
-		<div class="content">
+    <section>
+        <div class="content">
 
-			<aside>
-				<ul class="sticky">
-					<li><a href="#setup">Setup</a></li>
-					<li><a href="#usage">How to Use</a></li>
-					<li>
-						<a href="#media_types">Media types</a>
+            <aside>
+                <ul class="sticky">
+                    <li><a href="#setup">Setup</a></li>
+                    <li><a href="#usage">How to Use</a></li>
+                    <li>
+                        <a href="#media_types">Media types</a>
 
-						<ul>
-							<li><a href="#images">Images</a></li>
-							<li><a href="#inline">Inline</a></li>
-							<li><a href="#ajax">Ajax</a></li>
-							<li><a href="#iframe">Iframe</a></li>
-						</ul>
-					</li>
-					<li><a href="#embedding">Embedding</a></li>
-					<li><a href="#options">Options</a></li>
-					<li><a href="#api">Api</a></li>
-					<li><a href="#modules">Modules</a></li>
-					<li><a href="#faq">FAQ</a></li>
-				</ul>
-			</aside>
+                        <ul>
+                            <li><a href="#images">Images</a></li>
+                            <li><a href="#inline">Inline</a></li>
+                            <li><a href="#ajax">Ajax</a></li>
+                            <li><a href="#iframe">Iframe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#embedding">Embedding</a></li>
+                    <li><a href="#options">Options</a></li>
+                    <li><a href="#api">Api</a></li>
+                    <li><a href="#modules">Modules</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </aside>
 
-<!--
+            <!--
 
 	Setup
 	=====
 
 -->
-			<h2 id="setup">Setup</h2>
+            <h2 id="setup">Setup</h2>
 
-			<p>
-				You can install fancyBox by linking <code>.css</code> and <code>.js</code> to your html file.
+            <p>
+                You can install fancyBox by linking <code>.css</code> and <code>.js</code> to your html file. Make sure you also load the jQuery library. Below is a basic HTML template to use as an example:
+            </p>
 
-				Make sure you also load the jQuery library.
-				Below is a basic HTML template to use as an example:
-			</p>
-
-			<pre>&lt;!DOCTYPE html&gt;
+            <pre>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;utf-8&quot;&gt;
@@ -330,44 +420,42 @@
 &lt;/html&gt;
 </pre>
 
-			<p><b>Tips</b>:</p>
+            <p><b>Tips</b>:</p>
 
-			<ul>
-				<li>Make sure you add the jQuery library first</li>
-				<li>If you already have jQuery on your page, you shouldn't include it second time</li>
-				<li>Do not include both fancybox.js and fancybox.min.js files</li>
-			</ul>
+            <ul>
+                <li>Make sure you add the jQuery library first</li>
+                <li>If you already have jQuery on your page, you shouldn't include it second time</li>
+                <li>Do not include both fancybox.js and fancybox.min.js files</li>
+            </ul>
 
-<!--
+            <!--
 
 	How To Use
 	==========
 
 -->
-			<h2 id="usage">How to Use</h2>
+            <h2 id="usage">How to Use</h2>
 
-			<p>
-				There are a few ways you can use fancyBox.
-			</p>
+            <p>
+                There are a few ways you can use fancyBox.
+            </p>
 
 
-			<h3>Initialize with data attributes</h3>
+            <h3>Initialize with data attributes</h3>
 
-			<p>
-				The most basic way to use fancyBox is by adding the <code>data-fancybox</code> attribute to a link.
-				A caption can be added using the <code>data-caption</code> attribute. Example:
-			</p>
+            <p>
+                The most basic way to use fancyBox is by adding the <code>data-fancybox</code> attribute to a link. A caption can be added using the <code>data-caption</code> attribute. Example:
+            </p>
 
-			<pre>&lt;a href="image.jpg" data-fancybox data-caption="My caption"&gt;
+            <pre>&lt;a href="image.jpg" data-fancybox data-caption="My caption"&gt;
 	&lt;img src="thumbnail.jpg" alt="" /&gt;
 &lt;/a&gt;</pre>
 
-			<p>
-				If you have a group of items, you can use the same attribute <code>data-fancybox</code> value for each of them to create a gallery.
-				Each group should have a unique value:
-			</p>
+            <p>
+                If you have a group of items, you can use the same attribute <code>data-fancybox</code> value for each of them to create a gallery. Each group should have a unique value:
+            </p>
 
-			<pre>&lt;a href="image_1.jpg" data-fancybox="group" data-caption="Caption #1"&gt;
+            <pre>&lt;a href="image_1.jpg" data-fancybox="group" data-caption="Caption #1"&gt;
 	&lt;img src="thumbnail_1.jpg" alt="" /&gt;
 &lt;/a&gt;
 
@@ -376,171 +464,159 @@
 &lt;/a&gt;
 </pre>
 
-			<p>
-				<b>Tip</b>:
+            <p>
+                <b>Tip</b>: fancyBox attempts to automatically detect the type of content based on the given url. If it cannot be detected, the type can also be set manually using <code>data-type</code> attribute:
 
-				fancyBox attempts to automatically detect the type of content based on the given url.
-
-				If it cannot be detected, the type can also be set manually using <code>data-type</code> attribute:
-
-				<pre>&lt;a href="images.php?id=123" data-type="image" data-caption="Caption"&gt;
+                <pre>&lt;a href="images.php?id=123" data-type="image" data-caption="Caption"&gt;
 	Show image
 &lt;/a&gt;</pre>
-			</p>
+            </p>
 
 
 
-			<h3>Initialize with JavaScript</h3>
+            <h3>Initialize with JavaScript</h3>
 
-			<p>
-				To bind fancyBox events on any element, select with a jQuery selector and call the <code>fancybox</code> method:
-			</p>
+            <p>
+                To bind fancyBox events on any element, select with a jQuery selector and call the <code>fancybox</code> method:
+            </p>
 
-			<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+            <pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
 	$(&quot;[data-fancybox]&quot;).fancybox({
 		// Options will go here
 	});
 &lt;/script&gt;</code></pre>
 
 
-			<h3>Manual calling of fancyBox</h3>
+            <h3>Manual calling of fancyBox</h3>
 
-			<p>
-				fancyBox can be activated at any point within Javascript and therefore does not necessarily need a trigger element.
+            <p>
+                fancyBox can be activated at any point within Javascript and therefore does not necessarily need a trigger element. Example of displaying a simple message:
+            </p>
 
-				Example of displaying a simple message:
-			</p>
+            <pre><code>$.fancybox.open('&lt;div class=&quot;message&quot;&gt;&lt;h2&gt;Hello!&lt;/h2&gt;&lt;p&gt;You are awesome!&lt;/p&gt;&lt;/div&gt;');</code></pre>
 
-			<pre><code>$.fancybox.open('&lt;div class=&quot;message&quot;&gt;&lt;h2&gt;Hello!&lt;/h2&gt;&lt;p&gt;You are awesome!&lt;/p&gt;&lt;/div&gt;');</code></pre>
+            <p>
+                See <a href="#api">API section</a> for more information.
+            </p>
 
-			<p>
-				See <a href="#api">API section</a> for more information.
-			</p>
-
-<!--
+            <!--
 
 	Examples
 	=========
 
 -->
-			<h2 id="media_types">Media types</h2>
+            <h2 id="media_types">Media types</h2>
 
 
-			<h3 id="images">Images</h3>
+            <h3 id="images">Images</h3>
 
-			<p>
-				The standard way of using fancyBox is with a number of thumbnail images that link to larger images:
-			</p>
+            <p>
+                The standard way of using fancyBox is with a number of thumbnail images that link to larger images:
+            </p>
 
-			<pre><code>&lt;a href="image.jpg" data-fancybox="images" data-caption="My caption"&gt;
+            <pre><code>&lt;a href="image.jpg" data-fancybox="images" data-caption="My caption"&gt;
 	&lt;img src="thumbnail.jpg" alt="" /&gt;
 &lt;/a&gt;</code></pre>
 
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/jyEGGG/?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/jyEGGG/?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<p>
-				By default, fancyBox fully preloads an image before displaying it.
-				You can choose to display the image right away.
-				It will render and show the full size image while the data is being received.
-				To do so, some attributes are necessary:
-			</p>
+            <p>
+                By default, fancyBox fully preloads an image before displaying it. You can choose to display the image right away. It will render and show the full size image while the data is being received. To do so, some attributes are necessary:
+            </p>
 
-			<ul>
-				<li><code>data-width</code>  - the real width of the image</li>
-				<li><code>data-height</code> - the real height of the image</li>
-			</ul>
+            <ul>
+                <li><code>data-width</code> - the real width of the image</li>
+                <li><code>data-height</code> - the real height of the image</li>
+            </ul>
 
-			<pre><code>&lt;a href=&quot;image.jpg&quot; data-fancybox=&quot;images&quot; data-width=&quot;2048&quot; data-height=&quot;1365&quot;&gt;
+            <pre><code>&lt;a href=&quot;image.jpg&quot; data-fancybox=&quot;images&quot; data-width=&quot;2048&quot; data-height=&quot;1365&quot;&gt;
     &lt;img src=&quot;thumbnail.jpg&quot; /&gt;
 &lt;/a&gt;</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/wgBrXd?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/wgBrXd?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<p>
-				fancyBox supports "scrset" so I can display different images based on viewport width. You can use this to improve download times for mobile users and over time save bandwidth.
-				Example:
-			</p>
+            <p>
+                fancyBox supports "scrset" so I can display different images based on viewport width. You can use this to improve download times for mobile users and over time save bandwidth. Example:
+            </p>
 
-			<pre><code>&lt;a href=&quot;medium.jpg&quot; data-fancybox=&quot;images&quot; data-srcset=&quot;large.jpg 1600w, medium.jpg 1200w, small.jpg 640w&quot;&gt;
+            <pre><code>&lt;a href=&quot;medium.jpg&quot; data-fancybox=&quot;images&quot; data-srcset=&quot;large.jpg 1600w, medium.jpg 1200w, small.jpg 640w&quot;&gt;
 	&lt;img src=&quot;thumbnail.jpg&quot; /&gt;
 &lt;/a&gt;</code></pre>
-			<p class="demo">
-				<a href="https://codepen.io/fancyapps/pen/bqbpbO?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="https://codepen.io/fancyapps/pen/bqbpbO?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<p>
-				It is also possible to protect images from downloading by right-click.
-				While this does not protect from truly determined users, it should discourage the vast majority from ripping off your files.
-			</p>
+            <p>
+                It is also possible to protect images from downloading by right-click. While this does not protect from truly determined users, it should discourage the vast majority from ripping off your files.
+            </p>
 
-			<pre><code>$('[data-fancybox]').fancybox({
+            <pre><code>$('[data-fancybox]').fancybox({
 	image : {
 		protect: true
 	}
 });</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/RKKqLx?editors=1010" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/RKKqLx?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
 
-			<h3 id="inline">Inline</h3>
+            <h3 id="inline">Inline</h3>
 
-			<p>
-				For your Inline HTML you have to place a DIV Container into the content of the page:
-			</p>
+            <p>
+                For your Inline HTML you have to place a DIV Container into the content of the page:
+            </p>
 
-			<pre><code>&lt;div style=&quot;display: none;&quot; id=&quot;hidden-content&quot;&gt;
+            <pre><code>&lt;div style=&quot;display: none;&quot; id=&quot;hidden-content&quot;&gt;
 	&lt;h2&gt;Hello&lt;/h2&gt;
 	&lt;p&gt;You are awesome.&lt;/p&gt;
 &lt;/div&gt;</code></pre>
 
-			<p>
-				And then simply create a link using <code>data-src</code> attribute that matches CSS id selector of the element you want to open (<code>#hidden-content</code> in this example):
-			</p>
+            <p>
+                And then simply create a link using <code>data-src</code> attribute that matches CSS id selector of the element you want to open (<code>#hidden-content</code> in this example):
+            </p>
 
-			<pre><code>&lt;a data-fancybox data-src=&quot;#hidden-content&quot; href=&quot;javascript:;&quot;&gt;
+            <pre><code>&lt;a data-fancybox data-src=&quot;#hidden-content&quot; href=&quot;javascript:;&quot;&gt;
 	Hidden div
 &lt;/a&gt;</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/MJYOOd?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/MJYOOd?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<h3 id="ajax">Ajax</h3>
+            <h3 id="ajax">Ajax</h3>
 
-			<p>
-				To load content via AJAX, you need to add a <code>data-type="ajax"</code> attribute to your link:
-			</p>
+            <p>
+                To load content via AJAX, you need to add a <code>data-type="ajax"</code> attribute to your link:
+            </p>
 
-			<pre><code>&lt;a data-fancybox data-type=&quot;ajax&quot; data-src=&quot;my_page.com/path/to/ajax/&quot; href=&quot;javascript:;&quot;&gt;
+            <pre><code>&lt;a data-fancybox data-type=&quot;ajax&quot; data-src=&quot;my_page.com/path/to/ajax/&quot; href=&quot;javascript:;&quot;&gt;
 	AJAX content
 &lt;/a&gt;</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/JEoOvK?editors=1100" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/JEoOvK?editors=1100" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<p>
-				Additionally it is possible to define a selector with the <code>data-selector</code> attribute to show only a part of the response. The selector can be any string, that is a valid jQuery selector:
-			</p>
+            <p>
+                Additionally it is possible to define a selector with the <code>data-selector</code> attribute to show only a part of the response. The selector can be any string, that is a valid jQuery selector:
+            </p>
 
-			<pre><code>&lt;a data-fancybox data-type=&quot;ajax&quot; data-src=&quot;my_page.com/path/to/ajax/&quot; data-selector=&quot;#two&quot; href=&quot;javascript:;&quot;&gt;
+            <pre><code>&lt;a data-fancybox data-type=&quot;ajax&quot; data-src=&quot;my_page.com/path/to/ajax/&quot; data-selector=&quot;#two&quot; href=&quot;javascript:;&quot;&gt;
 	AJAX content
 &lt;/a&gt;
 </code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/MJwWKz?editors=1100" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/MJwWKz?editors=1100" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<h3 id="iframe">Iframe</h3>
+            <h3 id="iframe">Iframe</h3>
 
-			<p>
-				If the content can be shown on a page, and placement in an iframe is not blocked by script or security configuration of that page,
-				it can be presented in a fancyBox:
-			</p>
+            <p>
+                If the content can be shown on a page, and placement in an iframe is not blocked by script or security configuration of that page, it can be presented in a fancyBox:
+            </p>
 
-			<pre><code>&lt;a data-fancybox data-src=&quot;http://codepen.io/fancyapps/full/jyEGGG/&quot; href=&quot;javascript:;&quot;&gt;
+            <pre><code>&lt;a data-fancybox data-src=&quot;http://codepen.io/fancyapps/full/jyEGGG/&quot; href=&quot;javascript:;&quot;&gt;
 	Webpage
 &lt;/a&gt;
 
@@ -548,27 +624,27 @@
 	Sample PDF
 &lt;/a&gt;
 </code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/BpymvO?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/BpymvO?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
 
-			<p>
-				To access and control fancyBox in parent window from inside an iframe:
-			</p>
+            <p>
+                To access and control fancyBox in parent window from inside an iframe:
+            </p>
 
-			<pre><code>// Adjust iframe height according to the contents
+            <pre><code>// Adjust iframe height according to the contents
 parent.jQuery.fancybox.getInstance().update();
 
 // Close current fancyBox instance
 parent.jQuery.fancybox.getInstance().close();</code></pre>
 
 
-			<p>
-				Iframe dimensions can be controlled by CSS:
-			</p>
+            <p>
+                Iframe dimensions can be controlled by CSS:
+            </p>
 
-			<pre><code>.fancybox-slide--iframe .fancybox-content {
+            <pre><code>.fancybox-slide--iframe .fancybox-content {
 	width  : 800px;
 	height : 600px;
 	max-width  : 80%;
@@ -577,11 +653,11 @@ parent.jQuery.fancybox.getInstance().close();</code></pre>
 }</code></pre>
 
 
-			<p>
-				These CSS rules can be overridden by JS, if needed:
-			</p>
+            <p>
+                These CSS rules can be overridden by JS, if needed:
+            </p>
 
-			<pre><code>$(&quot;[data-fancybox]&quot;).fancybox({
+            <pre><code>$(&quot;[data-fancybox]&quot;).fancybox({
 	iframe : {
 		css : {
 			width : '600px'
@@ -590,26 +666,24 @@ parent.jQuery.fancybox.getInstance().close();</code></pre>
 });</code></pre>
 
 
-			<p>
-				If you have not disabled iframe preloading (using an "preload" option), then the script will atempt to
-				calculate content dimensions and will adjust width/height of iframe to fit with content in it.
-				Keep in mind, that due to <a href="https://en.wikipedia.org/wiki/Same-origin_policy" target="_blank">same origin policy</a>,
-				there are some limitations.
-			</p>
+            <p>
+                If you have not disabled iframe preloading (using an "preload" option), then the script will atempt to calculate content dimensions and will adjust width/height of iframe to fit with content in it. Keep in mind, that due to <a href="https://en.wikipedia.org/wiki/Same-origin_policy"
+                target="_blank">same origin policy</a>, there are some limitations.
+            </p>
 
-<!--
+            <!--
 
 	Embedding
 	=======
 
 -->
-			<h2 id="embedding">Embedding</h2>
+            <h2 id="embedding">Embedding</h2>
 
-			<p>
-				Supported sites can be used with fancyBox by just providing the page URL:
-			</p>
+            <p>
+                Supported sites can be used with fancyBox by just providing the page URL:
+            </p>
 
-			<pre><code>&lt;a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"&gt;
+            <pre><code>&lt;a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"&gt;
   YouTube video
 &lt;/a&gt;
 
@@ -624,57 +698,56 @@ parent.jQuery.fancybox.getInstance().close();</code></pre>
 &lt;a data-fancybox href=&quot;https://www.instagram.com/p/BNXYW8-goPI/?taken-by=jamesrelfdyer&quot; data-caption=&quot;&lt;span title=&amp;quot;Edited&amp;quot;&gt;balloon rides at dawn ✨🎈&lt;br&gt;was such a magical experience floating over napa valley as the golden light hit the hills.&lt;br&gt;&lt;a href=&amp;quot;https://www.instagram.com/jamesrelfdyer/&amp;quot;&gt;@jamesrelfdyer&lt;/a&gt;&lt;/span&gt;&quot;&gt;
 	Instagram photo
 &lt;/a&gt;</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/LxEOwL?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/LxEOwL?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<h3>Video dimensions</h3>
+            <h3>Video dimensions</h3>
 
-			<p>
-				Resize video display with the following CSS:
-			</p>
+            <p>
+                Resize video display with the following CSS:
+            </p>
 
-			<pre><code>.fancybox-slide--video .fancybox-content {
+            <pre><code>.fancybox-slide--video .fancybox-content {
 	width  : 800px;
 	height : 600px;
 	max-width  : 80%;
 	max-height : 80%;
 }</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/PWZrzw?editors=1100" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/PWZrzw?editors=1100" target="_blank">View demo on CodePen</a>
+            </p>
 
-			<p>
-				Obviously, you can choose any size you like, any combination with <code>min</code>/<code>max</code> values.
-				<br />
-				Aspect ratio lock for videos is not implemented yet, but if you wish, <a href="http://codepen.io/fancyapps/pen/dNzaQq?editors=1010" target="_blank">you can use this snippet</a>.
-			</p>
-
+            <p>
+                Obviously, you can choose any size you like, any combination with <code>min</code>/<code>max</code> values.
+                <br /> Aspect ratio lock for videos is not implemented yet, but if you wish, <a href="http://codepen.io/fancyapps/pen/dNzaQq?editors=1010" target="_blank">you can use this snippet</a>.
+            </p>
 
 
-			<h3>Video parameters</h3>
 
-			<p>
-				Controlling a video via URL parameters:
-			</p>
+            <h3>Video parameters</h3>
 
-			<pre><code>&lt;a data-fancybox href=&quot;https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot;&gt;
+            <p>
+                Controlling a video via URL parameters:
+            </p>
+
+            <pre><code>&lt;a data-fancybox href=&quot;https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot;&gt;
   YouTube video - hide controls and info
 &lt;/a&gt;
 
 &lt;a data-fancybox href=&quot;https://vimeo.com/191947042?color=f00&quot;&gt;
   Vimeo video - custom color
 &lt;/a&gt;</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/mRVNyO?editors=1000" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/mRVNyO?editors=1000" target="_blank">View demo on CodePen</a>
+            </p>
 
 
-			<p>
-				Via JavaScript:
-			</p>
+            <p>
+                Via JavaScript:
+            </p>
 
-			<pre><code>$('[data-fancybox]').fancybox({
+            <pre><code>$('[data-fancybox]').fancybox({
 	youtube : {
 		controls : 0,
 		showinfo : 0
@@ -683,23 +756,23 @@ parent.jQuery.fancybox.getInstance().close();</code></pre>
 		color : 'f00'
 	}
 });</code></pre>
-			<p class="demo">
-				<a href="http://codepen.io/fancyapps/pen/Qdyeyr?editors=1010" target="_blank">View demo on CodePen</a>
-			</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/Qdyeyr?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
-<!--
+            <!--
 
 	Options
 	=======
 
 -->
-			<h2 id="options">Options</h2>
+            <h2 id="options">Options</h2>
 
-			<p>
-				Available options listed below.
-			</p>
+            <p>
+                Available options listed below.
+            </p>
 
-			<pre>defaults = {
+            <pre>defaults = {
 
 	// Animation duration in ms
 	speed : 330,
@@ -842,59 +915,54 @@ parent.jQuery.fancybox.getInstance().close();</code></pre>
 </pre>
 
 
-				<p>
-					Set instance options by passing a valid object to <code>fancybox()</code> method:
-				</p>
+            <p>
+                Set instance options by passing a valid object to <code>fancybox()</code> method:
+            </p>
 
-				<pre><code>$(&quot;[data-fancybox]&quot;).fancybox({
+            <pre><code>$(&quot;[data-fancybox]&quot;).fancybox({
 	image : {
 		protect : true
 	}
 });</code></pre>
 
 
-				<p>
-					Plugin options / defaults are exposed in <code>$.fancybox.defaults</code> namespace so you can easily adjust them globally:
+            <p>
+                Plugin options / defaults are exposed in <code>$.fancybox.defaults</code> namespace so you can easily adjust them globally:
 
-				</p>
+            </p>
 
-				<pre><code>$.fancybox.defaults.speed = 600;</code></pre>
+            <pre><code>$.fancybox.defaults.speed = 600;</code></pre>
 
-				<p>
-					Custom options for each element individually can be set by adding a <code>data-options</code>
-					attribute to the element.
+            <p>
+                Custom options for each element individually can be set by adding a <code>data-options</code> attribute to the element. This attribute should contain the properly formatted JSON object:
+            </p>
 
-					This attribute should contain the properly formatted JSON object:
-				</p>
-
-				<pre><code>&lt;a data-fancybox data-options='{&quot;caption&quot; : &quot;My caption&quot;, &quot;src : &quot;iframe.html&quot;}' href=&quot;javascript:;&quot;&gt;
+            <pre><code>&lt;a data-fancybox data-options='{&quot;caption&quot; : &quot;My caption&quot;, &quot;src : &quot;iframe.html&quot;}' href=&quot;javascript:;&quot;&gt;
 	Open external page using iframe
 &lt;/a&gt;</code></pre>
 
 
 
-<!--
+            <!--
 
 API
 ===
 
 -->
-				<h2 id="api">API</h2>
+            <h2 id="api">API</h2>
 
-				<p>
-					The fancyBox API offers a couple of methods to control fancyBox.
+            <p>
+                The fancyBox API offers a couple of methods to control fancyBox. This gives you the ability to extend the plugin and to integrate it with other web application components.
+            </p>
 
-					This gives you the ability to extend the plugin and to integrate it with other web application components.
-				</p>
+            <h3 id="core_methods">Core methods</h3>
 
-				<h3 id="core_methods">Core methods</h3>
-
-				<p>
-					Core methods are methods which affect/handle instances:
-				</p>
+            <p>
+                Core methods are methods which affect/handle instances:
+            </p>
 
 
-				<pre><code>// Close only the currently active or all fancyBox instances
+            <pre><code>// Close only the currently active or all fancyBox instances
 $.fancybox.close( all );
 
 // Open the fancyBox right away
@@ -902,11 +970,11 @@ $.fancybox.open( items, opts, index );
 </code></pre>
 
 
-				<p>
-					When calling fancyBox manually, each group item should follow this pattern:
-				</p>
+            <p>
+                When calling fancyBox manually, each group item should follow this pattern:
+            </p>
 
-				<pre><code>{
+            <pre><code>{
 	src  : '' // Source of the content
 	type : '' // Content type: image|inline|ajax|iframe|html (optional)
 	opts : {} // Object containing item options (optional)
@@ -914,11 +982,11 @@ $.fancybox.open( items, opts, index );
 </code></pre>
 
 
-				<p>
-					Example of opening image gallery:
-				</p>
+            <p>
+                Example of opening image gallery:
+            </p>
 
-				<pre><code>$.fancybox.open([
+            <pre><code>$.fancybox.open([
 	{
 		src  : '1_b.jpg',
 		opts : {
@@ -934,15 +1002,15 @@ $.fancybox.open( items, opts, index );
 ], {
 	loop : false
 });</code></pre>
-				<p class="demo">
-					<a href="http://codepen.io/fancyapps/pen/wgZXzz?editors=1010" target="_blank">View demo on CodePen</a>
-				</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/wgZXzz?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
-				<p>
-					It is also possible to pass only one object. Example of opening inline content:
-				</p>
+            <p>
+                It is also possible to pass only one object. Example of opening inline content:
+            </p>
 
-				<pre><code>$.fancybox.open({
+            <pre><code>$.fancybox.open({
 	src  : '#hidden-content',
 	type : 'inline',
 	opts : {
@@ -952,42 +1020,41 @@ $.fancybox.open( items, opts, index );
 	}
 });
 </code></pre>
-				<p class="demo">
-					<a href="http://codepen.io/fancyapps/pen/JEVLgN?editors=1010" target="_blank">View demo on CodePen</a>
-				</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/JEVLgN?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
-				<p>
-					If you wish to display some html content (for example, a message), then you can use a simpler syntax.
-					It is advised to use a wrapper around your content.
-				</p>
+            <p>
+                If you wish to display some html content (for example, a message), then you can use a simpler syntax. It is advised to use a wrapper around your content.
+            </p>
 
-				<pre><code>$.fancybox.open('&lt;div class=&quot;message&quot;&gt;&lt;h2&gt;Hello!&lt;/h2&gt;&lt;p&gt;You are awesome!&lt;/p&gt;&lt;/div&gt;');</code></pre>
-				<p class="demo">
-					<a href="http://codepen.io/fancyapps/pen/VPNBaK" target="_blank">View demo on CodePen</a>
-				</p>
-
+            <pre><code>$.fancybox.open('&lt;div class=&quot;message&quot;&gt;&lt;h2&gt;Hello!&lt;/h2&gt;&lt;p&gt;You are awesome!&lt;/p&gt;&lt;/div&gt;');</code></pre>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/VPNBaK" target="_blank">View demo on CodePen</a>
+            </p>
 
 
-				<h3 id="instance_methods">Instance methods</h3>
 
-				<p>
-					In order to use these methods, you need an instance of the plugin's object:
-				</p>
+            <h3 id="instance_methods">Instance methods</h3>
 
-				<pre><code>var $instance = $.fancybox.getInstance();</code></pre>
+            <p>
+                In order to use these methods, you need an instance of the plugin's object:
+            </p>
 
-				<p>
-					Or you can can just use fancyBox constructor:
-				</p>
+            <pre><code>var $instance = $.fancybox.getInstance();</code></pre>
 
-				<pre><code>var $instance = $(&quot;[data-fancybox]&quot;).fancybox();</code></pre>
+            <p>
+                Or you can can just use fancyBox constructor:
+            </p>
 
-				<p>
-					Once you have a reference to fancyBox instance the following methods are available:
-				</p>
+            <pre><code>var $instance = $(&quot;[data-fancybox]&quot;).fancybox();</code></pre>
+
+            <p>
+                Once you have a reference to fancyBox instance the following methods are available:
+            </p>
 
 
-				<pre><code>// Go to next gallery item
+            <pre><code>// Go to next gallery item
 $instance.next( duration );
 
 // Go to previous gallery item
@@ -1032,28 +1099,28 @@ $instance.close();
 </code></pre>
 
 
-				<p>
-					You can also do something like this:
-				</p>
+            <p>
+                You can also do something like this:
+            </p>
 
-				<pre><code>$.fancybox.getInstance().jumpTo(1);</code></pre>
+            <pre><code>$.fancybox.getInstance().jumpTo(1);</code></pre>
 
-				<p>
-					or simply:
-				</p>
+            <p>
+                or simply:
+            </p>
 
-				<pre><code>$.fancybox.getInstance('jumpTo', 1);</code></pre>
-
-
+            <pre><code>$.fancybox.getInstance('jumpTo', 1);</code></pre>
 
 
-				<h3 id="events">Events</h3>
 
-				<p>
-					fancyBox fires several events.
-				</p>
 
-				<pre><code>beforeLoad	 : Before the content of a slide is being loaded
+            <h3 id="events">Events</h3>
+
+            <p>
+                fancyBox fires several events.
+            </p>
+
+            <pre><code>beforeLoad	 : Before the content of a slide is being loaded
 afterLoad    : When the content of a slide is done loading
 beforeMove 	 : Before slide change transition starts
 afterMove    : After slide change transition is complete
@@ -1067,11 +1134,11 @@ onDeactivate : When other instance has been activated
 </code></pre>
 
 
-				<p>
-					Event callbacks can be set as function properties of the options object passed to fancyBox initialization function:
-				</p>
+            <p>
+                Event callbacks can be set as function properties of the options object passed to fancyBox initialization function:
+            </p>
 
-				<pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
+            <pre><code>&lt;script type=&quot;text/javascript&quot;&gt;
 	$(&quot;[data-fancybox]&quot;).fancybox({
 		onComplete: function( instance, slide ) {
 
@@ -1094,50 +1161,45 @@ onDeactivate : When other instance has been activated
 	});
 &lt;/script&gt;</code></pre>
 
-				<p>
-					Each callback receives two parameters - current fancyBox instance and current gallery object, if exists.
-				</p>
+            <p>
+                Each callback receives two parameters - current fancyBox instance and current gallery object, if exists.
+            </p>
 
-				<p>
-					It is also possible to attach event handler for all instances.
-					To prevent interfering with other scripts, these events have been namespaced to <code>.fb</code>.
-					These handlers receive 3 parameters - event, current fancyBox instance and current gallery object.
-				</p>
-				<p>
-					Here is an example of binding to the <code>onComplete</code> event:
-				</p>
+            <p>
+                It is also possible to attach event handler for all instances. To prevent interfering with other scripts, these events have been namespaced to <code>.fb</code>. These handlers receive 3 parameters - event, current fancyBox instance and
+                current gallery object.
+            </p>
+            <p>
+                Here is an example of binding to the <code>onComplete</code> event:
+            </p>
 
-				<pre><code>$(document).on('onComplete.fb', function( e, instance, slide ) {
+            <pre><code>$(document).on('onComplete.fb', function( e, instance, slide ) {
 	// Your code goes here
 });</code></pre>
 
 
-				<p>
-					If you wish to prevent closing of the modal, for example, if form is not validating, you can use <code>beforeClose</code>
-					callback. Simply return <code>false</code>:
-				</p>
+            <p>
+                If you wish to prevent closing of the modal, for example, if form is not validating, you can use <code>beforeClose</code> callback. Simply return <code>false</code>:
+            </p>
 
-				<pre><code>beforeClose : function( instance, current, e ) {
+            <pre><code>beforeClose : function( instance, current, e ) {
 	if ( $('#my-field').val() == '' ) {
 		return false;
 	}
 }
 </code></pre>
 
-				<h2 id="modules">Modules</h2>
+            <h2 id="modules">Modules</h2>
 
-				<p>
-					fancyBox code is split into several files (modules) that extend core functionality.
-					You can build your own fancyBox version by excluding unnecessary modules, if needed.
-					Each one has their own <code>js</code> and/or <code>css</code> files.
-				</p>
+            <p>
+                fancyBox code is split into several files (modules) that extend core functionality. You can build your own fancyBox version by excluding unnecessary modules, if needed. Each one has their own <code>js</code> and/or <code>css</code> files.
+            </p>
 
-				<p>
-					Some modules can be customized and controlled programmatically.
-					List of all possible options:
-				</p>
+            <p>
+                Some modules can be customized and controlled programmatically. List of all possible options:
+            </p>
 
-				<pre><code>slideShow : {
+            <pre><code>slideShow : {
 	speed : 3000 // Slideshow speed in ms
 },
 touch : {
@@ -1152,41 +1214,40 @@ fullScreen : {
 },
 hash : false // Hash value</code></pre>
 
-				<p>
-					Example (show thumbnails on start):
-				</p>
+            <p>
+                Example (show thumbnails on start):
+            </p>
 
-				<pre><code>$('[data-fancybox="images"]').fancybox({
+            <pre><code>$('[data-fancybox="images"]').fancybox({
 	thumbs : {
 		showOnStart : true
 	}
 })</code></pre>
-				<p class="demo">
-					<a href="https://codepen.io/fancyapps/pen/RKKVVa?editors=1010" target="_blank">View demo on CodePen</a>
-				</p>
+            <p class="demo">
+                <a href="https://codepen.io/fancyapps/pen/RKKVVa?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
-				<p>
-					If you would inspect fancyBox instance object, you would find keys that names ar captialized - these are references for each module object.
-					Also, you would notice that fancyBox uses common naming convention to prefix jQuery objects with <code>$</code>.
-				</p>
+            <p>
+                If you would inspect fancyBox instance object, you would find keys that names ar captialized - these are references for each module object. Also, you would notice that fancyBox uses common naming convention to prefix jQuery objects with <code>$</code>.
+            </p>
 
-				<p>
-					This is how you, for example, can access thumbnail grid element:
-				</p>
+            <p>
+                This is how you, for example, can access thumbnail grid element:
+            </p>
 
-				<pre><code>$.fancybox.getInstance().Thumbs.$grid</code></pre>
+            <pre><code>$.fancybox.getInstance().Thumbs.$grid</code></pre>
 
-				<p>
-					This example shows how to call method that toggles thumbnails:
-				</p>
+            <p>
+                This example shows how to call method that toggles thumbnails:
+            </p>
 
-				<pre><code>$.fancybox.getInstance().Thumbs.toggle();</code></pre>
+            <pre><code>$.fancybox.getInstance().Thumbs.toggle();</code></pre>
 
-				<p>
-					List of available methods:
-				</p>
+            <p>
+                List of available methods:
+            </p>
 
-				<pre><code>Thumbs.focus()
+            <pre><code>Thumbs.focus()
 Thumbs.close();
 Thumbs.update();
 Thumbs.hide();
@@ -1204,53 +1265,51 @@ SlideShow.stop();
 SlideShow.toggle();
 </code></pre>
 
-				<p>
-					If you wish to disable hash module, use this snippet (after including JS file):
-				</p>
+            <p>
+                If you wish to disable hash module, use this snippet (after including JS file):
+            </p>
 
-				<pre><code>$.fancybox.defaults.hash = false;</code></pre>
+            <pre><code>$.fancybox.defaults.hash = false;</code></pre>
 
-<!--
+            <!--
 
 FAQ
 ===
 
 -->
-				<h2 id="faq">FAQ</h2>
+            <h2 id="faq">FAQ</h2>
 
-				<h3>Opening/closing causes fixed element to jump</h3>
+            <h3>Opening/closing causes fixed element to jump</h3>
 
-				<p>
-					Simply add <code>compensate-for-scrollbar</code> CSS class to your fixed positioned elements.
-					Example of using Bootstrap navbar component:
-				</p>
+            <p>
+                Simply add <code>compensate-for-scrollbar</code> CSS class to your fixed positioned elements. Example of using Bootstrap navbar component:
+            </p>
 
-				<pre><code>&lt;nav class=&quot;navbar navbar-inverse navbar-fixed-top compensate-for-scrollbar&quot;&gt;
+            <pre><code>&lt;nav class=&quot;navbar navbar-inverse navbar-fixed-top compensate-for-scrollbar&quot;&gt;
 	&lt;div class=&quot;container&quot;&gt;
 		..
 	&lt;/div&gt;
 &lt;/nav&gt;</code></pre>
 
-				<p>
-					The script measures width of the scrollbar and creates <code>compensate-for-scrollbar</code> CSS class
-					that uses this value for <code>margin-right</code> property.
-					Therefore, if your element has <code>width:100%</code>, you should positon it using <code>left</code> and <code>right</code> properties instead. Example:
-				</p>
+            <p>
+                The script measures width of the scrollbar and creates <code>compensate-for-scrollbar</code> CSS class that uses this value for <code>margin-right</code> property. Therefore, if your element has <code>width:100%</code>, you should positon
+                it using <code>left</code> and <code>right</code> properties instead. Example:
+            </p>
 
-				<pre><code>.navbar {
+            <pre><code>.navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 }</code></pre>
 
-				<h3>How to customize caption</h3>
+            <h3>How to customize caption</h3>
 
-				<p>
-					You can use <code>caption</code> option that accepts a function and is called for each group element. Example of appending image download link:
-				</p>
+            <p>
+                You can use <code>caption</code> option that accepts a function and is called for each group element. Example of appending image download link:
+            </p>
 
-				<pre><code>$( '[data-fancybox]' ).fancybox({
+            <pre><code>$( '[data-fancybox]' ).fancybox({
 	caption : function( instance, item ) {
 		var caption, link;
 
@@ -1262,32 +1321,32 @@ FAQ
 		}
 	}
 });</code></pre>
-				<p class="demo">
-					<a href="http://codepen.io/fancyapps/pen/ygeYGx?editors=1010" target="_blank">View demo on CodePen</a>
-				</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/ygeYGx?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
 
-				<p>
-					Inside <code>caption</code> method, <code>this</code> refers to the clicked element. Example of using different source for caption:
-				</p>
+            <p>
+                Inside <code>caption</code> method, <code>this</code> refers to the clicked element. Example of using different source for caption:
+            </p>
 
-				<pre><code>$( '[data-fancybox]' ).fancybox({
+            <pre><code>$( '[data-fancybox]' ).fancybox({
 	caption : function( instance, item ) {
 		return $(this).find('figcaption').html();
 	}
 });</code></pre>
-				<p class="demo">
-					<a href="https://codepen.io/fancyapps/pen/bgEQXo?editors=1010" target="_blank">View demo on CodePen</a>
-				</p>
+            <p class="demo">
+                <a href="https://codepen.io/fancyapps/pen/bgEQXo?editors=1010" target="_blank">View demo on CodePen</a>
+            </p>
 
 
-				<h3>How to create custom button in the toolbar</h3>
+            <h3>How to create custom button in the toolbar</h3>
 
-				<p>
-					Example of using callback to access toolbar element and append custom button:
-				</p>
+            <p>
+                Example of using callback to access toolbar element and append custom button:
+            </p>
 
-				<pre><code>$( '[data-fancybox]' ).fancybox({
+            <pre><code>$( '[data-fancybox]' ).fancybox({
 	onInit : function( instance ) {
 		instance.$refs.downloadButton = $('&lt;a class=&quot;fancybox-button fancybox-download&quot;&gt;&lt;/a&gt;')
 			.appendTo( instance.$refs.buttons );
@@ -1299,127 +1358,128 @@ FAQ
 
 </code></pre>
 
-				<p class="demo">
-					<a href="http://codepen.io/fancyapps/pen/dNGapJ" target="_blank">View demo on CodePen</a>
-				</p>
+            <p class="demo">
+                <a href="http://codepen.io/fancyapps/pen/dNGapJ" target="_blank">View demo on CodePen</a>
+            </p>
 
-				<h3>How to reposition thumbnail grid</h3>
+            <h3>How to reposition thumbnail grid</h3>
 
-				<p>
-					There is currenty no JS option to change thumbnail grid position.
-					But fancyBox is designed so that you can use CSS to change position or dimension for each block
-					(e.g., content area, caption or thumbnail grid).
-					This gives you freedom to completely change the look and feel of the modal window, if needed.
-					<a href="http://codepen.io/fancyapps/pen/vgRajd" target="_blank">View demo on CodePen</a>
-				</p>
+            <p>
+                There is currenty no JS option to change thumbnail grid position. But fancyBox is designed so that you can use CSS to change position or dimension for each block (e.g., content area, caption or thumbnail grid). This gives you freedom to completely change
+                the look and feel of the modal window, if needed.
+                <a href="http://codepen.io/fancyapps/pen/vgRajd" target="_blank">View demo on CodePen</a>
+            </p>
 
-			</div>
+        </div>
 
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<footer>
-		<div class="content">
-			<p>
-				<a href="javascript:;" onClick="javascript:$('html, body').animate({ scrollTop: 0 }, 0);return false;">Back to Top</a>
-			</p>
-		</div>
-	</footer>
-	<script>
+    <footer>
+        <div class="content">
+            <p>
+                <a href="javascript:;" onClick="javascript:$('html, body').animate({ scrollTop: 0 }, 0);return false;">Back to Top</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        /* Sticky nvigation */
 
-		/* Sticky nvigation */
+        var sticky = {
+            $sticky: $('.sticky'),
+            offsets: [],
+            targets: [],
+            stickyTop: null,
 
-		var sticky = {
-			$sticky      : $( '.sticky' ),
-			offsets      : [],
-			targets      : [],
-			stickyTop    : null,
+            set: function() {
+                var self = this;
 
-			set : function() {
-				var self = this;
+                self.offsets = [];
+                self.targets = [];
 
-				self.offsets = [];
-				self.targets = [];
+                // Get current top position of sticky element
 
-				// Get current top position of sticky element
+                self.stickyTop = self.$sticky.css('position', 'relative').offset().top;
 
-				self.stickyTop = self.$sticky.css( 'position', 'relative' ).offset().top;
+                // Cache all targets and their top positions
 
-				// Cache all targets and their top positions
+                self.$sticky.find('a').map(function() {
+                        var $el = $(this),
+                            href = $el.data('target') || $el.attr('href'),
+                            $href = /^#./.test(href) && $(href);
 
-				self.$sticky.find( 'a' ).map(function () {
-					var $el		= $( this ),
-						href	= $el.data('target') || $el.attr( 'href' ),
-						$href	= /^#./.test(href) && $( href );
+                        return $href && $href.length && $href.is(':visible') ? [
+                            [Math.floor($href.offset().top - parseInt($href.css('margin-top'))), href]
+                        ] : null;
+                    })
+                    .sort(function(a, b) {
+                        return a[0] - b[0]
+                    })
+                    .each(function() {
+                        self.offsets.push(this[0]);
+                        self.targets.push(this[1]);
+                    });
 
-					return $href && $href.length && $href.is( ':visible' ) ? [ [ Math.floor( $href.offset().top - parseInt( $href.css('margin-top') ) ), href ] ] : null;
-				})
-				.sort(function (a, b) { return a[0] - b[0] })
-				.each(function () {
-					self.offsets.push( this[ 0 ] );
-					self.targets.push( this[ 1 ] );
-				});
+            },
 
-			},
+            update: function() {
+                var self = this;
 
-			update : function() {
-				var self = this;
+                var windowTop = Math.floor($(window).scrollTop());
+                var $stickyLinks = self.$sticky.find('a').removeClass('active');
+                var stickyPosition = 'fixed';
+                var currentIndex = 0;
 
-				var windowTop       = Math.floor( $(window).scrollTop() );
-				var $stickyLinks    = self.$sticky.find( 'a' ).removeClass( 'active' );
-				var stickyPosition  = 'fixed';
-				var currentIndex    = 0;
+                // Toggle fixed position depending on visibility
 
-				// Toggle fixed position depending on visibility
+                if ($(window).width() < 800 || self.stickyTop > windowTop) {
+                    stickyPosition = 'relative';
 
-				if ( $(window).width() < 800 || self.stickyTop > windowTop ) {
-					stickyPosition = 'relative';
+                } else {
 
-				} else {
+                    for (var i = self.offsets.length; i--;) {
+                        if (windowTop >= self.offsets[i] && (self.offsets[i + 1] === undefined || windowTop <= self.offsets[i + 1])) {
+                            currentIndex = i;
 
-					for ( var i = self.offsets.length; i--; ) {
-						if ( windowTop >= self.offsets[ i ] && ( self.offsets[ i + 1 ] === undefined || windowTop <= self.offsets[ i + 1 ]) ) {
-							currentIndex = i;
+                            break;
+                        }
+                    }
 
-							break;
-						}
-					}
+                }
 
-				}
+                self.$sticky.css('position', stickyPosition);
 
-				self.$sticky.css( 'position', stickyPosition );
+                $stickyLinks.eq(currentIndex).addClass('active');
 
-				$stickyLinks.eq( currentIndex ).addClass( 'active' );
+            },
 
-			},
+            init: function() {
+                var self = this;
 
-			init : function() {
-				var self = this;
+                $(window).on('resize', function() {
 
-				$(window).on('resize', function() {
+                    self.set();
 
-					self.set();
+                    self.update();
 
-					self.update();
+                });
 
-				});
+                $(window).on('scroll', function() {
 
-				$(window).on('scroll', function() {
+                    self.update();
 
-					self.update();
+                });
 
-				});
+                self.set();
 
-				self.set();
+                self.update();
 
-				self.update();
+            }
+        }
 
-			}
-		}
-
-		sticky.init();
-
-	</script>
+        sticky.init();
+    </script>
 </body>
+
 </html>

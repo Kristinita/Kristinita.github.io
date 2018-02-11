@@ -1,159 +1,1154 @@
-.SashaInlineHighlight .hll { background-color: #333333 }
-.SashaInlineHighlight  { background: #5e3b47; color: #ffffff }
-.SashaInlineHighlight .c { color: #008800; font-style: italic; background-color: #0f140f } /* Comment */
-.SashaInlineHighlight .err { color: #ffffff } /* Error */
-.SashaInlineHighlight .esc { color: #ffffff } /* Escape */
-.SashaInlineHighlight .g { color: #ffffff } /* Generic */
-.SashaInlineHighlight .k { color: #fb660a; font-weight: bold } /* Keyword */
-.SashaInlineHighlight .l { color: #ffffff } /* Literal */
-.SashaInlineHighlight .n { color: #ffffff } /* Name */
-.SashaInlineHighlight .o { color: #ffffff } /* Operator */
-.SashaInlineHighlight .x { color: #ffffff } /* Other */
-.SashaInlineHighlight .p { color: sandybrown } /* Punctuation */
-.SashaInlineHighlight .ch { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Hashbang */
-.SashaInlineHighlight .cm { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Multiline */
-.SashaInlineHighlight .cp { color: #ff0007; font-weight: bold; font-style: italic; background-color: #0f140f } /* Comment.Preproc */
-.SashaInlineHighlight .cpf { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.PreprocFile */
-.SashaInlineHighlight .c1 { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Single */
-.SashaInlineHighlight .cs { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Special */
-.SashaInlineHighlight .gd { color: #ffffff } /* Generic.Deleted */
-.SashaInlineHighlight .ge { color: #ffffff } /* Generic.Emph */
-.SashaInlineHighlight .gr { color: #ffffff } /* Generic.Error */
-.SashaInlineHighlight .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
-.SashaInlineHighlight .gi { color: #ffffff } /* Generic.Inserted */
-.SashaInlineHighlight .go { color: #444444; background-color: #222222 } /* Generic.Output */
-.SashaInlineHighlight .gp { color: #ffffff } /* Generic.Prompt */
-.SashaInlineHighlight .gs { color: #ffffff } /* Generic.Strong */
-.SashaInlineHighlight .gu { color: #ffffff; font-weight: bold } /* Generic.Subheading */
-.SashaInlineHighlight .gt { color: #ffffff } /* Generic.Traceback */
-.SashaInlineHighlight .kc { color: #fb660a; font-weight: bold } /* Keyword.Constant */
-.SashaInlineHighlight .kd { color: #fb660a; font-weight: bold } /* Keyword.Declaration */
-.SashaInlineHighlight .kn { color: #fb660a; font-weight: bold } /* Keyword.Namespace */
-.SashaInlineHighlight .kp { color: #fb660a } /* Keyword.Pseudo */
-.SashaInlineHighlight .kr { color: #fb660a; font-weight: bold } /* Keyword.Reserved */
-.SashaInlineHighlight .kt { color: #cdcaa9; font-weight: bold } /* Keyword.Type */
-.SashaInlineHighlight .ld { color: #ffffff } /* Literal.Date */
-.SashaInlineHighlight .m { color: #0086f7; font-weight: bold } /* Literal.Number */
-.SashaInlineHighlight .s { color: skyblue } /* Literal.String */
-.SashaInlineHighlight .na { color: #ff0086; font-weight: bold } /* Name.Attribute */
-.SashaInlineHighlight .nb { color: #ffffff } /* Name.Builtin */
-.SashaInlineHighlight .nc { color: #ffffff } /* Name.Class */
-.SashaInlineHighlight .no { color: skyblue } /* Name.Constant */
-.SashaInlineHighlight .nd { color: #ffffff } /* Name.Decorator */
-.SashaInlineHighlight .ni { color: #ffffff } /* Name.Entity */
-.SashaInlineHighlight .ne { color: #ffffff } /* Name.Exception */
-.SashaInlineHighlight .nf { color: #ff0086; font-weight: bold } /* Name.Function */
-.SashaInlineHighlight .nl { color: #ffffff } /* Name.Label */
-.SashaInlineHighlight .nn { color: #ffffff } /* Name.Namespace */
-.SashaInlineHighlight .nx { color: #ffffff } /* Name.Other */
-.SashaInlineHighlight .py { color: #ffffff } /* Name.Property */
-.SashaInlineHighlight .nt { color: #fb660a; font-weight: bold } /* Name.Tag */
-.SashaInlineHighlight .nv { color: #fb660a } /* Name.Variable */
-.SashaInlineHighlight .ow { color: #ffffff } /* Operator.Word */
-.SashaInlineHighlight .w { color: #888888 } /* Text.Whitespace */
-.SashaInlineHighlight .mb { color: #0086f7; font-weight: bold } /* Literal.Number.Bin */
-.SashaInlineHighlight .mf { color: #0086f7; font-weight: bold } /* Literal.Number.Float */
-.SashaInlineHighlight .mh { color: #0086f7; font-weight: bold } /* Literal.Number.Hex */
-.SashaInlineHighlight .mi { color: #0086f7; font-weight: bold } /* Literal.Number.Integer */
-.SashaInlineHighlight .mo { color: #0086f7; font-weight: bold } /* Literal.Number.Oct */
-.SashaInlineHighlight .sa { color: skyblue } /* Literal.String.Affix */
-.SashaInlineHighlight .sb { color: skyblue } /* Literal.String.Backtick */
-.SashaInlineHighlight .sc { color: skyblue } /* Literal.String.Char */
-.SashaInlineHighlight .dl { color: skyblue } /* Literal.String.Delimiter */
-.SashaInlineHighlight .sd { color: skyblue } /* Literal.String.Doc */
-.SashaInlineHighlight .s2 { color: skyblue } /* Literal.String.Double */
-.SashaInlineHighlight .se { color: skyblue } /* Literal.String.Escape */
-.SashaInlineHighlight .sh { color: skyblue } /* Literal.String.Heredoc */
-.SashaInlineHighlight .si { color: skyblue } /* Literal.String.Interpol */
-.SashaInlineHighlight .sx { color: skyblue } /* Literal.String.Other */
-.SashaInlineHighlight .sr { color: skyblue } /* Literal.String.Regex */
-.SashaInlineHighlight .s1 { color: skyblue } /* Literal.String.Single */
-.SashaInlineHighlight .ss { color: skyblue } /* Literal.String.Symbol */
-.SashaInlineHighlight .bp { color: #ffffff } /* Name.Builtin.Pseudo */
-.SashaInlineHighlight .fm { color: #ff0086; font-weight: bold } /* Name.Function.Magic */
-.SashaInlineHighlight .vc { color: #fb660a } /* Name.Variable.Class */
-.SashaInlineHighlight .vg { color: #fb660a } /* Name.Variable.Global */
-.SashaInlineHighlight .vi { color: #fb660a } /* Name.Variable.Instance */
-.SashaInlineHighlight .vm { color: #fb660a } /* Name.Variable.Magic */
-.SashaInlineHighlight .il { color: #0086f7; font-weight: bold } /* Literal.Number.Integer.Long */
+.SashaInlineHighlight .hll {
+    background-color: #333333
+}
+
+.SashaInlineHighlight {
+    background: #5e3b47;
+    color: #ffffff
+}
+
+.SashaInlineHighlight .c {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
 
 
-.SashaBlockHighlight .hll { background-color: #333333 }
-.SashaBlockHighlight  { background: #5e3b47; color: #ffffff }
-.SashaBlockHighlight .c { color: #008800; font-style: italic; background-color: #0f140f } /* Comment */
-.SashaBlockHighlight .err { color: #ffffff } /* Error */
-.SashaBlockHighlight .esc { color: #ffffff } /* Escape */
-.SashaBlockHighlight .g { color: #ffffff } /* Generic */
-.SashaBlockHighlight .k { color: #fb660a; font-weight: bold } /* Keyword */
-.SashaBlockHighlight .l { color: #ffffff } /* Literal */
-.SashaBlockHighlight .n { color: #ffffff } /* Name */
-.SashaBlockHighlight .o { color: #ffffff } /* Operator */
-.SashaBlockHighlight .x { color: #ffffff } /* Other */
-.SashaBlockHighlight .p { color: sandybrown } /* Punctuation */
-.SashaBlockHighlight .ch { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Hashbang */
-.SashaBlockHighlight .cm { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Multiline */
-.SashaBlockHighlight .cp { color: #ff0007; font-weight: bold; font-style: italic; background-color: #0f140f } /* Comment.Preproc */
-.SashaBlockHighlight .cpf { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.PreprocFile */
-.SashaBlockHighlight .c1 { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Single */
-.SashaBlockHighlight .cs { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Special */
-.SashaBlockHighlight .gd { color: #ffffff } /* Generic.Deleted */
-.SashaBlockHighlight .ge { color: #ffffff } /* Generic.Emph */
-.SashaBlockHighlight .gr { color: #ffffff } /* Generic.Error */
-.SashaBlockHighlight .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
-.SashaBlockHighlight .gi { color: #ffffff } /* Generic.Inserted */
-.SashaBlockHighlight .go { color: #444444; background-color: #222222 } /* Generic.Output */
-.SashaBlockHighlight .gp { color: #ffffff } /* Generic.Prompt */
-.SashaBlockHighlight .gs { color: #ffffff } /* Generic.Strong */
-.SashaBlockHighlight .gu { color: #ffffff; font-weight: bold } /* Generic.Subheading */
-.SashaBlockHighlight .gt { color: #ffffff } /* Generic.Traceback */
-.SashaBlockHighlight .kc { color: #fb660a; font-weight: bold } /* Keyword.Constant */
-.SashaBlockHighlight .kd { color: #fb660a; font-weight: bold } /* Keyword.Declaration */
-.SashaBlockHighlight .kn { color: #fb660a; font-weight: bold } /* Keyword.Namespace */
-.SashaBlockHighlight .kp { color: #fb660a } /* Keyword.Pseudo */
-.SashaBlockHighlight .kr { color: #fb660a; font-weight: bold } /* Keyword.Reserved */
-.SashaBlockHighlight .kt { color: #cdcaa9; font-weight: bold } /* Keyword.Type */
-.SashaBlockHighlight .ld { color: #ffffff } /* Literal.Date */
-.SashaBlockHighlight .m { color: #0086f7; font-weight: bold } /* Literal.Number */
-.SashaBlockHighlight .s { color: skyblue } /* Literal.String */
-.SashaBlockHighlight .na { color: #ff0086; font-weight: bold } /* Name.Attribute */
-.SashaBlockHighlight .nb { color: #ffffff } /* Name.Builtin */
-.SashaBlockHighlight .nc { color: #ffffff } /* Name.Class */
-.SashaBlockHighlight .no { color: skyblue } /* Name.Constant */
-.SashaBlockHighlight .nd { color: #ffffff } /* Name.Decorator */
-.SashaBlockHighlight .ni { color: #ffffff } /* Name.Entity */
-.SashaBlockHighlight .ne { color: #ffffff } /* Name.Exception */
-.SashaBlockHighlight .nf { color: #ff0086; font-weight: bold } /* Name.Function */
-.SashaBlockHighlight .nl { color: #ffffff } /* Name.Label */
-.SashaBlockHighlight .nn { color: #ffffff } /* Name.Namespace */
-.SashaBlockHighlight .nx { color: #ffffff } /* Name.Other */
-.SashaBlockHighlight .py { color: #ffffff } /* Name.Property */
-.SashaBlockHighlight .nt { color: #fb660a; font-weight: bold } /* Name.Tag */
-.SashaBlockHighlight .nv { color: #fb660a } /* Name.Variable */
-.SashaBlockHighlight .ow { color: #ffffff } /* Operator.Word */
-.SashaBlockHighlight .w { color: #888888 } /* Text.Whitespace */
-.SashaBlockHighlight .mb { color: #0086f7; font-weight: bold } /* Literal.Number.Bin */
-.SashaBlockHighlight .mf { color: #0086f7; font-weight: bold } /* Literal.Number.Float */
-.SashaBlockHighlight .mh { color: #0086f7; font-weight: bold } /* Literal.Number.Hex */
-.SashaBlockHighlight .mi { color: #0086f7; font-weight: bold } /* Literal.Number.Integer */
-.SashaBlockHighlight .mo { color: #0086f7; font-weight: bold } /* Literal.Number.Oct */
-.SashaBlockHighlight .sa { color: skyblue } /* Literal.String.Affix */
-.SashaBlockHighlight .sb { color: skyblue } /* Literal.String.Backtick */
-.SashaBlockHighlight .sc { color: skyblue } /* Literal.String.Char */
-.SashaBlockHighlight .dl { color: skyblue } /* Literal.String.Delimiter */
-.SashaBlockHighlight .sd { color: skyblue } /* Literal.String.Doc */
-.SashaBlockHighlight .s2 { color: skyblue } /* Literal.String.Double */
-.SashaBlockHighlight .se { color: skyblue } /* Literal.String.Escape */
-.SashaBlockHighlight .sh { color: skyblue } /* Literal.String.Heredoc */
-.SashaBlockHighlight .si { color: skyblue } /* Literal.String.Interpol */
-.SashaBlockHighlight .sx { color: skyblue } /* Literal.String.Other */
-.SashaBlockHighlight .sr { color: skyblue } /* Literal.String.Regex */
-.SashaBlockHighlight .s1 { color: skyblue } /* Literal.String.Single */
-.SashaBlockHighlight .ss { color: skyblue } /* Literal.String.Symbol */
-.SashaBlockHighlight .bp { color: #ffffff } /* Name.Builtin.Pseudo */
-.SashaBlockHighlight .fm { color: #ff0086; font-weight: bold } /* Name.Function.Magic */
-.SashaBlockHighlight .vc { color: #fb660a } /* Name.Variable.Class */
-.SashaBlockHighlight .vg { color: #fb660a } /* Name.Variable.Global */
-.SashaBlockHighlight .vi { color: #fb660a } /* Name.Variable.Instance */
-.SashaBlockHighlight .vm { color: #fb660a } /* Name.Variable.Magic */
-.SashaBlockHighlight .il { color: #0086f7; font-weight: bold } /* Literal.Number.Integer.Long */
+/* Comment */
+
+.SashaInlineHighlight .err {
+    color: #ffffff
+}
+
+
+/* Error */
+
+.SashaInlineHighlight .esc {
+    color: #ffffff
+}
+
+
+/* Escape */
+
+.SashaInlineHighlight .g {
+    color: #ffffff
+}
+
+
+/* Generic */
+
+.SashaInlineHighlight .k {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword */
+
+.SashaInlineHighlight .l {
+    color: #ffffff
+}
+
+
+/* Literal */
+
+.SashaInlineHighlight .n {
+    color: #ffffff
+}
+
+
+/* Name */
+
+.SashaInlineHighlight .o {
+    color: #ffffff
+}
+
+
+/* Operator */
+
+.SashaInlineHighlight .x {
+    color: #ffffff
+}
+
+
+/* Other */
+
+.SashaInlineHighlight .p {
+    color: sandybrown
+}
+
+
+/* Punctuation */
+
+.SashaInlineHighlight .ch {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Hashbang */
+
+.SashaInlineHighlight .cm {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Multiline */
+
+.SashaInlineHighlight .cp {
+    color: #ff0007;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Preproc */
+
+.SashaInlineHighlight .cpf {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.PreprocFile */
+
+.SashaInlineHighlight .c1 {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Single */
+
+.SashaInlineHighlight .cs {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Special */
+
+.SashaInlineHighlight .gd {
+    color: #ffffff
+}
+
+
+/* Generic.Deleted */
+
+.SashaInlineHighlight .ge {
+    color: #ffffff
+}
+
+
+/* Generic.Emph */
+
+.SashaInlineHighlight .gr {
+    color: #ffffff
+}
+
+
+/* Generic.Error */
+
+.SashaInlineHighlight .gh {
+    color: #ffffff;
+    font-weight: bold
+}
+
+
+/* Generic.Heading */
+
+.SashaInlineHighlight .gi {
+    color: #ffffff
+}
+
+
+/* Generic.Inserted */
+
+.SashaInlineHighlight .go {
+    color: #444444;
+    background-color: #222222
+}
+
+
+/* Generic.Output */
+
+.SashaInlineHighlight .gp {
+    color: #ffffff
+}
+
+
+/* Generic.Prompt */
+
+.SashaInlineHighlight .gs {
+    color: #ffffff
+}
+
+
+/* Generic.Strong */
+
+.SashaInlineHighlight .gu {
+    color: #ffffff;
+    font-weight: bold
+}
+
+
+/* Generic.Subheading */
+
+.SashaInlineHighlight .gt {
+    color: #ffffff
+}
+
+
+/* Generic.Traceback */
+
+.SashaInlineHighlight .kc {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Constant */
+
+.SashaInlineHighlight .kd {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Declaration */
+
+.SashaInlineHighlight .kn {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Namespace */
+
+.SashaInlineHighlight .kp {
+    color: #fb660a
+}
+
+
+/* Keyword.Pseudo */
+
+.SashaInlineHighlight .kr {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Reserved */
+
+.SashaInlineHighlight .kt {
+    color: #cdcaa9;
+    font-weight: bold
+}
+
+
+/* Keyword.Type */
+
+.SashaInlineHighlight .ld {
+    color: #ffffff
+}
+
+
+/* Literal.Date */
+
+.SashaInlineHighlight .m {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number */
+
+.SashaInlineHighlight .s {
+    color: skyblue
+}
+
+
+/* Literal.String */
+
+.SashaInlineHighlight .na {
+    color: #ff0086;
+    font-weight: bold
+}
+
+
+/* Name.Attribute */
+
+.SashaInlineHighlight .nb {
+    color: #ffffff
+}
+
+
+/* Name.Builtin */
+
+.SashaInlineHighlight .nc {
+    color: #ffffff
+}
+
+
+/* Name.Class */
+
+.SashaInlineHighlight .no {
+    color: skyblue
+}
+
+
+/* Name.Constant */
+
+.SashaInlineHighlight .nd {
+    color: #ffffff
+}
+
+
+/* Name.Decorator */
+
+.SashaInlineHighlight .ni {
+    color: #ffffff
+}
+
+
+/* Name.Entity */
+
+.SashaInlineHighlight .ne {
+    color: #ffffff
+}
+
+
+/* Name.Exception */
+
+.SashaInlineHighlight .nf {
+    color: #ff0086;
+    font-weight: bold
+}
+
+
+/* Name.Function */
+
+.SashaInlineHighlight .nl {
+    color: #ffffff
+}
+
+
+/* Name.Label */
+
+.SashaInlineHighlight .nn {
+    color: #ffffff
+}
+
+
+/* Name.Namespace */
+
+.SashaInlineHighlight .nx {
+    color: #ffffff
+}
+
+
+/* Name.Other */
+
+.SashaInlineHighlight .py {
+    color: #ffffff
+}
+
+
+/* Name.Property */
+
+.SashaInlineHighlight .nt {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Name.Tag */
+
+.SashaInlineHighlight .nv {
+    color: #fb660a
+}
+
+
+/* Name.Variable */
+
+.SashaInlineHighlight .ow {
+    color: #ffffff
+}
+
+
+/* Operator.Word */
+
+.SashaInlineHighlight .w {
+    color: #888888
+}
+
+
+/* Text.Whitespace */
+
+.SashaInlineHighlight .mb {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Bin */
+
+.SashaInlineHighlight .mf {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Float */
+
+.SashaInlineHighlight .mh {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Hex */
+
+.SashaInlineHighlight .mi {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Integer */
+
+.SashaInlineHighlight .mo {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Oct */
+
+.SashaInlineHighlight .sa {
+    color: skyblue
+}
+
+
+/* Literal.String.Affix */
+
+.SashaInlineHighlight .sb {
+    color: skyblue
+}
+
+
+/* Literal.String.Backtick */
+
+.SashaInlineHighlight .sc {
+    color: skyblue
+}
+
+
+/* Literal.String.Char */
+
+.SashaInlineHighlight .dl {
+    color: skyblue
+}
+
+
+/* Literal.String.Delimiter */
+
+.SashaInlineHighlight .sd {
+    color: skyblue
+}
+
+
+/* Literal.String.Doc */
+
+.SashaInlineHighlight .s2 {
+    color: skyblue
+}
+
+
+/* Literal.String.Double */
+
+.SashaInlineHighlight .se {
+    color: skyblue
+}
+
+
+/* Literal.String.Escape */
+
+.SashaInlineHighlight .sh {
+    color: skyblue
+}
+
+
+/* Literal.String.Heredoc */
+
+.SashaInlineHighlight .si {
+    color: skyblue
+}
+
+
+/* Literal.String.Interpol */
+
+.SashaInlineHighlight .sx {
+    color: skyblue
+}
+
+
+/* Literal.String.Other */
+
+.SashaInlineHighlight .sr {
+    color: skyblue
+}
+
+
+/* Literal.String.Regex */
+
+.SashaInlineHighlight .s1 {
+    color: skyblue
+}
+
+
+/* Literal.String.Single */
+
+.SashaInlineHighlight .ss {
+    color: skyblue
+}
+
+
+/* Literal.String.Symbol */
+
+.SashaInlineHighlight .bp {
+    color: #ffffff
+}
+
+
+/* Name.Builtin.Pseudo */
+
+.SashaInlineHighlight .fm {
+    color: #ff0086;
+    font-weight: bold
+}
+
+
+/* Name.Function.Magic */
+
+.SashaInlineHighlight .vc {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Class */
+
+.SashaInlineHighlight .vg {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Global */
+
+.SashaInlineHighlight .vi {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Instance */
+
+.SashaInlineHighlight .vm {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Magic */
+
+.SashaInlineHighlight .il {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Integer.Long */
+
+.SashaBlockHighlight .hll {
+    background-color: #333333
+}
+
+.SashaBlockHighlight {
+    background: #5e3b47;
+    color: #ffffff
+}
+
+.SashaBlockHighlight .c {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment */
+
+.SashaBlockHighlight .err {
+    color: #ffffff
+}
+
+
+/* Error */
+
+.SashaBlockHighlight .esc {
+    color: #ffffff
+}
+
+
+/* Escape */
+
+.SashaBlockHighlight .g {
+    color: #ffffff
+}
+
+
+/* Generic */
+
+.SashaBlockHighlight .k {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword */
+
+.SashaBlockHighlight .l {
+    color: #ffffff
+}
+
+
+/* Literal */
+
+.SashaBlockHighlight .n {
+    color: #ffffff
+}
+
+
+/* Name */
+
+.SashaBlockHighlight .o {
+    color: #ffffff
+}
+
+
+/* Operator */
+
+.SashaBlockHighlight .x {
+    color: #ffffff
+}
+
+
+/* Other */
+
+.SashaBlockHighlight .p {
+    color: sandybrown
+}
+
+
+/* Punctuation */
+
+.SashaBlockHighlight .ch {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Hashbang */
+
+.SashaBlockHighlight .cm {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Multiline */
+
+.SashaBlockHighlight .cp {
+    color: #ff0007;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Preproc */
+
+.SashaBlockHighlight .cpf {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.PreprocFile */
+
+.SashaBlockHighlight .c1 {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Single */
+
+.SashaBlockHighlight .cs {
+    color: #008800;
+    font-style: italic;
+    background-color: #0f140f
+}
+
+
+/* Comment.Special */
+
+.SashaBlockHighlight .gd {
+    color: #ffffff
+}
+
+
+/* Generic.Deleted */
+
+.SashaBlockHighlight .ge {
+    color: #ffffff
+}
+
+
+/* Generic.Emph */
+
+.SashaBlockHighlight .gr {
+    color: #ffffff
+}
+
+
+/* Generic.Error */
+
+.SashaBlockHighlight .gh {
+    color: #ffffff;
+    font-weight: bold
+}
+
+
+/* Generic.Heading */
+
+.SashaBlockHighlight .gi {
+    color: #ffffff
+}
+
+
+/* Generic.Inserted */
+
+.SashaBlockHighlight .go {
+    color: #444444;
+    background-color: #222222
+}
+
+
+/* Generic.Output */
+
+.SashaBlockHighlight .gp {
+    color: #ffffff
+}
+
+
+/* Generic.Prompt */
+
+.SashaBlockHighlight .gs {
+    color: #ffffff
+}
+
+
+/* Generic.Strong */
+
+.SashaBlockHighlight .gu {
+    color: #ffffff;
+    font-weight: bold
+}
+
+
+/* Generic.Subheading */
+
+.SashaBlockHighlight .gt {
+    color: #ffffff
+}
+
+
+/* Generic.Traceback */
+
+.SashaBlockHighlight .kc {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Constant */
+
+.SashaBlockHighlight .kd {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Declaration */
+
+.SashaBlockHighlight .kn {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Namespace */
+
+.SashaBlockHighlight .kp {
+    color: #fb660a
+}
+
+
+/* Keyword.Pseudo */
+
+.SashaBlockHighlight .kr {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Keyword.Reserved */
+
+.SashaBlockHighlight .kt {
+    color: #cdcaa9;
+    font-weight: bold
+}
+
+
+/* Keyword.Type */
+
+.SashaBlockHighlight .ld {
+    color: #ffffff
+}
+
+
+/* Literal.Date */
+
+.SashaBlockHighlight .m {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number */
+
+.SashaBlockHighlight .s {
+    color: skyblue
+}
+
+
+/* Literal.String */
+
+.SashaBlockHighlight .na {
+    color: #ff0086;
+    font-weight: bold
+}
+
+
+/* Name.Attribute */
+
+.SashaBlockHighlight .nb {
+    color: #ffffff
+}
+
+
+/* Name.Builtin */
+
+.SashaBlockHighlight .nc {
+    color: #ffffff
+}
+
+
+/* Name.Class */
+
+.SashaBlockHighlight .no {
+    color: skyblue
+}
+
+
+/* Name.Constant */
+
+.SashaBlockHighlight .nd {
+    color: #ffffff
+}
+
+
+/* Name.Decorator */
+
+.SashaBlockHighlight .ni {
+    color: #ffffff
+}
+
+
+/* Name.Entity */
+
+.SashaBlockHighlight .ne {
+    color: #ffffff
+}
+
+
+/* Name.Exception */
+
+.SashaBlockHighlight .nf {
+    color: #ff0086;
+    font-weight: bold
+}
+
+
+/* Name.Function */
+
+.SashaBlockHighlight .nl {
+    color: #ffffff
+}
+
+
+/* Name.Label */
+
+.SashaBlockHighlight .nn {
+    color: #ffffff
+}
+
+
+/* Name.Namespace */
+
+.SashaBlockHighlight .nx {
+    color: #ffffff
+}
+
+
+/* Name.Other */
+
+.SashaBlockHighlight .py {
+    color: #ffffff
+}
+
+
+/* Name.Property */
+
+.SashaBlockHighlight .nt {
+    color: #fb660a;
+    font-weight: bold
+}
+
+
+/* Name.Tag */
+
+.SashaBlockHighlight .nv {
+    color: #fb660a
+}
+
+
+/* Name.Variable */
+
+.SashaBlockHighlight .ow {
+    color: #ffffff
+}
+
+
+/* Operator.Word */
+
+.SashaBlockHighlight .w {
+    color: #888888
+}
+
+
+/* Text.Whitespace */
+
+.SashaBlockHighlight .mb {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Bin */
+
+.SashaBlockHighlight .mf {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Float */
+
+.SashaBlockHighlight .mh {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Hex */
+
+.SashaBlockHighlight .mi {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Integer */
+
+.SashaBlockHighlight .mo {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Oct */
+
+.SashaBlockHighlight .sa {
+    color: skyblue
+}
+
+
+/* Literal.String.Affix */
+
+.SashaBlockHighlight .sb {
+    color: skyblue
+}
+
+
+/* Literal.String.Backtick */
+
+.SashaBlockHighlight .sc {
+    color: skyblue
+}
+
+
+/* Literal.String.Char */
+
+.SashaBlockHighlight .dl {
+    color: skyblue
+}
+
+
+/* Literal.String.Delimiter */
+
+.SashaBlockHighlight .sd {
+    color: skyblue
+}
+
+
+/* Literal.String.Doc */
+
+.SashaBlockHighlight .s2 {
+    color: skyblue
+}
+
+
+/* Literal.String.Double */
+
+.SashaBlockHighlight .se {
+    color: skyblue
+}
+
+
+/* Literal.String.Escape */
+
+.SashaBlockHighlight .sh {
+    color: skyblue
+}
+
+
+/* Literal.String.Heredoc */
+
+.SashaBlockHighlight .si {
+    color: skyblue
+}
+
+
+/* Literal.String.Interpol */
+
+.SashaBlockHighlight .sx {
+    color: skyblue
+}
+
+
+/* Literal.String.Other */
+
+.SashaBlockHighlight .sr {
+    color: skyblue
+}
+
+
+/* Literal.String.Regex */
+
+.SashaBlockHighlight .s1 {
+    color: skyblue
+}
+
+
+/* Literal.String.Single */
+
+.SashaBlockHighlight .ss {
+    color: skyblue
+}
+
+
+/* Literal.String.Symbol */
+
+.SashaBlockHighlight .bp {
+    color: #ffffff
+}
+
+
+/* Name.Builtin.Pseudo */
+
+.SashaBlockHighlight .fm {
+    color: #ff0086;
+    font-weight: bold
+}
+
+
+/* Name.Function.Magic */
+
+.SashaBlockHighlight .vc {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Class */
+
+.SashaBlockHighlight .vg {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Global */
+
+.SashaBlockHighlight .vi {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Instance */
+
+.SashaBlockHighlight .vm {
+    color: #fb660a
+}
+
+
+/* Name.Variable.Magic */
+
+.SashaBlockHighlight .il {
+    color: #0086f7;
+    font-weight: bold
+}
+
+
+/* Literal.Number.Integer.Long */
+
+
 /*# sourceMappingURL=data:application/json;base64,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Q0FBaUMiLCJmaWxlIjoiZnJ1aXR5LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5TYXNoYUlubGluZUhpZ2hsaWdodCAuaGxsIHsgYmFja2dyb3VuZC1jb2xvcjogIzMzMzMzMyB9XG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgIHsgYmFja2dyb3VuZDogIzVlM2I0NzsgY29sb3I6ICNmZmZmZmYgfVxuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5jIHsgY29sb3I6ICMwMDg4MDA7IGZvbnQtc3R5bGU6IGl0YWxpYzsgYmFja2dyb3VuZC1jb2xvcjogIzBmMTQwZiB9IC8qIENvbW1lbnQgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuZXJyIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBFcnJvciAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5lc2MgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEVzY2FwZSAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5nIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBHZW5lcmljICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmsgeyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBLZXl3b3JkICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmwgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIExpdGVyYWwgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubiB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZSAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5vIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBPcGVyYXRvciAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC54IHsgY29sb3I6ICNmZmZmZmYgfSAvKiBPdGhlciAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5wIHsgY29sb3I6IHNhbmR5YnJvd24gfSAvKiBQdW5jdHVhdGlvbiAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5jaCB7IGNvbG9yOiAjMDA4ODAwOyBmb250LXN0eWxlOiBpdGFsaWM7IGJhY2tncm91bmQtY29sb3I6ICMwZjE0MGYgfSAvKiBDb21tZW50Lkhhc2hiYW5nICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmNtIHsgY29sb3I6ICMwMDg4MDA7IGZvbnQtc3R5bGU6IGl0YWxpYzsgYmFja2dyb3VuZC1jb2xvcjogIzBmMTQwZiB9IC8qIENvbW1lbnQuTXVsdGlsaW5lICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmNwIHsgY29sb3I6ICNmZjAwMDc7IGZvbnQtd2VpZ2h0OiBib2xkOyBmb250LXN0eWxlOiBpdGFsaWM7IGJhY2tncm91bmQtY29sb3I6ICMwZjE0MGYgfSAvKiBDb21tZW50LlByZXByb2MgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuY3BmIHsgY29sb3I6ICMwMDg4MDA7IGZvbnQtc3R5bGU6IGl0YWxpYzsgYmFja2dyb3VuZC1jb2xvcjogIzBmMTQwZiB9IC8qIENvbW1lbnQuUHJlcHJvY0ZpbGUgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuYzEgeyBjb2xvcjogIzAwODgwMDsgZm9udC1zdHlsZTogaXRhbGljOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxNDBmIH0gLyogQ29tbWVudC5TaW5nbGUgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuY3MgeyBjb2xvcjogIzAwODgwMDsgZm9udC1zdHlsZTogaXRhbGljOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxNDBmIH0gLyogQ29tbWVudC5TcGVjaWFsICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmdkIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBHZW5lcmljLkRlbGV0ZWQgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuZ2UgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEdlbmVyaWMuRW1waCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5nciB7IGNvbG9yOiAjZmZmZmZmIH0gLyogR2VuZXJpYy5FcnJvciAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5naCB7IGNvbG9yOiAjZmZmZmZmOyBmb250LXdlaWdodDogYm9sZCB9IC8qIEdlbmVyaWMuSGVhZGluZyAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5naSB7IGNvbG9yOiAjZmZmZmZmIH0gLyogR2VuZXJpYy5JbnNlcnRlZCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5nbyB7IGNvbG9yOiAjNDQ0NDQ0OyBiYWNrZ3JvdW5kLWNvbG9yOiAjMjIyMjIyIH0gLyogR2VuZXJpYy5PdXRwdXQgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuZ3AgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEdlbmVyaWMuUHJvbXB0ICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmdzIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBHZW5lcmljLlN0cm9uZyAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5ndSB7IGNvbG9yOiAjZmZmZmZmOyBmb250LXdlaWdodDogYm9sZCB9IC8qIEdlbmVyaWMuU3ViaGVhZGluZyAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5ndCB7IGNvbG9yOiAjZmZmZmZmIH0gLyogR2VuZXJpYy5UcmFjZWJhY2sgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAua2MgeyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBLZXl3b3JkLkNvbnN0YW50ICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmtkIHsgY29sb3I6ICNmYjY2MGE7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogS2V5d29yZC5EZWNsYXJhdGlvbiAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5rbiB7IGNvbG9yOiAjZmI2NjBhOyBmb250LXdlaWdodDogYm9sZCB9IC8qIEtleXdvcmQuTmFtZXNwYWNlICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmtwIHsgY29sb3I6ICNmYjY2MGEgfSAvKiBLZXl3b3JkLlBzZXVkbyAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5rciB7IGNvbG9yOiAjZmI2NjBhOyBmb250LXdlaWdodDogYm9sZCB9IC8qIEtleXdvcmQuUmVzZXJ2ZWQgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAua3QgeyBjb2xvcjogI2NkY2FhOTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBLZXl3b3JkLlR5cGUgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubGQgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIExpdGVyYWwuRGF0ZSAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5tIHsgY29sb3I6ICMwMDg2Zjc7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogTGl0ZXJhbC5OdW1iZXIgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAucyB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubmEgeyBjb2xvcjogI2ZmMDA4NjsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBOYW1lLkF0dHJpYnV0ZSAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5uYiB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5CdWlsdGluICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLm5jIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBOYW1lLkNsYXNzICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLm5vIHsgY29sb3I6IHNreWJsdWUgfSAvKiBOYW1lLkNvbnN0YW50ICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLm5kIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBOYW1lLkRlY29yYXRvciAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5uaSB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5FbnRpdHkgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubmUgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuRXhjZXB0aW9uICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLm5mIHsgY29sb3I6ICNmZjAwODY7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogTmFtZS5GdW5jdGlvbiAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5ubCB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5MYWJlbCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5ubiB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5OYW1lc3BhY2UgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubnggeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuT3RoZXIgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAucHkgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuUHJvcGVydHkgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubnQgeyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBOYW1lLlRhZyAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5udiB7IGNvbG9yOiAjZmI2NjBhIH0gLyogTmFtZS5WYXJpYWJsZSAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5vdyB7IGNvbG9yOiAjZmZmZmZmIH0gLyogT3BlcmF0b3IuV29yZCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC53IHsgY29sb3I6ICM4ODg4ODggfSAvKiBUZXh0LldoaXRlc3BhY2UgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubWIgeyBjb2xvcjogIzAwODZmNzsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBMaXRlcmFsLk51bWJlci5CaW4gKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubWYgeyBjb2xvcjogIzAwODZmNzsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBMaXRlcmFsLk51bWJlci5GbG9hdCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5taCB7IGNvbG9yOiAjMDA4NmY3OyBmb250LXdlaWdodDogYm9sZCB9IC8qIExpdGVyYWwuTnVtYmVyLkhleCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5taSB7IGNvbG9yOiAjMDA4NmY3OyBmb250LXdlaWdodDogYm9sZCB9IC8qIExpdGVyYWwuTnVtYmVyLkludGVnZXIgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAubW8geyBjb2xvcjogIzAwODZmNzsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBMaXRlcmFsLk51bWJlci5PY3QgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuc2EgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkFmZml4ICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnNiIHsgY29sb3I6IHNreWJsdWUgfSAvKiBMaXRlcmFsLlN0cmluZy5CYWNrdGljayAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5zYyB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuQ2hhciAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5kbCB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuRGVsaW1pdGVyICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnNkIHsgY29sb3I6IHNreWJsdWUgfSAvKiBMaXRlcmFsLlN0cmluZy5Eb2MgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuczIgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkRvdWJsZSAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5zZSB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuRXNjYXBlICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnNoIHsgY29sb3I6IHNreWJsdWUgfSAvKiBMaXRlcmFsLlN0cmluZy5IZXJlZG9jICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnNpIHsgY29sb3I6IHNreWJsdWUgfSAvKiBMaXRlcmFsLlN0cmluZy5JbnRlcnBvbCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5zeCB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuT3RoZXIgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuc3IgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLlJlZ2V4ICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnMxIHsgY29sb3I6IHNreWJsdWUgfSAvKiBMaXRlcmFsLlN0cmluZy5TaW5nbGUgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAuc3MgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLlN5bWJvbCAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5icCB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5CdWlsdGluLlBzZXVkbyAqL1xuLlNhc2hhSW5saW5lSGlnaGxpZ2h0IC5mbSB7IGNvbG9yOiAjZmYwMDg2OyBmb250LXdlaWdodDogYm9sZCB9IC8qIE5hbWUuRnVuY3Rpb24uTWFnaWMgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAudmMgeyBjb2xvcjogI2ZiNjYwYSB9IC8qIE5hbWUuVmFyaWFibGUuQ2xhc3MgKi9cbi5TYXNoYUlubGluZUhpZ2hsaWdodCAudmcgeyBjb2xvcjogI2ZiNjYwYSB9IC8qIE5hbWUuVmFyaWFibGUuR2xvYmFsICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnZpIHsgY29sb3I6ICNmYjY2MGEgfSAvKiBOYW1lLlZhcmlhYmxlLkluc3RhbmNlICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLnZtIHsgY29sb3I6ICNmYjY2MGEgfSAvKiBOYW1lLlZhcmlhYmxlLk1hZ2ljICovXG4uU2FzaGFJbmxpbmVIaWdobGlnaHQgLmlsIHsgY29sb3I6ICMwMDg2Zjc7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogTGl0ZXJhbC5OdW1iZXIuSW50ZWdlci5Mb25nICovXG5cblxuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmhsbCB7IGJhY2tncm91bmQtY29sb3I6ICMzMzMzMzMgfVxuLlNhc2hhQmxvY2tIaWdobGlnaHQgIHsgYmFja2dyb3VuZDogIzVlM2I0NzsgY29sb3I6ICNmZmZmZmYgfVxuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmMgeyBjb2xvcjogIzAwODgwMDsgZm9udC1zdHlsZTogaXRhbGljOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxNDBmIH0gLyogQ29tbWVudCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmVyciB7IGNvbG9yOiAjZmZmZmZmIH0gLyogRXJyb3IgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5lc2MgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEVzY2FwZSAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmcgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEdlbmVyaWMgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5rIHsgY29sb3I6ICNmYjY2MGE7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogS2V5d29yZCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmwgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIExpdGVyYWwgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5uIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBOYW1lICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubyB7IGNvbG9yOiAjZmZmZmZmIH0gLyogT3BlcmF0b3IgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC54IHsgY29sb3I6ICNmZmZmZmYgfSAvKiBPdGhlciAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLnAgeyBjb2xvcjogc2FuZHlicm93biB9IC8qIFB1bmN0dWF0aW9uICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuY2ggeyBjb2xvcjogIzAwODgwMDsgZm9udC1zdHlsZTogaXRhbGljOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxNDBmIH0gLyogQ29tbWVudC5IYXNoYmFuZyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmNtIHsgY29sb3I6ICMwMDg4MDA7IGZvbnQtc3R5bGU6IGl0YWxpYzsgYmFja2dyb3VuZC1jb2xvcjogIzBmMTQwZiB9IC8qIENvbW1lbnQuTXVsdGlsaW5lICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuY3AgeyBjb2xvcjogI2ZmMDAwNzsgZm9udC13ZWlnaHQ6IGJvbGQ7IGZvbnQtc3R5bGU6IGl0YWxpYzsgYmFja2dyb3VuZC1jb2xvcjogIzBmMTQwZiB9IC8qIENvbW1lbnQuUHJlcHJvYyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmNwZiB7IGNvbG9yOiAjMDA4ODAwOyBmb250LXN0eWxlOiBpdGFsaWM7IGJhY2tncm91bmQtY29sb3I6ICMwZjE0MGYgfSAvKiBDb21tZW50LlByZXByb2NGaWxlICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuYzEgeyBjb2xvcjogIzAwODgwMDsgZm9udC1zdHlsZTogaXRhbGljOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMGYxNDBmIH0gLyogQ29tbWVudC5TaW5nbGUgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5jcyB7IGNvbG9yOiAjMDA4ODAwOyBmb250LXN0eWxlOiBpdGFsaWM7IGJhY2tncm91bmQtY29sb3I6ICMwZjE0MGYgfSAvKiBDb21tZW50LlNwZWNpYWwgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5nZCB7IGNvbG9yOiAjZmZmZmZmIH0gLyogR2VuZXJpYy5EZWxldGVkICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuZ2UgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEdlbmVyaWMuRW1waCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmdyIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBHZW5lcmljLkVycm9yICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuZ2ggeyBjb2xvcjogI2ZmZmZmZjsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBHZW5lcmljLkhlYWRpbmcgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5naSB7IGNvbG9yOiAjZmZmZmZmIH0gLyogR2VuZXJpYy5JbnNlcnRlZCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmdvIHsgY29sb3I6ICM0NDQ0NDQ7IGJhY2tncm91bmQtY29sb3I6ICMyMjIyMjIgfSAvKiBHZW5lcmljLk91dHB1dCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmdwIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBHZW5lcmljLlByb21wdCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmdzIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBHZW5lcmljLlN0cm9uZyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmd1IHsgY29sb3I6ICNmZmZmZmY7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogR2VuZXJpYy5TdWJoZWFkaW5nICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuZ3QgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIEdlbmVyaWMuVHJhY2ViYWNrICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAua2MgeyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBLZXl3b3JkLkNvbnN0YW50ICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAua2QgeyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBLZXl3b3JkLkRlY2xhcmF0aW9uICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAua24geyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBLZXl3b3JkLk5hbWVzcGFjZSAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmtwIHsgY29sb3I6ICNmYjY2MGEgfSAvKiBLZXl3b3JkLlBzZXVkbyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmtyIHsgY29sb3I6ICNmYjY2MGE7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogS2V5d29yZC5SZXNlcnZlZCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmt0IHsgY29sb3I6ICNjZGNhYTk7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogS2V5d29yZC5UeXBlICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubGQgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIExpdGVyYWwuRGF0ZSAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm0geyBjb2xvcjogIzAwODZmNzsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBMaXRlcmFsLk51bWJlciAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLnMgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubmEgeyBjb2xvcjogI2ZmMDA4NjsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBOYW1lLkF0dHJpYnV0ZSAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm5iIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBOYW1lLkJ1aWx0aW4gKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5uYyB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5DbGFzcyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm5vIHsgY29sb3I6IHNreWJsdWUgfSAvKiBOYW1lLkNvbnN0YW50ICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubmQgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuRGVjb3JhdG9yICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubmkgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuRW50aXR5ICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubmUgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuRXhjZXB0aW9uICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubmYgeyBjb2xvcjogI2ZmMDA4NjsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBOYW1lLkZ1bmN0aW9uICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubmwgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE5hbWUuTGFiZWwgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5ubiB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5OYW1lc3BhY2UgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5ueCB7IGNvbG9yOiAjZmZmZmZmIH0gLyogTmFtZS5PdGhlciAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLnB5IHsgY29sb3I6ICNmZmZmZmYgfSAvKiBOYW1lLlByb3BlcnR5ICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAubnQgeyBjb2xvcjogI2ZiNjYwYTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBOYW1lLlRhZyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm52IHsgY29sb3I6ICNmYjY2MGEgfSAvKiBOYW1lLlZhcmlhYmxlICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAub3cgeyBjb2xvcjogI2ZmZmZmZiB9IC8qIE9wZXJhdG9yLldvcmQgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC53IHsgY29sb3I6ICM4ODg4ODggfSAvKiBUZXh0LldoaXRlc3BhY2UgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5tYiB7IGNvbG9yOiAjMDA4NmY3OyBmb250LXdlaWdodDogYm9sZCB9IC8qIExpdGVyYWwuTnVtYmVyLkJpbiAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm1mIHsgY29sb3I6ICMwMDg2Zjc7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogTGl0ZXJhbC5OdW1iZXIuRmxvYXQgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5taCB7IGNvbG9yOiAjMDA4NmY3OyBmb250LXdlaWdodDogYm9sZCB9IC8qIExpdGVyYWwuTnVtYmVyLkhleCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm1pIHsgY29sb3I6ICMwMDg2Zjc7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogTGl0ZXJhbC5OdW1iZXIuSW50ZWdlciAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLm1vIHsgY29sb3I6ICMwMDg2Zjc7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLyogTGl0ZXJhbC5OdW1iZXIuT2N0ICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuc2EgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkFmZml4ICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuc2IgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkJhY2t0aWNrICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuc2MgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkNoYXIgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5kbCB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuRGVsaW1pdGVyICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuc2QgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkRvYyAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLnMyIHsgY29sb3I6IHNreWJsdWUgfSAvKiBMaXRlcmFsLlN0cmluZy5Eb3VibGUgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5zZSB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuRXNjYXBlICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuc2ggeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLkhlcmVkb2MgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5zaSB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuSW50ZXJwb2wgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5zeCB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuT3RoZXIgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5zciB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuUmVnZXggKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC5zMSB7IGNvbG9yOiBza3libHVlIH0gLyogTGl0ZXJhbC5TdHJpbmcuU2luZ2xlICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuc3MgeyBjb2xvcjogc2t5Ymx1ZSB9IC8qIExpdGVyYWwuU3RyaW5nLlN5bWJvbCAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLmJwIHsgY29sb3I6ICNmZmZmZmYgfSAvKiBOYW1lLkJ1aWx0aW4uUHNldWRvICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuZm0geyBjb2xvcjogI2ZmMDA4NjsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBOYW1lLkZ1bmN0aW9uLk1hZ2ljICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAudmMgeyBjb2xvcjogI2ZiNjYwYSB9IC8qIE5hbWUuVmFyaWFibGUuQ2xhc3MgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC52ZyB7IGNvbG9yOiAjZmI2NjBhIH0gLyogTmFtZS5WYXJpYWJsZS5HbG9iYWwgKi9cbi5TYXNoYUJsb2NrSGlnaGxpZ2h0IC52aSB7IGNvbG9yOiAjZmI2NjBhIH0gLyogTmFtZS5WYXJpYWJsZS5JbnN0YW5jZSAqL1xuLlNhc2hhQmxvY2tIaWdobGlnaHQgLnZtIHsgY29sb3I6ICNmYjY2MGEgfSAvKiBOYW1lLlZhcmlhYmxlLk1hZ2ljICovXG4uU2FzaGFCbG9ja0hpZ2hsaWdodCAuaWwgeyBjb2xvcjogIzAwODZmNzsgZm9udC13ZWlnaHQ6IGJvbGQgfSAvKiBMaXRlcmFsLk51bWJlci5JbnRlZ2VyLkxvbmcgKi8iXX0= */

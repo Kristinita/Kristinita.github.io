@@ -4,77 +4,107 @@
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2017-05-09 14:39:18
 */
+
+
 /* ==========================================================================
    General
    ========================================================================== */
+
 aside {
-  font-size: 0.3125rem;
-  line-height: 1;
-  position: relative;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
+    font-size: 0.3125rem;
+    line-height: 1;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
+
+
 /* Text in aside bottom */
+
 .SashaBottomAside {
-  line-height: 2rem;
-  position: absolute;
-  bottom: 7%;
-  left: 10%;
-  width: 80%;
+    line-height: 2rem;
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    width: 80%;
 }
+
+
 /* Disable margin and padding for .SashaMargin */
+
 .SashaMargin {
-  display: inline-block;
+    display: inline-block;
 }
+
+
 /* Margin for top header */
+
 .SashaTopHeader {
-  margin-top: 0.4rem;
+    margin-top: 0.4rem;
 }
+
+
 /* ==========================================================================
    Media
    ========================================================================== */
+
+
 /* For mobile devices */
+
 @media screen and (min-width: 0.0625rem) {
-  aside {
-    display: block;
-    width: 100%;
-  }
-  .SashaMargin {
-/* That the text does not go beyond the screen */
-    display: block;
-  }
+    aside {
+        display: block;
+        width: 100%;
+    }
+    .SashaMargin {
+        /* That the text does not go beyond the screen */
+        display: block;
+    }
 }
+
+
 /* For PC */
+
 @media screen and (min-width: 60rem) {
-  aside {
-    width: 35%;
-    background-attachment: scroll;
-  }
-  .gm-scrollbar-container {
-    width: 65%;
-  }
+    aside {
+        width: 35%;
+        background-attachment: scroll;
+    }
+    .gm-scrollbar-container {
+        width: 65%;
+    }
 }
+
+
 /* ==========================================================================
    Permalinks
    ========================================================================== */
+
+
 /* Permalinks hidden by default */
+
 .headerlink {
-  visibility: hidden;
+    visibility: hidden;
 }
+
+
 /* Permalinks visible on hover
    As https://pythonhosted.org/Markdown/extensions/toc.html page */
+
+
 /* Stylus parent reference, & symbol
    http://stylus-lang.com/docs/selectors.html#parent-reference */
+
 h1:hover > .headerlink,
 h2:hover > .headerlink,
 h3:hover > .headerlink,
 h4:hover > .headerlink,
 h5:hover > .headerlink,
 h6:hover > .headerlink {
-  visibility: visible;
+    visibility: visible;
 }
