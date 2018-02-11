@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-10T22:22:51+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-09T20:42:08+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-11T12:25:33+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-11T12:25:33+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -57,8 +57,8 @@
 &lt;p&gt;In this article I wrote, how possible to make all these actions use only one command in command line.&lt;/p&gt;
 &lt;p&gt;&lt;a name="demonstration"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Demonstration&lt;/h2&gt;
-&lt;p&gt;I &lt;a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank"&gt;push commit&lt;/a&gt; to my GitHub repository → I input in command line:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it --no-npm.publish -n -V
+&lt;p&gt;I &lt;a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank"&gt;push commit&lt;/a&gt; to my GitHub repository → I enter in command line:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it -n -V
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Result: &lt;a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank"&gt;1&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank"&gt;2&lt;/a&gt;.&lt;/p&gt;
@@ -102,7 +102,8 @@
 &lt;p&gt;I recommend in first do actions from &lt;a href="#activation"&gt;Activation&lt;/a&gt; and &lt;a href="#usage"&gt;Usage&lt;/a&gt; sections in the test repository, not real. Argumentation:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You or I can make a typo(s);&lt;/li&gt;
-&lt;li&gt;Environment problems.&lt;/li&gt;
+&lt;li&gt;Differences in my and your environments;&lt;/li&gt;
+&lt;li&gt;Different versions of tools from this article can do another behavior, &lt;a href="https://github.com/webpro/release-it/issues/233" target="_blank"&gt;example&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a name="github-token"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -147,6 +148,9 @@ git branch --set-upstream
     &lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
         &lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
     &lt;span class="p"&gt;},&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -211,10 +215,10 @@ To https://github.com/Kristinita/SashaSublime.git
 
 &lt;p&gt;Now run &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage" target="_blank"&gt;one of command&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;release-it --no-npm.publish -n -V&lt;/em&gt; or &lt;em&gt;release-it patch --no-npm.publish -n -V&lt;/em&gt; — for release patch version;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;release-it --minor --no-npm.publish -n -V&lt;/em&gt; — for release minor version;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;release-it --major --no-npm.publish -n -V&lt;/em&gt; — for release major version;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;release-it 4.14.7 --no-npm.publish -n -V&lt;/em&gt; — for release custom version; &lt;em&gt;4.14.7&lt;/em&gt; in example.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it -n -V&lt;/em&gt; or &lt;em&gt;release-it patch -n -V&lt;/em&gt; — for release patch version;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it --minor -n -V&lt;/em&gt; — for release minor version;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it --major -n -V&lt;/em&gt; — for release major version;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;release-it 4.14.7 -n -V&lt;/em&gt; — for release custom version; &lt;em&gt;4.14.7&lt;/em&gt; in example.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Also you can &lt;a href="https://www.npmjs.com/package/release-it" target="_blank"&gt;create pre-releases&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Example result see in &lt;a href="#demonstration"&gt;demonstration&lt;/a&gt; section.&lt;/p&gt;
@@ -223,13 +227,12 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;If you want to know, how files and commands works, please, read this section.&lt;/p&gt;
 &lt;p&gt;&lt;a name="release-it-command"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;11.1. release-it command&lt;/h3&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it --no-npm.publish -n -V
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it -n -V
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;--no-npm.publish&lt;/em&gt; — &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank"&gt;don't publish release to npm&lt;/a&gt;. We are writing Sublime Text package, not npm modules, and needs in this command-line argument.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;-n&lt;/em&gt; — &lt;a href="https://www.npmjs.com/package/release-it#-interactive-vs-non-interactive-mode" target="_blank"&gt;non-interactive mode&lt;/a&gt;. That you don't need input values each time manually.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;-V&lt;/em&gt; — verbose. You can disable this argument, if you don't want to see full output. But this argument can help in debugging process.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;-V&lt;/em&gt; — verbose. You can disable this command-line argument, but if you will get a bug, this argument may help you.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a name="release-itjson-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;11.2. .release-it.json&lt;/h3&gt;
@@ -258,6 +261,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;&lt;em&gt;changelogCommand&lt;/em&gt; — command, that generate changelog to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;. Command must stdout to console.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank"&gt;post changelog&lt;/a&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; — your &lt;a href="#github-token"&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; environment variable&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — don't publish release to &lt;a href="https://www.npmjs.com/" target="_blank"&gt;npm&lt;/a&gt;. We are writing Sublime Text package, not npm modules, so needs this parameter.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — that correct version in &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;; see &lt;a href="https://github.com/webpro/release-it/issues/218" target="_blank"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797" target="_blank"&gt;correct tag name&lt;/a&gt; for Package Control. Tags for Sublime Text 3 must be in &lt;em&gt;st3-&amp;lt;your version&amp;gt;&lt;/em&gt; format, for example — &lt;em&gt;st3-4.14.7&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2224,7 +2228,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Смешанное от Грейс — псевдонима Пресвятой Великомученицы Екатерины Десятниковой и crazy_fan_fan — Её никнейма в Инстаграме.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category><category term="pumping"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-10T22:22:51+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category><category term="pumping"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-11T11:44:24+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -2807,7 +2811,8 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;I recommend in first do actions from this section for test project, not real. Argumentation:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You or I can make a typo(s);&lt;/li&gt;
-&lt;li&gt;Environment problems.&lt;/li&gt;
+&lt;li&gt;Differences in my and your environment;&lt;/li&gt;
+&lt;li&gt;Different versions of tools from this article can do another behavior, &lt;a href="https://github.com/webpro/release-it/issues/233" target="_blank"&gt;example&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a name="demonstration-1"&gt;&lt;/a&gt;&lt;/p&gt;

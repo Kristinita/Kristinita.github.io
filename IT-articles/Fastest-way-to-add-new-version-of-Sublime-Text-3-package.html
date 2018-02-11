@@ -80,7 +80,7 @@
             <header>
                 <h1 class="SashaTopHeader">Fastest way to add new version of your Sublime Text package</h1>
                 <img class="SashaPageLoading" src="https://2no.co/1vWK5.png" alt="Page loading, please, little wait">
-                <div class="SashaVersion">Version 0.2.0</div>
+                <div class="SashaVersion">Version 0.2.1</div>
                 <div class="SashaVersion">
                     Posted —
                     <time datetime="2018-01-29 12:04:22+03:00">2018-01-29 12:04:22+03:00</time>
@@ -89,7 +89,7 @@
                     <!-- pubdate attribute is obsolete, use itemprop: datePublished -->
                     <!-- https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time itemprop="datePublished" datetime="2018-02-09 20:42:08+03:00">2018-02-09 20:42:08+03:00</time>
+                    <time itemprop="datePublished" datetime="2018-02-11 12:25:33+03:00">2018-02-11 12:25:33+03:00</time>
                 </div>
             </header>
             <!-- MarkdownTOC -->
@@ -163,8 +163,8 @@
                 <a name="demonstration"></a>
             </p>
             <h2>5. Demonstration <a class="headerlink" href="#demonstration" title="Permanent link">¶</a></h2>
-            <p>I <a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank">push commit</a> to my GitHub repository → I input in command line:</p>
-            <div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
+            <p>I <a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank">push commit</a> to my GitHub repository → I enter in command line:</p>
+            <div class="SashaBlockHighlight"><pre><span></span>release-it -n -V
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <p>Result: <a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank">1</a>, <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">2</a>.</p>
@@ -221,7 +221,8 @@
                 <p>I recommend in first do actions from <a href="#activation">Activation</a> and <a href="#usage">Usage</a> sections in the test repository, not real. Argumentation:</p>
                 <ul>
                     <li>You or I can make a typo(s);</li>
-                    <li>Environment problems.</li>
+                    <li>Differences in my and your environments;</li>
+                    <li>Different versions of tools from this article can do another behavior, <a href="https://github.com/webpro/release-it/issues/233" target="_blank">example</a></li>
                 </ul>
             </div>
             <p>
@@ -278,6 +279,9 @@ git branch --set-upstream
     <span class="nt">&quot;github&quot;</span><span class="p">:</span> <span class="p">{</span>
         <span class="nt">&quot;release&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
         <span class="nt">&quot;tokenRef&quot;</span><span class="p">:</span> <span class="s2">&quot;GITHUB_TOKEN&quot;</span>
+    <span class="p">},</span>
+    <span class="nt">&quot;npm&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;publish&quot;</span><span class="p">:</span> <span class="kc">false</span>
     <span class="p">},</span>
     <span class="nt">&quot;safeBump&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
     <span class="nt">&quot;src&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -346,10 +350,10 @@ To https://github.com/Kristinita/SashaSublime.git
 
             <p>Now run <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage" target="_blank">one of command</a>:</p>
             <ul>
-                <li><em>release-it --no-npm.publish -n -V</em> or <em>release-it patch --no-npm.publish -n -V</em> — for release patch version;</li>
-                <li><em>release-it --minor --no-npm.publish -n -V</em> — for release minor version;</li>
-                <li><em>release-it --major --no-npm.publish -n -V</em> — for release major version;</li>
-                <li><em>release-it 4.14.7 --no-npm.publish -n -V</em> — for release custom version; <em>4.14.7</em> in example.</li>
+                <li><em>release-it -n -V</em> or <em>release-it patch -n -V</em> — for release patch version;</li>
+                <li><em>release-it --minor -n -V</em> — for release minor version;</li>
+                <li><em>release-it --major -n -V</em> — for release major version;</li>
+                <li><em>release-it 4.14.7 -n -V</em> — for release custom version; <em>4.14.7</em> in example.</li>
             </ul>
             <p>Also you can <a href="https://www.npmjs.com/package/release-it" target="_blank">create pre-releases</a>.</p>
             <p>Example result see in <a href="#demonstration">demonstration</a> section.</p>
@@ -362,14 +366,12 @@ To https://github.com/Kristinita/SashaSublime.git
                 <a name="release-it-command"></a>
             </p>
             <h3>11.1. release-it command <a class="headerlink" href="#release-it-command" title="Permanent link">¶</a></h3>
-            <div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
+            <div class="SashaBlockHighlight"><pre><span></span>release-it -n -V
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
             <ul>
-                <li><em>--no-npm.publish</em> — <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank">don't publish release to npm</a>. We are writing Sublime Text package, not npm modules, and needs in this command-line
-                    argument.</li>
                 <li><em>-n</em> — <a href="https://www.npmjs.com/package/release-it#-interactive-vs-non-interactive-mode" target="_blank">non-interactive mode</a>. That you don't need input values each time manually.</li>
-                <li><em>-V</em> — verbose. You can disable this argument, if you don't want to see full output. But this argument can help in debugging process.</li>
+                <li><em>-V</em> — verbose. You can disable this command-line argument, but if you will get a bug, this argument may help you.</li>
             </ul>
             <p>
                 <a name="release-itjson-1"></a>
@@ -407,6 +409,7 @@ To https://github.com/Kristinita/SashaSublime.git
                 <li><code class="SashaInlineHighlight"><span class="s2">&quot;release&quot;</span><span class="err">:</span> <span class="kc">true</span><span class="err">,</span></code> — <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration"
                     target="_blank">post changelog</a> to <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>.</li>
                 <li><em>GITHUB_TOKEN</em> — your <a href="#github-token"><em>GITHUB_TOKEN</em> environment variable</a>,</li>
+                <li><code class="SashaInlineHighlight"><span class="s2">&quot;npm&quot;</span><span class="err">:</span> <span class="p">{</span><span class="nt">&quot;publish&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">}</span><span class="err">,</span></code>                    — don't publish release to <a href="https://www.npmjs.com/" target="_blank">npm</a>. We are writing Sublime Text package, not npm modules, so needs this parameter.</li>
                 <li><code class="SashaInlineHighlight"><span class="s2">&quot;safeBump&quot;</span><span class="err">:</span> <span class="kc">false</span><span class="err">,</span></code> — that correct version in <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>;
                     see <a href="https://github.com/webpro/release-it/issues/218" target="_blank">issue</a> for details.</li>
                 <li><code class="SashaInlineHighlight"><span class="s2">&quot;tagName&quot;</span><span class="err">:</span> <span class="s2">&quot;st3-%s&quot;</span></code> — <a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797"
