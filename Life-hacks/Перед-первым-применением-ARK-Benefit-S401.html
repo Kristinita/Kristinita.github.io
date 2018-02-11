@@ -10,8 +10,10 @@
     <!-- Title phrase -->
     <title>Портативный браузер по умолчанию в Windows 10</title>
     <!-- Description, EDGE-compatible, different screens -->
-    <meta content="Description, how to make Pale Moon default browser in Windows">
-    <meta content="width=device-width, initial-scale=1">
+    <!-- Needs for validation name="description", see: https://stackoverflow.com/a/11202372/5951529 -->
+    <meta name="description" content="Description, how to make Pale Moon default browser in Windows">
+    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Open Graph, http://ruogp.me/ -->
     <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
@@ -21,55 +23,49 @@
     <meta property="og:description" content="Description, how to make Pale Moon default browser in Windows" />
     <meta property="og:site_name" content="Поиск Кристиниты" />
     <!-- JQuery -->
-    <script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Gemini -->
-    <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
-    <!-- JQuery Lazy -->
+<script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>    <!-- Gemini -->
+<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+		<script src="../theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+		<link rel="stylesheet" href="../theme/css/script-colors/Gemini/gemini.css">    <!-- JQuery Lazy -->
     <!-- Fancybox -->
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
-    <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Tooltipster/tooltip.js" defer></script>
-    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
-    <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Clipboard.js/Clipboard.js" defer></script>
-    <!-- Visualize, see https://github.com/kellyk/visualize -->
+<script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
+		<link rel="stylesheet" href="../theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+		<script src="../theme/js/Tooltipster/tooltip.js" defer></script>    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+<script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
+		<script src="../theme/js/Clipboard.js/Clipboard.js" defer></script>    <!-- Visualize, see https://github.com/kellyk/visualize -->
     <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
     <!-- Custom JavaScript -->
     <!-- Sasha icon -->
-    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="../theme/images/Sasha.ico" type="image/x-icon">
     <!-- Pages style -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/basic.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_left.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/it-articles.css">
+    <link rel="stylesheet" href="../theme/css/general/basic.css">
+    <link rel="stylesheet" href="../theme/css/general/fonts.css">
+    <link rel="stylesheet" href="../theme/css/general/aside.css">
+    <link rel="stylesheet" href="../theme/css/general/image_left.css">
+    <link rel="stylesheet" href="../theme/css/sections/it-articles.css">
     <!-- Material icons font for icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Admonition: note, warning etc. blocks, see -->
     <!-- https://python-markdown.github.io/extensions/admonition/ -->
     <!-- https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
+    <link rel="stylesheet" href="../theme/css/script-colors/Admonition/admonition.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/css/personal/Life-hacks/default-portable-browser.css">
-    <!-- Atom feed -->
-    <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="http://kristinita.ru/feeds/life-hacks.atom.xml" rel="alternate" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="../css/personal/Life-hacks/default-portable-browser.css">    <!-- Atom feed -->
+<link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+	<link href="http://kristinita.ru/feeds/life-hacks.atom.xml" rel="alternate" type="application/atom+xml"></head>
 
 <body>
     <!-- Background aside -->
     <aside>
         <!-- Header aside -->
-        <h1 class="cover-text">Портативный браузер по умолчанию в Windows 10</h1>
+        <div class="SashaBottomAside">Портативный браузер по умолчанию в Windows 10</div>
     </aside>
     <!-- Content -->
-    <main>
+    <main itemscope>
         <div class="SashaMargin">
             <header>
                 <h1 class="SashaTopHeader">Портативный браузер по умолчанию в Windows 10</h1>
@@ -80,121 +76,93 @@
                     <time datetime="2017-02-13 19:15:15+03:00">2017-02-13 19:15:15+03:00</time>
                 </div>
                 <div class="SashaVersion">
+                	<!-- pubdate attribute is obsolete, use itemprop: datePublished -->
+                	<!-- https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time pubdate=""></time>
+                    <time itemprop="datePublished" datetime=""></time>
                 </div>
             </header>
-            <h2>1. Введение</h2>
-            <h3>1.1. Для чего предназначена данная инструкция</h3>
-            <p><strong><a href="http://fb.ru/article/254999/stokovaya-proshivka-chto-eto-takoe" target="_blank">Стоковая прошивка</a> телефона ARK Benefit S401 содержит вредоносное ПО</strong> — без Вашего согласия на телефон будут устанавливаться программы.
-                Данная проблема возникла не только у меня, но и у многих прочих участников форума 4PDA, см., например, сообщения <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=340#entry67671845" target="_blank">1</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=340#entry67600967"
-                target="_blank">2</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=300#entry64686674" target="_blank">3</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=300#entry63816408" target="_blank">4</a>,
-                <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=300#entry63247178" target="_blank">5</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=280#entry61611283" target="_blank">5</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=280#entry60787829"
-                target="_blank">6</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=220#entry58263044" target="_blank">7</a>.</p>
-            <p><img alt="Вирусы Dr.Web" src="https://i.imgur.com/t27DFhh.png"></p>
-            <p>Если не желаете мириться с постоянными загрузками нежелательного ПО, нужно что-то делать.</p>
-            <h3>1.2. Для кого предназначена данная инструкция</h3>
-            <p>В основном, для пользователей, не имеющих большого опыта перепрошивок. К сожалению, <a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=36669797" target="_blank">сообщения по ссылкам в шапке 4PDA</a> могут
-                быть не совсем понятными для неопытных пользователей.</p>
-            <p>Если же Вы опытный юзер и заметили ошибки/недочёты в данной статье, просьба в конструктивном ключе сообщить о них автору.</p>
-            <h3>1.3. Необходимое оборудование</h3>
-            <p>Автор статьи лично выполнял описанные ниже действия на следующем оборудовании, и у него получилось.</p>
-            <ol>
-                <li>ARK Benefit S401 со стоковой прошивкой — собственно, телефон, о котором идёт речь;</li>
-                <li>Windows 10 LTSB Enterprise EN;</li>
-                <li>
-                    <p>Нужно как-нибудь перенести файл прошивки на SD-карту.</p>
-                </li>
-                <li>
-                    <p>Если телефон нормально работает, удобнее всего переносить файлы с компьютера на телефон и обратно с помощью программы <a href="https://f-droid.org/en/packages/be.ppareit.swiftp_free/" target="_blank">FTP Server (Free)</a>.</p>
-                </li>
-                <li>Если телефоном не получается пользоваться в обычном режиме, — после ошибки YouTube или <a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=67471483" target="_blank">неудачном сбросе настроек</a> — я
-                    беру устройство, поддерживающее MicroSD (для меня это скрытая камера) → вставляю в него MicroSD из телефона → подключаю устройство через USB к компьютеру → переношу на MicroSD нужные файлы → отключаю устройство от компьютера → вставляю
-                    MicroSD обратно в телефон.</li>
-                <li>Вероятно, переносить файлы без дополнительного (помимо USB-кабеля) оборудования можно <a href="http://www.techcolumnist.com/wp/2013/07/29/android-push-file-to-sdcard-with-adb/" target="_blank">посредством adb</a>. Сам не пробовал, не могу
-                    сказать, какие подводные камни ожидают.</li>
-            </ol>
-            <h2>2. Чего не стоит делать</h2>
-            <p>Не повторяйте моих ошибок.</p>
-            <h3>2.1. Не удаляйте самостоятельно заражённые файлы, если не уверены в последствиях.</h3>
-            <p>я пытался удалять вредоносное ПО следующим образом.</p>
-            <ol>
-                <li>Программой RootAppDelete удалил приложение YouTube,</li>
-                <li>Удалял YouTube программой <a href="http://4pda.ru/forum/index.php?showtopic=735417&amp;st=40#entry49802449" target="_blank">Lucky Patcher</a>,</li>
-                <li>Просканировал телефон антивирусом Dr.Web и удалил вручную, при помощи Root Explorer, файлы, на которые указал Dr.Web.</li>
-            </ol>
-            <p>Во всех трёх случаях стала постоянно появляться ошибка приложения YouTube, которая не давала ничего делать на данном телефоне.</p>
-            <h3>2.2. Делайте бэкапы перед тем, как совершать рискованные действия</h3>
-            <p>Под «рискованными действиями» понимаются, в частности, перепрошивка, сброс до заводских настроек, монтирование разделов, на конкретно данной модели телефона — удаление вирусных приложений.</p>
-            <p>я делаю 2 бэкапа:</p>
-            <ol>
-                <li>При помощи <a href="https://f-droid.org/en/packages/dk.jens.backup/" target="_blank">oandbackup</a>,</li>
-                <li>В кастомном Recovery.</li>
-            </ol>
-            <h3>2.3. Не устанавливайте официальные прошивки</h3>
-            <p><a href="https://mega.nz/#F!oj5RQQKR!UdBNCCpFbThPqJy9mobGlQ!0jZAhZjR" target="_blank">V007</a> и <a href="https://mega.nz/#F!oj5RQQKR!UdBNCCpFbThPqJy9mobGlQ!4ixAzZqT" target="_blank">V006</a>, которые рекомендует <a href="https://vk.com/topic-114301917_36567374"
-                target="_blank">официальная группа ARK ВКонтакте</a>. В них также содержится вредоносное ПО.</p>
-            <h3>2.4. В прошивке VERTEX баги</h3>
-            <p><a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=67800133" target="_blank">Данные баги</a> не воспроизводятся в прошивке CyanogenMod 12.1. Кроме того в VERTEX присутствуют GAPPS, отсутствующие в прошивке
-                CyanogenMod 12.1.</p>
-            <h2>3. Установка кастомного recovery и перепрошивка</h2>
-            <h3>3.1. Зачем это нужно</h3>
-            <ol>
-                <li>Без кастомного recovery не получится установить новую прошивку. <a href="https://4pda.ru/forum/index.php?s=&amp;showtopic=523117&amp;view=findpost&amp;p=27160632" target="_blank">Что ещё позволяет TWRP recovery</a>.</li>
-                <li>Даже если будет выложен безопасный способ удаления вредоносного ПО в данной модели телефона, в официальных прошивках останутся GAPPS. <a href="http://archive.li/vWC97" target="_blank">мне без них лучше</a>. В прошивке CyanogenMod 12.1
-                    GAPPS отсутствуют.</li>
-            </ol>
-            <h3>3.2. Установка кастомного recovery</h3>
-            <p>Приступаем к действиям. Если Вы успели сохранить на телефон что-то нужное</p>
-            <p>я установил <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=240#entry59542724" target="_blank">TWRP 3.1.0</a>. Проделываем действия по <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=120#entry56295822" target="_blank">этой инструкции</a>.
-                Моменты, которые у меня вызвали затруднения:</p>
-            <h4>3.2.1. Установка драйверов</h4>
-            <p>я делал так. С выключенным телефоном заходил в Device Manager → подключил выключенный телефон по USB → в Device Manager на время около секунды появлялся пункт <em>Ports (COM &amp; LPT)</em> → <em>Preloader USB VCOM Port (COM6)</em>.</p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/vAN4BIQ.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/vAN4BIQ.png" alt="Preloader"></a>
-            </p>
-            <p>Успевал кликнуть на <em>Preloader USB VCOM Port (COM6)</em> → <em>Driver</em> → <em>Update Driver...</em> → <em>Browse my computer for driver software</em> → выбирал папку с драйверами, которую скачал в инструкции, → Поставил галочку на <em>Include subfolders</em>                → <em>Next</em> → получал окно <em>The best driver software for your device is already installed</em>.</p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/6tEn7ka.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/6tEn7ka.png" alt="Best driver"></a>
-            </p>
-            <p>Несмотря на это сообщение, установить кастомное recovery получилось. Видимо, если драйвер уже установлен, можно приступать к дальнейшим действиям.</p>
-            <h4>3.2.2. Кнопка Download</h4>
-            <p>После пункта инструкции <em>Снимаем все галки кроме recovery, и нажав на путь в той же строке, выбираем в открывшемся окне скачанный ранее образ кастомного рекавери.</em> следует нажать на большую зелёную кнопку <em>Download</em></p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/Wl8pHW9.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/Wl8pHW9.png" alt="Download"></a>
-            </p>
-            <p>После нажатия подключил по USB выключенный телефон → программа SP Flash Tool моментально определила телефон (видно по жёлтой полосе внизу окна программы) → загрузка успешно завершилась.</p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/A5CpBmN.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/A5CpBmN.png" alt="Завершение загрузки TWRP"></a>
-            </p>
-            <h3>3.3. Установка CyanogenMod 12.1</h3>
-            <p>Все <a href="https://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=36669797" target="_blank">прошивки из шапки</a> не пробовал, возможно, есть те, которые работают лучше.</p>
-            <p><a href="https://4pda.ru/forum/index.php?showtopic=788444&amp;st=120#entry56296225" target="_blank">Инструкция</a>, <a href="https://4pda.ru/forum/index.php?showtopic=788444&amp;st=60#entry55887596" target="_blank">прошивка</a>; GAPPS по ссылке
-                <a href="http://archive.li/vWC97" target="_blank">устанавливать не стал</a>. Дополнения к инструкции:</p>
-            <h4>3.3.1. Приложения</h4>
-            <p>После успешной установки данной прошивки все иконки на рабочем столе, которые у меня были раньше, удалились. Это может оказаться неприятной неожиданностью: когда я перепрошивался на <a href="https://4pda.ru/forum/index.php?s=&amp;showtopic=528204&amp;view=findpost&amp;p=39754381"
-                target="_blank">Cosmic ROM</a> в Samsung GT-I8262 Galaxy Core, данные на рабочем столе остались нетронутыми (точно не помню, возможно, из-за того, что не сделал все вайпы, ну и точно я не форматировал раздел system).</p>
-            <p>Чтобы восстановить все иконки, которые у меня были на рабочем столе, в oandbackup я сделал восстановление из бэкапа.</p>
-            <h4>3.3.2. Вайпы</h4>
-            <p>После пункта <em>Качаем прошивку из шапки, из раздела "Неофициальные прошивки" и кладём на карту памяти</em>, вероятно, лучше <a href="https://archive.li/IWlGw" target="_blank">сделать вайпы</a> <em>data/Factory reset</em>, <em>Cache Partition</em>,
-                <em>Dalvik Cache</em> через кастомное recovery.</p>
-            <h4>3.3.3. Форматирование раздела system</h4>
-            <p>После вайпов необходимо через кастомное рекавери <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=80#entry56070304" target="_blank">отформатировать раздел system</a>, иначе после перепрошивки <a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=56066199"
-                target="_blank">будет висеть логотип ARK</a>, и дальше дело не двинется.</p>
-            <h4>3.3.4. Окончание перепрошивки</h4>
-            <p>В остальном инструкция для меня понятна. После успешной установки новой прошивки можно вновь установить Dr.Web и просканировать систему на наличие вирусов. На сей раз их быть не должно.</p>
-            <p>Если Вы делали бэкап, можно восстановить данные.</p>
-            <footer>
-                <span class="SashaHeadPageLeft"><a href="http://kristinita.ru" title="Поиск Кристиниты">Поиск Кристиниты</a></span>
-                <!--  -->
-                <span class="SashaNextNeighbor"><a href="http://kristinita.ru/Life-hacks/Как-автоматически-входить-на-сайты.html" title="Как автоматически заходить на сайты?">Следующая статья →</a></span>
-                <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия с его автором. Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.md">отредактировать её</a>                    и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по
-                    <span
-                    id="obf">
-                        <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script>
-                        <noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                        </span>. С комментариями в стиле <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.</div>
+<h2>1. Введение</h2>
+<h3>1.1. Для чего предназначена данная инструкция</h3>
+<p><strong><a href="http://fb.ru/article/254999/stokovaya-proshivka-chto-eto-takoe" target="_blank">Стоковая прошивка</a> телефона ARK Benefit S401 содержит вредоносное ПО</strong> — без Вашего согласия на телефон будут устанавливаться программы. Данная проблема возникла не только у меня, но и у многих прочих участников форума 4PDA, см., например, сообщения <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=340#entry67671845" target="_blank">1</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=340#entry67600967" target="_blank">2</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=300#entry64686674" target="_blank">3</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=300#entry63816408" target="_blank">4</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=300#entry63247178" target="_blank">5</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=280#entry61611283" target="_blank">5</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=280#entry60787829" target="_blank">6</a>, <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=220#entry58263044" target="_blank">7</a>.</p>
+<p><img alt="Вирусы Dr.Web" src="https://i.imgur.com/t27DFhh.png"></p>
+<p>Если не желаете мириться с постоянными загрузками нежелательного ПО, нужно что-то делать.</p>
+<h3>1.2. Для кого предназначена данная инструкция</h3>
+<p>В основном, для пользователей, не имеющих большого опыта перепрошивок. К сожалению, <a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=36669797" target="_blank">сообщения по ссылкам в шапке 4PDA</a> могут быть не совсем понятными для неопытных пользователей.</p>
+<p>Если же Вы опытный юзер и заметили ошибки/недочёты в данной статье, просьба в конструктивном ключе сообщить о них автору.</p>
+<h3>1.3. Необходимое оборудование</h3>
+<p>Автор статьи лично выполнял описанные ниже действия на следующем оборудовании, и у него получилось.</p>
+<ol>
+<li>ARK Benefit S401 со стоковой прошивкой — собственно, телефон, о котором идёт речь;</li>
+<li>Windows 10 LTSB Enterprise EN;</li>
+<li>
+<p>Нужно как-нибудь перенести файл прошивки на SD-карту.</p>
+</li>
+<li>
+<p>Если телефон нормально работает, удобнее всего переносить файлы с компьютера на телефон и обратно с помощью программы <a href="https://f-droid.org/en/packages/be.ppareit.swiftp_free/" target="_blank">FTP Server (Free)</a>.</p>
+</li>
+<li>Если телефоном не получается пользоваться в обычном режиме, — после ошибки YouTube или <a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=67471483" target="_blank">неудачном сбросе настроек</a> — я беру устройство, поддерживающее MicroSD (для меня это скрытая камера) → вставляю в него MicroSD из телефона → подключаю устройство через USB к компьютеру → переношу на MicroSD нужные файлы → отключаю устройство от компьютера → вставляю MicroSD обратно в телефон.</li>
+<li>Вероятно, переносить файлы без дополнительного (помимо USB-кабеля) оборудования можно <a href="http://www.techcolumnist.com/wp/2013/07/29/android-push-file-to-sdcard-with-adb/" target="_blank">посредством adb</a>. Сам не пробовал, не могу сказать, какие подводные камни ожидают.</li>
+</ol>
+<h2>2. Чего не стоит делать</h2>
+<p>Не повторяйте моих ошибок.</p>
+<h3>2.1. Не удаляйте самостоятельно заражённые файлы, если не уверены в последствиях.</h3>
+<p>я пытался удалять вредоносное ПО следующим образом.</p>
+<ol>
+<li>Программой RootAppDelete удалил приложение YouTube,</li>
+<li>Удалял YouTube программой <a href="http://4pda.ru/forum/index.php?showtopic=735417&amp;st=40#entry49802449" target="_blank">Lucky Patcher</a>,</li>
+<li>Просканировал телефон антивирусом Dr.Web и удалил вручную, при помощи Root Explorer, файлы, на которые указал Dr.Web.</li>
+</ol>
+<p>Во всех трёх случаях стала постоянно появляться ошибка приложения YouTube, которая не давала ничего делать на данном телефоне.</p>
+<h3>2.2. Делайте бэкапы перед тем, как совершать рискованные действия</h3>
+<p>Под «рискованными действиями» понимаются, в частности, перепрошивка, сброс до заводских настроек, монтирование разделов, на конкретно данной модели телефона — удаление вирусных приложений.</p>
+<p>я делаю 2 бэкапа:</p>
+<ol>
+<li>При помощи <a href="https://f-droid.org/en/packages/dk.jens.backup/" target="_blank">oandbackup</a>,</li>
+<li>В кастомном Recovery.</li>
+</ol>
+<h3>2.3. Не устанавливайте официальные прошивки</h3>
+<p><a href="https://mega.nz/#F!oj5RQQKR!UdBNCCpFbThPqJy9mobGlQ!0jZAhZjR" target="_blank">V007</a> и <a href="https://mega.nz/#F!oj5RQQKR!UdBNCCpFbThPqJy9mobGlQ!4ixAzZqT" target="_blank">V006</a>, которые рекомендует <a href="https://vk.com/topic-114301917_36567374" target="_blank">официальная группа ARK ВКонтакте</a>. В них также содержится вредоносное ПО.</p>
+<h3>2.4. В прошивке VERTEX баги</h3>
+<p><a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=67800133" target="_blank">Данные баги</a> не воспроизводятся в прошивке CyanogenMod 12.1. Кроме того в VERTEX присутствуют GAPPS, отсутствующие в прошивке CyanogenMod 12.1.</p>
+<h2>3. Установка кастомного recovery и перепрошивка</h2>
+<h3>3.1. Зачем это нужно</h3>
+<ol>
+<li>Без кастомного recovery не получится установить новую прошивку. <a href="https://4pda.ru/forum/index.php?s=&amp;showtopic=523117&amp;view=findpost&amp;p=27160632" target="_blank">Что ещё позволяет TWRP recovery</a>.</li>
+<li>Даже если будет выложен безопасный способ удаления вредоносного ПО в данной модели телефона, в официальных прошивках останутся GAPPS. <a href="http://archive.li/vWC97" target="_blank">мне без них лучше</a>. В прошивке CyanogenMod 12.1 GAPPS отсутствуют.</li>
+</ol>
+<h3>3.2. Установка кастомного recovery</h3>
+<p>Приступаем к действиям. Если Вы успели сохранить на телефон что-то нужное</p>
+<p>я установил <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=240#entry59542724" target="_blank">TWRP 3.1.0</a>. Проделываем действия по <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=120#entry56295822" target="_blank">этой инструкции</a>. Моменты, которые у меня вызвали затруднения:</p>
+<h4>3.2.1. Установка драйверов</h4>
+<p>я делал так. С выключенным телефоном заходил в Device Manager → подключил выключенный телефон по USB → в Device Manager на время около секунды появлялся пункт <em>Ports (COM &amp; LPT)</em> → <em>Preloader USB VCOM Port (COM6)</em>.</p>
+<p><a class="fancybox" href="https://i.imgur.com/vAN4BIQ.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/vAN4BIQ.png" alt="Preloader"></a></p>
+<p>Успевал кликнуть на <em>Preloader USB VCOM Port (COM6)</em> → <em>Driver</em> → <em>Update Driver...</em> → <em>Browse my computer for driver software</em> → выбирал папку с драйверами, которую скачал в инструкции, → Поставил галочку на <em>Include subfolders</em> → <em>Next</em> → получал окно <em>The best driver software for your device is already installed</em>.</p>
+<p><a class="fancybox" href="https://i.imgur.com/6tEn7ka.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/6tEn7ka.png" alt="Best driver"></a></p>
+<p>Несмотря на это сообщение, установить кастомное recovery получилось. Видимо, если драйвер уже установлен, можно приступать к дальнейшим действиям.</p>
+<h4>3.2.2. Кнопка Download</h4>
+<p>После пункта инструкции <em>Снимаем все галки кроме recovery, и нажав на путь в той же строке, выбираем в открывшемся окне скачанный ранее образ кастомного рекавери.</em> следует нажать на большую зелёную кнопку <em>Download</em></p>
+<p><a class="fancybox" href="https://i.imgur.com/Wl8pHW9.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/Wl8pHW9.png" alt="Download"></a></p>
+<p>После нажатия подключил по USB выключенный телефон → программа SP Flash Tool моментально определила телефон (видно по жёлтой полосе внизу окна программы) → загрузка успешно завершилась.</p>
+<p><a class="fancybox" href="https://i.imgur.com/A5CpBmN.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/A5CpBmN.png" alt="Завершение загрузки TWRP"></a></p>
+<h3>3.3. Установка CyanogenMod 12.1</h3>
+<p>Все <a href="https://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=36669797" target="_blank">прошивки из шапки</a> не пробовал, возможно, есть те, которые работают лучше.</p>
+<p><a href="https://4pda.ru/forum/index.php?showtopic=788444&amp;st=120#entry56296225" target="_blank">Инструкция</a>, <a href="https://4pda.ru/forum/index.php?showtopic=788444&amp;st=60#entry55887596" target="_blank">прошивка</a>; GAPPS по ссылке <a href="http://archive.li/vWC97" target="_blank">устанавливать не стал</a>. Дополнения к инструкции:</p>
+<h4>3.3.1. Приложения</h4>
+<p>После успешной установки данной прошивки все иконки на рабочем столе, которые у меня были раньше, удалились. Это может оказаться неприятной неожиданностью: когда я перепрошивался на <a href="https://4pda.ru/forum/index.php?s=&amp;showtopic=528204&amp;view=findpost&amp;p=39754381" target="_blank">Cosmic ROM</a> в Samsung GT-I8262 Galaxy Core, данные на рабочем столе остались нетронутыми (точно не помню, возможно, из-за того, что не сделал все вайпы, ну и точно я не форматировал раздел system).</p>
+<p>Чтобы восстановить все иконки, которые у меня были на рабочем столе, в oandbackup я сделал восстановление из бэкапа.</p>
+<h4>3.3.2. Вайпы</h4>
+<p>После пункта <em>Качаем прошивку из шапки, из раздела "Неофициальные прошивки" и кладём на карту памяти</em>, вероятно, лучше <a href="https://archive.li/IWlGw" target="_blank">сделать вайпы</a> <em>data/Factory reset</em>, <em>Cache Partition</em>, <em>Dalvik Cache</em> через кастомное recovery.</p>
+<h4>3.3.3. Форматирование раздела system</h4>
+<p>После вайпов необходимо через кастомное рекавери <a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;st=80#entry56070304" target="_blank">отформатировать раздел system</a>, иначе после перепрошивки <a href="http://4pda.ru/forum/index.php?s=&amp;showtopic=788444&amp;view=findpost&amp;p=56066199" target="_blank">будет висеть логотип ARK</a>, и дальше дело не двинется.</p>
+<h4>3.3.4. Окончание перепрошивки</h4>
+<p>В остальном инструкция для меня понятна. После успешной установки новой прошивки можно вновь установить Dr.Web и просканировать систему на наличие вирусов. На сей раз их быть не должно.</p>
+<p>Если Вы делали бэкап, можно восстановить данные.</p>            <footer>
+    <span class="SashaHeadPageLeft"><a href=".." title="Поиск Кристиниты">Поиск Кристиниты</a></span>
+<!--  -->
+    <span class="SashaNextNeighbor"><a href="../Life-hacks/Как-автоматически-входить-на-сайты.html" title="Как автоматически заходить на сайты?">Следующая статья →</a></span>
+            	<div class="SashaClearBoth"></div>
+<div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия с его автором. Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.md">отредактировать её</a> и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по <span id="obf"><script src="../js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span>. С комментариями в стиле <a href="../Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.</div>
                 <div class="WorkOnYourself">Работайте над собой</div>
             </footer>
         </div>

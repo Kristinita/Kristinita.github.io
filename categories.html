@@ -7,8 +7,10 @@
     <!-- Title phrase -->
     <title></title>
     <!-- Description, EDGE-compatible, different screens -->
-    <meta content="">
-    <meta content="width=device-width, initial-scale=1">
+    <!-- Needs for validation name="description", see: https://stackoverflow.com/a/11202372/5951529 -->
+    <meta name="description" content="">
+    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Open Graph, http://ruogp.me/ -->
     <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
@@ -27,20 +29,20 @@
     <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
     <!-- Custom JavaScript -->
     <!-- Sasha icon -->
-    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="./theme/images/Sasha.ico" type="image/x-icon">
     <!-- Pages style -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/basic.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/.css">
+    <link rel="stylesheet" href="./theme/css/general/basic.css">
+    <link rel="stylesheet" href="./theme/css/general/fonts.css">
+    <link rel="stylesheet" href="./theme/css/general/aside.css">
+    <link rel="stylesheet" href="./theme/css/general/image_.css">
+    <link rel="stylesheet" href="./theme/css/sections/.css">
     <!-- Material icons font for icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Admonition: note, warning etc. blocks, see -->
     <!-- https://python-markdown.github.io/extensions/admonition/ -->
     <!-- https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
+    <link rel="stylesheet" href="./theme/css/script-colors/Admonition/admonition.css">
     <!-- Custom CSS -->
     <!-- Atom feed -->
 </head>
@@ -49,10 +51,10 @@
     <!-- Background aside -->
     <aside>
         <!-- Header aside -->
-        <h1 class="cover-text"></h1>
+        <div class="SashaBottomAside"></div>
     </aside>
     <!-- Content -->
-    <main>
+    <main itemscope>
         <div class="SashaMargin">
             <header>
                 <h1 class="SashaTopHeader"></h1>
@@ -63,12 +65,14 @@
                     <time datetime=""></time>
                 </div>
                 <div class="SashaVersion">
+                	<!-- pubdate attribute is obsolete, use itemprop: datePublished -->
+                	<!-- https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time pubdate=""></time>
+                    <time itemprop="datePublished" datetime=""></time>
                 </div>
             </header>
             <footer>
-                <div class="SashaClearBoth"></div>
+            	<div class="SashaClearBoth"></div>
                 <div class="WorkOnYourself">Работайте над собой</div>
             </footer>
         </div>

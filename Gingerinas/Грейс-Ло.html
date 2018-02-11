@@ -10,8 +10,10 @@
     <!-- Title phrase -->
     <title>Грейс Ло</title>
     <!-- Description, EDGE-compatible, different screens -->
-    <meta content="Практическая методика запоминания информации для джинджерин">
-    <meta content="width=device-width, initial-scale=1">
+    <!-- Needs for validation name="description", see: https://stackoverflow.com/a/11202372/5951529 -->
+    <meta name="description" content="Практическая методика запоминания информации для джинджерин">
+    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Open Graph, http://ruogp.me/ -->
     <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
@@ -21,53 +23,48 @@
     <meta property="og:description" content="Практическая методика запоминания информации для джинджерин" />
     <meta property="og:site_name" content="Поиск Кристиниты" />
     <!-- JQuery -->
-    <script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Gemini -->
-    <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
-    <!-- JQuery Lazy -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
-    <!-- Fancybox -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
-    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+<script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>    <!-- Gemini -->
+<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+		<script src="../theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+		<link rel="stylesheet" href="../theme/css/script-colors/Gemini/gemini.css">    <!-- JQuery Lazy -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>    <!-- Fancybox -->
+<script src="../theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
+		<script src="../theme/js/Fancybox/fancybox.js" defer></script>
+		<link rel="stylesheet" href="../theme/bower-components/fancybox/dist/jquery.fancybox.min.css">    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
     <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
     <!-- Visualize, see https://github.com/kellyk/visualize -->
     <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
     <!-- Custom JavaScript -->
     <!-- Sasha icon -->
-    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="../theme/images/Sasha.ico" type="image/x-icon">
     <!-- Pages style -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/basic.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_right.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/gingerinas.css">
+    <link rel="stylesheet" href="../theme/css/general/basic.css">
+    <link rel="stylesheet" href="../theme/css/general/fonts.css">
+    <link rel="stylesheet" href="../theme/css/general/aside.css">
+    <link rel="stylesheet" href="../theme/css/general/image_right.css">
+    <link rel="stylesheet" href="../theme/css/sections/gingerinas.css">
     <!-- Material icons font for icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Admonition: note, warning etc. blocks, see -->
     <!-- https://python-markdown.github.io/extensions/admonition/ -->
     <!-- https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
+    <link rel="stylesheet" href="../theme/css/script-colors/Admonition/admonition.css">
     <!-- Custom CSS -->
     <!-- Atom feed -->
-    <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="http://kristinita.ru/feeds/trenirovki-v-dzhindzherinakh.atom.xml" rel="alternate" type="application/atom+xml">
-</head>
+<link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+	<link href="http://kristinita.ru/feeds/trenirovki-v-dzhindzherinakh.atom.xml" rel="alternate" type="application/atom+xml"></head>
 
 <body>
     <!-- Background aside -->
     <aside>
         <!-- Header aside -->
-        <h1 class="cover-text">Грейс Ло</h1>
+        <div class="SashaBottomAside">Грейс Ло</div>
     </aside>
     <!-- Content -->
-    <main>
+    <main itemscope>
         <div class="SashaMargin">
             <header>
                 <h1 class="SashaTopHeader">Грейс Ло</h1>
@@ -78,240 +75,220 @@
                     <time datetime="2017-05-10 09:45:14+03:00">2017-05-10 09:45:14+03:00</time>
                 </div>
                 <div class="SashaVersion">
+                	<!-- pubdate attribute is obsolete, use itemprop: datePublished -->
+                	<!-- https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time pubdate="2018-01-07 13:37:03+03:00">2018-01-07 13:37:03+03:00</time>
+                    <time itemprop="datePublished" datetime="2018-01-07 13:37:03+03:00">2018-01-07 13:37:03+03:00</time>
                 </div>
             </header>
-            <div class="SashaEpigraph">
-                <em>Название методики — сокращённое от «Grace Lawrence», учётной записи <a href="https://vk.com/mk_2802">Екатерины Десятниковой</a> в соцсети,<br>
+<div class="SashaEpigraph">
+<em>Название методики — сокращённое от «Grace Lawrence», учётной записи <a href="https://vk.com/mk_2802">Екатерины Десятниковой</a> в соцсети,<br>
 Тебя нет на этой планете,<br>
 Но Ты навсегда останешься в моём сердце.<br><br>
 Хорошо Тебе, Катя! А я-то зачем остался жить на свете да мучиться! ©
 </em>
-            </div>
+</div>
 
-            <p>
-                <a class="fancybox" href="http://i.imgur.com/ivfmpvZ.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/ivfmpvZ.jpg" alt="Grace Lawrence"></a>
-            </p>
-            <h2>1. Основная информация</h2>
-            <h3>1.1. Что такое Грейс Ло?</h3>
-            <p>«Грейс Ло» — метод, которым автор этих строк запоминает информацию, необходимую для <a href="http://anima-kommunizm.forum2x2.ru/t135-topic" target="_blank">джинджерин</a>.</p>
-            <p>Принцип Грейс Ло — запись информации, которая может впоследствии повторяться в вопросах джинджерин, с последующим её повторением. В пределах данной статьи стараюсь обратить внимание на детали.</p>
-            <h3>1.2. Для чего нужна Грейс Ло?</h3>
-            <p>Вся нужная информация не запоминается сама собой на всю жизнь без каких-либо усилий.</p>
-            <h3>1.3. Процесс Грейс Ло</h3>
-            <p>Кратко, подробности в последующих разделах.</p>
-            <ol>
-                <li>
-                    <p>Получаю вопросы из джинджерин. Если:</p>
-                    <ol>
-                        <li>телевизионная передача → нахожу её запись в Интернете;</li>
-                        <li>игра проводится по Интернету + в текстовом формате → открываю логи игры;</li>
-                        <li>вопросы нельзя получить способами 1—2 → прошу организатора соревнования дать вопросы для анализа;</li>
-                        <li>вопросы нельзя получить способами 1—3 (например, при игре в производные «<a href="https://ru.wikipedia.org/wiki/Conquiztador" target="_blank">Конквизтадора</a>»), → в процессе игры кладу перед собой ручку и блокнот → делаю краткие
-                            выписки в блокнот во время игровых пауз.</li>
-                    </ol>
-                </li>
-                <li>
-                    <p>Если не знаю информацию из вопроса, читаю о ней в научно-популярных источниках Интернета.</p>
-                </li>
-                <li>
-                    <p>Делаю выписки фактов, которые считаю необходимым повторять в дальнейшем.</p>
-                </li>
-                <li>
-                    <p>Спустя время, повторяю эти факты. Иначе зачем нужно выписывать.</p>
-                </li>
-            </ol>
-            <h3>1.4. Кому может пригодиться Грейс Ло?</h3>
-            <ol>
-                <li>
-                    <p>Игрокам в <a href="http://anima-kommunizm.forum2x2.ru/t135-topic" target="_blank">джинджерины</a>, где требуется большой объём знаний: «Филиманию», «Свою игру», «Конквизтадор» и т. д.</p>
-                    <p>Но</p>
-                </li>
-                <li>
-                    <p>Если Вам нужно сосредоточиться только на телевизионном «Что? Где? Когда?» — в тренировочном процессе вряд ли стоит уделять много внимания методикам запоминания.</p>
-                    <p>Вероятностное суждение: Если я смотрю игру российского или азербайджанского «Что? Где? Когда?», примерно один раз за игру для ответа на вопрос мне не хватает необходимого знания. Большинство же фактов, необходимых для ответа на вопрос,
-                        известны среднестатистическим игрокам в ЧГК. Да, эти знания нужно их как-то получать, однако для этого, скорее, следует смотреть джинджерины, нежели специально что-то заучивать.</p>
-                </li>
-            </ol>
-            <h3>1.5. Эффективность</h3>
-            <p><a href="https://en.wikipedia.org/wiki/Ken_Jennings" target="_blank">Кен Дженнингс</a>, «Brainiac. Удивительные приключения в мире интеллектуальных игр»:</p>
-            <blockquote>
-                Зато я получил ценный урок: вопросы в Jeopardy! так же как шутки в ситкомах «Я люблю Люси» или «Очарованные», повторяются.
-            </blockquote>
+<p><a class="fancybox" href="http://i.imgur.com/ivfmpvZ.jpg"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/ivfmpvZ.jpg" alt="Grace Lawrence"></a></p>
+<h2>1. Основная информация</h2>
+<h3>1.1. Что такое Грейс Ло?</h3>
+<p>«Грейс Ло» — метод, которым автор этих строк запоминает информацию, необходимую для <a href="http://anima-kommunizm.forum2x2.ru/t135-topic" target="_blank">джинджерин</a>.</p>
+<p>Принцип Грейс Ло — запись информации, которая может впоследствии повторяться в вопросах джинджерин, с последующим её повторением. В пределах данной статьи стараюсь обратить внимание на детали.</p>
+<h3>1.2. Для чего нужна Грейс Ло?</h3>
+<p>Вся нужная информация не запоминается сама собой на всю жизнь без каких-либо усилий.</p>
+<h3>1.3. Процесс Грейс Ло</h3>
+<p>Кратко, подробности в последующих разделах.</p>
+<ol>
+<li>
+<p>Получаю вопросы из джинджерин. Если:</p>
+<ol>
+<li>телевизионная передача → нахожу её запись в Интернете;</li>
+<li>игра проводится по Интернету + в текстовом формате → открываю логи игры;</li>
+<li>вопросы нельзя получить способами 1—2 → прошу организатора соревнования дать вопросы для анализа;</li>
+<li>вопросы нельзя получить способами 1—3 (например, при игре в производные «<a href="https://ru.wikipedia.org/wiki/Conquiztador" target="_blank">Конквизтадора</a>»), → в процессе игры кладу перед собой ручку и блокнот → делаю краткие выписки в блокнот во время игровых пауз.</li>
+</ol>
+</li>
+<li>
+<p>Если не знаю информацию из вопроса, читаю о ней в научно-популярных источниках Интернета.</p>
+</li>
+<li>
+<p>Делаю выписки фактов, которые считаю необходимым повторять в дальнейшем.</p>
+</li>
+<li>
+<p>Спустя время, повторяю эти факты. Иначе зачем нужно выписывать.</p>
+</li>
+</ol>
+<h3>1.4. Кому может пригодиться Грейс Ло?</h3>
+<ol>
+<li>
+<p>Игрокам в <a href="http://anima-kommunizm.forum2x2.ru/t135-topic" target="_blank">джинджерины</a>, где требуется большой объём знаний: «Филиманию», «Свою игру», «Конквизтадор» и т. д.</p>
+<p>Но</p>
+</li>
+<li>
+<p>Если Вам нужно сосредоточиться только на телевизионном «Что? Где? Когда?» — в тренировочном процессе вряд ли стоит уделять много внимания методикам запоминания.</p>
+<p>Вероятностное суждение: Если я смотрю игру российского или азербайджанского «Что? Где? Когда?», примерно один раз за игру для ответа на вопрос мне не хватает необходимого знания. Большинство же фактов, необходимых для ответа на вопрос, известны среднестатистическим игрокам в ЧГК. Да, эти знания нужно их как-то получать, однако для этого, скорее, следует смотреть джинджерины, нежели специально что-то заучивать.</p>
+</li>
+</ol>
+<h3>1.5. Эффективность</h3>
+<p><a href="https://en.wikipedia.org/wiki/Ken_Jennings" target="_blank">Кен Дженнингс</a>, «Brainiac. Удивительные приключения в мире интеллектуальных игр»:</p>
+<blockquote>
+Зато я получил ценный урок: вопросы в Jeopardy! так же как шутки в ситкомах «Я люблю Люси» или «Очарованные», повторяются.
+</blockquote>
 
-            <p>Про российские джинджерины с уклоном на знания можно сказать то же самое: вопросы не точь-в-точь, но повторяются. Для ответов требуются те же знания.</p>
-            <p>Анализируя уже прозвучавшие вопросы, Вы приобретаете те знания, которые необходимы для успешных результатов в выбранной Вами джинджерине. Количество «воды» — прочитанной информации, которая не принесёт пользы в ответах на вопросы джинджерин,
-                — относительно низко, меньше, чем при чтении книг → считаю Грейс Ло достаточно эффективным методом для себя. Допускаю, что у игроков с иным складом мышления может быть другое аргументированное мнение на сей счёт.</p>
-            <h2>2. Технические средства</h2>
-            <h3>2.1. Сравнение электронных устройств с бумажными</h3>
-            <h4>2.1.1. Преимущества</h4>
-            <ol>
-                <li>
-                    <p>На случай форс-мажорных обстоятельств файлы с моими записями автоматически копируются на удалённый сервер при помощи бесплатной программы <a href="https://mega.nz/" target="_blank">Mega</a>. Они хранятся в двух местах. Вероятность,
-                        что пропадут сразу из обоих ниже, чем если что-то случится с одним.</p>
-                    <p>Постоянно же делать ксерокопии — трата времени и денег.</p>
-                </li>
-                <li>
-                    <p>Быстрее ориентироваться — см. command palette.</p>
-                </li>
-                <li>
-                    <p>Проще исправлять, корректировать текст.</p>
-                </li>
-                <li>
-                    <p>Переносимость. В путешествия я беру с собой одну небольшую электронную книгу с файлами. Раньше носил толстые тетради.</p>
-                </li>
-                <li>
-                    <p>Нет проблем, связанных с пастами ручек:</p>
-                    <ol>
-                        <li>Некоторые оставляют разводы на бумаге.</li>
-                        <li>Спустя месяцы/годы текст, написанный некоторыми из них, стирается.</li>
-                    </ol>
-                </li>
-            </ol>
-            <h4>2.1.2. Недостатки</h4>
-            <ol>
-                <li>
-                    <p>Если Вы находитесь далеко от ПК и хотите заниматься <a href="#повторение">повторением</a>, недостатки зависят от типа носителя.</p>
-                    <ol>
-                        <li><em>Электронные книги</em>. В тех, которые я знаю, режим только для чтения → нельзя вносить пометки.</li>
-                        <li><em>Мобильные устройства, планшеты</em>. Быстро разряжаются, приходится носить с собой портативное зарядное устройство.</li>
-                    </ol>
-                </li>
-            </ol>
-            <h4>2.1.3. Вывод</h4>
-            <p>Если у Вас есть компьютер и мобильное устройство/электронная книга,</p>
-            <p>    не повторяйте моих ошибок. Пишите заметки сразу в электронном виде.</p>
-            <h3>2.2. Моё рабочее пространство</h3>
-            <ol>
-                <li>Компьютер, подсоединённый к Интернету,</li>
-                <li>
-                    <p>Кроссплатформенный (Windows, macOS, *nix-подобные ОС) текстовый редактор <a href="https://www.sublimetext.com/3" target="_blank">Sublime Text 3</a>. Программа платная, но по опыту: хорошие программы почти всегда <a href="http://www.torrent-invites.com/software/25364-crack-patch-serial-keygen.html"
-                        target="_blank">можно скачать бесплатно</a>.</p>
-                    <ol>
-                        <li>Пакет <a href="https://github.com/alvesjtiago/hover-preview" target="_blank">Sublime Hover Preview</a> — для просмотра удалённых изображений прямо в редакторе.</li>
-                    </ol>
-                </li>
-                <li>
-                    <p>Электронная книга TB-566. Однажды несколько дней с утра до вечера читал книги в ней у дома Кати → разрядилась только на половину → долго работает без дополнительной подзарядки.</p>
-                </li>
-            </ol>
-            <h3>2.3. Использование Sublime Text</h3>
-            <p>В разделе рассказывается о вспомогательных средствах для Sublime Text. Если Вы предпочитаете использовать другой текстовый редактор и знаете аналогичные средства — используйте то, что Вам удобнее.</p>
-            <h4>2.3.1. Установка Sublime Text</h4>
-            <ol>
-                <li><a href="http://www.sublimetext.com/3" target="_blank">Установите Sublime Text</a>,</li>
-                <li><a href="http://www.sublimetext.ru/documentation/projects" target="_blank">добавьте папку Грейс Ло в сайдбар</a>:</li>
-            </ol>
-            <p>Аргумент — нужно, чтобы файлы отображались в <a href="#Command-palette">command palette</a>.</p>
-            <h4>2.3.2. Command palette</h4>
-            <p>Аргумент: быстрое открытие нужных файлов.</p>
-            <p>Ctrl+P (<kbd>⌘p</kbd> для пользователей Mac) → вводите имя файла, куда собираетесь вносить запись → выберите нужный файл → нажмите Enter. <a href="https://habrahabr.ru/post/147856/" target="_blank">Fuzzy-поиск</a> облегчает ввод.</p>
-            <p>Пример: набрав <em>литсс</em>, Вы получаете следующий результат</p>
-            <p>
-                <a class="fancybox" href="http://i.imgur.com/LOR3QLt.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/LOR3QLt.png" alt="Fuzzy"></a>
-            </p>
-            <h4>2.3.3. Hover Image Preview</h4>
-            <p>Аргумент: Пакет позволяет просматривать удалённые изображения прямо в редакторе. Удобно, если забыли, как выглядит что-либо.</p>
-            <p><a href="http://forum.sublimetext.ru/index.php?topic=6.0" target="_blank">Установите через Package Control</a> пакет <a href="https://packagecontrol.io/packages/Hover%20Image%20Preview" target="_blank">Hover Image Preview</a> → в текстовый
-                файл вставьте ссылку на изображение
-                <a class="fancybox" href="http://stackoverflow.com/a/14494775/5951529"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://stackoverflow.com/a/14494775/5951529" alt="в формате Markdown"></a>:</p>
-            <div class="SashaBlockHighlight"><pre><span></span>![Image description](URL of your link)
+<p>Про российские джинджерины с уклоном на знания можно сказать то же самое: вопросы не точь-в-точь, но повторяются. Для ответов требуются те же знания.</p>
+<p>Анализируя уже прозвучавшие вопросы, Вы приобретаете те знания, которые необходимы для успешных результатов в выбранной Вами джинджерине. Количество «воды» — прочитанной информации, которая не принесёт пользы в ответах на вопросы джинджерин, — относительно низко, меньше, чем при чтении книг → считаю Грейс Ло достаточно эффективным методом для себя. Допускаю, что у игроков с иным складом мышления может быть другое аргументированное мнение на сей счёт.</p>
+<h2>2. Технические средства</h2>
+<h3>2.1. Сравнение электронных устройств с бумажными</h3>
+<h4>2.1.1. Преимущества</h4>
+<ol>
+<li>
+<p>На случай форс-мажорных обстоятельств файлы с моими записями автоматически копируются на удалённый сервер при помощи бесплатной программы <a href="https://mega.nz/" target="_blank">Mega</a>. Они хранятся в двух местах. Вероятность, что пропадут сразу из обоих ниже, чем если что-то случится с одним.</p>
+<p>Постоянно же делать ксерокопии — трата времени и денег.</p>
+</li>
+<li>
+<p>Быстрее ориентироваться — см. command palette.</p>
+</li>
+<li>
+<p>Проще исправлять, корректировать текст.</p>
+</li>
+<li>
+<p>Переносимость. В путешествия я беру с собой одну небольшую электронную книгу с файлами. Раньше носил толстые тетради.</p>
+</li>
+<li>
+<p>Нет проблем, связанных с пастами ручек:</p>
+<ol>
+<li>Некоторые оставляют разводы на бумаге.</li>
+<li>Спустя месяцы/годы текст, написанный некоторыми из них, стирается.</li>
+</ol>
+</li>
+</ol>
+<h4>2.1.2. Недостатки</h4>
+<ol>
+<li>
+<p>Если Вы находитесь далеко от ПК и хотите заниматься <a href="#повторение">повторением</a>, недостатки зависят от типа носителя.</p>
+<ol>
+<li><em>Электронные книги</em>. В тех, которые я знаю, режим только для чтения → нельзя вносить пометки.</li>
+<li><em>Мобильные устройства, планшеты</em>. Быстро разряжаются, приходится носить с собой портативное зарядное устройство.</li>
+</ol>
+</li>
+</ol>
+<h4>2.1.3. Вывод</h4>
+<p>Если у Вас есть компьютер и мобильное устройство/электронная книга,</p>
+<p>    не повторяйте моих ошибок. Пишите заметки сразу в электронном виде.</p>
+<h3>2.2. Моё рабочее пространство</h3>
+<ol>
+<li>Компьютер, подсоединённый к Интернету,</li>
+<li>
+<p>Кроссплатформенный (Windows, macOS, *nix-подобные ОС) текстовый редактор <a href="https://www.sublimetext.com/3" target="_blank">Sublime Text 3</a>. Программа платная, но по опыту: хорошие программы почти всегда <a href="http://www.torrent-invites.com/software/25364-crack-patch-serial-keygen.html" target="_blank">можно скачать бесплатно</a>.</p>
+<ol>
+<li>Пакет <a href="https://github.com/alvesjtiago/hover-preview" target="_blank">Sublime Hover Preview</a> — для просмотра удалённых изображений прямо в редакторе.</li>
+</ol>
+</li>
+<li>
+<p>Электронная книга TB-566. Однажды несколько дней с утра до вечера читал книги в ней у дома Кати → разрядилась только на половину → долго работает без дополнительной подзарядки.</p>
+</li>
+</ol>
+<h3>2.3. Использование Sublime Text</h3>
+<p>В разделе рассказывается о вспомогательных средствах для Sublime Text. Если Вы предпочитаете использовать другой текстовый редактор и знаете аналогичные средства — используйте то, что Вам удобнее.</p>
+<h4>2.3.1. Установка Sublime Text</h4>
+<ol>
+<li><a href="http://www.sublimetext.com/3" target="_blank">Установите Sublime Text</a>,</li>
+<li><a href="http://www.sublimetext.ru/documentation/projects" target="_blank">добавьте папку Грейс Ло в сайдбар</a>:</li>
+</ol>
+<p>Аргумент — нужно, чтобы файлы отображались в <a href="#Command-palette">command palette</a>.</p>
+<h4>2.3.2. Command palette</h4>
+<p>Аргумент: быстрое открытие нужных файлов.</p>
+<p>Ctrl+P (<kbd>⌘p</kbd> для пользователей Mac) → вводите имя файла, куда собираетесь вносить запись → выберите нужный файл → нажмите Enter. <a href="https://habrahabr.ru/post/147856/" target="_blank">Fuzzy-поиск</a> облегчает ввод.</p>
+<p>Пример: набрав <em>литсс</em>, Вы получаете следующий результат</p>
+<p><a class="fancybox" href="http://i.imgur.com/LOR3QLt.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/LOR3QLt.png" alt="Fuzzy"></a></p>
+<h4>2.3.3. Hover Image Preview</h4>
+<p>Аргумент: Пакет позволяет просматривать удалённые изображения прямо в редакторе. Удобно, если забыли, как выглядит что-либо.</p>
+<p><a href="http://forum.sublimetext.ru/index.php?topic=6.0" target="_blank">Установите через Package Control</a> пакет <a href="https://packagecontrol.io/packages/Hover%20Image%20Preview" target="_blank">Hover Image Preview</a> → в текстовый файл вставьте ссылку на изображение <a class="fancybox" href="http://stackoverflow.com/a/14494775/5951529"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://stackoverflow.com/a/14494775/5951529" alt="в формате Markdown"></a>:</p>
+<div class="SashaBlockHighlight"><pre><span></span>![Image description](URL of your link)
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <p>Пример:</p>
-            <div class="SashaBlockHighlight"><pre><span></span>![Герб Чистополя](http://i.imgur.com/zqwGrIt.jpg)
+<p>Пример:</p>
+<div class="SashaBlockHighlight"><pre><span></span>![Герб Чистополя](http://i.imgur.com/zqwGrIt.jpg)
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <p>Наведите курсор мыши между (круглыми скобками) → должна отобразиться картинка:</p>
-            <p>
-                <a class="fancybox" href="http://i.imgur.com/BW3xSNw.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/BW3xSNw.png" alt="Результат"></a>
-            </p>
-            <p>Проблема: <a href="https://github.com/alvesjtiago/hover-preview/issues/9#issuecomment-301037297" target="_blank">маленький размер изображений</a>.</p>
-            <h2>3. Какую информацию следует выписывать?</h2>
-            <h3>3.1. Общие критерии</h3>
-            <ol>
-                <li>
-                    <p>Вам представляется, что если факты из вопроса попадутся ещё раз, Вы можете его и не запомнить.</p>
-                    <p>Пример: <em>«Так называется устройство для понижения интенсивности электрических колебаний»</em> — <em>аттенюатор</em>. Если вопрос прозвучит через месяц, не уверен, что вспомню.</p>
-                </li>
-                <li>
-                    <p>Факты, знание которых ещё может пригодиться в джинджеринах, где Вы участвуете. Это ≠ знания, которые пригодятся на практике или знания, которые делают человека эрудитом. Выписывать то, о чём задают авторы вопросов для джинджерин.</p>
-                    <p>В разговорах в среде игроков в джинджерины тематика вопросов может служить объектом критики. Пример: я однозначно не считаю полезным для развития + характеризующим общее развитие интеллекта запоминание третьестепенных персонажей произведений
-                        Ильфа и Петрова. Но приходится прокачивать эту информацию или согласиться, что отдаёшь соперникам дополнительное преимущество.</p>
-                </li>
-            </ol>
-            <h3>3.2. Частности</h3>
-            <ol>
-                <li><strong>Термины</strong> из областей знаний, с которыми не приходится часто сталкиваться вне джинджерин.</li>
-                <li>
-                    <p><strong>Экманы</strong> (от фамилии Пола Экмана, одного из Любимых Катиных писателей) — два или несколько понятий, отличающихся следующими характеристиками:</p>
-                    <ol>
-                        <li>Близки по какому-то признаку,</li>
-                        <li>Не имеют чёткого законченного образа в голове игрока → вследствие чего возникает путаница между ними.</li>
-                    </ol>
-                    <p>мне их непросто запомнить, путаюсь.</p>
-                    <p>Пример 1: знаю персидских писателей Рудаки, Саади и Фирдоуси, но когда спрашивают о фактах из их жизни, путаюсь, несмотря на то, что читал биографии всех троих. Поэтому сделал выписку следующего содержания и повторял впоследствии следующую
-                        информацию:</p>
-                </li>
-            </ol>
-            <div class="SashaBlockHighlight"><pre><span></span>Рудаки — 9 век, родоначальник поэзии на новоперсидском языке, возможно, слепой,
+<p>Наведите курсор мыши между (круглыми скобками) → должна отобразиться картинка:</p>
+<p><a class="fancybox" href="http://i.imgur.com/BW3xSNw.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/BW3xSNw.png" alt="Результат"></a></p>
+<p>Проблема: <a href="https://github.com/alvesjtiago/hover-preview/issues/9#issuecomment-301037297" target="_blank">маленький размер изображений</a>.</p>
+<h2>3. Какую информацию следует выписывать?</h2>
+<h3>3.1. Общие критерии</h3>
+<ol>
+<li>
+<p>Вам представляется, что если факты из вопроса попадутся ещё раз, Вы можете его и не запомнить.</p>
+<p>Пример: <em>«Так называется устройство для понижения интенсивности электрических колебаний»</em> — <em>аттенюатор</em>. Если вопрос прозвучит через месяц, не уверен, что вспомню.</p>
+</li>
+<li>
+<p>Факты, знание которых ещё может пригодиться в джинджеринах, где Вы участвуете. Это ≠ знания, которые пригодятся на практике или знания, которые делают человека эрудитом. Выписывать то, о чём задают авторы вопросов для джинджерин.</p>
+<p>В разговорах в среде игроков в джинджерины тематика вопросов может служить объектом критики. Пример: я однозначно не считаю полезным для развития + характеризующим общее развитие интеллекта запоминание третьестепенных персонажей произведений Ильфа и Петрова. Но приходится прокачивать эту информацию или согласиться, что отдаёшь соперникам дополнительное преимущество.</p>
+</li>
+</ol>
+<h3>3.2. Частности</h3>
+<ol>
+<li><strong>Термины</strong> из областей знаний, с которыми не приходится часто сталкиваться вне джинджерин.</li>
+<li>
+<p><strong>Экманы</strong> (от фамилии Пола Экмана, одного из Любимых Катиных писателей) — два или несколько понятий, отличающихся следующими характеристиками:</p>
+<ol>
+<li>Близки по какому-то признаку,</li>
+<li>Не имеют чёткого законченного образа в голове игрока → вследствие чего возникает путаница между ними.</li>
+</ol>
+<p>мне их непросто запомнить, путаюсь.</p>
+<p>Пример 1: знаю персидских писателей Рудаки, Саади и Фирдоуси, но когда спрашивают о фактах из их жизни, путаюсь, несмотря на то, что читал биографии всех троих. Поэтому сделал выписку следующего содержания и повторял впоследствии следующую информацию:</p>
+</li>
+</ol>
+<div class="SashaBlockHighlight"><pre><span></span>Рудаки — 9 век, родоначальник поэзии на новоперсидском языке, возможно, слепой,
 Саади — перс, «Гулистан» («Цветочный сад») 13 век, суфий, много где скитался,
 Фирдоуси — «Юсуф и Зулейха», султан отказался заплатить за «Шахнаме», и Фирдоуси вынужден был бежать.
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <h2>4. Какую информацию не следует выписывать?</h2>
-            <ol>
-                <li>
-                    <p>Которую, как полагаете, можно запомнить без повторения. Для меня это <strong>новая интересная</strong> информация.</p>
-                    <p>Нурали Латыпов, «Основы интеллектуального тренинга», с.39:</p>
-                </li>
-            </ol>
-            <blockquote>
-                Лучше всего мозг запоминает новую для него информацию. Да ещё и интересную — выделенную по каким-то признакам.
-            </blockquote>
+<h2>4. Какую информацию не следует выписывать?</h2>
+<ol>
+<li>
+<p>Которую, как полагаете, можно запомнить без повторения. Для меня это <strong>новая интересная</strong> информация.</p>
+<p>Нурали Латыпов, «Основы интеллектуального тренинга», с.39:</p>
+</li>
+</ol>
+<blockquote>
+    Лучше всего мозг запоминает новую для него информацию. Да ещё и интересную — выделенную по каким-то признакам.
+</blockquote>
 
-            <p>Аргумент: Экономия времени.</p>
-            <p>Пример: я не выписываю факты из вопросов, которые, судя по стилю, взяты из сборников интересных фактов.</p>
-            <ol>
-                <li>
-                    <p>Определяемую Вашим уровнем логических измышлений — если ответили благодаря логике, а не знаниям.</p>
-                    <p>Аргумент: в русскоязычных джинджеринах бОльшую роль играет придумывание ответов, нежели их знание.</p>
-                    <p>Анатолий Вассерман:</p>
-                </li>
-            </ol>
-            <blockquote>При этом у человека со стороны складывается впечатление: игрок просто знал конкретный факт. На самом же деле не знал, а – как принято говорить в игровой тусовке – вычислил. Так что все отечественные (и играющие в «Большую тройку» зарубежные)
-                участники ИИ знают куда меньше, зато думают куда больше, чем кажется зрителям.</blockquote>
+<p>Аргумент: Экономия времени.</p>
+<p>Пример: я не выписываю факты из вопросов, которые, судя по стилю, взяты из сборников интересных фактов.</p>
+<ol>
+<li>
+<p>Определяемую Вашим уровнем логических измышлений — если ответили благодаря логике, а не знаниям.</p>
+<p>Аргумент: в русскоязычных джинджеринах бОльшую роль играет придумывание ответов, нежели их знание.</p>
+<p>Анатолий Вассерман:</p>
+</li>
+</ol>
+<blockquote>При этом у человека со стороны складывается впечатление: игрок просто знал конкретный факт. На самом же деле не знал, а – как принято говорить в игровой тусовке – вычислил. Так что все отечественные (и играющие в «Большую тройку» зарубежные) участники ИИ знают куда меньше, зато думают куда больше, чем кажется зрителям.</blockquote>
 
-            <ol>
-                <li>Которую Вы итак знали.</li>
-            </ol>
-            <p>Пример: <em>Рубенс — посол, выполнял дипломатические поручения</em>. Не написал, что он нидерландский художник.</p>
-            <ol>
-                <li>
-                    <p>Содержащуюся в других источниках, в виде, который Вас устраивает.</p>
-                    <p>Пример: я прочитал книгу <a href="http://bit.ly/2pC69nP" target="_blank">«Как были открыты химические элементы»</a> и не стал ничего выписывать, потому что, когда настанет время повторять информацию о химических элементах, лучше вновь
-                        открою данную книгу.</p>
-                    <p>Аргумент: экономия времени: незачем писать то, что уже приемлемо написано.</p>
-                </li>
-                <li>
-                    <p>По тематикам, в которых слабо разбираетесь.</p>
-                    <p>Аргумент: полагаю, что будет более эффективно предварительное ознакомление с темой.</p>
-                    <p>Аналогия: мне понадобилось написать программу на Python. я не знал этого языка программирования, гуглил по каждой мелочи. Какого-то осмысления синтаксиса языка не приходило. Но когда прочёл книгу <a href="http://wombat.org.ua/AByteOfPython/AByteofPythonRussian-2.01.pdf"
-                        target="_blank">A Byte of Python</a>, стал лучше понимать, что написано в коде; удалось составить целостную картину происходящего + процесс создания программ пошёл быстрее.</p>
-                    <p>Если совсем не разбираетесь в условной химии, для начала прочтите какую-нибудь научно-популярную книгу о ней. Вероятно, это поможет в дальнейшем лучше разбираться в частностях данной тематики.</p>
-                </li>
-            </ol>
-            <h2>5. Как записывать?</h2>
-            <h3>5.1. Создание файлов</h3>
-            <p>Создайте папку на своём компьютере → назовите её, к примеру, <em>Грейс Ло</em> → поместите в папку 86 файлов со следующими именами:</p>
-            <p>
-                <details>
-                    <summary><b>Кликните сюда, чтобы увидеть список файлов.</b></summary>
-                    <br>
-            </p>
-            <p>
-                <div class="SashaBlockHighlight"><pre><span></span><span class="err">Авиация</span><span class="o">.</span><span class="n">txt</span>
+<ol>
+<li>Которую Вы итак знали.</li>
+</ol>
+<p>Пример: <em>Рубенс — посол, выполнял дипломатические поручения</em>. Не написал, что он нидерландский художник.</p>
+<ol>
+<li>
+<p>Содержащуюся в других источниках, в виде, который Вас устраивает.</p>
+<p>Пример: я прочитал книгу <a href="http://bit.ly/2pC69nP" target="_blank">«Как были открыты химические элементы»</a> и не стал ничего выписывать, потому что, когда настанет время повторять информацию о химических элементах, лучше вновь открою данную книгу.</p>
+<p>Аргумент: экономия времени: незачем писать то, что уже приемлемо написано.</p>
+</li>
+<li>
+<p>По тематикам, в которых слабо разбираетесь.</p>
+<p>Аргумент: полагаю, что будет более эффективно предварительное ознакомление с темой.</p>
+<p>Аналогия: мне понадобилось написать программу на Python. я не знал этого языка программирования, гуглил по каждой мелочи. Какого-то осмысления синтаксиса языка не приходило. Но когда прочёл книгу <a href="http://wombat.org.ua/AByteOfPython/AByteofPythonRussian-2.01.pdf" target="_blank">A Byte of Python</a>, стал лучше понимать, что написано в коде; удалось составить целостную картину происходящего + процесс создания программ пошёл быстрее.</p>
+<p>Если совсем не разбираетесь в условной химии, для начала прочтите какую-нибудь научно-популярную книгу о ней. Вероятно, это поможет в дальнейшем лучше разбираться в частностях данной тематики.</p>
+</li>
+</ol>
+<h2>5. Как записывать?</h2>
+<h3>5.1. Создание файлов</h3>
+<p>Создайте папку на своём компьютере → назовите её, к примеру, <em>Грейс Ло</em> → поместите в папку 86 файлов со следующими именами:</p>
+<p><details>
+<summary><b>Кликните сюда, чтобы увидеть список файлов.</b></summary><br></p>
+<p><div class="SashaBlockHighlight"><pre><span></span><span class="err">Авиация</span><span class="o">.</span><span class="n">txt</span>
 <span class="err">Авторская</span><span class="n">_песня</span><span class="o">.</span><span class="n">txt</span>
 <span class="err">Американские</span><span class="n">_фильмы</span><span class="o">.</span><span class="n">txt</span>
 <span class="err">Анатомия</span><span class="o">.</span><span class="n">txt</span>
@@ -398,105 +375,86 @@
 <span class="err">Юмор</span><span class="o">.</span><span class="n">txt</span>
 <span class="err">Языкознание</span><span class="o">.</span><span class="n">txt</span>
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
-                </details>
-                <br>
-            </p>
-            <p>Список именно из этих категорий возник не сразу, он создавался на протяжении двух лет. Какие-то добавлялись, другие удалялись.</p>
-            <h4>5.1.1. Примечания к списку</h4>
-            <p>Скрыл, поскольку в данном подразделе описываются относительно незначительные примечания.</p>
-            <p>
-                <details>
-                    <summary><b>Кликните сюда, чтобы увидеть примечания.</b></summary>
-                    <br>
-            </p>
-            <ol>
-                <li>
-                    <p>Распределил информацию по категориям — областям знаний — по следующим причинам:</p>
-                    <ol>
-                        <li>Лично мне удобнее работать, когда порядок.</li>
-                        <li>Повторение однотипной, а не разнотипной информации повышает эффективность процесса.</li>
-                    </ol>
-                    <p>Ицхак Пинтосевич:</p>
-                    <p>
-                        <blockquote><strong>Объедини дела по группам</strong></p>
-                    <p>Этот способ позволяет сделать из нескольких маленьких дел одно большое, приоритетное. Я люблю повышать производительность труда; это – один из очень мощных способов. Мелкие дела и задачи надо собирать в группы, садиться и делать. И
-                        не вставать, пока не закончишь!</p>
-                    <p>Собрать несколько однотипных дел в одно большое – и сделать его. Например, ответ на письма. Телефонные звонки. Проверка счетов и документов. Я купил красный таймер. Собираю дела, придумываю себе приз, который получу по окончании. Выделяю
-                        1 час (больше не выдерживаю). Объявляю окружающим, что час я занимаюсь только этим (декларация + штраф помогают максимально сконцентрироваться). И погружаюсь в рутину. Почему это выгодно?</p>
-                    <p>Учёные так назвали это группирование: «использовать кривую обучения». Они обнаружили, что, если делать подряд несколько одинаковых дел, каждое последующее отнимает чуть меньше времени, несмотря на то что по объёму оно такое же. Сделав
-                        10 таких дел подряд, обнаружишь, что последнее отняло у тебя всего 20 % времени по сравнению с первым!</blockquote>
-                    </p>
-                </li>
-                <li>
-                    <p>«Разное» — информация не относится ни к одной из представленных тем.</p>
-                </li>
-            </ol>
-            <p>По опыту: в эту категорию вношу изменения недостаточно часто.</p>
-            <ol>
-                <li>«Женское» — тема объединяет парфюмерию, косметику, моду, парикмахерское искусство.</li>
-                <li>«Зарубежная», «мировая» = «не стран бывшего СССР»</li>
-                <li>
-                    <p>«Переводы» — записывается информация двух типов:</p>
-                    <ol>
-                        <li>Перевод иностранных слов на русский. Пример записи: «lovelorn — страдающий от безнадёжной Любви».</li>
-                        <li>Происхождение слов, укоренившихся в русском языке. Пример записи: «линза — лат. чечевица»</li>
-                    </ol>
-                </li>
-                <li>
-                    <p>«Географические науки» — тема включает в себя физическую географию, природные явления, почвоведение, сейсмологию;</p>
-                </li>
-            </ol>
-            <p>Примеры записей:</p>
-            <div class="highlight"><pre><span></span>+ вирга — дождь, который испаряется, не достигая земли,
+</details><br></p>
+<p>Список именно из этих категорий возник не сразу, он создавался на протяжении двух лет. Какие-то добавлялись, другие удалялись.</p>
+<h4>5.1.1. Примечания к списку</h4>
+<p>Скрыл, поскольку в данном подразделе описываются относительно незначительные примечания.</p>
+<p><details>
+<summary><b>Кликните сюда, чтобы увидеть примечания.</b></summary><br></p>
+<ol>
+<li>
+<p>Распределил информацию по категориям — областям знаний — по следующим причинам:</p>
+<ol>
+<li>Лично мне удобнее работать, когда порядок.</li>
+<li>Повторение однотипной, а не разнотипной информации повышает эффективность процесса.</li>
+</ol>
+<p>Ицхак Пинтосевич:</p>
+<p><blockquote><strong>Объедини дела по группам</strong></p>
+<p>Этот способ позволяет сделать из нескольких маленьких дел одно большое, приоритетное. Я люблю повышать производительность труда; это – один из очень мощных способов. Мелкие дела и задачи надо собирать в группы, садиться и делать. И не вставать, пока не закончишь!</p>
+<p>Собрать несколько однотипных дел в одно большое – и сделать его. Например, ответ на письма. Телефонные звонки. Проверка счетов и документов. Я купил красный таймер. Собираю дела, придумываю себе приз, который получу по окончании. Выделяю 1 час (больше не выдерживаю). Объявляю окружающим, что час я занимаюсь только этим (декларация + штраф помогают максимально сконцентрироваться). И погружаюсь в рутину. Почему это выгодно?</p>
+<p>Учёные так назвали это группирование: «использовать кривую обучения». Они обнаружили, что, если делать подряд несколько одинаковых дел, каждое последующее отнимает чуть меньше времени, несмотря на то что по объёму оно такое же. Сделав 10 таких дел подряд, обнаружишь, что последнее отняло у тебя всего 20 % времени по сравнению с первым!</blockquote></p>
+</li>
+<li>
+<p>«Разное» — информация не относится ни к одной из представленных тем.</p>
+</li>
+</ol>
+<p>По опыту: в эту категорию вношу изменения недостаточно часто.</p>
+<ol>
+<li>«Женское» — тема объединяет парфюмерию, косметику, моду, парикмахерское искусство.</li>
+<li>«Зарубежная», «мировая» = «не стран бывшего СССР»</li>
+<li>
+<p>«Переводы» — записывается информация двух типов:</p>
+<ol>
+<li>Перевод иностранных слов на русский. Пример записи: «lovelorn — страдающий от безнадёжной Любви».</li>
+<li>Происхождение слов, укоренившихся в русском языке. Пример записи: «линза — лат. чечевица»</li>
+</ol>
+</li>
+<li>
+<p>«Географические науки» — тема включает в себя физическую географию, природные явления, почвоведение, сейсмологию;</p>
+</li>
+</ol>
+<p>Примеры записей:</p>
+<div class="highlight"><pre><span></span>+ вирга — дождь, который испаряется, не достигая земли,
 + елань — обширная луговая равнина.
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <ol>
-                <li>Географии «Мировая» и «стран бывшего СССР» — географические и антропогенные объекты в пределах государств.</li>
-            </ol>
-            <p>Примеры записей:</p>
-            <div class="highlight"><pre><span></span>+ Колка — мощнейший в России ледник, убивший в Кармадонском ущелье Сергея Бодрова.
+<ol>
+<li>Географии «Мировая» и «стран бывшего СССР» — географические и антропогенные объекты в пределах государств.</li>
+</ol>
+<p>Примеры записей:</p>
+<div class="highlight"><pre><span></span>+ Колка — мощнейший в России ледник, убивший в Кармадонском ущелье Сергея Бодрова.
 + Сан-Хавьер — единственный город в Южном полушарии с преобладающим русским населением,
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <ol>
-                <li>«Животные» — все животные, исключая млекопитающих и птиц, для которых созданы отдельные темы,</li>
-                <li>«Наука и науковедение» — науковедение и научные дисциплины, для которых нет отдельных тем,</li>
-                <li>Расширение у файлов <em>txt</em>, а не <em>md</em>, поскольку мой ридер не читает файлы с расширением <em>md</em>.</li>
-            </ol>
-            <p>
-                </details>
-                <br>
-            </p>
-            <h3>5.2. Рекомендации</h3>
-            <ol>
-                <li>Пишите так, чтобы текст был понятен Вам самой/самому, когда станете повторять. Не повторяйте моей ошибки, когда, глядя на свой же собственный текст, не понимал, а что тут написано.</li>
-                <li>
-                    <p>Вы пишете прежде всего для себя; не бойтесь использовать ассоциации из реальной жизни, если сталкивались с предметом вне джинджерин.</p>
-                    <p>Аргумент: ассоциации с событиями собственной жизни, мысли о которых многократно проносились в голове, повышают эффективность запоминания.</p>
-                    <p>Пример: <code class="SashaInlineHighlight">строфария — синий гриб, который Саша держала в руке, ![строфария](https://pp.userapi.com/c635102/v635102663/12c25/rqi3myuyRKU.jpg)</code></p>
-                </li>
-            </ol>
-            <h3>5.3. Примеры</h3>
-            <p>От идеи выложить все свои Грейс Ло файлы отказался в силу следующих контраргументов:</p>
-            <ol>
-                <li>Уровень подготовки по темам слишком разный. У кого-то он намного больше, для других меньше моего.</li>
-                <li>Индвивидуальность</li>
-            </ol>
-            <p>Ограничусь некоторыми примерами.</p>
-            <h2>6. Повторение</h2>
-            <h2>7. Мнемоника</h2>
-            <footer>
-                <span class="SashaHeadPageLeft"><a href="http://kristinita.ru" title="Поиск Кристиниты">Поиск Кристиниты</a></span>
-                <!--  -->
-                <span class="SashaNextNeighbor"><a href="http://kristinita.ru/Gingerinas/Грейзи-Фа.html" title="Грейзи Фа">Следующая статья →</a></span>
-                <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия с его автором. Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Gingerinas/Грейс-Ло.md">отредактировать её</a>                    и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по
-                    <span
-                    id="obf">
-                        <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script>
-                        <noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                        </span>. С комментариями в стиле <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.</div>
+<ol>
+<li>«Животные» — все животные, исключая млекопитающих и птиц, для которых созданы отдельные темы,</li>
+<li>«Наука и науковедение» — науковедение и научные дисциплины, для которых нет отдельных тем,</li>
+<li>Расширение у файлов <em>txt</em>, а не <em>md</em>, поскольку мой ридер не читает файлы с расширением <em>md</em>.</li>
+</ol>
+<p></details><br></p>
+<h3>5.2. Рекомендации</h3>
+<ol>
+<li>Пишите так, чтобы текст был понятен Вам самой/самому, когда станете повторять. Не повторяйте моей ошибки, когда, глядя на свой же собственный текст, не понимал, а что тут написано.</li>
+<li>
+<p>Вы пишете прежде всего для себя; не бойтесь использовать ассоциации из реальной жизни, если сталкивались с предметом вне джинджерин.</p>
+<p>Аргумент: ассоциации с событиями собственной жизни, мысли о которых многократно проносились в голове, повышают эффективность запоминания.</p>
+<p>Пример: <code class="SashaInlineHighlight">строфария — синий гриб, который Саша держала в руке, ![строфария](https://pp.userapi.com/c635102/v635102663/12c25/rqi3myuyRKU.jpg)</code></p>
+</li>
+</ol>
+<h3>5.3. Примеры</h3>
+<p>От идеи выложить все свои Грейс Ло файлы отказался в силу следующих контраргументов:</p>
+<ol>
+<li>Уровень подготовки по темам слишком разный. У кого-то он намного больше, для других меньше моего.</li>
+<li>Индвивидуальность</li>
+</ol>
+<p>Ограничусь некоторыми примерами.</p>
+<h2>6. Повторение</h2>
+<h2>7. Мнемоника</h2>            <footer>
+    <span class="SashaHeadPageLeft"><a href=".." title="Поиск Кристиниты">Поиск Кристиниты</a></span>
+<!--  -->
+    <span class="SashaNextNeighbor"><a href="../Gingerinas/Грейзи-Фа.html" title="Грейзи Фа">Следующая статья →</a></span>
+            	<div class="SashaClearBoth"></div>
+<div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия с его автором. Если Вы найдёте в данной статье ошибки или опечатки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Gingerinas/Грейс-Ло.md">отредактировать её</a> и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Пожалуйста, пишите на русском (предпочтительно) или английском языках. По любым относящимся к статье и её предмету вопросам можете связаться и по <span id="obf"><script src="../js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span>. С комментариями в стиле <a href="../Smert-svobode/Новые-недовольные-русские">новых недовольных русских</a> оставляю право распоряжаться по собственному усмотрению.</div>
                 <div class="WorkOnYourself">Работайте над собой</div>
             </footer>
         </div>

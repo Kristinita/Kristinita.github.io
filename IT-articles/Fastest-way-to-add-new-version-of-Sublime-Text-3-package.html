@@ -10,8 +10,10 @@
     <!-- Title phrase -->
     <title>Fastest way to add new version of your Sublime Text package</title>
     <!-- Description, EDGE-compatible, different screens -->
-    <meta content="Tutorial, how you can make release and changelog, use one command">
-    <meta content="width=device-width, initial-scale=1">
+    <!-- Needs for validation name="description", see: https://stackoverflow.com/a/11202372/5951529 -->
+    <meta name="description" content="Tutorial, how you can make release and changelog, use one command">
+    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Open Graph, http://ruogp.me/ -->
     <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
@@ -21,59 +23,52 @@
     <meta property="og:description" content="Tutorial, how you can make release and changelog, use one command" />
     <meta property="og:site_name" content="Поиск Кристиниты" />
     <!-- JQuery -->
-    <script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Gemini -->
-    <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
-    <!-- JQuery Lazy -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
-    <!-- Fancybox -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
-    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
-    <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Tooltipster/tooltip.js" defer></script>
-    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
-    <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Clipboard.js/Clipboard.js" defer></script>
-    <!-- Visualize, see https://github.com/kellyk/visualize -->
+<script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>    <!-- Gemini -->
+<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+		<script src="../theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+		<link rel="stylesheet" href="../theme/css/script-colors/Gemini/gemini.css">    <!-- JQuery Lazy -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>    <!-- Fancybox -->
+<script src="../theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
+		<script src="../theme/js/Fancybox/fancybox.js" defer></script>
+		<link rel="stylesheet" href="../theme/bower-components/fancybox/dist/jquery.fancybox.min.css">    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+<script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
+		<link rel="stylesheet" href="../theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+		<script src="../theme/js/Tooltipster/tooltip.js" defer></script>    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+<script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
+		<script src="../theme/js/Clipboard.js/Clipboard.js" defer></script>    <!-- Visualize, see https://github.com/kellyk/visualize -->
     <!-- Details Polyfill, see http://ru.stackoverflow.com/a/498984/199934 -->
     <!-- Custom JavaScript -->
     <!-- Sasha icon -->
-    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="../theme/images/Sasha.ico" type="image/x-icon">
     <!-- Pages style -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/basic.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_left.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/it-articles.css">
+    <link rel="stylesheet" href="../theme/css/general/basic.css">
+    <link rel="stylesheet" href="../theme/css/general/fonts.css">
+    <link rel="stylesheet" href="../theme/css/general/aside.css">
+    <link rel="stylesheet" href="../theme/css/general/image_left.css">
+    <link rel="stylesheet" href="../theme/css/sections/it-articles.css">
     <!-- Material icons font for icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Admonition: note, warning etc. blocks, see -->
     <!-- https://python-markdown.github.io/extensions/admonition/ -->
     <!-- https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
+    <link rel="stylesheet" href="../theme/css/script-colors/Admonition/admonition.css">
     <!-- Custom CSS -->
     <!-- Atom feed -->
-    <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="http://kristinita.ru/feeds/it-articles.atom.xml" rel="alternate" type="application/atom+xml">
-</head>
+<link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+	<link href="http://kristinita.ru/feeds/it-articles.atom.xml" rel="alternate" type="application/atom+xml"></head>
 
 <body>
     <!-- Background aside -->
     <aside>
         <!-- Header aside -->
-        <h1 class="cover-text">Fastest way to add new version of your Sublime Text package</h1>
+        <div class="SashaBottomAside">Fastest way to add new version of your Sublime Text package</div>
     </aside>
     <!-- Content -->
-    <main>
+    <main itemscope>
         <div class="SashaMargin">
             <header>
                 <h1 class="SashaTopHeader">Fastest way to add new version of your Sublime Text package</h1>
@@ -84,173 +79,139 @@
                     <time datetime="2018-01-29 12:04:22+03:00">2018-01-29 12:04:22+03:00</time>
                 </div>
                 <div class="SashaVersion">
+                	<!-- pubdate attribute is obsolete, use itemprop: datePublished -->
+                	<!-- https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time pubdate="2018-02-09 20:42:08+03:00">2018-02-09 20:42:08+03:00</time>
+                    <time itemprop="datePublished" datetime="2018-02-09 20:42:08+03:00">2018-02-09 20:42:08+03:00</time>
                 </div>
             </header>
-            <!-- MarkdownTOC -->
+<!-- MarkdownTOC -->
 
-            <ol>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#audience">Audience</a></li>
-                <li><a href="#relevance">Relevance</a></li>
-                <li><a href="#motivation">Motivation</a></li>
-                <li><a href="#demonstration">Demonstration</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#limitations">Limitations</a></li>
-                <li><a href="#installation">Installation</a></li>
-                <li><a href="#activation">Activation</a>
-                    <ol>
-                        <li><a href="#github-token">GitHub token</a></li>
-                        <li><a href="#upstream-branch">Upstream branch</a></li>
-                        <li><a href="#changelogmd">CHANGELOG.md</a></li>
-                        <li><a href="#packagejson">package.json</a></li>
-                        <li><a href="#release-itjson">.release-it.json</a></li>
-                        <li><a href="#messagesjson">messages.json</a></li>
-                    </ol>
-                </li>
-                <li><a href="#usage">Usage</a></li>
-                <li><a href="#details">Details</a>
-                    <ol>
-                        <li><a href="#release-it-command">release-it command</a></li>
-                        <li><a href="#release-itjson-1">.release-it.json</a>
-                            <ol>
-                                <li><a href="#buildcommand">buildCommand</a></li>
-                                <li><a href="#another-lines">Another lines</a></li>
-                            </ol>
-                        </li>
-                    </ol>
-                </li>
-                <li><a href="#problems-and-non-fixed-bugs">Problems and non-fixed bugs</a></li>
-                <li><a href="#testing-environment">Testing environment</a></li>
-            </ol>
-            <!-- /MarkdownTOC -->
+<ol>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#audience">Audience</a></li>
+<li><a href="#relevance">Relevance</a></li>
+<li><a href="#motivation">Motivation</a></li>
+<li><a href="#demonstration">Demonstration</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#limitations">Limitations</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#activation">Activation</a><ol>
+<li><a href="#github-token">GitHub token</a></li>
+<li><a href="#upstream-branch">Upstream branch</a></li>
+<li><a href="#changelogmd">CHANGELOG.md</a></li>
+<li><a href="#packagejson">package.json</a></li>
+<li><a href="#release-itjson">.release-it.json</a></li>
+<li><a href="#messagesjson">messages.json</a></li>
+</ol>
+</li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#details">Details</a><ol>
+<li><a href="#release-it-command">release-it command</a></li>
+<li><a href="#release-itjson-1">.release-it.json</a><ol>
+<li><a href="#buildcommand">buildCommand</a></li>
+<li><a href="#another-lines">Another lines</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#problems-and-non-fixed-bugs">Problems and non-fixed bugs</a></li>
+<li><a href="#testing-environment">Testing environment</a></li>
+</ol>
+<!-- /MarkdownTOC -->
 
-            <p>
-                <a name="overview"></a>
-            </p>
-            <h2>1. Overview <a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
-            <p>Tutorial, how you can quick to create detailed release and changelog for your Sublime Text package.</p>
-            <p>
-                <a name="audience"></a>
-            </p>
-            <h2>2. Audience <a class="headerlink" href="#audience" title="Permanent link">¶</a></h2>
-            <p>Inexperienced developers of Sublime Text 3 packages.</p>
-            <p>This article may be useful for any non-Sublime Text developers, which makes releases and changelog.</p>
-            <p>
-                <a name="relevance"></a>
-            </p>
-            <h2>3. Relevance <a class="headerlink" href="#relevance" title="Permanent link">¶</a></h2>
-            <p>This article is relevant for February 2018. In the future, the data in this article may be obsolete.</p>
-            <p>
-                <a name="motivation"></a>
-            </p>
-            <h2>4. Motivation <a class="headerlink" href="#motivation" title="Permanent link">¶</a></h2>
-            <p>When I create new release for my Sublime Text package, I need:</p>
-            <ol>
-                <li>Add changelog to <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">GitHub release page</a>,</li>
-                <li>Update <em>CHANGELOG.md</em>,</li>
-                <li><a href="https://packagecontrol.io/docs/messaging" target="_blank">Update version in <em>messages.json</em></a>,</li>
-                <li>Add changelog to <em>messages/&lt;version&gt;.txt</em> file,</li>
-            </ol>
-            <p>It may take a lot of time.</p>
-            <p>In this article I wrote, how possible to make all these actions use only one command in command line.</p>
-            <p>
-                <a name="demonstration"></a>
-            </p>
-            <h2>5. Demonstration <a class="headerlink" href="#demonstration" title="Permanent link">¶</a></h2>
-            <p>I <a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank">push commit</a> to my GitHub repository → I input in command line:</p>
-            <div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
+<p><a name="overview"></a></p>
+<h2>1. Overview <a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
+<p>Tutorial, how you can quick to create detailed release and changelog for your Sublime Text package.</p>
+<p><a name="audience"></a></p>
+<h2>2. Audience <a class="headerlink" href="#audience" title="Permanent link">¶</a></h2>
+<p>Inexperienced developers of Sublime Text 3 packages.</p>
+<p>This article may be useful for any non-Sublime Text developers, which makes releases and changelog.</p>
+<p><a name="relevance"></a></p>
+<h2>3. Relevance <a class="headerlink" href="#relevance" title="Permanent link">¶</a></h2>
+<p>This article is relevant for February 2018. In the future, the data in this article may be obsolete.</p>
+<p><a name="motivation"></a></p>
+<h2>4. Motivation <a class="headerlink" href="#motivation" title="Permanent link">¶</a></h2>
+<p>When I create new release for my Sublime Text package, I need:</p>
+<ol>
+<li>Add changelog to <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">GitHub release page</a>,</li>
+<li>Update <em>CHANGELOG.md</em>,</li>
+<li><a href="https://packagecontrol.io/docs/messaging" target="_blank">Update version in <em>messages.json</em></a>,</li>
+<li>Add changelog to <em>messages/&lt;version&gt;.txt</em> file,</li>
+</ol>
+<p>It may take a lot of time.</p>
+<p>In this article I wrote, how possible to make all these actions use only one command in command line.</p>
+<p><a name="demonstration"></a></p>
+<h2>5. Demonstration <a class="headerlink" href="#demonstration" title="Permanent link">¶</a></h2>
+<p>I <a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea" target="_blank">push commit</a> to my GitHub repository → I input in command line:</p>
+<div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <p>Result: <a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank">1</a>, <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">2</a>.</p>
-            <p><em>CHANGELOG.md</em> and <em>messages.json</em>:</p>
-            <p><img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"></p>
-            <p><em>messages/&lt;version&gt;.txt</em> and <em>package.json</em>:</p>
-            <p><img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"></p>
-            <p><a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">Releases page</a>:</p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/FwPHBZS.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/FwPHBZS.png" alt="Releases page"></a>
-            </p>
-            <p>If you want to have same behavior, read on.</p>
-            <p>
-                <a name="features"></a>
-            </p>
-            <h2>6. Features <a class="headerlink" href="#features" title="Permanent link">¶</a></h2>
-            <p>Tutorial of this article must be support:</p>
-            <ol>
-                <li>cross-platform,</li>
-                <li><a href="https://semver.org/" target="_blank">Semver</a> <a href="https://semver.org/#spec-item-8" target="_blank">major</a>, <a href="https://semver.org/#spec-item-7" target="_blank">minor</a>, <a href="https://semver.org/#spec-item-6"
-                    target="_blank">patch</a> and custom tags.</li>
-            </ol>
-            <p>
-                <a name="limitations"></a>
-            </p>
-            <h2>7. Limitations <a class="headerlink" href="#limitations" title="Permanent link">¶</a></h2>
-            <ol>
-                <li>Your must host your package to GitHub. If your package on BitBucket, GitLab or another hosting, you can't make a release via <a href="https://github.com/webpro/release-it" target="_blank">release-it</a>.</li>
-                <li>Your commits must be must be compatible with <a href="https://conventionalcommits.org/" target="_blank">Conventional Commits</a>. <a href="https://conventionalcommits.org/" target="_blank">List of supported scopes</a>. I recommend use
-                    <a href="https://www.npmjs.com/package/commitizen" target="_blank">commitizen</a>.</li>
-            </ol>
-            <p>
-                <a name="installation"></a>
-            </p>
-            <h2>8. Installation <a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
-            <p>You need to install:</p>
-            <ol>
-                <li>Node.js and npm, if no;</li>
-                <li>git if no, even if you use another VCS;</li>
-                <li>UNIX commands <em>tee</em>, <em>cat</em>, <em>mv</em> and <em>sed</em>, if no; for Windows users I recommend install <a href="https://chocolatey.org/packages/Cygwin" target="_blank">Cygwin</a> and <a href="https://lifehacker.com/362316/use-unix-commands-in-windows-built-in-command-prompt"
-                    target="_blank">add to your <em>Path</em> environment variable value — path to Cygwin commands folder</a>;</li>
-                <li><a href="https://www.npmjs.com/package/release-it#global" target="_blank">release-it globally</a> ≥ 6.2.0;</li>
-                <li><a href="https://www.npmjs.com/package/generate-changelog#installation" target="_blank">generate-changelog globally</a>;</li>
-                <li><a href="https://www.npmjs.com/package/js-beautify" target="_blank">npm js-beautify globally</a>.</li>
-            </ol>
-            <p>
-                <a name="activation"></a>
-            </p>
-            <h2>9. Activation <a class="headerlink" href="#activation" title="Permanent link">¶</a></h2>
-            <p>You need to create all files from this section in root folder of your package repository.</p>
-            <p>You can see configuration files of real package in <a href="https://github.com/Kristinita/SashaSublime" target="_blank">SashaSublime repository</a>.</p>
-            <div class="admonition caution">
-                <p class="admonition-title">Caution</p>
-                <p>I recommend in first do actions from <a href="#activation">Activation</a> and <a href="#usage">Usage</a> sections in the test repository, not real. Argumentation:</p>
-                <ul>
-                    <li>You or I can make a typo(s);</li>
-                    <li>Environment problems.</li>
-                </ul>
-            </div>
-            <p>
-                <a name="github-token"></a>
-            </p>
-            <h3>9.1. GitHub token <a class="headerlink" href="#github-token" title="Permanent link">¶</a></h3>
-            <p><a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-github-release" target="_blank">Get your GitHub token and add environment variable with value — your token</a>.</p>
-            <p>You need to select all <em>repo</em> scopes.</p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/sWfide5.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/sWfide5.png" alt="GitHub token"></a>
-            </p>
-            <p>
-                <a name="upstream-branch"></a>
-            </p>
-            <h3>9.2. Upstream branch <a class="headerlink" href="#upstream-branch" title="Permanent link">¶</a></h3>
-            <p>You need to <a href="https://stackoverflow.com/a/6089415/5951529" target="_blank">set upstream branch</a>:</p>
-            <div class="SashaBlockHighlight"><pre><span></span>git checkout yourbranch
+<p>Result: <a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990" target="_blank">1</a>, <a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">2</a>.</p>
+<p><em>CHANGELOG.md</em> and <em>messages.json</em>:</p>
+<p><img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"></p>
+<p><em>messages/&lt;version&gt;.txt</em> and <em>package.json</em>:</p>
+<p><img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"></p>
+<p><a href="https://github.com/Kristinita/SashaSublime/releases" target="_blank">Releases page</a>:</p>
+<p><a class="fancybox" href="https://i.imgur.com/FwPHBZS.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/FwPHBZS.png" alt="Releases page"></a></p>
+<p>If you want to have same behavior, read on.</p>
+<p><a name="features"></a></p>
+<h2>6. Features <a class="headerlink" href="#features" title="Permanent link">¶</a></h2>
+<p>Tutorial of this article must be support:</p>
+<ol>
+<li>cross-platform,</li>
+<li><a href="https://semver.org/" target="_blank">Semver</a> <a href="https://semver.org/#spec-item-8" target="_blank">major</a>, <a href="https://semver.org/#spec-item-7" target="_blank">minor</a>, <a href="https://semver.org/#spec-item-6" target="_blank">patch</a> and custom tags.</li>
+</ol>
+<p><a name="limitations"></a></p>
+<h2>7. Limitations <a class="headerlink" href="#limitations" title="Permanent link">¶</a></h2>
+<ol>
+<li>Your must host your package to GitHub. If your package on BitBucket, GitLab or another hosting, you can't make a release via <a href="https://github.com/webpro/release-it" target="_blank">release-it</a>.</li>
+<li>Your commits must be must be compatible with <a href="https://conventionalcommits.org/" target="_blank">Conventional Commits</a>. <a href="https://conventionalcommits.org/" target="_blank">List of supported scopes</a>. I recommend use <a href="https://www.npmjs.com/package/commitizen" target="_blank">commitizen</a>.</li>
+</ol>
+<p><a name="installation"></a></p>
+<h2>8. Installation <a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
+<p>You need to install:</p>
+<ol>
+<li>Node.js and npm, if no;</li>
+<li>git if no, even if you use another VCS;</li>
+<li>UNIX commands <em>tee</em>, <em>cat</em>, <em>mv</em> and <em>sed</em>, if no; for Windows users I recommend install <a href="https://chocolatey.org/packages/Cygwin" target="_blank">Cygwin</a> and <a href="https://lifehacker.com/362316/use-unix-commands-in-windows-built-in-command-prompt" target="_blank">add to your <em>Path</em> environment variable value — path to Cygwin commands folder</a>;</li>
+<li><a href="https://www.npmjs.com/package/release-it#global" target="_blank">release-it globally</a> ≥ 6.2.0;</li>
+<li><a href="https://www.npmjs.com/package/generate-changelog#installation" target="_blank">generate-changelog globally</a>;</li>
+<li><a href="https://www.npmjs.com/package/js-beautify" target="_blank">npm js-beautify globally</a>.</li>
+</ol>
+<p><a name="activation"></a></p>
+<h2>9. Activation <a class="headerlink" href="#activation" title="Permanent link">¶</a></h2>
+<p>You need to create all files from this section in root folder of your package repository.</p>
+<p>You can see configuration files of real package in <a href="https://github.com/Kristinita/SashaSublime" target="_blank">SashaSublime repository</a>.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>I recommend in first do actions from <a href="#activation">Activation</a> and <a href="#usage">Usage</a> sections in the test repository, not real. Argumentation:</p>
+<ul>
+<li>You or I can make a typo(s);</li>
+<li>Environment problems.</li>
+</ul>
+</div>
+<p><a name="github-token"></a></p>
+<h3>9.1. GitHub token <a class="headerlink" href="#github-token" title="Permanent link">¶</a></h3>
+<p><a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-github-release" target="_blank">Get your GitHub token and add environment variable with value — your token</a>.</p>
+<p>You need to select all <em>repo</em> scopes.</p>
+<p><a class="fancybox" href="https://i.imgur.com/sWfide5.png"><img class="SashaLazy" src="../images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/sWfide5.png" alt="GitHub token"></a></p>
+<p><a name="upstream-branch"></a></p>
+<h3>9.2. Upstream branch <a class="headerlink" href="#upstream-branch" title="Permanent link">¶</a></h3>
+<p>You need to <a href="https://stackoverflow.com/a/6089415/5951529" target="_blank">set upstream branch</a>:</p>
+<div class="SashaBlockHighlight"><pre><span></span>git checkout yourbranch
 git branch --set-upstream
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <ul>
-                <li><em>yourbranch</em> — name of branch, which you want to do upstream. Please, change <em>yourbranch</em> to real branch name.</li>
-            </ul>
-            <p>
-                <a name="changelogmd"></a>
-            </p>
-            <h3>9.3. CHANGELOG.md <a class="headerlink" href="#changelogmd" title="Permanent link">¶</a></h3>
-            <p>Create blank file <em>CHANGELOG.md</em>. If no, generate-changelog will works incorrect.</p>
-            <p>
-                <a name="packagejson"></a>
-            </p>
-            <h3>9.4. package.json <a class="headerlink" href="#packagejson" title="Permanent link">¶</a></h3>
-            <div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
+<ul>
+<li><em>yourbranch</em> — name of branch, which you want to do upstream. Please, change <em>yourbranch</em> to real branch name.</li>
+</ul>
+<p><a name="changelogmd"></a></p>
+<h3>9.3. CHANGELOG.md <a class="headerlink" href="#changelogmd" title="Permanent link">¶</a></h3>
+<p>Create blank file <em>CHANGELOG.md</em>. If no, generate-changelog will works incorrect.</p>
+<p><a name="packagejson"></a></p>
+<h3>9.4. package.json <a class="headerlink" href="#packagejson" title="Permanent link">¶</a></h3>
+<div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
   <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;SashaSublime&quot;</span><span class="p">,</span>
   <span class="nt">&quot;version&quot;</span><span class="p">:</span> <span class="s2">&quot;4.14.7&quot;</span><span class="p">,</span>
   <span class="nt">&quot;scripts&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -259,16 +220,14 @@ git branch --set-upstream
 <span class="p">}</span>
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <ul>
-                <li><em>SashaSublime</em> — name of your package,</li>
-                <li><em>4.14.7</em> — previous version of your package. Use <em>0.0.0</em>, if you add first release for your package.</li>
-            </ul>
-            <p>Replace <em>SashaSublime</em> and <em>4.14.7</em> to your real values.</p>
-            <p>
-                <a name="release-itjson"></a>
-            </p>
-            <h3>9.5. .release-it.json <a class="headerlink" href="#release-itjson" title="Permanent link">¶</a></h3>
-            <div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
+<ul>
+<li><em>SashaSublime</em> — name of your package,</li>
+<li><em>4.14.7</em> — previous version of your package. Use <em>0.0.0</em>, if you add first release for your package.</li>
+</ul>
+<p>Replace <em>SashaSublime</em> and <em>4.14.7</em> to your real values.</p>
+<p><a name="release-itjson"></a></p>
+<h3>9.5. .release-it.json <a class="headerlink" href="#release-itjson" title="Permanent link">¶</a></h3>
+<div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;buildCommand&quot;</span><span class="p">:</span> <span class="s2">&quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - CHANGELOG.md &gt; temp &amp;&amp; mv temp CHANGELOG.md &amp;&amp; sed -i &#39;\/\\\&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;,&#39; messages.json &amp;&amp; js-beautify -r messages.json&quot;</span><span class="p">,</span>
     <span class="nt">&quot;changelogCommand&quot;</span><span class="p">:</span> <span class="s2">&quot;changelog -f -&quot;</span><span class="p">,</span>
     <span class="nt">&quot;github&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -282,32 +241,28 @@ git branch --set-upstream
 <span class="p">}</span>
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <div class="admonition hint">
-                <p class="admonition-title">Hint</p>
-                <p>Pay attention to slashes escaping. To convert terminal command to JSON I recommend to use <a href="https://www.freeformatter.com/json-escape.html#ad-output" target="_blank">freeformatter.com service</a>. For example:</p>
-                <div class="SashaBlockHighlight"><pre><span></span>sed -i <span class="s1">&#39;/\&quot;install\&quot;\: \&quot;messages\/install\.txt\&quot;/i\&quot;4\.14\.7\&quot;\: \&quot;messages\/4\.14\.7\.txt\&quot;,&#39;</span> messages.json
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Pay attention to slashes escaping. To convert terminal command to JSON I recommend to use <a href="https://www.freeformatter.com/json-escape.html#ad-output" target="_blank">freeformatter.com service</a>. For example:</p>
+<div class="SashaBlockHighlight"><pre><span></span>sed -i <span class="s1">&#39;/\&quot;install\&quot;\: \&quot;messages\/install\.txt\&quot;/i\&quot;4\.14\.7\&quot;\: \&quot;messages\/4\.14\.7\.txt\&quot;,&#39;</span> messages.json
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-                <p>will convert to:</p>
-                <div class="SashaBlockHighlight"><pre><span></span><span class="err">sed</span> <span class="err">-i</span> <span class="err">&#39;\/\\\</span><span class="s2">&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;</span><span class="err">,&#39;</span> <span class="err">messages.json</span>
+<p>will convert to:</p>
+<div class="SashaBlockHighlight"><pre><span></span><span class="err">sed</span> <span class="err">-i</span> <span class="err">&#39;\/\\\</span><span class="s2">&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;</span><span class="err">,&#39;</span> <span class="err">messages.json</span>
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            </div>
-            <p>
-                <a name="messagesjson"></a>
-            </p>
-            <h3>9.6. messages.json <a class="headerlink" href="#messagesjson" title="Permanent link">¶</a></h3>
-            <div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
+</div>
+<p><a name="messagesjson"></a></p>
+<h3>9.6. messages.json <a class="headerlink" href="#messagesjson" title="Permanent link">¶</a></h3>
+<div class="SashaBlockHighlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;install&quot;</span><span class="p">:</span> <span class="s2">&quot;messages/install.txt&quot;</span>
 <span class="p">}</span>
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <p>
-                <a name="usage"></a>
-            </p>
-            <h2>10. Usage <a class="headerlink" href="#usage" title="Permanent link">¶</a></h2>
-            <p>Add, commit and push your changes to remote GitHub repository. Example:</p>
-            <div class="SashaBlockHighlight"><pre><span></span># Make any changes
+<p><a name="usage"></a></p>
+<h2>10. Usage <a class="headerlink" href="#usage" title="Permanent link">¶</a></h2>
+<p>Add, commit and push your changes to remote GitHub repository. Example:</p>
+<div class="SashaBlockHighlight"><pre><span></span># Make any changes
 D<span class="p">:</span><span class="nl">\SashaSublime</span><span class="c1">&gt;git add .</span>
 
 # I use commitizen instead of git commit
@@ -340,107 +295,84 @@ To https://github.com/Kristinita/SashaSublime.git
    0360628..52e517a  SashaDevelop -<span class="p">&gt;</span> SashaDevelop
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <p>Now run <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage" target="_blank">one of command</a>:</p>
-            <ul>
-                <li><em>release-it --no-npm.publish -n -V</em> or <em>release-it patch --no-npm.publish -n -V</em> — for release patch version;</li>
-                <li><em>release-it --minor --no-npm.publish -n -V</em> — for release minor version;</li>
-                <li><em>release-it --major --no-npm.publish -n -V</em> — for release major version;</li>
-                <li><em>release-it 4.14.7 --no-npm.publish -n -V</em> — for release custom version; <em>4.14.7</em> in example.</li>
-            </ul>
-            <p>Also you can <a href="https://www.npmjs.com/package/release-it" target="_blank">create pre-releases</a>.</p>
-            <p>Example result see in <a href="#demonstration">demonstration</a> section.</p>
-            <p>
-                <a name="details"></a>
-            </p>
-            <h2>11. Details <a class="headerlink" href="#details" title="Permanent link">¶</a></h2>
-            <p>If you want to know, how files and commands works, please, read this section.</p>
-            <p>
-                <a name="release-it-command"></a>
-            </p>
-            <h3>11.1. release-it command <a class="headerlink" href="#release-it-command" title="Permanent link">¶</a></h3>
-            <div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
+<p>Now run <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage" target="_blank">one of command</a>:</p>
+<ul>
+<li><em>release-it --no-npm.publish -n -V</em> or <em>release-it patch --no-npm.publish -n -V</em> — for release patch version;</li>
+<li><em>release-it --minor --no-npm.publish -n -V</em> — for release minor version;</li>
+<li><em>release-it --major --no-npm.publish -n -V</em> — for release major version;</li>
+<li><em>release-it 4.14.7 --no-npm.publish -n -V</em> — for release custom version; <em>4.14.7</em> in example.</li>
+</ul>
+<p>Also you can <a href="https://www.npmjs.com/package/release-it" target="_blank">create pre-releases</a>.</p>
+<p>Example result see in <a href="#demonstration">demonstration</a> section.</p>
+<p><a name="details"></a></p>
+<h2>11. Details <a class="headerlink" href="#details" title="Permanent link">¶</a></h2>
+<p>If you want to know, how files and commands works, please, read this section.</p>
+<p><a name="release-it-command"></a></p>
+<h3>11.1. release-it command <a class="headerlink" href="#release-it-command" title="Permanent link">¶</a></h3>
+<div class="SashaBlockHighlight"><pre><span></span>release-it --no-npm.publish -n -V
 <button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="../images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button></pre></div>
 
-            <ul>
-                <li><em>--no-npm.publish</em> — <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank">don't publish release to npm</a>. We are writing Sublime Text package, not npm modules, and needs in this command-line
-                    argument.</li>
-                <li><em>-n</em> — <a href="https://www.npmjs.com/package/release-it#-interactive-vs-non-interactive-mode" target="_blank">non-interactive mode</a>. That you don't need input values each time manually.</li>
-                <li><em>-V</em> — verbose. You can disable this argument, if you don't want to see full output. But this argument can help in debugging process.</li>
-            </ul>
-            <p>
-                <a name="release-itjson-1"></a>
-            </p>
-            <h3>11.2. .release-it.json <a class="headerlink" href="#release-itjson-1" title="Permanent link">¶</a></h3>
-            <p>
-                <a name="buildcommand"></a>
-            </p>
-            <h4>11.2.1. buildCommand <a class="headerlink" href="#buildcommand" title="Permanent link">¶</a></h4>
-            <ul>
-                <li><em>changelog -f -</em> — generate changelog. <em>-</em> — argument, that changelog <a href="https://unix.stackexchange.com/a/419416/237999" target="_blank">stdout to console</a>,</li>
-                <li>
-                    <p><code class="SashaInlineHighlight">-u https:\/\/${repo.host}\/${repo.repository}</code> — support URL's in changelog, that the user can quick go to the commit link. <code class="SashaInlineHighlight">${repo.host}</code> — github.com.
-                        <code class="SashaInlineHighlight">${repo.repository}</code> — <code class="SashaInlineHighlight">&lt;your username&gt;/&lt;your repository&gt;</code>, <code class="SashaInlineHighlight">Kristinita/SashaSublime</code> for my example.</p>
-                    <p>Example:</p>
-                    <ul>
-                        <li>if <code class="SashaInlineHighlight">-u https:\/\/${repo.host}\/${repo.repository}</code>, changelog generate <code class="SashaInlineHighlight">([40783aee](https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea))</code>,</li>
-                        <li>if no <code class="SashaInlineHighlight">-u https:\/\/${repo.host}\/${repo.repository}</code>, changelog generate <code class="SashaInlineHighlight">(40783aee)</code>.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p><code class="SashaInlineHighlight"><span class="err">tee</span> <span class="err">messages\/$</span><span class="p">{</span><span class="err">version</span><span class="p">}</span><span class="err">.txt</span></code> — output changelog
-                        to <em>messages/&lt;your new release&gt;.txt</em> file. File <em>&lt;your new release&gt;.txt</em> will create automatically. See <a href="https://www.computerhope.com/unix/utee.htm" target="_blank">description of <em>tee</em> command</a>.</p>
-                </li>
-                <li><code class="SashaInlineHighlight">cat - CHANGELOG.md &gt; temp <span class="o">&amp;&amp;</span> mv temp CHANGELOG.md</code> — <a href="https://superuser.com/a/246841/572069" target="_blank">append changelog at beginning</a> of <em>CHANGELOG.md</em>                    file. <em>CHANGELOG.md</em> do not overwrite.</li>
-                <li><code class="SashaInlineHighlight"><span class="err">sed</span> <span class="err">-i</span> <span class="err">&#39;\/\\\</span><span class="s2">&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;</span><span class="err">,&#39;</span> <span class="err">messages.json</span></code>                    — <a href="https://stackoverflow.com/a/11695098/5951529" target="_blank">add</a> <code class="SashaInlineHighlight"><span class="s2">&quot;&lt;your version&gt;&quot;</span><span class="err">:</span> <span class="s2">&quot;messages/&lt;your version&gt;.txt&quot;</span><span class="err">,</span></code>                    line before <code class="SashaInlineHighlight"><span class="s2">&quot;install&quot;</span><span class="err">:</span> <span class="s2">&quot;messages/install.txt&quot;</span></code> line.</li>
-                <li><code class="SashaInlineHighlight">js-beautify -r messages.json</code> — <a href="https://www.npmjs.com/package/js-beautify#options" target="_blank">beautify <em>messages.json</em> file in-place</a></li>
-            </ul>
-            <p>
-                <a name="another-lines"></a>
-            </p>
-            <h4>11.2.2. Another lines <a class="headerlink" href="#another-lines" title="Permanent link">¶</a></h4>
-            <ul>
-                <li><em>changelogCommand</em> — command, that generate changelog to <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>. Command must stdout to console.</li>
-                <li><code class="SashaInlineHighlight"><span class="s2">&quot;release&quot;</span><span class="err">:</span> <span class="kc">true</span><span class="err">,</span></code> — <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration"
-                    target="_blank">post changelog</a> to <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>.</li>
-                <li><em>GITHUB_TOKEN</em> — your <a href="#github-token"><em>GITHUB_TOKEN</em> environment variable</a>,</li>
-                <li><code class="SashaInlineHighlight"><span class="s2">&quot;safeBump&quot;</span><span class="err">:</span> <span class="kc">false</span><span class="err">,</span></code> — that correct version in <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>;
-                    see <a href="https://github.com/webpro/release-it/issues/218" target="_blank">issue</a> for details.</li>
-                <li><code class="SashaInlineHighlight"><span class="s2">&quot;tagName&quot;</span><span class="err">:</span> <span class="s2">&quot;st3-%s&quot;</span></code> — <a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797"
-                    target="_blank">correct tag name</a> for Package Control. Tags for Sublime Text 3 must be in <em>st3-&lt;your version&gt;</em> format, for example — <em>st3-4.14.7</em>.</li>
-            </ul>
-            <p>
-                <a name="problems-and-non-fixed-bugs"></a>
-            </p>
-            <h2>12. Problems and non-fixed bugs <a class="headerlink" href="#problems-and-non-fixed-bugs" title="Permanent link">¶</a></h2>
-            <ol>
-                <li><a href="https://github.com/lob/generate-changelog/issues/37" target="_blank">You can't use</a> <a href="https://github.com/ngryman/cz-emoji" target="_blank">cz-emoji</a> for commit generation. Changelog will blank.</li>
-                <li>release-it <a href="https://github.com/webpro/release-it/issues/218" target="_blank">can works incorrect</a> in <em>--dry-run</em> mode.</li>
-                <li><a href="https://github.com/webpro/release-it/issues/213" target="_blank">You can have bugs</a>, if you want to use <em>${changelog}</em> release-it variable.</li>
-            </ol>
-            <p>
-                <a name="testing-environment"></a>
-            </p>
-            <h2>13. Testing environment <a class="headerlink" href="#testing-environment" title="Permanent link">¶</a></h2>
-            <ul>
-                <li>Windows 10 Enterprise LTSB 64-bit EN,</li>
-                <li>Node.js 9.4.0,</li>
-                <li>git 2.16.0.windows.2,</li>
-                <li>release-it 6.2.0,</li>
-                <li>changelog 1.7.0,</li>
-                <li>tee (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
-                <li>cat (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
-                <li>mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
-                <li>sed (GNU sed) 4.2.2,</li>
-                <li>js-beautify 1.7.5.</li>
-            </ul>
-            <footer>
-                <span class="SashaPreviousNeighbor"><a href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" title="How to publish your package to PyPI, 2018">← Previous article</a></span>
-                <!--  -->
-                <span class="SashaHeadPageRight"><a href="http://kristinita.ru" title="Kristinita's Search">Kristinita's Search</a></span>
-                <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">All rights reserved ©. If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.md">edit it</a>                    and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf"><script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span>
-                    about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own discretion.</div>
+<ul>
+<li><em>--no-npm.publish</em> — <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank">don't publish release to npm</a>. We are writing Sublime Text package, not npm modules, and needs in this command-line argument.</li>
+<li><em>-n</em> — <a href="https://www.npmjs.com/package/release-it#-interactive-vs-non-interactive-mode" target="_blank">non-interactive mode</a>. That you don't need input values each time manually.</li>
+<li><em>-V</em> — verbose. You can disable this argument, if you don't want to see full output. But this argument can help in debugging process.</li>
+</ul>
+<p><a name="release-itjson-1"></a></p>
+<h3>11.2. .release-it.json <a class="headerlink" href="#release-itjson-1" title="Permanent link">¶</a></h3>
+<p><a name="buildcommand"></a></p>
+<h4>11.2.1. buildCommand <a class="headerlink" href="#buildcommand" title="Permanent link">¶</a></h4>
+<ul>
+<li><em>changelog -f -</em> — generate changelog. <em>-</em> — argument, that changelog <a href="https://unix.stackexchange.com/a/419416/237999" target="_blank">stdout to console</a>,</li>
+<li>
+<p><code class="SashaInlineHighlight">-u https:\/\/${repo.host}\/${repo.repository}</code> — support URL's in changelog, that the user can quick go to the commit link. <code class="SashaInlineHighlight">${repo.host}</code> — github.com. <code class="SashaInlineHighlight">${repo.repository}</code> — <code class="SashaInlineHighlight">&lt;your username&gt;/&lt;your repository&gt;</code>, <code class="SashaInlineHighlight">Kristinita/SashaSublime</code> for my example.</p>
+<p>Example:</p>
+<ul>
+<li>if <code class="SashaInlineHighlight">-u https:\/\/${repo.host}\/${repo.repository}</code>, changelog generate <code class="SashaInlineHighlight">([40783aee](https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea))</code>,</li>
+<li>if no <code class="SashaInlineHighlight">-u https:\/\/${repo.host}\/${repo.repository}</code>, changelog generate <code class="SashaInlineHighlight">(40783aee)</code>.</li>
+</ul>
+</li>
+<li>
+<p><code class="SashaInlineHighlight"><span class="err">tee</span> <span class="err">messages\/$</span><span class="p">{</span><span class="err">version</span><span class="p">}</span><span class="err">.txt</span></code> — output changelog to <em>messages/&lt;your new release&gt;.txt</em> file. File <em>&lt;your new release&gt;.txt</em> will create automatically. See <a href="https://www.computerhope.com/unix/utee.htm" target="_blank">description of <em>tee</em> command</a>.</p>
+</li>
+<li><code class="SashaInlineHighlight">cat - CHANGELOG.md &gt; temp <span class="o">&amp;&amp;</span> mv temp CHANGELOG.md</code> — <a href="https://superuser.com/a/246841/572069" target="_blank">append changelog at beginning</a> of <em>CHANGELOG.md</em> file. <em>CHANGELOG.md</em> do not overwrite.</li>
+<li><code class="SashaInlineHighlight"><span class="err">sed</span> <span class="err">-i</span> <span class="err">&#39;\/\\\</span><span class="s2">&quot;install\\\&quot;: \\\&quot;messages\\\/install\\.txt\\\&quot;\/i\\\&quot;${version}\\\&quot;: \\\&quot;messages\\\/${version}\\.txt\\\&quot;</span><span class="err">,&#39;</span> <span class="err">messages.json</span></code> — <a href="https://stackoverflow.com/a/11695098/5951529" target="_blank">add</a> <code class="SashaInlineHighlight"><span class="s2">&quot;&lt;your version&gt;&quot;</span><span class="err">:</span> <span class="s2">&quot;messages/&lt;your version&gt;.txt&quot;</span><span class="err">,</span></code> line before <code class="SashaInlineHighlight"><span class="s2">&quot;install&quot;</span><span class="err">:</span> <span class="s2">&quot;messages/install.txt&quot;</span></code> line.</li>
+<li><code class="SashaInlineHighlight">js-beautify -r messages.json</code> — <a href="https://www.npmjs.com/package/js-beautify#options" target="_blank">beautify <em>messages.json</em> file in-place</a></li>
+</ul>
+<p><a name="another-lines"></a></p>
+<h4>11.2.2. Another lines <a class="headerlink" href="#another-lines" title="Permanent link">¶</a></h4>
+<ul>
+<li><em>changelogCommand</em> — command, that generate changelog to <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>. Command must stdout to console.</li>
+<li><code class="SashaInlineHighlight"><span class="s2">&quot;release&quot;</span><span class="err">:</span> <span class="kc">true</span><span class="err">,</span></code> — <a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration" target="_blank">post changelog</a> to <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>.</li>
+<li><em>GITHUB_TOKEN</em> — your <a href="#github-token"><em>GITHUB_TOKEN</em> environment variable</a>,</li>
+<li><code class="SashaInlineHighlight"><span class="s2">&quot;safeBump&quot;</span><span class="err">:</span> <span class="kc">false</span><span class="err">,</span></code> — that correct version in <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>; see <a href="https://github.com/webpro/release-it/issues/218" target="_blank">issue</a> for details.</li>
+<li><code class="SashaInlineHighlight"><span class="s2">&quot;tagName&quot;</span><span class="err">:</span> <span class="s2">&quot;st3-%s&quot;</span></code> — <a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797" target="_blank">correct tag name</a> for Package Control. Tags for Sublime Text 3 must be in <em>st3-&lt;your version&gt;</em> format, for example — <em>st3-4.14.7</em>.</li>
+</ul>
+<p><a name="problems-and-non-fixed-bugs"></a></p>
+<h2>12. Problems and non-fixed bugs <a class="headerlink" href="#problems-and-non-fixed-bugs" title="Permanent link">¶</a></h2>
+<ol>
+<li><a href="https://github.com/lob/generate-changelog/issues/37" target="_blank">You can't use</a> <a href="https://github.com/ngryman/cz-emoji" target="_blank">cz-emoji</a> for commit generation. Changelog will blank.</li>
+<li>release-it <a href="https://github.com/webpro/release-it/issues/218" target="_blank">can works incorrect</a> in <em>--dry-run</em> mode.</li>
+<li><a href="https://github.com/webpro/release-it/issues/213" target="_blank">You can have bugs</a>, if you want to use <em>${changelog}</em> release-it variable.</li>
+</ol>
+<p><a name="testing-environment"></a></p>
+<h2>13. Testing environment <a class="headerlink" href="#testing-environment" title="Permanent link">¶</a></h2>
+<ul>
+<li>Windows 10 Enterprise LTSB 64-bit EN,</li>
+<li>Node.js 9.4.0,</li>
+<li>git 2.16.0.windows.2,</li>
+<li>release-it 6.2.0,</li>
+<li>changelog 1.7.0,</li>
+<li>tee (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
+<li>cat (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
+<li>mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
+<li>sed (GNU sed) 4.2.2,</li>
+<li>js-beautify 1.7.5.</li>
+</ul>            <footer>
+    <span class="SashaPreviousNeighbor"><a href="../IT-articles/How-to-publish-your-package-to-PyPI-2018.html" title="How to publish your package to PyPI, 2018">← Previous article</a></span>
+<!--  -->
+    <span class="SashaHeadPageRight"><a href=".." title="Kristinita's Search">Kristinita's Search</a></span>
+            	<div class="SashaClearBoth"></div>
+		<div class="SashaEmNoColor">All rights reserved ©. If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.md">edit it</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf"><script src="../js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript></span> about everything related to this article. With commentary in the style of <a href="../Smert-svobode/Новые-недовольные-русские">new disgruntled Russian</a> i reserve the right to dispose of my own discretion.</div>
                 <div class="WorkOnYourself">Работайте над собой</div>
             </footer>
         </div>

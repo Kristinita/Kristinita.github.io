@@ -2,7 +2,6 @@
 <meta charset=utf-8>
 <title>Syntax Highlighting</title>
 <link href="../themes/css/blackboard.css" rel="stylesheet" type="text/css" media="screen">
-
 <body>
 
     <pre><code data-language="coffee"># Assignment:
@@ -34,7 +33,7 @@ alert "I knew it!" if elvis?
 # Array comprehensions:
 cubes = (math.cube num for num in list)</code></pre>
 
-    <pre><code data-language="coffeescript">class Animal
+<pre><code data-language="coffeescript">class Animal
   constructor: (@name) ->
 
   move: (meters) ->
@@ -55,13 +54,13 @@ tom = new Horse "Tommy the Palomino"
 
 sam.move()
 tom.move()</code></pre>
-    <pre><code data-language="coffeescript">weatherReport = (location) ->
+<pre><code data-language="coffeescript">weatherReport = (location) ->
   # Make an Ajax request to fetch the weather...
   [location, 72, "Mostly Sunny"]
 
 [city, temp, forecast] = weatherReport "Berkeley, CA"</code></pre>
 
-    <pre><code data-language="coffeescript">fs = require 'fs'
+<pre><code data-language="coffeescript">fs = require 'fs'
 
 option '-o', '--output [DIR]', 'directory for compiled code'
 
@@ -84,3 +83,4 @@ task 'build:parser', 'rebuild the Jison parser', (options) ->
            | \\?\\.            # soak access
            | \\.{2,3}          # range or splat
         ) ///</code></pre>
+
