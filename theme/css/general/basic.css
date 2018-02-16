@@ -51,93 +51,134 @@
  		- 10.3. JQuery Lazy
  		- 10.4. Progressbar
  */
+
+
 /* ==========================================================================
    1. General
    ========================================================================== */
+
+
 /* 1.1. HTML, body
    ========================================================================== */
+
+
 /* For correct Mailhu displayed*/
+
 html,
 main,
 body {
-  height: 100%;
+    height: 100%;
 }
+
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
+
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 1.1875rem;
-/* That margin-top for Sasha's icons correct for on mobile devices */
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1875rem;
+    /* That margin-top for Sasha's icons correct for on mobile devices */
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+
 /* 1.2. Links
    ========================================================================== */
+
+
 /*
  * Disable dotted outline, if user move by links use tab key, see
  * https://css-tricks.com/removing-the-dotted-outline/
  */
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 a:focus {
-  outline: 0;
+    outline: 0;
 }
+
+
 /* 1.3. Headers
    ========================================================================== */
+
 h1 {
-  font-family: 'Истина';
-  font-size: 1.9375rem;
-  font-weight: lighter;
-  font-style: normal;
-/* Decrease text brightness */
-  -webkit-filter: brightness(97%);
-  filter: brightness(97%);
+    font-family: 'Истина';
+    font-size: 1.9375rem;
+    font-weight: lighter;
+    font-style: normal;
+    /* Decrease text brightness */
+    -webkit-filter: brightness(97%);
+    filter: brightness(97%);
 }
+
 h2 {
-  font-family: 'Мечта';
-  font-size: 1.4rem;
+    font-family: 'Мечта';
+    font-size: 1.4rem;
 }
+
+
 /* Interlineage in h1 header */
+
 .SashaHeader {
-  line-height: 0.7rem;
+    line-height: 0.7rem;
 }
+
+
 /* 1.4. KBD
    ========================================================================== */
+
 kbd {
-  font-weight: bold;
-  border-radius: 0.1875rem;
+    font-weight: bold;
+    border-radius: 0.1875rem;
 }
+
+
 /* 1.5. noscript
    ========================================================================== */
+
 noscript >span {
-  unicode-bidi: bidi-override;
-  direction: rtl;
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }
+
+
 /* ==========================================================================
    2. Tables
    ========================================================================== */
+
+
 /*
  * Basic style — https://css-tricks.com/complete-guide-table-element/#article-header-id-4
  */
+
 td,
 th {
-  padding: 0.5rem;
+    padding: 0.5rem;
 }
+
+
 /* ==========================================================================
    3. Lists
    ========================================================================== */
+
+
 /* 3.1. ol, ul, li
    ========================================================================== */
+
+
 /* Disable, because incorrect works indents in lists, example:
 <li>
 <p>Kristina</p>
 </li>
 */
+
+
 /*
 That the bullets not lost on mobile version
 ol,
@@ -145,430 +186,565 @@ ul {
     list-style-position: inside;
 }
 */
+
 ul li {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
+
 .SashaOlMargin {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
+
+
 /* 3.2. TOC
    ========================================================================== */
+
 .SashaTOC {
-  list-style-type: none;
-  padding: 0 0 0 1rem;
+    list-style-type: none;
+    padding: 0 0 0 1rem;
 }
+
+
 /* 3.3. dd, dt, dl
    ========================================================================== */
+
+
 /*
  * Dd, dt, dl tags
  * https://webref.ru/html/dd
  */
+
 dt {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 dd {
-  font-style: italic;
+    font-style: italic;
 }
+
+
 /* 3.4. Russian letters as markers
    ========================================================================== */
+
+
 /*
  * Russian letters as list markers
  * https://ru.stackoverflow.com/a/523299/199934
  */
+
 .russianletters {
-  list-style-type: none;
-/* Прячем исходную нумерацию */
+    list-style-type: none;
+    /* Прячем исходную нумерацию */
 }
+
 .russianletters li {
-  margin: 0;
+    margin: 0;
 }
+
 @-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @-webkit-keyframes fade {
-  10% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  35% {
-    -webkit-transform: scale(1, 1.7);
-    transform: scale(1, 1.7);
-  }
-  40% {
-    -webkit-transform: scale(1, 1.7);
-    transform: scale(1, 1.7);
-  }
-  50% {
-    opacity: 1;
-  }
-  60% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
+    10% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    35% {
+        -webkit-transform: scale(1, 1.7);
+        transform: scale(1, 1.7);
+    }
+    40% {
+        -webkit-transform: scale(1, 1.7);
+        transform: scale(1, 1.7);
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        opacity: 0;
+    }
 }
+
+
 /* ==========================================================================
    4. Footer
    ========================================================================== */
+
+
 /* 4.1. Neighbors Pelican
    ========================================================================== */
+
+
 /*
  * Add links for previous and next buttons
  * https://github.com/getpelican/pelican-plugins/tree/master/neighbors
  *  Example — https://github.com/whatifrussian/website/blob/9e29831dcf61c85e711a392709aaf711212ba7c9/themes/whatif/templates/includes/article_content.html
  */
+
 .SashaHeadPageLeft,
 .SashaPreviousNeighbor {
-  float: left;
+    float: left;
 }
+
 .SashaNextNeighbor,
 .SashaHeadPageRight {
-  float: right;
+    float: right;
 }
+
+
 /*
  * Stop float — https://stackoverflow.com/a/6205224/5951529
  * Need to add empty div tag after tags with float; not use for same as float tag
  */
+
 .SashaClearBoth {
-  clear: both;
+    clear: both;
 }
+
 .SashaHeadPageLeft,
 .SashaPreviousNeighbor,
 .SashaNextNeighbor,
 .SashaHeadPageRight {
-  margin: 5rem 0 0;
+    margin: 5rem 0 0;
 }
+
 .SashaHeadPageLeft a,
 .SashaPreviousNeighbor a,
 .SashaNextNeighbor a,
 .SashaHeadPageRight a {
-  font-size: 2rem;
+    font-size: 2rem;
 }
+
+
 /* 4.2. Another footer
    ========================================================================== */
+
+
 /*
  * Top margin, see http://ru.stackoverflow.com/a/613468/199934
  */
+
 .SashaEmNoColor,
 .WorkOnYourself {
-  margin: 5rem 0 0;
+    margin: 5rem 0 0;
 }
+
 .SashaEmNoColor {
-  font-style: italic;
+    font-style: italic;
 }
+
+
 /* ==========================================================================
    5. Images
    ========================================================================== */
+
+
 /* 5.1. img
    ========================================================================== */
+
 img {
-  max-width: 100%;
-  margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
+
+
 /* 5.2. Left and right
    ========================================================================== */
+
 .leftimg {
-  float: left;
-  margin: 0.3125rem 0.3125rem 0.3125rem 0;
+    float: left;
+    margin: 0.3125rem 0.3125rem 0.3125rem 0;
 }
+
 .rightimg {
-  float: right;
-  margin: 0.3125rem 0 0.3125rem 0.3125rem;
+    float: right;
+    margin: 0.3125rem 0 0.3125rem 0.3125rem;
 }
+
+
 /* 5.3. Width of images
    ========================================================================== */
+
 .Sasha140 {
-  width: 8.75rem;
+    width: 8.75rem;
 }
+
 .Sasha280 {
-  width: 17.5rem;
+    width: 17.5rem;
 }
+
 .Sasha470 {
-  width: 29.375rem;
+    width: 29.375rem;
 }
+
 .Sasha700 {
-  width: 43.75rem;
+    width: 43.75rem;
 }
+
+
 /* 5.4. Image border
    ========================================================================== */
+
 .SashaSign {
-  padding: 0.4375rem;
-  margin: 0.3125rem 0 0.3125rem 0;
+    padding: 0.4375rem;
+    margin: 0.3125rem 0 0.3125rem 0;
 }
+
+
 /* 5.5. External links image
    ========================================================================== */
+
+
 /*
  * Pelican plugin linkclass, see
  * https://github.com/rlaboiss/pelican-linkclass
  */
+
 .external:after {
-  content: url("../../../images/interface_images/external-link.png");
-  margin-left: 0.2rem;
+    content: url("../../../images/interface_images/external-link.png");
+    margin-left: 0.2rem;
 }
+
+
 /* ==========================================================================
    6. Videos
    ========================================================================== */
+
+
 /* 6.1. Embed iframe videos
    ========================================================================== */
+
 .SashaVideo {
-  width: 100%;
-  position: relative;
-  padding-bottom: 74.38%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 74.38%;
 }
+
 iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-/* Instead of frameborder — http://stackoverflow.com/a/10831379/5951529 */
-  border: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* Instead of frameborder — http://stackoverflow.com/a/10831379/5951529 */
+    border: 0;
 }
+
+
 /* ==========================================================================
    7. Blockquotes
    ========================================================================== */
+
+
 /* 7.1. Left-border blockquote
    ========================================================================== */
+
 blockquote {
-  font-size: 1.1875rem;
-  font-style: italic;
-  margin: 0.625rem 2.5rem;
-  padding: 0.9375rem;
+    font-size: 1.1875rem;
+    font-style: italic;
+    margin: 0.625rem 2.5rem;
+    padding: 0.9375rem;
 }
+
+
 /* 7.2. Terms
    ========================================================================== */
+
 .SashaBlockquote {
-  padding: 0.25rem;
-  border-width: thick;
-  border-top-style: ridge;
-  border-right-style: groove;
-  border-bottom-style: groove;
-  border-left-style: ridge;
+    padding: 0.25rem;
+    border-width: thick;
+    border-top-style: ridge;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-style: ridge;
 }
+
+
 /* 7.3. Quotes top and bottom
    ========================================================================== */
+
 .SashaCitation {
-  display: inline-block;
+    display: inline-block;
 }
+
 .SashaTopQuote {
-  display: inline-block;
-  margin: 1.8rem 0 0;
-  font-size: 3rem;
-  line-height: 0;
-  vertical-align: -0.2rem;
+    display: inline-block;
+    margin: 1.8rem 0 0;
+    font-size: 3rem;
+    line-height: 0;
+    vertical-align: -0.2rem;
 }
+
 .SashaBottomQuote {
-  display: inline-block;
-  font-size: 3rem;
-  line-height: 0;
-  vertical-align: -2.5rem;
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 0;
+    vertical-align: -2.5rem;
 }
+
+
 /* 7.4. Epigraph
    ========================================================================== */
+
+
 /*
  * Disable gradient for em tag
  * Inscription after epigraph
  */
+
 .SashaEpigraph {
-  font-style: italic;
-  margin: 4rem 0;
-  text-align: right;
+    font-style: italic;
+    margin: 4rem 0;
+    text-align: right;
 }
+
 .SashaEpigraph > em {
-  background-image: none;
+    background-image: none;
 }
+
 .SashaEpigraph > .SashaEpigraphAuthor {
-  line-height: 1rem;
-  margin: 2rem 0;
-  font-style: italic;
+    line-height: 1rem;
+    margin: 2rem 0;
+    font-style: italic;
 }
+
+
 /* ==========================================================================
    8. Code
    ========================================================================== */
+
 code {
-  font-size: 1.1875rem;
+    font-size: 1.1875rem;
 }
+
+
 /*
  * relative — for correct code block displaying
  * pre-wrap — code wraps to the next line
  * padding — padding code from the code block
  * tab-size — because tab=8 in Rainbow code
  */
+
 pre {
-  position: relative;
-  white-space: pre-wrap;
-  padding: 0.5rem;
-  font-size: 1.1875rem;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
+    position: relative;
+    white-space: pre-wrap;
+    padding: 0.5rem;
+    font-size: 1.1875rem;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
 }
+
+
 /* ==========================================================================
    9. Sasha tags
    ========================================================================== */
+
+
 /* 9.1. Page version
    ========================================================================== */
+
 .SashaVersion {
-  font-size: 0.9rem;
-  font-weight: bold;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
+
+
 /* 9.2. Center element
    ========================================================================== */
+
 .SashaCenter {
-  text-align: center;
+    text-align: center;
 }
+
+
 /* 9.3. Inline and block
    ========================================================================== */
+
 .SashaInline {
-  float: left;
+    float: left;
 }
+
+
 /* 9.4. Shadows
    ========================================================================== */
+
 .SashaShadow {
-  font-family: 'Times New Roman';
-  font-size: 1.6rem;
-  width: auto;
+    font-family: 'Times New Roman';
+    font-size: 1.6rem;
+    width: auto;
 }
+
+
 /* ==========================================================================
    10. External scripts and plugins
    ========================================================================== */
+
+
 /* 10.1. Clipboard.js
    ========================================================================== */
+
+
 /*
  * Clipboard.js button
  * Using “float: right” instead of “position: absolute”,
  * That button not block a text, see:
  * http://bit.ly/2EwrJBH
  */
+
 .SashaButton {
-  float: right;
+    float: right;
 }
+
+
 /* 10.2. Tooltipster
    ========================================================================== */
+
 .tooltipster-punk-purple .tooltipster-box {
-  border: none;
-  border-radius: 5px;
+    border: none;
+    border-radius: 5px;
 }
+
 .tooltipster-punk-aquamarine .tooltipster-box {
-  border: none;
-  border-radius: 5px;
+    border: none;
+    border-radius: 5px;
 }
+
+
 /* 10.3. JQuery Lazy
    ========================================================================== */
+
+
 /*
  * JQuery Lazy
  * http://jquery.eisbehr.de/lazy/
  * I need add min-width to my images:
  * https://github.com/eisbehr-/jquery.lazy/issues/86
  */
+
 .SashaLazy {
-  min-width: 1rem;
+    min-width: 1rem;
 }
+
+
 /* 10.4. Progressbar
    ========================================================================== */
+
 .progress-label {
-  position: absolute;
-  text-align: center;
-  font-weight: 700;
-  width: 100%;
-  margin: 0;
-  line-height: 1.2rem;
-  white-space: nowrap;
-  overflow: hidden;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
 .progress-bar {
-  height: 1.2rem;
-  float: left;
+    height: 1.2rem;
+    float: left;
 }
+
 .progress {
-  display: block;
-  width: 100%;
-  margin: 0.5rem 0;
-  height: 1.2rem;
-  position: relative;
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 1.2rem;
+    position: relative;
 }
+
 .progress.thin {
-  margin-top: 0.9rem;
-  height: 0.4rem;
+    margin-top: 0.9rem;
+    height: 0.4rem;
 }
+
 .progress.thin .progress-label {
-  margin-top: -0.4rem;
+    margin-top: -0.4rem;
 }
+
 .progress.thin .progress-bar {
-  height: 0.4rem;
+    height: 0.4rem;
 }
+
 @-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @-webkit-keyframes fade {
-  10% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  35% {
-    -webkit-transform: scale(1, 1.7);
-    transform: scale(1, 1.7);
-  }
-  40% {
-    -webkit-transform: scale(1, 1.7);
-    transform: scale(1, 1.7);
-  }
-  50% {
-    opacity: 1;
-  }
-  60% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
+    10% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    35% {
+        -webkit-transform: scale(1, 1.7);
+        transform: scale(1, 1.7);
+    }
+    40% {
+        -webkit-transform: scale(1, 1.7);
+        transform: scale(1, 1.7);
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        opacity: 0;
+    }
 }
+
 @keyframes fade {
-  10% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  35% {
-    -webkit-transform: scale(1, 1.7);
-    transform: scale(1, 1.7);
-  }
-  40% {
-    -webkit-transform: scale(1, 1.7);
-    transform: scale(1, 1.7);
-  }
-  50% {
-    opacity: 1;
-  }
-  60% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
+    10% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    35% {
+        -webkit-transform: scale(1, 1.7);
+        transform: scale(1, 1.7);
+    }
+    40% {
+        -webkit-transform: scale(1, 1.7);
+        transform: scale(1, 1.7);
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        opacity: 0;
+    }
 }
