@@ -537,11 +537,15 @@ pre
 /* 10.1. Clipboard.js
    ========================================================================== */
 
-// Clipboard.js button
+/*
+ * Clipboard.js button
+ * Using “float: right” instead of “position: absolute”,
+ * That button not block a text, see:
+ * http://bit.ly/2EwrJBH
+ */
+
 .SashaButton
-	position absolute
-	top .5rem
-	right .5rem
+	float right
 
 /* 10.2. Tooltipster
    ========================================================================== */
