@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-11T12:25:33+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-11T12:25:33+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-11T17:07:58+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-11T12:25:33+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -285,7 +285,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-11T11:44:24+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-11T17:07:58+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -298,7 +298,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;&lt;a href="#installation"&gt;Installation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#configuration"&gt;Configuration&lt;/a&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href="#files"&gt;Files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#initpy"&gt;&lt;strong&gt;init&lt;/strong&gt;.py&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#9595init9595py"&gt;&amp;#95;&amp;#95;init&amp;#95;&amp;#95;.py&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#license"&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#readme"&gt;README&lt;/a&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href="#readmemd"&gt;README.md&lt;/a&gt;&lt;/li&gt;
@@ -462,8 +462,10 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;I &lt;a href="https://softwareengineering.stackexchange.com/questions/365410/readme-md-vs-readme-md" target="_blank"&gt;ask a question&lt;/a&gt;, need I use uppercase for file extension or no? &lt;em&gt;README.rst&lt;/em&gt; or &lt;em&gt;README.RST&lt;/em&gt;? But I get 7 minuses and my question will delete.&lt;/p&gt;
 &lt;p&gt;I don't find standard. Personally I use lowercase for file extensions, but you can use uppercase.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a name="initpy"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;9.2. &lt;strong&gt;init&lt;/strong&gt;.py&lt;/h3&gt;
+&lt;!-- Using HTML Entities --&gt;
+
+&lt;p&gt;&lt;a name="9595init9595py"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;9.2. &amp;#95;&amp;#95;init&amp;#95;&amp;#95;.py&lt;/h3&gt;
 &lt;p&gt;See &lt;a href="https://stackoverflow.com/a/4116384/5951529" target="_blank"&gt;answer&lt;/a&gt;, why &lt;em&gt;__init__.py&lt;/em&gt; need. This file may be blank or contains content.&lt;/p&gt;
 &lt;p&gt;&lt;a name="license"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.3. License&lt;/h3&gt;
@@ -475,6 +477,10 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h4&gt;9.4.1. README.md&lt;/h4&gt;
 &lt;p&gt;If you preferred write README in Markdown, you can have problems.&lt;/p&gt;
 &lt;p&gt;At February 2018 &lt;a href="https://github.com/pypa/warehouse/issues/869" target="_blank"&gt;PyPI doesn't support Readme.md&lt;/a&gt; without dependencies. Possibly, &lt;a href="https://github.com/dhimmel/hetio/issues/7#issuecomment-283797432" target="_blank"&gt;it seems like there is no easy way to use a markdown README for PyPI. Solutions involve requiring pandoc locally, which is a heavy dependency&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p&gt;You can &lt;a href="https://bfroehle.com/2013/04/26/converting-md-to-rst/" target="_blank"&gt;convert Markdown to reStructuredText&lt;/a&gt; use &lt;a href="http://pandoc.org" target="_blank"&gt;Pandoc&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;a name="readmerst"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.4.2. README.rst&lt;/h4&gt;
 &lt;p&gt;I recommend write README in &lt;a href="http://docutils.sourceforge.net/rst.html" target="_blank"&gt;reStructuredText&lt;/a&gt; — you need use file &lt;em&gt;README.rst&lt;/em&gt;. I add to &lt;a href="https://github.com/Kristinita/Erichek/blob/master/README.rst" target="_blank"&gt;my README.rst&lt;/a&gt; next information:&lt;/p&gt;
