@@ -63,20 +63,12 @@
 /* For correct Mailhu displayed*/
 
 html
-main
 body
 	height 100%
-
-html
-	overflow-x hidden
 
 body
 	font-family Arial, "Helvetica Neue", Helvetica, sans-serif
 	font-size 1.1875rem
-	/* That margin-top for Sasha's icons correct for on mobile devices */
-	overflow hidden
-	width 100%
-	height 100%
 	margin 0
 	padding 0
 
@@ -93,6 +85,30 @@ a
 
 	&:focus
 		outline 0
+
+/*
+ * Permalinks
+ */
+
+/* Permalinks hidden by default */
+
+.headerlink
+	visibility hidden
+
+/* Permalinks visible on hover
+   As https://pythonhosted.org/Markdown/extensions/toc.html page */
+
+/* Stylus parent reference, & symbol
+   http://stylus-lang.com/docs/selectors.html#parent-reference */
+
+h1
+h2
+h3
+h4
+h5
+h6
+	&:hover > .headerlink
+		visibility visible
 
 /* 1.3. Headers
    ========================================================================== */

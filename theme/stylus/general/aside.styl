@@ -9,36 +9,24 @@
    General
    ========================================================================== */
 
+
 aside
-	font-size 0.3125rem
-	line-height 1
+	// Relative, than .SashaBottomAside text will in aside
 	position relative
-	text-align center
-	background-repeat no-repeat
-	background-attachment fixed
-	background-position top center
+	// Icon the whole aside space
 	background-size cover
-	width 100%
-	height 100vh
+	height 100%
 
 /* Text in aside bottom */
 
 .SashaBottomAside
+	font-size 2rem
 	line-height 2rem
+	text-align center
 	position absolute
 	bottom 7%
 	left 10%
 	width 80%
-
-/* Disable margin and padding for .SashaMargin */
-
-.SashaMargin
-	display inline-block
-
-/* Margin for top header */
-
-.SashaTopHeader
-	margin-top .4rem
 
 /* ==========================================================================
    Media
@@ -46,50 +34,17 @@ aside
 
 /* For mobile devices */
 
-@media screen and (min-width: .0625rem)
+@media screen and (max-width: 60rem)
 	aside
-		display block
 		width 100%
-
-	/* Margins for main text */
-
-	.SashaMargin
-		/* That the text does not go beyond the screen */
-		display block
 
 /* For PC */
 
 @media screen and (min-width: 60rem)
 	aside
 		width 35%
-		background-attachment scroll
 
 	/* Child scrollbar element for <main> tag because child elements have priority to parent elements. */
 
 	.gm-scrollbar-container
 		width 65%
-
-
-/* ==========================================================================
-   Permalinks
-   ========================================================================== */
-
-/* Permalinks hidden by default */
-
-.headerlink
-	visibility hidden
-
-/* Permalinks visible on hover
-   As https://pythonhosted.org/Markdown/extensions/toc.html page */
-
-/* Stylus parent reference, & symbol
-   http://stylus-lang.com/docs/selectors.html#parent-reference */
-
-h1
-h2
-h3
-h4
-h5
-h6
-	&:hover > .headerlink
-		visibility visible

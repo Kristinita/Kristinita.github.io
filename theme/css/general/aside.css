@@ -11,41 +11,22 @@
    ========================================================================== */
 
 aside {
-    font-size: 0.3125rem;
-    line-height: 1;
     position: relative;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top center;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 
 /* Text in aside bottom */
 
 .SashaBottomAside {
+    font-size: 2rem;
     line-height: 2rem;
+    text-align: center;
     position: absolute;
     bottom: 7%;
     left: 10%;
     width: 80%;
-}
-
-
-/* Disable margin and padding for .SashaMargin */
-
-.SashaMargin {
-    display: inline-block;
-}
-
-
-/* Margin for top header */
-
-.SashaTopHeader {
-    margin-top: 0.4rem;
 }
 
 
@@ -56,14 +37,9 @@ aside {
 
 /* For mobile devices */
 
-@media screen and (min-width: 0.0625rem) {
+@media screen and (max-width: 60rem) {
     aside {
-        display: block;
         width: 100%;
-    }
-    .SashaMargin {
-        /* That the text does not go beyond the screen */
-        display: block;
     }
 }
 
@@ -73,41 +49,8 @@ aside {
 @media screen and (min-width: 60rem) {
     aside {
         width: 35%;
-        background-attachment: scroll;
     }
     .gm-scrollbar-container {
         width: 65%;
     }
 }
-
-
-/* ==========================================================================
-   Permalinks
-   ========================================================================== */
-
-
-/* Permalinks hidden by default */
-
-.headerlink {
-    visibility: hidden;
-}
-
-
-/* Permalinks visible on hover
-   As https://pythonhosted.org/Markdown/extensions/toc.html page */
-
-
-/* Stylus parent reference, & symbol
-   http://stylus-lang.com/docs/selectors.html#parent-reference */
-
-h1:hover > .headerlink,
-h2:hover > .headerlink,
-h3:hover > .headerlink,
-h4:hover > .headerlink,
-h5:hover > .headerlink,
-h6:hover > .headerlink {
-    visibility: visible;
-}
-
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzaWRlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7RUFLRTtBQUNGOztnRkFFZ0Y7QUFDaEY7RUFDRSxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLG1CQUFtQjtFQUNuQixtQkFBbUI7RUFDbkIsNkJBQTZCO0VBQzdCLDZCQUE2QjtFQUM3QixnQ0FBZ0M7RUFDaEMsdUJBQXVCO0VBQ3ZCLFlBQVk7RUFDWixjQUFjO0NBQ2Y7QUFDRCwwQkFBMEI7QUFDMUI7RUFDRSxrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLFdBQVc7RUFDWCxVQUFVO0VBQ1YsV0FBVztDQUNaO0FBQ0QsaURBQWlEO0FBQ2pEO0VBQ0Usc0JBQXNCO0NBQ3ZCO0FBQ0QsMkJBQTJCO0FBQzNCO0VBQ0UsbUJBQW1CO0NBQ3BCO0FBQ0Q7O2dGQUVnRjtBQUNoRix3QkFBd0I7QUFDeEI7RUFDRTtJQUNFLGVBQWU7SUFDZixZQUFZO0dBQ2I7RUFDRDtBQUNGLGlEQUFpRDtJQUM3QyxlQUFlO0dBQ2hCO0NBQ0Y7QUFDRCxZQUFZO0FBQ1o7RUFDRTtJQUNFLFdBQVc7SUFDWCw4QkFBOEI7R0FDL0I7RUFDRDtJQUNFLFdBQVc7R0FDWjtDQUNGO0FBQ0Q7O2dGQUVnRjtBQUNoRixrQ0FBa0M7QUFDbEM7RUFDRSxtQkFBbUI7Q0FDcEI7QUFDRDttRUFDbUU7QUFDbkU7aUVBQ2lFO0FBQ2pFOzs7Ozs7RUFNRSxvQkFBb0I7Q0FDckIiLCJmaWxlIjoiYXNpZGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiogQEF1dGhvcjogS3Jpc3Rpbml0YVxuKiBARGF0ZTogICAyMDE3LTAzLTIzIDA5OjE2OjI1XG4qIEBMYXN0IE1vZGlmaWVkIGJ5OiAgIEtyaXN0aW5pdGFcbiogQExhc3QgTW9kaWZpZWQgdGltZTogMjAxNy0wNS0wOSAxNDozOToxOFxuKi9cbi8qID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4gICBHZW5lcmFsXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuYXNpZGUge1xuICBmb250LXNpemU6IDAuMzEyNXJlbTtcbiAgbGluZS1oZWlnaHQ6IDE7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiB0b3AgY2VudGVyO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDB2aDtcbn1cbi8qIFRleHQgaW4gYXNpZGUgYm90dG9tICovXG4uU2FzaGFCb3R0b21Bc2lkZSB7XG4gIGxpbmUtaGVpZ2h0OiAycmVtO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJvdHRvbTogNyU7XG4gIGxlZnQ6IDEwJTtcbiAgd2lkdGg6IDgwJTtcbn1cbi8qIERpc2FibGUgbWFyZ2luIGFuZCBwYWRkaW5nIGZvciAuU2FzaGFNYXJnaW4gKi9cbi5TYXNoYU1hcmdpbiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cbi8qIE1hcmdpbiBmb3IgdG9wIGhlYWRlciAqL1xuLlNhc2hhVG9wSGVhZGVyIHtcbiAgbWFyZ2luLXRvcDogMC40cmVtO1xufVxuLyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cbiAgIE1lZGlhXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLyogRm9yIG1vYmlsZSBkZXZpY2VzICovXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAwLjA2MjVyZW0pIHtcbiAgYXNpZGUge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIHdpZHRoOiAxMDAlO1xuICB9XG4gIC5TYXNoYU1hcmdpbiB7XG4vKiBUaGF0IHRoZSB0ZXh0IGRvZXMgbm90IGdvIGJleW9uZCB0aGUgc2NyZWVuICovXG4gICAgZGlzcGxheTogYmxvY2s7XG4gIH1cbn1cbi8qIEZvciBQQyAqL1xuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjByZW0pIHtcbiAgYXNpZGUge1xuICAgIHdpZHRoOiAzNSU7XG4gICAgYmFja2dyb3VuZC1hdHRhY2htZW50OiBzY3JvbGw7XG4gIH1cbiAgLmdtLXNjcm9sbGJhci1jb250YWluZXIge1xuICAgIHdpZHRoOiA2NSU7XG4gIH1cbn1cbi8qID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4gICBQZXJtYWxpbmtzXG4gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuLyogUGVybWFsaW5rcyBoaWRkZW4gYnkgZGVmYXVsdCAqL1xuLmhlYWRlcmxpbmsge1xuICB2aXNpYmlsaXR5OiBoaWRkZW47XG59XG4vKiBQZXJtYWxpbmtzIHZpc2libGUgb24gaG92ZXJcbiAgIEFzIGh0dHBzOi8vcHl0aG9uaG9zdGVkLm9yZy9NYXJrZG93bi9leHRlbnNpb25zL3RvYy5odG1sIHBhZ2UgKi9cbi8qIFN0eWx1cyBwYXJlbnQgcmVmZXJlbmNlLCAmIHN5bWJvbFxuICAgaHR0cDovL3N0eWx1cy1sYW5nLmNvbS9kb2NzL3NlbGVjdG9ycy5odG1sI3BhcmVudC1yZWZlcmVuY2UgKi9cbmgxOmhvdmVyID4gLmhlYWRlcmxpbmssXG5oMjpob3ZlciA+IC5oZWFkZXJsaW5rLFxuaDM6aG92ZXIgPiAuaGVhZGVybGluayxcbmg0OmhvdmVyID4gLmhlYWRlcmxpbmssXG5oNTpob3ZlciA+IC5oZWFkZXJsaW5rLFxuaDY6aG92ZXIgPiAuaGVhZGVybGluayB7XG4gIHZpc2liaWxpdHk6IHZpc2libGU7XG59XG4iXX0= */
