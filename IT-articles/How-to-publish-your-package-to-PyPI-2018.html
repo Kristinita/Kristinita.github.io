@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2018-02-15 18:32:02 -->
+<!-- @Last Modified time: 2018-02-18 11:49:04 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +23,7 @@
     <meta property="og:description" content="Tutorial, how you can publish your Python package to PyPI" />
     <meta property="og:site_name" content="Поиск Кристиниты" />
     <!-- JQuery -->
-    <script src="//cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <!-- Gemini -->
     <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
@@ -33,13 +33,13 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
     <!-- Fancybox -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/bower-components/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
     <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/node_modules/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tooltipster@4.2.6/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Tooltipster/tooltip.js" defer></script>
     <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
     <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
@@ -229,10 +229,16 @@
             <h2>5. Demonstration <a class="headerlink" href="#demonstration" title="Permanent link">¶</a></h2>
             <p>For examples in this article, I select my Erichek package.</p>
             <p><a href="https://pypi.python.org/pypi/erichek" target="_blank">https://pypi.python.org/pypi/erichek</a> page at February 2018:</p>
-            <p><img alt="Erichek on pypi.python.org" src="https://i.imgur.com/yzNSQNm.png"></p>
+            <p>
+                <a class="fancybox" href="https://i.imgur.com/yzNSQNm.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/yzNSQNm.png" alt="Erichek on pypi.python.org"></a>
+            </p>
             <p><a href="https://pypi.org/project/erichek" target="_blank">https://pypi.org/project/erichek</a> page at February 2018:</p>
-            <p><img alt="Erichek on pypi.org" src="https://i.imgur.com/DjMYPrP.png"></p>
-            <p><img alt="Erichek on pypi.org 2" src="https://i.imgur.com/rdfBR5j.png"></p>
+            <p>
+                <a class="fancybox" href="https://i.imgur.com/DjMYPrP.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/DjMYPrP.png" alt="Erichek on pypi.org"></a>
+            </p>
+            <p>
+                <a class="fancybox" href="https://i.imgur.com/rdfBR5j.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/rdfBR5j.png" alt="Erichek on pypi.org 2"></a>
+            </p>
             <p>You can install Erichek, use command:</p>
             <div class="SashaBlockHighlight"><pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button><span></span>pip install erichek
 </pre></div>
@@ -830,7 +836,9 @@ C:\Users\SashaChernykh&gt;
                 </li>
                 <li>
                     <p>Version updates in <em>setup.cfg</em>:</p>
-                    <p><img alt="Version in setup.cfg" src="https://i.imgur.com/4C1jnLm.png"></p>
+                    <p>
+                        <a class="fancybox" href="https://i.imgur.com/4C1jnLm.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/4C1jnLm.png" alt="Version in setup.cfg"></a>
+                    </p>
                 </li>
                 <li>
                     <p>New version of Erichek publish to PyPI.</p>
@@ -881,7 +889,9 @@ C:\Users\SashaChernykh&gt;
                 <li>
                     <p><code class="SashaInlineHighlight">sed -i &#39;s\/^version = .*$\/version = ${version}\/g&#39; setup.cfg</code> — command for replacing version in your <em>setup.cfg</em> to the newest, see <a href="https://askubuntu.com/a/20416/582218"
                         target="_blank">find and replace via sed</a>:</p>
-                    <p><img alt="Version in setup.cfg" src="https://i.imgur.com/4C1jnLm.png"></p>
+                    <p>
+                        <a class="fancybox" href="https://i.imgur.com/4C1jnLm.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/4C1jnLm.png" alt="Version in setup.cfg"></a>
+                    </p>
                 </li>
                 <li>
                     <p><code class="SashaInlineHighlight">python setup.py bdist_wheel &amp;&amp; twine upload dist\/*</code> — <a href="#pypi">build and publish</a> your package.</p>
@@ -894,7 +904,9 @@ C:\Users\SashaChernykh&gt;
 </pre></div>
 
                 <p>It change a version in <em>eric_config.py</em> file, that command <code class="SashaInlineHighlight">erichek --version</code> works correct.</p>
-                <p><img alt="Version in eric_config.py" src="https://i.imgur.com/xMrSbew.png"></p>
+                <p>
+                    <a class="fancybox" href="https://i.imgur.com/xMrSbew.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="https://i.imgur.com/xMrSbew.png" alt="Version in eric_config.py"></a>
+                </p>
                 <p>If you don't want to have this behavior, please, do not add this text to your <em>.release-it.json</em>.</p>
             </div>
             <p>See <a href="Fastest-way-to-add-new-version-of-Sublime-Text-3-package#release-itjson-1" target="_blank">here</a>, if you want to know details about another parts of <em>.release-it.json</em>.</p>
