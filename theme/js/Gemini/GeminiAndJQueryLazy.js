@@ -1,6 +1,6 @@
 // @Author: Kristinita
 // @Date:   2017-05-02 11:44:00
-// @Last Modified time: 2017-12-06 16:17:15
+// @Last Modified time: 2018-02-20 20:14:17
 ////////////
 // Gemini //
 ////////////
@@ -16,6 +16,8 @@ window.onload = function() {
             // https://github.com/noeldelgado/gemini-scrollbar#options
             forceGemini: true,
         }).create();
+
+        window.myscroolbar = pcscrollbar;
 
         // JQuery Lazy support —
         // https://github.com/eisbehr-/jquery.lazy/issues/88#issuecomment-299138103
@@ -37,6 +39,8 @@ window.onload = function() {
             forceGemini: true,
         }).create();
 
+        window.myscroolbar = mobilescrollbar;
+
         $(".SashaLazy").Lazy({
             appendScroll: $(mobilescrollbar.getViewElement()),
             afterLoad: function() {
@@ -45,4 +49,12 @@ window.onload = function() {
         });
     }
 
+};
+
+// Scrollbar works on resize
+// Thanks to Alfy — https://vk.com/dark_alf
+window.onresize = function() {
+    if(window.myscroolbar)
+        window.myscroolbar.destroy();
+    window.onload();
 };

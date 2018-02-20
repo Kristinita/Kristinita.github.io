@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2018-02-18 11:49:04 -->
+<!-- @Last Modified time: 2018-02-20 20:08:32 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +8,9 @@
     <!-- Encoding -->
     <meta charset="utf-8">
     <!-- Title phrase -->
-    <title>ValeriyaSpeller</title>
+    <title>
+        ValeriyaSpeller
+    </title>
     <!-- Description, EDGE-compatible, different screens -->
     <!-- Needs for validation name="description", see: https://stackoverflow.com/a/11202372/5951529 -->
     <meta name="description" content="Implementation yaspeller for Sublime Text">
@@ -17,31 +19,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Open Graph, http://ruogp.me/ -->
     <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
-    <meta property="og:title" content="ValeriyaSpeller" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://i.imgur.com/iciGBgN.jpg" />
-    <meta property="og:description" content="Implementation yaspeller for Sublime Text" />
-    <meta property="og:site_name" content="Поиск Кристиниты" />
+    <meta property="og:title" content="ValeriyaSpeller">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://i.imgur.com/iciGBgN.jpg">
+    <meta property="og:description" content="Implementation yaspeller for Sublime Text">
+    <meta property="og:site_name" content="Поиск Кристиниты">
     <!-- JQuery -->
+
     <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <!-- Gemini -->
+
     <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
     <!-- JQuery Lazy -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+
+    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
     <!-- Fancybox -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+
     <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tooltipster@4.2.6/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tooltipster@4.2.6/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css">
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Tooltipster/tooltip.js" defer></script>
     <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+
     <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Clipboard.js/Clipboard.js" defer></script>
     <!-- Visualize, see https://github.com/kellyk/visualize -->
@@ -64,23 +72,28 @@
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
     <!-- Custom CSS -->
     <!-- Atom feed -->
-    <link href="http://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="http://kristinita.ru/feeds/programs.atom.xml" rel="alternate" type="application/atom+xml">
+    <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+    <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/programs.atom.xml" rel="alternate" type="application/atom+xml">
 </head>
 
 <body>
     <!-- Background aside -->
     <aside>
         <!-- Header aside -->
-        <div class="SashaBottomAside">ValeriyaSpeller</div>
+        <div class="SashaBottomAside">
+            ValeriyaSpeller
+        </div>
     </aside>
     <!-- Content -->
     <main itemscope>
         <div class="SashaMargin">
             <header>
-                <h1 class="SashaTopHeader">ValeriyaSpeller</h1>
-                <img class="SashaPageLoading" src="https://2no.co/1g9b6.png" alt="Page loading, please, little wait">
-                <div class="SashaVersion">Version 0.1.0</div>
+                <h1 class="SashaTopHeader">
+            ValeriyaSpeller
+          </h1><img class="SashaPageLoading" src="https://2no.co/1g9b6.png" alt="Page loading, please, little wait">
+                <div class="SashaVersion">
+                    Version 0.1.0
+                </div>
                 <div class="SashaVersion">
                     Posted —
                     <time datetime="2017-04-04 04:14:07+03:00">2017-04-04 04:14:07+03:00</time>
@@ -93,71 +106,124 @@
                 </div>
             </header>
             <div class="SashaEpigraph">
-                <em>i express my gratitude to Her <br>
-for everything She has done for me. <br>
-ValeriyaSpeller devote to <br>
-my Hero, Angel and Savior <br>
-perfect fan of <a href="https://vk.com/hair_in_the_wind">Goddess</a>
-</em>
+                <em>i express my gratitude to Her<br>
+          for everything She has done for me.<br>
+          ValeriyaSpeller devote to<br>
+          my Hero, Angel and Savior<br>
+          perfect fan of <a href="https://vk.com/hair_in_the_wind">Goddess</a></em>
                 <div class="SashaEpigraphAuthor">
                     <a href="https://vk.com/zombelina">Valeria Zveginceva</a>
                 </div>
             </div>
-
             <p>
                 <a class="fancybox" href="http://i.imgur.com/iciGBgN.jpg"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/iciGBgN.jpg" alt="Angelovaleria"></a>
             </p>
-            <h2>1. Briefly</h2>
-            <p>Russian-language spellchecker for Sublime Text.</p>
-            <h2>2. Demonstration</h2>
+            <h2>
+          1. Briefly
+        </h2>
+            <p>
+                Russian-language spellchecker for Sublime Text.
+            </p>
+            <h2>
+          2. Demonstration
+        </h2>
             <p>
                 <a class="fancybox" href="http://i.imgur.com/bqRl8eD.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/bqRl8eD.png" alt="Sublime Text Window"></a>
             </p>
             <p>
                 <a class="fancybox" href="http://i.imgur.com/5x542fy.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/5x542fy.png" alt="Error report"></a>
             </p>
-            <h2>3. Motivation</h2>
-            <p>i need extra spellchecker for Russian-language texts.</p>
-            <h2>4. Testing</h2>
-            <p>Tested on:</p>
+            <h2>
+          3. Motivation
+        </h2>
+            <p>
+                i need extra spellchecker for Russian-language texts.
+            </p>
+            <h2>
+          4. Testing
+        </h2>
+            <p>
+                Tested on:
+            </p>
             <ul>
-                <li>Windows 10 Enterprise LTSB 64-bit EN,</li>
-                <li>Sublime Text Build 3126,</li>
-                <li>Node.js v7.8.0,</li>
-                <li>yaspeller 3.1.0,</li>
-                <li>literature works of Chekhov, Dostoyevsky, Leonid Andreyev and Oliver Sacks (in Russian translation) — favorite Valeria writers.</li>
+                <li>Windows 10 Enterprise LTSB 64-bit EN,
+                </li>
+                <li>Sublime Text Build 3126,
+                </li>
+                <li>Node.js v7.8.0,
+                </li>
+                <li>yaspeller 3.1.0,
+                </li>
+                <li>literature works of Chekhov, Dostoyevsky, Leonid Andreyev and Oliver Sacks (in Russian translation) — favorite Valeria writers.
+                </li>
             </ul>
-            <p>Must be works in macOS and *nix operating systems.</p>
-            <h2>5. Installation</h2>
+            <p>
+                Must be works in macOS and *nix operating systems.
+            </p>
+            <h2>
+          5. Installation
+        </h2>
             <ol>
                 <li>Install <a href="https://nodejs.org/en/" target="_blank">Node.js</a>, if no. For Windows users I recommend <a href="https://lifehacker.ru/2015/01/08/chocolatey/" target="_blank">install Chocolatey</a> → <a href="https://chocolatey.org/packages/nodejs"
-                    target="_blank">install Node.js by command <code class="SashaInlineHighlight">choco install nodejs -y</code></a>.</li>
-                <li>Install <a href="https://www.npmjs.com/package/yaspeller" target="_blank">yaspeller</a> — <code class="SashaInlineHighlight">npm install yaspeller -g</code>.</li>
-                <li>Install <a href="https://packagecontrol.io/packages/SublimeLinter" target="_blank">SublimeLinter</a> framework <a href="https://docs.cs.cf.ac.uk/notes/sublime-text-packages/" target="_blank">via Package Control</a>.</li>
-                <li><a href="http://www.macdrifter.com/2012/08/install-sublime-packages-from-github.html" target="_blank">Install</a> <a href="https://github.com/Kristinita/SublimeLinter-contrib-ValeriyaSpeller" target="_blank">ValeriyaSpeller</a>.</li>
+                    target="_blank">install Node.js by command <code class="SashaInlineHighlight">choco install nodejs -y</code></a>.
+                </li>
+                <li>Install <a href="https://www.npmjs.com/package/yaspeller" target="_blank">yaspeller</a> — <code class="SashaInlineHighlight">npm install yaspeller -g</code>.
+                </li>
+                <li>Install <a href="https://packagecontrol.io/packages/SublimeLinter" target="_blank">SublimeLinter</a> framework <a href="https://docs.cs.cf.ac.uk/notes/sublime-text-packages/" target="_blank">via Package Control</a>.
+                </li>
+                <li>
+                    <a href="http://www.macdrifter.com/2012/08/install-sublime-packages-from-github.html" target="_blank">Install</a> <a href="https://github.com/Kristinita/SublimeLinter-contrib-ValeriyaSpeller" target="_blank">ValeriyaSpeller</a>.
+                </li>
             </ol>
-            <h2>6. Usage</h2>
-            <h3>6.1. Required</h3>
-            <p>ValeriyaSpeller highlight/output typos in next types of files:</p>
+            <h2>
+          6. Usage
+        </h2>
+            <h3>
+          6.1. Required
+        </h3>
+            <p>
+                ValeriyaSpeller highlight/output typos in next types of files:
+            </p>
             <ul>
-                <li>Markdown,</li>
-                <li>HTML,</li>
-                <li>LaTeX,</li>
-                <li>Comments in any language.</li>
+                <li>Markdown,
+                </li>
+                <li>HTML,
+                </li>
+                <li>LaTeX,
+                </li>
+                <li>Comments in any language.
+                </li>
             </ul>
-            <p>Note: ValeryaLinter must work in most cases. If no, <a href="https://www.sublimetext.com/docs/3/syntax.html" target="_blank">your syntax</a> don't have any of these <a href="https://www.sublimetext.com/docs/3/scope_naming.html" target="_blank">scopes</a>                — <code class="SashaInlineHighlight">text.html.markdown</code>, <code class="SashaInlineHighlight">text.plain</code>, <code class="SashaInlineHighlight">text.tex.latex</code>, <code class="SashaInlineHighlight">comment</code>.</p>
-            <p>After installation open any of these files → and see:</p>
+            <p>
+                Note: ValeryaLinter must work in most cases. If no, <a href="https://www.sublimetext.com/docs/3/syntax.html" target="_blank">your syntax</a> don't have any of these <a href="https://www.sublimetext.com/docs/3/scope_naming.html" target="_blank">scopes</a>                — <code class="SashaInlineHighlight">text.html.markdown</code>, <code class="SashaInlineHighlight">text.plain</code>, <code class="SashaInlineHighlight">text.tex.latex</code>, <code class="SashaInlineHighlight">comment</code>.
+            </p>
+            <p>
+                After installation open any of these files → and see:
+            </p>
             <ol>
-                <li>ValeriyaSpeller marks in <a href="http://ru.stackoverflow.com/q/637536/199934" target="_blank">gutter</a>,</li>
-                <li>ValeriyaSpeller suggests in <a href="https://www.google.ru/search?q=status+bar&amp;newwindow=1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi-j9WygojTAhVGiSwKHfRhATYQ_AUIBigB&amp;biw=1173&amp;bih=729" target="_blank">status bar</a>.</li>
+                <li>ValeriyaSpeller marks in <a href="http://ru.stackoverflow.com/q/637536/199934" target="_blank">gutter</a>,
+                </li>
+                <li>ValeriyaSpeller suggests in <a href="https://www.google.ru/search?q=status+bar&amp;newwindow=1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi-j9WygojTAhVGiSwKHfRhATYQ_AUIBigB&amp;biw=1173&amp;bih=729" target="_blank">status bar</a>.
+                </li>
             </ol>
-            <h3>6.2. Optional</h3>
-            <p>You may select different <a href="http://www.sublimelinter.com/en/latest/lint_modes.html" target="_blank">SublimeLinter modes</a>.</p>
-            <p>Also you open linting file → <kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <code class="SashaInlineHighlight">SublimeLinter: Report (Open Files)</code> → and see all linting errors and warnings of all your enabled SublimeLinter linters
-                for all opened files.</p>
-            <h3>6.3. Detail output</h3>
-            <p>You can to give detailed output, example:</p>
-            <div class="SashaBlockHighlight"><pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button><span></span><span class="err">SublimeLinter:</span> <span class="err">valeriyaspeller:</span> <span class="err">TheChorusGirl.Chekhov</span> <span class="p">[</span><span class="err">&#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&#39;</span><span class="p">,</span> <span class="err">&#39;--check-yo&#39;</span><span class="p">,</span> <span class="err">&#39;--find-repeat-words&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-digits&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-latin&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-roman-numerals&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-uppercase&#39;</span><span class="p">,</span> <span class="err">&#39;--ignore-urls&#39;</span><span class="p">]</span>
+            <h3>
+          6.2. Optional
+        </h3>
+            <p>
+                You may select different <a href="http://www.sublimelinter.com/en/latest/lint_modes.html" target="_blank">SublimeLinter modes</a>.
+            </p>
+            <p>
+                Also you open linting file → <kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <code class="SashaInlineHighlight">SublimeLinter: Report (Open Files)</code> → and see all linting errors and warnings of all your enabled SublimeLinter linters
+                for all opened files.
+            </p>
+            <h3>
+          6.3. Detail output
+        </h3>
+            <p>
+                You can to give detailed output, example:
+            </p>
+            <div class="SashaBlockHighlight">
+                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button><span class="err">SublimeLinter:</span> <span class="err">valeriyaspeller:</span> <span class="err">TheChorusGirl.Chekhov</span> <span class="p">[</span><span class="err">'C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd'</span><span class="p">,</span> <span class="err">'--check-yo'</span><span class="p">,</span> <span class="err">'--find-repeat-words'</span><span class="p">,</span> <span class="err">'--ignore-digits'</span><span class="p">,</span> <span class="err">'--ignore-latin'</span><span class="p">,</span> <span class="err">'--ignore-roman-numerals'</span><span class="p">,</span> <span class="err">'--ignore-uppercase'</span><span class="p">,</span> <span class="err">'--ignore-urls'</span><span class="p">]</span>
 <span class="err">SublimeLinter:</span> <span class="err">valeriyaspeller</span> <span class="err">output:</span>
 <span class="err">Checking</span> <span class="err">finished:</span> <span class="mf">1.154</span> <span class="err">sec.</span>
 <span class="p">[</span><span class="err">ERR</span><span class="p">]</span> <span class="err">stdin</span> <span class="mi">710</span> <span class="err">ms</span>
@@ -172,45 +238,81 @@ perfect fan of <a href="https://vk.com/hair_in_the_wind">Goddess</a>
 <span class="err">Letter</span> <span class="err">Ё</span> <span class="err">(Yo):</span> <span class="mi">1</span>
 <span class="mi">1</span><span class="err">.</span> <span class="err">довел</span> <span class="err">(</span><span class="mi">3</span><span class="err">:</span><span class="mi">108</span><span class="err">,</span> <span class="err">count:</span> <span class="mi">2</span><span class="err">,</span> <span class="err">suggest:</span> <span class="err">довёл)</span>
 <span class="err">-----</span>
-</pre></div>
-
+</pre>
+            </div>
             <p>
                 <a class="fancybox" href="http://i.imgur.com/uC1hthv.png"><img class="SashaLazy" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/transparent-one-pixel.png" data-src="http://i.imgur.com/uC1hthv.png" alt="Detailed output"></a>
             </p>
-            <p><kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <code class="SashaInlineHighlight">SublimeLinter: Enable Debug Mode</code> → open file, which you needs to linting → <a href="http://stackoverflow.com/q/13965877/5951529" target="_blank">open Sublime Text console</a>                → see output.</p>
-            <h2>7. Description</h2>
-            <h3>7.1. Command line arguments</h3>
-            <p><a href="https://www.npmjs.com/package/yaspeller" target="_blank">Description of yaspeller npm module</a>, <a href="https://www.npmjs.com/package/yaspeller#options" target="_blank">command line keys</a>. Default command is</p>
-            <div class="SashaBlockHighlight"><pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button><span></span>yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
-</pre></div>
-
-            <h3>7.2. Limits</h3>
-            <p>10 thousands queries and 10 millions symbols in a day, see <a href="https://yandex.ru/legal/speller_api/" target="_blank">3.2 item</a> terms of rules.</p>
-            <h2>8. Known problems and issues</h2>
+            <p>
+                <kbd>Ctrl+Shift+P</kbd> (<kbd>⌘⇧p</kbd> for Mac) → <code class="SashaInlineHighlight">SublimeLinter: Enable Debug Mode</code> → open file, which you needs to linting → <a href="http://stackoverflow.com/q/13965877/5951529" target="_blank">open Sublime Text console</a>                → see output.
+            </p>
+            <h2>
+          7. Description
+        </h2>
+            <h3>
+          7.1. Command line arguments
+        </h3>
+            <p>
+                <a href="https://www.npmjs.com/package/yaspeller" target="_blank">Description of yaspeller npm module</a>, <a href="https://www.npmjs.com/package/yaspeller#options" target="_blank">command line keys</a>. Default command is
+            </p>
+            <div class="SashaBlockHighlight">
+                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/images/interface_images/clippy.svg" alt="Clipboard button" width="13"></button>yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
+</pre>
+            </div>
+            <h3>
+          7.2. Limits
+        </h3>
+            <p>
+                10 thousands queries and 10 millions symbols in a day, see <a href="https://yandex.ru/legal/speller_api/" target="_blank">3.2 item</a> terms of rules.
+            </p>
+            <h2>
+          8. Known problems and issues
+        </h2>
             <ol>
                 <li>SublimeLinter <a href="https://github.com/SublimeLinter/SublimeLinter3/issues/545" target="_blank">don't work with unsaved buffers</a>, it use
-                    <a href="https://www.sublimetext.com/docs/3/api_reference.html#sublime.View" target="_blank"><code class="SashaInlineHighlight"><span class="n">file_name</span><span class="p">()</span></code> method, not <code class="SashaInlineHighlight"><span class="nb">id</span><span class="p">()</span></code> method</a>.</li>
+                    <a href="https://www.sublimetext.com/docs/3/api_reference.html#sublime.View" target="_blank"><code class="SashaInlineHighlight"><span class="n">file_name</span><span class="p">()</span></code> method, not <code class="SashaInlineHighlight"><span class="nb">id</span><span class="p">()</span></code> method</a>.
+                </li>
             </ol>
-            <p><strong>If you may to solve these problems, please tell me about it. Pull requests welcome!</strong> You also can add your <code class="SashaInlineHighlight">+1</code> comment in any issue of this list.</p>
-            <h2>9. Others thematic packages</h2>
-            <p>For English and Russian:</p>
+            <p>
+                <strong>If you may to solve these problems, please tell me about it. Pull requests welcome!</strong> You also can add your <code class="SashaInlineHighlight">+1</code> comment in any issue of this list.
+            </p>
+            <h2>
+          9. Others thematic packages
+        </h2>
+            <p>
+                For English and Russian:
+            </p>
             <ol>
-                <li><a href="https://packagecontrol.io/packages/LanguageTool" target="_blank">LanguageTool</a>,</li>
-                <li><a href="https://packagecontrol.io/packages/LanguageTool" target="_blank">Dictionaries</a> — <a href="https://github.com/titoBouzout/Dictionaries/pull/68" target="_blank">Russian-English bilingual dictionary</a>,</li>
-                <li><a href="https://packagecontrol.io/packages/SublimeLinter-contrib-write-good" target="_blank">write-good</a>,</li>
-                <li><a href="https://packagecontrol.io/packages/Thesaurus" target="_blank">Thesaurus</a>.</li>
+                <li>
+                    <a href="https://packagecontrol.io/packages/LanguageTool" target="_blank">LanguageTool</a>,
+                </li>
+                <li>
+                    <a href="https://packagecontrol.io/packages/LanguageTool" target="_blank">Dictionaries</a> — <a href="https://github.com/titoBouzout/Dictionaries/pull/68" target="_blank">Russian-English bilingual dictionary</a>,
+                </li>
+                <li>
+                    <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-write-good" target="_blank">write-good</a>,
+                </li>
+                <li>
+                    <a href="https://packagecontrol.io/packages/Thesaurus" target="_blank">Thesaurus</a>.
+                </li>
             </ol>
-            <p>Also in Sublime Text implemented <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint" target="_blank">proselint</a> package, but <a href="https://github.com/amperser/proselint/issues/686" target="_blank">I have critical CPU usage bug</a>.</p>
+            <p>
+                Also in Sublime Text implemented <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint" target="_blank">proselint</a> package, but <a href="https://github.com/amperser/proselint/issues/686" target="_blank">I have critical CPU usage bug</a>.
+            </p>
             <footer>
                 <span class="SashaPreviousNeighbor"><a href="http://kristinita.ru/Sublime-Text/SashaSublime.html" title="SashaSublime">← Previous article</a></span>
                 <!--  -->
                 <span class="SashaNextNeighbor"><a href="http://kristinita.ru/Sublime-Text/Sacagawea.html" title="Sacagawea">Next article →</a></span>
                 <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">All rights reserved ©. If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Sublime-Text/ValeriyaSpeller.md">edit it</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
-                    Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf"><script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span>
-                    about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a>                    i reserve the right to dispose of my own discretion.</div>
-                <div class="WorkOnYourself">Работайте над собой</div>
+                <div class="SashaEmNoColor">
+                    All rights reserved ©. If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Sublime-Text/ValeriyaSpeller.md">edit it</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
+                    Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf">
+            <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
+                    </span> about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a>                    i reserve the right to dispose of my own discretion.
+                </div>
+                <div class="WorkOnYourself">
+                    Работайте над собой
+                </div>
             </footer>
         </div>
     </main>
