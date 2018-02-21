@@ -39,7 +39,7 @@ aside {
 }
 
 blockquote {
-    border-left: solid #db7093 .5rem;
+    border-left: solid #db7093 0.5rem;
     color: #000080;
     background: #fcfcfc;
 }

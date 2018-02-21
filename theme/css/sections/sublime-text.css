@@ -52,7 +52,7 @@ aside {
 }
 
 blockquote {
-    border-left: solid #e6e6fa .5rem;
+    border-left: solid #e6e6fa 0.5rem;
     color: #6a5acd;
     background: #fcfcfc;
 }

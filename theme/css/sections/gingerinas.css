@@ -40,7 +40,7 @@ hr {
 
 td,
 th {
-    border: .0625rem solid #738e8b;
+    border: 0.0625rem solid #738e8b;
 }
 
 .SashaBottomAside {
@@ -53,7 +53,7 @@ aside {
 }
 
 blockquote {
-    border-left: solid #dc143c .5rem;
+    border-left: solid #dc143c 0.5rem;
     color: #bc8f8f;
     background: #faebd7;
 }
