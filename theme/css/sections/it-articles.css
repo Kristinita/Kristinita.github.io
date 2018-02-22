@@ -29,6 +29,11 @@ img {
     box-shadow: none;
 }
 
+kbd {
+    color: #ffc0cb;
+    background: #e7e9db;
+}
+
 .SashaBottomAside {
     color: #fff;
     bottom: 8%;

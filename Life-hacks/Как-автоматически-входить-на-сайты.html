@@ -1,40 +1,67 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2018-02-20 20:08:32 -->
+<!-- @Last Modified time: 2018-02-22 21:04:04 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!--=======================
+        =          Meta           =
+        ========================-->
     <!-- Encoding -->
     <meta charset="utf-8">
     <!-- Title phrase -->
     <title>
         Как автоматически входить на сайты?
     </title>
-    <!-- Description, EDGE-compatible, different screens -->
-    <!-- Needs for validation name="description", see: https://stackoverflow.com/a/11202372/5951529 -->
+    <!-- Description, EDGE-compatible, different screens.
+    Needs for validation name="description", see:
+    https://stackoverflow.com/a/11202372/5951529 -->
     <meta name="description" content="Как научить персональный компьютер самому заходить на нужные вам веб-сайты каждый день">
     <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Open Graph, http://ruogp.me/ -->
-    <!-- Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+    <!-- Open Graph, http://ruogp.me/
+    Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
     <meta property="og:title" content="Как автоматически входить на сайты?">
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
     <meta property="og:description" content="Как научить персональный компьютер самому заходить на нужные вам веб-сайты каждый день">
     <meta property="og:site_name" content="Поиск Кристиниты">
-    <!-- JQuery -->
+    <!--=============================
+    =            Scripts            =
+    ==============================-->
+    <!-- JQuery
+        CDN vs Locally, see:
+        http://stackoverflow.com/a/3832498/5951529
+        defer preferred, than async, see:
+        https://stackoverflow.com/a/39711009/5951529
+    JQuery not a good candidate for async, see:
+    https://stackoverflow.com/a/10808243/5951529
+    -->
 
-    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
     <!-- Gemini -->
 
     <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
     <!-- JQuery Lazy -->
-    <!-- Fancybox -->
+
+    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+    <!-- typo-reporter -->
+
+    <script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/typo-reporter/typo-reporter-en.js" defer></script>
+    <!-- Fancybox
+    Obsolete version in JSDelivr
+    https://www.jsdelivr.com/package/npm/fancybox
+    [BUG] In CDNJS doesn't possible latest version
+    https://stackoverflow.com/q/14801334/5951529
+    -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Fancybox/fancybox.js" defer></script>
     <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
     <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
 
@@ -46,22 +73,35 @@
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/Details-Polyfill/details1.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/Details-Polyfill/details2.js" defer></script>
     <!-- Custom JavaScript -->
-    <!-- Sasha icon -->
-    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
-    <!-- Pages style -->
+    <!--============================
+        =            Styles            =
+        =============================-->
+    <!-- Gemini
+        [NOTE] Gemini styles must load first, otherwise bugs on page -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Gemini/gemini.css">
+    <!-- SashaPelican theme -->
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/basic.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/fonts.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/aside.css">
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/general/image_left.css">
+    <!-- External -->
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/it-articles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/css/typo-reporter/typo-reporter.css">
+    <!-- Admonition: note, warning etc. blocks, see
+    https://python-markdown.github.io/extensions/admonition/
+    https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
+    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
     <!-- Material icons font for icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Admonition: note, warning etc. blocks, see -->
-    <!-- https://python-markdown.github.io/extensions/admonition/ -->
-    <!-- https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
     <!-- Custom CSS -->
+    <!--============================
+    =       Miscellaneous          =
+    =============================-->
+    <!-- Sasha icon -->
+    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
     <!-- Atom feed -->
     <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
     <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/life-hacks.atom.xml" rel="alternate" type="application/atom+xml">
@@ -90,8 +130,8 @@
                     <time datetime="2017-02-13 19:15:15+03:00">2017-02-13 19:15:15+03:00</time>
                 </div>
                 <div class="SashaVersion">
-                    <!-- pubdate attribute is obsolete, use itemprop: datePublished -->
-                    <!-- https://stackoverflow.com/a/24455070/5951529 -->
+                    <!-- pubdate attribute is obsolete, use itemprop: datePublished
+                        https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
                 </div>
             </header>
@@ -379,9 +419,16 @@ OR OR OR
                 <span class="SashaNextNeighbor"><a href="http://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10.html" title="Установка портативной версии Pale Moon в качестве браузера по умолчанию в Windows 10">Next article →</a></span>
                 <div class="SashaClearBoth"></div>
                 <div class="SashaEmNoColor">
-                    All rights reserved ©. If you find in this article errors and/or typos, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.md">edit it</a>                    and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. Please, write in Russian (preferable) or English. Also, you can write me by <span id="obf">
+                    All rights reserved ©.
+                </div>
+                <div class="SashaEmNoColorBottom">
+                    If you find in this article typo or small error, please, select text with typo → press <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> for Mac) → write comment → send typo report (PC only, not for mobile devices). If you find ьжыл serious
+                    errors, you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.md">edit this page</a>                    and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. For any questions, ideas and requests about this site and it content, <a href="https://github.com/Kristinita/KristinitaPelican/issues">create issue</a>                    (preferrable) or write me by <span id="obf">
             <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span> about everything related to this article. With commentary in the style of <a href="http://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a>                    i reserve the right to dispose of my own discretion.
+                    </span>. Please, write in Russian or English.
+                </div>
+                <div class="SashaEmNoColorBottom">
+                    If you write in the style of <a href="http://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a>                    i reserve the right to dispose of my own discretion.
                 </div>
                 <div class="WorkOnYourself">
                     Работайте над собой

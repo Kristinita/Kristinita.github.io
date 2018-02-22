@@ -1,7 +1,7 @@
 /** @Author: Kristinita
 * @Date:   2016-12-26 15:48:38
 * @Last Modified by:   Kristinita
-* @Last Modified time: 2018-02-21 20:37:33
+* @Last Modified time: 2017-05-09 19:36:48
 
 /**
  * Description: Short description.
@@ -361,7 +361,12 @@ dd {
     margin: 5rem 0 0;
 }
 
-.SashaEmNoColor {
+.SashaEmNoColorBottom {
+    margin: 1rem 0 0;
+}
+
+.SashaEmNoColor,
+.SashaEmNoColorBottom {
     font-style: italic;
 }
 

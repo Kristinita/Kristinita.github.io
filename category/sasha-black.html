@@ -41,22 +41,24 @@
     <!-- Open links in new tabs -->
     <base target="_blank">
     <!-- JQuery -->
-    <!-- Don't use latest JQuery version, http://stackoverflow.com/a/12608285/5951529 -->
-
-    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
     <!-- Google Custom Search Engine -->
 
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Kristinita/gcse.js" async></script>
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Kristinita/gcse.js" defer></script>
+    <!-- Don't use latest JQuery version, http://stackoverflow.com/a/12608285/5951529 -->
+
+    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
     <!-- Gemini -->
 
     <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
     <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/js/Gemini/gemini-non-scrollbar.js" defer></script>
-    <!-- Bowser -->
+    <!-- Bowser
+    Bowser personal, see: http://ru.stackoverflow.com/a/611507/199934 -->
 
     <script src="//unpkg.com/bowser@latest/bowser.min.js" defer></script>
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Kristinita/bowser.js" defer></script>
     <!-- Accesskeys, см. http://ru.stackoverflow.com/a/560571/199934 -->
 
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Kristinita/accesskeys.js" async></script>
+    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Kristinita/accesskeys.js" defer></script>
     <!-- Styles -->
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/sections/kristinita.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
@@ -81,7 +83,8 @@
         </div>
     </div>
     <br>
-    <!-- HTML5 validation, see https://productforums.google.com/d/msg/customsearch/XE-cs3_oVuY/ohwVpwEUAgAJ and https://developers.google.com/custom-search/docs/element#html5 -->
+    <!-- HTML5 validation, see:
+    https://productforums.google.com/d/msg/customsearch/XE-cs3_oVuY/ohwVpwEUAgAJ and https://developers.google.com/custom-search/docs/element#html5 -->
     <div class="gcse-search" data-enablehistory="true" data-enableautocomplete="true" data-autocompletemaxcompletions="10" data-enableorderby="false"></div>
     <br>
     <!-- Motto -->
@@ -105,8 +108,6 @@
     </footer>
     <div class="SashaBowserFirefox"></div>
     <div class="SashaBowserExplorer"></div>
-    <!-- Bowser personal, see. http://ru.stackoverflow.com/a/611507/199934 -->
-    <script src="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/js/personal/Kristinita/bowser.js" defer></script>
 </body>
 
 </html>
