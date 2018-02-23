@@ -28,6 +28,15 @@
     <meta property="og:image" content="">
     <meta property="og:description" content="Книги для общего развития, психологии прокачки определённых тем, специфические и интересных фактов">
     <meta property="og:site_name" content="Поиск Кристиниты">
+    <!--============================
+    =       Miscellaneous          =
+    =============================-->
+    <!-- Sasha icon -->
+    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
+    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
+    <!-- Atom feed -->
+    <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+    <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/giologica.atom.xml" rel="alternate" type="application/atom+xml">
     <!--=============================
     =            Scripts            =
     ==============================-->
@@ -76,6 +85,11 @@
     <!--============================
         =            Styles            =
         =============================-->
+    <!-- link rel="preload" instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
+        https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
+        https://github.com/filamentgroup/loadCSS/issues/246
+        https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
+        -->
     <!-- Gemini
         [NOTE] Gemini styles must load first, otherwise bugs on page -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
@@ -94,17 +108,8 @@
     https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
     <link rel="stylesheet" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/css/script-colors/Admonition/admonition.css">
     <!-- Material icons font for icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Custom CSS -->
-    <!--============================
-    =       Miscellaneous          =
-    =============================-->
-    <!-- Sasha icon -->
-    <link rel="shortcut icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/theme/images/Sasha.ico" type="image/x-icon">
-    <!-- Atom feed -->
-    <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="//gitcdn.xyz/repo/Kristinita/Kristinita.github.io/master/feeds/giologica.atom.xml" rel="alternate" type="application/atom+xml">
 </head>
 
 <body>
