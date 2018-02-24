@@ -1,9 +1,9 @@
 // @Author: Kristinita
 // @Date:   2017-03-17 17:16:39
-// @Last Modified time: 2017-03-17 17:17:03
+// @Last Modified time: 2018-02-24 17:55:50
 function SashaFunction(url, SashaSite) {
     //url = parse_url(url).hostname; // Выделяем из произвольного адреса только hostname
-    //Убрано, поскольку если адрес введут неполным, т. е. не "http://Kristinita.ru" а просто "Kristinita.ru", работает некорректно
+    //Убрано, поскольку если адрес введут неполным, т. е. не "https://kristinita.ru" а просто "Kristinita.ru", работает некорректно
 
     if (url.substring(0, 7) == "http://") url = url.substring(7);
     if (url.substring(0, 8) == "https://") url = url.substring(8);

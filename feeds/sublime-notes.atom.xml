@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Notes</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/sublime-notes.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2017-02-13T19:15:15+03:00</updated><entry><title>Sublime-Text-Power-User-notes</title><link href="http://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Notes</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sublime-notes.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2017-02-13T19:15:15+03:00</updated><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt; All comments on &lt;a href="http://jmp.sh/xasKD18"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.
 &lt;br /&gt;
@@ -18,7 +18,7 @@ Now by default
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;16&lt;/b&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src="http://i.imgur.com/62uCZBa.png" alt="Alt attribute fish"&gt;&lt;br /&gt;
+&lt;img src="https://i.imgur.com/62uCZBa.png" alt="Alt attribute fish"&gt;&lt;br /&gt;
  If to use Portable version, it isn't necessary to specify
 &lt;dfn&gt;%APPDATA%&lt;/dfn&gt;.
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;45&lt;/b&gt;
@@ -51,7 +51,7 @@ This command is only for folders, but not for files, see &lt;a href="http://docs
 In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippet ...&lt;/kbd&gt; .
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src="http://i.imgur.com/K3YqJ4S.png" alt="Alt attribute fish"&gt;
+&lt;img src="https://i.imgur.com/K3YqJ4S.png" alt="Alt attribute fish"&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;80&lt;/b&gt;
 &lt;br /&gt;
 &lt;blockquote&gt;If you are having trouble finding the scope, an easy way to find it is to open your packages folder
@@ -69,7 +69,7 @@ In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippe
 &lt;br /&gt; Empty section «Moving Lines and Code Blocks»
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src="http://i.imgur.com/x1tF1mG.png" alt="Alt attribute fish"&gt;
+&lt;img src="https://i.imgur.com/x1tF1mG.png" alt="Alt attribute fish"&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;94&lt;/b&gt;
 &lt;br /&gt;
 &lt;blockquote&gt;Using
@@ -89,12 +89,12 @@ If you only press the spacebar,
     &lt;kbd&gt;Ctrl+↑/↓&lt;/kbd&gt; on Windows is jump to the beginning/end of word, not line.
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/u3zjnlJ.png" alt="Alt attribute fish"&gt;
+    &lt;img src="https://i.imgur.com/u3zjnlJ.png" alt="Alt attribute fish"&gt;
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;96&lt;/b&gt;
     &lt;br /&gt; All hotkeys in this image is not work for me.
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/li2YjO9.png" alt="Alt attribute fish"&gt;
+    &lt;img src="https://i.imgur.com/li2YjO9.png" alt="Alt attribute fish"&gt;
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;103&lt;/b&gt;
     &lt;br /&gt;
     &lt;blockquote&gt;(Windows users use
@@ -110,7 +110,7 @@ If you only press the spacebar,
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;108&lt;/b&gt;
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/nlEMn8q.png" alt="Alt attribute fish"&gt;&lt;br /&gt; I think that once you have a slash at the beginning. Not
+    &lt;img src="https://i.imgur.com/nlEMn8q.png" alt="Alt attribute fish"&gt;&lt;br /&gt; I think that once you have a slash at the beginning. Not
     &lt;dfn&gt;"path": "/Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;, correct is
     &lt;dfn&gt;"path": "Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;. For example, I have
     &lt;dfn&gt;User&lt;/dfn&gt; folder, when is situated my
@@ -127,7 +127,7 @@ If you only press the spacebar,
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;143&lt;/b&gt;
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/1Vfnz56.png" alt="Alt attribute fish"&gt;
+    &lt;img src="https://i.imgur.com/1Vfnz56.png" alt="Alt attribute fish"&gt;
     &lt;br /&gt; Hotkeys not work for me.
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;154&lt;/b&gt;
     &lt;br /&gt; Not

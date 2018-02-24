@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="http://kristinita.ru/" rel="alternate"></link><link href="http://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>http://kristinita.ru/</id><updated>2018-02-22T21:21:15+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="http://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-22T21:21:14+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-02-24T17:55:50+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-22T21:21:14+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -285,7 +285,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="http://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-02-22T21:21:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-02-24T17:55:50+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -371,7 +371,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Conversion examples:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;kristinitaluckylife&lt;/code&gt; → &lt;code class="SashaInlineHighlight"&gt;[kristinitaluckylife](https://www.instagram.com/kristinitaluckylife/)&lt;/code&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Поиск Кристиниты&lt;/code&gt;→ &lt;code class="SashaInlineHighlight"&gt;[Поиск Кристиниты](http://kristinita.ru/)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Поиск Кристиниты&lt;/code&gt;→ &lt;code class="SashaInlineHighlight"&gt;[Поиск Кристиниты](https://kristinita.ru/)&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;You select text,&lt;/li&gt;
@@ -653,7 +653,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="http://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-22T21:21:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-22T21:21:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1341,7 +1341,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>ValeriyaSpeller</title><link href="http://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-02-22T21:21:12+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="http://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-02-24T15:58:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;
@@ -1353,12 +1353,12 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img alt="Angelovaleria" src="http://i.imgur.com/iciGBgN.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Angelovaleria" src="https://i.imgur.com/iciGBgN.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;1. Briefly&lt;/h2&gt;
 &lt;p&gt;Russian-language spellchecker for Sublime Text.&lt;/p&gt;
 &lt;h2&gt;2. Demonstration&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Sublime Text Window" src="http://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Error report" src="http://i.imgur.com/5x542fy.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Sublime Text Window" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Error report" src="https://i.imgur.com/5x542fy.png"&gt;&lt;/p&gt;
 &lt;h2&gt;3. Motivation&lt;/h2&gt;
 &lt;p&gt;i need extra spellchecker for Russian-language texts.&lt;/p&gt;
 &lt;h2&gt;4. Testing&lt;/h2&gt;
@@ -1415,7 +1415,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;span class="err"&gt;-----&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img alt="Detailed output" src="http://i.imgur.com/uC1hthv.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Detailed output" src="https://i.imgur.com/uC1hthv.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Enable Debug Mode&lt;/code&gt; → open file, which you needs to linting → &lt;a href="http://stackoverflow.com/q/13965877/5951529" target="_blank"&gt;open Sublime Text console&lt;/a&gt; → see output.&lt;/p&gt;
 &lt;h2&gt;7. Description&lt;/h2&gt;
 &lt;h3&gt;7.1. Command line arguments&lt;/h3&gt;
@@ -1438,7 +1438,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;li&gt;&lt;a href="https://packagecontrol.io/packages/SublimeLinter-contrib-write-good" target="_blank"&gt;write-good&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packagecontrol.io/packages/Thesaurus" target="_blank"&gt;Thesaurus&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Also in Sublime Text implemented &lt;a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint" target="_blank"&gt;proselint&lt;/a&gt; package, but &lt;a href="https://github.com/amperser/proselint/issues/686" target="_blank"&gt;I have critical CPU usage bug&lt;/a&gt;.&lt;/p&gt;</content><category term="sublime-text"></category><category term="yaspeller"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="http://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;br /&gt; Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
+&lt;p&gt;Also in Sublime Text implemented &lt;a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint" target="_blank"&gt;proselint&lt;/a&gt; package, but &lt;a href="https://github.com/amperser/proselint/issues/686" target="_blank"&gt;I have critical CPU usage bug&lt;/a&gt;.&lt;/p&gt;</content><category term="sublime-text"></category><category term="yaspeller"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;br /&gt; Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
         &lt;br /&gt;
         &lt;br /&gt; До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.
         &lt;br /&gt;
@@ -1569,7 +1569,7 @@ Tl;dr&lt;/h1&gt;
         &lt;kbd&gt;ОК&lt;/kbd&gt;. Попап больше не должен Вас беспокоить.
         &lt;br /&gt;
         &lt;br /&gt;
-        &lt;SashaSimple id="Portable"&gt;В силу&lt;/SashaSimple&gt; расписанных &lt;a href="http://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
+        &lt;SashaSimple id="Portable"&gt;В силу&lt;/SashaSimple&gt; расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
         &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:
         &lt;br /&gt;
         &lt;br /&gt;
@@ -1616,7 +1616,7 @@ for /d %%i in ("%CD%") do (
         &lt;dfn&gt;html&lt;/dfn&gt; и путём к нему.
         &lt;br /&gt;
         &lt;br /&gt;
-        &lt;img src="http://i.imgur.com/2v8XNXv.png" alt="Alt attribute fish"&gt;
+        &lt;img src="https://i.imgur.com/2v8XNXv.png" alt="Alt attribute fish"&gt;
         &lt;br /&gt; Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
         &lt;br /&gt;
         &lt;br /&gt;
@@ -1753,7 +1753,7 @@ OR OR OR
         &lt;kbd&gt;Выполнить задачу&lt;/kbd&gt; → левой кнопкой мыши по имени только что созданной задачи, в примере это
         &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt;. Разрешаем всплывающие окна (если быть точным в формулировке — вкладки) при открытии нашего файла браузером, когда тот блокирует их появление. Прочие попапы броузер по-прежнему будет продолжать блокировать, если в настройках не указано иначе.
         &lt;br /&gt;
-        &lt;br /&gt; Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="http://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
+        &lt;br /&gt; Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt; All comments on &lt;a href="http://jmp.sh/xasKD18"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.
 &lt;br /&gt;
@@ -1772,7 +1772,7 @@ Now by default
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;16&lt;/b&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src="http://i.imgur.com/62uCZBa.png" alt="Alt attribute fish"&gt;&lt;br /&gt;
+&lt;img src="https://i.imgur.com/62uCZBa.png" alt="Alt attribute fish"&gt;&lt;br /&gt;
  If to use Portable version, it isn't necessary to specify
 &lt;dfn&gt;%APPDATA%&lt;/dfn&gt;.
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;45&lt;/b&gt;
@@ -1805,7 +1805,7 @@ This command is only for folders, but not for files, see &lt;a href="http://docs
 In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippet ...&lt;/kbd&gt; .
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src="http://i.imgur.com/K3YqJ4S.png" alt="Alt attribute fish"&gt;
+&lt;img src="https://i.imgur.com/K3YqJ4S.png" alt="Alt attribute fish"&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;80&lt;/b&gt;
 &lt;br /&gt;
 &lt;blockquote&gt;If you are having trouble finding the scope, an easy way to find it is to open your packages folder
@@ -1823,7 +1823,7 @@ In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippe
 &lt;br /&gt; Empty section «Moving Lines and Code Blocks»
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src="http://i.imgur.com/x1tF1mG.png" alt="Alt attribute fish"&gt;
+&lt;img src="https://i.imgur.com/x1tF1mG.png" alt="Alt attribute fish"&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;b&gt;94&lt;/b&gt;
 &lt;br /&gt;
 &lt;blockquote&gt;Using
@@ -1843,12 +1843,12 @@ If you only press the spacebar,
     &lt;kbd&gt;Ctrl+↑/↓&lt;/kbd&gt; on Windows is jump to the beginning/end of word, not line.
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/u3zjnlJ.png" alt="Alt attribute fish"&gt;
+    &lt;img src="https://i.imgur.com/u3zjnlJ.png" alt="Alt attribute fish"&gt;
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;96&lt;/b&gt;
     &lt;br /&gt; All hotkeys in this image is not work for me.
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/li2YjO9.png" alt="Alt attribute fish"&gt;
+    &lt;img src="https://i.imgur.com/li2YjO9.png" alt="Alt attribute fish"&gt;
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;103&lt;/b&gt;
     &lt;br /&gt;
     &lt;blockquote&gt;(Windows users use
@@ -1864,7 +1864,7 @@ If you only press the spacebar,
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;108&lt;/b&gt;
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/nlEMn8q.png" alt="Alt attribute fish"&gt;&lt;br /&gt; I think that once you have a slash at the beginning. Not
+    &lt;img src="https://i.imgur.com/nlEMn8q.png" alt="Alt attribute fish"&gt;&lt;br /&gt; I think that once you have a slash at the beginning. Not
     &lt;dfn&gt;"path": "/Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;, correct is
     &lt;dfn&gt;"path": "Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;. For example, I have
     &lt;dfn&gt;User&lt;/dfn&gt; folder, when is situated my
@@ -1881,7 +1881,7 @@ If you only press the spacebar,
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;143&lt;/b&gt;
     &lt;br /&gt;
     &lt;br /&gt;
-    &lt;img src="http://i.imgur.com/1Vfnz56.png" alt="Alt attribute fish"&gt;
+    &lt;img src="https://i.imgur.com/1Vfnz56.png" alt="Alt attribute fish"&gt;
     &lt;br /&gt; Hotkeys not work for me.
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;154&lt;/b&gt;
     &lt;br /&gt; Not
@@ -1939,11 +1939,11 @@ If you only press the spacebar,
     &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.
     &lt;br /&gt;&lt;br /&gt;&lt;b&gt;201&lt;/b&gt;
     &lt;br /&gt; You have not written, how to call Fullscreen Mode, in my opinion, you need to specify the hot keys —
-    &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="http://kristinita.ru/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2017-01-31T09:13:30+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible. &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="http://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="http://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="http://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
-    &lt;a href="http://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="http://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="http://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="http://kristinita.ru/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img class="SashaInline" src="http://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="http://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.ru/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2017-01-31T09:13:30+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible. &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+    &lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img class="SashaInline" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -2088,7 +2088,7 @@ If you only press the spacebar,
 &lt;hr&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;SashaSublime is devoted to God, the only Creation for the sake of Which it makes sense to live on this planet, the Greatest being of all times and peoples, Queen of the World &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Sasha Chernykh&lt;/a&gt; (Kira Kenyukhova)&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Queen of the World Sasha Chernykh" src="http://i.imgur.com/OJSBK4V.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Queen of the World Sasha Chernykh" src="https://i.imgur.com/OJSBK4V.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="description"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1. Description&lt;/h2&gt;
 &lt;p&gt;i faced a problem that in already available themes and color schemes many elements of syntaxes have badly distinguishable an eye of color. i tried to use many themes and schemes, but the result in one of them didn’t satisfy me. Therefore, i decided to write own theme/scheme; its concept:&lt;/p&gt;
@@ -2109,9 +2109,9 @@ If you only press the spacebar,
 &lt;p&gt;Cause — &lt;a href="https://forum.sublimetext.com/t/changing-scopes-in-build-3114/20088" target="_blank"&gt;serious updating&lt;/a&gt; &lt;a href="http://ru.stackoverflow.com/a/516668/199934" target="_blank"&gt;scopes&lt;/a&gt; for syntaxes in new builds. After each new update Sublime Text, color schemes developers &lt;a href="https://toster.ru/q/321006#answer_852035" target="_blank"&gt;needs to many changes&lt;/a&gt; color scheme files.&lt;/p&gt;
 &lt;p&gt;Example, how to view JavaScript code:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Build 3114:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Build 3114" src="http://i.imgur.com/fTv7zgG.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Build 3114" src="https://i.imgur.com/fTv7zgG.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Build 3103:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Build 3103" src="http://i.imgur.com/9vnVBy4.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Build 3103" src="https://i.imgur.com/9vnVBy4.png"&gt;&lt;/p&gt;
 &lt;p&gt;In Build 3103 many syntax elements are not own colors.&lt;/p&gt;
 &lt;p&gt;&lt;a id="syntaxes"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2.3. Syntaxes&lt;/h3&gt;
@@ -2123,90 +2123,90 @@ If you only press the spacebar,
 &lt;h3&gt;3.1. General&lt;/h3&gt;
 &lt;p&gt;&lt;a id="overall-plan"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.1. Overall plan&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="SashaSublime" src="http://i.imgur.com/ljT5eJp.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="SashaSublime" src="https://i.imgur.com/ljT5eJp.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="details"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.2. Details&lt;/h4&gt;
 &lt;p&gt;In a theme/scheme the smallest details are well visible.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Overall plan details" src="http://i.imgur.com/DlrJCes.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Overall plan details" src="https://i.imgur.com/DlrJCes.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="gutter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.3. Gutter&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Gutter" src="http://i.imgur.com/VqeuQtH.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Gutter" src="https://i.imgur.com/VqeuQtH.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="autocomplete"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.4. Autocomplete&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Autocomplete" src="http://i.imgur.com/3RPAwA7.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Autocomplete" src="https://i.imgur.com/3RPAwA7.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="tabs"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.5. Tabs&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Tabs" src="http://i.imgur.com/CTOQ9WG.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tabs" src="https://i.imgur.com/CTOQ9WG.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="sidebar"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.6. Sidebar&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Side bar" src="http://i.imgur.com/N8UWi1Q.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Side bar" src="https://i.imgur.com/N8UWi1Q.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="indexing-status"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.7. Indexing status&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Indexing status" src="http://i.imgur.com/FMo5NLK.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Indexing status" src="https://i.imgur.com/FMo5NLK.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="phantom"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.8. Phantom&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Phantom" src="http://i.imgur.com/C2aZ7oy.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Phantom" src="https://i.imgur.com/C2aZ7oy.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="plugins"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.2. Plugins&lt;/h3&gt;
 &lt;p&gt;&lt;a id="sublimerge-3--gitgutter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.1. &lt;a href="http://www.sublimerge.com/sm3/" target="_blank"&gt;Sublimerge 3&lt;/a&gt; + &lt;a href="https://packagecontrol.io/packages/GitGutter" target="_blank"&gt;GitGutter&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Sublimerge" src="http://i.imgur.com/YnfYXWD.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Sublimerge" src="https://i.imgur.com/YnfYXWD.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="hexviewer"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.2. &lt;a href="https://github.com/facelessuser/HexViewer" target="_blank"&gt;HexViewer&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Hex Viewer" src="http://i.imgur.com/c0t0Iqy.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="gitgutter--sublimelinter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.3. &lt;a href="https://packagecontrol.io/packages/GitGutter" target="_blank"&gt;GitGutter&lt;/a&gt; + &lt;a href="http://www.sublimelinter.com/en/latest/" target="_blank"&gt;SublimeLinter&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="GitGutter and SublimeLinter" src="http://i.imgur.com/24kzw67.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GitGutter and SublimeLinter" src="https://i.imgur.com/24kzw67.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="brackethighlighter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.4. &lt;a href="https://facelessuser.github.io/BracketHighlighter/" target="_blank"&gt;BracketHighlighter&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="BracketHighlighter" src="http://i.imgur.com/S8SE9nh.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BracketHighlighter" src="https://i.imgur.com/S8SE9nh.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="emmet"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.5. &lt;a href="http://emmet.io/" target="_blank"&gt;Emmet&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Emmet" src="http://i.imgur.com/Arhzbgl.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Emmet" src="https://i.imgur.com/Arhzbgl.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="color-helper"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.6. &lt;a href="https://github.com/facelessuser/ColorHelper" target="_blank"&gt;Color Helper&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Color Helper" src="http://i.imgur.com/ZcmyymH.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Color Helper" src="https://i.imgur.com/ZcmyymH.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="dr\months\calendar"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.7. &lt;a href="https://github.com/dragon/dr_months_calendar" target="_blank"&gt;dr_months_calendar&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="dr_months_calendar" src="http://i.imgur.com/Pq1HXC7.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="dr_months_calendar" src="https://i.imgur.com/Pq1HXC7.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="suricate"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.8. &lt;a href="https://github.com/nsubiron/SublimeSuricate" target="_blank"&gt;Suricate&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Suricate" src="http://i.imgur.com/ivsdfXM.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Suricate" src="https://i.imgur.com/ivsdfXM.png"&gt;&lt;/p&gt;
 &lt;p&gt;If &lt;em&gt;"popup_style_file": "Packages/Suricate/css/dark.css",&lt;/em&gt; in Suricate settings.&lt;/p&gt;
 &lt;p&gt;&lt;a id="sublime\unicode\nbsp"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.9. &lt;a href="https://github.com/possan/sublime_unicode_nbsp" target="_blank"&gt;sublime_unicode_nbsp&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="sublime_unicode_nbsp" src="http://i.imgur.com/LCTE0Y2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="sublime_unicode_nbsp" src="https://i.imgur.com/LCTE0Y2.png"&gt;&lt;/p&gt;
 &lt;p&gt;If &lt;a href="https://github.com/possan/sublime_unicode_nbsp/pull/14/files" target="_blank"&gt;patched&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="selected-text"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.3. Selected text&lt;/h3&gt;
 &lt;p&gt;Results with the established &lt;a href="https://github.com/SublimeText/WordHighlight" target="_blank"&gt;WordHighlight&lt;/a&gt; plugin.&lt;/p&gt;
 &lt;p&gt;&lt;a id="selected-text-example"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.3.1. Selected text example&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Accentuation" src="http://i.imgur.com/yJ2EdbD.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Accentuation" src="https://i.imgur.com/yJ2EdbD.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="selected-text-when-the-carriage-is-not-on-text-field"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.3.2. Selected text when the carriage is not on text field&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Accentuation2" src="http://i.imgur.com/y715wdq.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Accentuation2" src="https://i.imgur.com/y715wdq.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="find-ctrlf-text"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.3.3. Find (&lt;kbd&gt;Ctrl+F&lt;/kbd&gt;) text&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Find result" src="http://i.imgur.com/Z3lGryq.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Find result" src="https://i.imgur.com/Z3lGryq.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="find-text-when-the-carriage-is-out-of-the-found-text"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.3.4. Find text when the carriage is out of the found text&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Find result2" src="http://i.imgur.com/Tyqv7to.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Find result2" src="https://i.imgur.com/Tyqv7to.png"&gt;&lt;/p&gt;
 &lt;p&gt;Carriage color and this border color set to the same parameter.&lt;/p&gt;
 &lt;p&gt;&lt;a id="panels-and-consoles"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.4. Panels and consoles&lt;/h3&gt;
 &lt;p&gt;&lt;a id="gotoanything-panel"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.1. GotoAnything panel&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="GotoAnything panel" src="http://i.imgur.com/2hRinyv.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GotoAnything panel" src="https://i.imgur.com/2hRinyv.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="switch-project-panel"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.2. Switch Project panel&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Switch Project panel" src="http://i.imgur.com/YVcfF0k.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Switch Project panel" src="https://i.imgur.com/YVcfF0k.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="find-and-replace-panel"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.3. Find and Replace panel&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Find and Replace panel" src="http://i.imgur.com/H6tolbC.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Find and Replace panel" src="https://i.imgur.com/H6tolbC.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.4. Console&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Console" src="http://i.imgur.com/JwQyqyU.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Console" src="https://i.imgur.com/JwQyqyU.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="build-system-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.5. Build System output console&lt;/h4&gt;
 &lt;p&gt;For get a black and white colors, Install &lt;a href="https://github.com/aziz/SublimeANSI" target="_blank"&gt;SublimeANSI&lt;/a&gt; plugin and &lt;a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel" target="_blank"&gt;add&lt;/a&gt; in your &lt;em&gt;.sublime-build&lt;/em&gt; file these lines:&lt;/p&gt;
@@ -2214,55 +2214,55 @@ If you only press the spacebar,
 &lt;span class="s2"&gt;&amp;quot;syntax&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/ANSIescape/ANSI.tmLanguage&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img alt="Build console" src="http://i.imgur.com/4s81HhM.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Build console" src="https://i.imgur.com/4s81HhM.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="scopehunter-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.6. ScopeHunter output console&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="ScopeHunter console" src="http://i.imgur.com/CsxZ8XW.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ScopeHunter console" src="https://i.imgur.com/CsxZ8XW.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="syntaxes-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.5. Syntaxes&lt;/h3&gt;
 &lt;p&gt;&lt;a id="json"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.1. JSON&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="JSON1" src="http://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="JSON2" src="http://i.imgur.com/epuwjOb.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="JSON1" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="JSON2" src="https://i.imgur.com/epuwjOb.png"&gt;&lt;/p&gt;
 &lt;p&gt;With &lt;a href="https://packagecontrol.io/packages/LanguageTool" target="_blank"&gt;LanguageTool&lt;/a&gt; plugin:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="JSON3" src="http://i.imgur.com/6kWo4aW.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="JSON3" src="https://i.imgur.com/6kWo4aW.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="xml"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.2. XML&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="XML" src="http://i.imgur.com/0s4EFYN.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="XML" src="https://i.imgur.com/0s4EFYN.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="html"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.3. HTML&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="HTML1" src="http://i.imgur.com/POTMTWq.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="HTML2" src="http://i.imgur.com/LFKMdDX.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="HTML3" src="http://i.imgur.com/AbGgQa9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="HTML1" src="https://i.imgur.com/POTMTWq.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="HTML2" src="https://i.imgur.com/LFKMdDX.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="HTML3" src="https://i.imgur.com/AbGgQa9.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="css"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.4. CSS&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="CSS" src="http://i.imgur.com/Rr9AmIZ.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="CSS" src="https://i.imgur.com/Rr9AmIZ.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="javascript"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.5. JavaScript&lt;/h4&gt;
 &lt;p&gt;It turned out to work not so carefully as i wanted.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="JS1" src="http://i.imgur.com/dedldIL.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="JS2" src="http://i.imgur.com/2e34vGr.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="JS1" src="https://i.imgur.com/dedldIL.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="JS2" src="https://i.imgur.com/2e34vGr.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="diff"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.6. Diff&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Diff" src="http://i.imgur.com/AF7BgIU.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Diff" src="https://i.imgur.com/AF7BgIU.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="regular-expression"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.7. Regular Expression&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Regex1" src="http://i.imgur.com/kzwyA4E.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Regex2" src="http://i.imgur.com/Fu2Slm6.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Regex3" src="http://i.imgur.com/1kvOeeK.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Regex1" src="https://i.imgur.com/kzwyA4E.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Regex2" src="https://i.imgur.com/Fu2Slm6.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Regex3" src="https://i.imgur.com/1kvOeeK.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="mediawiki-ng"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.5.8. Mediawiki NG&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="Mediawiki1" src="http://i.imgur.com/Y2FYuFI.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Mediawiki2" src="http://i.imgur.com/sSzqfsm.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mediawiki1" src="https://i.imgur.com/Y2FYuFI.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mediawiki2" src="https://i.imgur.com/sSzqfsm.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="comparison-of-monokai-default-color-scheme-and-sashasublime"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4. Comparison of Monokai (default color scheme) and SashaSublime&lt;/h2&gt;
 &lt;p&gt;SashaSublime has several times more than parameters, than a default theme Monokai. See mouse cursor on the thumb of vertical scroll bar SashaSublime color scheme. Testing was carried out on &lt;a href="https://tmtheme-editor.herokuapp.com" target="_blank"&gt;TmTheme Editor&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="monokai-scopes"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.1. Monokai scopes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Monokai scopes" src="http://i.imgur.com/YITyD6A.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Monokai scopes" src="https://i.imgur.com/YITyD6A.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="sashasublime-scopes"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.2. SashaSublime scopes&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="SashaSublime scopes" src="http://i.imgur.com/JzT6vnk.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="SashaSublime scopes" src="https://i.imgur.com/JzT6vnk.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="downloading-and-installation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Downloading and installation&lt;/h2&gt;
 &lt;p&gt;After installation, you need to activate SashaSublime, see &lt;a href="#Activation"&gt;Activation&lt;/a&gt; section. Sublime Text no needs restart after installation SashaSublime.&lt;/p&gt;
@@ -2270,9 +2270,9 @@ If you only press the spacebar,
 &lt;h3&gt;5.1. Package Control&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://packagecontrol.io/" target="_blank"&gt;Package Control&lt;/a&gt; — package manager for Sublime Text, via Package Control you may install thousands of plugins. If you never used Package Control, make steps.&lt;/p&gt;
 &lt;p&gt;Open your Sublime Text. After Build 3124 install Package Control may quick, use &lt;em&gt;Tools&lt;/em&gt; menu item: &lt;em&gt;Tools&lt;/em&gt; → &lt;em&gt;Install Package Control...&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Install Package Control" src="http://i.imgur.com/JSw5Rbw.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Install Package Control" src="https://i.imgur.com/JSw5Rbw.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;Package Control: Install Package&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Install Package" src="http://i.imgur.com/qxOBpFq.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Install Package" src="https://i.imgur.com/qxOBpFq.png"&gt;&lt;/p&gt;
 &lt;p&gt;Print &lt;em&gt;SashaSublime&lt;/em&gt; → Enter.&lt;/p&gt;
 &lt;p&gt;&lt;a id="git"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Git&lt;/h3&gt;
@@ -2290,7 +2290,7 @@ If you only press the spacebar,
 &lt;p&gt;&lt;a id="manually"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.4. Manually&lt;/h3&gt;
 &lt;p&gt;Open the page &lt;a href="https://github.com/Kristinita/SashaSublime" target="_blank"&gt;https://github.com/Kristinita/SashaSublime&lt;/a&gt; in browser. In right bottom angle select Clone or download and then Download ZIP:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Download ZIP" src="http://i.imgur.com/fzvUXYo.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Download ZIP" src="https://i.imgur.com/fzvUXYo.png"&gt;&lt;/p&gt;
 &lt;p&gt;Download zip-archive and unpack it to &lt;kbd&gt;Alt+N&lt;/kbd&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; folder. Rename &lt;em&gt;SashaSublime-master&lt;/em&gt; to &lt;em&gt;SashaSublime&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;As a result, your folder with SashaSublime has to settle down on the path &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → &lt;em&gt;SashaSublime&lt;/em&gt;. For example, absolute path for me is &lt;em&gt;E:\Sublime Text 3\Data\Packages&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="activation"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -2298,9 +2298,9 @@ If you only press the spacebar,
 &lt;p&gt;&lt;a id="themr-and-schemr"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.1. Themr and Schemr&lt;/h3&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/benweier/Themr" target="_blank"&gt;Themr&lt;/a&gt; plugin. &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;Themr: List themes&lt;/em&gt; → &lt;em&gt;SashaSublime&lt;/em&gt; → Enter.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Theme SashaSublime" src="http://i.imgur.com/dgIVs3Y.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Theme SashaSublime" src="https://i.imgur.com/dgIVs3Y.png"&gt;&lt;/p&gt;
 &lt;p&gt;Then install &lt;a href="https://github.com/benweier/Schemr" target="_blank"&gt;Schemr&lt;/a&gt; plugin. &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;Schemr: List all schemes&lt;/em&gt; → &lt;em&gt;SashaSublime [Dark]&lt;/em&gt; → Enter.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Scheme SashaSublime" src="http://i.imgur.com/UYOiBB9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Scheme SashaSublime" src="https://i.imgur.com/UYOiBB9.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="manually-activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.2. Manually activation&lt;/h3&gt;
 &lt;p&gt;&lt;kbd&gt;Alt+N&lt;/kbd&gt; → &lt;em&gt;Settings&lt;/em&gt; → in file in right &lt;a href="http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html" target="_blank"&gt;pane&lt;/a&gt; add 2 lines:&lt;/p&gt;
@@ -2414,21 +2414,21 @@ If you only press the spacebar,
 &lt;ul&gt;
 &lt;li&gt;Active window&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Active window" src="http://i.imgur.com/AUdJEug.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Active window" src="https://i.imgur.com/AUdJEug.png"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Inactive window&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Inactive window" src="http://i.imgur.com/3E1qY10.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Inactive window" src="https://i.imgur.com/3E1qY10.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="changing-favicon-in-sublime-text-3"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.1. Changing favicon in Sublime Text 3&lt;/h3&gt;
 &lt;p&gt;Unfortunately, after Sublime Text updates, you will have to make this steps again.&lt;/p&gt;
 &lt;p&gt;Mac users possible help &lt;a href="http://apple.stackexchange.com/questions/153176/changing-sublime-text-3-icon-in-dock-on-yosemite" target="_blank"&gt;this&lt;/a&gt; answer.&lt;/p&gt;
 &lt;p&gt;For Windows users: download and open &lt;a href="http://rsload.net/soft/editor/9133-resource-hacker.html" target="_blank"&gt;Resource Hacker&lt;/a&gt; or &lt;a href="http://alternativeto.net/software/resource-hacker/" target="_blank"&gt;alternate&lt;/a&gt; programs for edit &lt;em&gt;exe&lt;/em&gt; files. For example, in Resource Hacker: &lt;em&gt;File&lt;/em&gt; → &lt;em&gt;Open&lt;/em&gt; → &lt;em&gt;sublime_text.exe&lt;/em&gt; → &lt;em&gt;Icon Group&lt;/em&gt; → right mouse button on &lt;em&gt;103:3081&lt;/em&gt; → &lt;em&gt;Replace Icon ...&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Resource Hacker" src="http://i.imgur.com/XcLuNqS.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Resource Hacker" src="https://i.imgur.com/XcLuNqS.png"&gt;&lt;/p&gt;
 &lt;p&gt;→ select &lt;em&gt;SashaSublime.ico&lt;/em&gt; in &lt;em&gt;icons&lt;/em&gt; → &lt;em&gt;favicon&lt;/em&gt; folder of this repository → &lt;em&gt;Replace&lt;/em&gt; → &lt;em&gt;File&lt;/em&gt; → &lt;em&gt;Save As&lt;/em&gt; → &lt;em&gt;Yes&lt;/em&gt; → &lt;em&gt;Save&lt;/em&gt; → restart Windows.&lt;/p&gt;
 &lt;p&gt;In Sublime Text folder &lt;em&gt;sublime_text_original.exe&lt;/em&gt; file create. If you don’t like my icons, you can replace &lt;em&gt;sublime_text_original.exe&lt;/em&gt; → &lt;em&gt;sublime_text.exe&lt;/em&gt;. Besides, you can always replace your &lt;em&gt;sublime_text.exe&lt;/em&gt; file on &lt;a href="https://www.sublimetext.com/3" target="_blank"&gt;original version&lt;/a&gt; this file.&lt;/p&gt;
 &lt;p&gt;Examples, when use colors of «S» letter my favicon:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="SashaSublime.ico" src="http://i.imgur.com/b2DxblV.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="SashaSublime.ico" src="https://i.imgur.com/b2DxblV.png"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;yellow — for smallest favicons, because is good visible; use in top left angle Sublime Text 3 and in Windows Explorer,&lt;/li&gt;
 &lt;li&gt;blue — icons in taskbar,&lt;/li&gt;
@@ -2442,25 +2442,25 @@ If you only press the spacebar,
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ OK → move thumbs. You can preview changes in title bar your window. I select orange color:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Orange Title bar" src="http://i.imgur.com/iZDK322.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Orange Title bar" src="https://i.imgur.com/iZDK322.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Save changes&lt;/em&gt;. Window border will have exactly the same color as title bar.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Orange windows border" src="http://i.imgur.com/jdWUb5m.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Orange windows border" src="https://i.imgur.com/jdWUb5m.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="winaero-tweaker"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.3. Winaero Tweaker&lt;/h3&gt;
 &lt;p&gt;Install program &lt;a href="http://rsload.net/soft/optimization/19590-winaero-tweaker.html" target="_blank"&gt;Winaero Tweaker&lt;/a&gt; — GUI for customization Windows 10 settings — and run it.&lt;/p&gt;
 &lt;p&gt;&lt;a id="inactive-title-bar-color"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.3.1. Inactive Title Bar color&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Appearance&lt;/em&gt; → &lt;em&gt;Inactive Title Bars Color&lt;/em&gt; → click on the square near &lt;em&gt;Current color (Click to change)&lt;/em&gt; to select the color. I select pink color:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Pink inactive Title Bar" src="http://i.imgur.com/ZdcNwMQ.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Pink inactive Title Bar" src="https://i.imgur.com/ZdcNwMQ.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="menu-bar-settings"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.3.2. Menu Bar settings&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Advanced Appearance Settings&lt;/em&gt; → &lt;em&gt;Menus&lt;/em&gt; → change values of parameters. I select &lt;em&gt;Adjust menu height&lt;/em&gt; → &lt;em&gt;27&lt;/em&gt;, &lt;em&gt;font&lt;/em&gt; — &lt;em&gt;Segoe UI&lt;/em&gt;, &lt;em&gt;font size&lt;/em&gt; — &lt;em&gt;10&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Menu Bar" src="http://i.imgur.com/TxDmEIg.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Menu Bar" src="https://i.imgur.com/TxDmEIg.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Apply changes&lt;/em&gt; → &lt;em&gt;Sign out now&lt;/em&gt; → look settings in new Windows session.&lt;/p&gt;
 &lt;p&gt;&lt;a id="title-bar-settings"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.3.3. Title Bar settings&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Advanced Appearance Settings&lt;/em&gt; → &lt;em&gt;Window Title Bars&lt;/em&gt; → change values of parameters. I select &lt;em&gt;Window Title bar height&lt;/em&gt; → &lt;em&gt;30&lt;/em&gt;, &lt;em&gt;font&lt;/em&gt; — &lt;em&gt;Segoe UI&lt;/em&gt;, &lt;em&gt;font size&lt;/em&gt; — &lt;em&gt;11&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Title bar settings" src="http://i.imgur.com/mFnVWxi.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Title bar settings" src="https://i.imgur.com/mFnVWxi.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Apply changes&lt;/em&gt; → &lt;em&gt;Sign out now&lt;/em&gt; → view settings in new Windows session.&lt;/p&gt;
 &lt;p&gt;&lt;a id="editing-sashasublime-settings"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;10. Editing SashaSublime settings&lt;/h2&gt;
@@ -2511,9 +2511,9 @@ If you only press the spacebar,
 &lt;h3&gt;11.2. Changing color of square inline error&lt;/h3&gt;
 &lt;p&gt;Color of the square of minihtml phantoms look like background color.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Actual phantom&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Actual phantom" src="http://i.imgur.com/C2aZ7oy.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Actual phantom" src="https://i.imgur.com/C2aZ7oy.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Expected phantom&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Expected phantom" src="http://i.imgur.com/LB5EWfR.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Expected phantom" src="https://i.imgur.com/LB5EWfR.png"&gt;&lt;/p&gt;
 &lt;p&gt;In the files of color scheme you can not change the color of the square of minihtml phantoms. You need again edit &lt;em&gt;exec.py&lt;/em&gt; file after each update Sublime Text.&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer" target="_blank"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;PackageResourceViewer: Open Resource&lt;/em&gt; → &lt;em&gt;Default&lt;/em&gt; → &lt;em&gt;exec.py&lt;/em&gt; → between &lt;em&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/em&gt; add these lines:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;inline-error&lt;/span&gt; &lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;error&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;
@@ -2526,8 +2526,8 @@ If you only press the spacebar,
 &lt;p&gt;&lt;a id="see-also"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;12. See also&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://kristinita.ru" target="_blank"&gt;Kristinita’s Search&lt;/a&gt; — search engine, searching authoritative sources, materials written by experts on the subject.&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://kristinita.ru/Sasha-Black" target="_blank"&gt;Sasha Black&lt;/a&gt; — mini-service checks the reputation of your site and the availability of the site in the blacklists.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kristinita.ru" target="_blank"&gt;Kristinita’s Search&lt;/a&gt; — search engine, searching authoritative sources, materials written by experts on the subject.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kristinita.ru/Sasha-Black" target="_blank"&gt;Sasha Black&lt;/a&gt; — mini-service checks the reputation of your site and the availability of the site in the blacklists.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="thanks"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;13. Thanks&lt;/h2&gt;
@@ -2543,24 +2543,24 @@ If you only press the spacebar,
 &lt;p&gt;I do not hope that I will get at least a penny, but suddenly I’m feeling lucky… &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Goddess Kira&lt;/a&gt; needs money for dental treatment.&lt;/p&gt;
 &lt;p&gt;&lt;a id="bitcoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html" target="_blank"&gt;&lt;img alt="Bitcoin Donate Button" src="http://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html" target="_blank"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598" target="_blank"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki" target="_blank"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html" target="_blank"&gt;&lt;img alt="Litecoin Donate Button" src="http://kristinita.ru/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html" target="_blank"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="paypal-"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q" target="_blank"&gt;&lt;img alt="PayPal Dollar button" src="http://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q" target="_blank"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="paypal-€"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.4. Paypal €&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ" target="_blank"&gt;&lt;img alt="PayPal Euro button" src="http://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ" target="_blank"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="license"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;16. License&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://opensource.org/licenses/MIT" target="_blank"&gt;MIT License&lt;/a&gt;&lt;/p&gt;
