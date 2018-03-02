@@ -32,19 +32,31 @@ aside
    Media
    ========================================================================== */
 
-/* For mobile devices */
+/*
+ * Media queries
+ * need “screen”:
+ * https://webref.ru/css/media
+ */
 
-@media screen and (max-width: 60rem)
+/*
+ * Orientation, see:
+ * https://www.webopedia.com/TERM/P/portrait.html
+ */
+
+/* For portrait orientation */
+
+@media screen and (orientation: portrait)
 	aside
 		width 100%
 
-/* For PC */
+/* For landscape orientation */
 
-@media screen and (min-width: 60rem)
+@media screen and (orientation: landscape)
 	aside
 		width 35%
 
-	/* Child scrollbar element for <main> tag because child elements have priority to parent elements. */
+	/* [NOTE] Do not delete this! Page will display incorrect, if landscape orientation.
+	Child scrollbar element for <main> tag because child elements have priority to parent elements. */
 
 	.gm-scrollbar-container
 		width 65%

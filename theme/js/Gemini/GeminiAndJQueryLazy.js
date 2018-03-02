@@ -1,14 +1,14 @@
 // @Author: Kristinita
 // @Date:   2017-05-02 11:44:00
-// @Last Modified time: 2018-02-20 20:14:17
+// @Last Modified time: 2018-03-02 12:45:05
 ////////////
 // Gemini //
 ////////////
 // Example — https://github.com/noeldelgado/gemini-scrollbar/blob/master/examples/01-body.html
 window.onload = function() {
-    if (window.matchMedia("(min-width: 60rem)").matches) {
-        // For PC
-        var pcscrollbar = new GeminiScrollbar({
+    if (window.matchMedia("(orientation: landscape)").matches) {
+        // For landscape orientation
+        var landscapescrollbar = new GeminiScrollbar({
             // querySelector method — https://www.w3schools.com/jsref/met_document_queryselector.asp
             element: document.querySelector("main"),
             autoshow: true,
@@ -17,34 +17,34 @@ window.onload = function() {
             forceGemini: true,
         }).create();
 
-        window.myscroolbar = pcscrollbar;
+        window.myscroolbar = landscapescrollbar;
 
         // JQuery Lazy support —
         // https://github.com/eisbehr-/jquery.lazy/issues/88#issuecomment-299138103
         $(".SashaLazy").Lazy({
-            appendScroll: $(pcscrollbar.getViewElement()),
+            appendScroll: $(landscapescrollbar.getViewElement()),
             // Run method “update” of Gemini:
             // https://github.com/eisbehr-/jquery.lazy/issues/88#issuecomment-299196388
             // http://jquery.eisbehr.de/lazy/example_callback-functions
             // https://github.com/noeldelgado/gemini-scrollbar#basic-methods
             afterLoad: function() {
-                pcscrollbar.update();
+                landscapescrollbar.update();
             }
         });
     } else {
-        // For Mobile
-        var mobilescrollbar = new GeminiScrollbar({
+        // For portrait orientation
+        var portraitscrollbar = new GeminiScrollbar({
             element: document.querySelector("body"),
             autoshow: true,
             forceGemini: true,
         }).create();
 
-        window.myscroolbar = mobilescrollbar;
+        window.myscroolbar = portraitscrollbar;
 
         $(".SashaLazy").Lazy({
-            appendScroll: $(mobilescrollbar.getViewElement()),
+            appendScroll: $(portraitscrollbar.getViewElement()),
             afterLoad: function() {
-                mobilescrollbar.update();
+                portraitscrollbar.update();
             }
         });
     }

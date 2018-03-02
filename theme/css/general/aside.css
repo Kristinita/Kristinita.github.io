@@ -35,18 +35,31 @@ aside {
    ========================================================================== */
 
 
-/* For mobile devices */
+/*
+ * Media queries
+ * need “screen”:
+ * https://webref.ru/css/media
+ */
 
-@media screen and (max-width: 60rem) {
+
+/*
+ * Orientation, see:
+ * https://www.webopedia.com/TERM/P/portrait.html
+ */
+
+
+/* For portrait orientation */
+
+@media screen and (orientation: portrait) {
     aside {
         width: 100%;
     }
 }
 
 
-/* For PC */
+/* For landscape orientation */
 
-@media screen and (min-width: 60rem) {
+@media screen and (orientation: landscape) {
     aside {
         width: 35%;
     }
