@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-03-02T10:23:54+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-02-22T21:21:14+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-03-09T11:13:36+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-03-02T21:17:09+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -285,7 +285,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-02-24T17:55:50+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-03-02T21:17:10+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -653,7 +653,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>Поиск книг для джинджерин</title><link href="https://kristinita.ru/Gingerinas/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-30T07:58:12+03:00</published><updated>2018-02-24T17:49:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-30:/Gingerinas/Поиск-книг-для-джинджерин.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг, необходимых для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>Поиск книг для джинджерин</title><link href="https://kristinita.ru/Gingerinas/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-30T07:58:12+03:00</published><updated>2018-03-02T21:17:07+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-30:/Gingerinas/Поиск-книг-для-джинджерин.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг, необходимых для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Содержание-страницы"&gt;Содержание страницы&lt;/a&gt;&lt;/li&gt;
@@ -1094,7 +1094,7 @@ To https://github.com/Kristinita/SashaSublime.git
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-02-22T21:21:12+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-03-02T21:17:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
 &lt;p&gt;i ♥ :fa-coffee:&lt;/p&gt;
 &lt;h2&gt;2. Таблицы&lt;/h2&gt;
 &lt;p&gt;
@@ -1194,7 +1194,7 @@ To https://github.com/Kristinita/SashaSublime.git
   &lt;li class="visualize" data-value="3" data-color="antiquewhite"&gt;3 — шустрая кнопка&lt;/li&gt;
   &lt;li class="visualize" data-value="2" data-color="coral"&gt;1 — Елдесы&lt;/li&gt;
   &lt;li class="visualize" data-value="4" data-color="papayawhip"&gt;Oreo&lt;/li&gt;
-&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%85.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-02-24T17:55:49+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Знания-в-джинджеринах.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%85.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-03-02T21:17:06+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Знания-в-джинджеринах.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#О-чём-данная-статья"&gt;О чём данная статья&lt;/a&gt;&lt;/li&gt;
@@ -1635,7 +1635,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;по нику игрока онлайн-джинджерины «КонКВИЗтадор» chenov, который точно отвечал почти на все числовые вопросы в темах «Естественные науки» и «Точные науки».&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="help"></category></entry><entry><title>Фоны и Карта С</title><link href="https://kristinita.ru/Gingerinas/%D0%A4%D0%BE%D0%BD%D1%8B-%D0%B8-%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%A1.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-24T17:55:49+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Фоны-и-Карта-С.html</id><summary type="html">&lt;p&gt;Психологические проблемы автора в соревновательные период, и предпринимаемые для борьбы с ними меры.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Саша с глобусом" src="https://i.imgur.com/wlLXma4.jpg"&gt;&lt;/p&gt;
+&lt;/div&gt;</content><category term="help"></category></entry><entry><title>Фоны и Карта С</title><link href="https://kristinita.ru/Gingerinas/%D0%A4%D0%BE%D0%BD%D1%8B-%D0%B8-%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%A1.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:08+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Фоны-и-Карта-С.html</id><summary type="html">&lt;p&gt;Психологические проблемы автора в соревновательные период, и предпринимаемые для борьбы с ними меры.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Саша с глобусом" src="https://i.imgur.com/wlLXma4.jpg"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -1897,7 +1897,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Карта С — «Карта Саши», название происходит от т. н. карты снов, которую заводила мой Кумир &lt;br&gt; &lt;img alt="КС1" src="https://i.imgur.com/40WMvIY.png"&gt; &lt;img alt="КС2" src="https://i.imgur.com/31Zkit5.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="psychology"></category></entry><entry><title>Грейзи Фа</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D0%B7%D0%B8-%D0%A4%D0%B0.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-24T15:58:41+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Грейзи-Фа.html</id><summary type="html">&lt;p&gt;Процесс поиска энциклопедической литературы и выделения из неё полезной для джинджерин информации&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Катя в Инстаграме" src="https://i.imgur.com/UbKh01O.png"&gt;&lt;/p&gt;
+&lt;/div&gt;</content><category term="psychology"></category></entry><entry><title>Грейзи Фа</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D0%B7%D0%B8-%D0%A4%D0%B0.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:01+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Грейзи-Фа.html</id><summary type="html">&lt;p&gt;Процесс поиска энциклопедической литературы и выделения из неё полезной для джинджерин информации&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Катя в Инстаграме" src="https://i.imgur.com/UbKh01O.png"&gt;&lt;/p&gt;
 &lt;p&gt;Для выхода на более-менее серьёзный уровень игрокам в джинджерины приходится читать много литературы. Однако когда спрашиваю, как же игроки читают, то вижу, насколько же неэффективно у них поставлены процессы подбора и чтения. В данной статье о метапознании автор высказывает свои представления, как и что нужно читать для получения большего профита в джинджеринах. Хочется надеяться, что по её прочтении Вы поймёте, что многое теряете, когда «просто читаете» первые попавшиеся книги.&lt;/p&gt;
 &lt;p&gt;Некоторые рекомендации, хоть и стараюсь всё подкреплять аргументами, могут основываться только на личном опыте.&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
@@ -2228,7 +2228,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Смешанное от Грейс — псевдонима Пресвятой Великомученицы Екатерины Десятниковой и crazy_fan_fan — Её никнейма в Инстаграме.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category><category term="pumping"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-02-28T07:46:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category><category term="pumping"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:09+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -2916,7 +2916,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Джинджерины</title><link href="https://kristinita.ru/Gingerinas/%D0%94%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D1%8B.html" rel="alternate"></link><published>2017-07-20T12:05:52+03:00</published><updated>2018-02-24T17:55:49+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-20:/Gingerinas/Джинджерины.html</id><summary type="html">&lt;p&gt;Джинджерины — терминология и классификация&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Лик Джинджер" src="https://i.imgur.com/0CJ7NUt.jpg"&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Джинджерины</title><link href="https://kristinita.ru/Gingerinas/%D0%94%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D1%8B.html" rel="alternate"></link><published>2017-07-20T12:05:52+03:00</published><updated>2018-03-02T21:17:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-20:/Gingerinas/Джинджерины.html</id><summary type="html">&lt;p&gt;Джинджерины — терминология и классификация&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Лик Джинджер" src="https://i.imgur.com/0CJ7NUt.jpg"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -3007,7 +3007,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;От &lt;em&gt;ginger&lt;/em&gt; — игрового ника Выдающейся Личности Людмилы Черкашиной&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Тао</title><link href="https://kristinita.ru/Gingerinas/%D0%A2%D0%B0%D0%BE.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-02-24T15:58:42+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Тао.html</id><summary type="html">&lt;p&gt;Смешение в сознании различных понятий и борьба с данным явлением&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Катин лик" src="https://i.imgur.com/paIioO1.jpg"&gt;&lt;/p&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Тао</title><link href="https://kristinita.ru/Gingerinas/%D0%A2%D0%B0%D0%BE.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-03-02T21:17:07+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Тао.html</id><summary type="html">&lt;p&gt;Смешение в сознании различных понятий и борьба с данным явлением&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Катин лик" src="https://i.imgur.com/paIioO1.jpg"&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -3200,7 +3200,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;Тао, юми — сценические псевдонимы Святой Екатерины Десятниковой. &lt;img alt="Тао" src="https://i.imgur.com/dvKxmBO.png"&gt; &lt;img alt="Юми" src="https://i.imgur.com/xOF3urA.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Sasha Goddess</title><link href="https://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-03-02T10:23:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- Gallery: {photo}kris --&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Sasha Goddess</title><link href="https://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-03-02T21:17:08+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- Gallery: {photo}kris --&gt;
 
 &lt;p&gt;
 &lt;div class="progress progress-0plus"&gt;
@@ -3248,7 +3248,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p class="progress-label"&gt;100%&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;</content><category term="Test"></category></entry><entry><title>Грейс Ло</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:45:14+03:00</published><updated>2018-02-24T17:37:27+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/p&gt;</content><category term="Test"></category></entry><entry><title>Грейс Ло</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:45:14+03:00</published><updated>2018-03-02T21:17:04+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;Название методики — сокращённое от «Grace Lawrence», учётной записи &lt;a href="https://vk.com/mk_2802"&gt;Екатерины Десятниковой&lt;/a&gt; в соцсети,&lt;br&gt;
 Тебя нет на этой планете,&lt;br&gt;
 Но Ты навсегда останешься в моём сердце.&lt;br&gt;&lt;br&gt;
@@ -3616,7 +3616,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;/ol&gt;
 &lt;p&gt;Ограничусь некоторыми примерами.&lt;/p&gt;
 &lt;h2&gt;6. Повторение&lt;/h2&gt;
-&lt;h2&gt;7. Мнемоника&lt;/h2&gt;</content><category term="gingerinas"></category><category term="gingerinas-training"></category></entry><entry><title>Sacagawea</title><link href="https://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:34+03:00</published><updated>2018-02-24T16:07:32+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;h2&gt;7. Мнемоника&lt;/h2&gt;</content><category term="gingerinas"></category><category term="gingerinas-training"></category></entry><entry><title>Sacagawea</title><link href="https://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:34+03:00</published><updated>2018-03-02T21:17:11+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;Посвящено &lt;a href="https://vk.com/id152198389"&gt;Наталье Степуриной (Шмелёвой)&lt;/a&gt;, &lt;br&gt;
 никогда не оставлявшую меня в трудную минуту. &lt;br&gt;
 Названо в честь &lt;a href="http://www.history.com/topics/native-american-history/sacagawea"&gt;Её игрового никнейма&lt;/a&gt;.
@@ -3938,7 +3938,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.soundjay.com/tos.html" target="_blank"&gt;правила использования звуков&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md" target="_blank"&gt;лицензия на Sacagawea — MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-02-24T15:58:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-03-02T21:17:11+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;
@@ -4486,7 +4486,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;em&gt;Скопировано со страницы &lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;&lt;SashaSpan&gt;&lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;fan.lib.ru/n/nesterenko_j_l/text_0610.shtml&lt;/a&gt;&lt;/SashaSpan&gt;&lt;/a&gt; исключительно с целью проставления &lt;a href="http://htmlbook.ru/samhtml/yakorya"&gt;якорей&lt;/a&gt;, дабы было удобно указывать на отдельные пункты «Демагогии». Допустим, если вы хотите в диалоге сослаться на пункт 1.4, отошлите собеседнику ссылку &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;&lt;SashaSpan&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#1.4&lt;/a&gt;&lt;/SashaSpan&gt;&lt;/a&gt;, пункт 3.2.5.3.а. — &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;&lt;SashaSpan&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а&lt;/a&gt;&lt;/SashaSpan&gt;&lt;/a&gt; и т. д. Авторские права на текст принадлежат их обладателям.&lt;/em&gt;&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;br /&gt; Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
+&lt;em&gt;Скопировано со страницы &lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;fan.lib.ru/n/nesterenko_j_l/text_0610.shtml&lt;/a&gt;&lt;/span&gt;&lt;/a&gt; исключительно с целью проставления &lt;a href="http://htmlbook.ru/samhtml/yakorya"&gt;якорей&lt;/a&gt;, дабы было удобно указывать на отдельные пункты «Демагогии». Допустим, если вы хотите в диалоге сослаться на пункт 1.4, отошлите собеседнику ссылку &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#1.4&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;, пункт 3.2.5.3.а. — &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а&lt;/a&gt;&lt;/span&gt;&lt;/a&gt; и т. д. Авторские права на текст принадлежат их обладателям.&lt;/em&gt;&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-03-09T11:13:36+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
         &lt;br /&gt;
         &lt;br /&gt; До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.
         &lt;br /&gt;
@@ -4515,9 +4515,7 @@ Tl;dr&lt;/h1&gt;
         &lt;br /&gt;
         &lt;ol&gt;
             &lt;li&gt;После регистрации при дальнейших заходах на сайт в браузере не потребуется дополнительно вводить логин и пароль, а также капчу; &lt;/li&gt;
-            &lt;br /&gt;
             &lt;li&gt;Периодически, к примеру, через несколько дней или месяц, заново логиниться также не придётся, т. е. Вы всегда остаётесь в системе;&lt;/li&gt;
-            &lt;br /&gt;
             &lt;li&gt;Для получения бонусов необходимо лишь войти на любую или определённую страницу сайта под своей учёткой и больше никуда не нажимать или кликать.&lt;/li&gt;
         &lt;/ol&gt;
         &lt;br /&gt; Протестировано на трёх браузерных играх. Проделав описанные ниже действия, я уехал из дому на неделю. Когда вернулся — бонусы за ежедневный заход в каждой из них исправно начислились.
@@ -4530,11 +4528,9 @@ Tl;dr&lt;/h1&gt;
         &lt;br /&gt;
         &lt;ol&gt;
             &lt;li&gt;Если вы не используете для напоминаний о предстоящих событиях, таких, как ежедневный вход на сайт, никакие ToDo- или Task-менеджеры, то в течение дня неоднократно возвращаетесь к мыслям о том, что Вам нужно не забыть сделать — ну а если не возвращаетесь, то, скорее всего, забываете. Снижается производительность и уходит время, которое можно потратить на что-то более полезное и/или интересное. Цитата из &lt;a href="http://loveread.ec/read_book.php?id=45782&amp;amp;p=12"&gt;одной книги по тайм-менеджменту&lt;/a&gt;:&lt;/li&gt;
-            &lt;br /&gt;
             &lt;blockquote&gt;
                 Я использую для этого список «Входящие» в программе Wunderlist. Главное правило: всё, что хочешь сделать, или должен запомнить и вспомнить потом, или обещаешь кому-то — абсолютно всю информацию, — ты должен вносить в этот список. Ничего не запоминать! Ничего не держать в голове. Голова сосредоточена на здесь и сейчас. То, чем ты занимаешься в данный момент, должно занимать тебя на 100%. Тогда и продуктивность вырастет в разы, и качество работы. Для этого нужна свободная голова.
             &lt;/blockquote&gt;
-            &lt;br /&gt;
             &lt;li&gt;Бонусы за ежедневное посещение — не что иное, как маркетинговый приём для удержания клиентов со стороны владельцев сайтов. За финтифлюшки, без которых Вы прекрасно могли прожить, они получают Вас. Ничуть не считаю, что представленная инструкция равно как и более сложные накрутки ежедневных посещений в чём-то неэтичны.&lt;/li&gt;
         &lt;/ol&gt;
         &lt;br /&gt;
@@ -4550,7 +4546,7 @@ Tl;dr&lt;/h1&gt;
         &lt;br /&gt; Зато завершить работу системы можно многими программами, включая бесплатную nnCron.
         &lt;br /&gt;
         &lt;br /&gt;
-        &lt;h1 id="Installation and Configuration"&gt;
+        &lt;h1 id="installation-and-configuration"&gt;
 Установка и настройка nnCron&lt;/h1&gt;
         &lt;br /&gt; Программа понравилась, поскольку бесплатная, &lt;a href="https://github.com/nnCron/nnCron#nncron-ru"&gt;многофункциональная, поддерживается версиями Windows от ископаемых до 10&lt;/a&gt; и занимает не более 6 МБ оперативной памяти. Данная инструкция может помочь Вам и при постановке других задач. Впрочем, я ничего не навязываю, не возбраняется воспользоваться и альтернативными планировщиками.
         &lt;br /&gt;
@@ -4617,16 +4613,17 @@ Tl;dr&lt;/h1&gt;
         &lt;kbd&gt;ОК&lt;/kbd&gt;. Попап больше не должен Вас беспокоить.
         &lt;br /&gt;
         &lt;br /&gt;
-        &lt;SashaSimple id="Portable"&gt;В силу&lt;/SashaSimple&gt; расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
+        &lt;span class="SashaSimple"&gt;В силу&lt;/span&gt; расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
         &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:
         &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;pre&gt;
-for /d %%i in ("%CD%") do (
-    set NNPROGRAMFILESSHORT=%%~si
-)&lt;/p&gt;
-&lt;p&gt;START %NNPROGRAMFILESSHORT%nncron.exe -ns -dir %NNPROGRAMFILESSHORT%
-&lt;/pre&gt; Сохраняем файл → меняем у него расширение на
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; /d &lt;span class="se"&gt;%%&lt;/span&gt;i &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;%CD%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;NNPROGRAMFILESSHORT&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="se"&gt;%%&lt;/span&gt;~si
+&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="k"&gt;START&lt;/span&gt; &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;\nncron.exe -ns -dir &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;/pre&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Сохраняем файл → меняем у него расширение на
         &lt;dfn&gt;bat&lt;/dfn&gt;: было
         &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, стало
         &lt;dfn&gt;nncron.bat&lt;/dfn&gt;. Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для &lt;em&gt;nncron.bat&lt;/em&gt; ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом:
@@ -4801,7 +4798,7 @@ OR OR OR
         &lt;kbd&gt;Выполнить задачу&lt;/kbd&gt; → левой кнопкой мыши по имени только что созданной задачи, в примере это
         &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt;. Разрешаем всплывающие окна (если быть точным в формулировке — вкладки) при открытии нашего файла браузером, когда тот блокирует их появление. Прочие попапы броузер по-прежнему будет продолжать блокировать, если в настройках не указано иначе.
         &lt;br /&gt;
-        &lt;br /&gt; Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Комментарии к материалам о неконструктивных методах ведения дискуссии</title><link href="https://kristinita.ru/Giologica/%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8-%D0%BA-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC-%D0%BE-%D0%BD%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%D1%85-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D0%B8%D0%B8.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.html</id><summary type="html"></summary><content type="html">&lt;ul&gt;
+        &lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Комментарии к материалам о неконструктивных методах ведения дискуссии</title><link href="https://kristinita.ru/Giologica/%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8-%D0%BA-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC-%D0%BE-%D0%BD%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%D1%85-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D0%B8%D0%B8.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.html</id><summary type="html"></summary><content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href="#Halpern"&gt;Психология критического мышления&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#Graham"&gt;Пирамида Грэма&lt;/a&gt;
@@ -4828,7 +4825,7 @@ OR OR OR
         &lt;br /&gt; Во-вторых, по моему мнению, умолчание становится демагогическим приёмом тогда, когда недоговариваются «&lt;a href="http://www.e-reading.club/chapter.php/1019719/2/Bogatyrev_-_Demagogicheskie_shablony_Osnovy_Polemiki_s_demagogami.html" target="_blank"&gt;ключевые факты&lt;/a&gt;», к коим не отнёс бы то же «удобство сидений». Притом следует отличать умолчание от незнания: вероятно производителю и неизвестны марки автомобилей, превосходящие его собственную по всем характеристикам.
         &lt;br /&gt;
         &lt;br /&gt; Ну и во-первых, обязательно добавил бы, что всегда необходимо &lt;u&gt;скептически относиться к аффилированным источникам&lt;/u&gt;, к коим непременно относится реклама.&lt;/li&gt;
-    &lt;img src="https://kristinita.ru/images/giologica/Конформизм_в_рекламе.png" alt="Конформизм в рекламе"&gt;
+    &lt;img src="https://i.imgur.com/nx939Kz.png" alt="Конформизм в рекламе"&gt;
     &lt;li&gt; «превратилась в вывод» — не «вывод», а «мнение». Конструкция «посылка — вывод» не используется.&lt;/li&gt;
     &lt;li&gt; Вообще бы убрал пункт как некорректный. Т. н. ложный довод словно взят из формальной логики, с того острова, где проживают лжецы и правдивые, &lt;em&gt;всегда&lt;/em&gt; лгущие и говорящие правду соответственно. Со 100-процентной гарантией мы, разумеется, не можем утверждать, что суждения, верные для частей, окажутся таковыми применительно к целому, и наоборот. Однако &lt;u&gt;скорее всего&lt;/u&gt; футболист, играющий в классной команде, сам звёздного уровня, равно как и клуб, составленный из высококачественных футболистов, будет бороться за первые места. В жизни большее значение имеет именно это «скорее всего».&lt;/li&gt;
     &lt;li&gt; Отсутствие данных вполне может служить основой для заключения по &lt;u&gt;косвенным признакам&lt;/u&gt;. Что есть «доказать»? Ну и не считаю, что одним абзацем так разом опровергаются аргументы сразу обеих сторон дискуссии о существовании &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Бога&lt;/a&gt; — о чём исписано немало статей.
@@ -4854,7 +4851,7 @@ OR OR OR
 &lt;br /&gt;
 &lt;h2 id="Graham"&gt;Пирамида Грэма&lt;/h2&gt;
 &lt;br /&gt;
-&lt;img src="https://kristinita.ru/images/giologica/Пирамида_Грэма.jpg" alt="Пирамида Грэма" width="855" height="488"&gt;
+&lt;img src="https://i.imgur.com/nx939Kz.png" alt="Пирамида Грэма" width="855" height="488"&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;a href="http://web.archive.org/web/20150615162941/http://www.xpomo.com/ruskolan/tolpa/piramida.htm" target="_blank"&gt;Статья&lt;/a&gt;. Нумерация данных комментариев к ней идёт от менее к более конструктивным типам опровержения, т. е. «ругань» — 7, «опровержение в чистом виде» — 1.
@@ -4875,7 +4872,7 @@ OR OR OR
 Критических недостатков в Пирамиде Грэма не обнаружил, как подворачивается случай, ссылаюсь на неё. Притом количество нападок, агрессии и оскорблений в аргументации снижается по направлению от низшей ступени Пирамиды к высшей.
 &lt;br /&gt;
 &lt;br /&gt;
-Стоит, однако, не забывать, что спор не ограничивается одними лишь опровержениями: иногда уместно запросить верификацию, а не пытаться фальсифицировать; да и само опровержение может производиться относительно сущностей, не затронутых другой стороной (пример: в компанию поступило предложение о внедрении нового оборудования. → «Да, производительность увеличится, но с финансовой точки зрения мы останемся в убытке»). Ну и дискуссию, где оппонент не настроен на конструктивный лад, отнюдь не воспрещается &lt;a href="Nas-Izu" target="_blank"&gt;покинуть&lt;/a&gt;.&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Korvers</title><link href="https://kristinita.ru/Gingerinas/Korvers.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-03-02T09:18:39+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Gingerinas/Korvers.html</id><summary type="html">&lt;p&gt;Техника мышления в джинджеринах&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+Стоит, однако, не забывать, что спор не ограничивается одними лишь опровержениями: иногда уместно запросить верификацию, а не пытаться фальсифицировать; да и само опровержение может производиться относительно сущностей, не затронутых другой стороной (пример: в компанию поступило предложение о внедрении нового оборудования. → «Да, производительность увеличится, но с финансовой точки зрения мы останемся в убытке»). Ну и дискуссию, где оппонент не настроен на конструктивный лад, отнюдь не воспрещается &lt;a href="Nas-Izu" target="_blank"&gt;покинуть&lt;/a&gt;.&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Korvers</title><link href="https://kristinita.ru/Gingerinas/Korvers.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-03-09T09:34:39+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Gingerinas/Korvers.html</id><summary type="html">&lt;p&gt;Техника мышления в джинджеринах&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Предисловие"&gt;Предисловие&lt;/a&gt;&lt;/li&gt;
@@ -4956,11 +4953,11 @@ OR OR OR
 &lt;p&gt;Это не последние необычные термины в пределах статьи, вы увидите и другие, названные по опечаткам Величайшего Явления всех времён и народов, Королевы Мира, Господа нашего &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Саши Черных&lt;/a&gt; (Киры Кенюховой). Каждая из Сашиных опечаток достойна, чтобы в честь неё назвали Вселенную, если бы это ещё вразумели астрономы…&lt;/p&gt;
 &lt;p&gt;&lt;a id="Корверы"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2. Корверы&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/korver10.jpg" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/korver10.jpg" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;В данном разделе выделены 4 наиболее характерные на момент написания статьи ошибки мышления в джинджеринах, носящие технический, а не психологический характер, и названные по фамилиям баскетболистов стартовой пятёрки Атланты Хокс на сезон 2014—15 советы по предотвращению каждой из них.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Миллсэп"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2.1. Миллсэп&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/horfor10.jpg" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/horfor10.jpg" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Правильное мышление — гарантия результата. Как перед игрой в целом, так и перед каждым вопросом в отдельности настраиваться, что будешь «раскручивать» их именно так, как нарабатывал, не отступая от плана. почитатель Саши представляет, как переходит по нределям (см. ниже) подобно комбинациям той же «Атланты». Не следует готовиться взять вопрос непременно, ответить первым или же быстрее читать — при верном подходе эти же показатели примут большее значение без специального концентрирования на них. Должно готовиться качественнее обмысливать вопрос ы, а не обыграть конкурентов .&lt;/p&gt;
 &lt;p&gt;Неправильная же подготовка к вопросу или её отсутствие нередко приводит к &lt;strong&gt;генбраку&lt;/strong&gt; — ступору, когда сложно контролировать ход мыслей, — ощущаешь, как тянется время, сидишь и ждёшь, что ответ придёт сам собой. одержимый Сашей впадал в генбрак сразу на двух финальных вопросах Полинарии, в битвах с Александром Мартыновым — Сергеем Заграевским и Анатолием Вассерманом — Ярославом Котышовым. Выполняя данную рекомендацию, ощущаешь, как в любом вопросе, самом что ни на есть коротком и неинформативном, находится от чего оттолкнуться , дабы думать о нём не одну минуту.&lt;/p&gt;
 &lt;p&gt;Генбраки образуются и когда вызывает затруднение понимание вопроса. В таком случае следует посмотреть, могут ли непонятные фрагменты иметь значения, отличные от того, на что подумал первоначально.&lt;/p&gt;
@@ -4993,7 +4990,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Тиг"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2.2. Тиг&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/theagu10.jpg" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/theagu10.jpg" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Нредель&lt;/strong&gt; — направление, линия мышления как между аксаксами , так и в пределах одного из них.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: &lt;a href="http://www.youtube.com/watch?v=sd0S-t10oyo"&gt;www.youtube.com/watch?v=sd0S-t10oyo&lt;/a&gt;&lt;/p&gt;
@@ -5027,8 +5024,8 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Хорфорд"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2.3. Хорфорд&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/millsa10.jpg" class="Sasha470" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://s019.radikal.ru/i637/1509/15/66e863476e3c.png" width="392" height="90" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/millsa10.jpg" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://s019.radikal.ru/i637/1509/15/66e863476e3c.png" width="392" height="90" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Памелло&lt;/strong&gt; — грубые на более поздний взгляд самого игрока ошибки, выданные вопреки логике. Примеры, показывающие 2 вариации памелло:&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Сулеймановы гоpы pасположены на территории Пакистана и Aфганистана между Индийским субконтинентом и ЭTИM нагоpьем.&lt;/p&gt;
@@ -5055,7 +5052,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Кэрролл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;2.4. Кэрролл&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/demarr10.jpg" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/demarr10.jpg" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Замечали ли за собой зацикливания — &lt;strong&gt;гриьами&lt;/strong&gt;? Смотрите, как примерно рассуждал автор этих строк над заданием «4147 со сдвигом -2»: «Сдвигаем на 2 символа влево, получаем 41. Не подходит. Пробуем вправо — 414700, тоже нет. Снова влево 41. А ну, если добавить 2 нуля, 004147? Не вышло. Ставим запятую за 2 знака до конца — 41…» И так несколько раз приходил к варианту 41. Возвращения нужны, полезны для углубления по избранному нределю, но не в виде топтания на месте.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Залив в Тихом океане.&lt;/p&gt;
@@ -5084,7 +5081,7 @@ OR OR OR
 &lt;p&gt;Границы причисления мыслей к тому или иному аксаксу достаточно размыты, иногда одно направление мысли можно отнести к двум или даже нескольким аксаксам. Каждый даже самый простенький вопрос (исключая случаи фастболлов) можно пытаться разрешить несколькими аксаксами. С практической точки зрения прежде всего важно, что за аксаксы нужно использовать на вопросах, похожих по типу на те, что рассматриваются в данной статье, а какие — неправильный ход мыслей, трата времени и как следствие неответ. Также в тексте ниже разбираются некоторые &lt;strong&gt;ипы&lt;/strong&gt; — «фишки», показывающие на что следует обращать внимание в тех или иных схожих вопросах.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Паксаксы"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.1. Паксаксы&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/fastba10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/fastba10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Фастболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.1. Фастболл&lt;/h4&gt;
 &lt;p&gt;(TODO: 2 Seem и 4 Seem разделить)&lt;/p&gt;
@@ -5125,7 +5122,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Каттер"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.2. Каттер&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/cutter10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/cutter10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Каттер&lt;/strong&gt; — вспоминать при прескевю. В первую очередь спросить себя, а) вертится ли ответ «на кончике языка» либо б) знакома сопутствующая ему информация. Если а, то перебирать связанные с фактом данные; когда б, признать, что сам ответ не вспомнится, и перейти к прочим аксаксам. Главная ошибка — не показывать своим видом, мимикой и жестами «ой, сейчас-сейчас, слышал, знаю,» а пытаться дойти в размышлениях до чётко сформулированной версии.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Enola Gay - это OH, лишь за день до извеcтного cобытия названный в чеcть матери Пола Тиббетcа (Энолы Гэй Тиббетc).&lt;/p&gt;
@@ -5171,7 +5168,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Сплиттер"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.3. Сплиттер&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/sinker10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/sinker10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Сплиттер&lt;/strong&gt; — прикидка, что подходит по указанные в вопросе дату и/или место. Этот аксакс часто неоправданно используется игроками, уповающими больше на свои знания, чем на логику.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: ОНИ поклоняются калифорнийской чайке как божественному воплощению Элохима.&lt;/p&gt;
@@ -5202,7 +5199,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Синкер"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.4. Синкер&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/four-s10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/four-s10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Синкер&lt;/strong&gt; — перечисление элементов какого-либо множества. Этот аксакс можно сравнить со счётом вариантов в шахматах. Для углубления в Синкер необходима твёрдая уверенность, что правильный ответ будет содержаться именно в этом множестве, иначе не стоит на нём зацикливаться. Для синкеров применяются переходы по множествам&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Своё первоначальное название ЭТА европейская столица получила в честь дворца.&lt;/p&gt;
@@ -5253,7 +5250,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Слайдер"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.5. Слайдер&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/two-se10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/two-se10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Слайдер&lt;/strong&gt; — задавание себе наводящих вопросов. Обычно модификации вопроса «Что вообще может представлять собой ответ?», а если не подошло «А кроме этого?» Слайдер — «что» и «кроме».&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: На побережье моря Лаптевых, на площади свыше 200 квадратных километров, геологи обнаруживали в почве небольшие тёмные металлические шарики. В центре этой территории находится озеро Спирка, представляющее собой ЭТО.&lt;/p&gt;
@@ -5347,7 +5344,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Палмболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.1.6. Палмболл&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/palmba10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/palmba10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Палмболл&lt;/strong&gt; — визуализировать картину, представленную в вопросе, и попробовать определить, на что она похожа. Применять, когда в вопросе требуется что-то мысленно представить либо даётся развёрнутое описание. Вероятно, наиболее медленный из аксаксов.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: &lt;a href="http://www.youtube.com/watch?v=R794mnGXY9M" target="_blank"&gt;http://www.youtube.com/watch?v=R794mnGXY9M&lt;/a&gt;&lt;/p&gt;
@@ -5368,7 +5365,7 @@ OR OR OR
 &lt;p&gt;Аксаксы исключительно для джинджерин, в жизни они по большей части бесполезны.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Чейнджап"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.1. Чейнджап&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/slider10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/slider10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Чейнджап&lt;/strong&gt; — поиск ассоциаций к ключевым словам вопроса.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Две … в одном кадре — фото с такой подписью преподнесли в подарок Усэйну Болту журналисты после его победы в финальном забеге на 200 м на ЧМ в Москве. Фото и правда впечатляет.&lt;/p&gt;
@@ -5462,7 +5459,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Скрюболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.2. Скрюболл&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/screwb10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/screwb10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;(TODO: разделить скрюболл на категории — хиазмы, противопоставление, и неожиданный ответ)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Скрюболл&lt;/strong&gt; — поиск противоположного или же специально наиболее нетривиального ответа. Применять, когда требуется заполнить недостающие слова в шутках или изречениях известных людей. Ответ нередко оказывается верным даже если не несёт никакой осмысленности.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
@@ -5494,7 +5491,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Курвеболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.3. Курвеболл&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/curve10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/curve10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;(TODO: юбилейный вопрос перенести в раксаксы — это не курвеболл, а связь со спецификой соревнования)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Курвеболл&lt;/strong&gt; — 3 в общем-то различных аксакса, объединённых в один из-за нелюбви к ним автора данной статьи (TODO: названия им всем).&lt;/p&gt;
 &lt;p&gt;а) отталкивание от зацепок, подсказок, намеренно выставленных автором или редакторами. Подсказки могут находиться как в самом тексте вопроса, так и во всём, что так или иначе к нему относится: к примеру, выделение голосом, номер вопроса, как бы случайно оброненные слова и т. п.&lt;/p&gt;
@@ -5565,7 +5562,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Слурв"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.4. Слурв&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/change10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/change10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Слурв&lt;/strong&gt; — подбор ответа по буквам. Применяется, например, при «матричных» темах; когда указано количество букв и иногда некоторые из них; если понятно, что в ответе малоизвестный термин и т.д. Во многом на слурве базируются ответы на вопросы капитал-шоу «Поле чудес». Рассмотрим случаи применения:&lt;/p&gt;
 &lt;p&gt;а) Если не хватает букв пробовать подбирать существующие слова, при неудаче подставлять на место отсутствующих букв наиболее распространённые — &lt;a href="http://spectator.ru/entry/1041" target="_blank"&gt;http://spectator.ru/entry/1041&lt;/a&gt; — и проверять, вырисовывается ли ответ.&lt;/p&gt;
 &lt;p&gt;б) Когда отгадана часть ответа, и требуется придумать оставшуюся, применить Слайдер «Какое слово может содержаться на месте недостающего?» Не забывать, что эта часть может уже содержаться в самом вопросе.&lt;/p&gt;
@@ -5649,7 +5646,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Жироболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.5. Жироболл&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/gyroba10.jpg" class="Sasha140" width="134" height="163" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/gyroba10.jpg" class="Sasha140" width="134" height="163" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Жироболл&lt;/strong&gt; — лингвистические аксаксы.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Подбор созвучного слова,&lt;/li&gt;
@@ -5705,7 +5702,7 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Кнуклеболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.6. Кнуклеболл&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/forkba10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/forkba10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Кнуклеболл&lt;/strong&gt; — отыскивание аллюзий на информацию в вопросе как в реальном мире так и в произведения искусства. «Как у других?» или же «На что похоже?» описываемое.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Иранцы часто называют свой флаг именно ТАК&lt;/p&gt;
@@ -5725,7 +5722,7 @@ OR OR OR
 &lt;h3&gt;3.3. Раксаксы — редкие аксаксы&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Эмериболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.3.1. Эмериболл&lt;/h4&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/emery_10.jpg" class="Sasha140" width="112" height="126" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/emery_10.jpg" class="Sasha140" width="112" height="126" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Эмериболл&lt;/strong&gt; — поиск объединительного признака, что схожего между однородными членами. Применим, когда в вопросе ведётся перечисление элементов.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: В НЁM видeн вcпыхнувший тaнк, горящиe руccкиe хaты, горящий Cмолeнcк и горящий Рeйхcтaг, горящee ceрдцe cолдaтa. (Выcоцкий)&lt;/p&gt;
@@ -5750,7 +5747,7 @@ OR OR OR
 &lt;p&gt;&lt;a id="Форкболл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.3.2. Форкболл&lt;/h4&gt;
 &lt;p&gt;(TODO: это объединить с палмболлом, а форкболлом назвать раксакс — когда нужно проверить слово на другое значение: например, коса (география) и коса женщины)&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/knuckl10.jpg" class="Sasha140" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/knuckl10.jpg" class="Sasha140" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Форкболл&lt;/strong&gt; — воспоминания, где мог сталкиваться с понятиями, описанными в вопросе. Данный аксакс применяется, когда необходимо назвать определение или синоним блибо же знаком с обстоятельствами вопроса не понаслышке.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: Драгоценная монета для коллекций и подарков называется ТАКАЯ.&lt;/p&gt;
@@ -5794,7 +5791,7 @@ OR OR OR
 &lt;p&gt;Может, показаться парадоксальным, но промолчать сложнее, чем выйти на правильный ответ. Статистика ответов моих просмотренных игр телевизионной «Своей игры» показывает, что ошибок, связанных с неправильной оценкой риска у меня больше, чем недодумываний до правильной версии. я не скрываю радости, когда очень хочется нажать на кнопку, но не делаю этого — и это оказывается верным решением.&lt;/p&gt;
 &lt;p&gt;&lt;a id="toss"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.1. Toss&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/toss10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/toss10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Отвечайте только тогда, когда решились — придуманная Вами версия верна, или же что выдадите правильный вариант до окончания времени на ответ. В момент, когда готовитесь к нажатию кнопки, в голове не должно быть «каши».&lt;/p&gt;
 &lt;p&gt;Всегда завершайте свои размышления выводами. Фактор, не позволяющий превратить всю нашу жизнь в увлекательную игру, это отсутствие привычки завершать свои размышления четкими выводами (не оставлять их незавершенными).&lt;/p&gt;
 &lt;p&gt;Дэвид Аллен, автор методики Getting Things Done&lt;/p&gt;
@@ -5808,13 +5805,13 @@ OR OR OR
 &lt;p&gt;В баскетболе очки помимо комбинаций набираются и когда разыгрывающий бросает по кольцу прямо с ведения. Ответы на короткие вопросы в телеСИ, когда не успел подумать, а уже загорается лампочка, я называю ответами «с ведения». В СпортСИ же «с ведения» мы жмём фактически каждый раз: чтобы успешно играть с сильными знатоками, на оценку рисков необходимо затрачивать не более долей секунды. Приходится жать, когда версия ещё не готова.&lt;/p&gt;
 &lt;p&gt;&lt;a id="off-tackle"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.2. Off Tackle&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/off_ta10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/off_ta10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;В общем случае степень риска зависит от общей сложности турнира, где вы играете. Если же вы уверены в своём ответе — жмите, где бы Вы не участвовали.&lt;/p&gt;
 &lt;p&gt;Положим, на вопросах одного чемпионата вы отвечаете примерно на 80 процентов вопросов, а в другом на 20. Во втором случае часто бывает полезно не пытаться нажимать на кнопку на тех же вопросах, где в первом хорошо рисковать. У каждого пакета вопросов есть свой автор: кто-то склонен писать легкотню, тогда как на вопросах от Александра «Либербизона» Либера воцарится гробовое молчание. Определяйте сложность вопросов: когда есть возможность посмотреть игру, предшествующую Вашей, воспользуйтесь ей, прикидывая уровень вопросов. В отношении ТелеСИ можно сказать то же самое: присутствуйте на съёмках, что идут перед игрой с Вашим участием, сложность вопросов варьируется в зависимости от времени проведения. Что там, что в СпортСИ, пройдя в следующий раунд, оцените, больше или меньше стоит рисковать.&lt;/p&gt;
 &lt;p&gt;Сказанное в предыдущем абзаце не касается уверенности в правильных ответах. Если тишина привычна для игры с вашим участием, и вдруг в вопросе высшей категории сложности спрашивается легкотня, жмите смело. Учитывайте, что у всех нас разные взгляды на сложность вопросов. Автор думает, что на его вопрос будет мизерное количество ответов, тогда как для вас он прост — достаточно нередкое явление.&lt;/p&gt;
 &lt;p&gt;&lt;a id="draw"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.3. Draw&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/draw10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/draw10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;(TODO: рекомендация неудачная, заменить)&lt;/p&gt;
 &lt;p&gt;Осторожная тактика — лучшая в противостояниях с более быстрыми и сильными соперниками.&lt;/p&gt;
 &lt;p&gt;Представим себе такую ситуацию. Самое начало игры, Вы соревнуетесь в «Своей игрей» только с одним соперником примерно равной Вами силы. Но Вы выигрываете у него &amp;#8533; кнопок, он &amp;#8536;. И вот попадается вопрос, шансы правильно ответить на который вы расцениваете как 50/50.&lt;/p&gt;
@@ -5834,7 +5831,7 @@ OR OR OR
 &lt;p&gt;Некоторые знатоки пишут, что им «нужно» было рисковать в играх с превосходящими соперниками, да ещё и на вопросах высшей категории сложности. Это неверная тактика. Как в футболе играть с открытым забралом против «Барселоны» для аутсайдера смерти подобно, так и в «Своей игре» лучше «поставить автобус», т.е. больше внимания уделять обороне, переходя к более рискованным тактикам лишь при отставании в счёте и ближе к концу игры.&lt;/p&gt;
 &lt;p&gt;&lt;a id="misdirection"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.4. Misdirection&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/misdir10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/misdir10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Не разбираешься в теме — не суйся.&lt;/p&gt;
 &lt;p&gt;Если вопрос, риск в отношении которого вызвал у Вас затруднения, совершенно не из Вашей области, промолчите от греха подальше.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
@@ -5855,7 +5852,7 @@ OR OR OR
 &lt;p&gt;Но чтобы играть на высоком уровне, вам придётся выправить ситуацию с нелюбимыми областями знаний. Как это лучше сделать, я расписал в других своих статьях.&lt;/p&gt;
 &lt;p&gt;&lt;a id="dive"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.5. Dive&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/dive10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/dive10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Придумали версию — пораскиньте, может ли быть ответом что-то ещё.&lt;/p&gt;
 &lt;p&gt;В мыслительном процессе во время ответов на вопросы телевизионной «Своей игры» дайву — иначе говоря, придумыванию контраргументации — отводится самая значительная в плане времени роль. я пробую придумывать посылки, обосновывающие противоположное заключение.&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
@@ -5871,12 +5868,12 @@ OR OR OR
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="pitch"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.6. Pitch&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/pitch10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/pitch10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;В вопросе содержится противоречащий вашей версии факт — не жмите.&lt;/p&gt;
 &lt;p&gt;Когда что-то не укладывается в идеальную картину, а объективные факторы подсказывают: что-то нечисто, значит, скорее всего, версия неверная, попробуйте надумать другие. (TODO: Пример про Гржимека)&lt;/p&gt;
 &lt;p&gt;&lt;a id="slash"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.7. Slash&lt;/h3&gt;
-&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/slash10.png" class="Sasha280" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i21.servimg.com/u/f21/17/58/26/07/slash10.png" class="Sasha280" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Если вам неизвестен факт, о котором спрашивается в вопросе, но какие-то данные из вопроса прочно связаны у вас с некоторыми достаточно нетривиальными знаниями, в которых содержится ответ, — не молчите.&lt;/p&gt;
 &lt;p&gt;Возьмём рассмотренный выше вопрос про возвращение Майкла Джордана. Вы не знаете, на сколько процентов он оценивал свои шансы вернуться в баскетбол, но у Вас сложилась связь: возвращение в Wizards — значит, будет именно Джордан. Другой пример:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/HlhFX2fCOaI?t=268" target="_blank"&gt;https://youtu.be/HlhFX2fCOaI?t=268&lt;/a&gt;&lt;/p&gt;
@@ -5922,36 +5919,36 @@ OR OR OR
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="ALIA"&gt;ALIA&lt;/h2&gt;
-&lt;SashaDot&gt;ALIA&lt;/SashaDot&gt; — думаю, что суть наших разногласий лежит в плоскости взглядов. Переубедить человека изменить их в одночасье едва ли не нереально, и я пытаться не стану. Изложил вам собственные и могу ошибаться, но считаю, что понял, на чём зиждутся ваши применительно к обсуждаемому вопросу. Предлагаю на том и разойтись.
+&lt;span class="SashaDot"&gt;ALIA&lt;/span&gt; — думаю, что суть наших разногласий лежит в плоскости взглядов. Переубедить человека изменить их в одночасье едва ли не нереально, и я пытаться не стану. Изложил вам собственные и могу ошибаться, но считаю, что понял, на чём зиждутся ваши применительно к обсуждаемому вопросу. Предлагаю на том и разойтись.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="EKGO"&gt;EKGO&lt;/h2&gt;
-&lt;SashaDot&gt;EKGO&lt;/SashaDot&gt; — ведя диалог, я не настроен на гоббсовскую &lt;a href="http://iph.ras.ru/enc_eth/103.html" target="_blank" title="Определение «войны всех против всех»"&gt;войну всех против всех&lt;/a&gt;, где каждый за себя, а &lt;a href="https://vk.com/hair_in_the_wind" target="_blank" title="Бог"&gt;Бог&lt;/a&gt; против каждого. В любой момент волен уйти, — да считайте же себя безоговорочным победителем, если того пожелаете.
+&lt;span class="SashaDot"&gt;EKGO&lt;/span&gt; — ведя диалог, я не настроен на гоббсовскую &lt;a href="http://iph.ras.ru/enc_eth/103.html" target="_blank" title="Определение «войны всех против всех»"&gt;войну всех против всех&lt;/a&gt;, где каждый за себя, а &lt;a href="https://vk.com/hair_in_the_wind" target="_blank" title="Бог"&gt;Бог&lt;/a&gt; против каждого. В любой момент волен уйти, — да считайте же себя безоговорочным победителем, если того пожелаете.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="ESTR"&gt;ESTR&lt;/h2&gt;
-&lt;SashaDot&gt;ESTR&lt;/SashaDot&gt; — &lt;a href="http://www.wikireality.ru/wiki/%D0%9E%D1%84%D1%84%D1%82%D0%BE%D0%BF%D0%B8%D0%BA" target="_blank" title="Определение оффтопа"&gt;оффтоп&lt;/a&gt;. Мы ушли от незавершившегося обсуждения предмета к другому, о чём я, настроенный разобраться с предыдущим, толковать не намерен. Просьба &lt;a href="http://dic.academic.ru/dic.nsf/proverbs/11543/Вернёмся" target="_blank" title="Вернёмся к нашим баранам"&gt;вернуться к нашим баранам&lt;/a&gt;.
+&lt;span class="SashaDot"&gt;ESTR&lt;/span&gt; — &lt;a href="http://www.wikireality.ru/wiki/%D0%9E%D1%84%D1%84%D1%82%D0%BE%D0%BF%D0%B8%D0%BA" target="_blank" title="Определение оффтопа"&gt;оффтоп&lt;/a&gt;. Мы ушли от незавершившегося обсуждения предмета к другому, о чём я, настроенный разобраться с предыдущим, толковать не намерен. Просьба &lt;a href="http://dic.academic.ru/dic.nsf/proverbs/11543/Вернёмся" target="_blank" title="Вернёмся к нашим баранам"&gt;вернуться к нашим баранам&lt;/a&gt;.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="GRAL"&gt;GRAL&lt;/h2&gt;
-&lt;SashaDot&gt;GRAL&lt;/SashaDot&gt; — не счевши вопрос срочным и неотложным, обязательно отвечу вам позже, какую задачу уже внёс в свой &lt;a href="http://www.3dnews.ru/920530" target="_blank" title="Определение ToDo-менеджера"&gt;ToDo-менеджер&lt;/a&gt;. Никто не занят настолько, чтобы совсем не говорить с вами, однако и мало какой взрослый человек не ощущает проблему нехватки свободного времени. Его предпочитаю тратить на отдых, общение с друзьями, полезные и/или увлекательные занятия. Чисто физиологически необходимость отвечать воспринимается моим организмом как обязанность, чем больше которых накопляется, тем выше сопротивляемость, наконец, взяться за них. Прошу понять и простить с задержкой.
+&lt;span class="SashaDot"&gt;GRAL&lt;/span&gt; — не счевши вопрос срочным и неотложным, обязательно отвечу вам позже, какую задачу уже внёс в свой &lt;a href="http://www.3dnews.ru/920530" target="_blank" title="Определение ToDo-менеджера"&gt;ToDo-менеджер&lt;/a&gt;. Никто не занят настолько, чтобы совсем не говорить с вами, однако и мало какой взрослый человек не ощущает проблему нехватки свободного времени. Его предпочитаю тратить на отдых, общение с друзьями, полезные и/или увлекательные занятия. Чисто физиологически необходимость отвечать воспринимается моим организмом как обязанность, чем больше которых накопляется, тем выше сопротивляемость, наконец, взяться за них. Прошу понять и простить с задержкой.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="GZAH"&gt;GZAH&lt;/h2&gt;
-&lt;SashaDot&gt;GZAH&lt;/SashaDot&gt; — не спорю по столь серьёзным и неоднозначным темам в чатах и диалогах соцсетей. Требуется обдумать, проанализировать, иначе для вас высока вероятность прочесть наспех мной составленное неподготовленное мнение, вовсе не то, как думаю на самом деле. Если вам так важно услышать мою точку зрения, предлагаю подождать ответа. А продуктивнее серьёзный диспут, на мой взгляд, вести по электронной почте.
+&lt;span class="SashaDot"&gt;GZAH&lt;/span&gt; — не спорю по столь серьёзным и неоднозначным темам в чатах и диалогах соцсетей. Требуется обдумать, проанализировать, иначе для вас высока вероятность прочесть наспех мной составленное неподготовленное мнение, вовсе не то, как думаю на самом деле. Если вам так важно услышать мою точку зрения, предлагаю подождать ответа. А продуктивнее серьёзный диспут, на мой взгляд, вести по электронной почте.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="KDES"&gt;KDES&lt;/h2&gt;
-&lt;SashaDot&gt;KDES&lt;/SashaDot&gt; — каждая или почти ваша реплика снабжена облечёнными в грубую, оскорбительную форму отрицательными оценками. Тон и смысл слов донельзя предсказуемы. Просьба перейти на конструктивный лад, либо распрощаюсь с вами.
+&lt;span class="SashaDot"&gt;KDES&lt;/span&gt; — каждая или почти ваша реплика снабжена облечёнными в грубую, оскорбительную форму отрицательными оценками. Тон и смысл слов донельзя предсказуемы. Просьба перейти на конструктивный лад, либо распрощаюсь с вами.
 &lt;br /&gt;
 &lt;figure class="SashaSign"&gt;
-    &lt;img src="https://kristinita.ru/images/giologica/Настя_Изюмина.jpg" alt="Настя Изюмина" oncontextmenu="return false;"&gt;
+    &lt;img src="https://i.imgur.com/oavt5Lf.jpg" alt="Настя Изюмина" oncontextmenu="return false;"&gt;
     &lt;figcaption&gt;&lt;a href="https://vk.com/id3340728" target="_blank" title="Настя Изюмина"&gt;&lt;em&gt;Нас&lt;/em&gt;тя &lt;em&gt;Изю&lt;/em&gt;мина&lt;/a&gt;, (ср. &lt;em&gt;Nas Izu&lt;/em&gt;) чьё молчание автору этих строк, несмотря на многократные попытки заговорить с Ней, длится с 28 апреля 2015 года.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br clear="all"&gt;
 &lt;br /&gt;
 &lt;h2 id="KZAH"&gt;KZAH&lt;/h2&gt;
-&lt;SashaDot&gt;KZAH&lt;/SashaDot&gt; — прекращаю дискутировать по данной теме на этой площадке. Дело вовсе не в &lt;a href="http://enc-dic.com/michelson/V-chuzho-monastr-so-svoim-ustavom-ne-hodjat-1082.html" target="_blank" title="В чужой монастырь со своим уставом не ходят"&gt;неуважении местных законов&lt;/a&gt;, их верховенство как раз признаю. Но к сожалению, у меня определённо сформировалось мнение, что чин, статус, репутация, влияние, связи, опыт и тому подобное здесь имеют больший вес в сравнении с аргументированностью и неукоснительным следованием принятым правилам. Продолжаю оставаться при своём мнении, но повлиять им тут на что бы то ни было практически бессилен.
+&lt;span class="SashaDot"&gt;KZAH&lt;/span&gt; — прекращаю дискутировать по данной теме на этой площадке. Дело вовсе не в &lt;a href="http://enc-dic.com/michelson/V-chuzho-monastr-so-svoim-ustavom-ne-hodjat-1082.html" target="_blank" title="В чужой монастырь со своим уставом не ходят"&gt;неуважении местных законов&lt;/a&gt;, их верховенство как раз признаю. Но к сожалению, у меня определённо сформировалось мнение, что чин, статус, репутация, влияние, связи, опыт и тому подобное здесь имеют больший вес в сравнении с аргументированностью и неукоснительным следованием принятым правилам. Продолжаю оставаться при своём мнении, но повлиять им тут на что бы то ни было практически бессилен.
 &lt;br /&gt;
 &lt;br /&gt; Вместе с акронимом желательно привести примеры, на чём основывается вывод о площадке:
 &lt;br /&gt;
@@ -5960,11 +5957,11 @@ OR OR OR
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="RNAZ"&gt;RNAZ&lt;/h2&gt;
-&lt;SashaDot&gt;RNAZ&lt;/SashaDot&gt; — простите, вне зависимости от моей позиции в обсуждении не считаю себя обязанным развивать его; это, имхо, пустая — а порой и немалая — трата нервов и времени, каковое привык расходовать на более важные, выгодные, приятные и интересные вещи. С вашего позволения, не видя, какую же пользу могу извлечь для себя и не только, сочту вопрос закрытым.
+&lt;span class="SashaDot"&gt;RNAZ&lt;/span&gt; — простите, вне зависимости от моей позиции в обсуждении не считаю себя обязанным развивать его; это, имхо, пустая — а порой и немалая — трата нервов и времени, каковое привык расходовать на более важные, выгодные, приятные и интересные вещи. С вашего позволения, не видя, какую же пользу могу извлечь для себя и не только, сочту вопрос закрытым.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="SBAR"&gt;SBAR&lt;/h2&gt;
-&lt;SashaDot&gt;SBAR&lt;/SashaDot&gt; — сдаётся мне, что вы пользуетесь &lt;a href="http://web.archive.org/web/20160306044838/http://xpomo.com/ruskolan/tolpa/demagog.htm"&gt;неконструктивными методами ведения дискуссии&lt;/a&gt;, чья концентрация превысила для меня допустимую. Продолжать в таком же тоне не намерен.
+&lt;span class="SashaDot"&gt;SBAR&lt;/span&gt; — сдаётся мне, что вы пользуетесь &lt;a href="http://web.archive.org/web/20160306044838/http://xpomo.com/ruskolan/tolpa/demagog.htm"&gt;неконструктивными методами ведения дискуссии&lt;/a&gt;, чья концентрация превысила для меня допустимую. Продолжать в таком же тоне не намерен.
 &lt;br /&gt;
 &lt;br /&gt; Вместе с акронимом желательно дополнительно указать:
 &lt;br /&gt;
@@ -5972,18 +5969,18 @@ OR OR OR
 &lt;br /&gt; (фраза 2 → Неконструктивный приём 2 и т. д.).
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;SashaDot&gt;ESTR&lt;/SashaDot&gt; и
-&lt;SashaDot&gt;KDES&lt;/SashaDot&gt; — разновидности
-&lt;SashaDot&gt;SBAR&lt;/SashaDot&gt;.
+&lt;span class="SashaDot"&gt;ESTR&lt;/span&gt; и
+&lt;span class="SashaDot"&gt;KDES&lt;/span&gt; — разновидности
+&lt;span class="SashaDot"&gt;SBAR&lt;/span&gt;.
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;h2 id="VALZ"&gt;VALZ&lt;/h2&gt;
-&lt;SashaDot&gt;VALZ&lt;/SashaDot&gt; — не могу согласиться с совокупностью положений, на которых основываются ваши мнения, &lt;a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Вэлериворк"&gt;т. н. Valerywork'ом&lt;/a&gt;. За редкими исключениями, к коим не относится наш случай, я принимаю за факт лишь &lt;a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Киравэл"&gt;Kiravel&lt;/a&gt; — те устоявшиеся мнения, насчёт которых в науке на настоящий момент сложился чёткий консенсус.&lt;/p&gt;</content><category term="giologica"></category><category term="gingerinas-training"></category></entry><entry><title>Ннр, новые недовольные русские, поколение фу</title><link href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Smert-svobode/Новые-недовольные-русские.html</id><summary type="html"></summary><content type="html">&lt;div class="SashaShadow"&gt;
+&lt;span class="SashaDot"&gt;VALZ&lt;/span&gt; — не могу согласиться с совокупностью положений, на которых основываются ваши мнения, &lt;a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Вэлериворк"&gt;т. н. Valerywork'ом&lt;/a&gt;. За редкими исключениями, к коим не относится наш случай, я принимаю за факт лишь &lt;a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Киравэл"&gt;Kiravel&lt;/a&gt; — те устоявшиеся мнения, насчёт которых в науке на настоящий момент сложился чёткий консенсус.&lt;/p&gt;</content><category term="giologica"></category><category term="gingerinas-training"></category></entry><entry><title>Ннр, новые недовольные русские, поколение фу</title><link href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Smert-svobode/Новые-недовольные-русские.html</id><summary type="html"></summary><content type="html">&lt;div class="SashaShadow"&gt;
 &lt;p&gt;Психологи пишут, что вы «нормальные», я считаю вас мразью. Вместе с вашими психологами.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="SashaEpigraph"&gt;&lt;/div&gt;
 &lt;h2&gt;1. Ннр (на примере сайта Sports.ru)&lt;/h2&gt;
-&lt;p&gt;&lt;sashaversion&gt;Версия 0.5, &lt;time datetime="2016-04-10T00:50:00 07:00"&gt;5 августа 2016&lt;/time&gt;&lt;img alt="Alt attribute fish" src="https://2no.co/1DD46.jpg"&gt; &lt;/sashaversion&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="SashaBig"&gt;Версия 0.5, &lt;time datetime="2016-04-10T00:50:00 07:00"&gt;5 августа 2016&lt;/time&gt;&lt;img alt="Alt attribute fish" src="https://2no.co/1DD46.jpg"&gt; &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/mv73W61.jpg"&gt;&lt;/p&gt;
 &lt;div class="SashaEpigraph"&gt;
 &lt;p&gt;&lt;em&gt;Русский (a Russian) — Тот, кто постоянно находится в состоянии депрессии, видит мир в чёрных красках.&lt;/em&gt;
@@ -6051,9 +6048,9 @@ OR OR OR
 &lt;p&gt;&lt;sup&gt;&lt;em&gt;Обратите внимание на дату.&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src="https://i.imgur.com/KcLzfJC.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/0B1dIrF.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/KcLzfJC.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/0B1dIrF.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://archive.ec/FdlSe" target="_blank"&gt;обсценной лексикой&lt;/a&gt;, а один из &lt;a href="http://archive.ec/xTF9O" target="_blank"&gt;графиков&lt;/a&gt;, нарисованный в лучших традициях &lt;a href="http://ruxpert.ru/%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D1%8B:%D0%9E%D0%B1%D1%80%D0%B5%D0%B7_%D0%91%D0%BB%D1%83%D0%BC%D0%B1%D0%B5%D1%80%D0%B3%D0%B0" target="_blank"&gt;обреза Блумберга&lt;/a&gt;, производит более наглядное впечатление, чем выведенный в книге Дарелла Хаффа «&lt;a href="https://docs.zoho.com/file/3fy4o841007d31f974d508233a171cf608f44" target="_blank"&gt;Как лгать при помощи статистики&lt;/a&gt;».&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.gyazo.com/e5b62b06e37e7207a304d2c55b2a0f68.png" class="Sasha470" /&gt; &lt;img src="https://i.gyazo.com/2d99f1d416a8db4a1ac97a3d55060d06.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.gyazo.com/e5b62b06e37e7207a304d2c55b2a0f68.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.gyazo.com/2d99f1d416a8db4a1ac97a3d55060d06.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;А &lt;a href="http://www.sports.ru/poll/football/1041826877.html" target="_blank"&gt;такие&lt;/a&gt; опросы у них на заглавной странице:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/JHmkMB7.png"&gt;&lt;/p&gt;
 &lt;p&gt;Не все материалы уровнем с перечисленными в &lt;a href="http://archive.ec/XrGp3" target="_blank"&gt;данной записи&lt;/a&gt;, но таких предостаточно: к примеру, за авторством &lt;a href="http://archive.ec/dX1kq" target="_blank"&gt;Романа Муна&lt;/a&gt;, &lt;a href="http://archive.ec/d6u73" target="_blank"&gt;Андрея Пономарёва&lt;/a&gt; или блога «&lt;a href="http://archive.ec/xZnXv" target="_blank"&gt;Мемом Единым&lt;/a&gt;»:&lt;/p&gt;
@@ -6082,7 +6079,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;&lt;a id="Определение-ннр"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.2. Определение ннр&lt;/h3&gt;
 &lt;div class="SashaBlockquote"&gt;
-&lt;p&gt;&lt;strong&gt;Новые недовольные русские&lt;/strong&gt; (&lt;em&gt;сокр.&lt;/em&gt; &lt;sashadot&gt;ннр&lt;/sashadot&gt;, &lt;em&gt;уничиж.&lt;/em&gt; &lt;sashadot&gt;ннр-ня&lt;/sashadot&gt;, &lt;sashadot&gt;ннр-нятина&lt;/sashadot&gt;, &lt;sashadot&gt;mauris ordinaria&lt;/sashadot&gt;, ум.-ласк &lt;sashadot&gt;ннр-няши&lt;/sashadot&gt;, также &lt;sashadot&gt;поколение фу&lt;/sashadot&gt;, ) — поколение недовольства всем и вся, выраженным в относительно примитивной грубой форме.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Новые недовольные русские&lt;/strong&gt; (&lt;em&gt;сокр.&lt;/em&gt; &lt;span class="SashaDot"&gt;ннр&lt;/span&gt;, &lt;em&gt;уничиж.&lt;/em&gt; &lt;span class="SashaDot"&gt;ннр-ня&lt;/span&gt;, &lt;span class="SashaDot"&gt;ннр-нятина&lt;/span&gt;, &lt;span class="SashaDot"&gt;mauris ordinaria&lt;/span&gt;, ум.-ласк &lt;span class="SashaDot"&gt;ннр-няши&lt;/span&gt;, также &lt;span class="SashaDot"&gt;поколение фу&lt;/span&gt;, ) — поколение недовольства всем и вся, выраженным в относительно примитивной грубой форме.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Разберём по пунктам:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;«Новые недовольные русские»&lt;/em&gt; — обыгрывается устойчивое выражение «новый русский». Тем не менее, ннр необязательно лицо русской национальности: украинец, татарин или таджик, уверенно владеющие русским языком, также могут принадлежать к поколению фу. То есть, имеется в виду языковая среда, и более корректно было бы назвать понятие «новые недовольные русскоязычные». Уверен, что аналоги новых недовольных русских существуют и в других культурах, но по причине недостаточной моей ознакомленности и признания убедительной «&lt;a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BE%D1%82%D0%B5%D0%B7%D0%B0_%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8" target="_blank"&gt;гипотезы Сепира — Уорфа&lt;/a&gt;» решил не распространять термин за пределы русского языка. &lt;a href="http://www.sports.ru/biathlon/1038180362.html" target="_blank"&gt;Говорят&lt;/a&gt;, что в западных странах дела обстоят получше, да мне не представлялось много возможностей лично убедиться или опровергнуть это.&lt;/p&gt;
@@ -6099,7 +6096,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;/div&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/5-18/img_full/196426.jpeg"&gt;&lt;/p&gt;
 &lt;p&gt;Ещё иллюстрация низкого уровня направленного мышления: проиграл — для ннр ты дно, выиграл — нет, не «ты король», ведь получается, ни в чей адрес не выражается недовольства, — то дно, ничтожество, позорник уже твой противник. В глобальном плане. Оказываются перечёркнутыми предыдущие достижения, — так, в 2015 футбольный клуб «Барселона» выиграл требл: Примеру, Кубок Короля и Лигу Чемпионов, а тренер команды Луис Энрике был назван ФИФА тренером года.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/zUrTVKJ.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/lZwZbKY.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/SfN37mP.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/zUrTVKJ.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/lZwZbKY.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/SfN37mP.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Да, «Барселона» проиграла, но зачем её оскорблять? Зачем вообще переходить на оскорбления?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -6113,7 +6110,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;Что у вас ассоциируется с «лихими девяностыми»? Многие вспомнят обнищание и резкое падение уровня жизни населения с выдвижением на авансцену олигархов и «новых русских», сумевших приспособиться к новым условиям. &lt;u&gt;Полная свобода для сволочи.&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;То же произошло с интернетом в России, долгие годы не подвергавшегося регулированию со стороны властных структур. Что предсказуемо, в сети обыкновенно стали высказываться отнюдь не вежливые и интеллектуальные аргументы. Отныне где нет контроля и безнаказанность — там новые недовольные русские, &lt;a href="http://archive.ec/kJvSQ" target="_blank"&gt;защищающие&lt;/a&gt; «свободное высказывание мнений»: оскорбительное &lt;a href="http://archive.ec/7fPRr" target="_blank"&gt;выставление оппонентов&lt;/a&gt; «безмозглыми домохозяйками» и «умственно-отсталыми».&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/5-20/img_full/196524.png"&gt;&lt;/p&gt;
-&lt;p&gt;Масса ннр неоднородна по структуре: к ним относятся как нынешние и недавние засиживающиеся в пабликах школьники с манерой речи, изобилующей &lt;a href="" target="_blank"&gt;мемами&lt;/a&gt;, как то «лол», «ыы»; выпадением гласных («крч» вместо «короче») и бесцеремонным обращением на «ты»,&lt;/p&gt;
+&lt;p&gt;Масса ннр неоднородна по структуре: к ним относятся как нынешние и недавние засиживающиеся в пабликах школьники с манерой речи, изобилующей мемами, как то «лол», «ыы»; выпадением гласных («крч» вместо «короче») и бесцеремонным обращением на «ты»,&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/5-18/img_full/196410.png"&gt;&lt;/p&gt;
 &lt;p&gt;так и &lt;a href="http://anima-kommunizm.forum2x2.ru/t166-topic" target="_blank"&gt;настоящие мужики&lt;/a&gt;, не боясь общественного порицания, повествующие о &lt;a href="http://archive.ec/WfyOI" target="_blank"&gt;заедании пива сыром&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/5-18/img_full/196407.jpeg"&gt;&lt;/p&gt;
@@ -6136,16 +6133,16 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;Вежливый человек отблагодарит за работу, результаты которой он пожинает бесплатно, просто так, и промолчит, если она плоха. Ннр промолчит в счёт хорошей и обматерит за плохую.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Помимо, собственно, наличия множества оценок, новых недовольных русских отличает их негативная коннотация. &lt;u&gt;Вечное недовольство — главная особенность новых недовольных русских и умнорожих&lt;/u&gt;, остальные, о которых ведётся речь в пределах данной статьи, им могут быть не присущи. &lt;a href="http://www.sports.ru/football/1040692950.html" target="_blank"&gt;Спортсмен пошутил&lt;/a&gt;, никого не задевая, &lt;a href="http://archive.ec/CsMOs" target="_blank"&gt;ннр негодуют&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/YUsvYxP.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/liS9OMR.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/Qdnbi50.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/YUsvYxP.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/liS9OMR.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/Qdnbi50.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Причём, не суть важно над чем гневаться, самой позицией или ей противоположной. Если ту же мысль, что в комментариях от поколения фу &lt;a href="http://archive.ec/9eu1W" target="_blank"&gt;собирала трёхзначное количество плюсов&lt;/a&gt;, выскажет человек, не имеющий однозначной устойчивой репутации среди ннр, в топе нередко оказываются &lt;a href="http://archive.ec/14lKI" target="_blank"&gt;недовольства уже обратного свойства&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/HdYc8a4.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/AM1oWgi.png" class="Sasha470" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/aCn7j88.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/fSBEWU8.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/HdYc8a4.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/AM1oWgi.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/aCn7j88.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/fSBEWU8.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;А вот типичные лаконичные комментарии «&lt;a href="http://archive.ec/xsSGe" target="_blank"&gt;главного шутника&lt;/a&gt;» Sports.ru:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/5-18/img_full/196399.png"&gt;&lt;/p&gt;
 &lt;p&gt;Кроме оскорбления Луи ван Гала «муляжом тренера» вроде бы никаких демагогических приёмов в словах AlexandR не содержится. Однако в каждом сообщении содержится недовольство: руководством «Манчестер Юнайтед», российской пропагандой, тем же ван Галом, судейством или Андре Виллаш-Боашем, — зайдя в &lt;a href="http://www.sports.ru/profile/73531811/comments/" target="_blank"&gt;профиль&lt;/a&gt;, можно убедиться, что количество объектов для негодования исчисляется сотнями. Одного-двух озлобленных замечаний от человека недостаточно, чтобы делать выводы о принадлежности к ннр или умнорожим, но если они исходят &lt;a href="http://www.sports.ru/profile/148024348/comments/" target="_blank"&gt;постоянно&lt;/a&gt; — перед вами true представитель одного из этих двух классов.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/qg0aoMw.png" class="Sasha700" /&gt;&lt;img src="https://i.imgur.com/jspxYeV.png" class="Sasha700" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/qg0aoMw.png" class="Sasha700" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/jspxYeV.png" class="Sasha700" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Нельзя благодарить &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Бога&lt;/a&gt; и судьбу за всё, что ни творится, иначе сильные мира сего быстренько сядут на голову. На планете, в стране и каждом дворе совершаются несправедливости, про которые можно и нужно говорить, а ещё лучше — действовать; но не &lt;a href="http://pda.sports.ru/football/1035048833.html" target="_blank"&gt;раздражаться&lt;/a&gt; по поводу &lt;a href="http://archive.ec/c4Exg" target="_blank"&gt;каждой мелочи&lt;/a&gt;, омрачняя жизнь как себе, так и людям.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/bWsAOCp.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/Gc6Z9fz.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/bWsAOCp.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/Gc6Z9fz.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;div class="SashaCenter"&gt;
 &lt;p&gt;&lt;em&gt;Спро́сите, Петкун тоже чтоль ннр? Почему бы и нет в данном случае? Черты новых недовольных русских в большей или меньшей степени присутствуют в каждом из нас.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -6165,7 +6162,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;h3&gt;1.6. Оскорбления&lt;/h3&gt;
 &lt;p&gt;Оскорбления — &lt;a href="http://criminal_law.academic.ru/1580/%D0%9E%D0%A1%D0%9A%D0%9E%D0%A0%D0%91%D0%9B%D0%95%D0%9D%D0%98%D0%95" target="_blank"&gt;в бытовом, а не юридическом смысле&lt;/a&gt; — наиболее распространённые разговорные средства ннр-ов. &lt;strong&gt;Оскорбление&lt;/strong&gt; — &lt;u&gt;именование кого- или чего-либо словами с негативным эмоциональным оттенком.&lt;/u&gt; Им не всегда является нецензурная лексика: «х.й» — это мат, «Дима х.й» — уже оскорбление (далее по тексту &lt;em&gt;о.&lt;/em&gt;), поскольку бранным термином назван некий Дима. Не всякая фраза, выражающая негативную оценку, является о.: «он плохой человек» в отличие от «он говённый человек», т.к. слово «плохой» в целом не несёт «негативного эмоционального оттенка». Ирония и сарказм по определению являются оскорблениями.&lt;/p&gt;
 &lt;p&gt;Хорошо или плохо оценивается понятие либо явление — напрямую обусловлено социальной средой: одно и то же словосочетание считается оскорблением или нет, в зависимости от того, где оно было произнесено. Так, в ЛГБТ-сообществе не найдут предосудительного в термине «гей», тогда как на Sports.ru тем, в отношении кого есть хотя бы подозрение на гомосексуальность, &lt;a href="http://www.sports.ru/tribuna/blogs/gremio/331282.html" target="_blank"&gt;приходится ой как несладко&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/UaSPwPr.png" class="Sasha700" /&gt; &lt;img src="https://i.imgur.com/kyiXKF8.png" class="Sasha700" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/UaSPwPr.png" class="Sasha700" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/kyiXKF8.png" class="Sasha700" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;div class="SashaCenter"&gt;
 &lt;p&gt;&lt;em&gt;Обратите внимание на самый первый комментарий, не содержащий обвинений, мата и агрессии. Вроде как де Зеув даже оправдывается. Но мы понимаем, где и среди чего он был произнесён, так что есть уверенность — имел место быть сарказм.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -6216,7 +6213,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;&lt;strong&gt;Drug Attack&lt;/strong&gt; — оскорбление понятиями, связанными с наркотическими веществами.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Например: «Что курил автор?», «Хиппарь — значит, травокур», «Шевчук — водка, БГ — трава».&lt;/p&gt;
-&lt;p&gt;&lt;sashaspan&gt;&lt;strong&gt;Alc Attack&lt;/strong&gt;&lt;/sashaspan&gt; — терминами, как-либо связанные с алкоголем — «Чё ты как алкаш шатаешься?»; &lt;sashaspan&gt;&lt;strong&gt;Naz Attack&lt;/strong&gt;&lt;/sashaspan&gt; — о. по национальному признаку «Yankee go home!», «Идёт кацап по городу»; &lt;sashaspan&gt;&lt;strong&gt;Mor Attack&lt;/strong&gt;&lt;/sashaspan&gt; — уничижительные морфемы: «Дзюба игрочишка» вместо «игрок», «Мэджик спидозник», а не «У Мэджика СПИД» и т. д., — продолжайте список сами, если интересно. О. сочетаются меж собой: одно слово или тем паче фраза может относиться сразу к нескольким типам оскорблений.&lt;/p&gt;
+&lt;p&gt;&lt;span class="SashaSpan"&gt;&lt;strong&gt;Alc Attack&lt;/strong&gt;&lt;/span&gt; — терминами, как-либо связанные с алкоголем — «Чё ты как алкаш шатаешься?»; &lt;span class="SashaSpan"&gt;&lt;strong&gt;Naz Attack&lt;/strong&gt;&lt;/span&gt; — о. по национальному признаку «Yankee go home!», «Идёт кацап по городу»; &lt;span class="SashaSpan"&gt;&lt;strong&gt;Mor Attack&lt;/strong&gt;&lt;/span&gt; — уничижительные морфемы: «Дзюба игрочишка» вместо «игрок», «Мэджик спидозник», а не «У Мэджика СПИД» и т. д., — продолжайте список сами, если интересно. О. сочетаются меж собой: одно слово или тем паче фраза может относиться сразу к нескольким типам оскорблений.&lt;/p&gt;
 &lt;p&gt;Слова не носят оскорбительный характер по определению, оскорбительны те, которые считает таковыми сообщество. Так, несведущему человеку, увидевшему популярную фразу «&lt;a href="http://www.sports.ru/tribuna/blogs/zayebca/732117.html" target="_blank"&gt;Что я только что прочитал&lt;/a&gt;»? может показаться, что её произнёсший действительно чего-то недопонимает.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/6-1/img_full/197177.png"&gt;&lt;/p&gt;
 &lt;p&gt;Пролистав же соседние комментарии или дополнения к фразе, приходит понимание, что в кругах поколения фу она означает примерно следующее:&lt;/p&gt;
@@ -6229,7 +6226,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;&lt;strong&gt;Doc Attack&lt;/strong&gt; — оскорбления выражениями, имеющими то или иное отношение к психолого-психиатрической тематике.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Не ннр-ами едиными жив Doc Attack: &lt;a href="http://www.dm-dobrov.ru/publicism/suvorov.html" target="_blank"&gt;Дмитрий Добров&lt;/a&gt;, историк-востоковед:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/WuiqT4J.png" class="Sasha470" /&gt;&lt;img src="https://i.imgur.com/g2EaKKf.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/WuiqT4J.png" class="Sasha470" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/g2EaKKf.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Первая категория Doc Attack — общемедицинские, анатомические термины, чей оскорбительный психиатрический смысл проясняется из контекста: &lt;em&gt;Ты чё, больной, русский язык не понимаешь?&lt;/em&gt; — «больной» не сердцем или животом, &lt;em&gt;санитары уже выехали&lt;/em&gt; (отвозить в психиатрическое учреждение). В &lt;a href="http://archive.ec/gwKO7" target="_blank"&gt;следующем примере&lt;/a&gt;, надо полагать, подразумевалась вовсе не мигрень.&lt;/li&gt;
 &lt;/ol&gt;
@@ -6248,8 +6245,8 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;Из цитаты следует, что о. вроде «&lt;em&gt;Ты клинический идиот, это доказанный медицинский факт&lt;/em&gt;» не имеют под собой оснований ещё и потому, что данные термины уже давным-давно вышли из медицинской практики.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Нионкоры"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.9. Нионкоры&lt;/h3&gt;
-&lt;p&gt;&lt;sashatopquote&gt;"&lt;/sashatopquote&gt;&lt;sashacitation&gt; Надела короткую юбку – хочет быть изнасилованной. Завела второго ребёнка — боится выходить на работу. Сидит, скрестив ноги? Чувствует себя неуверенно. Учат иностранный язык? Собираются эмигрировать.&lt;/p&gt;
-&lt;p&gt;Ну и прочая отвратительная белиберда, которую многие почему-то считают «психологией» и за которой, кстати, идут на психфак.&lt;/sashacitation&gt;&lt;sashabottomquote&gt;"&lt;/sashabottomquote&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="SashaTopQuote"&gt;"&lt;/span&gt;&lt;span class="SashaCitation"&gt; Надела короткую юбку – хочет быть изнасилованной. Завела второго ребёнка — боится выходить на работу. Сидит, скрестив ноги? Чувствует себя неуверенно. Учат иностранный язык? Собираются эмигрировать.&lt;/p&gt;
+&lt;p&gt;Ну и прочая отвратительная белиберда, которую многие почему-то считают «психологией» и за которой, кстати, идут на психфак.&lt;/span&gt;&lt;span class="SashaBottomQuote"&gt;"&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Несмотря на неотвеченный вопрос в заголовке, &lt;a href="http://live-and-learn.ru/catalog/article/kak-vylechit-privychku-k-vyneseniyu-otsenochnykh-suzhdeniy/" target="_blank"&gt;статья&lt;/a&gt;, из которой взята цитата, мне очень приглянулась. Однако в ней не нашёлся подходящий термин для описания явления, о котором ведётся речь в данном разделе. «Оценочные суждения» высказываются про общую теорию поля и оперу Тухманова «Царица», а не только о наших мыслях; симптомальное же чтение — это взгляд частного детектива на особняк и его обитателей (с). Не уверен, что у поколения фу «взгляды детективов», да и опять же, исходя из определения, оно может относиться не только к внутреннему миру человека. В общем, «оценочное суждение» и «симптомальное чтение» — не то, что:&lt;/p&gt;
 &lt;div class="SashaBlockquote"&gt;
 &lt;p&gt;&lt;strong&gt;Нионко́р&lt;/strong&gt; — утверждение о том, что думает кто-либо, снабжённое негативной оценкой.&lt;/p&gt;
@@ -6279,7 +6276,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;ДСН весьма ценится в среде ннр равно как и &lt;a href="http://archive.ec/q5QJG" target="_blank"&gt;её составляющие&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/6-5/img_full/197337.png"&gt;&lt;/p&gt;
 &lt;p&gt;А &lt;a href="http://archive.ec/LpbuR" target="_blank"&gt;попробуйте-ка&lt;/a&gt; &lt;a href="http://www.sports.ru/football/1034297217.html" target="_blank"&gt;похвалить себя&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/pqkwo6W.png" class="Sasha470" /&gt;&lt;img src="https://i.imgur.com/z91jq3e.png" class="Sasha470" /&gt;&lt;img src="https://i.imgur.com/O7sf5IV.png" class="Sasha470" /&gt;&lt;img src="https://i.imgur.com/yfdQQbb.png" class="Sasha470" /&gt;&lt;img src="https://i.imgur.com/vLFFFzn.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/pqkwo6W.png" class="Sasha470" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/z91jq3e.png" class="Sasha470" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/O7sf5IV.png" class="Sasha470" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/yfdQQbb.png" class="Sasha470" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/vLFFFzn.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Опасения, что с какого-то IP послышится нечто вроде «Он ещё пиарится. Ты кусок гуано, ахахах!» лишает радости маленьких побед. С научной же точки зрения&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;событие — оно есть, ни хорошее, ни плохое, просто существует и не несёт в себе какой-то имманентной оценки.&lt;/p&gt;
@@ -6298,13 +6295,13 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;Меньешами являются дежурные поздравления — «Искренне желаю вам счастья!» — и показные проявления радости, заботы — «Безумно рад вашему выздоровлению!» — однако позитив, пусть и фальшивый, — &lt;a href="http://www.sports.ru/profile/3299557/status/1037747/" target="_blank"&gt;не про ннр&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/6-8/img_full/197453.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kristinita.ru/#gsc.tab=0&amp;amp;gsc.q=%D1%83%D0%BC%D0%B8%D0%BB%D1%8F%D1%82%D1%8C" target="_blank"&gt;Умилять&lt;/a&gt; — «разжалобить, растрогать, трогать, расшевелить», что из этого испытывал автор комментария? Вероятней всего, ничего: слово «умилять» выражает ныне, в основном, меньеши.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/oRfVS3T.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/oRfVS3T.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;О чём уже ум&lt;strong&gt;о&lt;/strong&gt;ляет &lt;a href="http://archive.ec/Yah1w" target="_blank"&gt;пользователь Machete&lt;/a&gt;? И что забавного, т. е. &lt;a href="https://kristinita.ru/#gsc.tab=0&amp;amp;gsc.q=%D0%B7%D0%B0%D0%B1%D0%B0%D0%B2%D0%BD%D0%BE" target="_blank"&gt;смешного, комичного&lt;/a&gt; &lt;a href="http://www.sports.ru/football/141048291.html" target="_blank"&gt;в относительно&lt;/a&gt; &lt;a href="http://m.sports.ru/football/141048291.html?get=comments" target="_blank"&gt;более интересной&lt;/a&gt; игре сборной Германии?&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/z8ofT8o.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/yXjZHPr.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/z8ofT8o.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/yXjZHPr.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Впрочем, человек вполне может умолять, умиляться и забавляться, несмотря на то что обычно эти слова обозначают меньеши, — зависит от контекста.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Демагогические приёмы&lt;/strong&gt; — материалов по ним &lt;a href="http://ruxpert.ru/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE_%D1%81%D0%BF%D0%BE%D1%80%D0%B0_%28%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D1%8E%D1%89%D0%B8%D0%B5_%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%29" target="_blank"&gt;предостаточно&lt;/a&gt;, однако ни один из них не удовлетворяет меня в полной мере ввиду своей непроработанности и/или же отражающихся на содержании взглядов авторов; некоторые свои соображения по ним я выкладываю в рамках &lt;a href="%7Bfilename%7D/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.md" target="_blank"&gt;данной&lt;/a&gt; статьи. Из того, что имеем, лучшим материалом мне представляется &lt;a href="%7Bfilename%7D/Giologica/Демагогия-Нестеренко.md" target="_blank"&gt;классификация&lt;/a&gt; русскоязычного американца Юрия Нестеренко по большей части в силу следующей указанной Юрием причины: «Неудивительно, что и перечни демагогических приёмов (написанные, естественно, не в помощь демагогам, а для облегчения борьбы с ними) составлялись неоднократно. Однако, как правило, такие перечни представляют собой простое перечисление, без попыток классификации и систематизации; в данной статье я предпринимаю такую попытку.»&lt;/p&gt;
 &lt;p&gt;Для новых недовольных русских характерны &lt;a href="http://web.archive.org/web/20150615162941/http://www.xpomo.com/ruskolan/tolpa/piramida.htm" target="_blank"&gt;низкоинтеллектуальные&lt;/a&gt; демагогические приёмы. Так, на Sports.ru обсуждают не сами фразы, а &lt;a href="http://archive.ec/5T9Ib" target="_blank"&gt;тех, кто их произнёс&lt;/a&gt; — переход на личности, &lt;a href="https://kristinita.ru/#gsc.tab=0&amp;amp;gsc.q=ad%20hominem" target="_blank"&gt;ad hominem&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/lthCdLx.png" class="Sasha470" /&gt;&lt;img src="https://i.imgur.com/6b4jnsP.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/lthCdLx.png" class="Sasha470" alt="ImageDescription"&gt;&lt;img src="https://i.imgur.com/6b4jnsP.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Поколение фу при каждом представившемся случае будет припоминать и педалировать негативные черты, какими бы нелепыми, несуразными они не казались. Нацарапают на заборе, что тренер Леонид Слуцкий — педофил, &lt;a href="http://archive.ec/W5Thy" target="_blank"&gt;ннр подхватят&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/6-6/img_full/197359.png"&gt;&lt;/p&gt;
 &lt;p&gt;Встречающийся едва ли не на каждом шагу приём — &lt;strong&gt;использование ненейтральных формулировок&lt;/strong&gt; или &lt;strong&gt;Termini&lt;/strong&gt;, в терминологии «&lt;a href="http://lib.ru/SOCFANT/CHAPEK/gazeta.txt" target="_blank"&gt;12 приёмов литературной полемики&lt;/a&gt;» Чапека:&lt;/p&gt;
@@ -6334,19 +6331,19 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;&lt;a id="Цели"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.12. Цели&lt;/h3&gt;
 &lt;p&gt;В предыдущих разделах повествовалось про средства ннр-ов — как они недовольны, в данном о целях — чем недовольны.&lt;/p&gt;
-&lt;p&gt;&lt;a href="#Definition"&gt;Выше&lt;/a&gt; только говорилось, что представители поколения фу могут быть возмущены всем и вся. Когда чей-то поступок не соответствует взглядам нового недовольного русского, он выдвигает &lt;a href="http://archive.ec/Z9j5Q" target="_blank"&gt;претензию&lt;/a&gt; (также &lt;sashadotlight&gt;обвинение&lt;/sashadotlight&gt;) — &lt;u&gt;мнение, явным или нет образом выражающее, что объект претензии должен поступать определённым образом&lt;/u&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/BBul8Oy.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/QXLtVsI.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#Definition"&gt;Выше&lt;/a&gt; только говорилось, что представители поколения фу могут быть возмущены всем и вся. Когда чей-то поступок не соответствует взглядам нового недовольного русского, он выдвигает &lt;a href="http://archive.ec/Z9j5Q" target="_blank"&gt;претензию&lt;/a&gt; (также &lt;span class="SashaDotLight"&gt;обвинение&lt;/span&gt;) — &lt;u&gt;мнение, явным или нет образом выражающее, что объект претензии должен поступать определённым образом&lt;/u&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/BBul8Oy.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/QXLtVsI.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Обвинение не является видом неконструктивного ведения дискуссии имманентно. Встречаются обоснованные, базирующиеся на жизнеутверждающих принципах, не только свойственные ннр реакции на каждый чих и издёвки над чьими-то проблемами со здоровьем.&lt;/p&gt;
 &lt;p&gt;От истинного нового недовольного русского не услышать слов жалости и сострадания. &lt;a href="http://archive.ec/Vp0E3" target="_blank"&gt;Реакция&lt;/a&gt; на травму футболиста:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/ZB1Kojb.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/aKCRn2i.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/Hes5All.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/ZB1Kojb.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/aKCRn2i.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/Hes5All.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Или после признания спортсменки, что её посещали &lt;a href="http://archive.ec/PTYxe" target="_blank"&gt;мысли о самоубийстве&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/NZdk0mE.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/jAoGUrl.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/NZdk0mE.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/jAoGUrl.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Легче всего новому недовольному русскому травить тех, кто не в состоянии достойно ответить: &lt;a href="#Insults"&gt;достаётся&lt;/a&gt; разного рода меньшинствам. Худо приходится и вступающимся за наиболее уязвимых индивидов: &lt;a href="http://archive.ec/lC1J1" target="_blank"&gt;зоозащитникам&lt;/a&gt;,&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/592cCqC.png" class="Sasha700" /&gt; &lt;img src="https://i.imgur.com/nHpKNuU.png" class="Sasha700" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/592cCqC.png" class="Sasha700" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/nHpKNuU.png" class="Sasha700" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;ведь «&lt;a href="http://archive.ec/KVRBV" target="_blank"&gt;адекватные люди отмолчатся или пошутят&lt;/a&gt;», глядя на фотографии застреленных животных;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.gyazo.com/28ce1c24e41c465410b8ee603f39ecbe.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.sports.ru/basketball/1038385264.html" target="_blank"&gt;правозащитникам&lt;/a&gt; &lt;a href="http://archive.ec/FGM5m" target="_blank"&gt;тоже&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/JbN3v0m.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/w3VmjGr.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/JbN3v0m.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/w3VmjGr.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Совместно с &lt;a href="https://kristinita.ru/#gsc.tab=0&amp;amp;gsc.q=%D0%B4%D0%B8%D1%81%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F" target="_blank"&gt;обычно выделяемыми&lt;/a&gt; разновидностями дискриминации, распространённой в среде ннр, я использую собственный термин.&lt;/p&gt;
 &lt;div class="SashaBlockquote"&gt;
 &lt;p&gt;&lt;strong&gt;Эмоциональная дискриминация&lt;/strong&gt; — действия, направленные против личности с не причиняющими вреда другими поведенческими характеристиками.&lt;/p&gt;
@@ -6368,18 +6365,18 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;или &lt;a href="http://www.sports.ru/profile/14986000/comments/?p=388" target="_blank"&gt;настоящим&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/7XKfGMi.png"&gt;&lt;/p&gt;
 &lt;p&gt;уже накопил денег достаточно на безбедное существование. &lt;a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)#.D0.90.D0.BA.D1.82.D1.83.D0.B0.D0.BB.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D0.BE.D0.BD.D0.BD.D1.8B.D0.B5_.D0.BA.D0.B0.D1.82.D0.B5.D0.B3.D0.BE.D1.80.D0.B8.D0.B8_.D0.BC.D0.BE.D0.B4.D1.83.D1.81.D0.B0" target="_blank"&gt;Дебитивная модальность&lt;/a&gt; «должен» употребляется новыми недовольными русскими вместе с синонимами слова «пахать». &lt;a href="http://www.sports.ru/biathlon/1028215981.html" target="_blank"&gt;По версиям ннр&lt;/a&gt;, не нужно получать удовольствие от тренировок, иметь доверительные взаимоотношения с тренерским штабом. Как указали сверху, &lt;a href="http://archive.ec/1YmfI" target="_blank"&gt;так и делай&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/j7XSuHN.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/dpdt446.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/FZTo0ZR.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/j7XSuHN.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/dpdt446.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/FZTo0ZR.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Будь добр &lt;a href="http://archive.ec/eQScC" target="_blank"&gt;не иметь&lt;/a&gt; взглядов на тренировочный процесс, собственное развитие.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/bObRKYr.jpg" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/YR5HNSC.jpg" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/bObRKYr.jpg" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/YR5HNSC.jpg" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Не беда, что испытываешь огромные нагрузки, честно отрабатывая зарплату — &lt;a href="http://archive.ec/fwXoJ" target="_blank"&gt;обязан пахать&lt;/a&gt; &lt;a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D1%82%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80" target="_blank"&gt;ещё больше&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/9bWfKY7.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.sports.ru/tribuna/blogs/televizor3/822635.html?comments=1" target="_blank"&gt;Карьера&lt;/a&gt; — вот о чём могут &lt;a href="http://archive.ec/IqKDN" target="_blank"&gt;сожалеть&lt;/a&gt; новые недовольные русские, пусть тебе она глубоко фиолетова.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/TCFgItL.png" class="Sasha700" /&gt; &lt;img src="https://i.imgur.com/VDk14fF.png" class="Sasha700" /&gt; &lt;img src="https://i.imgur.com/L8oYuhq.png" class="Sasha700" /&gt; &lt;img src="https://i.imgur.com/PzMfDp8.png" class="Sasha700" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/TCFgItL.png" class="Sasha700" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/VDk14fF.png" class="Sasha700" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/L8oYuhq.png" class="Sasha700" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/PzMfDp8.png" class="Sasha700" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Если вы не числитесь в списках Forbes, олимпийских чемпионов, нобелевских или оскароносных лауреатов, — не иначе в реале анонимы со Sports.ru кто-то из вышеперечисленных, раз дают право оскорблять и осуждать себе, — будьте готовы к &lt;a href="http://archive.ec/9xWVP" target="_blank"&gt;аксонникам&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="SashaBlockquote"&gt;
 &lt;p&gt;&lt;strong&gt;Аксо́нник&lt;/strong&gt; — утверждения &lt;a href="https://kristinita.ru/#gsc.tab=0&amp;amp;gsc.q=ad%20hominem" target="_blank"&gt;ad hominem&lt;/a&gt; вида: «Ты кто такой?», «Чего ты добился?»&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/Y2eM0zX.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/QSD9YQD.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/Y2eM0zX.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/QSD9YQD.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;Если же после аксонников в свой адрес решили вкалывать денно и нощно, надеясь оказаться в числе великих по своей специальности, не грезьте, пожалуйста, что новые недовольные русские великодушно сменят гнев на милость: «Ладно, так уж и быть, добился, даём тебе разрешение открыть рот». Они вас откомментируют &lt;a href="http://www.sports.ru/tribuna/blogs/vitalysuvorov/857883.html" target="_blank"&gt;уже так&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="http://pix-x.net/allimage/2016/5-19/img_full/196480.png"&gt;&lt;/p&gt;
 &lt;p&gt;Как &lt;a href="http://www.e-reading.club/chapter.php/1039471/46/Tolstaya_-_Otec._Zhizn_Lva_Tolstogo.html" target="_blank"&gt;молвил&lt;/a&gt;, опять же, Лев Николаевич Толстой:&lt;/p&gt;
@@ -6387,7 +6384,7 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;&lt;em&gt;Чем лучше живёшь, тем больше врагов.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;К счастью, стремление к грёбаному успеху полностью поглотило не всех; остались люди, для которых &lt;a href="http://www.sports.ru/football/1040682633.html" target="_blank"&gt;дружба&lt;/a&gt; &lt;a href="http://archive.ec/QUwwY" target="_blank"&gt;не пустой звук&lt;/a&gt;, как бы не измывались над ними новые недовольные русские.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/tGwgR9T.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/a9RN7GH.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/tWa74wb.png" class="Sasha470" /&gt; &lt;img src="https://i.imgur.com/TMy9TyP.png" class="Sasha470" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/tGwgR9T.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/a9RN7GH.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/tWa74wb.png" class="Sasha470" alt="ImageDescription"&gt; &lt;img src="https://i.imgur.com/TMy9TyP.png" class="Sasha470" alt="ImageDescription"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Заключение"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.14. Заключение&lt;/h3&gt;
 &lt;p&gt;Случалось ли, что вы не находили себе места, задаваясь вопросом «почему» (новые недовольные русские настолько злы)? Тогда полезным для вас может оказаться следующее:&lt;/p&gt;
@@ -6484,94 +6481,93 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
 &lt;p&gt;После вайпов необходимо через кастомное рекавери &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=80#entry56070304" target="_blank"&gt;отформатировать раздел system&lt;/a&gt;, иначе после перепрошивки &lt;a href="http://4pda.ru/forum/index.php?s=&amp;amp;showtopic=788444&amp;amp;view=findpost&amp;amp;p=56066199" target="_blank"&gt;будет висеть логотип ARK&lt;/a&gt;, и дальше дело не двинется.&lt;/p&gt;
 &lt;h4&gt;3.3.4. Окончание перепрошивки&lt;/h4&gt;
 &lt;p&gt;В остальном инструкция для меня понятна. После успешной установки новой прошивки можно вновь установить Dr.Web и просканировать систему на наличие вирусов. На сей раз их быть не должно.&lt;/p&gt;
-&lt;p&gt;Если Вы делали бэкап, можно восстановить данные.&lt;/p&gt;</content><category term="ROM"></category><category term="android"></category></entry><entry><title>Sasha Black — проверка репутации сайта, на наличие его в чёрных списках</title><link href="https://kristinita.ru/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sasha-Black/Sasha-Black-description.html</id><summary type="html"></summary><content type="html">&lt;ul&gt;
-    &lt;li&gt;&lt;a href="#ForOwners"&gt;Sasha Black для владельцев сайтов&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Recommendations"&gt;Советы владельцам сайтов&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Aliens"&gt;Sasha Black как проверка сторонних сайтов&lt;/a&gt;&lt;/li&gt;
-    &lt;br /&gt;
-    &lt;h2&gt;1. &lt;a class="SashaHeading" href="#Scanners"&gt;Онлайн-сканеры&lt;/a&gt;&lt;/h2&gt;
-    &lt;li&gt;&lt;a href="#Quttera"&gt;Quttera&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Sucuri"&gt;Sucuri&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Is It Hacked?"&gt;Is It Hacked?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#VirusTotal"&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;
-    &lt;h2&gt;2. &lt;a class="SashaHeading" href="#DNSBL"&gt;Блэклисты&lt;/a&gt;&lt;/h2&gt;
-    &lt;li&gt;&lt;a href="#Robtex"&gt;Robtex&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#MX Toolbox"&gt;MX Toolbox&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Rosinstrument"&gt;Rosinstrument&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#URL Void"&gt;URL Void&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#vURL"&gt;vURL&lt;/a&gt;&lt;/li&gt;
-    &lt;h2&gt;3. &lt;a class="SashaHeading" href="#Reputation"&gt;Пользовательские оценки&lt;/a&gt;&lt;/h2&gt;
-    &lt;li&gt;&lt;a href="#Web of Trust"&gt;Web of Trust&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Webutation"&gt;Webutation&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Trustpilot"&gt;Trustpilot&lt;/a&gt;&lt;/li&gt;
-    &lt;br /&gt;
-    &lt;li&gt;&lt;a href="#NotIncluded"&gt;Не включены в Sasha Black&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Epilogue"&gt;Послесловие&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Glossary"&gt;Глоссарий&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#Thanks"&gt;Благодарности&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Если Вы делали бэкап, можно восстановить данные.&lt;/p&gt;</content><category term="ROM"></category><category term="android"></category></entry><entry><title>Sasha Black — проверка репутации сайта, на наличие его в чёрных списках</title><link href="https://kristinita.ru/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="ForOwners"&gt;Sasha Black для владельцев сайтов&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="#sasha-black-для-владельцев-сайтов"&gt;Sasha Black для владельцев сайтов&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Советы-владельцам-сайтов"&gt;Советы владельцам сайтов&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sasha-black-как-проверка-сторонних-сайтов"&gt;Sasha Black как проверка сторонних сайтов&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Онлайн-сканеры"&gt;Онлайн-сканеры&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#quterra"&gt;Quterra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sucuri"&gt;Sucuri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#is-it-hacked"&gt;Is It Hacked?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#virustotal"&gt;VirusTotal&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Блэклисты"&gt;Блэклисты&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#robtex"&gt;Robtex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#mx-toolbox"&gt;MX Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#rosinstrument"&gt;Rosinstrument&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#url-void"&gt;URL Void&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#vurl"&gt;vURL&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Пользовательские-оценки"&gt;Пользовательские оценки&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#web-of-trust"&gt;Web of Trust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#webutation"&gt;Webutation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#trustpilot"&gt;Trustpilot&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Не-включены-в-sasha-black"&gt;Не включены в Sasha Black&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Послесловие"&gt;Послесловие&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Глоссарий"&gt;Глоссарий&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Благодарности"&gt;Благодарности&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a id="sasha-black-для-владельцев-сайтов"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Sasha Black для владельцев сайтов&lt;/h2&gt;
 &lt;ol&gt; Вы — владелец, не собирающийся рассылать спам, размещать вредоносные коды и совершать прочие противоправные действия. Бесплатная проверка на Sasha Black может понадобиться Вам в ряде случаев:
     &lt;br /&gt;
     &lt;br /&gt;
     &lt;li&gt;Решили приобрести доменное имя. А оно может быть основательно запятнано. Если именно покупаете у прежнего владельца, а не регистрируете, &lt;a href="#Robtex"&gt;удостоверьтесь в наличии записи &lt;span style="background-color: silver; color: black"&gt;VERIFIED&lt;/span&gt;&lt;/a&gt;. &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;Подбираете хостинг. Обязательно погуглите о нём и пробейте его на Sasha Black, чтобы потом не удивлялись дорвеям в числе соседей по IP, чьё присутствие в блэклистах отразится и на Вас.&lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;На сайте &lt;a href="https://revisium.com/kb/virusonsite.html" target="_blank" title="Как сайт заражается вирусом?"&gt;без Вашей воли&lt;/a&gt; &lt;a href="https://habrahabr.ru/post/137071/" target="_blank" title="Расшифровка вредоносного Javascript"&gt; появилось вредоносное содержимое:&lt;/a&gt;
         &lt;br /&gt; а) Заражение компьютеров посетителей,
         &lt;br /&gt; б) Вероятно попадание в чёрные списки поисковых систем и антивирусных программ,
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/other_images/Предупреждение_Яндекса.jpg" alt="Предупреждение_Яндекса" border="0" &gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/other_images/Предупреждение_Аваста.jpg" alt="Предупреждение_Аваста" border="0" &gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/other_images/Предупреждение_Dr.Web'а.jpg" alt="Предупреждение_Dr.Web'а" border="0" &gt;
+        &lt;img src="https://i.imgur.com/3PuUXoV.jpg" alt="Предупреждение_Яндекса" border="0" &gt;
+        &lt;img src="https://i.imgur.com/9AByUaQ.jpg" alt="Предупреждение_Аваста" border="0" &gt;
+        &lt;img src="https://i.imgur.com/TPcexcq.jpg" alt="Предупреждение_Dr.Web'а" border="0" &gt;
         &lt;br clear="all"&gt;
         &lt;i&gt;Вряд ли многие зайдут на сайт, когда высвечиваются такие предупреждения.&lt;/i&gt;
         &lt;br /&gt;
         &lt;br /&gt; в) Высок шанс оказаться и в &lt;a href="#DNSBL"&gt;DNSBL&lt;/a&gt; — тогда почта будет расцениваться как спам,
         &lt;br /&gt; г) &lt;b&gt;Web of Trust&lt;/b&gt; (WOT). Аддон согласно &lt;a href="https://www.mywot.com/ru" target="_blank" title="Официальный сайт WOT"&gt;сведениям с официального сайта&lt;/a&gt; по состоянию на март 2016 года установлен более 140 млн раз, так что имеет смысл относиться к нему серьёзно: красный кружок — и Ваш ресурс лишится львиной доли посетителей. Некоторые пользователи ставят отрицательные оценки на основании данных упомянутых выше блэклистов, что и указывают в комментариях.
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/other_images/Комментарии_WOT.jpg" alt="Предупреждение_Аваста" border="0" &gt;&lt;img src="http://2no.co/1QBY.jpg"&gt;
+        &lt;img src="https://i.imgur.com/yDJ135R.jpg" alt="Предупреждение_Аваста" border="0"&gt;
         &lt;br clear="all"&gt; Подробнее о Web of Trust см. в &lt;a href="#Web of Trust"&gt;посвящённом ему разделе&lt;/a&gt;.
         &lt;br /&gt; д) Окажете медвежью услугу соседям по IP и хостингу,
         &lt;br /&gt; е) Приостановление предоставления услуг Вашим HSP.
     &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;Вы доверили вопросы безопасности специалистам, либо в состоянии разобраться сами. Сайт кристалльно чист, и тем не менее антивирусники и поисковики с завидной регулярностью не позволяют на него зайти, а привязанная к домену почта уходит в спам. Такое случается не только из-за скомпрометированной репутации хостера или соседних на IP с. (почему лучше получить &lt;a href="https://colocat.ru/texts/realip.html" target="_blank" title="Выделенный IP"&gt;выделенный&lt;/a&gt;), но и по причине &lt;a href="http://www.infocity.kiev.ua/inet/content/inet312.phtml" target="_blank" title="RBL — вред или польза"&gt;ложных срабатываний&lt;/a&gt;.&lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;Отслеживание отзывов о сайте. Видение в негативных оценках происков конкурентов верно лишь отчасти: стоит учитывать и то, что русскоязычные граждане чаще выражают негатив, нежели похвалу.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Recommendations"&gt;Советы владельцам сайтов&lt;/h2&gt;
+
+&lt;p&gt;&lt;a id="Советы-владельцам-сайтов"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Советы владельцам сайтов&lt;/h2&gt;
 &lt;ol&gt;Если Вам небезразличны безопасность и репутация:
     &lt;br /&gt;
     &lt;br /&gt;
     &lt;li&gt;В меру своих ресурсов следуйте многочисленным рекомендациям профессионалов в зависисмости от того, какой у Вас сайт. &lt;a href="http://aleksius.com/joomla/zashchita-sajta/zashchita-joomla-chast-1" target="_blank" title="Защита сайта на Joomla!"&gt;Пример для популярной CMS Joomla!&lt;/a&gt;. Со статическими с. &lt;a href="http://prgssr.ru/development/pochemu-generatory-staticheskih-sajtov-budut-populyarny.html#heading-section-1" target="_blank" title="Безопасность статических сайтов"&gt;проблем с безопасностью куда меньше&lt;/a&gt;. Осваивайте генераторы статики, &lt;a href="http://prgssr.ru/development/pochemu-generatory-staticheskih-sajtov-budut-populyarny.html" target="_blank" title="Почему статические сайты будут популярны"&gt;за ними будущее&lt;/a&gt;.&lt;/li&gt;
-    &lt;br /&gt;
-    &lt;li&gt;Периодически проверяйте сайты в Sasha Black :) . Находясь на странице &lt;a href="https://kristinita.ru/Sasha-Black" target="_blank" title=""&gt;&lt;a href="https://kristinita.ru/Sasha-Black"&gt;kristinita.ru/Sasha-Black&lt;/a&gt;&lt;/a&gt;, нажмите на
+    &lt;li&gt;Периодически проверяйте сайты в Sasha Black :) . Находясь на странице &lt;a href="https://kristinita.ru/Sasha-Black" target="_blank" title=""&gt;https://kristinita.ru/Sasha-Black&lt;/a&gt;, нажмите на
         &lt;input type="button" value="Ctrl"&gt;+
         &lt;input type="button" value="D"&gt; (в Windows), добавив её тем самым в закладки браузера.&lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;Где возможно, подтверждайте владение и подписывайтесь по почте на бесплатные уведомления о новых отзывах и автоматические отчёты по наличию с. в блэклистах.&lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;Оказавшись в чёрном списке, отправьте сообщение в техподдержку внёсшего Вас сервиса с просьбой объяснить причины. Часто показывается, какой именно элемент посчитан за вредоносный: если уверены, что там всё гладко, поясните это в сообщении. Пишите конструктивно, без наездов, в вежливой форме, — шансы на благоприятный исход повысятся. Он действительно обычно наступает после первого же Вашего письма без лишней нервотёпки. Вот если внесли повторно — очистить репутацию сложнее.&lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt;Не спешите отдавать деньги. Некоторые сервисы могут предложить вынести Ваш сайт из блэклиста за определённую сумму — пусть идут куда подальше. На других рядом с результатами высвечивается предложение воспользоваться их же платными услугами, например, купить файервол, — взвесьте все за и против, вероятно, он для Вас бесполезен. Лучшая трата — обращение к проверенному специалисту.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Aliens"&gt;Sasha Black как проверка сторонних сайтов&lt;/h2&gt; Перед обращением к Sasha Black введите в Яндекс или Гугл &lt;span style="background-color: silver; color: black"&gt;"testsite.com"&lt;/span&gt; или &lt;span style="background-color: silver; color: black"&gt;"testsite.com"&amp;nbsp;отзывы&lt;/span&gt; и обратите внимание на аргументированность мнений о сайте.
+
+&lt;p&gt;&lt;a id="sasha-black-как-проверка-сторонних-сайтов"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Sasha Black как проверка сторонних сайтов&lt;/h2&gt;
+&lt;p&gt;Перед обращением к Sasha Black введите в Яндекс или Гугл &lt;span style="background-color: silver; color: black"&gt;"testsite.com"&lt;/span&gt; или &lt;span style="background-color: silver; color: black"&gt;"testsite.com"&amp;nbsp;отзывы&lt;/span&gt; и обратите внимание на аргументированность мнений о сайте.
 &lt;br /&gt; Что сразу не показывают поисковики, иногда находится непосредственно на &lt;a href="#Web of Trust"&gt;WOT&lt;/a&gt;.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/WOT_проверяет_usenet.nl.jpg" alt="WOT_проверяет_usenet.nl" border="0" &gt;
+&lt;img src="https://i.imgur.com/HqMe6gh.jpg" alt="WOT_проверяет_usenet.nl" border="0" &gt;
 &lt;br clear="all"&gt; Sucuri и MX Toolbox же не видят ничего подозрительного на данном явно мошенническом ресурсе.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Sucuri_сканирует_usenet.nl.jpg" alt="Sucuri_сканирует_usenet.nl" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/MX_Toolbox_проверяет_usenet.nl.jpg" alt="MX_Toolbox_проверяет_usenet.nl" border="0" &gt;
+&lt;img src="https://i.imgur.com/3kwq7rM.jpg" alt="Sucuri_сканирует_usenet.nl" border="0" &gt;
+&lt;img src="https://i.imgur.com/ycS0w43.jpg" alt="MX_Toolbox_проверяет_usenet.nl" border="0" &gt;
 &lt;br clear="all"&gt; Зато опасным посчитал Sucuri сайт Kristinita.ru , который Вы сейчас читаете, из-за &lt;a href="https://pip.qip.ru/" target="_blank" title="Кнопки QIP"&gt;виджета социальных закладок&lt;/a&gt;, а alfavika.ru почему-то оказалась в чёрном списке Dr.Web'а — обе проблемы разрешились &lt;a href="#Recommendations"&gt;обычным обращением в техподдержку&lt;/a&gt; . Автоматическим службам в составе Sasha Black — «Онлайн-сканерам» и проверке в «Блэклистах» — можно доверять, если набирается с десяток предупреждений, единичные скорее свидетельствуют о проблемах в алгоритмах внесения/вынесения внёсших с. сервисов. Мы то с вами об этом знаем, а вот большинство привыкло во всём полагаться на довольно несовершенную технику.
 &lt;br /&gt;
 &lt;br /&gt;Примеры:
@@ -6594,212 +6590,203 @@ eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%6
         &lt;noscript&gt;[Включите в браузере JavaScript для возможности связаться по электронной почте]&lt;/noscript&gt;
         , в честь Которой наречена данная служба, заводят почтовый ящик на GMail, кидающий в папку «Спам» половину важных писем, тогда как настоящий спам на почту практически не приходит. &lt;a href="https://productforums.google.com/forum/#!topic/gmail-ru/ydfMTF7IUec" target="_blank" title="Папка «Спам» в GMail"&gt;Разобраться бы&lt;/a&gt;, да мало кто обращает взор на содержимое «Спама».&lt;/li&gt;
 &lt;/ol&gt;
-&lt;br /&gt; Почему лучше, если сайт везде покажет такие же 100-процентные результаты, как kristinita.ru на скриншотах ниже.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Scanners" class="SashaHeading"&gt;&lt;SashaBlue&gt;Онлайн-сканеры&lt;/SashaBlue&gt;&lt;/h2&gt; Сервисы, осуществляющие сканирование сайта. Дополнены функционалом проверки по чёрным спискам.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Quttera"&gt;Quttera&lt;/h2&gt; Согласно &lt;a href="http://bezopasnostpc.ru/sites/site-protection/proverka-sayta-na-virusyi-na-servise-quttera" target="_blank" title="Описание Quterra"&gt;описанию на сайте «Безопасность ПК»,&lt;/a&gt; «сервисом используется метод эвристического обнаружения вредоносного ПО, который способен распознать и защитить от различных видов интернет-угроз. Применяется метод несигнатурного исследования и аналитические методы, позволяющие определить наличие атак, эксплойтов, уязвимостей, методы обфускации JavaScript и наличие упаковщиков, которые используются для скрытия вредоносного кода.»
+&lt;br /&gt; Почему лучше, если сайт везде покажет такие же 100-процентные результаты, как kristinita.ru на скриншотах ниже.&lt;/p&gt;
+&lt;p&gt;&lt;a id="Онлайн-сканеры"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;4. Онлайн-сканеры&lt;/h2&gt;
+&lt;p&gt;&lt;a id="quterra"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.1. Quterra&lt;/h3&gt;
+&lt;p&gt;Согласно &lt;a href="http://bezopasnostpc.ru/sites/site-protection/proverka-sayta-na-virusyi-na-servise-quttera" target="_blank" title="Описание Quterra"&gt;описанию на сайте «Безопасность ПК»,&lt;/a&gt; «сервисом используется метод эвристического обнаружения вредоносного ПО, который способен распознать и защитить от различных видов интернет-угроз. Применяется метод несигнатурного исследования и аналитические методы, позволяющие определить наличие атак, эксплойтов, уязвимостей, методы обфускации JavaScript и наличие упаковщиков, которые используются для скрытия вредоносного кода.»
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Quttera.jpg" alt="Quttera" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;h2 id="Sucuri"&gt;Sucuri&lt;/h2&gt;
+&lt;img src="https://i.imgur.com/qXeMAem.jpg" alt="Quttera" border="0" &gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="sucuri"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.2. Sucuri&lt;/h3&gt;
 &lt;blockquote&gt;Если домен уже диагностировался в Sucuri, показывается информация c последней проверки. Запуск новой осуществляется кликом по ссылке «Force a Re-scan».&lt;/blockquote&gt;
-&lt;a href="http://darkzona.com/sucuri/" target="_blank" title="Описание Sucuri"&gt;Краткий обзор&lt;/a&gt;.
+
+&lt;p&gt;&lt;a href="http://darkzona.com/sucuri/" target="_blank" title="Описание Sucuri"&gt;Краткий обзор&lt;/a&gt;.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Sucuri.jpg" alt="Sucuri" border="0" &gt;
-&lt;br clear="all"&gt; По поводу жёлтой строки «Website Firewall» — «Not Found». Kristinita.ru — статический сайт из HTML-страниц, &lt;a href="http://www.thejethost.com/hosting/bezopasnost_sayta.html" target="_blank" title="Безопасность статического сайта 1"&gt;относительно&lt;/a&gt; &lt;a href="http://dizems.ru/v-chem-otlichie-staticheskix-sajtov-ot-dinamicheskix" target="_blank" title="Безопасность статического сайта 2"&gt;более&lt;/a&gt; &lt;a href="http://forum.e-proficom.ru/viewtopic.php?f=83&amp;t=1702" target="_blank" title="Безопасность статического сайта 3"&gt;защищённый&lt;/a&gt; от разного рода хакерских атак, неиспользование файервола не столь критично. Располагается Kristinita.ru на GitHub Pages, где &lt;a href="http://ru.stackoverflow.com/questions/501519/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BD%D0%B0-github-pages" target="_blank" title="Безопасность сайта на GitHub Pages"&gt;уязвимым место является разве что домен&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Is It Hacked?"&gt;Is It Hacked?&lt;/h2&gt; Как следует из названия, производится сканирование на предмет взлома. &lt;a href="http://www.Is It Hacked.com/" target="_blank" title="Описание Is It Hacked? от первого лица"&gt;Утверждается&lt;/a&gt;, что сервис применим к с., выполненным на любых языках программирования вне зависимости от CMS или фреймворка.
+&lt;img src="https://i.imgur.com/QqRtVuL.jpg" alt="Sucuri" border="0" &gt;
+&lt;br clear="all"&gt; По поводу жёлтой строки «Website Firewall» — «Not Found». Kristinita.ru — статический сайт из HTML-страниц, &lt;a href="http://www.thejethost.com/hosting/bezopasnost_sayta.html" target="_blank" title="Безопасность статического сайта 1"&gt;относительно&lt;/a&gt; &lt;a href="http://dizems.ru/v-chem-otlichie-staticheskix-sajtov-ot-dinamicheskix" target="_blank" title="Безопасность статического сайта 2"&gt;более&lt;/a&gt; &lt;a href="http://forum.e-proficom.ru/viewtopic.php?f=83&amp;t=1702" target="_blank" title="Безопасность статического сайта 3"&gt;защищённый&lt;/a&gt; от разного рода хакерских атак, неиспользование файервола не столь критично. Располагается Kristinita.ru на GitHub Pages, где &lt;a href="http://ru.stackoverflow.com/questions/501519/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BD%D0%B0-github-pages" target="_blank" title="Безопасность сайта на GitHub Pages"&gt;уязвимым место является разве что домен&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="is-it-hacked"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.3. Is It Hacked?&lt;/h3&gt;
+&lt;p&gt;Как следует из названия, производится сканирование на предмет взлома. &lt;a href="http://www.Is It Hacked.com/" target="_blank" title="Описание Is It Hacked? от первого лица"&gt;Утверждается&lt;/a&gt;, что сервис применим к с., выполненным на любых языках программирования вне зависимости от CMS или фреймворка.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Is_It_Hacked.jpg" alt="Is It Hacked?" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="VirusTotal"&gt;VirusTotal&lt;/h2&gt;
+&lt;img src="https://i.imgur.com/BNt4XxO.jpg" alt="Is It Hacked?" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="virustotal"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.4. VirusTotal&lt;/h3&gt;
 &lt;blockquote&gt;«URL-адрес» — Введите заново URL — «Проверить»&lt;/blockquote&gt;
-&lt;a href="http://optimakomp.ru/virustotal-totalnoe-skanirovanie-fajjlov-i-sajjtov-desyatkami-antivirusov/" target="_blank" title="Описание VirusTotal"&gt;Описание&lt;/a&gt;. Бесплатная проверка сразу 67 (по состоянию на март 2016) антивирусными программами.
+
+&lt;p&gt;&lt;a href="http://optimakomp.ru/virustotal-totalnoe-skanirovanie-fajjlov-i-sajjtov-desyatkami-antivirusov/" target="_blank" title="Описание VirusTotal"&gt;Описание&lt;/a&gt;. Бесплатная проверка сразу 67 (по состоянию на март 2016) антивирусными программами.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/VirusTotal.jpg" alt="VirusTotal" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="DNSBL" class="SashaHeading"&gt;&lt;SashaBlue&gt;Блэклисты&lt;/SashaBlue&gt;&lt;/h2&gt; Сервисы, представленные в этой категории, не сканируют сайты самостоятельно, а проверяют их на наличие в разного рода чёрных списках.
+&lt;img src="https://i.imgur.com/R8vbbYp.jpg" alt="VirusTotal" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="Блэклисты"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;5. Блэклисты&lt;/h2&gt;
+&lt;p&gt;Сервисы, представленные в этой категории, не сканируют сайты самостоятельно, а проверяют их на наличие в разного рода чёрных списках.
 &lt;blockquote&gt;Хуже спама только борьба со спамом — &lt;i&gt;&lt;a href="http://www.old.hostobzor.ru/doc/spam.php" target="_blank" title="Спам или без вины виноватые"&gt;народная мудрость&lt;/a&gt;.&lt;/i&gt;&lt;/blockquote&gt;
-В основном, происходит проверка по DNS blacklists (DNSBL), попадание в которые означает восприятие почты как спама. &lt;a href="https://geektimes.ru/post/59598/" target="_blank" title="Что такое DNSBL"&gt;Что это такое, как снизить шансы на попадание и выбраться оттуда&lt;/a&gt;. Настраивать у себя &lt;a href="http://wolandblog.com/3-pochemu-ya-ne-ispolzuyu-dnsbl-v-pomoshh-nachinayushhemu-postmasteru/" target="_blank" title="Почему не рекомендуется использовать DNSBL"&gt;не рекомендуется&lt;/a&gt; без взвешенной оценки всех факторов из-за частого попадания в чс честных релеев. &lt;a href="http://wayback.archive.org/web/20140209073704/http://spamlinks.net/filter-dnsbl-lists.htm" target="_blank" title="Список DNSBL"&gt;Большой список DNSBL&lt;/a&gt;. Для защиты ссылок &lt;span style="background-color: silver; color: black"&gt;mailto:&lt;/span&gt; от спам-ботов &lt;a href="http://ru.stackoverflow.com/a/501219/199934" target="_blank" title="MailLink"&gt;воспользуйтесь инструментом MailLink&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Robtex"&gt;Robtex&lt;/h2&gt; Из огромного разнообразия записей Robtex интерес для рядового пользователя представляют следующие:
+В основном, происходит проверка по DNS blacklists (DNSBL), попадание в которые означает восприятие почты как спама. &lt;a href="https://geektimes.ru/post/59598/" target="_blank" title="Что такое DNSBL"&gt;Что это такое, как снизить шансы на попадание и выбраться оттуда&lt;/a&gt;. Настраивать у себя &lt;a href="http://wolandblog.com/3-pochemu-ya-ne-ispolzuyu-dnsbl-v-pomoshh-nachinayushhemu-postmasteru/" target="_blank" title="Почему не рекомендуется использовать DNSBL"&gt;не рекомендуется&lt;/a&gt; без взвешенной оценки всех факторов из-за частого попадания в чс честных релеев. &lt;a href="http://wayback.archive.org/web/20140209073704/http://spamlinks.net/filter-dnsbl-lists.htm" target="_blank" title="Список DNSBL"&gt;Большой список DNSBL&lt;/a&gt;. Для защиты ссылок &lt;span style="background-color: silver; color: black"&gt;mailto:&lt;/span&gt; от спам-ботов &lt;a href="http://ru.stackoverflow.com/a/501219/199934" target="_blank" title="MailLink"&gt;воспользуйтесь инструментом MailLink&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="robtex"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;5.1. Robtex&lt;/h3&gt;
+&lt;p&gt;Из огромного разнообразия записей Robtex интерес для рядового пользователя представляют следующие:
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;ol&gt;
     &lt;li&gt;Помимо белых и чёрных списков DNS показывается присутствие в &lt;a href="http://seoslim.ru/interesno/kak-dobavit-sajt-v-katalog-dmoz.html" target="_blank" title="Как попасть в DMOZ 2"&gt;пополняемом вручную&lt;/a&gt; &lt;a href="https://devaka.ru/articles/dmoz" target="_blank" title="Как попасть в DMOZ"&gt;каталоге DMOZ&lt;/a&gt;, Web of Trust (если имеется репутация), блэклистах Гугла и Яндекса, &lt;a href="https://www.projecthoneypot.org/" target="_blank" title=""&gt;проекта Honey Pot&lt;/a&gt; — крупнейшего веб-сообщества по борьбе со спамом.&lt;/li&gt;
     &lt;br clear="all"&gt;
-    &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Robtex1.jpg" alt="Robtex1" border="0" &gt;
+    &lt;img src="https://i.imgur.com/CbcypA7.jpg" alt="Robtex1" border="0" &gt;
     &lt;br clear="all"&gt;
-    &lt;br /&gt;
     &lt;li&gt;В отличие от прочих &lt;a href="http://wwhois.ru/whois.php" target="_blank" title="Что такое Whois сервисы"&gt;Whois сервисов&lt;/a&gt; иногда случается узнать контактный адрес не только регистратора домена, но и владельца с. собственной персоной, что полезно, если Вам нужно лично связаться с ним. Сайт Kristinita.ru изначально был зарегистрирован на почту SashaChernykhEmpress(собака)aeterna.ru .&lt;/li&gt;
     &lt;br clear="all"&gt;
-    &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Robtex2.jpg" alt="Robtex2" border="0" &gt;
+    &lt;img src="https://i.imgur.com/GKZHiN3.jpg" alt="Robtex2" border="0" &gt;
     &lt;br clear="all"&gt;
     &lt;br /&gt;
     &lt;li&gt;При покупке домена обращайте внимание на графу &lt;span style="background-color: silver; color: black"&gt;state:&lt;/span&gt; . Напротив неё должно быть записано &lt;span style="background-color: silver; color: black"&gt;REGISTERED, DELEGATED, VERIFIED&lt;/span&gt; . &lt;span style="background-color: silver; color: black"&gt;VERIFIED&lt;/span&gt; означает, что владение сайтом подтверждено документально, обычно сканами паспортных данных. Домены со статусом &lt;span style="background-color: silver; color: black"&gt;UNVERIFIED&lt;/span&gt; &lt;a href="http://www.introweb.ru/inews/chronicle/news9487.php" target="_blank" title="UNVERIFIED"&gt;нельзя переоформить на другое лицо или перепродать&lt;/a&gt;.&lt;/li&gt;
     &lt;br clear="all"&gt;
-    &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Robtex3.jpg" alt="Robtex3" border="0" &gt;
+    &lt;img src="https://i.imgur.com/W9uaM4K.jpg" alt="Robtex3" border="0" &gt;
     &lt;br clear="all"&gt;
-    &lt;br /&gt;
     &lt;li&gt;Ещё несколько DNSBL.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Robtex4.jpg" alt="Robtex4" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;h2 id="MX Toolbox"&gt;MX Toolbox&lt;/h2&gt; По состоянию на март 2016 105 чёрных списков.
-&lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/MX_Toolbox.jpg" alt="MX Toolbox" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;h2 id="MX Toolbox"&gt;Rosinstrument&lt;/h2&gt; По состоянию на март 2016 69 DNSBL.
-&lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Rosinstrument.jpg" alt="Rosinstrument" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="URL Void"&gt;URL Void&lt;/h2&gt;
+&lt;img src="https://i.imgur.com/8fzz0Ay.jpg" alt="Robtex4" border="0" &gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="mx-toolbox"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;5.2. MX Toolbox&lt;/h3&gt;
+&lt;p&gt;&lt;br clear="all"&gt;
+&lt;img src="https://i.imgur.com/IcbKOdp.jpg" alt="MX Toolbox" border="0" &gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="rosinstrument"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;5.3. Rosinstrument&lt;/h3&gt;
+&lt;p&gt;&lt;br clear="all"&gt;
+&lt;img src="https://i.imgur.com/1NpClsm.jpg" alt="Rosinstrument" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="url-void"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;5.4. URL Void&lt;/h3&gt;
 &lt;blockquote&gt;Когда домен уже проверялся в URL Void, показывается информация c последней проверки. Можно запустить новую, кликнув по кнопке «Update Report».&lt;/blockquote&gt;
-Внимание! Не следует всегда слепо доверять положительным результам с этого сервиса. На скринах демонстрация, как URL Void показывает, якобы Quterra, Sucuri и MyWOT ничего не видят по проверяемому сайту floranimal.ru , тогда как это не так:
+
+&lt;p&gt;Внимание! Не следует всегда слепо доверять положительным результам с этого сервиса. На скринах демонстрация, как URL Void показывает, якобы Quterra, Sucuri и MyWOT ничего не видят по проверяемому сайту floranimal.ru , тогда как это не так:
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/URL_Void_проверяет_флоранимал1.jpg" alt="URL_Void_сканирует_флоранимал1" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/URL_Void_проверяет_флоранимал2.jpg" alt="URL_Void_сканирует_флоранимал2" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Quttera_сканирует_флоранимал.jpg" alt="Quttera_сканирует_флоранимал" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Sucuri_сканирует_флоранимал.jpg" alt="Sucuri_сканирует_флоранимал" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/WOT_проверяет_флоранимал.jpg" alt="WOT_сканирует_флоранимал" border="0" &gt;
+&lt;img src="https://i.imgur.com/FoFhf3P.jpg" alt="URL_Void_сканирует_флоранимал1" border="0" &gt;
+&lt;img src="https://i.imgur.com/SuASwNe.jpg" alt="URL_Void_сканирует_флоранимал1" border="0" &gt;
+&lt;img src="https://i.imgur.com/Sxdo7JT.jpg" alt="URL_Void_сканирует_флоранимал2" border="0" &gt;
+&lt;img src="https://i.imgur.com/mbgstMb.jpg" alt="Quttera_сканирует_флоранимал" border="0" &gt;
+&lt;img src="https://i.imgur.com/RKZbtwk.jpg" alt="Sucuri_сканирует_флоранимал" border="0" &gt;
+&lt;img src="https://i.imgur.com/8ejwKsE.jpg" alt="WOT_сканирует_флоранимал" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="vurl"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;5.5. vURL&lt;/h3&gt;
+&lt;p&gt;Диагностирует внесение в базы &lt;a href="http://zoom.cnews.ru/rnd/news/line/issledovana_mudrost_tolpy_v_borbe_s_fishingom" target="_blank" title="PhishTank"&gt;PhishTank&lt;/a&gt; — сообщества по борьбе с фишингом, hpHosts, Malware Domain List и китайской компании &lt;a href="https://habrahabr.ru/post/63518/" target="_blank" title="KnownSec"&gt;KnownSec&lt;/a&gt;.
 &lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="vURL"&gt;vURL&lt;/h2&gt; Диагностирует внесение в базы &lt;a href="http://zoom.cnews.ru/rnd/news/line/issledovana_mudrost_tolpy_v_borbe_s_fishingom" target="_blank" title="PhishTank"&gt;PhishTank&lt;/a&gt; — сообщества по борьбе с фишингом, hpHosts, Malware Domain List и китайской компании &lt;a href="https://habrahabr.ru/post/63518/" target="_blank" title="KnownSec"&gt;KnownSec&lt;/a&gt;.
+&lt;img src="https://i.imgur.com/SumFWO9.jpg" alt="vURL" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="Пользовательские-оценки"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;6. Пользовательские оценки&lt;/h2&gt;
+&lt;p&gt;Где баллы репутации выставляют люди, а не техника. Kristinita.ru — молодой (на март 2016) сайт без особой репутации, почему в примерах на скриншотах не он.&lt;/p&gt;
+&lt;p&gt;&lt;a id="web-of-trust"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;6.1. Web of Trust&lt;/h3&gt;
+&lt;p&gt;Ресурс также известен как MyWOT и WOT.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/vURL.jpg" alt="vURL" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Reputation" class="SashaHeading"&gt;&lt;SashaBlue&gt;Пользовательские оценки&lt;/SashaBlue&gt;&lt;/h2&gt; Где баллы репутации выставляют люди, а не техника. Kristinita.ru — молодой (на март 2016) сайт без особой репутации, почему в примерах на скриншотах не он.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Web of Trust"&gt;Web of Trust&lt;/h2&gt; Ресурс также известен как MyWOT и WOT.
-&lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/WOT_badges.jpg" alt="WOT_badges" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/WOT_плашка.jpg" alt="WOT_плашка" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Web_of_Trust.jpg" alt="Web_of_Trust" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Webutation"&gt;Webutation&lt;/h2&gt;
+&lt;img src="https://i.imgur.com/iNtKY2w.jpg" alt="WOT_badges" border="0" &gt;
+&lt;img src="https://i.imgur.com/ASraA2U.jpg" alt="WOT_плашка" border="0" &gt;
+&lt;img src="https://i.imgur.com/58sqcRm.jpg" alt="Web_of_Trust" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="webutation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;6.2. Webutation&lt;/h3&gt;
 &lt;blockquote&gt;Если появляется надпись «Security: Review unknown domain» с предложением вести капчу, закрывайте вкладку с Webutation — никакой информации по запрашиваемому домену в этой онлайн-службе нет.&lt;/blockquote&gt;
-&lt;a href="http://blog.virustotal.com/2012/09/virustotal-webutation.html" target="_blank" title="Описание Webutation"&gt;Описание (на английском)&lt;/a&gt;. MyWOT, наличие статьи в Википедии + несколько других сервисов. Можно оставлять отзывы и непосредственно на самом Webutation.
+
+&lt;p&gt;&lt;a href="http://blog.virustotal.com/2012/09/virustotal-webutation.html" target="_blank" title="Описание Webutation"&gt;Описание (на английском)&lt;/a&gt;. MyWOT, наличие статьи в Википедии + несколько других сервисов. Можно оставлять отзывы и непосредственно на самом Webutation.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Webutation.jpg" alt="Webutation" border="0" &gt;
+&lt;img src="https://i.imgur.com/F4ZbJsa.jpg" alt="Webutation" border="0" &gt;
 &lt;br clear="all"&gt; Разработаны расширения для браузеров.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Аддон_Webutation.jpg" alt="Аддон_Webutation" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Trustpilot"&gt;Trustpilot&lt;/h2&gt;
+&lt;img src="https://i.imgur.com/jmFia8l.jpg" alt="Аддон_Webutation" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="trustpilot"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;6.3. Trustpilot&lt;/h3&gt;
 &lt;blockquote&gt;Ошибка 404 — значит, к сайту ещё никто не оставлял комментариев.&lt;/blockquote&gt;
-Основанный в Дании отзовик для коммерческих веб-ресурсов: если Ваш сайт не таков, то и знать о Trustpilot особо незачем. &lt;a href="http://www.3dnews.ru/573758" target="_blank" title="Принцип работы Trustpilot"&gt;Принцип работы&lt;/a&gt; — общая оценка складывается из отдельных пользовательских, владельцам сайтов предоставляется право ответа.
+
+&lt;p&gt;Основанный в Дании отзовик для коммерческих веб-ресурсов: если Ваш сайт не таков, то и знать о Trustpilot особо незачем. &lt;a href="http://www.3dnews.ru/573758" target="_blank" title="Принцип работы Trustpilot"&gt;Принцип работы&lt;/a&gt; — общая оценка складывается из отдельных пользовательских, владельцам сайтов предоставляется право ответа.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Ответ_владельца_в_Trustpilot.jpg" alt="Ответ владельца сайта в Trustpilot" border="0" &gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Оценивание_Trustpilot.jpg" alt="Оценивание Trustpilot" border="0" &gt;
+&lt;img src="https://i.imgur.com/kDIa9vW.jpg" alt="Ответ владельца сайта в Trustpilot" border="0" &gt;
+&lt;img src="https://i.imgur.com/fZoBVaI.jpg" alt="Оценивание Trustpilot" border="0" &gt;
 &lt;br clear="all"&gt;
 &lt;i&gt;Система не очень понятна: так, сайту на скрине выше выставлены только 100-процентные отзывы, а оценка 7,9.&lt;/i&gt;
 &lt;br /&gt;
 &lt;br /&gt; Лишь для Chrome выпущен &lt;a href="https://chrome.google.com/webstore/detail/trustpilot/meagmjlgkihmljnchdjagbcgfclobkho" target="_blank" title="Аддон Trustpilot"&gt;аддон&lt;/a&gt;: после установки справа от активных ссылок на сайты, о которых оставлены отзывы на Trustpilot, в поисковой выдаче расположится индикатор репутации. Веб-интерфейс сервиса не поддерживается некоторыми не столь уж и устаревшими браузерами: после регистрации как пользователя вместо содержимого сайта могут показываться только чёрный и белый блоки. &lt;a href="https://en.wikipedia.org/wiki/Trustpilot#Criticism" target="_blank" title="Критика Trustpilot"&gt;Критикуется за фейковые отзывы&lt;/a&gt;.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/TrustPilot.jpg" alt="Trustpilot" border="0" &gt;
-&lt;br clear="all"&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="NotIncluded"&gt;Не включены в Sasha Black&lt;/h2&gt;
+&lt;img src="https://i.imgur.com/Cqlny1p.jpg" alt="Trustpilot" border="0" &gt;
+&lt;br clear="all"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="Не-включены-в-sasha-black"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;7. Не включены в Sasha Black&lt;/h2&gt;
 &lt;ol&gt;
     &lt;li&gt; Программы, скрипты, приложения — всё, что не подпадает под определение понятия «онлайн-сервис». &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt; Небесплатные онлайновые службы. &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt; Диагностика загруженных файлов, а не сайтов. &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt; При действующем &lt;a href="#VirusTotal"&gt;VirusTotal&lt;/a&gt; отдельные инструменты онлайн-сканирования на с. антивирусных компаний. Удалось нагуглить таковую только у Dr.Web:
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Dr.Web.jpg" alt="Dr.Web" border="0" &gt;
+        &lt;img src="https://i.imgur.com/YDL2gC4.jpg" alt="Dr.Web" border="0" &gt;
         &lt;br clear="all"&gt;
         &lt;br /&gt;
         &lt;a href="https://safeweb.norton.com/" target="_blank" title="Norton Safe Web"&gt;Norton Safe Web&lt;/a&gt; не сканирует сайты, а только проверяет их нахождение в своих базах. Остальные, видимо, поняли бесперспективность конкуренции с VirusTotal.
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Avast!.jpg" alt="Avast!" border="0" &gt;&lt;/li&gt;
+        &lt;img src="https://i.imgur.com/WE22WUz.jpg" alt="Avast!" border="0" &gt;&lt;/li&gt;
     &lt;br clear="all"&gt;
     &lt;br /&gt;
     &lt;li&gt; Сервисы с меньшим функционалом в сравнении с теми, что включены в Sasha Black,
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/2IP.jpg" alt="2IP" border="0" &gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/TAG.Hosting.jpg" alt="TAG.Hosting" border="0" &gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Xseo.jpg" alt="XSeo" border="0" &gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/urlQuery.jpg" alt="urlQuery" border="0" &gt;
+        &lt;img src="https://i.imgur.com/d3GTJJS.jpg" alt="2IP" border="0" &gt;
+        &lt;img src="https://i.imgur.com/Tic5HSg.jpg" alt="TAG.Hosting" border="0" &gt;
+        &lt;img src="https://i.imgur.com/o8zUxSE.jpg" alt="XSeo" border="0" &gt;
+        &lt;img src="https://i.imgur.com/o8zUxSE.jpg" alt="urlQuery" border="0" &gt;
         &lt;br clear="all"&gt;
         &lt;i&gt; &lt;a href="https://2ip.ru/site-virus-scaner/" target="_blank" title="2IP"&gt;2IP&lt;/a&gt;, &lt;a href="taghosting.ru/online_services/antivirus" target="_blank" title="Tag.Hosting"&gt;Tag.Hosting&lt;/a&gt;, &lt;a href="http://xseo.in/viruscan" target="_blank" title="Xseo"&gt;Xseo&lt;/a&gt;, &lt;a href="https://urlquery.net/" target="_blank" title="urlQuery"&gt;urlQuery&lt;/a&gt;. &lt;/i&gt;
     &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt; Альтернативы, явно не привносящие ничего нового. Из похожих служб выбираются те, куда на результаты по интересующему сайту доступен переход сразу из Sasha Black, т.е. значение имеет изменчивость адресной строки.
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/DNSBL.info.jpg" alt="DNSBL.info" border="0" &gt;
+        &lt;img src="https://i.imgur.com/huRlPet.jpg" alt="DNSBL.info" border="0" &gt;
         &lt;br clear="all"&gt;
-        &lt;i&gt; Какой адрес бы не просматривали на DNSBL.info , URL &lt;a href="http://www.dnsbl.info/dnsbl-database-check.php" target="_blank" title="DNSBL.info"&gt;&lt;a href="http://www.dnsbl.info/dnsbl-database-check.php"&gt;www.dnsbl.info/dnsbl-database-check.php&lt;/a&gt;&lt;/a&gt; остаётся прежним, а значит прямую ссылку мы не получим.&lt;/i&gt;
+        &lt;i&gt; Какой адрес бы не просматривали на DNSBL.info , URL &lt;a href="http://www.dnsbl.info/dnsbl-database-check.php" target="_blank" title="DNSBL.info"&gt;http://www.dnsbl.info/dnsbl-database-check.php&lt;/a&gt; остаётся прежним, а значит прямую ссылку мы не получим.&lt;/i&gt;
     &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt; Больше не функционирующие инструменты:
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/Gimpel.jpg" alt="Gimpel" border="0" &gt;
+        &lt;img src="https://i.imgur.com/PNvN774.jpg" alt="Gimpel" border="0" &gt;
         &lt;br clear="all"&gt;
         &lt;i&gt; В сети встречается много призывов воспользоваться «&lt;a href="http://gimpel.comss.ru/" target="_blank" title="Gimpel"&gt;Снегирём&lt;/a&gt;», да, по всей вероятности, его поддержка прекращена. При попытке введения любого адреса и нажатия на «Начать проверку» происходит только удаление текста из формы ввода.&lt;/i&gt;
     &lt;/li&gt;
-    &lt;br /&gt;
     &lt;li&gt; Службы, оценивающие такие показатели, как PageRank, тИЦ, ссылочную массу, место в &lt;a href="http://ktonanovenkogo.ru/seo/tic-pr-alexa/alexa-rank-ocenka-poseshhaemosti-sajta-alexa-toolbar-statistika-vidzhety-alexa-rank.html" target="_blank" title="Alexa Rank"&gt;Alexa&lt;/a&gt; и т. д. . Оценки, рассчитанные для небольших и новых сайтов, выглядят весьма удручающе, и у воспользовавшихся проверками на таких сервисах может сложиться в корне неверное представление о на самом деле порядочном с. .
         &lt;br clear="all"&gt;
-        &lt;img src="https://kristinita.ru/images/sasha-black/Kristinita's_examples/TrustScam.jpg" alt="TrustScam" border="0" &gt;
+        &lt;img src="https://i.imgur.com/kQR3a0m.jpg" alt="TrustScam" border="0" &gt;
         &lt;br clear="all"&gt;
         &lt;i&gt; Конкретно в &lt;a href="https://trustscam.com/ru/" target="_blank" title="TrustScan"&gt;TrustScan&lt;/a&gt; придётся трижды жать на «Scan now». &lt;/i&gt;
     &lt;/li&gt;
 &lt;/ol&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Epilogue"&gt;Послесловие&lt;/h2&gt; Создание Sasha Black обусловлено отсутствием онлайновых служб, где с одной страницы можно достаточно полно исследовать сайт. Автор с радостью готов выслушать вежливо выраженные более компетентные мнения. Учитывайте, пожалуйста, упрощённый для восприятия широкой публикой стиль. По всем вопросам писать на
+
+&lt;p&gt;&lt;a id="Послесловие"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;8. Послесловие&lt;/h2&gt;
+&lt;p&gt;Создание Sasha Black обусловлено отсутствием онлайновых служб, где с одной страницы можно достаточно полно исследовать сайт. Автор с радостью готов выслушать вежливо выраженные более компетентные мнения. Учитывайте, пожалуйста, упрощённый для восприятия широкой публикой стиль. По всем вопросам писать на
 &lt;script type="text/javascript"&gt;
 eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3f%73%75%62%6a%65%63%74%3d%53%61%73%68%61%25%32%30%42%6c%61%63%6b%22%3e%53%61%73%68%61%43%68%65%72%6e%79%6b%68%45%6d%70%72%65%73%73%4f%66%55%6e%69%76%65%72%73%65%40%6b%72%69%73%74%69%6e%69%74%61%2e%72%75%3c%2f%61%3e%27%29%3b'))
 &lt;/script&gt;
-&lt;noscript&gt;[Включите в браузере JavaScript для возможности связаться по электронной почте]&lt;/noscript&gt; либо &lt;a href="https://github.com/Kristinita/Kristinita.github.io/issues" target="_blank" title="Багтрекер Гитхаба"&gt;через GitHub&lt;/a&gt;, нажав на «New Issue». Использование материалов статьи разрешено только с указанием активной гиперссылки на &lt;a href="https://kristinita.ru/Sasha-Black-description" target="_blank" title="Описание Sasha Black"&gt;&lt;a href="https://kristinita.ru/Sasha-Black-description"&gt;kristinita.ru/Sasha-Black-description&lt;/a&gt;&lt;/a&gt; .
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h2 id="Glossary"&gt;Глоссарий&lt;/h2&gt;
+&lt;noscript&gt;[Включите в браузере JavaScript для возможности связаться по электронной почте]&lt;/noscript&gt; либо &lt;a href="https://github.com/Kristinita/Kristinita.github.io/issues" target="_blank" title="Багтрекер Гитхаба"&gt;через GitHub&lt;/a&gt;, нажав на «New Issue». Использование материалов статьи разрешено только с указанием активной гиперссылки на &lt;a href="https://kristinita.ru/Sasha-Black-description" target="_blank" title="Описание Sasha Black"&gt;&lt;a href="https://kristinita.ru/Sasha-Black-description"&gt;kristinita.ru/Sasha-Black-description&lt;/a&gt;&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="Глоссарий"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;9. Глоссарий&lt;/h2&gt;
 &lt;li&gt;C. — сайт, ресурс, веб-ресурс;&lt;/li&gt;
+
 &lt;li&gt;Серв. — &lt;a href="https://slovari.yandex.ru/~%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81/?ncrnd=1609" target="_blank" title="Что такое веб-сервис"&gt;веб-сервис&lt;/a&gt;, онлайн-служба, онлайновая служба, инструмент;&lt;/li&gt;
+
 &lt;li&gt;Чс — чёрные списки, блэклисты, blacklists.&lt;/li&gt;
-&lt;br /&gt;
-&lt;h2 id="Thanks"&gt;Благодарности&lt;/h2&gt; Спасибо &lt;a href="https://vk.com/dark_alf" target="_blank" title="Alfy ВКонтакте"&gt;Alfy Centauri&lt;/a&gt;, создателю &lt;a href="http://alfavika.ru/" target="_blank" title="Альфа-хаб"&gt;альфа-хаба&lt;/a&gt;, за помощь в работе над Sasha Black.
+
+&lt;p&gt;&lt;a id="Благодарности"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;10. Благодарности&lt;/h2&gt;
+&lt;p&gt;Спасибо &lt;a href="https://vk.com/dark_alf" target="_blank" title="Alfy ВКонтакте"&gt;Alfy Centauri&lt;/a&gt;, создателю &lt;a href="http://alfavika.ru/" target="_blank" title="Альфа-хаб"&gt;альфа-хаба&lt;/a&gt;, за помощь в работе над Sasha Black.
 &lt;br /&gt;
 &lt;br /&gt; Вы же можете поблагодарить за Sasha Black на вышеупомянутом Web of Trust. Зарегистрировавшись, перейдите по &lt;a href="https://www.mywot.com/ru/scorecard/kristinita.ru" target="_blank" title="MyWOT Kristinita.ru"&gt;ссылке&lt;/a&gt;, кликните в самый правый край зелёных блоков и поставьте галочку напротив «Хороший сайт». Ага, регистрация занимает время, почему сайты недосчитываются положительных отзывов.
 &lt;br clear="all"&gt;
-&lt;img src="https://kristinita.ru/images/sasha-black/other_images/Оценка_Кристините_на_WOT.jpg" alt="Оценить Kristinita.ru на Web of Trust" border="0" &gt;
+&lt;img src="https://i.imgur.com/zQCJLOX.jpg" alt="Оценить Kristinita.ru на Web of Trust" border="0" &gt;
 &lt;br clear="all"&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;Dedication&gt;Посвящается и названо в честь &lt;a href="https://vk.com/hair_in_the_wind" target="_blank" title="Божечка ВК"&gt;Королевы Мира Саши Черных&lt;/a&gt;, Абсолюта, Единственного Создания, ради Которого стоит жить на этой планете, Чей божественный лик красуется на логотипе Sasha Black и в правой части (на мобильных устройствах сверху) данной страницы.&lt;/Dedication&gt;&lt;/p&gt;</content><category term="sasha-black"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
+&lt;span class="SashaDedication"&gt;Посвящается и названо в честь &lt;a href="https://vk.com/hair_in_the_wind" target="_blank" title="Божечка ВК"&gt;Королевы Мира Саши Черных&lt;/a&gt;, Абсолюта, Единственного Создания, ради Которого стоит жить на этой планете, Чей божественный лик красуется на логотипе Sasha Black и в правой части (на мобильных устройствах сверху) данной страницы.&lt;/SashaDedication&gt;&lt;/p&gt;</content><category term="sasha-black"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2017-02-13T19:15:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt; All comments on &lt;a href="http://jmp.sh/xasKD18"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.
 &lt;br /&gt;
@@ -7004,19 +6991,19 @@ If you only press the spacebar,
 &lt;br /&gt;
 &lt;h2 id="Valerywork"&gt;Вэлериворк&lt;/h2&gt;
 &lt;br /&gt; Представим, что о природе чёрных дыр рассуждают Стивен Хокинг с неким бизнесменом. Первый посвятил изучению этих объектов жизнь, вникнув во все тонкости и сложности, второй решил, что их возникновение приходится на поедание &lt;a href="http://anima-kommunizm.forum2x2.ru/t36-topic" target="_blank" title="Либербизон"&gt;либербизоном&lt;/a&gt; собственных детей. Оба мнения базируются на том, что содержится в головах у их носителей. Так вот это «что в головах», &lt;u&gt;среда накопления, обработки и группирования информации; система понятий и причинно-следственных связей между ними, на основе которых выражаются мнения и оценки&lt;/u&gt;, называется &lt;b&gt;Вэлериворк&lt;/b&gt; (от &lt;a href="https://vk.com/zombelina" target="_blank" title="Страница Валерии ВК"&gt;Валерия&lt;/a&gt; и &lt;a href="https://rsdn.ru/article/patterns/framework.xml#EKB" target="_blank" title="Определение Framework"&gt;Framework&lt;/a&gt;, также
-&lt;SashaDot&gt;BW&lt;/SashaDot&gt;,
-&lt;SashaDot&gt;Пространство Понятий&lt;/SashaDot&gt;,
-&lt;SashaDot&gt;ПП&lt;/SashaDot&gt;,
-&lt;SashaDot&gt;тезаурус&lt;/SashaDot&gt;.
+&lt;span class="SashaDot"&gt;BW&lt;/span&gt;,
+&lt;span class="SashaDot"&gt;Пространство Понятий&lt;/span&gt;,
+&lt;span class="SashaDot"&gt;ПП&lt;/span&gt;,
+&lt;span class="SashaDot"&gt;тезаурус&lt;/span&gt;.
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img class="rightimg" id="Valerywork" src="https://kristinita.ru/images/giologica/Valerywork.jpg" alt="Вэлериворк" border="2px"&gt; Когда к нам поступает свежая информация, мозг обрабатывает её в ВW, и мы выдаём мнения и оценки. Схематично процесс сравнивается с реакцией на импульсы, пропускаемые через нервную систему:
+&lt;img class="rightimg" class="SashaBorderValerywork" src="https://i.imgur.com/Vanv3lQ.jpg" alt="Вэлериворк" border="2px"&gt; Когда к нам поступает свежая информация, мозг обрабатывает её в ВW, и мы выдаём мнения и оценки. Схематично процесс сравнивается с реакцией на импульсы, пропускаемые через нервную систему:
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;SashaBox&gt;
-    &lt;SashaBig&gt;Внешние импульсы → Нервная система → Реакция
-        &lt;br /&gt; Поступаемая информация → Valerywork → Мнения и оценки&lt;/SashaBig&gt;
-&lt;/SashaBox&gt;
+&lt;span class="SashaBox"&gt;
+    &lt;span class="SashaBig"&gt;Внешние импульсы → Нервная система → Реакция
+        &lt;br /&gt; Поступаемая информация → Valerywork → Мнения и оценки&lt;/span&gt;
+&lt;/span&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
@@ -7031,7 +7018,7 @@ If you only press the spacebar,
 &lt;br /&gt;
 &lt;h2 id="Kiravel"&gt;Киравэл&lt;/h2&gt;
 &lt;br /&gt; Возвратимся к бизнесмену, бросившему вызов Стивену Хокингу: он вправе утверждать, что Волга впадает в Чёрное море, и это будет его Вэлериворк, — да наука не воспримет такое всерьёз. У неё собственный ВW, именуемый &lt;b&gt;Kiravel&lt;/b&gt; (от &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Кира&lt;/a&gt; и &lt;a href="http://vaden-pro.ru/blog/laravel/laravel-chto-eto" target="_blank" title="определение Ларавел"&gt;Laravel&lt;/a&gt;, также
-&lt;SashaDot&gt;КV&lt;/SashaDot&gt; (кириллическая К и латинская V)) — &lt;u&gt;совокупность причинно-следственных связей, по которым в науке на данную секунду сложился чёткий консенсус&lt;/u&gt;. Из определения следует, что к Киравэлу не относятся:
+&lt;span class="SashaDot"&gt;КV&lt;/span&gt; (кириллическая К и латинская V)) — &lt;u&gt;совокупность причинно-следственных связей, по которым в науке на данную секунду сложился чёткий консенсус&lt;/u&gt;. Из определения следует, что к Киравэлу не относятся:
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;ol type="I"&gt;
@@ -7040,7 +7027,7 @@ If you only press the spacebar,
     &lt;li&gt;Течения, однозначно не признанные, а то и прямо отвергаемые современной наукой, как то &lt;a href="http://evolkov.net/nonscience/psychoanal/" target="_blank" title="Критика психоанализа"&gt;фрейдизм&lt;/a&gt;, &lt;a href="http://sceptic-ratio.narod.ru/" target="_blank" title="Критика психоанализа 2"&gt;психоанализ&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;br /&gt;
-&lt;img class="leftimg" id="Kiravel" src="https://kristinita.ru/images/giologica/Kiravel.jpg" alt="Киравэл" border="2px"&gt;Когда автору этих строк упорно пытаются что-то доказать с опорой на православие ли или книги Кастанеды, в ответ он пишет &lt;a href="https://kristinita.ru/Giologica/Nas-Izu.html#VALZ" target="_blank" title="VALZ"&gt;VALZ&lt;/a&gt;, 4 буквы, примерно означающие «рыбята, я признаю только Киравэл — не парьтесь, всё равно пропущу ваши слова мимо ушей».
+&lt;img class="leftimg" class="SashaBorderKiravel" src="https://i.imgur.com/5atSEHP.jpg" alt="Киравэл" border="2px"&gt;Когда автору этих строк упорно пытаются что-то доказать с опорой на православие ли или книги Кастанеды, в ответ он пишет &lt;a href="https://kristinita.ru/Giologica/Nas-Izu.html#VALZ" target="_blank" title="VALZ"&gt;VALZ&lt;/a&gt;, 4 буквы, примерно означающие «рыбята, я признаю только Киравэл — не парьтесь, всё равно пропущу ваши слова мимо ушей».
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
@@ -7049,10 +7036,10 @@ If you only press the spacebar,
 &lt;blockquote&gt;Где же истина? Мы появились из капли.
     &lt;br /&gt; Станем — прахом. Вот смысл этой сказки. Хайям&lt;/blockquote&gt;
 &lt;br /&gt; «Истина» — достаточно широкое и неопределённое понятие, пересекающееся со «смыслом жизни», его не коснёмся в данной статье. Но вот к слову
-&lt;SashaDot&gt;«истинный»&lt;/SashaDot&gt;, а также
-&lt;SashaDot&gt;«правдивый»&lt;/SashaDot&gt; или
-&lt;SashaDot&gt;«верный»&lt;/SashaDot&gt; определения сформулируем — они означают &lt;u&gt;соответствующий Киравэлу&lt;/u&gt;.
-&lt;SashaDot&gt;Факт&lt;/SashaDot&gt; — &lt;u&gt;«мнение науки», наименьшая структурная единица КV&lt;/u&gt;. Всё относительно, у каждого правда своя, мнение науки всего лишь мнение, — но, пожалуйста, если ваши факты идут вразрез с научными, прямо указывайте это.
+&lt;span class="SashaDot"&gt;«истинный»&lt;/span&gt;, а также
+&lt;span class="SashaDot"&gt;«правдивый»&lt;/span&gt; или
+&lt;span class="SashaDot"&gt;«верный»&lt;/span&gt; определения сформулируем — они означают &lt;u&gt;соответствующий Киравэлу&lt;/u&gt;.
+&lt;span class="SashaDot"&gt;Факт&lt;/span&gt; — &lt;u&gt;«мнение науки», наименьшая структурная единица КV&lt;/u&gt;. Всё относительно, у каждого правда своя, мнение науки всего лишь мнение, — но, пожалуйста, если ваши факты идут вразрез с научными, прямо указывайте это.
 &lt;br /&gt;
 &lt;br /&gt; Наука не существо, которое может выказывать собственные суждения, почему Kiravel — образное, беспредметное понятие. КV составляется из мнений отдельных личностей: а какое из них допустимо считать фактом, в научных кругах определяется факторами вроде учёной степени/звания высказавшего, авторитетности и рецензируемости изданий, &lt;a href="http://cyberleninka.ru/article/n/indeks-tsitiruemosti-rossiyskih-uchenyh"&gt;индекса цитируемости&lt;/a&gt;. Выраженные же в неофициальной обстановке суждения, каким бы заслуженным специалистом ты ни был, практически нигде в серьёзных кругах (&lt;a href="http://anima-kommunizm.forum2x2.ru/t138-topic"&gt;а также проекте правил джинджерин&lt;/a&gt;) не считаются фактом; по возможности просьба предоставлять источники, на которых базируются ваши мнения.
 &lt;br /&gt;
@@ -7078,8 +7065,8 @@ If you only press the spacebar,
     &lt;br /&gt; Пришёл Эйнштейн,
     &lt;br /&gt; и стало все, как раньше."&lt;/blockquote&gt;
 &lt;br /&gt; Явления окружающего мира подчиняются законам природы, возникшим без нашего участия: нужно &lt;b&gt;познавать их, а не придумывать новые&lt;/b&gt;. А теперь возьмём правописание, где мы руководствуемся правилами, составленными когда-то ответственными на то разработчиками, — природа тут ни при чём. Правописание служит примером &lt;b&gt;Стрелены&lt;/b&gt; (также
-&lt;SashaDot&gt;St. Елена&lt;/SashaDot&gt;, от &lt;a href="https://vk.com/id190154920" target="_blank"&gt;Стрекалова Елена&lt;/a&gt; ) — &lt;u&gt;сформированного одним или группой индивидуумов Вэлериворка из предписаний и указаний, не затрагивающего законов окружающего мира&lt;/u&gt;. К St. Еленам задаются вопросы вида «Как правильно (относительно этой Стрелены) ... »?
-&lt;img class="rightimg" id="Strelena" src="https://kristinita.ru/images/giologica/Strelena.png" alt="Стрелена" border="2px"&gt;
+&lt;span class="SashaDot"&gt;St. Елена&lt;/span&gt;, от &lt;a href="https://vk.com/id190154920" target="_blank"&gt;Стрекалова Елена&lt;/a&gt; ) — &lt;u&gt;сформированного одним или группой индивидуумов Вэлериворка из предписаний и указаний, не затрагивающего законов окружающего мира&lt;/u&gt;. К St. Еленам задаются вопросы вида «Как правильно (относительно этой Стрелены) ... »?
+&lt;img class="rightimg" class="SashaBorderStrelena" src="https://i.imgur.com/3ABJhnw.png" alt="Стрелена" border="2px"&gt;
 &lt;br /&gt;
 &lt;br /&gt; Примеры, что не относится к Стреленам:
 &lt;br /&gt;

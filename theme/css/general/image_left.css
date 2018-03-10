@@ -38,12 +38,10 @@ aside {
 /* PC */
 
 @media screen and (min-width: 60rem) {
-    /* Container without scrollbar */
     .SashaMargin {
         margin-right: 2rem;
         margin-left: 1rem;
     }
-    /* Text to float to right side */
     main {
         float: left;
     }
@@ -53,11 +51,6 @@ aside {
 /* Mobile */
 
 @media screen and (max-width: 60rem) {
-    /* Don't use Malihu */
-    /*    .mCustomScrollbar .mCSB_scrollTools {
-        right: auto;
-    }*/
-    /* Container without scrollbar */
     .SashaMargin {
         margin-right: 2rem;
         margin-left: 1rem;

@@ -29,9 +29,12 @@
  		- 4.2. Multiline code
  	5. Decoration
  		- 5.1. Shadows
+ 		- 5.2. Dots
+ 		- 5.3. Colored text
  	6. Different elements
  		- 6.1. Custom selection
  		- 6.2. Child elements
+ 		- 6.3. figure
  	7. External plugins
  		- 7.1. Tooltipster
  		- 7.2. Proggresbar
@@ -232,6 +235,22 @@ pre
 .SashaShadow
 	text-shadow 0 0 0.625rem Sasha-Shadow, 0 0 1.25rem Sasha-Shadow, 0 0 1.875rem Sasha-Shadow, 0 0 2.5rem Sasha-Shadow, 0 0 3.125rem Sasha-Shadow, 0 0 3.75rem Sasha-Shadow
 
+/* 5.2. Dots
+   ========================================================================== */
+
+// Dots under elements
+.SashaDot
+	border-bottom 0.0625rem dotted Sasha-Dot
+
+.SashaDotLight
+	border-bottom 0.0625rem dotted Sasha-Dot-Light
+
+/* 5.3. Colored text
+   ========================================================================== */
+
+.SashaSpan
+	color Sasha-Span-Foreground
+	background-color Sasha-Span-Background
 
 /* ==========================================================================
    6. Different elements
@@ -272,6 +291,13 @@ pre
 .SashaEmNoColor
 	color Sasha-Body-Foreground
 
+/* 6.3. figure
+   ========================================================================== */
+
+// https://webref.ru/html/figure
+.SashaSign
+	border 1px solid Sasha-Figure-Border
+	background Sasha-Figure-Background
 
 /* ==========================================================================
    7. External plugins

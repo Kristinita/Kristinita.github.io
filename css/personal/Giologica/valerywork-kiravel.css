@@ -1,0 +1,43 @@
+.arrow {
+    position: relative;
+    width: 80px;
+    height: 5px;
+    background: #b0c4de;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.arrow:after {
+    position: absolute;
+    content: "";
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -10px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-right: 5px solid #b0c4de;
+    border-top: 5px solid #b0c4de;
+}
+
+.SashaBig {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.SashaBox {
+    background-color: #e6e6fa;
+}
+
+.SashaBorderValerywork {
+    border-color: #e20026;
+}
+
+.SashaBorderKiravel {
+    border-color: #f64a82;
+}
+
+.SashaBorderStrelena {
+    border-color: #cce821;
+}

@@ -427,6 +427,10 @@ img {
     margin: 0.3125rem 0 0.3125rem 0;
 }
 
+.SashaSign figcaption {
+    margin: 0 auto 0;
+}
+
 
 /* 5.5. External links image
    ========================================================================== */
@@ -587,6 +591,12 @@ pre {
 
 /* 9.2. Center element
    ========================================================================== */
+
+
+/*
+ * Replace center tag:
+ * https://webref.ru/html/center
+ */
 
 .SashaCenter {
     text-align: center;

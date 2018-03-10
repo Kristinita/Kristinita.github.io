@@ -5,119 +5,119 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/</loc>
-<lastmod>2018-03-02T13:42:39-00:00</lastmod>
+<lastmod>2018-03-10T08:40:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/archives.html</loc>
-<lastmod>2018-03-02T13:42:39-00:00</lastmod>
+<lastmod>2018-03-10T08:40:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/categories.html</loc>
-<lastmod>2018-03-02T13:42:39-00:00</lastmod>
+<lastmod>2018-03-10T08:40:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</loc>
-<lastmod>2018-02-22T21:21:14+03:00</lastmod>
+<lastmod>2018-03-02T21:17:09+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Programs/KristinitaLuckyLink.html</loc>
-<lastmod>2018-02-24T17:55:50+03:00</lastmod>
+<lastmod>2018-03-02T21:17:10+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Поиск-книг-для-джинджерин.html</loc>
-<lastmod>2018-02-24T17:49:18+03:00</lastmod>
+<lastmod>2018-03-02T21:17:07+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</loc>
-<lastmod>2018-02-22T21:21:12+03:00</lastmod>
+<lastmod>2018-03-02T21:17:00+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Знания-в-джинджеринах.html</loc>
-<lastmod>2018-02-24T17:55:49+03:00</lastmod>
+<lastmod>2018-03-02T21:17:06+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Фоны-и-Карта-С.html</loc>
-<lastmod>2018-02-24T17:55:49+03:00</lastmod>
+<lastmod>2018-03-02T21:17:08+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Грейзи-Фа.html</loc>
-<lastmod>2018-02-24T15:58:41+03:00</lastmod>
+<lastmod>2018-03-02T21:17:01+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</loc>
-<lastmod>2018-02-28T07:46:16+03:00</lastmod>
+<lastmod>2018-03-02T21:17:09+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Джинджерины.html</loc>
-<lastmod>2018-02-24T17:55:49+03:00</lastmod>
+<lastmod>2018-03-02T21:17:05+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Тао.html</loc>
-<lastmod>2018-02-24T15:58:42+03:00</lastmod>
+<lastmod>2018-03-02T21:17:07+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Testus.html</loc>
-<lastmod>2018-03-02T10:23:54+03:00</lastmod>
+<lastmod>2018-03-02T21:17:08+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Грейс-Ло.html</loc>
-<lastmod>2018-02-24T17:37:27+03:00</lastmod>
+<lastmod>2018-03-02T21:17:04+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sublime-Text/Sacagawea.html</loc>
-<lastmod>2018-02-24T16:07:32+03:00</lastmod>
+<lastmod>2018-03-02T21:17:11+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html</loc>
-<lastmod>2018-02-24T15:58:32+03:00</lastmod>
+<lastmod>2018-03-02T21:17:11+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -138,7 +138,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/Life-hacks/Как-автоматически-входить-на-сайты.html</loc>
-<lastmod>2017-02-13T19:15:15+03:00</lastmod>
+<lastmod>2018-03-09T11:13:36+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -152,7 +152,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Korvers.html</loc>
-<lastmod>2018-03-02T09:18:39+03:00</lastmod>
+<lastmod>2018-03-09T09:34:39+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -215,42 +215,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/category/it-articles.html</loc>
-<lastmod>2018-02-28T07:46:16+02:30</lastmod>
+<lastmod>2018-03-02T21:17:09+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/kritika-dzhindzherin.html</loc>
-<lastmod>2018-02-24T17:55:49+02:30</lastmod>
+<lastmod>2018-03-02T21:17:06+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/life-hacks.html</loc>
-<lastmod>2017-02-13T19:15:15+02:30</lastmod>
+<lastmod>2018-03-09T11:13:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/logika-v-dzhindzherinakh.html</loc>
-<lastmod>2018-03-02T09:18:39+02:30</lastmod>
+<lastmod>2018-03-09T09:34:39+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/programs.html</loc>
-<lastmod>2018-02-24T17:55:50+02:30</lastmod>
+<lastmod>2018-03-02T21:17:11+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/psikhologiia-dzhindzherin.html</loc>
-<lastmod>2018-02-24T17:55:49+02:30</lastmod>
+<lastmod>2018-03-02T21:17:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -271,7 +271,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/category/spravka-po-dzhindzherinam.html</loc>
-<lastmod>2018-02-24T17:55:49+02:30</lastmod>
+<lastmod>2018-03-02T21:17:05+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -285,126 +285,126 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/category/test.html</loc>
-<lastmod>2018-03-02T10:23:54+02:30</lastmod>
+<lastmod>2018-03-02T21:17:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/trenirovki-v-dzhindzherinakh.html</loc>
-<lastmod>2018-02-24T17:49:18+02:30</lastmod>
+<lastmod>2018-03-02T21:17:07+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/it-articles.html</loc>
-<lastmod>2018-02-28T07:46:16+02:30</lastmod>
+<lastmod>2018-03-02T21:17:09+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/sublime-text.html</loc>
-<lastmod>2018-02-24T17:55:50+02:30</lastmod>
+<lastmod>2018-03-02T21:17:11+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/release.html</loc>
-<lastmod>2018-02-28T07:46:16+02:30</lastmod>
+<lastmod>2018-03-02T21:17:09+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/programs.html</loc>
-<lastmod>2018-02-24T17:55:50+02:30</lastmod>
+<lastmod>2018-03-02T21:17:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/help.html</loc>
-<lastmod>2018-02-24T17:55:49+02:30</lastmod>
+<lastmod>2018-03-02T21:17:07+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/psychology.html</loc>
-<lastmod>2018-02-24T17:55:49+02:30</lastmod>
+<lastmod>2018-03-02T21:17:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/gingerinas.html</loc>
-<lastmod>2018-03-02T09:18:39+02:30</lastmod>
+<lastmod>2018-03-09T09:34:39+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/pumping.html</loc>
-<lastmod>2018-02-24T15:58:41+02:30</lastmod>
+<lastmod>2018-03-02T21:17:01+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/python.html</loc>
-<lastmod>2018-02-28T07:46:16+02:30</lastmod>
+<lastmod>2018-03-02T21:17:09+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/pypi.html</loc>
-<lastmod>2018-02-28T07:46:16+02:30</lastmod>
+<lastmod>2018-03-02T21:17:09+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/test.html</loc>
-<lastmod>2018-03-02T10:23:54+02:30</lastmod>
+<lastmod>2018-03-02T21:17:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/gingerinas-training.html</loc>
-<lastmod>2018-02-24T17:37:27+02:30</lastmod>
+<lastmod>2018-03-02T21:17:04+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/what-where-when.html</loc>
-<lastmod>2018-02-24T16:07:32+02:30</lastmod>
+<lastmod>2018-03-02T21:17:11+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/yaspeller.html</loc>
-<lastmod>2018-02-24T15:58:32+02:30</lastmod>
+<lastmod>2018-03-02T21:17:11+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/life-hacks.html</loc>
-<lastmod>2017-02-13T19:15:15+02:30</lastmod>
+<lastmod>2018-03-09T11:13:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/pale-moon.html</loc>
-<lastmod>2017-02-13T19:15:15+02:30</lastmod>
+<lastmod>2018-03-09T11:13:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -460,14 +460,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/author/keith-hall.html</loc>
-<lastmod>2018-02-24T16:07:32+02:30</lastmod>
+<lastmod>2018-03-02T21:17:11+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2018-03-02T10:23:54+02:30</lastmod>
+<lastmod>2018-03-09T11:13:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

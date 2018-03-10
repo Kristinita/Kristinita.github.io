@@ -1,0 +1,99 @@
+/*
+* @Author: Kristinita
+* @Date:   2016-12-27 08:08:41
+* @Last Modified by:   Kristinita
+* @Last Modified time: 2017-05-09 15:28:17
+*/
+
+
+/* Unverified For PurifyCSS
+   ========================================================================== */
+
+body {
+    background: #000;
+    color: #ff8c00;
+}
+
+a {
+    color: #ee82ee;
+}
+
+a:hover {
+    background-color: #eee8aa;
+}
+
+a:focus {
+    background: #f0fff0;
+}
+
+em {
+    background-image: linear-gradient(to right, #f08080, #c71585);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+img {
+    box-shadow: 0 0 2rem #000;
+}
+
+.SashaPageLoading {
+    box-shadow: none;
+}
+
+kbd {
+    color: #fff5ee;
+    background: #6495ed;
+}
+
+.SashaBottomAside {
+    color: #fff;
+    bottom: 14%;
+}
+
+aside {
+    background-image: url("../../images/aside/Надутые-губки.jpg");
+}
+
+blockquote {
+    border-left: solid #ff5a00 0.5rem;
+    color: #333;
+    background: #fcfcfc;
+}
+
+code {
+    background-color: #2f4f4f;
+}
+
+::-moz-selection {
+    color: #f08080;
+    background: #ffe4b5;
+}
+
+::selection {
+    color: #f08080;
+    background: rgba(255, 228, 181, 0.99);
+}
+
+::-moz-selection:window-inactive {
+    color: #f08080;
+    background: rgba(255, 228, 181, 0.99);
+}
+
+::selection:window-inactive {
+    color: #f08080;
+    background: rgba(255, 228, 181, 0.99);
+}
+
+.SashaEmNoColor {
+    color: #ff8c00;
+}
+
+.tooltipster-punk-purple .tooltipster-box {
+    border-bottom: 3px solid #ffa500;
+    background: #800080;
+}
+
+.tooltipster-punk-aquamarine .tooltipster-box {
+    border-bottom: 3px solid #ff69b4;
+    background: #228b22;
+}
