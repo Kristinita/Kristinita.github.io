@@ -62,11 +62,17 @@
    ========================================================================== */
 
 
-/* For correct Mailhu displayed*/
+/*
+ * For correct gemini-scrollbar displaying, see “body tag” section:
+ * https://github.com/noeldelgado/gemini-scrollbar#notes
+ * [NOTE] Use “overflow: hidden”! If no, you will get bugs with anchors: scrollbar scroll in begin of the page.
+ * [NOTE] Both html and body must be included for correct gemini-scrollbar working.
+ */
 
 html,
 body {
     height: 100%;
+    overflow: hidden;
 }
 
 body {
