@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- [NOTE] I don't find Grunt or npm package for automatic generation opensearch.xml -->
+<!-- [NOTE] I don't find Grunt, Python or npm package for automatic generation opensearch.xml -->
 <!-- [NOTE] Grunt robots.txt unmaintained:
 	 https://www.npmjs.com/package/grunt-robots-txt -->
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">

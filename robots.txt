@@ -2,9 +2,11 @@ User-agent: *
 Disallow: /images/
 Disallow: /js/
 Disallow: /css/
-Disallow: /zohoverify/
-Disallow: /Life-hacks/
 Disallow: /Smert-svobode/
-
-User-Agent: LinkChecker
+Disallow: /Snippets/
+Disallow: /stylus/
+Disallow: /zohoverify/
+User-agent: LinkChecker
 Allow: /
+Sitemap: https://kristinita.ru/sitemap.xml
+Crawl-delay: 1

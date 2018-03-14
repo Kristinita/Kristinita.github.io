@@ -1,0 +1,18 @@
+/* humans.txt file for Kristinita's Search */
+/* humanstxt.org */
+
+/* TEAM */
+	Web Developer: Sasha Chernykh (http://uid.me/sasha_chernykh)
+	Site: https://Kristinita.ru
+	Contacts: https://vk.com/hair_in_the_wind
+	Location: Там, где Саша
+
+/* THANKS */
+	Name: Alfy Centauri
+	Site: alfavika.ru
+
+/* SITE */
+	Standards: HTML5, CoffeeScript, Stylus
+	Components: Pelican, Python Markdown, Grunt, JQuery and many plugins for this components
+	Software: Sublime Text and many plugins for Sublime Text
+	License: MIT
