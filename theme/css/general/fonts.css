@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'AleksandraC';
-    src: local('AleksandraCRegular'), url("../../fonts/AleksandraC/aleksandracregular.woff2") format('woff2'), url("../../fonts/AleksandraC/aleksandracregular.woff") format('woff'), url("../../fonts/AleksandraC/aleksandracregular.ttf") format('truetype');
+    src: local('AleksandraCRegular'), url("https://kristinita.ru/theme/fonts/AleksandraC/aleksandracregular.woff2") format('woff2'), url("https://kristinita.ru/theme/fonts/AleksandraC/aleksandracregular.woff") format('woff'), url("https://kristinita.ru/theme/fonts/AleksandraC/aleksandracregular.ttf") format('truetype');
     font-weight: 400;
 }
 
@@ -26,15 +26,15 @@
 @font-face {
     font-family: 'Vladivostok';
     font-weight: 400;
-    src: url("../../fonts/Vladivostok/regular.ttf") format('truetype');
+    src: url("https://kristinita.ru/theme/fonts/Vladivostok/regular.ttf") format('truetype');
     -webkit-filter: brightness(97%);
     filter: brightness(97%);
 }
 
 @font-face {
     font-family: 'Истина';
-    src: url("../../fonts/Истина/Истина.eot");
-    src: url("../../fonts/Истина/Истина.eot?#iefix") format('embedded-opentype'), url("../../fonts/Истина/Истина.woff") format('woff'), url("../../fonts/Истина/Истина.ttf") format('truetype');
+    src: url("https://kristinita.ru/theme/fonts/Истина/Истина.eot");
+    src: url("https://kristinita.ru/theme/fonts/Истина/Истина.eot?#iefix") format('embedded-opentype'), url("https://kristinita.ru/theme/fonts/Истина/Истина.woff") format('woff'), url("https://kristinita.ru/theme/fonts/Истина/Истина.ttf") format('truetype');
     /* Decrease text brightness */
     -webkit-filter: brightness(97%);
     filter: brightness(97%);
@@ -44,24 +44,24 @@
     font-family: 'Мечта';
     font-weight: 500;
     font-style: italic;
-    src: url("../../fonts/Мечта/Мечта.eot");
-    src: url("../../fonts/Мечта/Мечта.eot?#iefix") format('embedded-opentype'), url("../../fonts/Мечта/Мечта.woff") format('woff'), url("../../fonts/Мечта/Мечта.ttf") format('truetype');
+    src: url("https://kristinita.ru/theme/fonts/Мечта/Мечта.eot");
+    src: url("https://kristinita.ru/theme/fonts/Мечта/Мечта.eot?#iefix") format('embedded-opentype'), url("https://kristinita.ru/theme/fonts/Мечта/Мечта.woff") format('woff'), url("https://kristinita.ru/theme/fonts/Мечта/Мечта.ttf") format('truetype');
     -webkit-filter: brightness(97%);
     filter: brightness(97%);
 }
 
 @font-face {
     font-family: 'Кира_Бог';
-    src: url("../../fonts/Кира_Бог/Кира_Бог.eot");
-    src: url("../../fonts/Кира_Бог/Кира_Бог.eot?#iefix") format('embedded-opentype'), url("../../fonts/Кира_Бог/Кира_Бог.woff") format('woff'), url("../../fonts/Кира_Бог/Кира_Бог.ttf") format('truetype');
+    src: url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.eot");
+    src: url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.eot?#iefix") format('embedded-opentype'), url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.woff") format('woff'), url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.ttf") format('truetype');
     -webkit-filter: brightness(97%);
     filter: brightness(97%);
 }
 
 @font-face {
     font-family: 'Волнится_синей_пастой';
-    src: url("../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot");
-    src: url("../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot?#iefix") format('embedded-opentype'), url("../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.woff") format('woff'), url("../../fonts/Волнится_синей_пастой/Волнится_синей_пастой.ttf") format('truetype');
+    src: url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot");
+    src: url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot?#iefix") format('embedded-opentype'), url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.woff") format('woff'), url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.ttf") format('truetype');
     -webkit-filter: brightness(97%);
     filter: brightness(97%);
 }

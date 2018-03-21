@@ -5,56 +5,46 @@
 * @Last Modified time: 2017-03-23 10:42:14
 */
 
+body {
+    /* Center background image:
+	https://ru.stackoverflow.com/a/96749/199934 */
+    background: url("https://kristinita.ru/theme/images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+}
+
 a {
-    color: #f00;
+    color: #ffd700;
 }
 
 img {
-    max-width: 100%;
-    min-height: 50%;
-}
-
-@media screen and (max-width: 1600px) {
-    div.for-example {
-        width: 1500px;
-    }
-}
-
-@media screen and (max-width: 770px) {
-    div.for-example {
-        width: 1100px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    div.for-example {
-        width: 980px;
-    }
-}
-
-body {
-    background: url("https://kristinita.ru/theme/images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed;
-    background-size: cover;
-    color: #c71585;
-    background-color: #ffefd5;
-}
-
-.SashaError404 {
-    text-shadow: 0 6px 4px #85c226, -3px -5px 4px #fe2192, 3px -5px 4px #f7c200;
-    font-size: 4.4rem;
-}
-
-.Sasha404Message {
-    text-shadow: 0 0 7px #1e90ff;
-    color: #ffd700;
-    font-size: 1.7rem;
-}
-
-#slide-container #slideShowImages IMG {
+    /* Center slide:
+	https://stackoverflow.com/a/34670755/5951529 */
     margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    max-width: 96%;
+}
+
+.Sasha404 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #ffa500;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1rem #f00;
+}
+
+.Sasha404Description {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f0fff0;
+    /* text-stroke — border around letters:
+	https://ru.stackoverflow.com/q/196968/199934
+	https://css-tricks.com/almanac/properties/t/text-stroke/
+	https://caniuse.com/#feat=text-stroke
+	*/
+    -webkit-text-stroke: 0.04rem;
+}
+
+.Sasha404,
+.Sasha404Description {
+    text-align: center;
 }

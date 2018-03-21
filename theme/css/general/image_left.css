@@ -37,7 +37,7 @@ aside {
 
 /* PC */
 
-@media screen and (min-width: 60rem) {
+@media screen and (orientation: landscape) {
     .SashaMargin {
         margin-right: 2rem;
         margin-left: 1rem;
@@ -50,7 +50,7 @@ aside {
 
 /* Mobile */
 
-@media screen and (max-width: 60rem) {
+@media screen and (orientation: portrait) {
     .SashaMargin {
         margin-right: 2rem;
         margin-left: 1rem;

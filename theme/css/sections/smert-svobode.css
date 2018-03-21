@@ -45,6 +45,10 @@ kbd {
     background: #6495ed;
 }
 
+hr {
+    color: Sasha-hr;
+}
+
 .SashaBottomAside {
     color: #fff;
     bottom: 8%;
