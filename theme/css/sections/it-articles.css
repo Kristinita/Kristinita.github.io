@@ -37,6 +37,11 @@ kbd {
     background: #2e8b57;
 }
 
+td,
+th {
+    border: 0.0625rem solid #465550;
+}
+
 .SashaBottomAside {
     color: #fff;
     bottom: 8%;
