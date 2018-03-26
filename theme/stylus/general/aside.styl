@@ -9,10 +9,7 @@
    General
    ========================================================================== */
 
-
 aside
-	// Relative, than .SashaBottomAside text will in aside
-	position relative
 	// Icon the whole aside space
 	background-size cover
 	height 100%
@@ -48,15 +45,18 @@ aside
 @media screen and (orientation: portrait)
 	aside
 		width 100%
+		/*
+		 * That .SashaBottomAside text will child for <aside> element:
+		 * https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
+		 */
+		position relative
 
 /* For landscape orientation */
 
 @media screen and (orientation: landscape)
 	aside
 		width 35%
+		position fixed
 
-	/* [NOTE] Do not delete this! Page will display incorrect, if landscape orientation.
-	Child scrollbar element for <main> tag because child elements have priority to parent elements. */
-
-	.gm-scrollbar-container
+	main
 		width 65%

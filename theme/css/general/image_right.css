@@ -3,13 +3,6 @@
    ========================================================================== */
 
 
-/* Sasha icon to right */
-
-aside {
-    float: right;
-}
-
-
 /* ==========================================================================
    Malihu
    ========================================================================== */
@@ -48,17 +41,20 @@ aside {
    ========================================================================== */
 
 
-/* PC */
+/* Landscape */
 
 @media screen and (orientation: landscape) {
     .SashaMargin {
         margin-right: 1rem;
         margin-left: 2rem;
     }
+    aside {
+        right: 0;
+    }
 }
 
 
-/* Mobile */
+/* Portrait */
 
 @media screen and (orientation: portrait) {
     .SashaMargin {

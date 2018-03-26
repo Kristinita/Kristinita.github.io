@@ -2,11 +2,6 @@
    General
    ========================================================================== */
 
-/* Sasha icon to right */
-
-aside
-	float right
-
 /* ==========================================================================
    Malihu
    ========================================================================== */
@@ -38,16 +33,26 @@ aside
    Media
    ========================================================================== */
 
-/* PC */
+/* Landscape */
 
 @media screen and (orientation: landscape)
+
 	/* Container without scrollbar */
 
 	.SashaMargin
 		margin-right 1rem
 		margin-left 2rem
 
-/* Mobile */
+	/*
+	 * Fix <aside> to right side, if “position: fixed”;
+	 * “float:right” doesn't work:
+	 * https://stackoverflow.com/a/14991790/5951529
+	 */
+
+	aside
+		right 0
+
+/* Portrait */
 
 @media screen and (orientation: portrait)
 	/* Don't use Malihu */

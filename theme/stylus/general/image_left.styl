@@ -2,11 +2,6 @@
    General
    ========================================================================== */
 
-/* Sasha icon to left */
-
-aside
-	float left
-
 /* ==========================================================================
    Mailhu
    ========================================================================== */
@@ -27,23 +22,28 @@ aside
    Media
    ========================================================================== */
 
-/* PC */
+/* Landscape */
 
 @media screen and (orientation: landscape)
+
 	/* Container without scrollbar */
 
 	.SashaMargin
 		margin-right 2rem
 		margin-left 1rem
 
-	/* Text to float to right side */
+	/*
+	 * main in right side;
+	 * “right: 0” doesn't work.
+	 */
 
 	main
-		float left
+		float right
 
-/* Mobile */
+/* Portrait */
 
 @media screen and (orientation: portrait)
+
 	/* Don't use Malihu */
 
 	/*    .mCustomScrollbar .mCSB_scrollTools {

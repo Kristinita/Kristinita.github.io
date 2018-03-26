@@ -3,13 +3,6 @@
    ========================================================================== */
 
 
-/* Sasha icon to left */
-
-aside {
-    float: left;
-}
-
-
 /* ==========================================================================
    Mailhu
    ========================================================================== */
@@ -35,7 +28,7 @@ aside {
    ========================================================================== */
 
 
-/* PC */
+/* Landscape */
 
 @media screen and (orientation: landscape) {
     .SashaMargin {
@@ -43,12 +36,12 @@ aside {
         margin-left: 1rem;
     }
     main {
-        float: left;
+        float: right;
     }
 }
 
 
-/* Mobile */
+/* Portrait */
 
 @media screen and (orientation: portrait) {
     .SashaMargin {

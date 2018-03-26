@@ -11,7 +11,6 @@
    ========================================================================== */
 
 aside {
-    position: relative;
     background-size: cover;
     height: 100%;
 }
@@ -53,6 +52,11 @@ aside {
 @media screen and (orientation: portrait) {
     aside {
         width: 100%;
+        /*
+		 * That .SashaBottomAside text will child for <aside> element:
+		 * https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
+		 */
+        position: relative;
     }
 }
 
@@ -62,8 +66,9 @@ aside {
 @media screen and (orientation: landscape) {
     aside {
         width: 35%;
+        position: fixed;
     }
-    .gm-scrollbar-container {
+    main {
         width: 65%;
     }
 }
