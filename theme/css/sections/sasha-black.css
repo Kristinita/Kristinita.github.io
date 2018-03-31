@@ -64,7 +64,8 @@ input {
 .SashaCenter,
 .SashaReadHelp,
 .SashaOnlineScanners,
-.SashaDifferentUrl {
+.SashaDifferentUrl,
+.SashaBottom {
     text-align: center;
 }
 
@@ -75,7 +76,6 @@ input {
 
 .SashaDifferentUrl {
     font-size: 1.4375rem;
-    margin-bottom: 2rem;
 }
 
 .SashaButtonCategory {
@@ -96,4 +96,8 @@ input {
 
 .SashaReadHelp {
     font-size: 1.4375rem;
+}
+
+.SashaBottom {
+    margin-bottom: 2rem;
 }

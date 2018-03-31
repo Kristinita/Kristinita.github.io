@@ -5,22 +5,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/</loc>
-<lastmod>2018-03-26T08:03:59-00:00</lastmod>
+<lastmod>2018-03-31T05:29:43-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/archives.html</loc>
-<lastmod>2018-03-26T08:03:59-00:00</lastmod>
+<lastmod>2018-03-31T05:29:43-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/categories.html</loc>
-<lastmod>2018-03-26T08:03:59-00:00</lastmod>
+<lastmod>2018-03-31T05:29:43-00:00</lastmod>
 <changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://kristinita.ru/Pages/For-developers.html</loc>
+<lastmod>2018-03-27T08:11:10+03:00</lastmod>
+<changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
