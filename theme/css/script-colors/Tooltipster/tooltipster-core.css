@@ -1,0 +1,12 @@
+/* >> Tooltipster
+   ========================================================================== */
+
+.tooltipster-punk-purple .tooltipster-box {
+    border-bottom: 3px solid Sasha-Tooltipster-Purple-Bottom;
+    background: Sasha-Tooltipster-Purple-Background;
+}
+
+.tooltipster-punk-aquamarine .tooltipster-box {
+    border-bottom: 3px solid Sasha-Tooltipster-Aquamarine-Bottom;
+    background: Sasha-Tooltipster-Aquamarine-Background;
+}

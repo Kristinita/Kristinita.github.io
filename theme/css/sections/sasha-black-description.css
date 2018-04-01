@@ -41,8 +41,8 @@ img {
 }
 
 kbd {
-    color: #fff5ee;
-    background: #6495ed;
+    color: #ffdead;
+    background: #d2691e;
 }
 
 .SashaBottomAside {
@@ -62,6 +62,10 @@ blockquote {
 
 code {
     background-color: #2f4f4f;
+}
+
+pre >code {
+    background-color: Sasha-Multiline-Code;
 }
 
 ::-moz-selection {
@@ -96,4 +100,105 @@ code {
 .tooltipster-punk-aquamarine .tooltipster-box {
     border-bottom: 3px solid #ff69b4;
     background: #228b22;
+}
+
+.SashaBlockHighlight {
+    background-color: #5e3b47;
+    color: #fff;
+}
+
+.SashaBlockHighlight .c {
+    background-color: #0f140f;
+    font-style: italic;
+    color: #008000;
+}
+
+.SashaBlockHighlight .g {
+    color: #fff;
+}
+
+.SashaBlockHighlight .k {
+    color: #fb660a;
+    font-weight: bold;
+}
+
+.SashaBlockHighlight .l {
+    color: #fff;
+}
+
+.SashaBlockHighlight .o {
+    color: #fff;
+}
+
+.SashaBlockHighlight .x {
+    color: #fff;
+}
+
+.SashaBlockHighlight .p {
+    color: #f4a460;
+}
+
+.SashaBlockHighlight .c1 {
+    color: #008000;
+    background-color: #0f140f;
+    font-style: italic;
+}
+
+.SashaBlockHighlight .gh {
+    color: #fff;
+    font-weight: bold;
+}
+
+.SashaBlockHighlight .m {
+    color: #0086f7;
+    font-weight: bold;
+}
+
+.SashaBlockHighlight .s {
+    color: #87ceeb;
+}
+
+.SashaBlockHighlight .na {
+    color: #ff0086;
+    font-weight: bold;
+}
+
+.SashaBlockHighlight .nb {
+    color: #fff;
+}
+
+.SashaBlockHighlight .no {
+    color: #87ceeb;
+}
+
+.SashaBlockHighlight .ne {
+    color: #fff;
+}
+
+.SashaBlockHighlight .nl {
+    color: #fff;
+}
+
+.SashaBlockHighlight .nv {
+    color: #fb660a;
+}
+
+.SashaBlockHighlight .w {
+    color: #888;
+}
+
+.SashaBlockHighlight .s2 {
+    color: #87ceeb;
+}
+
+.SashaBlockHighlight .se {
+    color: #87ceeb;
+}
+
+.SashaBlockHighlight .sh {
+    color: #87ceeb;
+}
+
+.SashaBlockHighlight .s1 {
+    color: #87ceeb;
 }

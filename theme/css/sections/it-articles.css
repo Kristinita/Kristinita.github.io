@@ -1,6 +1,3 @@
-/* Unverified For PurifyCSS
-   ========================================================================== */
-
 body {
     background: #87e1be;
     color: #465550;
@@ -107,7 +104,7 @@ pre >code {
 
 .SashaInlineHighlight .c,
 .SashaBlockHighlight .c {
-    background-color: #e7e9db;
+    background-color: Sasha-Pygments-Comment-Background;
     font-style: italic;
     color: #8d8687;
 }
@@ -156,14 +153,14 @@ pre >code {
 .SashaInlineHighlight .c1,
 .SashaBlockHighlight .c1 {
     color: #789;
-    background-color: #e7e9db;
+    background-color: Sasha-Pygments-Comment-Single-Background;
     font-style: italic;
 }
 
 .SashaInlineHighlight .go,
 .SashaBlockHighlight .go {
     color: #444;
-    background-color: #e7e9db;
+    background-color: Sasha-Pygments-Generic-Output-Background;
 }
 
 .SashaInlineHighlight .gt,
