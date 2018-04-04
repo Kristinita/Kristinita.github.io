@@ -48,10 +48,6 @@ th {
     bottom: 8%;
 }
 
-aside {
-    background-image: url("https://kristinita.ru/theme/images/aside/SashaFluffy.jpg");
-}
-
 blockquote {
     border-left: solid #dc143c 0.5rem;
     color: #bc8f8f;
@@ -77,7 +73,7 @@ blockquote {
 }
 
 .SashaEpigraph >em {
-    color: #ffdc33;
+    color: #db7093;
 }
 
 .SashaGingerinasExample {

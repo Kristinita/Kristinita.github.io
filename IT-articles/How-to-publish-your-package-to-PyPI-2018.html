@@ -1,6 +1,6 @@
 <!-- @Author: Kristinita -->
 <!-- @Date:   2017-04-15 17:42:59 -->
-<!-- @Last Modified time: 2018-03-20 11:56:53 -->
+<!-- @Last Modified time: 2018-04-04 17:54:04 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -103,8 +103,9 @@
     <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
     <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
     <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_left.css">
-    <!-- External -->
     <link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/it-articles.css">
+    <link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaGreenSweater.css">
+    <!-- External -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
     <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
     <!-- Admonition: note, warning etc. blocks, see
@@ -136,7 +137,7 @@
                     <!-- pubdate attribute is obsolete, use itemprop: datePublished
                                         https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time itemprop="datePublished" datetime="2018-03-02 21:17:09+03:00">2018-03-02 21:17:09+03:00</time>
+                    <time itemprop="datePublished" datetime="2018-04-04 11:57:55+03:00">2018-04-04 11:57:55+03:00</time>
                 </div>
             </header>
             <!-- MarkdownTOC -->
@@ -162,19 +163,19 @@
                         </li>
                         <li><a href="#setupcfg">setup.cfg</a>
                             <ol>
-                                <li><a href="#longdescription">long_description</a></li>
+                                <li><a href="#long_description">long_description</a></li>
                                 <li><a href="#classifiers">classifiers</a></li>
-                                <li><a href="#zipsafe">zip_safe</a></li>
+                                <li><a href="#zip_safe">zip_safe</a></li>
                                 <li><a href="#packages">packages</a></li>
-                                <li><a href="#consolescripts">console_scripts</a></li>
-                                <li><a href="#bdistwheel">bdist_wheel</a></li>
+                                <li><a href="#console_scripts">console_scripts</a></li>
+                                <li><a href="#bdist_wheel">bdist_wheel</a></li>
                             </ol>
                         </li>
                         <li><a href="#dependencies">Dependencies</a>
                             <ol>
-                                <li><a href="#difference-between-requirementstxt-and-installrequires">Difference between requirements.txt and install_requires</a>
+                                <li><a href="#difference-between-requirementstxt-and-install_requires">Difference between requirements.txt and install_requires</a>
                                     <ol>
-                                        <li><a href="#installrequires">install_requires</a></li>
+                                        <li><a href="#install_requires">install_requires</a></li>
                                         <li><a href="#requirementstxt">requirements.txt</a></li>
                                     </ol>
                                 </li>
@@ -400,9 +401,9 @@
                 values.</p>
             <p>In the subsections below I describe the places that caused me difficulties.</p>
             <p>
-                <a id="longdescription"></a>
+                <a id="long_description"></a>
             </p>
-            <h4>9.5.1. long_description <a class="headerlink" href="#longdescription" title="Permanent link">¶</a></h4>
+            <h4>9.5.1. long_description <a class="headerlink" href="#long_description" title="Permanent link">¶</a></h4>
             <p>my value:</p>
             <div class="SashaBlockHighlight">
                 <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="na">long_description</span> <span class="o">=</span> <span class="s">file: Readme.rst</span>
@@ -416,9 +417,9 @@
             <p>You can use only classifiers from <a href="https://pypi.python.org/pypi?%3Aaction=list_classifiers" target="_blank">this list</a>. If no, you can't publish your package to PyPI.</p>
             <p>Possibly, UNIX users can select classifiers via <a href="https://github.com/mbr/pypi-classifiers" target="_blank">pypi-classifiers GUI</a>, but <a href="https://github.com/mbr/pypi-classifiers/issues/2" target="_blank">I can't set this program for Windows 10</a>.</p>
             <p>
-                <a id="zipsafe"></a>
+                <a id="zip_safe"></a>
             </p>
-            <h4>9.5.3. zip_safe <a class="headerlink" href="#zipsafe" title="Permanent link">¶</a></h4>
+            <h4>9.5.3. zip_safe <a class="headerlink" href="#zip_safe" title="Permanent link">¶</a></h4>
             <p>my value:</p>
             <div class="SashaBlockHighlight">
                 <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="na">zip_safe</span> <span class="o">=</span> <span class="s">False</span>
@@ -435,9 +436,9 @@
 </pre></div>
             <p>If no <code class="SashaInlineHighlight"><span class="na">packages</span> <span class="o">=</span> <span class="s">find:</span></code>, users doesn't download folder with your Python module.</p>
             <p>
-                <a id="consolescripts"></a>
+                <a id="console_scripts"></a>
             </p>
-            <h4>9.5.5. console_scripts <a class="headerlink" href="#consolescripts" title="Permanent link">¶</a></h4>
+            <h4>9.5.5. console_scripts <a class="headerlink" href="#console_scripts" title="Permanent link">¶</a></h4>
             <p>What is it. If Erichek user want run Erichek, he/she wrote in console:</p>
             <div class="SashaBlockHighlight">
                 <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button>python <span class="s2">"path/to/__main__.py"</span>
@@ -458,9 +459,9 @@
                 <li><code class="SashaInlineHighlight">:main</code> — function, that run, when you run your module. For my <em>__main__.py</em> it <code class="SashaInlineHighlight"><span class="n">main</span><span class="p">()</span></code> function.</li>
             </ul>
             <p>
-                <a id="bdistwheel"></a>
+                <a id="bdist_wheel"></a>
             </p>
-            <h4>9.5.6. bdist_wheel <a class="headerlink" href="#bdistwheel" title="Permanent link">¶</a></h4>
+            <h4>9.5.6. bdist_wheel <a class="headerlink" href="#bdist_wheel" title="Permanent link">¶</a></h4>
             <p>my value:</p>
             <div class="SashaBlockHighlight">
                 <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="k">[bdist_wheel]</span>
@@ -484,14 +485,14 @@
                     dependencies in <em>requirements.txt</em> and <em>setup.cfg</em> both.</p>
             </div>
             <p>
-                <a id="difference-between-requirementstxt-and-installrequires"></a>
+                <a id="difference-between-requirementstxt-and-install_requires"></a>
             </p>
-            <h4>9.6.1. Difference between requirements.txt and install_requires <a class="headerlink" href="#difference-between-requirementstxt-and-installrequires" title="Permanent link">¶</a></h4>
+            <h4>9.6.1. Difference between requirements.txt and install_requires <a class="headerlink" href="#difference-between-requirementstxt-and-install_requires" title="Permanent link">¶</a></h4>
             <p>Simplified definition.</p>
             <p>
-                <a id="installrequires"></a>
+                <a id="install_requires"></a>
             </p>
-            <h5>9.6.1.1. install_requires <a class="headerlink" href="#installrequires" title="Permanent link">¶</a></h5>
+            <h5>9.6.1.1. install_requires <a class="headerlink" href="#install_requires" title="Permanent link">¶</a></h5>
             <p><em>install_requires</em> parameter in <em>setup.cfg</em> or <em>setup.py</em> show, which packages will install additionally, if user install your package via pip. For example, user install <a href="https://pypi.org/project/sasha/" target="_blank">clize package</a>:</p>
             <div class="SashaBlockHighlight">
                 <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button>pip install clize

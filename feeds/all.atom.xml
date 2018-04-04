@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-03-22T15:10:32+03:00</updated><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-03-22T07:53:03+03:00</published><updated>2018-03-22T15:10:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-03-22:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-04T22:25:04+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.ru/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:45+03:00</published><updated>2018-04-04T22:25:04+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#limitations"&gt;Limitations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#motivation"&gt;Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#installation"&gt;Installation&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#dependencies"&gt;Dependencies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#palettemira"&gt;PaletteMira&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#activation"&gt;Activation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#usage"&gt;Usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#known-problems-and-bugs"&gt;Known problems and bugs&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#palettemira-1"&gt;PaletteMira&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#dependencies-1"&gt;Dependencies&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a id="overview"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Overview&lt;/h2&gt;
+&lt;p&gt;Sublime Text package, that add to &lt;a href="http://docs.sublimetext.info/en/latest/reference/command_palette.html" target="_blank"&gt;command palette&lt;/a&gt; existing commands from third-party packages, if author(s) of them did not do this.&lt;/p&gt;
+&lt;p&gt;I include to PaletteMira commands of all known packages, that doesn't have command palette caption, not obsolete and haven't critical errors.&lt;/p&gt;
+&lt;p&gt;&lt;a id="limitations"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Limitations&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You must be Sublime Text user.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="motivation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;#SashaHateKeyBindings,&lt;/li&gt;
+&lt;li&gt;#SashaHateContextMenu,&lt;/li&gt;
+&lt;li&gt;#SashaHateNoSuricate.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="installation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;4. Installation&lt;/h2&gt;
+&lt;p&gt;&lt;a id="dependencies"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.1. Dependencies&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href="https://packagecontrol.io/packages/Suricate" target="_blank"&gt;Suricate&lt;/a&gt; &lt;a href="https://packagecontrol.io/docs/usage" target="_blank"&gt;via Package Control&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="palettemira"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.2. PaletteMira&lt;/h3&gt;
+&lt;p&gt;Install PaletteMira, using &lt;a href="https://stackoverflow.com/a/44441455/5951529" target="_blank"&gt;&lt;em&gt;Package Control: Add Repository&lt;/em&gt;&lt;/a&gt; with tree &lt;a href="https://github.com/Kristinita/PaletteMira/tree/SashaDevelop" target="_blank"&gt;https://github.com/Kristinita/PaletteMira/tree/SashaDevelop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="activation"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;5. Activation&lt;/h2&gt;
+&lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;em&gt;Suricate: Add Profile&lt;/em&gt; → Select &lt;em&gt;PaletteMira&lt;/em&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Activate PaletteMira" src="https://i.imgur.com/LAS3eTl.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="usage"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;6. Usage&lt;/h2&gt;
+&lt;p&gt;After activation, you can run commands of packages from list. Print package name in command palette → you get result: &lt;em&gt;Suricate: &amp;#60;Your Package&amp;#62;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Example for &lt;a href="https://github.com/titoBouzout/Open-Include" target="_blank"&gt;Sublime OpenInclude&lt;/a&gt; package:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="OpenInclude" src="https://i.imgur.com/EQNWf9y.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="known-problems-and-bugs"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;7. Known problems and bugs&lt;/h2&gt;
+&lt;p&gt;&lt;a id="palettemira-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
+&lt;p&gt;&lt;a id="dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;7.2. Dependencies&lt;/h3&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-03-22T07:53:03+03:00</published><updated>2018-04-04T11:58:12+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-03-22:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -126,7 +187,7 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-03-02T21:17:09+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-04-04T11:57:58+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -412,8 +473,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-03-02T21:17:10+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;
-&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:50+03:00</published><updated>2018-04-04T16:18:30+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -780,7 +840,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>Поиск книг для джинджерин</title><link href="https://kristinita.ru/Gingerinas/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-30T07:58:12+03:00</published><updated>2018-03-02T21:17:07+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-30:/Gingerinas/Поиск-книг-для-джинджерин.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг, необходимых для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>Поиск книг для джинджерин</title><link href="https://kristinita.ru/Gingerinas/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-30T07:58:12+03:00</published><updated>2018-04-04T11:30:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-30:/Gingerinas/Поиск-книг-для-джинджерин.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг, необходимых для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Содержание-страницы"&gt;Содержание страницы&lt;/a&gt;&lt;/li&gt;
@@ -1221,7 +1281,7 @@ To https://github.com/Kristinita/SashaSublime.git
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-03-02T21:17:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-04-04T11:30:20+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Смайлы&lt;/h2&gt;
 &lt;p&gt;i ♥ :fa-coffee:&lt;/p&gt;
 &lt;h2&gt;2. Таблицы&lt;/h2&gt;
 &lt;p&gt;
@@ -1321,7 +1381,7 @@ To https://github.com/Kristinita/SashaSublime.git
   &lt;li class="visualize" data-value="3" data-color="antiquewhite"&gt;3 — шустрая кнопка&lt;/li&gt;
   &lt;li class="visualize" data-value="2" data-color="coral"&gt;1 — Елдесы&lt;/li&gt;
   &lt;li class="visualize" data-value="4" data-color="papayawhip"&gt;Oreo&lt;/li&gt;
-&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%85.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-03-02T21:17:06+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Знания-в-джинджеринах.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="help"></category></entry><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%85.html" rel="alternate"></link><published>2017-12-25T07:58:12+03:00</published><updated>2018-04-04T11:30:21+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-12-25:/Gingerinas/Знания-в-джинджеринах.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#О-чём-данная-статья"&gt;О чём данная статья&lt;/a&gt;&lt;/li&gt;
@@ -1762,8 +1822,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;по нику игрока онлайн-джинджерины «КонКВИЗтадор» chenov, который точно отвечал почти на все числовые вопросы в темах «Естественные науки» и «Точные науки».&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="help"></category></entry><entry><title>Фоны и Карта С</title><link href="https://kristinita.ru/Gingerinas/%D0%A4%D0%BE%D0%BD%D1%8B-%D0%B8-%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%A1.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:08+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Фоны-и-Карта-С.html</id><summary type="html">&lt;p&gt;Психологические проблемы автора в соревновательные период, и предпринимаемые для борьбы с ними меры.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Саша с глобусом" src="https://i.imgur.com/wlLXma4.jpg"&gt;&lt;/p&gt;
-&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="help"></category></entry><entry><title>Фоны и Карта С</title><link href="https://kristinita.ru/Gingerinas/%D0%A4%D0%BE%D0%BD%D1%8B-%D0%B8-%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%A1.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-04-04T16:16:28+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Фоны-и-Карта-С.html</id><summary type="html">&lt;p&gt;Психологические проблемы автора в соревновательные период, и предпринимаемые для борьбы с ними меры.&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Фон"&gt;Фон&lt;/a&gt;&lt;ol&gt;
@@ -2024,8 +2083,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Карта С — «Карта Саши», название происходит от т. н. карты снов, которую заводила мой Кумир &lt;br&gt; &lt;img alt="КС1" src="https://i.imgur.com/40WMvIY.png"&gt; &lt;img alt="КС2" src="https://i.imgur.com/31Zkit5.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="psychology"></category></entry><entry><title>Грейзи Фа</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D0%B7%D0%B8-%D0%A4%D0%B0.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:01+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Грейзи-Фа.html</id><summary type="html">&lt;p&gt;Процесс поиска энциклопедической литературы и выделения из неё полезной для джинджерин информации&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Катя в Инстаграме" src="https://i.imgur.com/UbKh01O.png"&gt;&lt;/p&gt;
-&lt;p&gt;Для выхода на более-менее серьёзный уровень игрокам в джинджерины приходится читать много литературы. Однако когда спрашиваю, как же игроки читают, то вижу, насколько же неэффективно у них поставлены процессы подбора и чтения. В данной статье о метапознании автор высказывает свои представления, как и что нужно читать для получения большего профита в джинджеринах. Хочется надеяться, что по её прочтении Вы поймёте, что многое теряете, когда «просто читаете» первые попавшиеся книги.&lt;/p&gt;
+&lt;/div&gt;</content><category term="psychology"></category></entry><entry><title>Грейзи Фа</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D0%B7%D0%B8-%D0%A4%D0%B0.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-04-04T15:44:23+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/Gingerinas/Грейзи-Фа.html</id><summary type="html">&lt;p&gt;Процесс поиска энциклопедической литературы и выделения из неё полезной для джинджерин информации&lt;/p&gt;</summary><content type="html">&lt;p&gt;Для выхода на более-менее серьёзный уровень игрокам в джинджерины приходится читать много литературы. Однако когда спрашиваю, как же игроки читают, то вижу, насколько же неэффективно у них поставлены процессы подбора и чтения. В данной статье о метапознании автор высказывает свои представления, как и что нужно читать для получения большего профита в джинджеринах. Хочется надеяться, что по её прочтении Вы поймёте, что многое теряете, когда «просто читаете» первые попавшиеся книги.&lt;/p&gt;
 &lt;p&gt;Некоторые рекомендации, хоть и стараюсь всё подкреплять аргументами, могут основываться только на личном опыте.&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
@@ -2355,7 +2413,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Смешанное от Грейс — псевдонима Пресвятой Великомученицы Екатерины Десятниковой и crazy_fan_fan — Её никнейма в Инстаграме.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category><category term="pumping"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:09+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category><category term="pumping"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-04-04T11:57:55+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -2376,17 +2434,17 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#setupcfg"&gt;setup.cfg&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#longdescription"&gt;long_description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#long_description"&gt;long_description&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#classifiers"&gt;classifiers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#zipsafe"&gt;zip_safe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#zip_safe"&gt;zip_safe&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#packages"&gt;packages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#consolescripts"&gt;console_scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#bdistwheel"&gt;bdist_wheel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#console_scripts"&gt;console_scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#bdist_wheel"&gt;bdist_wheel&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#dependencies"&gt;Dependencies&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#difference-between-requirementstxt-and-installrequires"&gt;Difference between requirements.txt and install_requires&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#installrequires"&gt;install_requires&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#difference-between-requirementstxt-and-install_requires"&gt;Difference between requirements.txt and install_requires&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#install_requires"&gt;install_requires&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#requirementstxt"&gt;requirements.txt&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
@@ -2568,7 +2626,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/div&gt;
 &lt;p&gt;&lt;a href="https://github.com/4383/sampleproject/blob/update/distribute/setup.cfg" target="_blank"&gt;See example &lt;em&gt;setup.cfg&lt;/em&gt;&lt;/a&gt;. Copy content of this file to your &lt;em&gt;setup.cfg&lt;/em&gt; and change example values of parameters to your real values.&lt;/p&gt;
 &lt;p&gt;In the subsections below I describe the places that caused me difficulties.&lt;/p&gt;
-&lt;p&gt;&lt;a id="longdescription"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="long_description"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.1. long_description&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;long_description&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;file: Readme.rst&lt;/span&gt;
@@ -2579,7 +2637,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h4&gt;9.5.2. classifiers&lt;/h4&gt;
 &lt;p&gt;You can use only classifiers from &lt;a href="https://pypi.python.org/pypi?%3Aaction=list_classifiers" target="_blank"&gt;this list&lt;/a&gt;. If no, you can't publish your package to PyPI.&lt;/p&gt;
 &lt;p&gt;Possibly, UNIX users can select classifiers via &lt;a href="https://github.com/mbr/pypi-classifiers" target="_blank"&gt;pypi-classifiers GUI&lt;/a&gt;, but &lt;a href="https://github.com/mbr/pypi-classifiers/issues/2" target="_blank"&gt;I can't set this program for Windows 10&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a id="zipsafe"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="zip_safe"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.3. zip_safe&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;zip_safe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;False&lt;/span&gt;
@@ -2593,7 +2651,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If no &lt;code class="SashaInlineHighlight"&gt;&lt;span class="na"&gt;packages&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;find:&lt;/span&gt;&lt;/code&gt;, users doesn't download folder with your Python module.&lt;/p&gt;
-&lt;p&gt;&lt;a id="consolescripts"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="console_scripts"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.5. console_scripts&lt;/h4&gt;
 &lt;p&gt;What is it. If Erichek user want run Erichek, he/she wrote in console:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python &lt;span class="s2"&gt;&amp;quot;path/to/__main__.py&amp;quot;&lt;/span&gt;
@@ -2614,7 +2672,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;erichek.__main__&lt;/code&gt; — relative path to your main module. For me it &lt;a href="https://github.com/Kristinita/Erichek/blob/master/erichek/__main__.py" target="_blank"&gt;&lt;em&gt;__main__.py&lt;/em&gt; file in &lt;em&gt;erichek&lt;/em&gt; folder&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;:main&lt;/code&gt; — function, that run, when you run your module. For my &lt;em&gt;__main__.py&lt;/em&gt; it &lt;code class="SashaInlineHighlight"&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/code&gt; function.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a id="bdistwheel"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="bdist_wheel"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.6. bdist_wheel&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;[bdist_wheel]&lt;/span&gt;
@@ -2634,10 +2692,10 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p class="admonition-title"&gt;Caution&lt;/p&gt;
 &lt;p&gt;Some developers &lt;a href="https://stackoverflow.com/a/33685899/5951529" target="_blank"&gt;criticize this method&lt;/a&gt;. If you need different dependencies for &lt;em&gt;requirements.txt&lt;/em&gt; and &lt;em&gt;install_requires&lt;/em&gt;, please, add list of your dependencies in &lt;em&gt;requirements.txt&lt;/em&gt; and &lt;em&gt;setup.cfg&lt;/em&gt; both.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a id="difference-between-requirementstxt-and-installrequires"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="difference-between-requirementstxt-and-install_requires"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.6.1. Difference between requirements.txt and install_requires&lt;/h4&gt;
 &lt;p&gt;Simplified definition.&lt;/p&gt;
-&lt;p&gt;&lt;a id="installrequires"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="install_requires"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;9.6.1.1. install_requires&lt;/h5&gt;
 &lt;p&gt;&lt;em&gt;install_requires&lt;/em&gt; parameter in &lt;em&gt;setup.cfg&lt;/em&gt; or &lt;em&gt;setup.py&lt;/em&gt; show, which packages will install additionally, if user install your package via pip. For example, user install &lt;a href="https://pypi.org/project/sasha/" target="_blank"&gt;clize package&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install clize
@@ -3043,8 +3101,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Джинджерины</title><link href="https://kristinita.ru/Gingerinas/%D0%94%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D1%8B.html" rel="alternate"></link><published>2017-07-20T12:05:52+03:00</published><updated>2018-03-02T21:17:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-20:/Gingerinas/Джинджерины.html</id><summary type="html">&lt;p&gt;Джинджерины — терминология и классификация&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Лик Джинджер" src="https://i.imgur.com/0CJ7NUt.jpg"&gt;&lt;/p&gt;
-&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Джинджерины</title><link href="https://kristinita.ru/Gingerinas/%D0%94%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D1%8B.html" rel="alternate"></link><published>2017-07-20T12:05:52+03:00</published><updated>2018-04-04T15:46:49+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-20:/Gingerinas/Джинджерины.html</id><summary type="html">&lt;p&gt;Джинджерины — терминология и классификация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Определение"&gt;Определение&lt;/a&gt;&lt;ol&gt;
@@ -3134,8 +3191,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;От &lt;em&gt;ginger&lt;/em&gt; — игрового ника Выдающейся Личности Людмилы Черкашиной&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Тао</title><link href="https://kristinita.ru/Gingerinas/%D0%A2%D0%B0%D0%BE.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-03-02T21:17:07+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Тао.html</id><summary type="html">&lt;p&gt;Смешение в сознании различных понятий и борьба с данным явлением&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Катин лик" src="https://i.imgur.com/paIioO1.jpg"&gt;&lt;/p&gt;
-&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Тао</title><link href="https://kristinita.ru/Gingerinas/%D0%A2%D0%B0%D0%BE.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-04-04T16:15:30+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Тао.html</id><summary type="html">&lt;p&gt;Смешение в сознании различных понятий и борьба с данным явлением&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Определение"&gt;Определение&lt;/a&gt;&lt;ol&gt;
@@ -3327,7 +3383,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;Тао, юми — сценические псевдонимы Святой Екатерины Десятниковой. &lt;img alt="Тао" src="https://i.imgur.com/dvKxmBO.png"&gt; &lt;img alt="Юми" src="https://i.imgur.com/xOF3urA.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Sasha Goddess</title><link href="https://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-03-02T21:17:08+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- Gallery: {photo}kris --&gt;
+&lt;/div&gt;</content><category term="gingerinas"></category></entry><entry><title>Sasha Goddess</title><link href="https://kristinita.ru/Gingerinas/Testus.html" rel="alternate"></link><published>2017-07-13T23:51:25+03:00</published><updated>2018-04-04T11:30:20+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-13:/Gingerinas/Testus.html</id><summary type="html">&lt;p&gt;Test&lt;/p&gt;</summary><content type="html">&lt;!-- Gallery: {photo}kris --&gt;
 
 &lt;p&gt;
 &lt;div class="progress progress-0plus"&gt;
@@ -3375,16 +3431,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p class="progress-label"&gt;100%&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;</content><category term="Test"></category></entry><entry><title>Грейс Ло</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:45:14+03:00</published><updated>2018-03-02T21:17:04+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
-&lt;em&gt;Название методики — сокращённое от «Grace Lawrence», учётной записи &lt;a href="https://vk.com/mk_2802"&gt;Екатерины Десятниковой&lt;/a&gt; в соцсети,&lt;br&gt;
-Тебя нет на этой планете,&lt;br&gt;
-Но Ты навсегда останешься в моём сердце.&lt;br&gt;&lt;br&gt;
-Хорошо Тебе, Катя! А я-то зачем остался жить на свете да мучиться! ©
-&lt;/em&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img alt="Grace Lawrence" src="https://i.imgur.com/ivfmpvZ.jpg"&gt;&lt;/p&gt;
-&lt;h2&gt;1. Основная информация&lt;/h2&gt;
+&lt;/p&gt;</content><category term="Test"></category></entry><entry><title>Грейс Ло</title><link href="https://kristinita.ru/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:45:14+03:00</published><updated>2018-04-04T15:36:31+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Основная информация&lt;/h2&gt;
 &lt;h3&gt;1.1. Что такое Грейс Ло?&lt;/h3&gt;
 &lt;p&gt;«Грейс Ло» — метод, которым автор этих строк запоминает информацию, необходимую для &lt;a href="http://anima-kommunizm.forum2x2.ru/t135-topic" target="_blank"&gt;джинджерин&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Принцип Грейс Ло — запись информации, которая может впоследствии повторяться в вопросах джинджерин, с последующим её повторением. В пределах данной статьи стараюсь обратить внимание на детали.&lt;/p&gt;
@@ -3743,15 +3790,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;/ol&gt;
 &lt;p&gt;Ограничусь некоторыми примерами.&lt;/p&gt;
 &lt;h2&gt;6. Повторение&lt;/h2&gt;
-&lt;h2&gt;7. Мнемоника&lt;/h2&gt;</content><category term="gingerinas"></category><category term="gingerinas-training"></category></entry><entry><title>Sacagawea</title><link href="https://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:34+03:00</published><updated>2018-03-02T21:17:11+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
-&lt;em&gt;Посвящено &lt;a href="https://vk.com/id152198389"&gt;Наталье Степуриной (Шмелёвой)&lt;/a&gt;, &lt;br&gt;
-никогда не оставлявшую меня в трудную минуту. &lt;br&gt;
-Названо в честь &lt;a href="http://www.history.com/topics/native-american-history/sacagawea"&gt;Её игрового никнейма&lt;/a&gt;.
-&lt;/em&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img alt="Sacagawea" src="https://i.imgur.com/cVITpm1.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;7. Мнемоника&lt;/h2&gt;</content><category term="gingerinas"></category><category term="gingerinas-training"></category></entry><entry><title>Sacagawea</title><link href="https://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:34+03:00</published><updated>2018-04-04T16:23:47+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -4065,7 +4104,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.soundjay.com/tos.html" target="_blank"&gt;правила использования звуков&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md" target="_blank"&gt;лицензия на Sacagawea — MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-03-02T21:17:11+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-04T04:14:07+03:00</published><updated>2018-04-04T16:24:27+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-04-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;
@@ -4077,7 +4116,6 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img alt="Angelovaleria" src="https://i.imgur.com/iciGBgN.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;1. Briefly&lt;/h2&gt;
 &lt;p&gt;Russian-language spellchecker for Sublime Text.&lt;/p&gt;
 &lt;h2&gt;2. Demonstration&lt;/h2&gt;
@@ -4613,7 +4651,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;em&gt;Скопировано со страницы &lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;fan.lib.ru/n/nesterenko_j_l/text_0610.shtml&lt;/a&gt;&lt;/span&gt;&lt;/a&gt; исключительно с целью проставления &lt;a href="http://htmlbook.ru/samhtml/yakorya"&gt;якорей&lt;/a&gt;, дабы было удобно указывать на отдельные пункты «Демагогии». Допустим, если вы хотите в диалоге сослаться на пункт 1.4, отошлите собеседнику ссылку &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#1.4&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;, пункт 3.2.5.3.а. — &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а&lt;/a&gt;&lt;/span&gt;&lt;/a&gt; и т. д. Авторские права на текст принадлежат их обладателям.&lt;/em&gt;&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-03-09T11:13:36+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
+&lt;em&gt;Скопировано со страницы &lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="http://fan.lib.ru/n/nesterenko_j_l/text_0610.shtml"&gt;fan.lib.ru/n/nesterenko_j_l/text_0610.shtml&lt;/a&gt;&lt;/span&gt;&lt;/a&gt; исключительно с целью проставления &lt;a href="http://htmlbook.ru/samhtml/yakorya"&gt;якорей&lt;/a&gt;, дабы было удобно указывать на отдельные пункты «Демагогии». Допустим, если вы хотите в диалоге сослаться на пункт 1.4, отошлите собеседнику ссылку &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#1.4"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#1.4&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;, пункт 3.2.5.3.а. — &lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;&lt;span class="SashaSpan"&gt;&lt;a href="https://kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а"&gt;kristinita.ru/Giologica/Демагогия-Нестеренко#3.2.5.3.а&lt;/a&gt;&lt;/span&gt;&lt;/a&gt; и т. д. Авторские права на текст принадлежат их обладателям.&lt;/em&gt;&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-04-04T11:58:06+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
         &lt;br /&gt;
         &lt;br /&gt; До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.
         &lt;br /&gt;
@@ -4999,7 +5037,7 @@ OR OR OR
 Критических недостатков в Пирамиде Грэма не обнаружил, как подворачивается случай, ссылаюсь на неё. Притом количество нападок, агрессии и оскорблений в аргументации снижается по направлению от низшей ступени Пирамиды к высшей.
 &lt;br /&gt;
 &lt;br /&gt;
-Стоит, однако, не забывать, что спор не ограничивается одними лишь опровержениями: иногда уместно запросить верификацию, а не пытаться фальсифицировать; да и само опровержение может производиться относительно сущностей, не затронутых другой стороной (пример: в компанию поступило предложение о внедрении нового оборудования. → «Да, производительность увеличится, но с финансовой точки зрения мы останемся в убытке»). Ну и дискуссию, где оппонент не настроен на конструктивный лад, отнюдь не воспрещается &lt;a href="Nas-Izu" target="_blank"&gt;покинуть&lt;/a&gt;.&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Korvers</title><link href="https://kristinita.ru/Gingerinas/Korvers.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-03-09T09:34:39+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Gingerinas/Korvers.html</id><summary type="html">&lt;p&gt;Техника мышления в джинджеринах&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+Стоит, однако, не забывать, что спор не ограничивается одними лишь опровержениями: иногда уместно запросить верификацию, а не пытаться фальсифицировать; да и само опровержение может производиться относительно сущностей, не затронутых другой стороной (пример: в компанию поступило предложение о внедрении нового оборудования. → «Да, производительность увеличится, но с финансовой точки зрения мы останемся в убытке»). Ну и дискуссию, где оппонент не настроен на конструктивный лад, отнюдь не воспрещается &lt;a href="Nas-Izu" target="_blank"&gt;покинуть&lt;/a&gt;.&lt;/p&gt;</content><category term="giologica"></category><category term="demagogue"></category></entry><entry><title>Korvers</title><link href="https://kristinita.ru/Gingerinas/Korvers.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2018-04-04T11:30:20+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-02-13:/Gingerinas/Korvers.html</id><summary type="html">&lt;p&gt;Техника мышления в джинджеринах&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Предисловие"&gt;Предисловие&lt;/a&gt;&lt;/li&gt;
@@ -7248,9 +7286,9 @@ If you only press the spacebar,
 &lt;li&gt;&lt;a href="#brackethighlighter"&gt;BracketHighlighter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#emmet"&gt;Emmet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#color-helper"&gt;Color Helper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#drmonthscalendar"&gt;dr_months_calendar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#dr_months_calendar"&gt;dr_months_calendar&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#suricate"&gt;Suricate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#sublimeunicodenbsp"&gt;sublime_unicode_nbsp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sublime_unicode_nbsp"&gt;sublime_unicode_nbsp&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#selected-text"&gt;Selected text&lt;/a&gt;&lt;ol&gt;
@@ -7340,7 +7378,7 @@ If you only press the spacebar,
 &lt;li&gt;&lt;a href="#donate"&gt;Donate&lt;/a&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href="#bitcoin"&gt;Bitcoin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#litecoin"&gt;Litecoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#paypal-"&gt;Paypal $&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#paypal-$"&gt;Paypal $&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#paypal-€"&gt;Paypal €&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
@@ -7429,14 +7467,14 @@ If you only press the spacebar,
 &lt;p&gt;&lt;a id="color-helper"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.6. &lt;a href="https://github.com/facelessuser/ColorHelper" target="_blank"&gt;Color Helper&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="Color Helper" src="https://i.imgur.com/ZcmyymH.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a id="dr\months\calendar"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="dr_months_calendar"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.7. &lt;a href="https://github.com/dragon/dr_months_calendar" target="_blank"&gt;dr_months_calendar&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="dr_months_calendar" src="https://i.imgur.com/Pq1HXC7.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="suricate"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.8. &lt;a href="https://github.com/nsubiron/SublimeSuricate" target="_blank"&gt;Suricate&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="Suricate" src="https://i.imgur.com/ivsdfXM.png"&gt;&lt;/p&gt;
 &lt;p&gt;If &lt;em&gt;"popup_style_file": "Packages/Suricate/css/dark.css",&lt;/em&gt; in Suricate settings.&lt;/p&gt;
-&lt;p&gt;&lt;a id="sublime\unicode\nbsp"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="sublime_unicode_nbsp"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.9. &lt;a href="https://github.com/possan/sublime_unicode_nbsp" target="_blank"&gt;sublime_unicode_nbsp&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="sublime_unicode_nbsp" src="https://i.imgur.com/LCTE0Y2.png"&gt;&lt;/p&gt;
 &lt;p&gt;If &lt;a href="https://github.com/possan/sublime_unicode_nbsp/pull/14/files" target="_blank"&gt;patched&lt;/a&gt;.&lt;/p&gt;
@@ -7818,7 +7856,7 @@ If you only press the spacebar,
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a id="paypal-"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="paypal-$"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q" target="_blank"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="paypal-€"&gt;&lt;/a&gt;&lt;/p&gt;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-03-22T15:10:32+03:00</updated><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-03-22T07:53:03+03:00</published><updated>2018-03-22T15:10:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-03-22:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-04T11:58:12+03:00</updated><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-03-22T07:53:03+03:00</published><updated>2018-04-04T11:58:12+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-03-22:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -126,7 +126,7 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-03-02T21:17:09+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-29T12:04:22+03:00</published><updated>2018-04-04T11:57:58+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-01-29:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -412,7 +412,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-03-02T21:17:09+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2017-07-26T11:10:27+03:00</published><updated>2018-04-04T11:57:55+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2017-07-26:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -433,17 +433,17 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#setupcfg"&gt;setup.cfg&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#longdescription"&gt;long_description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#long_description"&gt;long_description&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#classifiers"&gt;classifiers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#zipsafe"&gt;zip_safe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#zip_safe"&gt;zip_safe&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#packages"&gt;packages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#consolescripts"&gt;console_scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#bdistwheel"&gt;bdist_wheel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#console_scripts"&gt;console_scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#bdist_wheel"&gt;bdist_wheel&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#dependencies"&gt;Dependencies&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#difference-between-requirementstxt-and-installrequires"&gt;Difference between requirements.txt and install_requires&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#installrequires"&gt;install_requires&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#difference-between-requirementstxt-and-install_requires"&gt;Difference between requirements.txt and install_requires&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#install_requires"&gt;install_requires&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#requirementstxt"&gt;requirements.txt&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
@@ -625,7 +625,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/div&gt;
 &lt;p&gt;&lt;a href="https://github.com/4383/sampleproject/blob/update/distribute/setup.cfg" target="_blank"&gt;See example &lt;em&gt;setup.cfg&lt;/em&gt;&lt;/a&gt;. Copy content of this file to your &lt;em&gt;setup.cfg&lt;/em&gt; and change example values of parameters to your real values.&lt;/p&gt;
 &lt;p&gt;In the subsections below I describe the places that caused me difficulties.&lt;/p&gt;
-&lt;p&gt;&lt;a id="longdescription"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="long_description"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.1. long_description&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;long_description&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;file: Readme.rst&lt;/span&gt;
@@ -636,7 +636,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h4&gt;9.5.2. classifiers&lt;/h4&gt;
 &lt;p&gt;You can use only classifiers from &lt;a href="https://pypi.python.org/pypi?%3Aaction=list_classifiers" target="_blank"&gt;this list&lt;/a&gt;. If no, you can't publish your package to PyPI.&lt;/p&gt;
 &lt;p&gt;Possibly, UNIX users can select classifiers via &lt;a href="https://github.com/mbr/pypi-classifiers" target="_blank"&gt;pypi-classifiers GUI&lt;/a&gt;, but &lt;a href="https://github.com/mbr/pypi-classifiers/issues/2" target="_blank"&gt;I can't set this program for Windows 10&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a id="zipsafe"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="zip_safe"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.3. zip_safe&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;zip_safe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;False&lt;/span&gt;
@@ -650,7 +650,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If no &lt;code class="SashaInlineHighlight"&gt;&lt;span class="na"&gt;packages&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;find:&lt;/span&gt;&lt;/code&gt;, users doesn't download folder with your Python module.&lt;/p&gt;
-&lt;p&gt;&lt;a id="consolescripts"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="console_scripts"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.5. console_scripts&lt;/h4&gt;
 &lt;p&gt;What is it. If Erichek user want run Erichek, he/she wrote in console:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python &lt;span class="s2"&gt;&amp;quot;path/to/__main__.py&amp;quot;&lt;/span&gt;
@@ -671,7 +671,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;erichek.__main__&lt;/code&gt; — relative path to your main module. For me it &lt;a href="https://github.com/Kristinita/Erichek/blob/master/erichek/__main__.py" target="_blank"&gt;&lt;em&gt;__main__.py&lt;/em&gt; file in &lt;em&gt;erichek&lt;/em&gt; folder&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;:main&lt;/code&gt; — function, that run, when you run your module. For my &lt;em&gt;__main__.py&lt;/em&gt; it &lt;code class="SashaInlineHighlight"&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/code&gt; function.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a id="bdistwheel"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="bdist_wheel"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.6. bdist_wheel&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;[bdist_wheel]&lt;/span&gt;
@@ -691,10 +691,10 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p class="admonition-title"&gt;Caution&lt;/p&gt;
 &lt;p&gt;Some developers &lt;a href="https://stackoverflow.com/a/33685899/5951529" target="_blank"&gt;criticize this method&lt;/a&gt;. If you need different dependencies for &lt;em&gt;requirements.txt&lt;/em&gt; and &lt;em&gt;install_requires&lt;/em&gt;, please, add list of your dependencies in &lt;em&gt;requirements.txt&lt;/em&gt; and &lt;em&gt;setup.cfg&lt;/em&gt; both.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a id="difference-between-requirementstxt-and-installrequires"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="difference-between-requirementstxt-and-install_requires"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.6.1. Difference between requirements.txt and install_requires&lt;/h4&gt;
 &lt;p&gt;Simplified definition.&lt;/p&gt;
-&lt;p&gt;&lt;a id="installrequires"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="install_requires"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;9.6.1.1. install_requires&lt;/h5&gt;
 &lt;p&gt;&lt;em&gt;install_requires&lt;/em&gt; parameter in &lt;em&gt;setup.cfg&lt;/em&gt; or &lt;em&gt;setup.py&lt;/em&gt; show, which packages will install additionally, if user install your package via pip. For example, user install &lt;a href="https://pypi.org/project/sasha/" target="_blank"&gt;clize package&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install clize

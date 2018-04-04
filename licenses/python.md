@@ -3,7 +3,7 @@
 | Jinja2              | 2.10      | BSD                                                          |
 | Markdown            | 2.6.11    | BSD License                                                  |
 | MarkupSafe          | 1.0       | BSD                                                          |
-| Pillow              | 5.0.0     | Standard PIL License                                         |
+| Pillow              | 5.1.0     | Standard PIL License                                         |
 | Pygments            | 2.2.0     | BSD License                                                  |
 | Unidecode           | 1.0.22    | GPL                                                          |
 | actdiag             | 0.5.4     | Apache License 2.0                                           |
