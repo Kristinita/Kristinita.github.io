@@ -234,6 +234,12 @@ pre >code {
     color: #5bc4bf;
 }
 
+.SashaInlineHighlight .mi,
+.SashaBlockHighlight .mi {
+    color: #f99b15;
+    font-weight: bold;
+}
+
 .SashaInlineHighlight .mo,
 .SashaBlockHighlight .mo {
     color: #f99b15;

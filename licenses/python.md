@@ -1,5 +1,6 @@
 | Name                | Version   | License                                                      |
 |---------------------|-----------|--------------------------------------------------------------|
+| GitPython           | 2.1.9     | BSD License                                                  |
 | Jinja2              | 2.10      | BSD                                                          |
 | Markdown            | 2.6.11    | BSD License                                                  |
 | MarkupSafe          | 1.0       | BSD                                                          |
@@ -15,6 +16,7 @@
 | docutils            | 0.14      | public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt) |
 | feedgenerator       | 1.9       | UNKNOWN                                                      |
 | funcparserlib       | 0.3.6     | MIT                                                          |
+| gitdb2              | 2.0.3     | BSD License                                                  |
 | idna                | 2.6       | BSD-like                                                     |
 | lice                | 0.5       | BSD                                                          |
 | markdown-blockdiag  | 0.7.0     | MIT                                                          |
@@ -36,5 +38,6 @@
 | requests            | 2.18.4    | Apache 2.0                                                   |
 | seqdiag             | 0.9.5     | Apache License 2.0                                           |
 | six                 | 1.11.0    | MIT                                                          |
+| smmap2              | 2.0.3     | BSD                                                          |
 | urllib3             | 1.22      | MIT                                                          |
 | webcolors           | 1.8.1     | BSD 3-Clause                                                 |
