@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-06T18:14:32+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-04-06T18:14:32+03:00</published><updated>2018-04-06T18:14:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-06:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-08T08:22:42+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-04-08T08:22:42+03:00</published><updated>2018-04-08T08:22:42+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;This article may be useful for any non-Sublime Text developers, which makes releases and changelog.&lt;/p&gt;
 &lt;p&gt;&lt;a id="relevance"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;3. Relevance&lt;/h2&gt;
-&lt;p&gt;This article is relevant for February 2018. In the future, the data in this article may be obsolete.&lt;/p&gt;
+&lt;p&gt;This article is relevant for April 2018. In the future, the data in this article may be obsolete.&lt;/p&gt;
 &lt;p&gt;&lt;a id="motivation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4. Motivation&lt;/h2&gt;
 &lt;p&gt;When I create new release for my Sublime Text package, I need:&lt;/p&gt;
@@ -89,7 +89,7 @@
 &lt;li&gt;Node.js and npm, if no;&lt;/li&gt;
 &lt;li&gt;git if no, even if you use another VCS;&lt;/li&gt;
 &lt;li&gt;UNIX commands &lt;em&gt;tee&lt;/em&gt;, &lt;em&gt;cat&lt;/em&gt;, &lt;em&gt;mv&lt;/em&gt; and &lt;em&gt;sed&lt;/em&gt;, if no; for Windows users I recommend install &lt;a href="https://chocolatey.org/packages/Cygwin" target="_blank"&gt;Cygwin&lt;/a&gt; and &lt;a href="https://lifehacker.com/362316/use-unix-commands-in-windows-built-in-command-prompt" target="_blank"&gt;add to your &lt;em&gt;Path&lt;/em&gt; environment variable value — path to Cygwin commands folder&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.npmjs.com/package/release-it#global" target="_blank"&gt;release-it globally&lt;/a&gt; ≥ 6.2.0;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/release-it#global" target="_blank"&gt;release-it globally&lt;/a&gt; &lt;a href="https://github.com/webpro/release-it/issues/233" target="_blank"&gt;≥ 7.3.0&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.npmjs.com/package/generate-changelog#installation" target="_blank"&gt;generate-changelog globally&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.npmjs.com/package/js-beautify" target="_blank"&gt;npm js-beautify globally&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -154,6 +154,7 @@ git branch --set-upstream
     &lt;span class="p"&gt;},&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="nt"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;quot;addUntrackedFiles&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
         &lt;span class="nt"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;
     &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
@@ -263,6 +264,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; — your &lt;a href="#github-token"&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; environment variable&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — don't publish release to &lt;a href="https://www.npmjs.com/" target="_blank"&gt;npm&lt;/a&gt;. We are writing Sublime Text package, not npm modules, so needs this parameter.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — that correct version in &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;; see &lt;a href="https://github.com/webpro/release-it/issues/218" target="_blank"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;addUntrackedFiles&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — add &lt;a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository" target="_blank"&gt;untracked file&lt;/a&gt; &lt;em&gt;messages/&amp;lt;version&amp;gt;.txt&lt;/em&gt; &lt;a href="https://github.com/webpro/release-it/issues/233" target="_blank"&gt;to release commit&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797" target="_blank"&gt;correct tag name&lt;/a&gt; for Package Control. Tags for Sublime Text 3 must be in &lt;em&gt;st3-&amp;lt;your version&amp;gt;&lt;/em&gt; format, for example — &lt;em&gt;st3-4.14.7&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="problems-and-non-fixed-bugs"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -278,14 +280,14 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Node.js 9.4.0,&lt;/li&gt;
 &lt;li&gt;git 2.16.0.windows.2,&lt;/li&gt;
-&lt;li&gt;release-it 6.2.0,&lt;/li&gt;
+&lt;li&gt;release-it 7.3.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;tee (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;cat (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-04-06T18:14:32+03:00</published><updated>2018-04-06T18:14:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-06:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-04-08T08:22:42+03:00</published><updated>2018-04-08T08:22:42+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -973,7 +975,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-04-06T18:14:32+03:00</published><updated>2018-04-06T18:14:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-06:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-04-08T08:22:42+03:00</published><updated>2018-04-08T08:22:42+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;

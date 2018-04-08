@@ -129,15 +129,15 @@
             <header>
                 <h1 class="SashaTopHeader">Fastest way to add new version of your Sublime Text package</h1>
                 <img class="SashaPageLoading" src="https://2no.co/1vWK5.png" alt="Page loading, please, little wait">
-                <div class="SashaVersion">Version 0.2.1</div>
+                <div class="SashaVersion">Version 0.3.0</div>
                 <div class="SashaVersion">Posted —
-                    <time datetime="2018-04-06 18:14:32+03:00">2018-04-06 18:14:32+03:00</time>
+                    <time datetime="2018-04-08 08:22:42+03:00">2018-04-08 08:22:42+03:00</time>
                 </div>
                 <div class="SashaVersion">
                     <!-- pubdate attribute is obsolete, use itemprop: datePublished
                                         https://stackoverflow.com/a/24455070/5951529 -->
                     Last modified —
-                    <time itemprop="datePublished" datetime="2018-04-06 18:14:32+03:00">2018-04-06 18:14:32+03:00</time>
+                    <time itemprop="datePublished" datetime="2018-04-08 08:22:42+03:00">2018-04-08 08:22:42+03:00</time>
                 </div>
             </header>
             <!-- MarkdownTOC -->
@@ -191,7 +191,7 @@
                 <a id="relevance"></a>
             </p>
             <h2>3. Relevance <a class="headerlink" href="#relevance" title="Permanent link">¶</a></h2>
-            <p>This article is relevant for February 2018. In the future, the data in this article may be obsolete.</p>
+            <p>This article is relevant for April 2018. In the future, the data in this article may be obsolete.</p>
             <p>
                 <a id="motivation"></a>
             </p>
@@ -256,7 +256,7 @@
                 <li>git if no, even if you use another VCS;</li>
                 <li>UNIX commands <em>tee</em>, <em>cat</em>, <em>mv</em> and <em>sed</em>, if no; for Windows users I recommend install <a href="https://chocolatey.org/packages/Cygwin" target="_blank">Cygwin</a> and <a href="https://lifehacker.com/362316/use-unix-commands-in-windows-built-in-command-prompt"
                     target="_blank">add to your <em>Path</em> environment variable value — path to Cygwin commands folder</a>;</li>
-                <li><a href="https://www.npmjs.com/package/release-it#global" target="_blank">release-it globally</a> ≥ 6.2.0;</li>
+                <li><a href="https://www.npmjs.com/package/release-it#global" target="_blank">release-it globally</a> <a href="https://github.com/webpro/release-it/issues/233" target="_blank">≥ 7.3.0</a>;</li>
                 <li><a href="https://www.npmjs.com/package/generate-changelog#installation" target="_blank">generate-changelog globally</a>;</li>
                 <li><a href="https://www.npmjs.com/package/js-beautify" target="_blank">npm js-beautify globally</a>.</li>
             </ol>
@@ -336,6 +336,7 @@ git branch --set-upstream
     <span class="p">},</span>
     <span class="nt">"safeBump"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
     <span class="nt">"src"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">"addUntrackedFiles"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
         <span class="nt">"tagName"</span><span class="p">:</span> <span class="s2">"st3-%s"</span>
     <span class="p">}</span>
 <span class="p">}</span>
@@ -461,6 +462,8 @@ To https://github.com/Kristinita/SashaSublime.git
                 <li><code class="SashaInlineHighlight"><span class="s2">"npm"</span><span class="err">:</span> <span class="p">{</span><span class="nt">"publish"</span><span class="p">:</span> <span class="kc">false</span><span class="p">}</span><span class="err">,</span></code>                    — don't publish release to <a href="https://www.npmjs.com/" target="_blank">npm</a>. We are writing Sublime Text package, not npm modules, so needs this parameter.</li>
                 <li><code class="SashaInlineHighlight"><span class="s2">"safeBump"</span><span class="err">:</span> <span class="kc">false</span><span class="err">,</span></code> — that correct version in <code class="SashaInlineHighlight">https://github.com/&lt;your username&gt;/&lt;your repository&gt;/releases</code>;
                     see <a href="https://github.com/webpro/release-it/issues/218" target="_blank">issue</a> for details.</li>
+                <li><code class="SashaInlineHighlight"><span class="s2">"addUntrackedFiles"</span><span class="err">:</span> <span class="kc">true</span><span class="err">,</span></code> — add <a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+                    target="_blank">untracked file</a> <em>messages/&lt;version&gt;.txt</em> <a href="https://github.com/webpro/release-it/issues/233" target="_blank">to release commit</a>.</li>
                 <li><code class="SashaInlineHighlight"><span class="s2">"tagName"</span><span class="err">:</span> <span class="s2">"st3-%s"</span></code> — <a href="https://github.com/wbond/package_control/issues/1217#issuecomment-280041797" target="_blank">correct tag name</a>                    for Package Control. Tags for Sublime Text 3 must be in <em>st3-&lt;your version&gt;</em> format, for example — <em>st3-4.14.7</em>.</li>
             </ul>
             <p>
@@ -480,7 +483,7 @@ To https://github.com/Kristinita/SashaSublime.git
                 <li>Windows 10 Enterprise LTSB 64-bit EN,</li>
                 <li>Node.js 9.4.0,</li>
                 <li>git 2.16.0.windows.2,</li>
-                <li>release-it 6.2.0,</li>
+                <li>release-it 7.3.0,</li>
                 <li>changelog 1.7.0,</li>
                 <li>tee (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
                 <li>cat (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),</li>
