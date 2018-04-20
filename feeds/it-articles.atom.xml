@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-08T16:32:34+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-04-08T16:32:34+03:00</published><updated>2018-04-08T16:32:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-20T05:07:18+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-04-20T05:07:18+03:00</published><updated>2018-04-20T05:07:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-20:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -127,11 +127,11 @@ git branch --set-upstream
 &lt;p&gt;&lt;a id="packagejson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.4. package.json&lt;/h3&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;4.14.7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;quot;scripts&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;release-it&amp;quot;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;4.14.7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;scripts&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;release-it&amp;quot;&lt;/span&gt;
+	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -143,20 +143,20 @@ git branch --set-upstream
 &lt;p&gt;&lt;a id="release-itjson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.5. .release-it.json&lt;/h3&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - CHANGELOG.md &amp;gt; temp &amp;amp;&amp;amp; mv temp CHANGELOG.md &amp;amp;&amp;amp; sed -i &amp;#39;\/\\\&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;,&amp;#39; messages.json &amp;amp;&amp;amp; js-beautify -r messages.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
-    &lt;span class="p"&gt;},&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
-    &lt;span class="p"&gt;},&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;addUntrackedFiles&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - CHANGELOG.md &amp;gt; temp &amp;amp;&amp;amp; mv temp CHANGELOG.md &amp;amp;&amp;amp; sed -i &amp;#39;\/\\\&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;,&amp;#39; messages.json &amp;amp;&amp;amp; js-beautify -r messages.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
+	&lt;span class="p"&gt;},&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
+	&lt;span class="p"&gt;},&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;addUntrackedFiles&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;
+	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -174,7 +174,7 @@ git branch --set-upstream
 &lt;p&gt;&lt;a id="messagesjson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.6. messages.json&lt;/h3&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;install&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;messages/install.txt&amp;quot;&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;install&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;messages/install.txt&amp;quot;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -193,15 +193,15 @@ Line 1 will be cropped at 100 characters. All other lines will be wrapped after 
 
 ? Select the type of change that you&amp;#39;re committing: build:     Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 ? Denote the scope of this change ($location, $browser, $compile, etc.):
- release-it
+release-it
 ? Write a short, imperative tense description of the change:
- Fix .release-it.json
+Fix .release-it.json
 ? Provide a longer description of the change:
- Add to .release-it.json URL of SashaSublime repository
+Add to .release-it.json URL of SashaSublime repository
 ? List any breaking changes or issues closed by this change:
 
 [SashaDevelop 52e517a] build(release-it): Fix .release-it.json
- 1 file changed, 2 insertions(+), 1 deletion(-)
+1 file changed, 2 insertions(+), 1 deletion(-)
 
 D&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\SashaSublime&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;git push&lt;/span&gt;
 Counting objects: 3, done.
@@ -211,7 +211,7 @@ Writing objects: 100% (3/3), 735 bytes &lt;span class="p"&gt;|&lt;/span&gt; 183.
 Total 3 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Kristinita/SashaSublime.git
-   0360628..52e517a  SashaDevelop -&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; SashaDevelop
+	0360628..52e517a  SashaDevelop -&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; SashaDevelop
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now run &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage" target="_blank"&gt;one of command&lt;/a&gt;:&lt;/p&gt;
@@ -287,7 +287,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-04-08T16:32:34+03:00</published><updated>2018-04-08T16:32:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-04-20T05:07:18+03:00</published><updated>2018-04-20T05:07:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-20:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -537,7 +537,7 @@ To https://github.com/Kristinita/SashaSublime.git
 
 &lt;p&gt;my value:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;console_scripts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&lt;/span&gt;
-&lt;span class="s"&gt;   erichek = erichek.__main__:main&lt;/span&gt;
+&lt;span class="s"&gt;	erichek = erichek.__main__:main&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Parameter and values:&lt;/p&gt;
@@ -577,23 +577,23 @@ To https://github.com/Kristinita/SashaSublime.git
 
 &lt;p&gt;&lt;a href="https://github.com/epsy/clize/blob/3d9804b6b652415215677846a44d59fc7ae8929d/setup.py#L13-L19" target="_blank"&gt;Part of clize &lt;em&gt;setup.py&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;install_requires&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;
-    &lt;span class="s1"&gt;&amp;#39;six&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s1"&gt;&amp;#39;sigtools &amp;gt;= 2.0&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s1"&gt;&amp;#39;attrs &amp;gt;= 17.4.0&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s1"&gt;&amp;#39;od&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s1"&gt;&amp;#39;docutils&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;&amp;#39;six&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;&amp;#39;sigtools &amp;gt;= 2.0&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;&amp;#39;attrs &amp;gt;= 17.4.0&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;&amp;#39;od&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="s1"&gt;&amp;#39;docutils&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 &lt;span class="p"&gt;],&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In clize installation process &lt;a href="https://github.com/thusoy/sasha/blob/38e50791436859e9e054e50d5c511bbc46011f89/setup.py#L16-L19" target="_blank"&gt;&lt;em&gt;six&lt;/em&gt;, &lt;em&gt;sigtools&lt;/em&gt;, &lt;em&gt;docutils&lt;/em&gt;, &lt;em&gt;od&lt;/em&gt; and &lt;em&gt;attrs&lt;/em&gt; packages&lt;/a&gt; automatically install for user, if this packages no already installed.&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;D:&lt;span class="se"&gt;\&amp;gt;&lt;/span&gt;pip install clize
 Collecting clize
-  Using cached clize-4.0.3-py2.py3-none-any.whl
+	Using cached clize-4.0.3-py2.py3-none-any.whl
 Requirement already satisfied: six in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Requirement already satisfied: sigtools&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;.0 in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Requirement already satisfied: docutils in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Collecting od &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
-  Using cached od-1.0-py3-none-any.whl
+	Using cached od-1.0-py3-none-any.whl
 Requirement already satisfied: attrs&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;17&lt;/span&gt;.4.0 in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Installing collected packages: od, clize
 Successfully installed clize-4.0.3 od-1.0
@@ -630,7 +630,7 @@ Successfully installed clize-4.0.3 od-1.0
 &lt;span class="n"&gt;reqs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ir&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;ir&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;install_reqs&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
 &lt;span class="n"&gt;setup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-    &lt;span class="n"&gt;install_requires&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;reqs&lt;/span&gt;
+	&lt;span class="n"&gt;install_requires&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;reqs&lt;/span&gt;
 &lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -778,7 +778,7 @@ Installing setuptools, pip, wheel...done.
 
 &lt;span class="p"&gt;(&lt;/span&gt;erichekenv&lt;span class="p"&gt;)&lt;/span&gt; C:\Users\SashaChernykh&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;toggleglobalsitepackages
 
-    Disabled global site-packages
+	Disabled global site-packages
 &lt;span class="p"&gt;(&lt;/span&gt;erichekenv&lt;span class="p"&gt;)&lt;/span&gt; C:\Users\SashaChernykh&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;pip install --extra-index-url https://test.pypi.org/simple/ erichek
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -824,9 +824,12 @@ No matching distribution found &lt;span class="k"&gt;for&lt;/span&gt; &lt;span c
 
 &lt;p&gt;Erichek works as expected.&lt;/p&gt;
 &lt;p&gt;After succsessful checking &lt;a href="https://github.com/davidmarble/virtualenvwrapper-win/#main-commands" target="_blank"&gt;you can remove&lt;/a&gt; your virtual environment (&lt;em&gt;erichekenv&lt;/em&gt; in example):&lt;/p&gt;
+&lt;!-- [NOTE] Plain text lexer:
+http://pygments.org/docs/lexers/#pygments.lexers.special.TextLexer --&gt;
+
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;(erichekenv) C:\Users\SashaChernykh&amp;gt;rmvirtualenv erichekenv
 
-    Deleted C:\Users\SashaChernykh\Envs\erichekenv
+	Deleted C:\Users\SashaChernykh\Envs\erichekenv
 
 C:\Users\SashaChernykh&amp;gt;
 &lt;/pre&gt;&lt;/div&gt;
@@ -921,16 +924,16 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;h4&gt;13.4.1. .release-it.json&lt;/h4&gt;
 &lt;p&gt;Create a file &lt;em&gt;.release-it.json&lt;/em&gt; in root folder of your repository with content:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -u https:\/\/${repo.host}\/${repo.repository} -f CHANGELOG.md &amp;amp;&amp;amp; sed -i &amp;#39;s\/^version = .*$\/version = ${version}\/g&amp;#39; setup.cfg &amp;amp;&amp;amp; python setup.py bdist_wheel &amp;amp;&amp;amp; twine upload dist\/*&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
-    &lt;span class="p"&gt;},&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
-    &lt;span class="p"&gt;},&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -u https:\/\/${repo.host}\/${repo.repository} -f CHANGELOG.md &amp;amp;&amp;amp; sed -i &amp;#39;s\/^version = .*$\/version = ${version}\/g&amp;#39; setup.cfg &amp;amp;&amp;amp; python setup.py bdist_wheel &amp;amp;&amp;amp; twine upload dist\/*&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
+	&lt;span class="p"&gt;},&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
+	&lt;span class="p"&gt;},&lt;/span&gt;
+	&lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -975,7 +978,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-04-08T16:32:34+03:00</published><updated>2018-04-08T16:32:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-04-20T05:07:18+03:00</published><updated>2018-04-20T05:07:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-20:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;

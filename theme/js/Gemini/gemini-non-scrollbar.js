@@ -6,9 +6,9 @@
 ////////////
 // Disable scrollbar, but continue scrolling.
 window.onload = function() {
-    new GeminiScrollbar({
-    	// querySelector method — https://www.w3schools.com/jsref/met_document_queryselector.asp
-    	element: document.querySelector("body"),
-        autoshow: true
-    }).create();
+	new GeminiScrollbar({
+		// querySelector method — https://www.w3schools.com/jsref/met_document_queryselector.asp
+		element: document.querySelector("body"),
+		autoshow: true
+	}).create();
 };

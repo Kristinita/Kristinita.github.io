@@ -5,248 +5,245 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.3">
-    <meta charset="utf-8">
-    <!--=======================
-        =          Meta           =
-        ========================-->
-    <!-- Encoding -->
-    <!-- Title phrase -->
-    <title>Нас Изу</title>
-    <!-- Description, EDGE-compatible, different screens.
-        Needs for validation name="description", see:
-        https://stackoverflow.com/a/11202372/5951529 -->
-    <meta name="description" content="Книги для общего развития, психологии прокачки определённых тем, специфические и интересных фактов">
-    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Open Graph, http://ruogp.me/
-        Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
-    <meta property="og:title" content="Нас Изу">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="Книги для общего развития, психологии прокачки определённых тем, специфические и интересных фактов">
-    <meta property="og:site_name" content="Поиск Кристиниты">
-    <!--============================
-        =       Miscellaneous          =
-        =============================-->
-    <!-- Sasha icon -->
-    <link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
-    <!-- Atom feed -->
-    <link href="https://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="https://kristinita.ru/feeds/giologica.atom.xml" rel="alternate" type="application/atom+xml">
-    <!--=============================
-        =            Scripts            =
-        ==============================-->
-    <!-- JQuery
-        CDN vs Locally, see:
-        http://stackoverflow.com/a/3832498/5951529
-        defer preferred, than async, see:
-        https://stackoverflow.com/a/39711009/5951529
-        JQuery not a good candidate for async, see:
-        https://stackoverflow.com/a/10808243/5951529
-        -->
+	<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.8">
+	<meta charset="utf-8">
+	<!--=======================
+	=          Meta           =
+	========================-->
+	<!-- Encoding -->
+	<!-- Title phrase -->
+	<title>Нас Изу</title>
+	<!-- Description, EDGE-compatible, different screens.
+	Needs for validation name="description", see:
+	https://stackoverflow.com/a/11202372/5951529 -->
+	<meta name="description" content="Книги для общего развития, психологии прокачки определённых тем, специфические и интересных фактов">
+	<!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Open Graph, http://ruogp.me/
+	Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+	<meta property="og:title" content="Нас Изу">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="">
+	<meta property="og:description" content="Книги для общего развития, психологии прокачки определённых тем, специфические и интересных фактов">
+	<meta property="og:site_name" content="Поиск Кристиниты">
+	<!--============================
+	=       Miscellaneous          =
+	=============================-->
+	<!-- Sasha icon -->
+	<link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
+	<link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
+	<!-- Atom feed -->
+	<link href="https://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+	<link href="https://kristinita.ru/feeds/giologica.atom.xml" rel="alternate" type="application/atom+xml">
+	<!--=============================
+	=            Scripts            =
+	==============================-->
+	<!-- JQuery
+	CDN vs Locally, see:
+	http://stackoverflow.com/a/3832498/5951529
+	defer preferred, than async, see:
+	https://stackoverflow.com/a/39711009/5951529
+	JQuery not a good candidate for async, see:
+	https://stackoverflow.com/a/10808243/5951529
+	-->
 
-    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
-    <!-- Gemini -->
+	<script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
+	<!-- Gemini -->
 
-    <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
-    <!-- No smooth scrolling, if JQuery Lazy:
-        https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
+	<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+	<!-- No smooth scrolling, if JQuery Lazy:
+	https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
 
-    <script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <!-- JQuery Lazy -->
+	<script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+	<!-- JQuery Lazy -->
 
-    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
-    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
-    <!-- typo-reporter -->
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+	<!-- typo-reporter -->
 
-    <script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-ru.js" defer></script>
-    <!-- Fancybox
-        Obsolete version in JSDelivr
-        https://www.jsdelivr.com/package/npm/fancybox
-        [BUG] In CDNJS doesn't possible latest version
-        https://stackoverflow.com/q/14801334/5951529
-        -->
+	<script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-ru.js" defer></script>
+	<!-- Fancybox
+	Obsolete version in JSDelivr
+	https://www.jsdelivr.com/package/npm/fancybox
+	[BUG] In CDNJS doesn't possible latest version
+	https://stackoverflow.com/q/14801334/5951529
+	-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
-    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
-    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
+	<!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+	<!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
 
-    <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
-    <!-- Visualize, see https://github.com/kellyk/visualize -->
-    <!-- Custom JavaScript -->
-    <!--============================
-        =            Styles            =
-        =============================-->
-    <!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
-        https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
-        https://github.com/filamentgroup/loadCSS/issues/246
-        https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
-        [WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
-        -->
-    <!-- Gemini
-        [NOTE] Gemini styles must load first, otherwise bugs on page -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
-    <!-- SashaPelican theme -->
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_left.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/giologica.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaBrazil.css">
-    <!-- External -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
-    <!-- Admonition: note, warning etc. blocks, see
-        https://python-markdown.github.io/extensions/admonition/
-        https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
-    <!-- Material icons font for icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Custom CSS -->
+	<script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
+	<!-- Visualize, see https://github.com/kellyk/visualize -->
+	<!-- Custom JavaScript -->
+	<!--============================
+	=            Styles            =
+	=============================-->
+	<!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
+	https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
+	https://github.com/filamentgroup/loadCSS/issues/246
+	https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
+	[WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
+	-->
+	<!-- Gemini
+	[NOTE] Gemini styles must load first, otherwise bugs on page -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
+	<!-- SashaPelican theme -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_left.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/giologica.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaBrazil.css">
+	<!-- External -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
+	<!-- Admonition: note, warning etc. blocks, see
+	https://python-markdown.github.io/extensions/admonition/
+	https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
+	<!-- Material icons font for icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Custom CSS -->
 </head>
 
 <body>
-    <!-- Background aside -->
-    <aside>
-        <!-- Header aside -->
-        <div class="SashaBottomAside">Нас Изу</div>
-    </aside>
-    <!-- Content -->
-    <main itemscope>
-        <div class="SashaMargin">
-            <header>
-                <h1 class="SashaTopHeader">Нас Изу</h1>
-                <img class="SashaPageLoading" src="https://2no.co/159d5.png" alt="Page loading, please, little wait">
-                <div class="SashaVersion">Version</div>
-                <div class="SashaVersion">Posted —
-                    <time datetime="2018-04-08 16:32:34+03:00">2018-04-08 16:32:34+03:00</time>
-                </div>
-                <div class="SashaVersion">
-                    <!-- pubdate attribute is obsolete, use itemprop: datePublished
-                                        https://stackoverflow.com/a/24455070/5951529 -->
-                    Last modified —
-                    <time itemprop="datePublished" datetime="2018-04-08 16:32:34+03:00">2018-04-08 16:32:34+03:00</time>
-                </div>
-            </header>
-            <blockquote><a href="http://www.companion.ua/articles/content?id=7178" target="_blank" title="Цитата Черчилля">Если хотите, чтобы ваше слово в споре было последним, скажите оппоненту: "Пожалуй, вы правы"</a></blockquote>
-            <p><em>Со словами Черчилля трудно не согласиться, однако когда полемика в самом разгаре, фраза «вы правы» редко не оказывается ложью, ибо даже самому конструктивно настроенному и отнюдь не склонному к демагогии человеку обыкновенно требуется немало времени для убеждения в своём заблуждении.</em>
-                <br>
-                <br>
-                <br> Nas Izu — 4-буквенные <a href="http://enc-dic.com/fwords/Akronim-1543.html" target="_blank" title="Определение акронима">акронимы</a>, с чьей помощью вежливо выражается намерение прервать или окончить дискуссию. Применение: напишите собеседнику/ам
-                подходящую аббревиатуру из списка ниже, проставив ссылку на соответствующий <a href="http://htmlbook.ru/samhtml/yakorya" target="_blank" title="Якорь HTML">якорь</a> этой страницы. Допустим, вы хотите завершить прения по причине, изложенной
-                в RNAZ, — оставьте оппоненту/ам сообщение
-                <br>
-                <span style="background-color: lavenderblush; color: black; font-weight: bold;">RNAZ&nbsp;<a href="https://kristinita.ru/Giologica/Nas-Izu#RNAZ" target="_blank" title="Ссылка на RNAZ"></a><a href="https://kristinita.ru/Giologica/Nas-Izu#RNAZ">kristinita.ru/Giologica/Nas-Izu#RNAZ</a></span>                или просто <a href="https://kristinita.ru/Giologica/Nas-Izu#RNAZ" target="_blank"><b>RNAZ</b></a>, когда поддерживается переход по гиперссылкам при нажатии на определённый текст. Если в вашу сторону посыпались ответы, свидетельствующие,
-                что собеседник продолжает гнуть свою линию, несмотря на приведённый акроним, молчите, — своё вы уже высказали.
-                <br>
-                <br>
-                <br>
-            </p>
-            <ul>
-                <li><a href="#ALIA">ALIA</a></li>
-                <li><a href="#EKGO">EKGO</a></li>
-                <li><a href="#ESTR">ESTR</a></li>
-                <li><a href="#GRAL">GRAL</a></li>
-                <li><a href="#GZAH">GZAH</a></li>
-                <li><a href="#KDES">KDES</a></li>
-                <li><a href="#KZAH">KZAH</a></li>
-                <li><a href="#RNAZ">RNAZ</a></li>
-                <li><a href="#SBAR">SBAR</a></li>
-                <li><a href="#VALZ">VALZ</a></li>
-            </ul>
-            <br>
-            <br>
-            <h2 id="ALIA">ALIA</h2>
-            <span class="SashaDot">ALIA</span> — думаю, что суть наших разногласий лежит в плоскости взглядов. Переубедить человека изменить их в одночасье едва ли не нереально, и я пытаться не стану. Изложил вам собственные и могу ошибаться, но считаю,
-            что понял, на чём зиждутся ваши применительно к обсуждаемому вопросу. Предлагаю на том и разойтись.
-            <br>
-            <br>
-            <h2 id="EKGO">EKGO</h2>
-            <span class="SashaDot">EKGO</span> — ведя диалог, я не настроен на гоббсовскую <a href="http://iph.ras.ru/enc_eth/103.html" target="_blank" title="Определение «войны всех против всех»">войну всех против всех</a>, где каждый за себя, а <a href="https://vk.com/hair_in_the_wind"
-            target="_blank" title="Бог">Бог</a> против каждого. В любой момент волен уйти, — да считайте же себя безоговорочным победителем, если того пожелаете.
-            <br>
-            <br>
-            <h2 id="ESTR">ESTR</h2>
-            <span class="SashaDot">ESTR</span> — <a href="http://www.wikireality.ru/wiki/%D0%9E%D1%84%D1%84%D1%82%D0%BE%D0%BF%D0%B8%D0%BA" target="_blank" title="Определение оффтопа">оффтоп</a>. Мы ушли от незавершившегося обсуждения предмета к другому,
-            о чём я, настроенный разобраться с предыдущим, толковать не намерен. Просьба <a href="http://dic.academic.ru/dic.nsf/proverbs/11543/%D0%92%D0%B5%D1%80%D0%BD%D1%91%D0%BC%D1%81%D1%8F" target="_blank" title="Вернёмся к нашим баранам">вернуться к нашим баранам</a>.
-            <br>
-            <br>
-            <h2 id="GRAL">GRAL</h2>
-            <span class="SashaDot">GRAL</span> — не счевши вопрос срочным и неотложным, обязательно отвечу вам позже, какую задачу уже внёс в свой <a href="http://www.3dnews.ru/920530" target="_blank" title="Определение ToDo-менеджера">ToDo-менеджер</a>.
-            Никто не занят настолько, чтобы совсем не говорить с вами, однако и мало какой взрослый человек не ощущает проблему нехватки свободного времени. Его предпочитаю тратить на отдых, общение с друзьями, полезные и/или увлекательные занятия. Чисто
-            физиологически необходимость отвечать воспринимается моим организмом как обязанность, чем больше которых накопляется, тем выше сопротивляемость, наконец, взяться за них. Прошу понять и простить с задержкой.
-            <br>
-            <br>
-            <h2 id="GZAH">GZAH</h2>
-            <span class="SashaDot">GZAH</span> — не спорю по столь серьёзным и неоднозначным темам в чатах и диалогах соцсетей. Требуется обдумать, проанализировать, иначе для вас высока вероятность прочесть наспех мной составленное неподготовленное мнение,
-            вовсе не то, как думаю на самом деле. Если вам так важно услышать мою точку зрения, предлагаю подождать ответа. А продуктивнее серьёзный диспут, на мой взгляд, вести по электронной почте.
-            <br>
-            <br>
-            <h2 id="KDES">KDES</h2>
-            <span class="SashaDot">KDES</span> — каждая или почти ваша реплика снабжена облечёнными в грубую, оскорбительную форму отрицательными оценками. Тон и смысл слов донельзя предсказуемы. Просьба перейти на конструктивный лад, либо распрощаюсь
-            с вами.
-            <br>
-            <figure class="SashaSign"><img src="https://i.imgur.com/oavt5Lf.jpg" alt="Настя Изюмина" oncontextmenu="return false;">
-                <figcaption><a href="https://vk.com/id3340728" target="_blank" title="Настя Изюмина"><em>Нас</em>тя <em>Изю</em>мина</a>, (ср. <em>Nas Izu</em>) чьё молчание автору этих строк, несмотря на многократные попытки заговорить с Ней, длится с 28 апреля
-                    2015 года.</figcaption>
-            </figure>
-            <br clear="all">
-            <br>
-            <h2 id="KZAH">KZAH</h2>
-            <span class="SashaDot">KZAH</span> — прекращаю дискутировать по данной теме на этой площадке. Дело вовсе не в <a href="http://enc-dic.com/michelson/V-chuzho-monastr-so-svoim-ustavom-ne-hodjat-1082.html" target="_blank" title="В чужой монастырь со своим уставом не ходят">неуважении местных законов</a>,
-            их верховенство как раз признаю. Но к сожалению, у меня определённо сформировалось мнение, что чин, статус, репутация, влияние, связи, опыт и тому подобное здесь имеют больший вес в сравнении с аргументированностью и неукоснительным следованием
-            принятым правилам. Продолжаю оставаться при своём мнении, но повлиять им тут на что бы то ни было практически бессилен.
-            <br>
-            <br> Вместе с акронимом желательно привести примеры, на чём основывается вывод о площадке:
-            <br>
-            <br> фраза 1 → Неконструктивный приём 1,
-            <br> (фраза 2 → Неконструктивный приём 2 и т. д.).
-            <br>
-            <br>
-            <h2 id="RNAZ">RNAZ</h2>
-            <span class="SashaDot">RNAZ</span> — простите, вне зависимости от моей позиции в обсуждении не считаю себя обязанным развивать его; это, имхо, пустая — а порой и немалая — трата нервов и времени, каковое привык расходовать на более важные,
-            выгодные, приятные и интересные вещи. С вашего позволения, не видя, какую же пользу могу извлечь для себя и не только, сочту вопрос закрытым.
-            <br>
-            <br>
-            <h2 id="SBAR">SBAR</h2>
-            <span class="SashaDot">SBAR</span> — сдаётся мне, что вы пользуетесь <a href="http://web.archive.org/web/20160306044838/http://xpomo.com/ruskolan/tolpa/demagog.htm">неконструктивными методами ведения дискуссии</a>, чья концентрация превысила
-            для меня допустимую. Продолжать в таком же тоне не намерен.
-            <br>
-            <br> Вместе с акронимом желательно дополнительно указать:
-            <br>
-            <br> фраза 1 → Неконструктивный приём 1,
-            <br> (фраза 2 → Неконструктивный приём 2 и т. д.).
-            <br>
-            <br>
-            <span class="SashaDot">ESTR</span> и <span class="SashaDot">KDES</span> — разновидности <span class="SashaDot">SBAR</span>.
-            <br>
-            <br>
-            <h2 id="VALZ">VALZ</h2>
-            <span class="SashaDot">VALZ</span> — не могу согласиться с совокупностью положений, на которых основываются ваши мнения, <a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Вэлериворк">т. н. Valerywork'ом</a>.
-            За редкими исключениями, к коим не относится наш случай, я принимаю за факт лишь <a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Киравэл">Kiravel</a> — те устоявшиеся мнения, насчёт которых в науке
-            на настоящий момент сложился чёткий консенсус.
-            <footer><span class="SashaPreviousNeighbor"><a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" title="Вэлериворк и Киравэл">← Предыдущая статья</a></span>
-                <!--  -->
-                <span class="SashaNextNeighbor"><a href="https://kristinita.ru/Giologica/%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8-%D0%BA-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC-%D0%BE-%D0%BD%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%D1%85-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D0%B8%D0%B8.html" title="Комментарии к материалам о неконструктивных методах ведения дискуссии">Следующая статья →</a></span>
-                <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия автора ©.</div>
-                <div class="SashaEmNoColorBottom">Если Вы увидели на данной странице опечатку или мелкую ошибку, пожалуйста, выделите текст с опечаткой/ошибкой → нажмите <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> для Mac) → напишите комментарий → <em>Отправить</em>. Если нашли более серьёзные
-                    ошибки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Giologica/Nas-Izu.md">отредактировать страницу</a> и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. По любым
-                    вопросам, идеям и запросам, касающимся сайта и/или его содержания, можете <a href="https://github.com/Kristinita/KristinitaPelican/issues">создать issue</a> (лучший вариант) или связаться по <span id="obf">
+	<!-- Background aside -->
+	<aside>
+		<!-- Header aside -->
+		<div class="SashaBottomAside">Нас Изу</div>
+	</aside>
+	<!-- Content -->
+	<main itemscope>
+		<div class="SashaMargin">
+			<header>
+				<h1 class="SashaTopHeader">Нас Изу</h1>
+				<img class="SashaPageLoading" src="https://2no.co/159d5.png" alt="Page loading, please, little wait">
+				<div class="SashaVersion">Version</div>
+				<div class="SashaVersion">Posted —
+					<time datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+				<div class="SashaVersion">
+					<!-- pubdate attribute is obsolete, use itemprop: datePublished
+					https://stackoverflow.com/a/24455070/5951529 -->
+					Last modified —
+					<time itemprop="datePublished" datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+			</header>
+			<blockquote><a href="http://www.companion.ua/articles/content?id=7178" target="_blank" title="Цитата Черчилля">Если хотите, чтобы ваше слово в споре было последним, скажите оппоненту: "Пожалуй, вы правы"</a></blockquote>
+			<p><em>Со словами Черчилля трудно не согласиться, однако когда полемика в самом разгаре, фраза «вы правы» редко не оказывается ложью, ибо даже самому конструктивно настроенному и отнюдь не склонному к демагогии человеку обыкновенно требуется немало времени для убеждения в своём заблуждении.</em>
+				<br>
+				<br>
+				<br> Nas Izu — 4-буквенные <a href="http://enc-dic.com/fwords/Akronim-1543.html" target="_blank" title="Определение акронима">акронимы</a>, с чьей помощью вежливо выражается намерение прервать или окончить дискуссию. Применение: напишите собеседнику/ам
+				подходящую аббревиатуру из списка ниже, проставив ссылку на соответствующий <a href="http://htmlbook.ru/samhtml/yakorya" target="_blank" title="Якорь HTML">якорь</a> этой страницы. Допустим, вы хотите завершить прения по причине, изложенной в RNAZ,
+				— оставьте оппоненту/ам сообщение
+				<br>
+				<span style="background-color: lavenderblush; color: black; font-weight: bold;">RNAZ&nbsp;<a href="https://kristinita.ru/Giologica/Nas-Izu#RNAZ" target="_blank" title="Ссылка на RNAZ"></a><a href="https://kristinita.ru/Giologica/Nas-Izu#RNAZ">kristinita.ru/Giologica/Nas-Izu#RNAZ</a></span>				или просто <a href="https://kristinita.ru/Giologica/Nas-Izu#RNAZ" target="_blank"><b>RNAZ</b></a>, когда поддерживается переход по гиперссылкам при нажатии на определённый текст. Если в вашу сторону посыпались ответы, свидетельствующие, что собеседник
+				продолжает гнуть свою линию, несмотря на приведённый акроним, молчите, — своё вы уже высказали.
+				<br>
+				<br>
+				<br>
+			</p>
+			<ul>
+				<li><a href="#ALIA">ALIA</a></li>
+				<li><a href="#EKGO">EKGO</a></li>
+				<li><a href="#ESTR">ESTR</a></li>
+				<li><a href="#GRAL">GRAL</a></li>
+				<li><a href="#GZAH">GZAH</a></li>
+				<li><a href="#KDES">KDES</a></li>
+				<li><a href="#KZAH">KZAH</a></li>
+				<li><a href="#RNAZ">RNAZ</a></li>
+				<li><a href="#SBAR">SBAR</a></li>
+				<li><a href="#VALZ">VALZ</a></li>
+			</ul>
+			<br>
+			<br>
+			<h2 id="ALIA">ALIA</h2>
+			<span class="SashaDot">ALIA</span> — думаю, что суть наших разногласий лежит в плоскости взглядов. Переубедить человека изменить их в одночасье едва ли не нереально, и я пытаться не стану. Изложил вам собственные и могу ошибаться, но считаю, что понял,
+			на чём зиждутся ваши применительно к обсуждаемому вопросу. Предлагаю на том и разойтись.
+			<br>
+			<br>
+			<h2 id="EKGO">EKGO</h2>
+			<span class="SashaDot">EKGO</span> — ведя диалог, я не настроен на гоббсовскую <a href="http://iph.ras.ru/enc_eth/103.html" target="_blank" title="Определение «войны всех против всех»">войну всех против всех</a>, где каждый за себя, а <a href="https://vk.com/hair_in_the_wind"
+			target="_blank" title="Бог">Бог</a> против каждого. В любой момент волен уйти, — да считайте же себя безоговорочным победителем, если того пожелаете.
+			<br>
+			<br>
+			<h2 id="ESTR">ESTR</h2>
+			<span class="SashaDot">ESTR</span> — <a href="http://www.wikireality.ru/wiki/%D0%9E%D1%84%D1%84%D1%82%D0%BE%D0%BF%D0%B8%D0%BA" target="_blank" title="Определение оффтопа">оффтоп</a>. Мы ушли от незавершившегося обсуждения предмета к другому, о чём
+			я, настроенный разобраться с предыдущим, толковать не намерен. Просьба <a href="http://dic.academic.ru/dic.nsf/proverbs/11543/%D0%92%D0%B5%D1%80%D0%BD%D1%91%D0%BC%D1%81%D1%8F" target="_blank" title="Вернёмся к нашим баранам">вернуться к нашим баранам</a>.
+			<br>
+			<br>
+			<h2 id="GRAL">GRAL</h2>
+			<span class="SashaDot">GRAL</span> — не счевши вопрос срочным и неотложным, обязательно отвечу вам позже, какую задачу уже внёс в свой <a href="http://www.3dnews.ru/920530" target="_blank" title="Определение ToDo-менеджера">ToDo-менеджер</a>. Никто
+			не занят настолько, чтобы совсем не говорить с вами, однако и мало какой взрослый человек не ощущает проблему нехватки свободного времени. Его предпочитаю тратить на отдых, общение с друзьями, полезные и/или увлекательные занятия. Чисто физиологически
+			необходимость отвечать воспринимается моим организмом как обязанность, чем больше которых накопляется, тем выше сопротивляемость, наконец, взяться за них. Прошу понять и простить с задержкой.
+			<br>
+			<br>
+			<h2 id="GZAH">GZAH</h2>
+			<span class="SashaDot">GZAH</span> — не спорю по столь серьёзным и неоднозначным темам в чатах и диалогах соцсетей. Требуется обдумать, проанализировать, иначе для вас высока вероятность прочесть наспех мной составленное неподготовленное мнение, вовсе
+			не то, как думаю на самом деле. Если вам так важно услышать мою точку зрения, предлагаю подождать ответа. А продуктивнее серьёзный диспут, на мой взгляд, вести по электронной почте.
+			<br>
+			<br>
+			<h2 id="KDES">KDES</h2>
+			<span class="SashaDot">KDES</span> — каждая или почти ваша реплика снабжена облечёнными в грубую, оскорбительную форму отрицательными оценками. Тон и смысл слов донельзя предсказуемы. Просьба перейти на конструктивный лад, либо распрощаюсь с вами.
+			<br>
+			<figure class="SashaSign"><img src="https://i.imgur.com/oavt5Lf.jpg" alt="Настя Изюмина" oncontextmenu="return false;">
+				<figcaption><a href="https://vk.com/id3340728" target="_blank" title="Настя Изюмина"><em>Нас</em>тя <em>Изю</em>мина</a>, (ср. <em>Nas Izu</em>) чьё молчание автору этих строк, несмотря на многократные попытки заговорить с Ней, длится с 28 апреля 2015 года.</figcaption>
+			</figure>
+			<br clear="all">
+			<br>
+			<h2 id="KZAH">KZAH</h2>
+			<span class="SashaDot">KZAH</span> — прекращаю дискутировать по данной теме на этой площадке. Дело вовсе не в <a href="http://enc-dic.com/michelson/V-chuzho-monastr-so-svoim-ustavom-ne-hodjat-1082.html" target="_blank" title="В чужой монастырь со своим уставом не ходят">неуважении местных законов</a>,
+			их верховенство как раз признаю. Но к сожалению, у меня определённо сформировалось мнение, что чин, статус, репутация, влияние, связи, опыт и тому подобное здесь имеют больший вес в сравнении с аргументированностью и неукоснительным следованием принятым
+			правилам. Продолжаю оставаться при своём мнении, но повлиять им тут на что бы то ни было практически бессилен.
+			<br>
+			<br> Вместе с акронимом желательно привести примеры, на чём основывается вывод о площадке:
+			<br>
+			<br> фраза 1 → Неконструктивный приём 1,
+			<br> (фраза 2 → Неконструктивный приём 2 и т. д.).
+			<br>
+			<br>
+			<h2 id="RNAZ">RNAZ</h2>
+			<span class="SashaDot">RNAZ</span> — простите, вне зависимости от моей позиции в обсуждении не считаю себя обязанным развивать его; это, имхо, пустая — а порой и немалая — трата нервов и времени, каковое привык расходовать на более важные, выгодные,
+			приятные и интересные вещи. С вашего позволения, не видя, какую же пользу могу извлечь для себя и не только, сочту вопрос закрытым.
+			<br>
+			<br>
+			<h2 id="SBAR">SBAR</h2>
+			<span class="SashaDot">SBAR</span> — сдаётся мне, что вы пользуетесь <a href="http://web.archive.org/web/20160306044838/http://xpomo.com/ruskolan/tolpa/demagog.htm">неконструктивными методами ведения дискуссии</a>, чья концентрация превысила для меня
+			допустимую. Продолжать в таком же тоне не намерен.
+			<br>
+			<br> Вместе с акронимом желательно дополнительно указать:
+			<br>
+			<br> фраза 1 → Неконструктивный приём 1,
+			<br> (фраза 2 → Неконструктивный приём 2 и т. д.).
+			<br>
+			<br>
+			<span class="SashaDot">ESTR</span> и <span class="SashaDot">KDES</span> — разновидности <span class="SashaDot">SBAR</span>.
+			<br>
+			<br>
+			<h2 id="VALZ">VALZ</h2>
+			<span class="SashaDot">VALZ</span> — не могу согласиться с совокупностью положений, на которых основываются ваши мнения, <a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Вэлериворк">т. н. Valerywork'ом</a>. За
+			редкими исключениями, к коим не относится наш случай, я принимаю за факт лишь <a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" target="_blank" title="Киравэл">Kiravel</a> — те устоявшиеся мнения, насчёт которых в науке на настоящий
+			момент сложился чёткий консенсус.
+			<footer><span class="SashaPreviousNeighbor"><a href="https://kristinita.ru/Giologica/Valerywork-Kiravel.html" title="Вэлериворк и Киравэл">← Предыдущая статья</a></span> <span class="SashaNextNeighbor"><a href="https://kristinita.ru/Giologica/%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8-%D0%BA-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC-%D0%BE-%D0%BD%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0%D1%85-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D0%B8%D0%B8.html" title="Комментарии к материалам о неконструктивных методах ведения дискуссии">Следующая статья →</a></span>
+				<div class="SashaClearBoth"></div>
+				<div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия автора ©.</div>
+				<div class="SashaEmNoColorBottom">Если Вы увидели на данной странице опечатку или мелкую ошибку, пожалуйста, выделите текст с опечаткой/ошибкой → нажмите <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> для Mac) → напишите комментарий → <em>Отправить</em>. Если нашли более серьёзные ошибки,
+					можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Giologica/Nas-Izu.md">отредактировать страницу</a> и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. По любым вопросам, идеям и
+					запросам, касающимся сайта и/или его содержания, можете <a href="https://github.com/Kristinita/KristinitaPelican/issues">создать issue</a> (лучший вариант) или связаться по <span id="obf">
 <script src="https://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span>. Пожалуйста, пишите на русском или английском языкe.</div>
-                <div class="SashaEmNoColorBottom">С сообщениями в стиле <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">новых недовольных русских</a>                    оставляю право распоряжаться по собственному усмотрению.</div>
-                <div class="WorkOnYourself">Работайте над собой</div>
-            </footer>
-        </div>
-    </main>
+					</span>. Пожалуйста, пишите на русском или английском языкe.</div>
+				<div class="SashaEmNoColorBottom">С сообщениями в стиле <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">новых недовольных русских</a> оставляю
+					право распоряжаться по собственному усмотрению.</div>
+				<div class="WorkOnYourself">Работайте над собой</div>
+			</footer>
+		</div>
+	</main>
 </body>
 
 </html>

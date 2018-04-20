@@ -9,7 +9,7 @@
 // [Deprecated] For Rainbow: http://stackoverflow.com/a/33758293/5951529
 // [New] For SuperFences: https://stackoverflow.com/a/33758435/5951529
 document.addEventListener('DOMContentLoaded', _ => new Clipboard(".SashaButton", {
-    text: function(trigger) {
-        return $(trigger).closest('.SashaBlockHighlight').find('pre').text();
-    }
+	text: function(trigger) {
+		return $(trigger).closest('.SashaBlockHighlight').find('pre').text();
+	}
 }));

@@ -3,7 +3,7 @@
 // @Last Modified time: 2017-04-14 14:37:51
 // Personal fancybox file
 $(function() {
-    $(".fancybox").fancybox({
-        modal: false
-    });
+	$(".fancybox").fancybox({
+		modal: false
+	});
 });

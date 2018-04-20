@@ -1,262 +1,265 @@
 body {
-    background: #87e1be;
-    color: #465550;
+	background: #87e1be;
+	color: #465550;
 }
 
 a {
-    color: #dc3f17;
+	color: #dc3f17;
 }
 
 a:hover {
-    background-color: rgba(240, 128, 128, 0.467);
+	background-color: rgba(240, 128, 128, 0.467);
 }
 
 a:focus {
-    background: #f5f5f5;
+	background: #f5f5f5;
 }
 
 em {
-    background-image: linear-gradient(to right, #008b8b, #7b68ee);
-    -webkit-background-clip: text;
-    color: transparent;
+	background-image: -webkit-gradient(linear, left top, right top, from(#008b8b), to(#7b68ee));
+	background-image: linear-gradient(to right, #008b8b, #7b68ee);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 img {
-    box-shadow: 0 0 2rem #000;
+	-webkit-box-shadow: 0 0 2rem #000;
+	box-shadow: 0 0 2rem #000;
 }
 
 .SashaPageLoading {
-    box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 kbd {
-    color: #eee8aa;
-    background: #2e8b57;
+	color: #eee8aa;
+	background: #2e8b57;
 }
 
 td,
 th {
-    border: 0.0625rem solid #465550;
+	border: 0.0625rem solid #465550;
 }
 
 .SashaBottomAside {
-    color: #fff;
-    bottom: 8%;
+	color: #fff;
+	bottom: 8%;
 }
 
 blockquote {
-    border-left: solid #db7093 0.5rem;
-    color: #000080;
-    background: #fcfcfc;
+	border-left: solid #db7093 0.5rem;
+	color: #000080;
+	background: #fcfcfc;
 }
 
 code {
-    background-color: #2f4f4f;
+	background-color: #2f4f4f;
 }
 
 pre >code {
-    background-color: #000;
+	background-color: #000;
 }
 
 ::-moz-selection {
-    color: #f08080;
-    background: #ffe4b5;
+	color: #f08080;
+	background: #ffe4b5;
 }
 
 ::selection {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 ::-moz-selection:window-inactive {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 ::selection:window-inactive {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 .SashaEmNoColor {
-    color: #465550;
+	color: #465550;
 }
 
 .tooltipster-punk-purple .tooltipster-box {
-    border-bottom: 3px solid #ffa500;
-    background: #800080;
+	border-bottom: 3px solid #ffa500;
+	background: #800080;
 }
 
 .tooltipster-punk-aquamarine .tooltipster-box {
-    border-bottom: 3px solid #ff69b4;
-    background: #228b22;
+	border-bottom: 3px solid #ff69b4;
+	background: #228b22;
 }
 
 .SashaInlineHighlight,
 .SashaBlockHighlight {
-    background-color: #e7e9db;
-    color: #cd5c5c;
+	background-color: #e7e9db;
+	color: #cd5c5c;
 }
 
 .SashaInlineHighlight .c,
 .SashaBlockHighlight .c {
-    background-color: Sasha-Pygments-Comment-Background;
-    font-style: italic;
-    color: #8d8687;
+	background-color: Sasha-Pygments-Comment-Background;
+	font-style: italic;
+	color: #8d8687;
 }
 
 .SashaInlineHighlight .err,
 .SashaBlockHighlight .err {
-    color: #ef6155;
+	color: #ef6155;
 }
 
 .SashaInlineHighlight .g,
 .SashaBlockHighlight .g {
-    color: #fff;
+	color: #fff;
 }
 
 .SashaInlineHighlight .k,
 .SashaBlockHighlight .k {
-    color: #815ba4;
-    font-weight: bold;
+	color: #815ba4;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .l,
 .SashaBlockHighlight .l {
-    color: #f99b15;
+	color: #f99b15;
 }
 
 .SashaInlineHighlight .n,
 .SashaBlockHighlight .n {
-    color: #cd5c5c;
+	color: #cd5c5c;
 }
 
 .SashaInlineHighlight .o,
 .SashaBlockHighlight .o {
-    color: #5bc4bf;
+	color: #5bc4bf;
 }
 
 .SashaInlineHighlight .x,
 .SashaBlockHighlight .x {
-    color: #fff;
+	color: #fff;
 }
 
 .SashaInlineHighlight .p,
 .SashaBlockHighlight .p {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .c1,
 .SashaBlockHighlight .c1 {
-    color: #789;
-    background-color: Sasha-Pygments-Comment-Single-Background;
-    font-style: italic;
+	color: #789;
+	background-color: Sasha-Pygments-Comment-Single-Background;
+	font-style: italic;
 }
 
 .SashaInlineHighlight .go,
 .SashaBlockHighlight .go {
-    color: #444;
-    background-color: Sasha-Pygments-Generic-Output-Background;
+	color: #444;
+	background-color: Sasha-Pygments-Generic-Output-Background;
 }
 
 .SashaInlineHighlight .gt,
 .SashaBlockHighlight .gt {
-    color: #fff;
+	color: #fff;
 }
 
 .SashaInlineHighlight .kc,
 .SashaBlockHighlight .kc {
-    color: #815ba4;
-    font-weight: bold;
+	color: #815ba4;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .kn,
 .SashaBlockHighlight .kn {
-    color: #5bc4bf;
-    font-weight: bold;
+	color: #5bc4bf;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .m,
 .SashaBlockHighlight .m {
-    color: #f99b15;
-    font-weight: bold;
+	color: #f99b15;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .s,
 .SashaBlockHighlight .s {
-    color: #48b685;
+	color: #48b685;
 }
 
 .SashaInlineHighlight .na,
 .SashaBlockHighlight .na {
-    color: #06b6ef;
-    font-weight: bold;
+	color: #06b6ef;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .nb,
 .SashaBlockHighlight .nb {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .no,
 .SashaBlockHighlight .no {
-    color: #ef6155;
+	color: #ef6155;
 }
 
 .SashaInlineHighlight .nl,
 .SashaBlockHighlight .nl {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .nn,
 .SashaBlockHighlight .nn {
-    color: #ff8c00;
+	color: #ff8c00;
 }
 
 .SashaInlineHighlight .py,
 .SashaBlockHighlight .py {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .nt,
 .SashaBlockHighlight .nt {
-    color: #5bc4bf;
-    font-weight: bold;
+	color: #5bc4bf;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .nv,
 .SashaBlockHighlight .nv {
-    color: #ef6155;
+	color: #ef6155;
 }
 
 .SashaInlineHighlight .ow,
 .SashaBlockHighlight .ow {
-    color: #5bc4bf;
+	color: #5bc4bf;
 }
 
 .SashaInlineHighlight .mi,
 .SashaBlockHighlight .mi {
-    color: #f99b15;
-    font-weight: bold;
+	color: #f99b15;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .mo,
 .SashaBlockHighlight .mo {
-    color: #f99b15;
-    font-weight: bold;
+	color: #f99b15;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .s2,
 .SashaBlockHighlight .s2 {
-    color: #48b685;
+	color: #48b685;
 }
 
 .SashaInlineHighlight .se,
 .SashaBlockHighlight .se {
-    color: #f99b15;
+	color: #f99b15;
 }
 
 .SashaInlineHighlight .s1,
 .SashaBlockHighlight .s1 {
-    color: #48b685;
+	color: #48b685;
 }

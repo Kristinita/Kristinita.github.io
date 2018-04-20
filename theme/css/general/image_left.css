@@ -1,11 +1,11 @@
 /* ==========================================================================
-   General
-   ========================================================================== */
+	General
+	========================================================================== */
 
 
 /* ==========================================================================
-   Mailhu
-   ========================================================================== */
+	Mailhu
+	========================================================================== */
 
 
 /* Don't use Malihu, plugin have bugs */
@@ -15,37 +15,37 @@
 
 
 /*.mCustomScrollbar .mCSB_scrollTools {
-    left: auto;
+	left: auto;
 }
 
 .mCustomScrollbar .mCSB_inside > .mCSB_container {
-    margin-left: 0;
+	margin-left: 0;
 }*/
 
 
 /* ==========================================================================
-   Media
-   ========================================================================== */
+	Media
+	========================================================================== */
 
 
 /* Landscape */
 
 @media screen and (orientation: landscape) {
-    .SashaMargin {
-        margin-right: 2rem;
-        margin-left: 1rem;
-    }
-    main {
-        float: right;
-    }
+	.SashaMargin {
+		margin-right: 2rem;
+		margin-left: 1rem;
+	}
+	main {
+		float: right;
+	}
 }
 
 
 /* Portrait */
 
 @media screen and (orientation: portrait) {
-    .SashaMargin {
-        margin-right: 2rem;
-        margin-left: 1rem;
-    }
+	.SashaMargin {
+		margin-right: 2rem;
+		margin-left: 1rem;
+	}
 }

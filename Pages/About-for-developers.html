@@ -1,0 +1,457 @@
+<!-- @Author: Kristinita -->
+<!-- @Date:   2017-04-15 17:42:59 -->
+<!-- @Last Modified time: 2018-04-04 22:17:14 -->
+<!-- Differences pages and articles:
+1. In pages disable categories.
+2. Replace any files with “articles”. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.8">
+	<meta charset="utf-8">
+	<!--=======================
+	=          Meta           =
+	========================-->
+	<!-- Encoding -->
+	<!-- Title phrase -->
+	<title>For developers</title>
+	<!-- Description, EDGE-compatible, different screens.
+	Needs for validation name="description", see:
+	https://stackoverflow.com/a/11202372/5951529 -->
+	<meta name="description" content="Information for developers about Kristinita's Search">
+	<!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Open Graph, http://ruogp.me/
+	Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+	<meta property="og:title" content="For developers">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://i.imgur.com/2blY7dI.png">
+	<meta property="og:description" content="Information for developers about Kristinita's Search">
+	<meta property="og:site_name" content="Поиск Кристиниты">
+	<!--============================
+	=       Miscellaneous          =
+	=============================-->
+	<!-- Sasha icon -->
+	<link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
+	<link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
+	<!-- Atom feed -->
+	<!--=============================
+	=            Scripts            =
+	==============================-->
+	<!-- JQuery
+	CDN vs Locally, see:
+	http://stackoverflow.com/a/3832498/5951529
+	defer preferred, than async, see:
+	https://stackoverflow.com/a/39711009/5951529
+	JQuery not a good candidate for async, see:
+	https://stackoverflow.com/a/10808243/5951529
+	-->
+
+	<script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
+	<!-- Gemini -->
+
+	<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+	<!-- No smooth scrolling, if JQuery Lazy:
+	https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
+
+	<script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+	<!-- JQuery Lazy -->
+
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+	<!-- typo-reporter -->
+
+	<script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-en.js" defer></script>
+	<!-- Fancybox
+	Obsolete version in JSDelivr
+	https://www.jsdelivr.com/package/npm/fancybox
+	[BUG] In CDNJS doesn't possible latest version
+	https://stackoverflow.com/q/14801334/5951529
+	-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
+	<!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+
+	<script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css">
+	<script src="https://kristinita.ru/theme/js/Tooltipster/tooltip.js" defer></script>
+	<!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+
+	<script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
+	<!-- Visualize, see https://github.com/kellyk/visualize -->
+	<!-- Custom JavaScript -->
+	<!--============================
+	=            Styles            =
+	=============================-->
+	<!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
+	https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
+	https://github.com/filamentgroup/loadCSS/issues/246
+	https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
+	[WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
+	-->
+	<!-- Gemini
+	[NOTE] Gemini styles must load first, otherwise bugs on page -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
+	<!-- SashaPelican theme -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_right.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/sasha-black-description.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaInflatedSponges.css">
+	<!-- External -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
+	<!-- Admonition: note, warning etc. blocks, see
+	https://python-markdown.github.io/extensions/admonition/
+	https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
+	<!-- Material icons font for icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Custom CSS -->
+</head>
+
+<body>
+	<!-- Background aside -->
+	<aside>
+		<!-- Header aside -->
+		<div class="SashaBottomAside">For developers</div>
+	</aside>
+	<!-- Content -->
+	<main itemscope>
+		<div class="SashaMargin">
+			<header>
+				<h1 class="SashaTopHeader">For developers</h1>
+				<img class="SashaPageLoading" src="https://2no.co/1QCqM6.png" alt="Page loading, please, little wait">
+				<div class="SashaVersion">Version 0.0.2</div>
+				<div class="SashaVersion">Posted —
+					<time datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+				<div class="SashaVersion">
+					<!-- pubdate attribute is obsolete, use itemprop: datePublished
+					https://stackoverflow.com/a/24455070/5951529 -->
+					Last modified —
+					<time itemprop="datePublished" datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+			</header>
+			<!-- MarkdownTOC -->
+			<ol>
+				<li><a href="#demonstration">Demonstration</a></li>
+				<li><a href="#pre-installation">Pre-installation</a>
+					<ol>
+						<li><a href="#all-operating-systems">All operating systems</a></li>
+						<li><a href="#windows">Windows</a></li>
+						<li><a href="#unix-and-macos">UNIX and macOS</a></li>
+					</ol>
+				</li>
+				<li><a href="#installation">Installation</a>
+					<ol>
+						<li><a href="#windows-1">Windows</a>
+							<ol>
+								<li><a href="#terminal-selection">Terminal selection</a></li>
+								<li><a href="#batch-file">Batch file</a></li>
+							</ol>
+						</li>
+						<li><a href="#unix-and-macos-1">UNIX and macOS</a></li>
+					</ol>
+				</li>
+				<li><a href="#build">Build</a></li>
+				<li><a href="#linting-and-validation">Linting and validation</a>
+					<ol>
+						<li><a href="#glossary-for-table-heading">Glossary for table heading</a>
+							<ol>
+								<li><a href="#type">Type</a></li>
+								<li><a href="#checking-tool">Checking tool</a></li>
+								<li><a href="#rules-description">Rules description</a></li>
+								<li><a href="#configuration-file">Configuration file</a></li>
+							</ol>
+						</li>
+						<li><a href="#validation-table">Validation table</a></li>
+					</ol>
+				</li>
+			</ol>
+			<!-- /MarkdownTOC -->
+			<p>
+				<a id="demonstration"></a>
+			</p>
+			<h2>1. Demonstration <a class="headerlink" href="#demonstration" title="Permanent link">¶</a></h2>
+			<ol>
+				<li><a href="https://ci.appveyor.com/project/Kristinita/kristinitapelican/build/1.0.8/job/xupi280mw74lrnnx" target="_blank">AppVeyor</a>,</li>
+				<li><a href="https://travis-ci.org/Kristinita/KristinitaPelican/jobs/360627297" target="_blank">Travis CI</a>.</li>
+			</ol>
+			<p>
+				<a id="pre-installation"></a>
+			</p>
+			<h2>2. Pre-installation <a class="headerlink" href="#pre-installation" title="Permanent link">¶</a></h2>
+			<p>You must install in your machine latest versions:</p>
+			<p>
+				<a id="all-operating-systems"></a>
+			</p>
+			<h3>2.1. All operating systems <a class="headerlink" href="#all-operating-systems" title="Permanent link">¶</a></h3>
+			<ul>
+				<li>Python 3,</li>
+				<li>Node.js,</li>
+				<li>Git (even if you use another VCS).</li>
+			</ul>
+			<p>
+				<a id="windows"></a>
+			</p>
+			<h3>2.2. Windows <a class="headerlink" href="#windows" title="Permanent link">¶</a></h3>
+			<ul>
+				<li><a href="https://chocolatey.org/install#installing-chocolatey" target="_blank">Chocolatey</a>.</li>
+			</ul>
+			<p>
+				<a id="unix-and-macos"></a>
+			</p>
+			<h3>2.3. UNIX and macOS <a class="headerlink" href="#unix-and-macos" title="Permanent link">¶</a></h3>
+			<ul>
+				<li><a href="https://askubuntu.com/a/634835/582218" target="_blank">GNU Parallel</a>,</li>
+				<li><a href="https://codeyarns.com/2016/06/06/how-to-build-and-install-html-tidy/" target="_blank">HTML Tidy</a>.</li>
+			</ul>
+			<p>
+				<a id="installation"></a>
+			</p>
+			<h2>3. Installation <a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
+			<p>
+				<a id="windows-1"></a>
+			</p>
+			<h3>3.1. Windows <a class="headerlink" href="#windows-1" title="Permanent link">¶</a></h3>
+			<p>
+				<a id="terminal-selection"></a>
+			</p>
+			<h4>3.1.1. Terminal selection <a class="headerlink" href="#terminal-selection" title="Permanent link">¶</a></h4>
+			<p>Run batch file below from:</p>
+			<ol>
+				<li>File Explorer or <a href="https://alternativeto.net/software/windows-explorer/?license=opensource&amp;platform=windows" target="_blank">alternatives</a>,</li>
+				<li>Default Windows console (<em>cmd.exe</em>),</li>
+				<li>Your preferred terminal, if you sure, that <a href="https://stackoverflow.com/a/32420542/5951529" target="_blank">refreshenv</a> update your environment variables for current session or environment variables are updated for current session automatically.</li>
+			</ol>
+			<p>In Far Manager you need <kbd>F9</kbd> → <em>Options</em> → <em>System settings</em> → mark settings <em>Automatic update of environment variables</em> and <em>Auto save setup</em>.</p>
+			<p>
+				<a class="fancybox" href="https://i.imgur.com/2blY7dI.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/2blY7dI.png" alt="Far Manager"></a>
+			</p>
+			<p>Environment variables will update automatically in current session, but that apply updated environment variables for another session, you need to make <a href="https://github.com/FarGroup/FarManager/issues/31" target="_blank">another actions</a>.</p>
+			<p>
+				<a id="batch-file"></a>
+			</p>
+			<h4>3.1.2. Batch file <a class="headerlink" href="#batch-file" title="Permanent link">¶</a></h4>
+			<p><strong>Try</strong> run this batch file:</p>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button>SETX PIPENV_VENV_IN_PROJECT 1
+<span class="k">CALL</span> RefreshEnv.cmd
+git clone --depth=1 --branch=master https://github.com/Kristinita/KristinitaPelican.git
+<span class="k">CD</span> KristinitaPelican
+<span class="k">START</span> /B CMD /C <span class="s2">"choco install html-tidy -y -ignoredependencies"</span>
+<span class="k">START</span> /B CMD /C <span class="s2">"python -m pip install --upgrade pip & pip install pipenv & pipenv install --dev"</span>
+<span class="k">START</span> /B CMD /C <span class="s2">"npm install -g grunt-cli & npm install"</span>
+</pre></div>
+			<p><strong>Except</strong> <a href="https://github.com/pypa/pipenv/issues/65" target="_blank"><em>pexpect.exceptions.TIMEOUT</em></a>:</p>
+			<p>    install all sequentially:</p>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button>SETX PIPENV_VENV_IN_PROJECT 1
+<span class="k">CALL</span> RefreshEnv.cmd
+git clone --depth=1 --branch=master https://github.com/Kristinita/KristinitaPelican.git
+<span class="k">CD</span> KristinitaPelican
+choco install html-tidy -y -ignoredependencies
+python -m pip install --upgrade pip
+pip install pipenv
+pipenv install --dev
+npm install -g grunt-cli
+npm install
+</pre></div>
+			<p>See comments to the script in files:</p>
+			<ul>
+				<li><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/appveyor.yml" target="_blank">appveyor.yml</a>,</li>
+				<li><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/ci/appveyor-install.bat" target="_blank">appveyor-install.bat</a>.</li>
+			</ul>
+			<p>
+				<a id="unix-and-macos-1"></a>
+			</p>
+			<h3>3.2. UNIX and macOS <a class="headerlink" href="#unix-and-macos-1" title="Permanent link">¶</a></h3>
+			<p><strong>Try</strong> run this shell file:</p>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="nb">export</span> <span class="nv">PIPENV_VENV_IN_PROJECT</span><span class="o">=</span><span class="m">1</span>
+git clone --depth<span class="o">=</span><span class="m">1</span> --branch<span class="o">=</span>master https://github.com/Kristinita/KristinitaPelican.git
+<span class="nb">cd</span> KristinitaPelican
+<span class="nb">wait</span>
+parallel ::: <span class="s1">'pip install --upgrade pip &amp;& pip install pipenv &amp;& pipenv install --dev'</span> <span class="se">\</span>
+				<span class="s1">'npm install --global npm &amp;& npm install -g grunt-cli &amp;& npm install'</span>
+</pre></div>
+			<p><strong>Except</strong> <a href="https://github.com/pypa/pipenv/issues/65" target="_blank"><em>pexpect.exceptions.TIMEOUT</em></a>:</p>
+			<p>    install all sequentially:</p>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="nb">export</span> <span class="nv">PIPENV_VENV_IN_PROJECT</span><span class="o">=</span><span class="m">1</span>
+git clone --depth<span class="o">=</span><span class="m">1</span> --branch<span class="o">=</span>master https://github.com/Kristinita/KristinitaPelican.git
+<span class="nb">cd</span> KristinitaPelican
+<span class="nb">wait</span>
+pip install --upgrade pip
+pip install pipenv
+pipenv install --dev
+npm install --global npm
+npm install -g grunt-cli
+npm install
+</pre></div>
+			<p>See comments to the script in files:</p>
+			<ul>
+				<li><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/.travis.yml" target="_blank">.travis.yml</a>,</li>
+				<li><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/ci/travis-install.sh" target="_blank">travis-install.sh</a>.</li>
+			</ul>
+			<p>
+				<a id="build"></a>
+			</p>
+			<h2>4. Build <a class="headerlink" href="#build" title="Permanent link">¶</a></h2>
+			<p>For build site run in <em>KristinitaPelican</em> folder:</p>
+			<p>Development site version:</p>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button>grunt
+</pre></div>
+			<p>Production version:</p>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button>grunt publish
+</pre></div>
+			<p>See comments in <a href="https://github.com/Kristinita/KristinitaPelican/tree/master/grunt" target="_blank">files of <em>grunt</em> folder</a>.</p>
+			<p>
+				<a id="linting-and-validation"></a>
+			</p>
+			<h2>5. Linting and validation <a class="headerlink" href="#linting-and-validation" title="Permanent link">¶</a></h2>
+			<p><strong>All original files and commits of Sasha Chernykh repositories must be 100% valid.</strong></p>
+			<p>Please, consider this, if you make a pull request.</p>
+			<p>“Original” — not from third-party frameworks, libraries, packages, scripts and so on. I'm not responsible, if third-party files not valid.</p>
+			<p>
+				<a id="glossary-for-table-heading"></a>
+			</p>
+			<h3>5.1. Glossary for table heading <a class="headerlink" href="#glossary-for-table-heading" title="Permanent link">¶</a></h3>
+			<p>For validating table below.</p>
+			<p>
+				<a id="type"></a>
+			</p>
+			<h4>5.1.1. Type <a class="headerlink" href="#type" title="Permanent link">¶</a></h4>
+			<p>Type of object.</p>
+			<p>If in this column name of markup or programming language — I mean files, specific for this language.</p>
+			<p>Example:</p>
+			<ul>
+				<li><code class="SashaInlineHighlight">Python</code> — check all files with <code class="SashaInlineHighlight">.py</code> extension</li>
+				<li><code class="SashaInlineHighlight">Markdown</code> — all files with <code class="SashaInlineHighlight">.md</code>, <code class="SashaInlineHighlight">.mdown</code> and <code class="SashaInlineHighlight">.markdown</code> extensions</li>
+			</ul>
+			<p>
+				<a id="checking-tool"></a>
+			</p>
+			<h4>5.1.2. Checking tool <a class="headerlink" href="#checking-tool" title="Permanent link">¶</a></h4>
+			<p>Checking/linting/validating tool.</p>
+			<p>
+				<a id="rules-description"></a>
+			</p>
+			<h4>5.1.3. Rules description <a class="headerlink" href="#rules-description" title="Permanent link">¶</a></h4>
+			<p>Link(s) to detailed description of checking tool rules.</p>
+			<p>
+				<a id="configuration-file"></a>
+			</p>
+			<h4>5.1.4. Configuration file <a class="headerlink" href="#configuration-file" title="Permanent link">¶</a></h4>
+			<p>File for checking tool, if I use non-default rules.</p>
+			<p>For <strong>each</strong> custom option I add comment, why I doesn't use default option.</p>
+			<p>If <code class="SashaInlineHighlight">—</code> in this column, I use default checking tool configuration.</p>
+			<p>
+				<a id="validation-table"></a>
+			</p>
+			<h3>5.2. Validation table <a class="headerlink" href="#validation-table" title="Permanent link">¶</a></h3>
+			<p>For all Sasha Chernykh projects:</p>
+			<div class="justtable">
+				<table>
+					<thead>
+						<tr>
+							<th>Type</th>
+							<th>Checking tool</th>
+							<th>Rules description</th>
+							<th>Configuration file</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>commits</td>
+							<td><a href="http://marionebl.github.io/commitlint/" target="_blank">commitlint</a></td>
+							<td><a href="http://marionebl.github.io/commitlint/#/reference-rules" target="_blank">1</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/.commitlintrc" target="_blank">.commitlintrc.yml</a></td>
+						</tr>
+						<tr>
+							<td>all files</td>
+							<td><a href="http://editorconfig.org/" target="_blank">EditorConfig</a></td>
+							<td><a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties" target="_blank">1</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/.editorconfig" target="_blank">.editorconfig</a></td>
+						</tr>
+						<tr>
+							<td>all file and folder names</td>
+							<td><a href="https://www.npmjs.com/package/grunt-path-validator" target="_blank">grunt-path-validator</a> (only for Grunt projects, I can't find tool for all project types)</td>
+							<td>no whitespace characters in names — it accept in files/folder naming conventions — <a href="https://superuser.com/q/29111/572069" target="_blank">1</a>, <a href="https://portal.slac.stanford.edu/sites/inc_public/Pages/folder-file-names.aspx" target="_blank">2</a>,
+								<a href="https://www.reddit.com/r/linux/comments/1kpzxz/what_are_your_file_naming_conventions/" target="_blank">3</a>, <a href="https://www2.le.ac.uk/services/research-data/organise-data/naming-files" target="_blank">4</a>, <a href="https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-naming"
+								target="_blank">5</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/grunt/path_validator.coffee" target="_blank">path_validator.coffee</a> (only for Grunt projects, I can't find tool for all project types)</td>
+						</tr>
+						<tr>
+							<td>supported browsers</td>
+							<td><a href="https://github.com/browserslist/browserslist" target="_blank">Browserslist</a></td>
+							<td><a href="https://github.com/browserslist/browserslist#queries" target="_blank">1</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/browserslist" target="_blank">browserslist</a></td>
+						</tr>
+						<tr>
+							<td>Python</td>
+							<td><a href="http://flake8.pycqa.org/en/latest/" target="_blank">Flake8</a></td>
+							<td><a href="http://flake8.pycqa.org/en/latest/user/configuration.html" target="_blank">1</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/.flake8" target="_blank">.flake8</a></td>
+						</tr>
+						<tr>
+							<td>Python</td>
+							<td><a href="http://www.pydocstyle.org/en/latest/usage.html" target="_blank">pydocstyle</a></td>
+							<td><a href="http://www.pydocstyle.org/en/latest/usage.html#configuration-files" target="_blank">1</a></td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>Markdown</td>
+							<td><a href="https://www.npmjs.com/package/markdownlint" target="_blank">Markdownlint</a></td>
+							<td><a href="https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md" target="_blank">1</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/.markdownlint.yaml" target="_blank">.markdownlint.yaml</a></td>
+						</tr>
+						<tr>
+							<td>HTML</td>
+							<td><a href="http://www.html-tidy.org/" target="_blank">HTML Tidy</a></td>
+							<td><a href="http://api.html-tidy.org/tidy/tidylib_api_next/tidy_config.html" target="_blank">1</a></td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>YAML</td>
+							<td><a href="http://yamllint.readthedocs.io/en/latest/" target="_blank">yamllint</a></td>
+							<td><a href="http://yamllint.readthedocs.io/en/latest/configuration.html" target="_blank">1</a></td>
+							<td><a href="https://github.com/Kristinita/KristinitaPelican/blob/master/.yamllint" target="_blank">.yamllint</a></td>
+						</tr>
+						<tr>
+							<td>.travis.yml</td>
+							<td><a href="https://github.com/travis-ci/travis.rb#lint" target="_blank">Travis CI Client</a></td>
+							<td><a href="https://docs.travis-ci.com/user/customizing-the-build" target="_blank">1</a></td>
+							<td>—</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<footer>
+				<div class="SashaClearBoth"></div>
+				<div class="SashaEmNoColor">All rights reserved ©.</div>
+				<div class="SashaEmNoColorBottom">If you find in this article typo or small error, please, select text with typo → press <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> for Mac) → write comment → send typo report (PC only, not for mobile devices). If you find more serious errors, you can
+					<a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Pages/About-for-developers.md">edit this page</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. For any questions, ideas and requests
+					about this site and it content, <a href="https://github.com/Kristinita/KristinitaPelican/issues">create issue</a> (preferrable) or write me by <span id="obf">
+<script src="https://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
+					</span>. Please, write in Russian or English.</div>
+				<div class="SashaEmNoColorBottom">If you write in the style of <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a> i reserve
+					the right to dispose of my own discretion.</div>
+				<div class="WorkOnYourself">Работайте над собой</div>
+			</footer>
+		</div>
+	</main>
+</body>
+
+</html>

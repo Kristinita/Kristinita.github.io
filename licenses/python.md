@@ -5,13 +5,14 @@
 | Markdown            | 2.6.11    | BSD License                                                  |
 | MarkupSafe          | 1.0       | BSD                                                          |
 | Pillow              | 5.1.0     | Standard PIL License                                         |
+| PyYAML              | 3.12      | MIT                                                          |
 | Pygments            | 2.2.0     | BSD License                                                  |
 | Unidecode           | 1.0.22    | GPL                                                          |
 | actdiag             | 0.5.4     | Apache License 2.0                                           |
 | beautifulsoup4      | 4.6.0     | MIT                                                          |
 | blinker             | 1.4       | MIT License                                                  |
 | blockdiag           | 1.5.3     | Apache License 2.0                                           |
-| certifi             | 2018.1.18 | MPL-2.0                                                      |
+| certifi             | 2018.4.16 | MPL-2.0                                                      |
 | chardet             | 3.0.4     | LGPL                                                         |
 | docutils            | 0.14      | public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt) |
 | feedgenerator       | 1.9       | UNKNOWN                                                      |
@@ -31,10 +32,10 @@
 | pip-review          | 1.0       | BSD                                                          |
 | pyembed             | 1.3.3     | Copyright (c) 2013 Matt Thomson                              |
 | pyembed-markdown    | 1.1.0     | Copyright (c) 2013 Matt Thomson                              |
-| pymdown-extensions  | 4.9.2     | MIT License                                                  |
+| pymdown-extensions  | 4.10      | MIT License                                                  |
 | pyparsing           | 2.2.0     | MIT License                                                  |
 | python-dateutil     | 2.7.2     | Dual License                                                 |
-| pytz                | 2018.3    | MIT                                                          |
+| pytz                | 2018.4    | MIT                                                          |
 | requests            | 2.18.4    | Apache 2.0                                                   |
 | seqdiag             | 0.9.5     | Apache License 2.0                                           |
 | six                 | 1.11.0    | MIT                                                          |

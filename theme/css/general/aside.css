@@ -7,68 +7,68 @@
 
 
 /* ==========================================================================
-   General
-   ========================================================================== */
+	General
+	========================================================================== */
 
 aside {
-    background-size: cover;
-    height: 100%;
+	background-size: cover;
+	height: 100%;
 }
 
 
 /* Text in aside bottom */
 
 .SashaBottomAside {
-    font-size: 2rem;
-    line-height: 2rem;
-    text-align: center;
-    position: absolute;
-    bottom: 7%;
-    left: 10%;
-    width: 80%;
+	font-size: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	position: absolute;
+	bottom: 7%;
+	left: 10%;
+	width: 80%;
 }
 
 
 /* ==========================================================================
-   Media
-   ========================================================================== */
+	Media
+	========================================================================== */
 
 
 /*
- * Media queries
- * need “screen”:
- * https://webref.ru/css/media
- */
+* Media queries
+* need “screen”:
+* https://webref.ru/css/media
+*/
 
 
 /*
- * Orientation, see:
- * https://www.webopedia.com/TERM/P/portrait.html
- */
+* Orientation, see:
+* https://www.webopedia.com/TERM/P/portrait.html
+*/
 
 
 /* For portrait orientation */
 
 @media screen and (orientation: portrait) {
-    aside {
-        width: 100%;
-        /*
-		 * That .SashaBottomAside text will child for <aside> element:
-		 * https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
-		 */
-        position: relative;
-    }
+	aside {
+		width: 100%;
+		/*
+		* That .SashaBottomAside text will child for <aside> element:
+		* https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
+		*/
+		position: relative;
+	}
 }
 
 
 /* For landscape orientation */
 
 @media screen and (orientation: landscape) {
-    aside {
-        width: 35%;
-        position: fixed;
-    }
-    main {
-        width: 65%;
-    }
+	aside {
+		width: 35%;
+		position: fixed;
+	}
+	main {
+		width: 65%;
+	}
 }

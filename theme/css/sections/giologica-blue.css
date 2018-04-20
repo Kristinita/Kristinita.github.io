@@ -7,93 +7,96 @@
 
 
 /* Unverified For PurifyCSS
-   ========================================================================== */
+	========================================================================== */
 
 body {
-    background: #f0f8ff;
-    color: #b22222;
+	background: #f0f8ff;
+	color: #b22222;
 }
 
 a {
-    color: #00f;
+	color: #00f;
 }
 
 a:hover {
-    background-color: #eee8aa;
+	background-color: #eee8aa;
 }
 
 a:focus {
-    background: #f0fff0;
+	background: #f0fff0;
 }
 
 em {
-    background-image: linear-gradient(to right, #008b8b, #7b68ee);
-    -webkit-background-clip: text;
-    color: transparent;
+	background-image: -webkit-gradient(linear, left top, right top, from(#008b8b), to(#7b68ee));
+	background-image: linear-gradient(to right, #008b8b, #7b68ee);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 img {
-    box-shadow: 0 0 2rem #000;
+	-webkit-box-shadow: 0 0 2rem #000;
+	box-shadow: 0 0 2rem #000;
 }
 
 .SashaPageLoading {
-    box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 kbd {
-    color: #fff5ee;
-    background: #6495ed;
+	color: #fff5ee;
+	background: #6495ed;
 }
 
 .SashaBottomAside {
-    color: #fff;
-    bottom: 10%;
+	color: #fff;
+	bottom: 10%;
 }
 
 blockquote {
-    border-left: solid #e6e6fa 0.5rem;
-    color: #6a5acd;
-    background: #fcfcfc;
+	border-left: solid #e6e6fa 0.5rem;
+	color: #6a5acd;
+	background: #fcfcfc;
 }
 
 code {
-    background-color: #2f4f4f;
+	background-color: #2f4f4f;
 }
 
 .SashaDot {
-    border-bottom: 0.0625rem dotted #b22222;
+	border-bottom: 0.0625rem dotted #b22222;
 }
 
 ::-moz-selection {
-    color: #f08080;
-    background: #ffe4b5;
+	color: #f08080;
+	background: #ffe4b5;
 }
 
 ::selection {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 ::-moz-selection:window-inactive {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 ::selection:window-inactive {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 .SashaEmNoColor {
-    color: #b22222;
+	color: #b22222;
 }
 
 .tooltipster-punk-purple .tooltipster-box {
-    border-bottom: 3px solid #ffa500;
-    background: #800080;
+	border-bottom: 3px solid #ffa500;
+	background: #800080;
 }
 
 .tooltipster-punk-aquamarine .tooltipster-box {
-    border-bottom: 3px solid #ff69b4;
-    background: #228b22;
+	border-bottom: 3px solid #ff69b4;
+	background: #228b22;
 }

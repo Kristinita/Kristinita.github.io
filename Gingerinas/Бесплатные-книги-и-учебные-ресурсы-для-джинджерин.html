@@ -5,249 +5,248 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.3">
-    <meta charset="utf-8">
-    <!--=======================
-        =          Meta           =
-        ========================-->
-    <!-- Encoding -->
-    <!-- Title phrase -->
-    <title>Знания в джинджеринах</title>
-    <!-- Description, EDGE-compatible, different screens.
-        Needs for validation name="description", see:
-        https://stackoverflow.com/a/11202372/5951529 -->
-    <meta name="description" content="В статье рассматривается всё связанное со знаниями, эрудицией в джинджеринах; впервые приводятся различные классификации. Критикуется существующее положение вещей.">
-    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Open Graph, http://ruogp.me/
-        Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
-    <meta property="og:title" content="Знания в джинджеринах">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://i.imgur.com/QDNppF7.jpg">
-    <meta property="og:description" content="В статье рассматривается всё связанное со знаниями, эрудицией в джинджеринах; впервые приводятся различные классификации. Критикуется существующее положение вещей.">
-    <meta property="og:site_name" content="Поиск Кристиниты">
-    <!--============================
-        =       Miscellaneous          =
-        =============================-->
-    <!-- Sasha icon -->
-    <link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
-    <!-- Atom feed -->
-    <link href="https://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="https://kristinita.ru/feeds/test.atom.xml" rel="alternate" type="application/atom+xml">
-    <!--=============================
-        =            Scripts            =
-        ==============================-->
-    <!-- JQuery
-        CDN vs Locally, see:
-        http://stackoverflow.com/a/3832498/5951529
-        defer preferred, than async, see:
-        https://stackoverflow.com/a/39711009/5951529
-        JQuery not a good candidate for async, see:
-        https://stackoverflow.com/a/10808243/5951529
-        -->
+	<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.8">
+	<meta charset="utf-8">
+	<!--=======================
+	=          Meta           =
+	========================-->
+	<!-- Encoding -->
+	<!-- Title phrase -->
+	<title>Знания в джинджеринах</title>
+	<!-- Description, EDGE-compatible, different screens.
+	Needs for validation name="description", see:
+	https://stackoverflow.com/a/11202372/5951529 -->
+	<meta name="description" content="В статье рассматривается всё связанное со знаниями, эрудицией в джинджеринах; впервые приводятся различные классификации. Критикуется существующее положение вещей.">
+	<!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Open Graph, http://ruogp.me/
+	Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+	<meta property="og:title" content="Знания в джинджеринах">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://i.imgur.com/QDNppF7.jpg">
+	<meta property="og:description" content="В статье рассматривается всё связанное со знаниями, эрудицией в джинджеринах; впервые приводятся различные классификации. Критикуется существующее положение вещей.">
+	<meta property="og:site_name" content="Поиск Кристиниты">
+	<!--============================
+	=       Miscellaneous          =
+	=============================-->
+	<!-- Sasha icon -->
+	<link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
+	<link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
+	<!-- Atom feed -->
+	<link href="https://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+	<link href="https://kristinita.ru/feeds/test.atom.xml" rel="alternate" type="application/atom+xml">
+	<!--=============================
+	=            Scripts            =
+	==============================-->
+	<!-- JQuery
+	CDN vs Locally, see:
+	http://stackoverflow.com/a/3832498/5951529
+	defer preferred, than async, see:
+	https://stackoverflow.com/a/39711009/5951529
+	JQuery not a good candidate for async, see:
+	https://stackoverflow.com/a/10808243/5951529
+	-->
 
-    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
-    <!-- Gemini -->
+	<script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
+	<!-- Gemini -->
 
-    <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
-    <!-- No smooth scrolling, if JQuery Lazy:
-        https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
+	<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+	<!-- No smooth scrolling, if JQuery Lazy:
+	https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
 
-    <script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <!-- JQuery Lazy -->
+	<script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+	<!-- JQuery Lazy -->
 
-    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
-    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
-    <!-- typo-reporter -->
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+	<!-- typo-reporter -->
 
-    <script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-ru.js" defer></script>
-    <!-- Fancybox
-        Obsolete version in JSDelivr
-        https://www.jsdelivr.com/package/npm/fancybox
-        [BUG] In CDNJS doesn't possible latest version
-        https://stackoverflow.com/q/14801334/5951529
-        -->
+	<script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-ru.js" defer></script>
+	<!-- Fancybox
+	Obsolete version in JSDelivr
+	https://www.jsdelivr.com/package/npm/fancybox
+	[BUG] In CDNJS doesn't possible latest version
+	https://stackoverflow.com/q/14801334/5951529
+	-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
-    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
-    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
-    <!-- Visualize, see https://github.com/kellyk/visualize -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
+	<!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+	<!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+	<!-- Visualize, see https://github.com/kellyk/visualize -->
 
-    <script src="https://kristinita.ru/theme/js/Visualize/visualize.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Visualize/visualize-bar-chart.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Visualize/visualize-pie-chart.js" defer></script>
-    <!-- Custom JavaScript -->
-    <!--============================
-        =            Styles            =
-        =============================-->
-    <!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
-        https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
-        https://github.com/filamentgroup/loadCSS/issues/246
-        https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
-        [WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
-        -->
-    <!-- Gemini
-        [NOTE] Gemini styles must load first, otherwise bugs on page -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
-    <!-- SashaPelican theme -->
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_right.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/gingerinas.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaFluffy.css">
-    <!-- External -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
-    <!-- Admonition: note, warning etc. blocks, see
-        https://python-markdown.github.io/extensions/admonition/
-        https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
-    <!-- Material icons font for icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Custom CSS -->
+	<script src="https://kristinita.ru/theme/js/Visualize/visualize.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Visualize/visualize-bar-chart.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Visualize/visualize-pie-chart.js" defer></script>
+	<!-- Custom JavaScript -->
+	<!--============================
+	=            Styles            =
+	=============================-->
+	<!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
+	https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
+	https://github.com/filamentgroup/loadCSS/issues/246
+	https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
+	[WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
+	-->
+	<!-- Gemini
+	[NOTE] Gemini styles must load first, otherwise bugs on page -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
+	<!-- SashaPelican theme -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_right.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/gingerinas.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaFluffy.css">
+	<!-- External -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
+	<!-- Admonition: note, warning etc. blocks, see
+	https://python-markdown.github.io/extensions/admonition/
+	https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
+	<!-- Material icons font for icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Custom CSS -->
 </head>
 
 <body>
-    <!-- Background aside -->
-    <aside>
-        <!-- Header aside -->
-        <div class="SashaBottomAside">Знания в джинджеринах</div>
-    </aside>
-    <!-- Content -->
-    <main itemscope>
-        <div class="SashaMargin">
-            <header>
-                <h1 class="SashaTopHeader">Знания в джинджеринах</h1>
-                <img class="SashaPageLoading" src="https://2no.co/1EBY.png" alt="Page loading, please, little wait">
-                <div class="SashaVersion">Version 0.1.0</div>
-                <div class="SashaVersion">Posted —
-                    <time datetime="2018-04-08 16:32:34+03:00">2018-04-08 16:32:34+03:00</time>
-                </div>
-                <div class="SashaVersion">
-                    <!-- pubdate attribute is obsolete, use itemprop: datePublished
-                                        https://stackoverflow.com/a/24455070/5951529 -->
-                    Last modified —
-                    <time itemprop="datePublished" datetime="2018-04-08 16:32:34+03:00">2018-04-08 16:32:34+03:00</time>
-                </div>
-            </header>
-            <h2>1. Смайлы</h2>
-            <p>i ♥ :fa-coffee:</p>
-            <h2>2. Таблицы</h2>
-            <div class="justtable">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>No.</th>
-                            <th>Name</th>
-                            <th>First</th>
-                            <th>Second</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Sasha Chernykh</td>
-                            <td>Best</td>
-                            <td>Amazing</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Kristina Kiva</td>
-                            <td>Sunny</td>
-                            <td>Floweret</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Katya Desyatnikova</td>
-                            <td>Forever</td>
-                            <td>Young</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <h2>3. Progressbar</h2>
-            <div class="progress progress-0plus">
-                <div class="progress-bar" style="width:5.60%">
-                    <p class="progress-label">5.6</p>
-                </div>
-            </div>
-            <div class="progress progress-10plus">
-                <div class="progress-bar" style="width:10.50%">
-                    <p class="progress-label">10.5</p>
-                </div>
-            </div>
-            <div class="progress progress-20plus">
-                <div class="progress-bar" style="width:22.88%">
-                    <p class="progress-label">22.875</p>
-                </div>
-            </div>
-            <div class="progress progress-30plus">
-                <div class="progress-bar" style="width:35.00%">
-                    <p class="progress-label">35</p>
-                </div>
-            </div>
-            <div class="progress progress-40plus">
-                <div class="progress-bar" style="width:44.00%">
-                    <p class="progress-label">44</p>
-                </div>
-            </div>
-            <div class="progress progress-50plus">
-                <div class="progress-bar" style="width:55.84%">
-                    <p class="progress-label">55.84</p>
-                </div>
-            </div>
-            <div class="progress progress-60plus">
-                <div class="progress-bar" style="width:61.00%">
-                    <p class="progress-label">61</p>
-                </div>
-            </div>
-            <div class="progress progress-70plus">
-                <div class="progress-bar" style="width:78.20%">
-                    <p class="progress-label">78.2</p>
-                </div>
-            </div>
-            <div class="progress progress-80plus">
-                <div class="progress-bar" style="width:80.50%">
-                    <p class="progress-label">80.5</p>
-                </div>
-            </div>
-            <div class="progress progress-90plus">
-                <div class="progress-bar" style="width:90.88%">
-                    <p class="progress-label">90.875</p>
-                </div>
-            </div>
-            <div class="progress progress-100plus">
-                <div class="progress-bar" style="width:100.00%">
-                    <p class="progress-label">100</p>
-                </div>
-            </div>
-            <h2>4. Chart</h2>
-            <ul class="SashaPieChart">
-                <li class="visualize" data-value="15" data-color="salmon">15 — Забыл</li>
-                <li class="visualize" data-value="3" data-color="antiquewhite">3 — шустрая кнопка</li>
-                <li class="visualize" data-value="2" data-color="coral">1 — Елдесы</li>
-                <li class="visualize" data-value="4" data-color="papayawhip">Oreo</li>
-            </ul>
-            <footer><span class="SashaPreviousNeighbor"><a href="https://kristinita.ru/Gingerinas/Testus.html" title="Sasha Goddess">← Предыдущая статья</a></span>
-                <!--  -->
-                <span class="SashaHeadPageRight"><a href="https://kristinita.ru" title="Поиск Кристиниты">Поиск Кристиниты</a></span>
-                <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия автора ©.</div>
-                <div class="SashaEmNoColorBottom">Если Вы увидели на данной странице опечатку или мелкую ошибку, пожалуйста, выделите текст с опечаткой/ошибкой → нажмите <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> для Mac) → напишите комментарий → <em>Отправить</em>. Если нашли более серьёзные
-                    ошибки, можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.md">отредактировать страницу</a>                    и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. По любым вопросам, идеям и запросам, касающимся сайта и/или его содержания, можете <a href="https://github.com/Kristinita/KristinitaPelican/issues">создать issue</a>                    (лучший вариант) или связаться по <span id="obf">
+	<!-- Background aside -->
+	<aside>
+		<!-- Header aside -->
+		<div class="SashaBottomAside">Знания в джинджеринах</div>
+	</aside>
+	<!-- Content -->
+	<main itemscope>
+		<div class="SashaMargin">
+			<header>
+				<h1 class="SashaTopHeader">Знания в джинджеринах</h1>
+				<img class="SashaPageLoading" src="https://2no.co/1EBY.png" alt="Page loading, please, little wait">
+				<div class="SashaVersion">Version 0.1.0</div>
+				<div class="SashaVersion">Posted —
+					<time datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+				<div class="SashaVersion">
+					<!-- pubdate attribute is obsolete, use itemprop: datePublished
+					https://stackoverflow.com/a/24455070/5951529 -->
+					Last modified —
+					<time itemprop="datePublished" datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+			</header>
+			<h2>1. Смайлы</h2>
+			<p>i ♥ :fa-coffee:</p>
+			<h2>2. Таблицы</h2>
+			<div class="justtable">
+				<table>
+					<thead>
+						<tr>
+							<th>No.</th>
+							<th>Name</th>
+							<th>First</th>
+							<th>Second</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Sasha Chernykh</td>
+							<td>Best</td>
+							<td>Amazing</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Kristina Kiva</td>
+							<td>Sunny</td>
+							<td>Floweret</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Katya Desyatnikova</td>
+							<td>Forever</td>
+							<td>Young</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2>3. Progressbar</h2>
+			<div class="progress progress-0plus">
+				<div class="progress-bar" style="width:5.60%">
+					<p class="progress-label">5.6</p>
+				</div>
+			</div>
+			<div class="progress progress-10plus">
+				<div class="progress-bar" style="width:10.50%">
+					<p class="progress-label">10.5</p>
+				</div>
+			</div>
+			<div class="progress progress-20plus">
+				<div class="progress-bar" style="width:22.88%">
+					<p class="progress-label">22.875</p>
+				</div>
+			</div>
+			<div class="progress progress-30plus">
+				<div class="progress-bar" style="width:35.00%">
+					<p class="progress-label">35</p>
+				</div>
+			</div>
+			<div class="progress progress-40plus">
+				<div class="progress-bar" style="width:44.00%">
+					<p class="progress-label">44</p>
+				</div>
+			</div>
+			<div class="progress progress-50plus">
+				<div class="progress-bar" style="width:55.84%">
+					<p class="progress-label">55.84</p>
+				</div>
+			</div>
+			<div class="progress progress-60plus">
+				<div class="progress-bar" style="width:61.00%">
+					<p class="progress-label">61</p>
+				</div>
+			</div>
+			<div class="progress progress-70plus">
+				<div class="progress-bar" style="width:78.20%">
+					<p class="progress-label">78.2</p>
+				</div>
+			</div>
+			<div class="progress progress-80plus">
+				<div class="progress-bar" style="width:80.50%">
+					<p class="progress-label">80.5</p>
+				</div>
+			</div>
+			<div class="progress progress-90plus">
+				<div class="progress-bar" style="width:90.88%">
+					<p class="progress-label">90.875</p>
+				</div>
+			</div>
+			<div class="progress progress-100plus">
+				<div class="progress-bar" style="width:100.00%">
+					<p class="progress-label">100</p>
+				</div>
+			</div>
+			<h2>4. Chart</h2>
+			<ul class="SashaPieChart">
+				<li class="visualize" data-value="15" data-color="salmon">15 — Забыл</li>
+				<li class="visualize" data-value="3" data-color="antiquewhite">3 — шустрая кнопка</li>
+				<li class="visualize" data-value="2" data-color="coral">1 — Елдесы</li>
+				<li class="visualize" data-value="4" data-color="papayawhip">Oreo</li>
+			</ul>
+			<footer><span class="SashaPreviousNeighbor"><a href="https://kristinita.ru/Gingerinas/Testus.html" title="Sasha Goddess">← Предыдущая статья</a></span> <span class="SashaHeadPageRight"><a href="https://kristinita.ru" title="Поиск Кристиниты">Поиск Кристиниты</a></span>
+				<div class="SashaClearBoth"></div>
+				<div class="SashaEmNoColor">Запрещается копирование и прочее воспроизведение данного текста без согласия автора ©.</div>
+				<div class="SashaEmNoColorBottom">Если Вы увидели на данной странице опечатку или мелкую ошибку, пожалуйста, выделите текст с опечаткой/ошибкой → нажмите <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> для Mac) → напишите комментарий → <em>Отправить</em>. Если нашли более серьёзные ошибки,
+					можете <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/Gingerinas/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD.md">отредактировать страницу</a>					и отправить <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. По любым вопросам, идеям и запросам, касающимся сайта и/или его содержания, можете <a href="https://github.com/Kristinita/KristinitaPelican/issues">создать issue</a>					(лучший вариант) или связаться по <span id="obf">
 <script src="https://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span>. Пожалуйста, пишите на русском или английском языкe.</div>
-                <div class="SashaEmNoColorBottom">С сообщениями в стиле <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">новых недовольных русских</a>                    оставляю право распоряжаться по собственному усмотрению.</div>
-                <div class="WorkOnYourself">Работайте над собой</div>
-            </footer>
-        </div>
-    </main>
+					</span>. Пожалуйста, пишите на русском или английском языкe.</div>
+				<div class="SashaEmNoColorBottom">С сообщениями в стиле <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">новых недовольных русских</a> оставляю
+					право распоряжаться по собственному усмотрению.</div>
+				<div class="WorkOnYourself">Работайте над собой</div>
+			</footer>
+		</div>
+	</main>
 </body>
 
 </html>

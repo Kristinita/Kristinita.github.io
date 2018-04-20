@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Life-hacks</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/life-hacks.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-08T16:32:34+03:00</updated><entry><title>Установка портативной версии Pale Moon в качестве браузера по умолчанию в Windows 10</title><link href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10.html" rel="alternate"></link><published>2018-04-08T16:32:34+03:00</published><updated>2018-04-08T16:32:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/Life-hacks/Default-portable-browser-Windows-10.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;a href="#Why-Portable" target="_self"&gt;Почему портативный браузер?&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Life-hacks</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/life-hacks.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-04-20T05:07:18+03:00</updated><entry><title>Установка портативной версии Pale Moon в качестве браузера по умолчанию в Windows 10</title><link href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10.html" rel="alternate"></link><published>2018-04-20T05:07:18+03:00</published><updated>2018-04-20T05:07:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-20:/Life-hacks/Default-portable-browser-Windows-10.html</id><summary type="html"></summary><content type="html">&lt;p&gt;&lt;a href="#Why-Portable" target="_self"&gt;Почему портативный браузер?&lt;/a&gt;
 &lt;br /&gt;
 &lt;a href="#Why-Pale-Moon" target="_self"&gt;Почему Pale Moon?&lt;/a&gt;
 &lt;br /&gt;
@@ -98,41 +98,34 @@
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;img src="https://i.imgur.com/DjwBc2Q.png" alt="Alt attribute fish"&gt;
-&lt;br /&gt; Pale Moon Portable установлен браузером по умолчанию.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2018-04-08T16:32:34+03:00</published><updated>2018-04-08T16:32:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.
-        &lt;br /&gt;
-        &lt;br /&gt; До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;h1 id="Tldr"&gt;
-Tl;dr&lt;/h1&gt;
-        &lt;br /&gt; В статье повествуется о:
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;ol&gt;
-            &lt;li&gt;планировщике задач и кронтабе,&lt;/li&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;window.open&lt;/dfn&gt; и
-                &lt;dfn&gt;window.location.href&lt;/dfn&gt; в JavaScript и событии
-                &lt;dfn&gt;$(document).ready&lt;/dfn&gt; JQuery. Методом
-                &lt;dfn&gt;open&lt;/dfn&gt; вызываются всплывающие окна в браузерах.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;br /&gt; Если вы пользователь ещё менее опытный, нежели автор этих строк, и не знаете, о чём речь, советую дочитать статью до конца, невзирая на кажущийся большим объём. Пожертвовав временем сейчас, вы сэкономите его в дальнейшем.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;h1 id="Conditions"&gt;
-Условия&lt;/h1&gt;
-        &lt;br /&gt; Расписан простейший вариант:
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;ol&gt;
-            &lt;li&gt;После регистрации при дальнейших заходах на сайт в браузере не потребуется дополнительно вводить логин и пароль, а также капчу; &lt;/li&gt;
-            &lt;li&gt;Периодически, к примеру, через несколько дней или месяц, заново логиниться также не придётся, т. е. Вы всегда остаётесь в системе;&lt;/li&gt;
-            &lt;li&gt;Для получения бонусов необходимо лишь войти на любую или определённую страницу сайта под своей учёткой и больше никуда не нажимать или кликать.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;br /&gt; Протестировано на трёх браузерных играх. Проделав описанные ниже действия, я уехал из дому на неделю. Когда вернулся — бонусы за ежедневный заход в каждой из них исправно начислились.
-        &lt;br /&gt;
-        &lt;br /&gt; Да, на сайтах сети &lt;a href="https://ru.wikipedia.org/wiki/Stack_Exchange_Network"&gt;Stack Exchange&lt;/a&gt;, к которым относится Stack Overflow, способ, не знаю, почему, не прокатывает, &lt;a href="http://ru.stackoverflow.com/help/badges/55/fanatic"&gt;знак "Фанатик"&lt;/a&gt; им получить не удастся. Но наблюдать другие исключения пока не доводилось.
+&lt;br /&gt; Pale Moon Portable установлен браузером по умолчанию.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2018-04-20T05:07:18+03:00</published><updated>2018-04-20T05:07:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-20:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.&lt;/p&gt;
+&lt;p&gt;До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.&lt;/p&gt;
+&lt;h1 id="Tldr"&gt;Tl;dr&lt;/h1&gt;
+
+&lt;p&gt;В статье повествуется о:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;планировщике задач и кронтабе,&lt;/li&gt;
+    &lt;li&gt;
+        &lt;dfn&gt;window.open&lt;/dfn&gt; и
+        &lt;dfn&gt;window.location.href&lt;/dfn&gt; в JavaScript и событии
+        &lt;dfn&gt;$(document).ready&lt;/dfn&gt; JQuery. Методом
+        &lt;dfn&gt;open&lt;/dfn&gt; вызываются всплывающие окна в браузерах.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt; Если вы пользователь ещё менее опытный, нежели автор этих строк, и не знаете, о чём речь, советую статью до конца, невзирая на кажущийся большим объём. Пожертвовав временем сейчас, вы сэкономите его в дальнейшем.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id="Conditions"&gt;Условия&lt;/h1&gt;
+
+&lt;p&gt;Расписан простейший вариант:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;После регистрации при дальнейших заходах на сайт в браузере не потребуется дополнительно вводить логин пароль, а также капчу; &lt;/li&gt;
+    &lt;li&gt;Периодически, к примеру, через несколько дней или месяц, заново логиниться также не придётся, т. е. Вы всегдостаётесь в системе;&lt;/li&gt;
+    &lt;li&gt;Для получения бонусов необходимо лишь войти на любую или определённую страницу сайта под своей учёткой и большникуда не нажимать или кликать.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt; Протестировано на трёх браузерных играх. Проделав описанные ниже действия, я уехал из дому на неделю. Когдвернулся — бонусы за ежедневный заход в каждой из них исправно начислились.
+&lt;br /&gt;
+&lt;br /&gt; Да, на сайтах сети &lt;a href="https://ru.wikipedia.org/wiki/Stack_Exchange_Network"&gt;Stack Exchange&lt;/a&gt;, к которым относится Stack Overflow, способ, не знаю, почему, не прокатывает, &lt;a href="http://ru.stackoverflow.com/help/badges/55/fanatic"&gt;знак "Фанатик"&lt;/a&gt; им получить не удастся. Но наблюдать другие исключения пока не доводилось.
         &lt;br /&gt;
         &lt;br /&gt;
         &lt;h1 id="PsychologyAndEthics"&gt;
@@ -163,145 +156,146 @@ Tl;dr&lt;/h1&gt;
         &lt;br /&gt; Программа понравилась, поскольку бесплатная, &lt;a href="https://github.com/nnCron/nnCron#nncron-ru"&gt;многофункциональная, поддерживается версиями Windows от ископаемых до 10&lt;/a&gt; и занимает не более 6 МБ оперативной памяти. Данная инструкция может помочь Вам и при постановке других задач. Впрочем, я ничего не навязываю, не возбраняется воспользоваться и альтернативными планировщиками.
         &lt;br /&gt;
         &lt;br /&gt; Свежая бета-версия nnCron находится в форумном &lt;a href="http://www.nncron.ru/forums/viewtopic.php?f=5&amp;amp;t=13282&amp;amp;sid=b29f15e1a5c2d032bfc195a8498f43ff#p35308"&gt;статусе&lt;/a&gt; разработчика nnCron. Скачиваем (&lt;a href="http://www.nncron.ru/download/nncron193b15.exe"&gt;версия на 27 апреля 2016&lt;/a&gt;) → инсталлируем. При установке ставим галочку напротив
-        &lt;dfn&gt;Приложение для всех пользователей&lt;/dfn&gt;, а не
-        &lt;dfn&gt;Системная служба&lt;/dfn&gt;. Запуск nnCron как системного сервиса чреват тем, что браузер &lt;a href="http://www.nncron.ru/forums/viewtopic.php?f=5&amp;amp;t=13352&amp;amp;sid=87b407049e5d81a327ea9cc5d65ee6c2#p35669"&gt;может открываться в изначальном состоянии&lt;/a&gt;, совершенно не видя настроек Вашего профиля.
-        &lt;br /&gt;
-        &lt;br /&gt; По умолчанию программа может запуститься как сервис. Приложение или сервис — я определяю в своём диспетчере задач, &lt;a href="http://rsload.net/soft/manager/8453-process-hacker.html"&gt;Process Hacker&lt;/a&gt;:
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;img alt="nnCron — сервис" src="https://i.gyazo.com/5cf31c4720afd3256ac1965c19e1f21d.png"&gt;
-        &lt;sup&gt;&lt;em&gt;Если под services.exe в голубом поле — значит, сервис&lt;/em&gt;&lt;/sup&gt;
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;img alt="nnCron — приложение" src="https://i.gyazo.com/84a24aaa3eca2181a326dbf5e887ec3c.png"&gt;
-        &lt;sup&gt;&lt;em&gt;А когда ниже explorer.exe в жёлтом — приложение&lt;/em&gt;&lt;/sup&gt;
-        &lt;br /&gt;
-        &lt;br /&gt; В случае, если таки сервис, делаем nnCron приложением одним из двух способов.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;ol&gt;
-            &lt;li&gt;
-                &lt;kbd&gt;Win + R&lt;/kbd&gt; → вписываем
-                &lt;dfn&gt;msconfig&lt;/dfn&gt; →
-                &lt;kbd&gt;OK&lt;/kbd&gt; →
-                &lt;kbd&gt;Службы&lt;/kbd&gt; → снимаем галочку со службы
-                &lt;dfn&gt;nnCron.exe&lt;/dfn&gt; →
-                &lt;kbd&gt;OK&lt;/kbd&gt; →
-                &lt;kbd&gt;Перезагрузка&lt;/kbd&gt;.
-                &lt;br /&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-                Переходим в папку с установленным nnCron → запускаем &lt;a href="http://www.windowsfaq.ru/content/category/3/7/45/"&gt;bat-файл&lt;/a&gt;
-                &lt;dfn&gt;uninstall_svc.bat&lt;/dfn&gt; → перезагружаем компьютер.
-                &lt;br /&gt;
-                &lt;br /&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-        Теперь nnCron приложение, а не сервис.
-        &lt;br /&gt;
-        &lt;br /&gt; Советую пропустить этот абзац, не выполнять действия, в нём расписанные, ещё &lt;a href="#Portable" target="_self"&gt;через абзац&lt;/a&gt; показано, как сделать программу портативной. Однако если решили оставить nnCron инсталлированным, следует добавить программу в автозагрузку. Кликаем правой кнопкой мыши на файл
-        &lt;dfn&gt;nncron.exe&lt;/dfn&gt; в папке, куда установили программу, →
-        &lt;kbd&gt;Создать ярлык&lt;/kbd&gt;. Правой кнопкой мыши по ярлыку →
-        &lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив
-        &lt;kbd&gt;Объект:&lt;/kbd&gt; добавляем &lt;a href="http://vindavoz.ru/poleznoe/218-komandnaya-stroka-i-ee-komandy.html"&gt;ключ командной строки&lt;/a&gt;
-        &lt;dfn&gt;-ns&lt;/dfn&gt;, т. е., если было
-        &lt;dfn&gt;D:nnCronnncron.exe&lt;/dfn&gt;, станет
-        &lt;dfn&gt;D:nnCronnncron.exe -ns&lt;/dfn&gt;, →
-        &lt;kbd&gt;OK&lt;/kbd&gt;. Запускаем ярлык.
-        &lt;br /&gt;
-        &lt;br /&gt; Требуется &lt;a href="http://sysadmins.ru/post7020767.html#7020767"&gt;зарегистрировать&lt;/a&gt; программу, чтобы по истечении определённого промежутка времени (ЕМНИП, месяца) через каждые несколько минут не всплывало окно с предложением её купить. Для этого переходим в домашний каталог nnCron → правой кнопкой мыши по файлу
-        &lt;dfn&gt;tm.exe&lt;/dfn&gt; →
-        &lt;kbd&gt;Создать ярлык&lt;/kbd&gt;. Правой кнопкой мыши по созданному ярлыку →
-        &lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив
-        &lt;dfn&gt;Объект&lt;/dfn&gt; вписываем
-        &lt;dfn&gt;D:nnCrontm.exe xReg&lt;/dfn&gt;, где
-        &lt;dfn&gt;D:nnCron&lt;/dfn&gt; — папка с
-        &lt;dfn&gt;nnCron&lt;/dfn&gt;, заменяем её на свою, →
-        &lt;kbd&gt;OK&lt;/kbd&gt;. Запускаем ярлык, куда мы только что вписали параметр &lt;em&gt;xReg&lt;/em&gt; → под
-        &lt;dfn&gt;Регистрационное имя&lt;/dfn&gt; вводим
-        &lt;dfn&gt;xUSSR регистрация&lt;/dfn&gt;, → ниже
-        &lt;dfn&gt;Регистрационный код&lt;/dfn&gt; вписываем текущий день недели на русском с заглавной буквы (например,
-        &lt;dfn&gt;Четверг&lt;/dfn&gt;) →
-        &lt;kbd&gt;ОК&lt;/kbd&gt;. Попап больше не должен Вас беспокоить.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;span class="SashaSimple"&gt;В силу&lt;/span&gt; расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
-        &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:
-        &lt;br /&gt;
+&lt;dfn&gt;Приложение для всех пользователей&lt;/dfn&gt;, а не
+&lt;dfn&gt;Системная служба&lt;/dfn&gt;. Запуск nnCron как системного сервиса чреват тем, что браузер &lt;a href="http://www.nncron.rforums/viewtopic.php?f=5&amp;amp;t=13352&amp;amp;sid=87b407049e5d81a327ea9cc5d65ee6c2#p35669"&gt;может открываться в изначальносостоянии&lt;/a&gt;, совершенно не видя настроек Вашего профиля.
+&lt;br /&gt;
+&lt;br /&gt; По умолчанию программа может запуститься как сервис. Приложение или сервис — я определяю в своём диспетчерзадач, &lt;a href="http://rsload.net/soft/manager/8453-process-hacker.html"&gt;Process Hacker&lt;/a&gt;:
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt="nnCron — сервис" src="https://i.gyazo.com/5cf31c4720afd3256ac1965c19e1f21d.png"&gt;
+&lt;sup&gt;&lt;em&gt;Если под services.exe в голубом поле — значит, сервис&lt;/em&gt;&lt;/sup&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt="nnCron — приложение" src="https://i.gyazo.com/84a24aaa3eca2181a326dbf5e887ec3c.png"&gt;
+&lt;sup&gt;&lt;em&gt;А когда ниже explorer.exe в жёлтом — приложение&lt;/em&gt;&lt;/sup&gt;
+&lt;br /&gt;
+&lt;br /&gt; В случае, если таки сервис, делаем nnCron приложением одним из двух способов.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;
+    &lt;kbd&gt;Win + R&lt;/kbd&gt; → вписываем
+    &lt;dfn&gt;msconfig&lt;/dfn&gt; →
+    &lt;kbd&gt;OK&lt;/kbd&gt; →
+    &lt;kbd&gt;Службы&lt;/kbd&gt; → снимаем галочку со службы
+    &lt;dfn&gt;nnCron.exe&lt;/dfn&gt; →
+    &lt;kbd&gt;OK&lt;/kbd&gt; →
+    &lt;kbd&gt;Перезагрузка&lt;/kbd&gt;.
+    &lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;
+    Переходим в папку с установленным nnCron → запускаем &lt;a href="http://www.windowsfaq.ru/content/category/3/7/45/"&gt;bat-файл&lt;/a&gt;
+    &lt;dfn&gt;uninstall_svc.bat&lt;/dfn&gt; → перезагружаем компьютер.
+    &lt;br /&gt;
+    &lt;br /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+Теперь nnCron приложение, а не сервис.
+&lt;br /&gt;
+&lt;br /&gt; Советую пропустить этот абзац, не выполнять действия, в нём расписанные, ещё &lt;a href="#Portable" target="_self"&gt;через абзац&lt;/a&gt; показано, как сделать программу портативной. Однако если решили оставить nnCron инсталлированным, следует добавить программу в автозагрузку. Кликаем правой кнопкой мыши на файл
+&lt;dfn&gt;nncron.exe&lt;/dfn&gt; в папке, куда установили программу, →
+&lt;kbd&gt;Создать ярлык&lt;/kbd&gt;. Правой кнопкой мыши по ярлыку →
+&lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив
+&lt;kbd&gt;Объект:&lt;/kbd&gt; добавляем &lt;a href="http://vindavoz.ru/poleznoe/218-komandnaya-stroka-i-ee-komandy.html"&gt;ключ командной строки&lt;/a&gt;
+&lt;dfn&gt;-ns&lt;/dfn&gt;, т. е., если было
+&lt;dfn&gt;D:nnCronnncron.exe&lt;/dfn&gt;, станет
+&lt;dfn&gt;D:nnCronnncron.exe -ns&lt;/dfn&gt;, →
+&lt;kbd&gt;OK&lt;/kbd&gt;. Запускаем ярлык.
+&lt;br /&gt;
+&lt;br /&gt; Требуется &lt;a href="http://sysadmins.ru/post7020767.html#7020767"&gt;зарегистрировать&lt;/a&gt; программу, чтобы по истечении определённого промежутка времени (ЕМНИП, месяца) через каждые несколько минут не всплывало окно с предложением её купить. Для этого переходим в домашний каталог nnCron → правой кнопкой мыши по файлу
+&lt;dfn&gt;tm.exe&lt;/dfn&gt; →
+&lt;kbd&gt;Создать ярлык&lt;/kbd&gt;. Правой кнопкой мыши по созданному ярлыку →
+&lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив
+&lt;dfn&gt;Объект&lt;/dfn&gt; вписываем
+&lt;dfn&gt;D:nnCrontm.exe xReg&lt;/dfn&gt;, где
+&lt;dfn&gt;D:nnCron&lt;/dfn&gt; — папка с
+&lt;dfn&gt;nnCron&lt;/dfn&gt;, заменяем её на свою, →
+&lt;kbd&gt;OK&lt;/kbd&gt;. Запускаем ярлык, куда мы только что вписали параметр &lt;em&gt;xReg&lt;/em&gt; → под
+&lt;dfn&gt;Регистрационное имя&lt;/dfn&gt; вводим
+&lt;dfn&gt;xUSSR регистрация&lt;/dfn&gt;, → ниже
+&lt;dfn&gt;Регистрационный код&lt;/dfn&gt; вписываем текущий день недели на русском с заглавной буквы (например,
+&lt;dfn&gt;Четверг&lt;/dfn&gt;) →
+&lt;kbd&gt;ОК&lt;/kbd&gt;. Попап больше не должен Вас беспокоить.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span class="SashaSimple"&gt;В силу&lt;/span&gt; расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
+&lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; /d &lt;span class="se"&gt;%%&lt;/span&gt;i &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;%CD%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-    &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;NNPROGRAMFILESSHORT&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="se"&gt;%%&lt;/span&gt;~si
+	&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;NNPROGRAMFILESSHORT&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="se"&gt;%%&lt;/span&gt;~si
 &lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="k"&gt;START&lt;/span&gt; &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;\nncron.exe -ns -dir &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;/pre&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Сохраняем файл → меняем у него расширение на
-        &lt;dfn&gt;bat&lt;/dfn&gt;: было
-        &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, стало
-        &lt;dfn&gt;nncron.bat&lt;/dfn&gt;. Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для &lt;em&gt;nncron.bat&lt;/em&gt; ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом:
-        &lt;kbd&gt;Win + R&lt;/kbd&gt; → вставляем в открывшееся поле напротив
-        &lt;dfn&gt;Открыть:&lt;/dfn&gt; —
-        &lt;a href="http://www.outsidethebox.ms/11103/"&gt;shell:startup&lt;/a&gt; →
-        &lt;kbd&gt;OK&lt;/kbd&gt;.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;h1 id="ExecutableFile"&gt;
+&lt;dfn&gt;bat&lt;/dfn&gt;: было
+&lt;dfn&gt;nncron.txt&lt;/dfn&gt;, стало
+&lt;dfn&gt;nncron.bat&lt;/dfn&gt;. Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для &lt;em&gt;nncron.bat&lt;/em&gt; ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом:
+&lt;kbd&gt;Win + R&lt;/kbd&gt; → вставляем в открывшееся поле напротив
+&lt;dfn&gt;Открыть:&lt;/dfn&gt; —
+&lt;a href="http://www.outsidethebox.ms/11103/"&gt;shell:startup&lt;/a&gt; →
+&lt;kbd&gt;OK&lt;/kbd&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h1 id="ExecutableFile"&gt;
 Запускаемый файл&lt;/h1&gt;
-        &lt;br /&gt; Создаём любой файл с расширением
-        &lt;dfn&gt;html&lt;/dfn&gt;, в примере положим его в корень диска и назовём
-        &lt;dfn&gt;SashaTask.html&lt;/dfn&gt;, абсолютный путь —
-        &lt;dfn&gt;D:SashaTask.html&lt;/dfn&gt;. В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей
-        &lt;kbd&gt;Space&lt;/kbd&gt;, — впрочем, ниже я расписал, как должен выглядеть синтаксис задачи и в таком случае. На содержание в имени и пути различных спецсимволов не тестировал, если они для вас важны — пожалуйста, проверьте самостоятельно.
+&lt;br /&gt; Создаём любой файл с расширением
+&lt;dfn&gt;html&lt;/dfn&gt;, в примере положим его в корень диска и назовём
+&lt;dfn&gt;SashaTask.html&lt;/dfn&gt;, абсолютный путь —
+&lt;dfn&gt;D:SashaTask.html&lt;/dfn&gt;. В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей
+&lt;kbd&gt;Space&lt;/kbd&gt;, — впрочем, ниже я расписал, как должен выглядеть синтаксис задачи и в таком случае. На содержание в имени и пути различных спецсимволов не тестировал, если они для вас важны — пожалуйста, проверьте самостоятельно.
+&lt;br /&gt;
+&lt;br /&gt; Содержимое файла:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://SashaChernykhQueenOfTheWorld.ru&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhGeniusOfPureBeauty.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhLaLeyenda.com/bonuspage.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Вместо вымышленных адресов из примера подставляете собственные, при ежедневном заходе по которым Вам будут начисляться бонусы. Добавляйте сколько угодно URL через точку с запятой.
+&lt;br /&gt;
+&lt;br /&gt; Используется метод
+&lt;dfn&gt;open&lt;/dfn&gt; объекта
+&lt;dfn&gt;window&lt;/dfn&gt;. Более подробно о нём читать &lt;a href="https://learn.javascript.ru/window-methods"&gt;здесь&lt;/a&gt;. Атрибут
+&lt;dfn&gt;type&lt;/dfn&gt; тега
+&lt;dfn&gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&lt;/dfn&gt; в HTML5 &lt;a href="https://webref.ru/html/script"&gt;можно опустить&lt;/a&gt;.
+&lt;br /&gt;
+&lt;br /&gt; Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением
+&lt;dfn&gt;html&lt;/dfn&gt; и путём к нему.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://i.imgur.com/2v8XNXv.png" alt="Alt attribute fish"&gt;
+&lt;br /&gt; Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+    &lt;li&gt;Если требуется открытие всего одной веб-страницы, вместо
+        &lt;dfn&gt;window.open&lt;/dfn&gt; &lt;a href="http://javascript.ru/window-location"&gt;используем&lt;/a&gt; свойство
+        &lt;dfn&gt;href&lt;/dfn&gt; объекта
+        &lt;dfn&gt;location&lt;/dfn&gt;.
         &lt;br /&gt;
-        &lt;br /&gt; Содержимое файла:
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;pre&gt;&lt;code data-language="html"&gt;&amp;lt;script&amp;gt;
-    window.open('&lt;a href="https://SashaChernykhQueenOfTheWorld.ru"&gt;SashaChernykhQueenOfTheWorld.ru&lt;/a&gt;');
-    window.open('&lt;a href="http://SashaChernykhGeniusOfPureBeauty.com"&gt;SashaChernykhGeniusOfPureBeauty.com&lt;/a&gt;');
-    window.open('&lt;a href="http://SashaChernykhLaLeyenda.com/bonuspage.html"&gt;SashaChernykhLaLeyenda.com/bonuspage.html&lt;/a&gt;');
-&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt; Вместо вымышленных адресов из примера подставляете собственные, при ежедневном заходе по которым Вам будут начисляться бонусы. Добавляйте сколько угодно URL через точку с запятой.
-        &lt;br /&gt;
-        &lt;br /&gt; Используется метод
-        &lt;dfn&gt;open&lt;/dfn&gt; объекта
-        &lt;dfn&gt;window&lt;/dfn&gt;. Более подробно о нём читать &lt;a href="https://learn.javascript.ru/window-methods"&gt;здесь&lt;/a&gt;. Атрибут
-        &lt;dfn&gt;type&lt;/dfn&gt; тега
-        &lt;dfn&gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&lt;/dfn&gt; в HTML5 &lt;a href="https://webref.ru/html/script"&gt;можно опустить&lt;/a&gt;.
-        &lt;br /&gt;
-        &lt;br /&gt; Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением
-        &lt;dfn&gt;html&lt;/dfn&gt; и путём к нему.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;img src="https://i.imgur.com/2v8XNXv.png" alt="Alt attribute fish"&gt;
-        &lt;br /&gt; Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Если требуется открытие всего одной веб-страницы, вместо
-                &lt;dfn&gt;window.open&lt;/dfn&gt; &lt;a href="http://javascript.ru/window-location"&gt;используем&lt;/a&gt; свойство
-                &lt;dfn&gt;href&lt;/dfn&gt; объекта
-                &lt;dfn&gt;location&lt;/dfn&gt;.
-                &lt;br /&gt;
-                &lt;br /&gt;
-                &lt;pre&gt;&lt;code data-language="html"&gt;&amp;lt;script&amp;gt;
-      window.location.href='&lt;a href="http://ImageAnythingSasha.all"&gt;ImageAnythingSasha.all&lt;/a&gt;';
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Перечисляя их через запятую, как в примере с
-                &lt;dfn&gt;window.open&lt;/dfn&gt;, при помощи
-                &lt;dfn&gt;window.location.href&lt;/dfn&gt; открыть множество URL не получится, пред нашим взором предстанет только одна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается, к примеру, на &lt;a href="http://dayte2.com/what-is-jquery"&gt;JQuery&lt;/a&gt; использованием событий
-                &lt;dfn&gt;$(document).ready&lt;/dfn&gt;, которых &lt;a href="http://jquery-docs.ru/events/ready/"&gt;может быть сколько угодно на странице&lt;/a&gt;.
-                &lt;br /&gt;
-                &lt;br /&gt;
-                &lt;pre&gt;
-                &lt;code data-language="html"&gt;&amp;lt;script&amp;gt;
-    $(document).ready(function() {
-        window.open('&lt;a href="http://SashaChernykhLaLeyenda.com/bonuspage.html"&gt;SashaChernykhLaLeyenda.com/bonuspage.html&lt;/a&gt;');
-        window.open('&lt;a href="http://SashaChernykhGeniusOfPureBeauty.com"&gt;SashaChernykhGeniusOfPureBeauty.com&lt;/a&gt;');
-        window.location.href='&lt;a href="https://SashaChernykhQueenOfTheWorld.ru"&gt;SashaChernykhQueenOfTheWorld.ru&lt;/a&gt;';
-    });
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt; Применяем
+        &lt;br /&gt;&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;location&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://ImageAnythingSasha.all&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;/li&gt;
+&lt;li&gt;Перечисляя их через запятую, как в примере с
+    &lt;dfn&gt;window.open&lt;/dfn&gt;, при помощи
+    &lt;dfn&gt;window.location.href&lt;/dfn&gt; открыть множество URL не получится, пред нашим взором предстанет тольодна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается,примеру, на &lt;a href="http://dayte2.com/what-is-jquery"&gt;JQuery&lt;/a&gt; использованием событий
+    &lt;dfn&gt;$(document).ready&lt;/dfn&gt;, которых &lt;a href="http://jquery-docs.ru/events/ready/"&gt;может быть сколько угодна странице&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhLaLeyenda.com/bonuspage.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhGeniusOfPureBeauty.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;location&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://SashaChernykhQueenOfTheWorld.ru&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+	&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Применяем
                 &lt;dfn&gt;window.open&lt;/dfn&gt;, а к последнему URL
                 &lt;dfn&gt;window.location.href&lt;/dfn&gt;.
             &lt;/li&gt;
@@ -323,31 +317,29 @@ Tl;dr&lt;/h1&gt;
         &lt;kbd&gt;Дополнительно&lt;/kbd&gt; → удаляем всё написанное под
         &lt;dfn&gt;Текст определения задачи&lt;/dfn&gt; → вставляем размещённый ниже код и нажимаем
         &lt;kbd&gt;OK&lt;/kbd&gt;:
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;pre&gt;&lt;code&gt;RunMissed
-Time: 7 14 * &lt;em&gt; * &lt;/em&gt;
+        &lt;br /&gt;&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;RunMissed
+Time: 7 14 * * * *
 Action:
-StartIn: "D:"
-START-APP: D:SashaTask.html
+StartIn: &amp;quot;D:\&amp;quot;
+START-APP: D:\SashaTask.html
 Rule:
-  HOST-EXIST: "&lt;a href="http://www.kristinita.ru"&gt;www.kristinita.ru&lt;/a&gt;"
-  HOST-EXIST: "&lt;a href="http://www.google.ru"&gt;www.google.ru&lt;/a&gt;"
-  HOST-EXIST: "&lt;a href="http://www.yandex.ru"&gt;www.yandex.ru&lt;/a&gt;"
-  HOST-EXIST: "&lt;a href="http://www.stackoverflow.com"&gt;www.stackoverflow.com&lt;/a&gt;"
-  OR OR OR
+	HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
+	HOST-EXIST: &amp;quot;www.google.ru&amp;quot;
+	HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
+	HOST-EXIST: &amp;quot;www.stackoverflow.com&amp;quot;
+	OR OR OR
 ;
-&lt;/code&gt;&lt;/pre&gt; Разберём, что означает каждая строка, подробности можно почитать в &lt;a href="http://www.nncron.ru/help/help_ru.htm"&gt;справочной системе&lt;/a&gt;.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;Time: 7 14 * &lt;em&gt; * &lt;/em&gt;&lt;/dfn&gt; — время выполнения задачи, в примере 14:07. Если желаете, чтобы файл запускался в 14:24, код будет следующим:
-                &lt;dfn&gt;Time: 24 14 * &lt;em&gt; * &lt;/em&gt;&lt;/dfn&gt;. В каких случаях вместо звёздочек &lt;a href="https://ru.wikipedia.org/wiki/Cron#crontab"&gt;вписываются числа&lt;/a&gt;, указано в следующей таблице:&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;br /&gt;
-        &lt;pre&gt;
-&lt;em&gt; * &lt;/em&gt; * * *   выполняемая команда
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Разберём, что означает каждая строка, подробности можно почитать в &lt;a href="http://www.nncron.ru/help/help_ru.htm"&gt;справочной системе&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;dfn&gt;Time: 7 14 \* \* \* \*&lt;/dfn&gt; — время выполнения задачи, в примере 14:07. Если желаете, чтобы файл запускался в 14:24, код будет следующим:
+        &lt;dfn&gt;Time: 24 14 \* \* \* \*&lt;/dfn&gt;. В каких случаях вместо звёздочек &lt;a href="https://ru.wikipedia.org/wiki/Cron#crontab"&gt;вписываются числа&lt;/a&gt;, указано в следующей таблице:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* * * * * *   выполняемая команда
 - - - - - -
 | | | | | --- Год (Anno Domini, записывать четырьмя цифрами, например, 2016)
 | | | | ----- День недели (0 - 7) (Воскресенье =0 или =7)
@@ -355,46 +347,36 @@ Rule:
 | | --------- День (1 - 31)
 | ----------- Час (0 - 23)
 ------------- Минута (0 - 59)
-&lt;/pre&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;Action:&lt;/dfn&gt; — ключевое слово, после него описываются действия, которые надлежит выполнить.
-                &lt;br /&gt;
-                &lt;br /&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;StartIn: "D:"&lt;/dfn&gt; — папка, в которой лежит наш файл с JS-кодом. В примере он сразу в корне диска.
-                &lt;br /&gt;
-                &lt;br /&gt;
-            &lt;/li&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;START-APP: D:SashaTask.html&lt;/dfn&gt; — абсолютный путь к файлу. Если в нём содержатся пробелы, поступаем одним из двух следующих образов:
-                &lt;br /&gt;
-                &lt;br /&gt;
-            &lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Экранируем путь двойными кавычками-лапками:
-                &lt;dfn&gt;START-APP: ""D:Пробел ещё пробелБольше пробелов.html""&lt;/dfn&gt;.&lt;/li&gt;
-            &lt;li&gt;
-                Или, экранируя пути одинарными кавычками-лапками, указываем путь к исполняемому файлу браузера, которым откроем наш HTML-документ:
-                &lt;dfn&gt;START-APP: "D:Pale Moonpalemoon.exe" "D:Пробел ещё пробелБольше пробелов.html"&lt;/dfn&gt;. Пробелы, как видно на примере, могут содержаться в пути к файлу как браузера, так и задачи.
-                &lt;br /&gt;
-                &lt;br /&gt;
-            &lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;ul&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;Rule:&lt;/dfn&gt; — ключевое слово, означающее условие, при котором выполнится наша задача.
-                &lt;br /&gt;
-            &lt;/li&gt;
-            &lt;br /&gt;&lt;pre&gt;HOST-EXIST: "&lt;a href="http://www.kristinita.ru"&gt;www.kristinita.ru&lt;/a&gt;"
-HOST-EXIST: "&lt;a href="http://www.google.ru"&gt;www.google.ru&lt;/a&gt;"
-HOST-EXIST: "&lt;a href="http://www.yandex.ru"&gt;www.yandex.ru&lt;/a&gt;"
-HOST-EXIST: "&lt;a href="http://www.stackoverflow.com"&gt;www.stackoverflow.com&lt;/a&gt;"
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;dfn&gt;Action:&lt;/dfn&gt; — ключевое слово, после него описываются действия, которые надлежит выполнить.&lt;/li&gt;
+&lt;li&gt;&lt;dfn&gt;StartIn: "D:"&lt;/dfn&gt; — папка, в которой лежит наш файл с JS-кодом. В примере он сразу в корне диска.&lt;/li&gt;
+&lt;li&gt;&lt;dfn&gt;START-APP: D:SashaTask.html&lt;/dfn&gt; — абсолютный путь к файлу. Если в нём содержатся пробелы, поступаем одним из двух следующих образов:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+    &lt;li&gt;Экранируем путь двойными кавычками-лапками:
+        &lt;dfn&gt;START-APP: ""D:\Пробел ещё пробел\Больше пробелов.html""&lt;/dfn&gt;.&lt;/li&gt;
+    &lt;li&gt;
+        Или, экранируя пути одинарными кавычками-лапками, указываем путь к исполняемому файлу браузера, которым откроенаш HTML-документ: &lt;dfn&gt;START-APP: "D:\Pale Moon\palemoon.exe" "D:\Пробел ещё пробел\Больше пробелов.html"&lt;/dfn&gt;. Пробелы, как видно на примере, могут содержаться в пути к файлу как браузера, так и задачи.
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+    &lt;dfn&gt;Rule:&lt;/dfn&gt; — ключевое слово, означающее условие, при котором выполнится наша задача.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
+HOST-EXIST: &amp;quot;www.google.ru&amp;quot;
+HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
+HOST-EXIST: &amp;quot;www.stackoverflow.com&amp;quot;
 OR OR OR
 ;
-&lt;/pre&gt; — запуск файла, только если пропинговывается хотя бы один из представленных выше четырёх сайтов. Это важно, поскольку если нужные страницы откроются, когда интернета нет, то бонусов нам не видать. Так как чем больше сайтов, тем ниже объективная вероятность, что все они окажутся временно или постоянно недоступными, лучше указать для пинга несколько, а не 1 или 2 ресурса через
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Запуск файла, только если пропинговывается хотя бы один из представленных выше четырёх сайтов. Это важно, поскольку если нужные страницы откроются, когда интернета нет, то бонусов нам не видать. Так как чем больше сайтов, тем ниже объективная вероятность, что все они окажутся временно или постоянно недоступными, лучше указать для пинга несколько, а не 1 или 2 ресурса через
             &lt;dfn&gt;OR&lt;/dfn&gt; (логическое «или»). Число
             &lt;dfn&gt;OR&lt;/dfn&gt; должно быть на один меньше количества URL: так, в примере 4 адреса сайтов и 3
             &lt;dfn&gt;OR&lt;/dfn&gt;.
@@ -410,7 +392,7 @@ OR OR OR
         &lt;kbd&gt;Выполнить задачу&lt;/kbd&gt; → левой кнопкой мыши по имени только что созданной задачи, в примере это
         &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt;. Разрешаем всплывающие окна (если быть точным в формулировке — вкладки) при открытии нашего файла браузером, когда тот блокирует их появление. Прочие попапы броузер по-прежнему будет продолжать блокировать, если в настройках не указано иначе.
         &lt;br /&gt;
-        &lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Перед-первым-запуском-ARK-Benefit-S401</title><link href="https://kristinita.ru/Life-hacks/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%BC-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-ARK-Benefit-S401.html" rel="alternate"></link><published>2018-04-08T16:32:34+03:00</published><updated>2018-04-08T16:32:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-08:/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Введение&lt;/h2&gt;
+        &lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Перед-первым-запуском-ARK-Benefit-S401</title><link href="https://kristinita.ru/Life-hacks/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%BC-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-ARK-Benefit-S401.html" rel="alternate"></link><published>2018-04-20T05:07:18+03:00</published><updated>2018-04-20T05:07:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-04-20:/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Введение&lt;/h2&gt;
 &lt;h3&gt;1.1. Для чего предназначена данная инструкция&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="http://fb.ru/article/254999/stokovaya-proshivka-chto-eto-takoe" target="_blank"&gt;Стоковая прошивка&lt;/a&gt; телефона ARK Benefit S401 содержит вредоносное ПО&lt;/strong&gt; — без Вашего согласия на телефон будут устанавливаться программы. Данная проблема возникла не только у меня, но и у многих прочих участников форума 4PDA, см., например, сообщения &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=340#entry67671845" target="_blank"&gt;1&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=340#entry67600967" target="_blank"&gt;2&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=300#entry64686674" target="_blank"&gt;3&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=300#entry63816408" target="_blank"&gt;4&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=300#entry63247178" target="_blank"&gt;5&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=280#entry61611283" target="_blank"&gt;5&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=280#entry60787829" target="_blank"&gt;6&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=220#entry58263044" target="_blank"&gt;7&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Вирусы Dr.Web" src="https://i.imgur.com/t27DFhh.png"&gt;&lt;/p&gt;
@@ -434,7 +416,7 @@ OR OR OR
 &lt;/ol&gt;
 &lt;h2&gt;2. Чего не стоит делать&lt;/h2&gt;
 &lt;p&gt;Не повторяйте моих ошибок.&lt;/p&gt;
-&lt;h3&gt;2.1. Не удаляйте самостоятельно заражённые файлы, если не уверены в последствиях.&lt;/h3&gt;
+&lt;h3&gt;2.1. Не удаляйте самостоятельно заражённые файлы, если не уверены в последствиях&lt;/h3&gt;
 &lt;p&gt;я пытался удалять вредоносное ПО следующим образом.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Программой RootAppDelete удалил приложение YouTube,&lt;/li&gt;

@@ -4,9 +4,9 @@
 
 $(document).ready(function() {
 
-  $('.SashaBarChart').visualize({
-    width: 400,
-    type: 'bar',
-    legend: true
-  });
+	$('.SashaBarChart').visualize({
+		width: 400,
+		type: 'bar',
+		legend: true
+	});
 });

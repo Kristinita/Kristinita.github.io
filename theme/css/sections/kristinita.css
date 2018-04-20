@@ -5,19 +5,19 @@
 */
 
 body {
-    padding-right: 0;
-    background: url("https://kristinita.ru/theme/images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed;
-    background-size: cover;
-    background-color: #ffefd5;
-    color: #c71585;
+	padding-right: 0;
+	background: url("../../images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #ffefd5;
+	color: #c71585;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 html {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 
@@ -28,245 +28,263 @@ html {
 .SashaMinimal,
 .SashaCopyright,
 .SashaVKontakte {
-    display: inline;
+	display: inline;
 }
 
 
 /* Gemini
-   ========================================================================== */
+	========================================================================== */
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 
 /* Buttons */
 
 .Sasha {
-    font: 27px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    float: right;
-    padding: 11px 32px;
-    text-align: center;
-    text-decoration: none;
-    color: #ff8c00;
-    border: solid 4px #ffb6c1;
-    border-radius: 14px;
-    background-color: #ffe4e1;
-    /* To bottom instead of top for Autoprefixer — https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816 */
-    background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 27px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	float: right;
+	padding: 11px 32px;
+	text-align: center;
+	text-decoration: none;
+	color: #ff8c00;
+	border: solid 4px #ffb6c1;
+	border-radius: 14px;
+	background-color: #ffe4e1;
+	/* To bottom instead of top for Autoprefixer — https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816 */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
+	background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Sasha:hover {
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    padding: 11px 32px;
-    color: #ff8c00;
-    border: solid 4px #ffb6c1;
-    border-radius: 14px;
-    background-color: #ffe4e1;
-    background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
-    background-position: 0 -32px;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 11px 32px;
+	color: #ff8c00;
+	border: solid 4px #ffb6c1;
+	border-radius: 14px;
+	background-color: #ffe4e1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
+	background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
+	background-position: 0 -32px;
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Sasha:active {
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    padding: 11px 32px;
-    color: #ee82ee;
-    border: solid 4px #ffb6c1;
-    border-radius: 14px;
-    background-color: #ffe4e1;
-    background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
-    background-position: 0 -64px;
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 11px 32px;
+	color: #ee82ee;
+	border: solid 4px #ffb6c1;
+	border-radius: 14px;
+	background-color: #ffe4e1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
+	background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
+	background-position: 0 -64px;
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Chernykh {
-    font: 27px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    float: right;
-    padding: 11px 32px;
-    text-align: center;
-    text-decoration: none;
-    color: #ff8c00;
-    border: solid 4px #ffe4c4;
-    border-radius: 14px;
-    background-color: #fdf5e6;
-    background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 27px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	float: right;
+	padding: 11px 32px;
+	text-align: center;
+	text-decoration: none;
+	color: #ff8c00;
+	border: solid 4px #ffe4c4;
+	border-radius: 14px;
+	background-color: #fdf5e6;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
+	background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Chernykh:hover {
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    padding: 11px 32px;
-    color: #ff8c00;
-    border: solid 4px #ffe4c4;
-    border-radius: 14px;
-    background-color: #f5fffa;
-    background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 11px 32px;
+	color: #ff8c00;
+	border: solid 4px #ffe4c4;
+	border-radius: 14px;
+	background-color: #f5fffa;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
+	background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Chernykh:active {
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    padding: 11px 32px;
-    color: #add8e6;
-    border: solid 4px #ffe4c4;
-    border-radius: 14px;
-    background-color: #f5fffa;
-    background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 11px 32px;
+	color: #add8e6;
+	border: solid 4px #ffe4c4;
+	border-radius: 14px;
+	background-color: #f5fffa;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
+	background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Empress {
-    font: 27px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    float: right;
-    padding: 11px 32px;
-    text-align: center;
-    text-decoration: none;
-    color: #ff8c00;
-    border: solid 4px #ba55d8;
-    border-radius: 14px;
-    background-color: #dda0dd;
-    background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 27px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	float: right;
+	padding: 11px 32px;
+	text-align: center;
+	text-decoration: none;
+	color: #ff8c00;
+	border: solid 4px #ba55d8;
+	border-radius: 14px;
+	background-color: #dda0dd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
+	background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Empress:hover {
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    padding: 11px 32px;
-    color: #ff8c00;
-    border: solid 4px #ba55d8;
-    border-radius: 14px;
-    background-color: #ee82ee;
-    background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 11px 32px;
+	color: #ff8c00;
+	border: solid 4px #ba55d8;
+	border-radius: 14px;
+	background-color: #ee82ee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
+	background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .Empress:active {
-    font: 36px Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    padding: 11px 32px;
-    color: #ffc0cb;
-    border: solid 4px #ba55d8;
-    border-radius: 14px;
-    background-color: #ee82ee;
-    background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
-    box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	font: 36px Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 11px 32px;
+	color: #ffc0cb;
+	border: solid 4px #ba55d8;
+	border-radius: 14px;
+	background-color: #ee82ee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
+	background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
+	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
 }
 
 .SashaMotto {
-    font-family: 'Cormorant';
-    font-size: 40px;
-    text-align: center;
-    color: #7fff00;
+	font-family: 'Cormorant';
+	font-size: 40px;
+	text-align: center;
+	color: #7fff00;
 }
 
 .SashaMotto:hover {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffefd5, 0 0 70px #ffefd5, 0 0 80px #ffefd5, 0 0 100px #ffefd5;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffefd5, 0 0 70px #ffefd5, 0 0 80px #ffefd5, 0 0 100px #ffefd5;
 }
 
 
 /* Подвал в head */
 
 .SashaFooter {
-    position: relative;
-    float: left;
-    text-align: left;
-    bottom: 0;
-    /* Фиксированное положение */
-    left: 0;
-    /* Цвет текста */
-    width: 100%;
-    /* Левый нижний угол */
-    margin: 14px;
-    /* Поля вокруг текста */
-    /* Ширина слоя */
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #afeeee;
+	position: relative;
+	float: left;
+	text-align: left;
+	bottom: 0;
+	/* Фиксированное положение */
+	left: 0;
+	/* Цвет текста */
+	width: 100%;
+	/* Левый нижний угол */
+	margin: 14px;
+	/* Поля вокруг текста */
+	/* Ширина слоя */
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #afeeee;
 }
 
 .SashaBowserExplorer,
 .SashaBowserFirefox {
-    position: relative;
-    float: left;
-    text-align: left;
-    vertical-align: 6em;
-    bottom: 0;
-    /* Фиксированное положение */
-    right: 0;
-    /* Цвет текста */
-    width: 100%;
-    /* Левый нижний угол */
-    margin: 14px;
-    /* Поля вокруг текста */
-    /* Ширина слоя */
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #afeeee;
+	position: relative;
+	float: left;
+	text-align: left;
+	vertical-align: 6em;
+	bottom: 0;
+	/* Фиксированное положение */
+	right: 0;
+	/* Цвет текста */
+	width: 100%;
+	/* Левый нижний угол */
+	margin: 14px;
+	/* Поля вокруг текста */
+	/* Ширина слоя */
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #afeeee;
 }
 
 
 /* Выравнивание по центру*/
 
 .SashaCenter {
-    text-align: center;
-    /* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
-    margin: 21rem 0 0 0;
+	text-align: center;
+	/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
+	margin: 21rem 0 0 0;
 }
 
 
 /* Надпись Поиск Кристиниты*/
 
 .SashaKristinita {
-    font-size: 3em;
-    font-style: italic;
-    letter-spacing: 2px;
-    color: #ff8c00;
-    text-shadow: 0 1px 0 #ffa500, 0 2px 0 #ffa500, 0 3px 0 #ffd700, 0 4px 0 #ffae42, 0 5px 0 #ffefd5, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+	font-size: 3em;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: #ff8c00;
+	text-shadow: 0 1px 0 #ffa500, 0 2px 0 #ffa500, 0 3px 0 #ffd700, 0 4px 0 #ffae42, 0 5px 0 #ffefd5, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 
 /* Надпись beta */
 
 .SashaBeta {
-    font-size: 2.5em;
-    font-style: italic;
-    color: #ff8c00;
+	font-size: 2.5em;
+	font-style: italic;
+	color: #ff8c00;
 }
 
 
 /* Надпись «Минималистская версия*/
 
 .SashaMinimal {
-    font-family: 'Palatino Linotype, Geneva, sans-serif';
-    font-style: italic;
-    font-weight: bold;
-    color: #ffbf00;
+	font-family: 'Palatino Linotype, Geneva, sans-serif';
+	font-style: italic;
+	font-weight: bold;
+	color: #ffbf00;
 }
 
 
 /* Надпись копирайта */
 
 .SashaCopyright {
-    font-family: 'Palatino Linotype, Geneva, sans-serif';
-    font-weight: bold;
-    color: #ffd700;
+	font-family: 'Palatino Linotype, Geneva, sans-serif';
+	font-weight: bold;
+	color: #ffd700;
 }
 
 
 /*Ссылка на Божий профиль ВКонтакте*/
 
 .SashaVKontakte {
-    color: #ffd700;
+	color: #ffd700;
 }
 
 
@@ -276,6 +294,6 @@ img {
 /* https://www.w3schools.com/tags/att_img_align.asp */
 
 .SashaLogo {
-    float: left;
-    border: 0;
+	float: left;
+	border: 0;
 }

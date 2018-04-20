@@ -1,312 +1,315 @@
 body {
-    background: #f3efd6;
-    color: #738e8b;
+	background: #f3efd6;
+	color: #738e8b;
 }
 
 a {
-    color: #bc8475;
+	color: #bc8475;
 }
 
 a:hover {
-    background-color: #eee8aa;
+	background-color: #eee8aa;
 }
 
 a:focus {
-    background: #f0fff0;
+	background: #f0fff0;
 }
 
 em {
-    background-image: linear-gradient(to right, #f08080, #c71585);
-    -webkit-background-clip: text;
-    color: transparent;
+	background-image: -webkit-gradient(linear, left top, right top, from(#f08080), to(#c71585));
+	background-image: linear-gradient(to right, #f08080, #c71585);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 img {
-    box-shadow: 0 0 2rem #000;
+	-webkit-box-shadow: 0 0 2rem #000;
+	box-shadow: 0 0 2rem #000;
 }
 
 .SashaPageLoading {
-    box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 kbd {
-    color: #fff5ee;
-    background: #6495ed;
+	color: #fff5ee;
+	background: #6495ed;
 }
 
 hr {
-    color: #c71585;
+	color: #c71585;
 }
 
 td,
 th {
-    border: 0.0625rem solid #738e8b;
+	border: 0.0625rem solid #738e8b;
 }
 
 .SashaBottomAside {
-    color: #fff;
-    bottom: 8%;
+	color: #fff;
+	bottom: 8%;
 }
 
 blockquote {
-    border-left: solid #dc143c 0.5rem;
-    color: #bc8f8f;
-    background: #faebd7;
+	border-left: solid #dc143c 0.5rem;
+	color: #bc8f8f;
+	background: #faebd7;
 }
 
 .SashaBlockquote {
-    border-color: #7b68ee;
-    background-color: #ffdab9;
-    color: #191970;
+	border-color: #7b68ee;
+	background-color: #ffdab9;
+	color: #191970;
 }
 
 .SashaCitation {
-    color: #fa8072;
+	color: #fa8072;
 }
 
 .SashaEpigraph {
-    color: #20b2aa;
+	color: #20b2aa;
 }
 
 .SashaEpigraph >.SashaEpigraphAuthor {
-    color: #ba55d3;
+	color: #ba55d3;
 }
 
 .SashaEpigraph >em {
-    color: #db7093;
+	color: #db7093;
 }
 
 .SashaGingerinasExample {
-    background-color: #d0f0c0;
+	background-color: #d0f0c0;
 }
 
 code {
-    background-color: #2f4f4f;
+	background-color: #2f4f4f;
 }
 
 pre >code {
-    background-color: #000;
+	background-color: #000;
 }
 
 ::-moz-selection {
-    color: #f08080;
-    background: #ffe4b5;
+	color: #f08080;
+	background: #ffe4b5;
 }
 
 ::selection {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 ::-moz-selection:window-inactive {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 ::selection:window-inactive {
-    color: #f08080;
-    background: rgba(255, 228, 181, 0.99);
+	color: #f08080;
+	background: rgba(255, 228, 181, 0.99);
 }
 
 .SashaEmNoColor {
-    color: #738e8b;
+	color: #738e8b;
 }
 
 .progress {
-    background-color: #f3efd6;
+	background-color: #f3efd6;
 }
 
 .progress-bar {
-    background-color: #000;
+	background-color: #000;
 }
 
 .progress-label {
-    color: #696969;
+	color: #696969;
 }
 
 .progress-100plus .progress-bar {
-    background-color: #c0c0c0;
+	background-color: #c0c0c0;
 }
 
 .progress-90plus .progress-bar {
-    background-color: #ffc0cb;
+	background-color: #ffc0cb;
 }
 
 .progress-80plus .progress-bar {
-    background-color: #ffa07a;
+	background-color: #ffa07a;
 }
 
 .progress-70plus .progress-bar {
-    background-color: #b0e0e6;
+	background-color: #b0e0e6;
 }
 
 .progress-60plus .progress-bar {
-    background-color: #90ee90;
+	background-color: #90ee90;
 }
 
 .progress-50plus .progress-bar {
-    background-color: #f4a460;
+	background-color: #f4a460;
 }
 
 .progress-40plus .progress-bar {
-    background-color: #66cdaa;
+	background-color: #66cdaa;
 }
 
 .progress-30plus .progress-bar {
-    background-color: #db7093;
+	background-color: #db7093;
 }
 
 .progress-20plus .progress-bar {
-    background-color: #cd853f;
+	background-color: #cd853f;
 }
 
 .progress-10plus .progress-bar {
-    background-color: #808000;
+	background-color: #808000;
 }
 
 .progress-0plus .progress-bar {
-    background-color: #9370db;
+	background-color: #9370db;
 }
 
 .tooltipster-punk-purple .tooltipster-box {
-    border-bottom: 3px solid #ffa500;
-    background: #800080;
+	border-bottom: 3px solid #ffa500;
+	background: #800080;
 }
 
 .tooltipster-punk-aquamarine .tooltipster-box {
-    border-bottom: 3px solid #ff69b4;
-    background: #228b22;
+	border-bottom: 3px solid #ff69b4;
+	background: #228b22;
 }
 
 .SashaInlineHighlight,
 .SashaBlockHighlight {
-    background-color: #e7e9db;
-    color: #cd5c5c;
+	background-color: #e7e9db;
+	color: #cd5c5c;
 }
 
 .SashaInlineHighlight .c,
 .SashaBlockHighlight .c {
-    background-color: Sasha-Pygments-Comment-Background;
-    font-style: italic;
-    color: #8d8687;
+	background-color: Sasha-Pygments-Comment-Background;
+	font-style: italic;
+	color: #8d8687;
 }
 
 .SashaInlineHighlight .err,
 .SashaBlockHighlight .err {
-    color: #ef6155;
+	color: #ef6155;
 }
 
 .SashaInlineHighlight .g,
 .SashaBlockHighlight .g {
-    color: #fff;
+	color: #fff;
 }
 
 .SashaInlineHighlight .k,
 .SashaBlockHighlight .k {
-    color: #815ba4;
-    font-weight: bold;
+	color: #815ba4;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .n,
 .SashaBlockHighlight .n {
-    color: #cd5c5c;
+	color: #cd5c5c;
 }
 
 .SashaInlineHighlight .o,
 .SashaBlockHighlight .o {
-    color: #5bc4bf;
+	color: #5bc4bf;
 }
 
 .SashaInlineHighlight .x,
 .SashaBlockHighlight .x {
-    color: #fff;
+	color: #fff;
 }
 
 .SashaInlineHighlight .p,
 .SashaBlockHighlight .p {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .c1,
 .SashaBlockHighlight .c1 {
-    color: #789;
-    background-color: Sasha-Pygments-Comment-Single-Background;
-    font-style: italic;
+	color: #789;
+	background-color: Sasha-Pygments-Comment-Single-Background;
+	font-style: italic;
 }
 
 .SashaInlineHighlight .gt,
 .SashaBlockHighlight .gt {
-    color: #fff;
+	color: #fff;
 }
 
 .SashaInlineHighlight .kp,
 .SashaBlockHighlight .kp {
-    color: #815ba4;
+	color: #815ba4;
 }
 
 .SashaInlineHighlight .m,
 .SashaBlockHighlight .m {
-    color: #f99b15;
-    font-weight: bold;
+	color: #f99b15;
+	font-weight: bold;
 }
 
 .SashaInlineHighlight .s,
 .SashaBlockHighlight .s {
-    color: #48b685;
+	color: #48b685;
 }
 
 .SashaInlineHighlight .no,
 .SashaBlockHighlight .no {
-    color: #ef6155;
+	color: #ef6155;
 }
 
 .SashaInlineHighlight .py,
 .SashaBlockHighlight .py {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .w,
 .SashaBlockHighlight .w {
-    color: #2f1e2e;
+	color: #2f1e2e;
 }
 
 .SashaInlineHighlight .sa,
 .SashaBlockHighlight .sa {
-    color: #87ceeb;
+	color: #87ceeb;
 }
 
 .SashaInlineHighlight .sd,
 .SashaBlockHighlight .sd {
-    color: #8d8687;
+	color: #8d8687;
 }
 
 .SashaInlineHighlight .s2,
 .SashaBlockHighlight .s2 {
-    color: #48b685;
+	color: #48b685;
 }
 
 .SashaInlineHighlight .se,
 .SashaBlockHighlight .se {
-    color: #f99b15;
+	color: #f99b15;
 }
 
 .SashaInlineHighlight .sh,
 .SashaBlockHighlight .sh {
-    color: #48b685;
+	color: #48b685;
 }
 
 .SashaInlineHighlight .si,
 .SashaBlockHighlight .si {
-    color: #f99b15;
+	color: #f99b15;
 }
 
 .SashaInlineHighlight .s1,
 .SashaBlockHighlight .s1 {
-    color: #48b685;
+	color: #48b685;
 }
 
 .SashaInlineHighlight .il,
 .SashaBlockHighlight .il {
-    color: #f99b15;
-    font-weight: bold;
+	color: #f99b15;
+	font-weight: bold;
 }

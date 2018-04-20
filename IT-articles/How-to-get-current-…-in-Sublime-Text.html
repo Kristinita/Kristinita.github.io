@@ -5,510 +5,509 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.3">
-    <meta charset="utf-8">
-    <!--=======================
-        =          Meta           =
-        ========================-->
-    <!-- Encoding -->
-    <!-- Title phrase -->
-    <title>How to get current … in Sublime Text</title>
-    <!-- Description, EDGE-compatible, different screens.
-        Needs for validation name="description", see:
-        https://stackoverflow.com/a/11202372/5951529 -->
-    <meta name="description" content="Tutorial, how to get some variable parameters for your Sublime Text">
-    <!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Open Graph, http://ruogp.me/
-        Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
-    <meta property="og:title" content="How to get current … in Sublime Text">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://i.imgur.com/nwNgLkR.png">
-    <meta property="og:description" content="Tutorial, how to get some variable parameters for your Sublime Text">
-    <meta property="og:site_name" content="Поиск Кристиниты">
-    <!--============================
-        =       Miscellaneous          =
-        =============================-->
-    <!-- Sasha icon -->
-    <link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
-    <link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
-    <!-- Atom feed -->
-    <link href="https://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="https://kristinita.ru/feeds/sublime-text.atom.xml" rel="alternate" type="application/atom+xml">
-    <!--=============================
-        =            Scripts            =
-        ==============================-->
-    <!-- JQuery
-        CDN vs Locally, see:
-        http://stackoverflow.com/a/3832498/5951529
-        defer preferred, than async, see:
-        https://stackoverflow.com/a/39711009/5951529
-        JQuery not a good candidate for async, see:
-        https://stackoverflow.com/a/10808243/5951529
-        -->
+	<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.7.8">
+	<meta charset="utf-8">
+	<!--=======================
+	=          Meta           =
+	========================-->
+	<!-- Encoding -->
+	<!-- Title phrase -->
+	<title>How to get current … in Sublime Text</title>
+	<!-- Description, EDGE-compatible, different screens.
+	Needs for validation name="description", see:
+	https://stackoverflow.com/a/11202372/5951529 -->
+	<meta name="description" content="Tutorial, how to get some variable parameters for your Sublime Text">
+	<!-- Needs for validation name="viewport", see: https://teamtreehouse.com/community/ive-received-the-following-errors-and-warnings-for-my-code-yet-im-not-sure-what-im-missing -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Open Graph, http://ruogp.me/
+	Jinja2, ≥ 2 blocks, http://stackoverflow.com/a/1245030/5951529 -->
+	<meta property="og:title" content="How to get current … in Sublime Text">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://i.imgur.com/nwNgLkR.png">
+	<meta property="og:description" content="Tutorial, how to get some variable parameters for your Sublime Text">
+	<meta property="og:site_name" content="Поиск Кристиниты">
+	<!--============================
+	=       Miscellaneous          =
+	=============================-->
+	<!-- Sasha icon -->
+	<link rel="shortcut icon" href="https://kristinita.ru/theme/images/icons/Sasha.ico" type="image/x-icon">
+	<link rel="icon" href="https://kristinita.ru/theme/images/Sasha.ico" type="image/x-icon">
+	<!-- Atom feed -->
+	<link href="https://kristinita.ru/feeds/all.atom.xml" rel="alternate" type="application/atom+xml">
+	<link href="https://kristinita.ru/feeds/sublime-text.atom.xml" rel="alternate" type="application/atom+xml">
+	<!--=============================
+	=            Scripts            =
+	==============================-->
+	<!-- JQuery
+	CDN vs Locally, see:
+	http://stackoverflow.com/a/3832498/5951529
+	defer preferred, than async, see:
+	https://stackoverflow.com/a/39711009/5951529
+	JQuery not a good candidate for async, see:
+	https://stackoverflow.com/a/10808243/5951529
+	-->
 
-    <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
-    <!-- Gemini -->
+	<script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer></script>
+	<!-- Gemini -->
 
-    <script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
-    <!-- No smooth scrolling, if JQuery Lazy:
-        https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
+	<script src="//cdn.jsdelivr.net/npm/gemini-scrollbar/index.js" defer></script>
+	<!-- No smooth scrolling, if JQuery Lazy:
+	https://github.com/eisbehr-/jquery.lazy/issues/98#issuecomment-376064894 -->
 
-    <script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
-    <!-- JQuery Lazy -->
+	<script src="https://kristinita.ru/theme/js/Gemini/GeminiAndJQueryLazy.js" defer></script>
+	<!-- JQuery Lazy -->
 
-    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
-    <script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
-    <!-- typo-reporter -->
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.min.js" defer></script>
+	<script src="//cdn.jsdelivr.net/jquery.lazy/latest/jquery.lazy.plugins.min.js" defer></script>
+	<!-- typo-reporter -->
 
-    <script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-en.js" defer></script>
-    <!-- Fancybox
-        Obsolete version in JSDelivr
-        https://www.jsdelivr.com/package/npm/fancybox
-        [BUG] In CDNJS doesn't possible latest version
-        https://stackoverflow.com/q/14801334/5951529
-        -->
+	<script src="https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/typo-reporter/typo-reporter-en.js" defer></script>
+	<!-- Fancybox
+	Obsolete version in JSDelivr
+	https://www.jsdelivr.com/package/npm/fancybox
+	[BUG] In CDNJS doesn't possible latest version
+	https://stackoverflow.com/q/14801334/5951529
+	-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
-    <!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Fancybox/fancybox.js" defer></script>
+	<!-- Tooltipster, see http://ru.stackoverflow.com/a/584718/199934 -->
 
-    <script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css">
-    <script src="https://kristinita.ru/theme/js/Tooltipster/tooltip.js" defer></script>
-    <!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
+	<script src="//cdn.jsdelivr.net/jquery.tooltipster/latest/js/tooltipster.bundle.min.js" defer></script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.tooltipster/latest/css/tooltipster.bundle.min.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css">
+	<script src="https://kristinita.ru/theme/js/Tooltipster/tooltip.js" defer></script>
+	<!-- Clipboard.js, see http://ru.stackoverflow.com/a/582520/199934 -->
 
-    <script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
-    <script src="https://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
-    <!-- Visualize, see https://github.com/kellyk/visualize -->
-    <!-- Custom JavaScript -->
-    <!--============================
-        =            Styles            =
-        =============================-->
-    <!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
-        https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
-        https://github.com/filamentgroup/loadCSS/issues/246
-        https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
-        [WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
-        -->
-    <!-- Gemini
-        [NOTE] Gemini styles must load first, otherwise bugs on page -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
-    <!-- SashaPelican theme -->
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_right.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/it-articles.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaGreenSweater.css">
-    <!-- External -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
-    <!-- Admonition: note, warning etc. blocks, see
-        https://python-markdown.github.io/extensions/admonition/
-        https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
-    <link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
-    <!-- Material icons font for icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Custom CSS -->
+	<script src="//cdn.jsdelivr.net/clipboard.js/latest/clipboard.min.js" defer></script>
+	<script src="https://kristinita.ru/theme/js/Clipboard.js/Clipboard.js" defer></script>
+	<!-- Visualize, see https://github.com/kellyk/visualize -->
+	<!-- Custom JavaScript -->
+	<!--============================
+	=            Styles            =
+	=============================-->
+	<!-- [WARNING] “link rel="preload"” instead of "stylesheet" doesn't work in Firefox 58, wait Firefox 59.
+	https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
+	https://github.com/filamentgroup/loadCSS/issues/246
+	https://bugzilla.mozilla.org/show_bug.cgi?id=1222633
+	[WARNING] In Firefox 59 also doesn't work. Wait Firefox 60.
+	-->
+	<!-- Gemini
+	[NOTE] Gemini styles must load first, otherwise bugs on page -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gemini-scrollbar/gemini-scrollbar.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Gemini/gemini.css">
+	<!-- SashaPelican theme -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/basic.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/fonts.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/aside.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/general/image_right.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/sections/it-articles.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/aside/SashaGreenSweater.css">
+	<!-- External -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/typo-reporter/typo-reporter.css">
+	<!-- Admonition: note, warning etc. blocks, see
+	https://python-markdown.github.io/extensions/admonition/
+	https://squidfunk.github.io/mkdocs-material/extensions/admonition/ -->
+	<link rel="stylesheet" href="https://kristinita.ru/theme/css/script-colors/Admonition/admonition.css">
+	<!-- Material icons font for icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- Custom CSS -->
 </head>
 
 <body>
-    <!-- Background aside -->
-    <aside>
-        <!-- Header aside -->
-        <div class="SashaBottomAside">How to get current … in Sublime Text</div>
-    </aside>
-    <!-- Content -->
-    <main itemscope>
-        <div class="SashaMargin">
-            <header>
-                <h1 class="SashaTopHeader">How to get current … in Sublime Text</h1>
-                <img class="SashaPageLoading" src="https://2no.co/1vWK5.png" alt="Page loading, please, little wait">
-                <div class="SashaVersion">Version 0.1.0</div>
-                <div class="SashaVersion">Posted —
-                    <time datetime="2018-04-08 16:32:34+03:00">2018-04-08 16:32:34+03:00</time>
-                </div>
-                <div class="SashaVersion">
-                    <!-- pubdate attribute is obsolete, use itemprop: datePublished
-                                        https://stackoverflow.com/a/24455070/5951529 -->
-                    Last modified —
-                    <time itemprop="datePublished" datetime="2018-04-08 16:32:34+03:00">2018-04-08 16:32:34+03:00</time>
-                </div>
-            </header>
-            <!-- MarkdownTOC -->
-            <ol>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#audience">Audience</a></li>
-                <li><a href="#relevance">Relevance</a></li>
-                <li><a href="#sublime-text-console">Sublime Text console</a>
-                    <ol>
-                        <li><a href="#console-actions">Console actions</a></li>
-                    </ol>
-                </li>
-                <li><a href="#how-to-get-current-%E2%80%A6">How to get current …</a>
-                    <ol>
-                        <li><a href="#packages-directory">Packages directory</a>
-                            <ol>
-                                <li><a href="#what-is-it">What is it?</a></li>
-                                <li><a href="#what-should-you-do">What should you do?</a></li>
-                                <li><a href="#method">Method</a></li>
-                                <li><a href="#not-recommended">Not recommended</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#syntax">Syntax</a>
-                            <ol>
-                                <li><a href="#what-is-it-1">What is it?</a></li>
-                                <li><a href="#what-should-you-do-1">What should you do?</a></li>
-                                <li><a href="#method-1">Method</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#theme">Theme</a>
-                            <ol>
-                                <li><a href="#what-is-it-2">What is it?</a></li>
-                                <li><a href="#what-should-you-do-2">What should you do?</a></li>
-                                <li><a href="#method-2">Method</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#color-scheme">Color scheme</a>
-                            <ol>
-                                <li><a href="#what-is-it-3">What is it?</a></li>
-                                <li><a href="#what-should-you-do-3">What should you do?</a></li>
-                                <li><a href="#method-3">Method</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#scope-selector">Scope selector</a>
-                            <ol>
-                                <li><a href="#what-is-it-4">What is it?</a></li>
-                                <li><a href="#what-should-you-do-4">What should you do?</a></li>
-                                <li><a href="#method-4">Method</a></li>
-                                <li><a href="#not-recommended-1">Not recommended</a></li>
-                            </ol>
-                        </li>
-                        <li><a href="#syntax-scope-selector">Syntax scope selector</a>
-                            <ol>
-                                <li><a href="#what-is-it-5">What is it?</a></li>
-                                <li><a href="#what-should-you-do-5">What should you do?</a></li>
-                                <li><a href="#method-5">Method</a></li>
-                            </ol>
-                        </li>
-                    </ol>
-                </li>
-                <li><a href="#external-links">External links</a></li>
-            </ol>
-            <!-- /MarkdownTOC -->
-            <p>
-                <a id="overview"></a>
-            </p>
-            <h2>1. Overview <a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
-            <p>Article, how you can to obtain some variable parameters for your Sublime Text. I wrote about the most common variable parameters, that are found in my answers and comments in Stack Overflow.</p>
-            <p>
-                <a id="audience"></a>
-            </p>
-            <h2>2. Audience <a class="headerlink" href="#audience" title="Permanent link">¶</a></h2>
-            <p>Inexperienced Sublime Text users.</p>
-            <p>
-                <a id="relevance"></a>
-            </p>
-            <h2>3. Relevance <a class="headerlink" href="#relevance" title="Permanent link">¶</a></h2>
-            <p>This article is relevant for April 2018. In the future, the data in this article may be obsolete.</p>
-            <p>
-                <a id="sublime-text-console"></a>
-            </p>
-            <h2>4. Sublime Text console <a class="headerlink" href="#sublime-text-console" title="Permanent link">¶</a></h2>
-            <ul>
-                <li><a href="http://docs.sublimetext.info/en/latest/basic_concepts.html#sublime-text-is-programmable" target="_blank">“Sublime Text is Programmable”</a>,</li>
-                <li><a href="https://softwareengineering.stackexchange.com/q/164225/264224" target="_blank">“What is the purpose of Console in Sublime Text editor?”</a></li>
-            </ul>
-            <p>
-                <a id="console-actions"></a>
-            </p>
-            <h3>4.1. Console actions <a class="headerlink" href="#console-actions" title="Permanent link">¶</a></h3>
-            <ul>
-                <li><code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> — parameter, which you want to know.</li>
-            </ul>
-            <p><strong>Example</strong>: <strong>if</strong> you want to know your syntax, <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> is <em>Syntax</em>; <strong>else</strong> theme, <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code>                is <em>Theme</em> and so on.</p>
-            <ol>
-                <li>open Sublime Text;</li>
-                <li>open file whose <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> you want to know;</li>
-                <li>
-                    <p>place your caret before symbol whose <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> you want to know;</p>
-                    <div class="admonition caution">
-                        <p class="admonition-title">Caution</p>
-                        <p>Please, do not confuse <a href="https://www.computerhope.com/jargon/t/textcurs.htm" target="_blank">caret</a> and <a href="https://www.computerhope.com/jargon/m/mouspoin.htm" target="_blank">mouse pointer</a>.</p>
-                    </div>
-                </li>
-                <li>
-                    <p>open <a href="https://stackoverflow.com/q/13965877/5951529" target="_blank">Sublime Text console</a>;</p>
-                </li>
-                <li>paste method from <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> section to Sublime Text console input area → <kbd>Enter</kbd>.</li>
-            </ol>
-            <p>You should obtain console output, <strong>example</strong>:</p>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/cQbwDkM.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/cQbwDkM.png" alt="Example Sublime Text console output"></a>
-            </p>
-            <p>
-                <a id="how-to-get-current-…"></a>
-            </p>
-            <h2>5. How to get current … <a class="headerlink" href="#how-to-get-current-%E2%80%A6" title="Permanent link">¶</a></h2>
-            <p>
-                <a id="packages-directory"></a>
-            </p>
-            <h3>5.1. Packages directory <a class="headerlink" href="#packages-directory" title="Permanent link">¶</a></h3>
-            <p>
-                <a id="what-is-it"></a>
-            </p>
-            <h4>5.1.1. What is it? <a class="headerlink" href="#what-is-it" title="Permanent link">¶</a></h4>
-            <p><a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-packages-directory" target="_blank">Packages directory</a> — <em>Data/Packages</em> — path, where stored:</p>
-            <ol>
-                <li><a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages" target="_blank">“user packages” except “installed packages”</a> in Sublime Text terminology;</li>
-                <li><em>User</em> folder, where stored <a href="https://www.sublimetext.com/docs/3/settings.html" target="_blank">user settings</a>.</li>
-            </ol>
-            <p>
-                <a id="what-should-you-do"></a>
-            </p>
-            <h4>5.1.2. What should you do? <a class="headerlink" href="#what-should-you-do" title="Permanent link">¶</a></h4>
-            <p><a href="#console-actions">Actions 1, 4, 5</a>.</p>
-            <p>
-                <a id="method"></a>
-            </p>
-            <h4>5.1.3. Method <a class="headerlink" href="#method" title="Permanent link">¶</a></h4>
-            <div class="SashaBlockHighlight">
-                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">sublime</span><span class="o">.</span><span class="n">packages_path</span><span class="p">()</span>
+	<!-- Background aside -->
+	<aside>
+		<!-- Header aside -->
+		<div class="SashaBottomAside">How to get current … in Sublime Text</div>
+	</aside>
+	<!-- Content -->
+	<main itemscope>
+		<div class="SashaMargin">
+			<header>
+				<h1 class="SashaTopHeader">How to get current … in Sublime Text</h1>
+				<img class="SashaPageLoading" src="https://2no.co/1vWK5.png" alt="Page loading, please, little wait">
+				<div class="SashaVersion">Version 0.2.0</div>
+				<div class="SashaVersion">Posted —
+					<time datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+				<div class="SashaVersion">
+					<!-- pubdate attribute is obsolete, use itemprop: datePublished
+					https://stackoverflow.com/a/24455070/5951529 -->
+					Last modified —
+					<time itemprop="datePublished" datetime="2018-04-20 05:07:18+03:00">2018-04-20 05:07:18+03:00</time>
+				</div>
+			</header>
+			<!-- MarkdownTOC -->
+			<ol>
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#audience">Audience</a></li>
+				<li><a href="#relevance">Relevance</a></li>
+				<li><a href="#sublime-text-console">Sublime Text console</a>
+					<ol>
+						<li><a href="#console-actions">Console actions</a></li>
+					</ol>
+				</li>
+				<li><a href="#how-to-get-current-%E2%80%A6">How to get current …</a>
+					<ol>
+						<li><a href="#packages-directory">Packages directory</a>
+							<ol>
+								<li><a href="#what-is-it">What is it?</a></li>
+								<li><a href="#what-should-you-do">What should you do?</a></li>
+								<li><a href="#method">Method</a></li>
+								<li><a href="#not-recommended">Not recommended</a></li>
+							</ol>
+						</li>
+						<li><a href="#syntax">Syntax</a>
+							<ol>
+								<li><a href="#what-is-it-1">What is it?</a></li>
+								<li><a href="#what-should-you-do-1">What should you do?</a></li>
+								<li><a href="#method-1">Method</a></li>
+							</ol>
+						</li>
+						<li><a href="#theme">Theme</a>
+							<ol>
+								<li><a href="#what-is-it-2">What is it?</a></li>
+								<li><a href="#what-should-you-do-2">What should you do?</a></li>
+								<li><a href="#method-2">Method</a></li>
+							</ol>
+						</li>
+						<li><a href="#color-scheme">Color scheme</a>
+							<ol>
+								<li><a href="#what-is-it-3">What is it?</a></li>
+								<li><a href="#what-should-you-do-3">What should you do?</a></li>
+								<li><a href="#method-3">Method</a></li>
+							</ol>
+						</li>
+						<li><a href="#scope">Scope</a>
+							<ol>
+								<li><a href="#what-is-it-4">What is it?</a></li>
+								<li><a href="#what-should-you-do-4">What should you do?</a></li>
+								<li><a href="#method-4">Method</a></li>
+								<li><a href="#not-recommended-1">Not recommended</a></li>
+							</ol>
+						</li>
+						<li><a href="#syntax-scope">Syntax scope</a>
+							<ol>
+								<li><a href="#what-is-it-5">What is it?</a></li>
+								<li><a href="#what-should-you-do-5">What should you do?</a></li>
+								<li><a href="#method-5">Method</a></li>
+							</ol>
+						</li>
+					</ol>
+				</li>
+				<li><a href="#external-links">External links</a></li>
+			</ol>
+			<!-- /MarkdownTOC -->
+			<p>
+				<a id="overview"></a>
+			</p>
+			<h2>1. Overview <a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
+			<p>Article, how you can to obtain some variable parameters for your Sublime Text. I wrote about the most common variable parameters, that are found in my answers and comments in Stack Overflow.</p>
+			<p>
+				<a id="audience"></a>
+			</p>
+			<h2>2. Audience <a class="headerlink" href="#audience" title="Permanent link">¶</a></h2>
+			<p>Inexperienced Sublime Text users.</p>
+			<p>
+				<a id="relevance"></a>
+			</p>
+			<h2>3. Relevance <a class="headerlink" href="#relevance" title="Permanent link">¶</a></h2>
+			<p>This article is relevant for April 2018. In the future, the data in this article may be obsolete.</p>
+			<p>
+				<a id="sublime-text-console"></a>
+			</p>
+			<h2>4. Sublime Text console <a class="headerlink" href="#sublime-text-console" title="Permanent link">¶</a></h2>
+			<ul>
+				<li><a href="http://docs.sublimetext.info/en/latest/basic_concepts.html#sublime-text-is-programmable" target="_blank">“Sublime Text is Programmable”</a>,</li>
+				<li><a href="https://softwareengineering.stackexchange.com/q/164225/264224" target="_blank">“What is the purpose of Console in Sublime Text editor?”</a></li>
+			</ul>
+			<p>
+				<a id="console-actions"></a>
+			</p>
+			<h3>4.1. Console actions <a class="headerlink" href="#console-actions" title="Permanent link">¶</a></h3>
+			<ul>
+				<li><code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> — parameter, which you want to know.</li>
+			</ul>
+			<p><strong>Example</strong>: <strong>if</strong> you want to know your syntax, <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> is <em>Syntax</em>; <strong>else</strong> theme, <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code>				is <em>Theme</em> and so on.</p>
+			<ol>
+				<li>open Sublime Text;</li>
+				<li>open file whose <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> you want to know;</li>
+				<li>
+					<p>place your caret before symbol whose <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> you want to know;</p>
+					<div class="admonition caution">
+						<p class="admonition-title">Caution</p>
+						<p>Please, do not confuse <a href="https://www.computerhope.com/jargon/t/textcurs.htm" target="_blank">caret</a> and <a href="https://www.computerhope.com/jargon/m/mouspoin.htm" target="_blank">mouse pointer</a>.</p>
+					</div>
+				</li>
+				<li>
+					<p>open <a href="https://stackoverflow.com/q/13965877/5951529" target="_blank">Sublime Text console</a>;</p>
+				</li>
+				<li>paste method from <code class="SashaInlineHighlight"><span class="nv">$parameter</span></code> section to Sublime Text console input area → <kbd>Enter</kbd>.</li>
+			</ol>
+			<p>You should obtain console output, <strong>example</strong>:</p>
+			<p>
+				<a class="fancybox" href="https://i.imgur.com/cQbwDkM.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/cQbwDkM.png" alt="Example Sublime Text console output"></a>
+			</p>
+			<p>
+				<a id="how-to-get-current-…"></a>
+			</p>
+			<h2>5. How to get current … <a class="headerlink" href="#how-to-get-current-%E2%80%A6" title="Permanent link">¶</a></h2>
+			<p>
+				<a id="packages-directory"></a>
+			</p>
+			<h3>5.1. Packages directory <a class="headerlink" href="#packages-directory" title="Permanent link">¶</a></h3>
+			<p>
+				<a id="what-is-it"></a>
+			</p>
+			<h4>5.1.1. What is it? <a class="headerlink" href="#what-is-it" title="Permanent link">¶</a></h4>
+			<p><a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-packages-directory" target="_blank">Packages directory</a> — <em>Data/Packages</em> — path, where stored:</p>
+			<ol>
+				<li><a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages" target="_blank">“user packages” except “installed packages”</a> in Sublime Text terminology;</li>
+				<li><em>User</em> folder, where stored <a href="https://www.sublimetext.com/docs/3/settings.html" target="_blank">user settings</a>.</li>
+			</ol>
+			<p>
+				<a id="what-should-you-do"></a>
+			</p>
+			<h4>5.1.2. What should you do? <a class="headerlink" href="#what-should-you-do" title="Permanent link">¶</a></h4>
+			<p><a href="#console-actions">Actions 1, 4, 5</a>.</p>
+			<p>
+				<a id="method"></a>
+			</p>
+			<h4>5.1.3. Method <a class="headerlink" href="#method" title="Permanent link">¶</a></h4>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">sublime</span><span class="o">.</span><span class="n">packages_path</span><span class="p">()</span>
 </pre></div>
-            <div class="admonition note">
-                <p class="admonition-title">Note</p>
-                <p>That to obtain directory of <a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages" target="_blank">“installed packages”</a>, use this method:</p>
-                <div class="SashaBlockHighlight">
-                    <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">sublime</span><span class="o">.</span><span class="n">installed_packages_path</span><span class="p">()</span>
+			<div class="admonition note">
+				<p class="admonition-title">Note</p>
+				<p>That to obtain directory of <a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages" target="_blank">“installed packages”</a>, use this method:</p>
+				<div class="SashaBlockHighlight">
+					<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">sublime</span><span class="o">.</span><span class="n">installed_packages_path</span><span class="p">()</span>
 </pre></div>
-            </div>
-            <p>
-                <a id="not-recommended"></a>
-            </p>
-            <h4>5.1.4. Not recommended <a class="headerlink" href="#not-recommended" title="Permanent link">¶</a></h4>
-            <p>In some sources (<a href="https://stackoverflow.com/a/19158010/5951529" target="_blank">example</a>) you can read similar answers:</p>
-            <blockquote>
-                <p>For Sublime 3, the locations are the following:</p>
-                <p>Windows: <em>%APPDATA%Sublime Text 3</em>,</p>
-                <p>OS X: <em>~/Library/Application Support/Sublime Text 3</em>,</p>
-                <p>Linux: <em>~/.config/sublime-text-3</em>.</p>
-            </blockquote>
-            <p>I not recommend this, arguments:</p>
-            <ol>
-                <li>it less simple,</li>
-                <li>in new versions of Sublime Text and/or operating systems paths may be change,</li>
-                <li>it <a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-data-directory" target="_blank">doesn't take</a> portable Sublime Text on Windows.</li>
-            </ol>
-            <p>
-                <a id="syntax"></a>
-            </p>
-            <h3>5.2. Syntax <a class="headerlink" href="#syntax" title="Permanent link">¶</a></h3>
-            <p>
-                <a id="what-is-it-1"></a>
-            </p>
-            <h4>5.2.1. What is it? <a class="headerlink" href="#what-is-it-1" title="Permanent link">¶</a></h4>
-            <ul>
-                <li><a href="https://www.computerhope.com/jargon/s/syntax.htm" target="_blank">“Syntax” definition</a>.</li>
-            </ul>
-            <p>
-                <a id="what-should-you-do-1"></a>
-            </p>
-            <h4>5.2.2. What should you do? <a class="headerlink" href="#what-should-you-do-1" title="Permanent link">¶</a></h4>
-            <p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
-            <p>
-                <a id="method-1"></a>
-            </p>
-            <h4>5.2.3. Method <a class="headerlink" href="#method-1" title="Permanent link">¶</a></h4>
-            <div class="SashaBlockHighlight">
-                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'syntax'</span><span class="p">)</span>
+			</div>
+			<p>
+				<a id="not-recommended"></a>
+			</p>
+			<h4>5.1.4. Not recommended <a class="headerlink" href="#not-recommended" title="Permanent link">¶</a></h4>
+			<p>In some sources (<a href="https://stackoverflow.com/a/19158010/5951529" target="_blank">example</a>) you can read similar answers:</p>
+			<blockquote>
+				<p>For Sublime 3, the locations are the following:</p>
+				<p>Windows: <em>%APPDATA%Sublime Text 3</em>,</p>
+				<p>OS X: <em>~/Library/Application Support/Sublime Text 3</em>,</p>
+				<p>Linux: <em>~/.config/sublime-text-3</em>.</p>
+			</blockquote>
+			<p>I not recommend this, arguments:</p>
+			<ol>
+				<li>it less simple,</li>
+				<li>in new versions of Sublime Text and/or operating systems paths may be change,</li>
+				<li>it <a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-data-directory" target="_blank">doesn't take</a> portable Sublime Text on Windows.</li>
+			</ol>
+			<p>
+				<a id="syntax"></a>
+			</p>
+			<h3>5.2. Syntax <a class="headerlink" href="#syntax" title="Permanent link">¶</a></h3>
+			<p>
+				<a id="what-is-it-1"></a>
+			</p>
+			<h4>5.2.1. What is it? <a class="headerlink" href="#what-is-it-1" title="Permanent link">¶</a></h4>
+			<ul>
+				<li><a href="https://www.computerhope.com/jargon/s/syntax.htm" target="_blank">“Syntax” definition</a>.</li>
+			</ul>
+			<p>
+				<a id="what-should-you-do-1"></a>
+			</p>
+			<h4>5.2.2. What should you do? <a class="headerlink" href="#what-should-you-do-1" title="Permanent link">¶</a></h4>
+			<p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
+			<p>
+				<a id="method-1"></a>
+			</p>
+			<h4>5.2.3. Method <a class="headerlink" href="#method-1" title="Permanent link">¶</a></h4>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'syntax'</span><span class="p">)</span>
 </pre></div>
-            <p>
-                <a id="theme"></a>
-            </p>
-            <h3>5.3. Theme <a class="headerlink" href="#theme" title="Permanent link">¶</a></h3>
-            <p>
-                <a id="what-is-it-2"></a>
-            </p>
-            <h4>5.3.1. What is it? <a class="headerlink" href="#what-is-it-2" title="Permanent link">¶</a></h4>
-            <p>Please, do not confuse theme and color scheme:</p>
-            <ol>
-                <li><strong>color scheme</strong> — file, that design your Sublime Text <a href="#syntax">syntaxes</a>; it zone — area of your opened files;</li>
-                <li><strong>theme</strong> — file, that design your Sublime Text UI; almost everyone else, that not highlight color scheme.</li>
-            </ol>
-            <p>In image below:</p>
-            <ul>
-                <li>color scheme design area in a pink rectangle;</li>
-                <li>theme — another area, blue rectangle.</li>
-            </ul>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/nwNgLkR.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/nwNgLkR.png" alt="Color scheme and theme"></a>
-            </p>
-            <div class="admonition hint">
-                <p class="admonition-title">Hint</p>
-                <p>Also, some parameters contains in <a href="https://www.sublimetext.com/docs/3/settings.html" target="_blank"><em>Preferences.sublime-settings</em></a> and <em>stTheme</em> files. <a href="https://stackoverflow.com/a/19582360/5951529" target="_blank"><em>stTheme</em></a>                    highlight and stylize regular expressions and another elements in input areas of your <a href="https://www.sublimetext.com/docs/3/themes.html#elements-panels" target="_blank">“Find”, “Find in Files” and “Replace panels”</a>.</p>
-                <p>
-                    <a class="fancybox" href="https://i.imgur.com/icfjatQ.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/icfjatQ.png" alt="stTheme"></a>
-                </p>
-            </div>
-            <p>
-                <a id="what-should-you-do-2"></a>
-            </p>
-            <h4>5.3.2. What should you do? <a class="headerlink" href="#what-should-you-do-2" title="Permanent link">¶</a></h4>
-            <p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
-            <p>
-                <a id="method-2"></a>
-            </p>
-            <h4>5.3.3. Method <a class="headerlink" href="#method-2" title="Permanent link">¶</a></h4>
-            <div class="SashaBlockHighlight">
-                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'color_scheme'</span><span class="p">)</span>
+			<p>
+				<a id="theme"></a>
+			</p>
+			<h3>5.3. Theme <a class="headerlink" href="#theme" title="Permanent link">¶</a></h3>
+			<p>
+				<a id="what-is-it-2"></a>
+			</p>
+			<h4>5.3.1. What is it? <a class="headerlink" href="#what-is-it-2" title="Permanent link">¶</a></h4>
+			<p>Please, do not confuse theme and color scheme:</p>
+			<ol>
+				<li><strong>color scheme</strong> — file, that design your Sublime Text <a href="#syntax">syntaxes</a>; it zone — area of your opened files;</li>
+				<li><strong>theme</strong> — file, that design your Sublime Text UI; almost everyone else, that not highlight color scheme.</li>
+			</ol>
+			<p>In image below:</p>
+			<ul>
+				<li>color scheme design area in a pink rectangle;</li>
+				<li>theme — another area, blue rectangle.</li>
+			</ul>
+			<p>
+				<a class="fancybox" href="https://i.imgur.com/nwNgLkR.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/nwNgLkR.png" alt="Color scheme and theme"></a>
+			</p>
+			<div class="admonition hint">
+				<p class="admonition-title">Hint</p>
+				<p>Also, some parameters contains in <a href="https://www.sublimetext.com/docs/3/settings.html" target="_blank"><em>Preferences.sublime-settings</em></a> and <em>stTheme</em> files. <a href="https://stackoverflow.com/a/19582360/5951529" target="_blank"><em>stTheme</em></a>					highlight and stylize regular expressions and another elements in input areas of your <a href="https://www.sublimetext.com/docs/3/themes.html#elements-panels" target="_blank">“Find”, “Find in Files” and “Replace panels”</a>.</p>
+				<p>
+					<a class="fancybox" href="https://i.imgur.com/icfjatQ.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/icfjatQ.png" alt="stTheme"></a>
+				</p>
+			</div>
+			<p>
+				<a id="what-should-you-do-2"></a>
+			</p>
+			<h4>5.3.2. What should you do? <a class="headerlink" href="#what-should-you-do-2" title="Permanent link">¶</a></h4>
+			<p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
+			<p>
+				<a id="method-2"></a>
+			</p>
+			<h4>5.3.3. Method <a class="headerlink" href="#method-2" title="Permanent link">¶</a></h4>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'theme'</span><span class="p">)</span>
 </pre></div>
-            <p>
-                <a id="color-scheme"></a>
-            </p>
-            <h3>5.4. Color scheme <a class="headerlink" href="#color-scheme" title="Permanent link">¶</a></h3>
-            <p>
-                <a id="what-is-it-3"></a>
-            </p>
-            <h4>5.4.1. What is it? <a class="headerlink" href="#what-is-it-3" title="Permanent link">¶</a></h4>
-            <ul>
-                <li><a href="#theme">#theme</a>.</li>
-            </ul>
-            <p>
-                <a id="what-should-you-do-3"></a>
-            </p>
-            <h4>5.4.2. What should you do? <a class="headerlink" href="#what-should-you-do-3" title="Permanent link">¶</a></h4>
-            <p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
-            <p>
-                <a id="method-3"></a>
-            </p>
-            <h4>5.4.3. Method <a class="headerlink" href="#method-3" title="Permanent link">¶</a></h4>
-            <div class="SashaBlockHighlight">
-                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'color_scheme'</span><span class="p">)</span>
+			<p>
+				<a id="color-scheme"></a>
+			</p>
+			<h3>5.4. Color scheme <a class="headerlink" href="#color-scheme" title="Permanent link">¶</a></h3>
+			<p>
+				<a id="what-is-it-3"></a>
+			</p>
+			<h4>5.4.1. What is it? <a class="headerlink" href="#what-is-it-3" title="Permanent link">¶</a></h4>
+			<ul>
+				<li><a href="#theme">#theme</a>.</li>
+			</ul>
+			<p>
+				<a id="what-should-you-do-3"></a>
+			</p>
+			<h4>5.4.2. What should you do? <a class="headerlink" href="#what-should-you-do-3" title="Permanent link">¶</a></h4>
+			<p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
+			<p>
+				<a id="method-3"></a>
+			</p>
+			<h4>5.4.3. Method <a class="headerlink" href="#method-3" title="Permanent link">¶</a></h4>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'color_scheme'</span><span class="p">)</span>
 </pre></div>
-            <div class="admonition hint">
-                <p class="admonition-title">Hint</p>
-                <p>You can get your another <a href="http://docs.sublimetext.info/en/latest/customization/settings.html" target="_blank">settings</a>, use <code class="SashaInlineHighlight"><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">()</span></code>.
-                    <strong>Example</strong>: to obtain your current font face, you need <code class="SashaInlineHighlight"><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'font_face'</span><span class="p">)</span></code>.</p>
-            </div>
-            <p>
-                <a id="scope-selector"></a>
-            </p>
-            <h3>5.5. Scope selector <a class="headerlink" href="#scope-selector" title="Permanent link">¶</a></h3>
-            <p>
-                <a id="what-is-it-4"></a>
-            </p>
-            <h4>5.5.1. What is it? <a class="headerlink" href="#what-is-it-4" title="Permanent link">¶</a></h4>
-            <ul>
-                <li><a href="http://blog.macromates.com/2005/introduction-to-scopes/" target="_blank">Introduction to scopes</a>,</li>
-                <li><a href="http://manual.macromates.com/en/scope_selectors.html" target="_blank">“Scope selector” definition</a>.</li>
-            </ul>
-            <p>
-                <a class="fancybox" href="https://i.imgur.com/TwO4pha.png"><img class="SashaLazy" src="https://kristinita.ru//theme/images/interface-images/transparent-one-pixel.png" data-src="https://i.imgur.com/TwO4pha.png" alt="Scope selector"></a>
-            </p>
-            <p>
-                <a id="what-should-you-do-4"></a>
-            </p>
-            <h4>5.5.2. What should you do? <a class="headerlink" href="#what-should-you-do-4" title="Permanent link">¶</a></h4>
-            <p><a href="#console-actions">Actions 1, 2, 3, 4, 5</a>.</p>
-            <p>
-                <a id="method-4"></a>
-            </p>
-            <h4>5.5.3. Method <a class="headerlink" href="#method-4" title="Permanent link">¶</a></h4>
-            <div class="SashaBlockHighlight">
-                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">scope_name</span><span class="p">(</span><span class="n">view</span><span class="o">.</span><span class="n">sel</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">begin</span><span class="p">())</span>
+			<div class="admonition hint">
+				<p class="admonition-title">Hint</p>
+				<p>You can get your another <a href="http://docs.sublimetext.info/en/latest/customization/settings.html" target="_blank">settings</a>, use <code class="SashaInlineHighlight"><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">()</span></code>.
+					<strong>Example</strong>: to obtain your current font face, you need <code class="SashaInlineHighlight"><span class="n">view</span><span class="o">.</span><span class="n">settings</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'font_face'</span><span class="p">)</span></code>.</p>
+			</div>
+			<p>
+				<a id="scope"></a>
+			</p>
+			<h3>5.5. Scope <a class="headerlink" href="#scope" title="Permanent link">¶</a></h3>
+			<div class="admonition caution">
+				<p class="admonition-title">Caution</p>
+				<p>“Scope”, “syntax scope”, “syntax type scope” unconventional, not official terms. Please, read <a href="#what-is-it-4">links below</a> for additional information.</p>
+			</div>
+			<p>
+				<a id="what-is-it-4"></a>
+			</p>
+			<h4>5.5.1. What is it? <a class="headerlink" href="#what-is-it-4" title="Permanent link">¶</a></h4>
+			<div class="justtable">
+				<table>
+					<thead>
+						<tr>
+							<th>scope</th>
+							<th>syntax scope</th>
+							<th>syntax type scope</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>source.css meta.property-list.css meta.property-name.css support.type.property-name.css</td>
+							<td>source.css</td>
+						</tr>
+						<tr>
+							<td>text.html.basic source.css meta.property-list.css meta.property-name.css</td>
+							<td>source support.type.property-name.css</td>
+							<td>text.html.basic|text</td>
+						</tr>
+						<tr>
+							<td>kira.genius kira.error</td>
+							<td>kira.genius</td>
+							<td>kira</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<ul>
+				<li><a href="https://forum.sublimetext.com/t/question-terminology-scope-vs-scope-selector/36039?u=sasha_chernykh" target="_blank">Scope vs. scope selector</a>,</li>
+				<li><a href="http://blog.macromates.com/2005/introduction-to-scopes/" target="_blank">Introduction to scopes</a>,</li>
+				<li><a href="http://manual.macromates.com/en/scope_selectors.html" target="_blank">“Scope selector” definition</a>.</li>
+			</ul>
+			<p>
+				<a id="what-should-you-do-4"></a>
+			</p>
+			<h4>5.5.2. What should you do? <a class="headerlink" href="#what-should-you-do-4" title="Permanent link">¶</a></h4>
+			<p><a href="#console-actions">Actions 1, 2, 3, 4, 5</a>.</p>
+			<p>
+				<a id="method-4"></a>
+			</p>
+			<h4>5.5.3. Method <a class="headerlink" href="#method-4" title="Permanent link">¶</a></h4>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">scope_name</span><span class="p">(</span><span class="n">view</span><span class="o">.</span><span class="n">sel</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">begin</span><span class="p">())</span>
 </pre></div>
-            <p>
-                <a id="not-recommended-1"></a>
-            </p>
-            <h4>5.5.4. Not recommended <a class="headerlink" href="#not-recommended-1" title="Permanent link">¶</a></h4>
-            <p>In some sources (<a href="https://stackoverflow.com/a/15911198/5951529" target="_blank">example</a>) you can read similar answers:</p>
-            <blockquote>
-                <p>Windows — <kbd>Ctrl+Alt+Shift+P</kbd>,</p>
-                <p>macOS — <kbd>Ctrl+Shift+P</kbd>.</p>
-            </blockquote>
-            <p>I not recommend it, arguments:</p>
-            <ol>
-                <li>Hotkeys conflict; one or more your plugins may use same hotkeys.</li>
-            </ol>
-            <!-- [TODO] Hate hotkeys -->
-            <p>
-                <a id="syntax-scope-selector"></a>
-            </p>
-            <h3>5.6. Syntax scope selector <a class="headerlink" href="#syntax-scope-selector" title="Permanent link">¶</a></h3>
-            <p>
-                <a id="what-is-it-5"></a>
-            </p>
-            <h4>5.6.1. What is it? <a class="headerlink" href="#what-is-it-5" title="Permanent link">¶</a></h4>
-            <div class="admonition caution">
-                <p class="admonition-title">Caution</p>
-                <p>“Syntax scope selector” — my own term. I couldn't find official term name in Sublime Text and TextMate documentations.</p>
-            </div>
-            <p>Syntax scope selector — for <a href="#syntax">syntax</a>: part of any <a href="#scope-selector">scope selector</a> before first space symbol.</p>
-            <p><strong>Examples</strong>:</p>
-            <div class="justtable">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>scope selector</th>
-                            <th>syntax scope selector</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>source.css meta.property-list.css meta.property-name.css support.type.property-name.css</td>
-                            <td>source.css</td>
-                        </tr>
-                        <tr>
-                            <td>text.html.basic source.css meta.property-list.css meta.property-name.css support.type.property-name.css</td>
-                            <td>text.html.basic</td>
-                        </tr>
-                        <tr>
-                            <td>kira.genius kira.error</td>
-                            <td>kira.genius</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p>
-                <a id="what-should-you-do-5"></a>
-            </p>
-            <h4>5.6.2. What should you do? <a class="headerlink" href="#what-should-you-do-5" title="Permanent link">¶</a></h4>
-            <p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
-            <p>
-                <a id="method-5"></a>
-            </p>
-            <h4>5.6.3. Method <a class="headerlink" href="#method-5" title="Permanent link">¶</a></h4>
-            <div class="SashaBlockHighlight">
-                <pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">scope_name</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+			<p>
+				<a id="not-recommended-1"></a>
+			</p>
+			<h4>5.5.4. Not recommended <a class="headerlink" href="#not-recommended-1" title="Permanent link">¶</a></h4>
+			<p>In some sources (<a href="https://stackoverflow.com/a/15911198/5951529" target="_blank">example</a>) you can read similar answers:</p>
+			<blockquote>
+				<p>Windows — <kbd>Ctrl+Alt+Shift+P</kbd>,</p>
+				<p>macOS — <kbd>Ctrl+Shift+P</kbd>.</p>
+			</blockquote>
+			<p>I not recommend it, arguments:</p>
+			<ol>
+				<li>Hotkeys conflict; one or more your plugins may use same hotkeys.</li>
+			</ol>
+			<!-- [TODO] Hate hotkeys -->
+			<p>
+				<a id="syntax-scope"></a>
+			</p>
+			<h3>5.6. Syntax scope <a class="headerlink" href="#syntax-scope" title="Permanent link">¶</a></h3>
+			<p>
+				<a id="what-is-it-5"></a>
+			</p>
+			<h4>5.6.1. What is it? <a class="headerlink" href="#what-is-it-5" title="Permanent link">¶</a></h4>
+			<p>Syntax scope — for <a href="#syntax">syntax</a>: part of any <a href="#scope-selector">scope</a> before first space symbol. Details <a href="#what-is-it-4">read above</a>.</p>
+			<p>
+				<a id="what-should-you-do-5"></a>
+			</p>
+			<h4>5.6.2. What should you do? <a class="headerlink" href="#what-should-you-do-5" title="Permanent link">¶</a></h4>
+			<p><a href="#console-actions">Actions 1, 2, 4, 5</a>.</p>
+			<p>
+				<a id="method-5"></a>
+			</p>
+			<h4>5.6.3. Method <a class="headerlink" href="#method-5" title="Permanent link">¶</a></h4>
+			<div class="SashaBlockHighlight">
+				<pre><button class="SashaButton SashaTooltip"><img class="SashaNotModify" src="https://kristinita.ru/theme/images/interface-images/clippy.svg" alt="Clipboard button" width="13"></button><span class="n">view</span><span class="o">.</span><span class="n">scope_name</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-            <p>
-                <a id="external-links"></a>
-            </p>
-            <h2>6. External links <a class="headerlink" href="#external-links" title="Permanent link">¶</a></h2>
-            <ul>
-                <li><a href="https://www.sublimetext.com/docs/3/api_reference.html" target="_blank">Sublime Text 3 API Reference</a>,</li>
-                <li><a href="https://leanpub.com/writing-sublime-plugins" target="_blank">“Writing Sublime Plugins”</a> book.</li>
-            </ul>
-            <footer><span class="SashaHeadPageLeft"><a href="https://kristinita.ru" title="Kristinita's Search">Kristinita's Search</a></span>
-                <!--  -->
-                <span class="SashaHeadPageRight"><a href="https://kristinita.ru" title="Kristinita's Search">Kristinita's Search</a></span>
-                <div class="SashaClearBoth"></div>
-                <div class="SashaEmNoColor">All rights reserved ©.</div>
-                <div class="SashaEmNoColorBottom">If you find in this article typo or small error, please, select text with typo → press <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> for Mac) → write comment → send typo report (PC only, not for mobile devices). If you find more serious errors,
-                    you can <a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.md">edit this page</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>.
-                    For any questions, ideas and requests about this site and it content, <a href="https://github.com/Kristinita/KristinitaPelican/issues">create issue</a> (preferrable) or write me by <span id="obf">
+			<p>
+				<a id="external-links"></a>
+			</p>
+			<h2>6. External links <a class="headerlink" href="#external-links" title="Permanent link">¶</a></h2>
+			<ul>
+				<li><a href="https://www.sublimetext.com/docs/3/api_reference.html" target="_blank">Sublime Text 3 API Reference</a>,</li>
+				<li><a href="https://leanpub.com/writing-sublime-plugins" target="_blank">“Writing Sublime Plugins”</a> book.</li>
+			</ul>
+			<footer><span class="SashaHeadPageLeft"><a href="https://kristinita.ru" title="Kristinita's Search">Kristinita's Search</a></span> <span class="SashaHeadPageRight"><a href="https://kristinita.ru" title="Kristinita's Search">Kristinita's Search</a></span>
+				<div class="SashaClearBoth"></div>
+				<div class="SashaEmNoColor">All rights reserved ©.</div>
+				<div class="SashaEmNoColorBottom">If you find in this article typo or small error, please, select text with typo → press <kbd>Ctrl+Enter</kbd> (<kbd>⌘Enter</kbd> for Mac) → write comment → send typo report (PC only, not for mobile devices). If you find more serious errors, you can
+					<a href="https://github.com/Kristinita/KristinitaPelican/edit/master/content/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.md">edit this page</a> and send me <a href="http://ru.stackoverflow.com/a/598162/199934">pull request</a>. For any
+					questions, ideas and requests about this site and it content, <a href="https://github.com/Kristinita/KristinitaPelican/issues">create issue</a> (preferrable) or write me by <span id="obf">
 <script src="https://kristinita.ru/js/personal/Mail/personal-mail.js" async></script><noscript><span>ur.atinitsirk@esrevinUfOsserpmEhkynrehCahsaS</span></noscript>
-                    </span>. Please, write in Russian or English.</div>
-                <div class="SashaEmNoColorBottom">If you write in the style of <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a>                    i reserve the right to dispose of my own discretion.</div>
-                <div class="WorkOnYourself">Работайте над собой</div>
-            </footer>
-        </div>
-    </main>
+					</span>. Please, write in Russian or English.</div>
+				<div class="SashaEmNoColorBottom">If you write in the style of <a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5">new disgruntled Russian</a> i reserve
+					the right to dispose of my own discretion.</div>
+				<div class="WorkOnYourself">Работайте над собой</div>
+			</footer>
+		</div>
+	</main>
 </body>
 
 </html>
