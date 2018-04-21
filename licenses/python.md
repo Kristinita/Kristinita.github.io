@@ -19,7 +19,6 @@
 | funcparserlib       | 0.3.6     | MIT                                                          |
 | gitdb2              | 2.0.3     | BSD License                                                  |
 | idna                | 2.6       | BSD-like                                                     |
-| lice                | 0.5       | BSD                                                          |
 | markdown-blockdiag  | 0.7.0     | MIT                                                          |
 | markdown-downheader | 1.1.0     | Simplified BSD License                                       |
 | markdown-newtab     | 0.2.0     | CC0                                                          |
