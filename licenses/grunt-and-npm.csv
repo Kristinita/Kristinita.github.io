@@ -433,7 +433,7 @@ grunt-dev-update,2.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modu
 grunt-git-them-all,0.0.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-git-them-all,http://github.com/ZuBB/grunt-git-them-all,MIT,MIT,,
 grunt-html5-validate,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-html5-validate,ssh://git@github.com/rgladwell/grunt-html5-validate,MIT,MIT,,MIT
 grunt-htmltidy,0.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-htmltidy,http://github.com/gavinballard/grunt-htmltidy,MIT,MIT,,
-grunt-humans-txt,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-humans-txt,https://github.com/roughcoder/grunt-humans-txt,MIT,MIT,,
+grunt-humans-txt,0.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-humans-txt,https://github.com/Kristinita/grunt-humans-txt,MIT,MIT,,
 grunt-indentator,0.1.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-indentator,http://github.com/Gespinha/grunt-indentator,MIT,MIT,MIT,MIT
 grunt-jsbeautifier,0.2.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-jsbeautifier,http://github.com/vkadam/grunt-jsbeautifier,MIT,MIT,,MIT
 grunt-known-options,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-known-options,https://github.com/gruntjs/grunt-known-options,MIT,MIT,,
