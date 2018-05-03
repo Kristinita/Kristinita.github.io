@@ -5,511 +5,518 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.ru/</loc>
-<lastmod>2018-04-22T18:39:53-00:00</lastmod>
+<lastmod>2018-05-03T11:54:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/archives.html</loc>
-<lastmod>2018-04-22T18:39:53-00:00</lastmod>
+<lastmod>2018-05-03T11:54:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/categories.html</loc>
-<lastmod>2018-04-22T18:39:53-00:00</lastmod>
+<lastmod>2018-05-03T11:54:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Pages/About-for-developers.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://kristinita.ru/Pages/Terms-and-Conditions-&-Privacy-Policy.html</loc>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Giologica/Демагогия-Нестеренко.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Джинджерины.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Фоны-и-Карта-С.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Грейс-Ло.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Грейзи-Фа.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/IT-articles/How-to-get-current-…-in-Sublime-Text.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Life-hacks/Как-автоматически-входить-на-сайты.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Korvers.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Programs/KristinitaLuckyLink.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Giologica/Nas-Izu.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Smert-svobode/Новые-недовольные-русские.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Programs/PaletteMira.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Поиск-книг-для-джинджерин.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sublime-Text/Sacagawea.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sasha-Black/Sasha-Black-description.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sublime-Text/SashaSublime.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Тао.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Testus.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/IT-articles/typo-reporter.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Giologica/Valerywork-Kiravel.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/Gingerinas/Знания-в-джинджеринах.html</loc>
-<lastmod>2018-04-22T18:34:27+03:00</lastmod>
+<lastmod>2018-05-03T11:50:13+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/giologica.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/it-articles.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/kritika-dzhindzherin.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/life-hacks.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/logika-v-dzhindzherinakh.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/programs.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/psikhologiia-dzhindzherin.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/sasha-black.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/smert-svobode.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/spravka-po-dzhindzherinam.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/sublime-notes.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/sublime-text.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/test.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/category/trenirovki-v-dzhindzherinakh.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/help.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/life-hacks.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/pale-moon.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/giologica.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/demagogue.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/gingerinas.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/it-articles.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/sublime-text.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/release.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/psychology.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/gingerinas-training.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/pumping.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/python.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/pypi.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/programs.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/smert-svobode.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/ndr.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/rom.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/android.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/what-where-when.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/sasha-black.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/test.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/spelling.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/tag/yaspeller.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/author/keith-hall.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.ru/author/sasha-chernykh.html</loc>
-<lastmod>2018-04-22T18:34:27+02:30</lastmod>
+<lastmod>2018-05-03T11:50:13+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

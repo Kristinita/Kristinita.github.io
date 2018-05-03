@@ -16,10 +16,7 @@ a:focus {
 }
 
 em {
-	background-image: -webkit-gradient(linear, left top, right top, from(#008b8b), to(#7b68ee));
-	background-image: linear-gradient(to right, #008b8b, #7b68ee);
-	-webkit-background-clip: text;
-	color: transparent;
+	color: #008b8b;
 }
 
 img {
@@ -57,7 +54,7 @@ code {
 	background-color: #2f4f4f;
 }
 
-pre >code {
+pre>code {
 	background-color: #000;
 }
 

@@ -16,10 +16,7 @@ a:focus {
 }
 
 em {
-	background-image: -webkit-gradient(linear, left top, right top, from(#f08080), to(#c71585));
-	background-image: linear-gradient(to right, #f08080, #c71585);
-	-webkit-background-clip: text;
-	color: transparent;
+	color: #f08080;
 }
 
 img {
@@ -71,11 +68,11 @@ blockquote {
 	color: #20b2aa;
 }
 
-.SashaEpigraph >.SashaEpigraphAuthor {
+.SashaEpigraph>.SashaEpigraphAuthor {
 	color: #ba55d3;
 }
 
-.SashaEpigraph >em {
+.SashaEpigraph>em {
 	color: #db7093;
 }
 
@@ -87,7 +84,7 @@ code {
 	background-color: #2f4f4f;
 }
 
-pre >code {
+pre>code {
 	background-color: #000;
 }
 

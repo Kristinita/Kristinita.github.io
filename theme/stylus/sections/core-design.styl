@@ -93,18 +93,22 @@ a
 	========================================================================== */
 
 /**
+* [DEPRECATED]
 * Cursive
 * For highlighting non-code elements
 * Text gradient
 * http://stackoverflow.com/q/37831837/5951529
 * Don't support all browsers
 * https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip#Browser_compatibility
+* [BUG] Text wrapping works incorrect:
+* https://stackoverflow.com/q/50084094/5951529
 */
-
+// em
+// 	background-image linear-gradient(to right, Sasha-Begin-Cursive, Sasha-End-Cursive)
+// 	-webkit-background-clip text
+// 	color transparent
 em
-	background-image linear-gradient(to right, Sasha-Begin-Cursive, Sasha-End-Cursive)
-	-webkit-background-clip text
-	color transparent
+	color Sasha-Em
 
 // Dfn — definition
 // http://htmlbook.ru/html/dfn

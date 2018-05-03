@@ -5,7 +5,6 @@
 * @Last Modified time: 2017-05-09 14:39:18
 */
 
-
 /* ==========================================================================
 	General
 	========================================================================== */
@@ -14,7 +13,6 @@ aside {
 	background-size: cover;
 	height: 100%;
 }
-
 
 /* Text in aside bottom */
 
@@ -28,11 +26,9 @@ aside {
 	width: 80%;
 }
 
-
 /* ==========================================================================
 	Media
 	========================================================================== */
-
 
 /*
 * Media queries
@@ -40,12 +36,10 @@ aside {
 * https://webref.ru/css/media
 */
 
-
 /*
 * Orientation, see:
 * https://www.webopedia.com/TERM/P/portrait.html
 */
-
 
 /* For portrait orientation */
 
@@ -59,7 +53,6 @@ aside {
 		position: relative;
 	}
 }
-
 
 /* For landscape orientation */
 

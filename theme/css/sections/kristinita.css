@@ -20,7 +20,6 @@ html {
 	overflow-x: hidden;
 }
 
-
 /* Inline displaying some div classes */
 
 .SashaKristinita,
@@ -31,14 +30,12 @@ html {
 	display: inline;
 }
 
-
 /* Gemini
 	========================================================================== */
 
 img {
 	max-width: 100%;
 }
-
 
 /* Buttons */
 
@@ -191,7 +188,6 @@ img {
 	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffefd5, 0 0 70px #ffefd5, 0 0 80px #ffefd5, 0 0 100px #ffefd5;
 }
 
-
 /* Подвал в head */
 
 .SashaFooter {
@@ -232,7 +228,6 @@ img {
 	color: #afeeee;
 }
 
-
 /* Выравнивание по центру*/
 
 .SashaCenter {
@@ -240,7 +235,6 @@ img {
 	/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
 	margin: 21rem 0 0 0;
 }
-
 
 /* Надпись Поиск Кристиниты*/
 
@@ -252,7 +246,6 @@ img {
 	text-shadow: 0 1px 0 #ffa500, 0 2px 0 #ffa500, 0 3px 0 #ffd700, 0 4px 0 #ffae42, 0 5px 0 #ffefd5, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
-
 /* Надпись beta */
 
 .SashaBeta {
@@ -260,7 +253,6 @@ img {
 	font-style: italic;
 	color: #ff8c00;
 }
-
 
 /* Надпись «Минималистская версия*/
 
@@ -271,7 +263,6 @@ img {
 	color: #ffbf00;
 }
 
-
 /* Надпись копирайта */
 
 .SashaCopyright {
@@ -280,16 +271,13 @@ img {
 	color: #ffd700;
 }
 
-
 /*Ссылка на Божий профиль ВКонтакте*/
 
 .SashaVKontakte {
 	color: #ffd700;
 }
 
-
 /*Сашин логотип*/
-
 
 /* https://www.w3schools.com/tags/att_img_align.asp */
 

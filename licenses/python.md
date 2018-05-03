@@ -31,7 +31,7 @@
 | pip-review          | 1.0       | BSD                                                          |
 | pyembed             | 1.3.3     | Copyright (c) 2013 Matt Thomson                              |
 | pyembed-markdown    | 1.1.0     | Copyright (c) 2013 Matt Thomson                              |
-| pymdown-extensions  | 4.10      | MIT License                                                  |
+| pymdown-extensions  | 4.10.1    | MIT License                                                  |
 | pyparsing           | 2.2.0     | MIT License                                                  |
 | python-dateutil     | 2.7.2     | Dual License                                                 |
 | pytz                | 2018.4    | MIT                                                          |
