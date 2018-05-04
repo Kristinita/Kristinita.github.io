@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "tooltip.js",
+	"sourceRoot": "../../coffee/Tooltipster/",
+	"sources": [
+		"tooltip.coffee"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;;;;;;;;;AAgBA,CAAA,CAAE,QAAF,CAAW,CAAC,KAAZ,CAAkB,QAAA,CAAA,CAAA;AACjB,MAAA;EAAA,aAAA,GAAgB,CAAA,CAAE,eAAF;EAChB,aAAa,CAAC,WAAd,CACC;IAAA,OAAA,EAAS,iCAAT;IACA,KAAA,EAAO,CAAE,yBAAF,CADP;IAEA,KAAA,EAAO,IAFP;IAGA,IAAA,EAAM,CACL,MADK,EAEL,KAFK,EAGL,QAHK,EAIL,OAJK;EAHN,CADD;EAUA,aAAa,CAAC,WAAd,CACC;IAAA,OAAA,EAAS,SAAT;IACA,KAAA,EAAO,6BADP;IAEA,OAAA,EAAS,OAFT;IAGA,QAAA,EAAU,IAHV;IAIA,KAAA,EAAO,IAJP;IAKA,IAAA,EAAM,CACL,MADK,EAEL,KAFK,EAGL,QAHK,EAIL,OAJK;EALN,CADD;AAZiB,CAAlB",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:\t 2017-01-24 18:34:57\n@Last Modified by:\t Kristinita\n@Last Modified time: 2017-01-24 18:35:34\n###\n###############\n# Tooltipster #\n###############\n###\nCustom tooltips\nhttp://iamceege.github.io/tooltipster/\nhttps://ru.stackoverflow.com/a/584718/199934\n###\n\n\n$(document).ready ->\n\t$SashaElement = $('.SashaTooltip')\n\t$SashaElement.tooltipster\n\t\tcontent: 'Click to copy code to clipboard'\n\t\ttheme: [ 'tooltipster-punk-purple' ]\n\t\ttimer: 2000\n\t\tside: [\n\t\t\t'left'\n\t\t\t'top'\n\t\t\t'bottom'\n\t\t\t'right'\n\t\t]\n\t$SashaElement.tooltipster\n\t\tcontent: 'Copied!'\n\t\ttheme: 'tooltipster-punk-aquamarine'\n\t\ttrigger: 'click'\n\t\tmultiple: true\n\t\ttimer: 2000\n\t\tside: [\n\t\t\t'left'\n\t\t\t'top'\n\t\t\t'bottom'\n\t\t\t'right'\n\t\t]\n\treturn\n"
+	]
+}

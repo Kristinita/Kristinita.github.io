@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "gemini-non-scrollbar.js",
+	"sourceRoot": "../../coffee/Gemini/",
+	"sources": [
+		"gemini-non-scrollbar.coffee"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;;;;;;;;AAaA,MAAM,CAAC,MAAP,GAAgB,QAAA,CAAA,CAAA;EACf,IAAI,eAAJ,CAEC,CAAA;;IAAA,OAAA,EAAS,QAAQ,CAAC,aAAT,CAAuB,MAAvB,CAAT;IACA,QAAA,EAAU;EADV,CAFD,CAGgB,CAAC,MAHjB,CAAA;AADe",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:   2017-05-02 14:47:01\n@Last Modified time: 2017-05-02 15:18:45\n###\n####################\n# gemini-scrollbar #\n####################\n###\nCustom scrollbar instead of native body scrollbar:\nhttps://noeldelgado.github.io/gemini-scrollbar/\nDisable scrollbar, but continue scrolling.\n###\nwindow.onload = ->\n\tnew GeminiScrollbar(\n\t\t# querySelector method — https://www.w3schools.com/jsref/met_document_queryselector.asp\n\t\telement: document.querySelector('body')\n\t\tautoshow: true).create()\n\treturn\n"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "fancybox.js",
+	"sourceRoot": "../../coffee/Fancybox/",
+	"sources": [
+		"fancybox.coffee"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;AAcA,CAAA,CAAE,QAAA,CAAA,CAAA,EAAA;;;;;;;;;EACD,CAAA,CAAE,WAAF,CAAc,CAAC,QAAf,CACC;IAAA,KAAA,EAAO;EAAP,CADD;AADC,CAAF",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:   2017-04-04 13:01:15\n@Last Modified time: 2017-04-14 14:37:51\n###\n############\n# Fancybox #\n############\n###\nModal window for images:\nhttp://fancyapps.com/fancybox/3/\nhttp://fancyapps.com/fancybox/3/docs/#options\nhttp://xiper.net/collect/js-plugins/gallery/fancybox\n###\n$ ->\n\t$('.fancybox').fancybox\n\t\tmodal: false\n\treturn\n"
+	]
+}

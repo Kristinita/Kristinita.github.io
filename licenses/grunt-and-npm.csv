@@ -122,7 +122,7 @@ boxen,0.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-r
 brace-expansion,1.1.11,/home/travis/build/Kristinita/KristinitaPelican/node_modules/brace-expansion,http://github.com/juliangruber/brace-expansion,MIT,MIT,MIT,MIT
 braces,1.8.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/braces,https://github.com/jonschlinkert/braces,MIT,MIT,MIT,
 browser-request,0.3.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browser-request,http://github.com/iriscouch/browser-request,Apache,,Apache,
-browser-sync,2.24.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browser-sync,https://github.com/BrowserSync/browser-sync,Apache;Apache-2.0;MIT,Apache-2.0,Apache,MIT
+browser-sync,2.24.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browser-sync,https://github.com/BrowserSync/browser-sync,Apache;Apache-2.0;MIT,Apache-2.0,Apache,MIT
 browser-sync-ui,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browser-sync-ui,https://github.com/BrowserSync/UI,Apache;Apache-2.0,Apache-2.0,Apache,
 browserslist,3.2.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browserslist,https://github.com/browserslist/browserslist,MIT,MIT,MIT,
 bs-html-injector,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bs-html-injector,http://github.com/shakyshane/html-injector,MIT,MIT,,
@@ -191,6 +191,7 @@ coffee-script,1.12.7,/home/travis/build/Kristinita/KristinitaPelican/node_module
 coffeelint,1.16.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/coffeelint,http://github.com/clutchski/coffeelint,MIT,MIT,,
 coffeelint-stylish,0.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/coffeelint-stylish,https://github.com/janraasch/coffeelint-stylish,MIT,MIT,,
 coffeescript,1.10.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/coffeescript,http://github.com/jashkenas/coffeescript,MIT,MIT,,
+coffeescript,2.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-coffee/node_modules/coffeescript,(none),MIT,MIT,,
 color-convert,1.9.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/color-convert,https://github.com/Qix-/color-convert,MIT,MIT,,
 color-name,1.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/color-name,ssh://git@github.com/dfcreative/color-name,MIT,MIT,MIT,
 color-support,1.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/color-support,https://github.com/isaacs/color-support,ISC,ISC,ISC,
@@ -428,6 +429,7 @@ grunt-cli,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/gru
 grunt-coffeelint,0.0.16,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-coffeelint,http://github.com/vojtajina/grunt-coffeelint,MIT,MIT,MIT,
 grunt-concurrent,2.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-concurrent,https://github.com/sindresorhus/grunt-concurrent,MIT,MIT,MIT,MIT
 grunt-contrib-clean,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-clean,https://github.com/gruntjs/grunt-contrib-clean,MIT,MIT,,
+grunt-contrib-coffee,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-coffee,https://github.com/gruntjs/grunt-contrib-coffee,MIT,MIT,,
 grunt-contrib-copy,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-copy,https://github.com/gruntjs/grunt-contrib-copy,MIT,MIT,,
 grunt-contrib-imagemin,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-imagemin,https://github.com/gruntjs/grunt-contrib-imagemin,MIT,MIT,MIT,MIT
 grunt-contrib-stylus,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-stylus,https://github.com/gruntjs/grunt-contrib-stylus,MIT,MIT,,
@@ -1083,6 +1085,7 @@ unzip-response,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_module
 unzip2,0.2.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unzip2,https://github.com/glebdmitriew/node-unzip-2,MIT,MIT,,MIT
 update-notifier,0.6.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/update-notifier,https://github.com/yeoman/update-notifier,BSD-2-Clause,BSD-2-Clause,,
 update-notifier,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-robots-txt/node_modules/update-notifier,(none),BSD-2-Clause,BSD-2-Clause,,
+uri-path,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uri-path,https://github.com/UltCombo/uri-path,MIT;WTFPL;WTFPL OR MIT,WTFPL OR MIT,MIT;WTFPL,
 urix,0.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/urix,https://github.com/lydell/urix,MIT,MIT,MIT,
 url-parse-lax,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/package-json/node_modules/url-parse-lax,(none),MIT,MIT,MIT,MIT
 url-parse-lax,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/url-parse-lax,https://github.com/sindresorhus/url-parse-lax,MIT,MIT,MIT,MIT

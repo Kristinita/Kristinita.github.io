@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "Clipboard.js",
+	"sourceRoot": "../../coffee/Clipboard.js/",
+	"sources": [
+		"Clipboard.coffee"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;;;;;;;;;;AAeA,IAAI,SAAJ,CAAc,cAAd,EAA8B;EAAA,IAAA,EAAM,QAAA,CAAC,OAAD,CAAA;WACnC,CAAA,CAAE,OAAF,CAAU,CAAC,OAAX,CAAmB,sBAAnB,CAA0C,CAAC,IAA3C,CAAgD,KAAhD,CAAsD,CAAC,IAAvD,CAAA;EADmC;AAAN,CAA9B",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:\t 2017-04-09 09:17:06\n@Last Modified time: 2018-05-04 08:57:40\n###\n################\n# Clipboard.js #\n################\n###\nActivate Clipboard.js for .SashaButton class\n[DEPRECATED] Works without DOM initialization\nhttp://ru.stackoverflow.com/a/582520/199934\n[DEPRECATED] For Rainbow: http://stackoverflow.com/a/33758293/5951529\n[NEW] For SuperFences: https://stackoverflow.com/a/33758435/5951529\n###\nnew Clipboard('.SashaButton', text: (trigger) ->\n\t$(trigger).closest('.SashaBlockHighlight').find('pre').text()\n)\n"
+	]
+}
