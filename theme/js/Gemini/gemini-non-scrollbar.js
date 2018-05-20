@@ -18,5 +18,3 @@ window.onload = function() {
 		autoshow: true
 	}).create();
 };
-
-//# sourceMappingURL=gemini-non-scrollbar.js.map

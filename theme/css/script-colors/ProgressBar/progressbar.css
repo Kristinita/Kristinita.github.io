@@ -1,0 +1,31 @@
+/* >> Progressbar
+	========================================================================== */
+/*
+* https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/
+* https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
+*/
+.progress-label {
+	position: absolute;
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+	margin: 0;
+	line-height: 1.2rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.progress-bar {
+	height: 1.2rem;
+	float: left;
+}
+.progress {
+	display: block;
+	width: 100%;
+	margin: 0.5rem 0;
+	height: 1.2rem;
+	position: relative;
+}
+.progress.thin {
+	margin-top: 0.9rem;
+	height: 0.4rem;
+}

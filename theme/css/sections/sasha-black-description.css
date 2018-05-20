@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-	background-color: #eee8aa;
+	background-color: rgba(221,160,221,0.6);
 }
 
 a:focus {
@@ -31,12 +31,12 @@ em {
 
 img {
 	-webkit-box-shadow: 0 0 2rem #000;
-	box-shadow: 0 0 2rem #000;
+					box-shadow: 0 0 2rem #000;
 }
 
 .SashaPageLoading {
 	-webkit-box-shadow: none;
-	box-shadow: none;
+					box-shadow: none;
 }
 
 kbd {
@@ -44,8 +44,7 @@ kbd {
 	background: #d2691e;
 }
 
-td,
-th {
+td,th {
 	border: 0.0625rem solid #ff8c00;
 }
 
@@ -64,28 +63,28 @@ code {
 	background-color: #2f4f4f;
 }
 
-pre>code {
+pre >code {
 	background-color: Sasha-Multiline-Code;
 }
 
 ::-moz-selection {
-	color: #f08080;
+	color: rgba(240,128,128,0.467);
 	background: #ffe4b5;
 }
 
 ::selection {
-	color: #f08080;
-	background: rgba(255, 228, 181, 0.99);
+	color: rgba(240,128,128,0.467);
+	background: rgba(255,228,181,0.99);
 }
 
 ::-moz-selection:window-inactive {
-	color: #f08080;
-	background: rgba(255, 228, 181, 0.99);
+	color: rgba(240,128,128,0.467);
+	background: rgba(255,228,181,0.99);
 }
 
 ::selection:window-inactive {
-	color: #f08080;
-	background: rgba(255, 228, 181, 0.99);
+	color: rgba(240,128,128,0.467);
+	background: rgba(255,228,181,0.99);
 }
 
 .SashaEmNoColor {
@@ -93,12 +92,12 @@ pre>code {
 }
 
 .tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 3px solid #ffa500;
+	border-bottom: 0.1875rem solid #ffa500;
 	background: #800080;
 }
 
 .tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 3px solid #ff69b4;
+	border-bottom: 0.1875rem solid #ff69b4;
 	background: #228b22;
 }
 

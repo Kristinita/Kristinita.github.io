@@ -21,5 +21,3 @@ typo = new TypoReporter({
 	locale: 'ru',
 	offset: 44
 }, rootNode);
-
-//# sourceMappingURL=typo-reporter-ru.js.map

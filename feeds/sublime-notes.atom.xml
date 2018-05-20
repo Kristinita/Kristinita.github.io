@@ -1,190 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Notes</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sublime-notes.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-05-04T08:55:29+03:00</updated><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Notes</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sublime-notes.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-05-20T08:35:15+03:00</updated><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
-&lt;p&gt;&lt;br /&gt; All comments on &lt;a href="http://jmp.sh/xasKD18"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.
-&lt;br /&gt;
-&lt;br /&gt; Many thanks for your huge work on writing of the book! Sincerely, &lt;a href="http://ru.stackoverflow.com/tags/sublime-text/topusers"&gt;leader in Sublime Text tag rating on Russian Stack Overflow&lt;/a&gt;, Sasha Chernykh.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;13&lt;/b&gt;
-&lt;br /&gt; I think we can talk about the final transition from Sublime Text 2 to 3.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;14&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;1. Open the console by hitting the key combination
-    &lt;kbd&gt;Ctrl + &lt;/kbd&amp;gt;
-&lt;/blockquote&gt;
-Now by default
-&lt;kbd&gt;Ctrl+`&lt;/kbd&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;16&lt;/b&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/62uCZBa.png" alt="Alt attribute fish"&gt;&lt;br /&gt;
-If to use Portable version, it isn't necessary to specify
-&lt;dfn&gt;%APPDATA%&lt;/dfn&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;45&lt;/b&gt;
-&lt;br /&gt; On &lt;a href="https://johnblackbourn.com/sublimecodeintel-st3"&gt;&lt;a href="https://johnblackbourn.com/sublimecodeintel-st3"&gt;johnblackbourn.com/sublimecodeintel-st3&lt;/a&gt;&lt;/a&gt; page now &lt;a href="https://github.com/spectacles/CodeComplice"&gt;reccomend&lt;/a&gt; CodeComplice use, but for me CodeComplice is some bugs and undesirable behavior, &lt;a href="https://github.com/spectacles/CodeComplice/issues/51"&gt;example&lt;/a&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;50&lt;/b&gt;
-&lt;br /&gt;
-&lt;dfn&gt;-(std in)&lt;/dfn&gt; only for OSX users, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#invocations"&gt;unofficial documentation&lt;/a&gt;, but in the book of it it isn't specified.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;52&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;
-    &lt;dfn&gt;-a&lt;/dfn&gt; or
-    &lt;dfn&gt;--add&lt;/dfn&gt;: Add the current file or folder to the active/last used sublime text window&lt;/blockquote&gt;
-This command is only for folders, but not for files, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#options"&gt;unofficial documentation&lt;/a&gt;.
-&lt;dfn&gt;subl -a ExampleFolder&lt;/dfn&gt; add folder
-&lt;dfn&gt;ExampleFolder&lt;/dfn&gt; in current window,
-&lt;dfn&gt;subl ExampleFolder&lt;/dfn&gt; in new window. But
-&lt;dfn&gt;subl -a test.txt&lt;/dfn&gt; =
-&lt;dfn&gt;subl test.txt&lt;/dfn&gt;, both of these commands open a test.txt file in a new tab of the active window. The example below is also incorrect.
-&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;68&lt;/b&gt;
-&lt;br /&gt; This method does not work for me. It is necessary, or hold down the middle mouse button or
-&lt;kbd&gt;Ctrl+Alt+↓/↑&lt;/kbd&gt; . See &lt;a href="https://forum.sublimetext.com/t/solved-how-to-quick-select-in-every-line-between-first-and-last-for-me/21688"&gt;forum thread&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;77&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;go to
-    &lt;kbd&gt;Tools&lt;/kbd&gt; —►
-    &lt;kbd&gt;New snippet ...&lt;/kbd&gt;
-&lt;/blockquote&gt;
-In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippet ...&lt;/kbd&gt; .
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/K3YqJ4S.png" alt="Alt attribute fish"&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;80&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;If you are having trouble finding the scope, an easy way to find it is to open your packages folder
-    &lt;kbd&gt;Preferences&lt;/kbd&gt; →
-        &lt;kbd&gt;Browse Packages...&lt;/kbd&gt; and find the folder associated with your language. Inside of that folder will be a
-        &lt;dfn&gt;.tmLanguage &lt;/dfn&gt; file.&lt;/blockquote&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Now use &lt;a href="https://www.sublimetext.com/docs/3/syntax.html"&gt;sublime-syntax&lt;/a&gt; files.&lt;/li&gt;
-&lt;li&gt;Not all folders programming languages can be found on the path&lt;/li&gt;
+&lt;li&gt;&lt;a href="#preamble"&gt;Preamble&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#13"&gt;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#14"&gt;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#16"&gt;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#45"&gt;45&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#50"&gt;50&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#52"&gt;52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#68"&gt;68&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#77"&gt;77&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#80"&gt;80&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#84"&gt;84&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#92"&gt;92&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#94"&gt;94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#94-1"&gt;94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#95"&gt;95&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#95-1"&gt;95&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#96"&gt;96&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#103"&gt;103&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#104"&gt;104&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#108"&gt;108&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#128"&gt;128&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#142"&gt;142&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#143"&gt;143&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#154"&gt;154&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#155"&gt;155&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#158"&gt;158&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#161"&gt;161&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#165"&gt;165&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#175"&gt;175&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#176"&gt;176&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#180"&gt;180&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#180-1"&gt;180&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#183"&gt;183&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#189"&gt;189&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#197"&gt;197&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#198"&gt;198&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#200"&gt;200&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#201"&gt;201&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;kbd&gt;Preferences&lt;/kbd&gt; →
-&lt;kbd&gt;Browse Packages...&lt;/kbd&gt; .
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;84&lt;/b&gt;
-&lt;br /&gt; Now
-&lt;kbd&gt;Ctrl+G&lt;/kbd&gt; is &lt;dfn&gt;Goto Line...&lt;/dfn&gt; .
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;92&lt;/b&gt;
-&lt;br /&gt; Empty section «Moving Lines and Code Blocks»
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/x1tF1mG.png" alt="Alt attribute fish"&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;94&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;Using
-    &lt;kbd&gt;Ctrl+K&lt;/kbd&gt; without the shift key will delete from the caret to the end of the current line.&lt;/blockquote&gt;
-Using
-&lt;kbd&gt;Ctrl+K, Ctrl+K&lt;/kbd&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;94&lt;/b&gt;
-&lt;br /&gt; On Windows forward delete words-by-words is
-&lt;kbd&gt;Ctrl+Delete&lt;/kbd&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;95&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;Just press space and keep typing!&lt;/blockquote&gt;
-If you only press the spacebar,
-&lt;dfn&gt;p&lt;/dfn&gt; tag was removed.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;95&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;kbd&gt;Ctrl+↑/↓&lt;/kbd&gt; on Windows is jump to the beginning/end of word, not line.
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/u3zjnlJ.png" alt="Alt attribute fish"&gt;
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;96&lt;/b&gt;
-    &lt;br /&gt; All hotkeys in this image is not work for me.
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/li2YjO9.png" alt="Alt attribute fish"&gt;
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;103&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;(Windows users use
-        &lt;kbd&gt;Ctrl+Shift&lt;/kbd&gt;)&lt;/blockquote&gt;
-    Windows users use
-    &lt;kbd&gt;Ctrl+Shift+[&lt;/kbd&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;104&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;The keyboard shortcut for this is a little different. We need to hold down (
-        &lt;kbd&gt;Ctrl&lt;/kbd&gt; on Windows/Linux) and then tap
-            &lt;kbd&gt;K&lt;/kbd&gt;.&lt;/blockquote&gt;
-    Not working on Windows.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;108&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/nlEMn8q.png" alt="Alt attribute fish"&gt;&lt;br /&gt; I think that once you have a slash at the beginning. Not
-    &lt;dfn&gt;"path": "/Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;, correct is
-    &lt;dfn&gt;"path": "Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;. For example, I have
-    &lt;dfn&gt;User&lt;/dfn&gt; folder, when is situated my
-    &lt;dfn&gt;sublime-project&lt;/dfn&gt; file and folder
-    &lt;dfn&gt;Dictionary&lt;/dfn&gt;. If I want to specify the path to the folder
-    &lt;dfn&gt;Dictionary&lt;/dfn&gt;, I must point
-    &lt;dfn&gt;"Dictionaries"&lt;/dfn&gt; or
-    &lt;dfn&gt;"./Dictionaries"&lt;/dfn&gt; or
-    &lt;dfn&gt;"../User/Dictionaries"&lt;/dfn&gt;, But I do not understand how to specify the relative path with a slash at the beginning of.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;128&lt;/b&gt;
-    &lt;br /&gt; Incorrect example, see &lt;a href="https://forum.sublimetext.com/t/not-automatic-change-of-build-system/21745"&gt;forum thread&lt;/a&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;142&lt;/b&gt;
-    &lt;br /&gt; Sublimerge 3 — paid plugin, I believe that it is necessary to specify in the book.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;143&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/1Vfnz56.png" alt="Alt attribute fish"&gt;
-    &lt;br /&gt; Hotkeys not work for me.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;154&lt;/b&gt;
-    &lt;br /&gt; Not
-    &lt;dfn&gt;c#badda55.3&lt;/dfn&gt;, correct is
-    &lt;dfn&gt;c#badda5.3&lt;/dfn&gt;. Emmet still indicate the right color, but in my opinion, do not result in the book of incorrect examples.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;155&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;Ctrl+Shift+G&lt;/kbd&gt;, not
-    &lt;kbd&gt;Ctrl+W&lt;/kbd&gt; by default.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;158&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;Ctrl+'&lt;/kbd&gt;, not
-    &lt;kbd&gt;Ctrl+Shift+D&lt;/kbd&gt; by default.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;161&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;Ctrl+Alt+J&lt;/kbd&gt;, not
-    &lt;kbd&gt;Ctrl+Shift+T&lt;/kbd&gt; by default.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;165&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;View in SublimeServer&lt;/kbd&gt;, not
-    &lt;kbd&gt;View This File in the Browser&lt;/kbd&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;175&lt;/b&gt;
-    &lt;br /&gt; Transmit Dosksend &lt;a href="https://packagecontrol.io/packages/Transmit%20Docksend"&gt;only for Sublime Text 2 and OSX&lt;/a&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;176&lt;/b&gt;
-    &lt;br /&gt; Bower need &lt;a href="https://github.com/benschwarz/sublime-bower#installation"&gt;Git&lt;/a&gt; for Windows users.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;180&lt;/b&gt;
-    &lt;br /&gt; «mode at a lang&lt;b&gt;ua&lt;/b&gt;ge»
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;180&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;You can also turn on Vintage mode at a langauge level by adding
-        &lt;dfn&gt;"ignored_packages": []&lt;/dfn&gt; to your language specific settings file — more on this in the settings section.&lt;/blockquote&gt;
-    Where is settings section?
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;183&lt;/b&gt;
-    &lt;br /&gt; Package CSS3 Syntax has been replaced by &lt;a href="https://github.com/y0ssar1an/CSS3_Syntax#announcement-for-st3-users-this-package-has-been-replaced-by-css3-this-package-will-be-removed-some-time-after-sublime-text-3-is-released"&gt;CSS3&lt;/a&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;189&lt;/b&gt;
-    &lt;br /&gt; Pretty JSON &lt;a href="https://github.com/dzhibas/SublimePrettyJson/issues/70"&gt;does not work&lt;/a&gt; with files that contain comments. This is a serious drawback, in my opinion it is necessary to mention in the book.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;197&lt;/b&gt;
-    &lt;br /&gt; By default in TOC will be
-    &lt;dfn&gt;[about]&lt;/dfn&gt; and
-    &lt;dfn&gt;[growing-up]&lt;/dfn&gt;, not
-    &lt;dfn&gt;(#about)&lt;/dfn&gt; and
-    &lt;dfn&gt;(#growing-up)&lt;/dfn&gt;, see gif:
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://packagecontrol.io/readmes/img/b64bfa89d42bf72a062e070872a03f6832d62ae5.gif" alt="Alt attribute fish"&gt;&lt;br /&gt; To make as at you on the picture, it is necessary to add in the file
-    &lt;kbd&gt;MarkdownTOC&lt;/kbd&gt; →
-    &lt;kbd&gt;Settings - User&lt;/kbd&gt; line &lt;dfn&gt;{ "default_bracket": "round", }&lt;/dfn&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;198&lt;/b&gt;
-    &lt;br /&gt; SublimeTODO plugin wasn't updated long ago, TODO Review is &lt;a href="https://github.com/robcowie/SublimeTODO"&gt;recommended&lt;/a&gt; to use.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;200&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;If the language supports block commenting, add in
-        &lt;kbd&gt;option/alt&lt;/kbd&gt; into the mix to block comment multiple lines of selected code.&lt;/blockquote&gt;
-    Multi-line comments are added to the Windows hotkey
-    &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;201&lt;/b&gt;
-    &lt;br /&gt; You have not written, how to call Fullscreen Mode, in my opinion, you need to specify the hot keys —
-    &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry></feed>
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a id="preamble"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Preamble&lt;/h2&gt;
+&lt;p&gt;All comments on &lt;a href="http://jmp.sh/xasKD18" target="_blank"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723" target="_blank"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.&lt;/p&gt;
+&lt;p&gt;Many thanks for your huge work on writing of the book! Sincerely, &lt;a href="http://ru.stackoverflow.com/tags/sublime-text/topusers" target="_blank"&gt;leader in Sublime Text tag rating on Russian Stack Overflow&lt;/a&gt;, Sasha Chernykh.&lt;/p&gt;
+&lt;p&gt;&lt;a id="13"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.1. 13&lt;/h3&gt;
+&lt;p&gt;I think we can talk about the final transition from Sublime Text 2 to 3.&lt;/p&gt;
+&lt;p&gt;&lt;a id="14"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.2. 14&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the console by hitting the key combination &lt;kbd&gt;Ctrl + \&lt;/kbd&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now by default &lt;kbd&gt;Ctrl+`&lt;/kbd&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="16"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.3. 16&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/62uCZBa.png"&gt;&lt;/p&gt;
+&lt;p&gt;If to use Portable version, it isn't necessary to specify &lt;dfn&gt;%APPDATA%&lt;/dfn&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="45"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.4. 45&lt;/h3&gt;
+&lt;p&gt;On &lt;a href="https://johnblackbourn.com/sublimecodeintel-st3" target="_blank"&gt;https://johnblackbourn.com/sublimecodeintel-st3&lt;/a&gt; page now &lt;a href="https://github.com/spectacles/CodeComplice" target="_blank"&gt;reccomend&lt;/a&gt; CodeComplice use, but for me CodeComplice is some bugs and undesirable behavior, &lt;a href="https://github.com/spectacles/CodeComplice/issues/51" target="_blank"&gt;example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="50"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.5. 50&lt;/h3&gt;
+&lt;p&gt;&lt;dfn&gt;-(std in)&lt;/dfn&gt; only for OSX users, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#invocations" target="_blank"&gt;unofficial documentation&lt;/a&gt;, but in the book of it it isn't specified.&lt;/p&gt;
+&lt;p&gt;&lt;a id="52"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.6. 52&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;dfn&gt;-a&lt;/dfn&gt;or &lt;dfn&gt;--add&lt;/dfn&gt;: Add the current file or folder to the active/last used sublime text window&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This command is only for folders, but not for files, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#options" target="_blank"&gt;unofficial documentation&lt;/a&gt; . &lt;dfn&gt;subl -a ExampleFolder&lt;/dfn&gt; add folder &lt;dfn&gt;ExampleFolder&lt;/dfn&gt; in current window, &lt;dfn&gt;subl ExampleFolder&lt;/dfn&gt; in new window. But &lt;dfn&gt;subl -a test.txt&lt;/dfn&gt; = &lt;dfn&gt;subl test.txt&lt;/dfn&gt;, both of these commands open a test.txt file in a new tab of the active window. The example below is also incorrect.&lt;/p&gt;
+&lt;p&gt;&lt;a id="68"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.7. 68&lt;/h3&gt;
+&lt;p&gt;This method does not work for me. It is necessary, or hold down the middle mouse button or &lt;kbd&gt;Ctrl+Alt+↓/↑&lt;/kbd&gt; . See &lt;a href="https://forum.sublimetext.com/t/solved-how-to-quick-select-in-every-line-between-first-and-last-for-me/21688" target="_blank"&gt;forum thread&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="77"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.8. 77&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;go to &lt;kbd&gt;Tools&lt;/kbd&gt;—►&lt;kbd&gt;New snippet ...&lt;/kbd&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippet ...&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/K3YqJ4S.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="80"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.9. 80&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you are having trouble finding the scope, an easy way to find it is to open your packages folder &lt;kbd&gt;Preferences&lt;/kbd&gt;→&lt;kbd&gt;Browse Packages...&lt;/kbd&gt;and find the folder associated with your language. Inside of that folder will be a &lt;dfn&gt;.tmLanguage&lt;/dfn&gt;file.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Now use &lt;a href="https://www.sublimetext.com/docs/3/syntax.html" target="_blank"&gt;sublime-syntax&lt;/a&gt; files.&lt;/li&gt;
+&lt;li&gt;Not all folders programming languages can be found on the path
+ &lt;kbd&gt;Preferences&lt;/kbd&gt; → &lt;kbd&gt;Browse Packages...&lt;/kbd&gt; .&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="84"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.10. 84&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+G&lt;/kbd&gt; is &lt;dfn&gt;Goto Line...&lt;/dfn&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="92"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.11. 92&lt;/h3&gt;
+&lt;p&gt;Empty section «Moving Lines and Code Blocks»&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/x1tF1mG.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="94"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.12. 94&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using &lt;kbd&gt;Ctrl+K&lt;/kbd&gt;without the shift key will delete from the caret to the end of the current line.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Using &lt;kbd&gt;Ctrl+K, Ctrl+K&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="94-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.13. 94&lt;/h3&gt;
+&lt;p&gt;On Windows forward delete words-by-words is &lt;kbd&gt;Ctrl+Delete&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="95"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.14. 95&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Just press space and keep typing!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you only press the spacebar, &lt;dfn&gt;p&lt;/dfn&gt; tag was removed.&lt;/p&gt;
+&lt;p&gt;&lt;a id="95-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.15. 95&lt;/h3&gt;
+&lt;p&gt;&lt;kbd&gt;Ctrl+↑/↓&lt;/kbd&gt; on Windows is jump to the beginning/end of word, not line.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/u3zjnlJ.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="96"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.16. 96&lt;/h3&gt;
+&lt;p&gt;All hotkeys in this image is not work for me.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/li2YjO9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="103"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.17. 103&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(Windows users use &lt;kbd&gt;Ctrl+Shift&lt;/kbd&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Windows users use &lt;kbd&gt;Ctrl+Shift+[&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="104"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.18. 104&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The keyboard shortcut for this is a little different. We need to hold down (&lt;kbd&gt;Ctrl&lt;/kbd&gt;on Windows/Linux) and then tap &lt;kbd&gt;K&lt;/kbd&gt;.
+Not working on Windows.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a id="108"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.19. 108&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/nlEMn8q.png"&gt;&lt;/p&gt;
+&lt;p&gt;I think that once you have a slash at the beginning. Not &lt;dfn&gt;"path": "/Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;, correct is &lt;dfn&gt;"path": "Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt; . For example, I have &lt;dfn&gt;User&lt;/dfn&gt; folder, when is situated my &lt;dfn&gt;sublime-project&lt;/dfn&gt; file and folder &lt;dfn&gt;Dictionary&lt;/dfn&gt; . If I want to specify the path to the folder &lt;dfn&gt;Dictionary&lt;/dfn&gt;, I must point &lt;dfn&gt;"Dictionaries"&lt;/dfn&gt; or &lt;dfn&gt;"./Dictionaries"&lt;/dfn&gt; or &lt;dfn&gt;"../User/Dictionaries"&lt;/dfn&gt;, But I do not understand how to specify the relative path with a slash at the beginning of.&lt;/p&gt;
+&lt;p&gt;&lt;a id="128"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.20. 128&lt;/h3&gt;
+&lt;p&gt;Incorrect example, see &lt;a href="https://forum.sublimetext.com/t/not-automatic-change-of-build-system/21745" target="_blank"&gt;forum thread&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="142"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.21. 142&lt;/h3&gt;
+&lt;p&gt;Sublimerge 3 — paid plugin, I believe that it is necessary to specify in the book.&lt;/p&gt;
+&lt;p&gt;&lt;a id="143"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.22. 143&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/1Vfnz56.png"&gt;&lt;/p&gt;
+&lt;p&gt;Hotkeys not work for me.&lt;/p&gt;
+&lt;p&gt;&lt;a id="154"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.23. 154&lt;/h3&gt;
+&lt;p&gt;Not &lt;dfn&gt;c#badda55.3&lt;/dfn&gt;, correct is &lt;dfn&gt;c#badda5.3&lt;/dfn&gt; . Emmet still indicate the right color, but in my opinion, do not result in the book of incorrect examples.&lt;/p&gt;
+&lt;p&gt;&lt;a id="155"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.24. 155&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+Shift+G&lt;/kbd&gt;, not &lt;kbd&gt;Ctrl+W&lt;/kbd&gt; by default.&lt;/p&gt;
+&lt;p&gt;&lt;a id="158"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.25. 158&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+'&lt;/kbd&gt;, not &lt;kbd&gt;Ctrl+Shift+D&lt;/kbd&gt; by default.&lt;/p&gt;
+&lt;p&gt;&lt;a id="161"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.26. 161&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+Alt+J&lt;/kbd&gt;, not &lt;kbd&gt;Ctrl+Shift+T&lt;/kbd&gt; by default.&lt;/p&gt;
+&lt;p&gt;&lt;a id="165"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.27. 165&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;View in SublimeServer&lt;/kbd&gt;, not &lt;kbd&gt;View This File in the Browser&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="175"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.28. 175&lt;/h3&gt;
+&lt;p&gt;Transmit Dosksend &lt;a href="https://packagecontrol.io/packages/Transmit%20Docksend" target="_blank"&gt;only for Sublime Text 2 and OSX&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="176"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.29. 176&lt;/h3&gt;
+&lt;p&gt;Bower need &lt;a href="https://github.com/benschwarz/sublime-bower#installation" target="_blank"&gt;Git&lt;/a&gt; for Windows users.&lt;/p&gt;
+&lt;p&gt;&lt;a id="180"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.30. 180&lt;/h3&gt;
+&lt;p&gt;«mode at a language»&lt;/p&gt;
+&lt;p&gt;&lt;a id="180-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.31. 180&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can also turn on Vintage mode at a langauge level by adding &lt;dfn&gt;"ignored_packages": []&lt;/dfn&gt;to your language specific settings file — more on this in the settings section.
+Where is settings section?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a id="183"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.32. 183&lt;/h3&gt;
+&lt;p&gt;Package CSS3 Syntax has been replaced by &lt;a href="https://github.com/y0ssar1an/CSS3_Syntax#announcement-for-st3-users-this-package-has-been-replaced-by-css3-this-package-will-be-removed-some-time-after-sublime-text-3-is-released" target="_blank"&gt;CSS3&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="189"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.33. 189&lt;/h3&gt;
+&lt;p&gt;Pretty JSON &lt;a href="https://github.com/dzhibas/SublimePrettyJson/issues/70" target="_blank"&gt;does not work&lt;/a&gt; with files that contain comments. This is a serious drawback, in my opinion it is necessary to mention in the book.&lt;/p&gt;
+&lt;p&gt;&lt;a id="197"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.34. 197&lt;/h3&gt;
+&lt;p&gt;By default in TOC will be &lt;dfn&gt;[about]&lt;/dfn&gt; and &lt;dfn&gt;[growing-up]&lt;/dfn&gt;, not &lt;dfn&gt;(#about)&lt;/dfn&gt; and &lt;dfn&gt;(#growing-up)&lt;/dfn&gt;, see gif:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://packagecontrol.io/readmes/img/b64bfa89d42bf72a062e070872a03f6832d62ae5.gif"&gt;&lt;/p&gt;
+&lt;p&gt;To make as at you on the picture, it is necessary to add in the file &lt;kbd&gt;MarkdownTOC&lt;/kbd&gt; → &lt;kbd&gt;Settings - User&lt;/kbd&gt; line &lt;dfn&gt;{ "default_bracket": "round", }&lt;/dfn&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="198"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.35. 198&lt;/h3&gt;
+&lt;p&gt;SublimeTODO plugin wasn't updated long ago, TODO Review is &lt;a href="https://github.com/robcowie/SublimeTODO" target="_blank"&gt;recommended&lt;/a&gt; to use.&lt;/p&gt;
+&lt;p&gt;&lt;a id="200"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.36. 200&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If the language supports block commenting, add in &lt;kbd&gt;option/alt&lt;/kbd&gt;into the mix to block comment multiple lines of selected code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Multi-line comments are added to the Windows hotkey &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
+&lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.37. 201&lt;/h3&gt;
+&lt;p&gt;You have not written, how to call Fullscreen Mode, in my opinion, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry></feed>

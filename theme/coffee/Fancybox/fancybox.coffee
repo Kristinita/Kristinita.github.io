@@ -12,7 +12,5 @@ http://fancyapps.com/fancybox/3/
 http://fancyapps.com/fancybox/3/docs/#options
 http://xiper.net/collect/js-plugins/gallery/fancybox
 ###
-$ ->
-	$('.fancybox').fancybox
-		modal: false
-	return
+$('.fancybox').fancybox
+	modal: false

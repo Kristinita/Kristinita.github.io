@@ -18,13 +18,15 @@
 	margin-left: 0;
 }*/
 
+@import "placeholders.styl"
+
 /* ==========================================================================
 	Media
 	========================================================================== */
 
 /* Landscape */
 
-@media screen and (orientation: landscape)
+@media screen and (orientation landscape)
 
 	/* Container without scrollbar */
 
@@ -40,9 +42,20 @@
 	main
 		float right
 
+	noscript
+		@extend $SashaRightZero
+
+	/*
+	* Overwrite “left:0” for default browser-update settings:
+	* https://stackoverflow.com/a/10102950/5951529
+	*/
+	div.buorg
+		@extend $SashaRightZero
+		left auto
+
 /* Portrait */
 
-@media screen and (orientation: portrait)
+@media screen and (orientation portrait)
 
 	/* Don't use Malihu */
 

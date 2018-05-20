@@ -4,35 +4,21 @@
 * @Last Modified time: 2017-05-02 18:46:12
 */
 
-SashaColor1 = #ff8c00
-SashaColor2 = #ffb6c1
-SashaColor3 = #ffe4e1
-SashaColor4 = #bababa
-SashaColor5 = #fff
-SashaColor6 = #ee82ee
-SashaColor7 = #ffe4c4
-SashaColor8 = #fdf5e6
-SashaColor9 = #f5fffa
-SashaColor10 = #add8e6
-SashaColor11 = #ba55d8
-SashaColor12 = #dda0dd
-SashaColor13 = #ffc0cb
-SashaColor14 = #7fff00
-SashaColor15 = rgba(255, 255, 255, 1)
-SashaColor16 = #ffefd5
-SashaColor17 = #ffa500
-SashaColor18 = #ffd700
-SashaColor19 = #ffae42
-SashaColor20 = rgba(0, 0, 0, .1)
-SashaColor21 = rgba(0, 0, 0, .3)
-SashaColor22 = rgba(0, 0, 0, .2)
-SashaColor23 = rgba(0, 0, 0, .25)
-SashaColor24 = rgba(0, 0, 0, .15)
-SashaColor25 = #ffbf00
+@import "../general/placeholders.styl"
+
+SashaKristinitaColor1 = #bababa
+SashaKristinitaColor2 = #ba55d8
+SashaKristinitaColor3 = #ffae42
+SashaKristinitaColor4 = rgba(0 0 0 .1)
+SashaKristinitaColor5 = rgba(0 0 0 .3)
+SashaKristinitaColor6 = rgba(0 0 0 .2)
+SashaKristinitaColor7 = rgba(0 0 0 .25)
+SashaKristinitaColor8 = rgba(0 0 0 .15)
+SashaKristinitaColor9 = #ffbf00
 
 body
 	padding-right 0
-	background url("../../images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed
+	background url("https://kristinita.ru/theme/images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed
 	background-size cover
 	background-color papayawhip
 	color mediumvioletred
@@ -43,15 +29,6 @@ a
 html
 	overflow-x hidden
 
-/* Inline displaying some div classes */
-
-.SashaKristinita
-.SashaBeta
-.SashaMinimal
-.SashaCopyright
-.SashaVKontakte
-	display inline
-
 /* Gemini
 	========================================================================== */
 
@@ -61,124 +38,125 @@ img
 /* Buttons */
 
 .Sasha
-	font 27px Tahoma, Geneva, sans-serif
+	font 1.6875rem Tahoma, Geneva, sans-serif
 	font-weight bold
 	float right
-	padding 11px 32px
+	padding .6875rem 2rem
 	text-align center
 	text-decoration none
-	color SashaColor1
-	border solid 4px SashaColor2
-	border-radius 14px
-	background-color SashaColor3
+	color darkorange
+	border solid .25rem lightpink
+	border-radius .875rem
+	background-color mistyrose
 	/* To bottom instead of top for Autoprefixer — https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816 */
-	background-image linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%)
-	box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+	// Commas required
+	background-image linear-gradient(to bottom, mistyrose, pink)
+	box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 	&:hover
-		font 36px Tahoma, Geneva, sans-serif
+		font 2.25rem Tahoma, Geneva, sans-serif
 		font-weight bold
-		padding 11px 32px
-		color SashaColor1
-		border solid 4px SashaColor2
-		border-radius 14px
-		background-color SashaColor3
-		background-image linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%)
-		background-position 0 -32px
-		box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+		padding .6875rem 2rem
+		color darkorange
+		border solid .25rem lightpink
+		border-radius .875rem
+		background-color mistyrose
+		background-image linear-gradient(to bottom, mistyrose, pink)
+		background-position 0 -2rem
+		box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 	&:active
-		font 36px Tahoma, Geneva, sans-serif
+		font 2.25rem Tahoma, Geneva, sans-serif
 		font-weight bold
-		padding 11px 32px
-		color SashaColor6
-		border solid 4px SashaColor2
-		border-radius 14px
-		background-color SashaColor3
-		background-image linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%)
-		background-position 0 -64px
-		box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+		padding .6875rem 2rem
+		color violet
+		border solid .25rem lightpink
+		border-radius .875rem
+		background-color mistyrose
+		background-image linear-gradient(to bottom, mistyrose, pink)
+		background-position 0 -4rem
+		box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 .Chernykh
-	font 27px Tahoma, Geneva, sans-serif
+	font 1.6875rem Tahoma, Geneva, sans-serif
 	font-weight bold
 	float right
-	padding 11px 32px
+	padding .6875rem 2rem
 	text-align center
 	text-decoration none
-	color SashaColor1
-	border solid 4px SashaColor7
-	border-radius 14px
-	background-color SashaColor8
-	background-image linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%)
-	box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+	color darkorange
+	border solid .25rem bisque
+	border-radius .875rem
+	background-color oldlace
+	background-image linear-gradient(to bottom, mintcream, aliceblue)
+	box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 	&:hover
-		font 36px Tahoma, Geneva, sans-serif
+		font 2.25rem Tahoma, Geneva, sans-serif
 		font-weight bold
-		padding 11px 32px
-		color SashaColor1
-		border solid 4px SashaColor7
-		border-radius 14px
-		background-color SashaColor9
-		background-image linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%)
-		box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+		padding .6875rem 2rem
+		color darkorange
+		border solid .25rem bisque
+		border-radius .875rem
+		background-color mintcream
+		background-image linear-gradient(to bottom, mintcream, aliceblue)
+		box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 	&:active
-		font 36px Tahoma, Geneva, sans-serif
+		font 2.25rem Tahoma, Geneva, sans-serif
 		font-weight bold
-		padding 11px 32px
-		color SashaColor10
-		border solid 4px SashaColor7
-		border-radius 14px
-		background-color SashaColor9
-		background-image linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%)
-		box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+		padding .6875rem 2rem
+		color lightblue
+		border solid .25rem bisque
+		border-radius .875rem
+		background-color mintcream
+		background-image linear-gradient(to bottom, mintcream, aliceblue)
+		box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 .Empress
-	font 27px Tahoma, Geneva, sans-serif
+	font 1.6875rem Tahoma, Geneva, sans-serif
 	font-weight bold
 	float right
-	padding 11px 32px
+	padding .6875rem 2rem
 	text-align center
 	text-decoration none
-	color SashaColor1
-	border solid 4px SashaColor11
-	border-radius 14px
-	background-color SashaColor12
-	background-image linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%)
-	box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+	color darkorange
+	border solid .25rem SashaKristinitaColor2
+	border-radius .875rem
+	background-color plum
+	background-image linear-gradient(to bottom, violet, orchid)
+	box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 	&:hover
-		font 36px Tahoma, Geneva, sans-serif
+		font 2.25rem Tahoma, Geneva, sans-serif
 		font-weight bold
-		padding 11px 32px
-		color SashaColor1
-		border solid 4px SashaColor11
-		border-radius 14px
-		background-color SashaColor6
-		background-image linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%)
-		box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+		padding .6875rem 2rem
+		color darkorange
+		border solid .25rem SashaKristinitaColor2
+		border-radius .875rem
+		background-color violet
+		background-image linear-gradient(to bottom, violet, orchid)
+		box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 	&:active
-		font 36px Tahoma, Geneva, sans-serif
+		font 2.25rem Tahoma, Geneva, sans-serif
 		font-weight bold
-		padding 11px 32px
-		color SashaColor13
-		border solid 4px SashaColor11
-		border-radius 14px
-		background-color SashaColor6
-		background-image linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%)
-		box-shadow 0 0 2px SashaColor4, inset 0 0 1px SashaColor5
+		padding .6875rem 2rem
+		color pink
+		border solid .25rem SashaKristinitaColor2
+		border-radius .875rem
+		background-color violet
+		background-image linear-gradient(to bottom, violet, orchid)
+		box-shadow 0 0 .125rem SashaKristinitaColor1, inset 0 0 .0625rem white
 
 .SashaMotto
-	font-family 'Cormorant'
-	font-size 40px
+	font-family "Cormorant"
+	font-size 2.5rem
 	text-align center
-	color SashaColor14
+	color chartreuse
 
 	&:hover
-		text-shadow 0 0 10px SashaColor15, 0 0 20px SashaColor15, 0 0 30px SashaColor15, 0 0 40px SashaColor16, 0 0 70px SashaColor16, 0 0 80px SashaColor16, 0 0 100px SashaColor16
+		text-shadow 0 0 .625rem white, 0 0 1.25rem white, 0 0 1.875rem white, 0 0 2.5rem papayawhip, 0 0 4.375rem papayawhip, 0 0 5rem papayawhip, 0 0 6.25rem papayawhip
 
 /* Подвал в head */
 
@@ -192,7 +170,7 @@ img
 	/* Цвет текста */
 	width 100%
 	/* Левый нижний угол */
-	margin 14px
+	margin .875rem
 	/* Поля вокруг текста */
 	/* Ширина слоя */
 	font-size 1.2rem
@@ -204,14 +182,14 @@ img
 	position relative
 	float left
 	text-align left
-	vertical-align 6em
+	vertical-align 6rem
 	bottom 0
 	/* Фиксированное положение */
 	right 0
 	/* Цвет текста */
 	width 100%
 	/* Левый нижний угол */
-	margin 14px
+	margin .875rem
 	/* Поля вокруг текста */
 	/* Ширина слоя */
 	font-size 1.2rem
@@ -223,48 +201,55 @@ img
 .SashaCenter
 	text-align center
 	/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
-	margin 21rem 0 0 0
+	margin 21rem 0 0
 
 /* Надпись Поиск Кристиниты*/
 
 .SashaKristinita
-	font-size 3em
+	@extend $SashaPlaceholderDisplayInline
+	font-size 3rem
 	font-style italic
-	letter-spacing 2px
+	letter-spacing .125rem
 	color darkorange
-	text-shadow 0 1px 0 SashaColor17, 0 2px 0 SashaColor17, 0 3px 0 SashaColor18, 0 4px 0 SashaColor19, 0 5px 0 SashaColor16, 0 6px 1px SashaColor20, 0 0 5px SashaColor20, 0 1px 3px SashaColor21, 0 3px 5px SashaColor22, 0 5px 10px SashaColor23, 0 10px 10px SashaColor22, 0 20px 20px SashaColor24
+	text-shadow 0 .0625rem 0 orange, 0 .125rem 0 orange, 0 .1875rem 0 gold, 0 .25rem 0 SashaKristinitaColor3, 0 .3125rem 0 papayawhip, 0 .375rem .0625rem SashaKristinitaColor4, 0 0 .3125rem SashaKristinitaColor4, 0 .0625rem .1875rem SashaKristinitaColor5, 0 .1875rem .3125rem SashaKristinitaColor6, 0 .3125rem .625rem SashaKristinitaColor7, 0 .625rem .625rem SashaKristinitaColor6, 0 1.25rem 1.25rem SashaKristinitaColor8
 
 /* Надпись beta */
 
 .SashaBeta
-	font-size 2.5em
+	@extend $SashaPlaceholderDisplayInline
+	font-size 2.5rem
 	font-style italic
 	color darkorange
 
 /* Надпись «Минималистская версия*/
 
 .SashaMinimal
-	font-family 'Palatino Linotype, Geneva, sans-serif'
+	@extend $SashaPlaceholderDisplayInline
+	font-family "Palatino Linotype", Geneva, sans-serif
 	font-style italic
 	font-weight bold
-	color SashaColor25
+	color SashaKristinitaColor9
 
 /* Надпись копирайта */
 
 .SashaCopyright
-	font-family 'Palatino Linotype, Geneva, sans-serif'
+	@extend $SashaPlaceholderDisplayInline
+	font-family "Palatino Linotype", Geneva, sans-serif
 	font-weight bold
 	color gold
 
-/*Ссылка на Божий профиль ВКонтакте*/
+/* Ссылка на Божий профиль ВКонтакте */
 
 .SashaVKontakte
+	@extend $SashaPlaceholderDisplayInline
 	color gold
 
-/*Сашин логотип*/
+/* Сашин логотип */
 
 /* https://www.w3schools.com/tags/att_img_align.asp */
 
 .SashaLogo
 	float left
 	border 0
+	width 18.75rem
+	height 15.625rem

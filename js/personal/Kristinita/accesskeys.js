@@ -1,16 +1,23 @@
 /*
-* @Author: Kristinita
-* @Date:   2017-01-30 13:33:35
-* @Last Modified by:   Kristinita
-* @Last Modified time: 2017-01-30 13:41:06
+@Author: Kristinita
+@Date:   2017-01-30 13:33:35
+@Last Modified time: 2017-01-30 13:41:06
 */
-// Хоткеи для поисковой формы, работает в Firefox и Internet Explorer, см. http://ru.stackoverflow.com/a/560571/199934
+//#############
+// accesskeys #
+//#############
+// Hotkeys for Google Custom Search Engine form:
+// [WARNING] Works for Firefox and Internet Explorer:
+// http://ru.stackoverflow.com/a/560571/199934
 $(document).ready(function() {
-	function setAccessKey() {
-		if ($('#gsc-i-id1').length === 0)
+	var setAccessKey;
+	setAccessKey = function() {
+		if ($('#gsc-i-id1').length === 0) {
 			setTimeout(setAccessKey, 500);
-		else
+		} else {
 			$('#gsc-i-id1').attr('accesskey', 'k');
-	}
-	setTimeout(setAccessKey, 500); // Нужно, потому что поиск от Google может загрузиться позже страницы
+		}
+	};
+	// Timeout, because form can load after another page:
+	setTimeout(setAccessKey, 500);
 });

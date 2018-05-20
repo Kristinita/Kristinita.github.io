@@ -4,7 +4,6 @@
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2018-01-31 20:12:29
 */
-
 /**
 * Admonition
 *
@@ -19,8 +18,9 @@
 * https://ru.stackoverflow.com/a/770153/199934
 * https://github.com/google/material-design-icons
 * https://material.io/icons/
+*
+* [NOTE] I remove [dir=rtl], because personally I don't use right-to-left languages.
 */
-
 .admonition>.admonition-title:before,
 .admonition>summary:before,
 details>.admonition-title:before,
@@ -37,63 +37,38 @@ summary:after {
 	word-wrap: normal;
 	direction: ltr;
 }
-
 .admonition,
 details {
-	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	position: relative;
 	margin: 1.5625em 0;
 	padding: 0 1.2rem;
 	border-left: 0.4rem solid #448aff;
-	border-radius: 0.2rem;
+	border-radius: 0.2re;
 	font-size: 1.28rem;
 	overflow: auto;
 }
-
-[dir=rtl] .admonition,
-[dir=rtl] details {
-	border-right: 0.4rem solid #448aff;
-	border-left: none;
-}
-
 html .admonition>:last-child,
-html details>:last-child {
+details>:last-child {
 	margin-bottom: 1.2rem;
 }
-
-.admonition .admonition,
-.admonition details,
-details .admonition,
-details details {
-	margin: 1em 0;
-}
-
 .admonition>.admonition-title,
 .admonition>summary,
 details>.admonition-title,
 details>summary {
 	margin: 0 -1.2rem;
 	padding: 0.8rem 1.2rem 0.8rem 4rem;
-	border-bottom: 0.1rem solid rgba(68, 138, 255, 0.1);
-	background-color: rgba(68, 138, 255, 0.1);
+	border-bottom: 0.1rem solid rgba(68,138,255,0.1);
+	background-color: rgba(68,138,255,0.1);
 	font-weight: 700;
 }
-
-[dir=rtl] .admonition>.admonition-title,
-[dir=rtl] .admonition>summary,
-[dir=rtl] details>.admonition-title,
-[dir=rtl] details>summary {
-	padding: 0.8rem 4rem 0.8rem 1.2rem;
-}
-
 .admonition>.admonition-title:last-child,
 .admonition>summary:last-child,
 details>.admonition-title:last-child,
 details>summary:last-child {
 	margin-bottom: 0;
 }
-
 .admonition>.admonition-title:before,
 .admonition>summary:before,
 details>.admonition-title:before,
@@ -104,15 +79,6 @@ details>summary:before {
 	font-size: 2rem;
 	content: "\e3c9";
 }
-
-[dir=rtl] .admonition>.admonition-title:before,
-[dir=rtl] .admonition>summary:before,
-[dir=rtl] details>.admonition-title:before,
-[dir=rtl] details>summary:before {
-	right: 1.2rem;
-	left: auto;
-}
-
 .admonition.abstract,
 .admonition.summary,
 .admonition.tldr,
@@ -121,16 +87,6 @@ details.summary,
 details.tldr {
 	border-left-color: #00b0ff;
 }
-
-[dir=rtl] .admonition.abstract,
-[dir=rtl] .admonition.summary,
-[dir=rtl] .admonition.tldr,
-[dir=rtl] details.abstract,
-[dir=rtl] details.summary,
-[dir=rtl] details.tldr {
-	border-right-color: #00b0ff;
-}
-
 .admonition.abstract>.admonition-title,
 .admonition.abstract>summary,
 .admonition.summary>.admonition-title,
@@ -143,15 +99,14 @@ details.summary>.admonition-title,
 details.summary>summary,
 details.tldr>.admonition-title,
 details.tldr>summary {
-	border-bottom-color: 0.1rem solid rgba(0, 176, 255, 0.1);
-	background-color: rgba(0, 176, 255, 0.1);
+	border-bottom-color: 0.1rem solid rgba(0,176,255,0.1);
+	background-color: rgba(0,176,255,0.1);
 }
-
 .admonition.abstract>.admonition-title:before,
 .admonition.abstract>summary:before,
 .admonition.summary>.admonition-title:before,
 .admonition.summary>summary:before,
-.admonition.tldr>.admonition-title:before,
+.admonition.tldr>.admonition-title:bfore,
 .admonition.tldr>summary:before,
 details.abstract>.admonition-title:before,
 details.abstract>summary:before,
@@ -162,21 +117,12 @@ details.tldr>summary:before {
 	color: #00b0ff;
 	content: "\E8D2";
 }
-
 .admonition.info,
 .admonition.todo,
 details.info,
 details.todo {
 	border-left-color: #00b8d4;
 }
-
-[dir=rtl] .admonition.info,
-[dir=rtl] .admonition.todo,
-[dir=rtl] details.info,
-[dir=rtl] details.todo {
-	border-right-color: #00b8d4;
-}
-
 .admonition.info>.admonition-title,
 .admonition.info>summary,
 .admonition.todo>.admonition-title,
@@ -185,10 +131,9 @@ details.info>.admonition-title,
 details.info>summary,
 details.todo>.admonition-title,
 details.todo>summary {
-	border-bottom-color: 0.1rem solid rgba(0, 184, 212, 0.1);
-	background-color: rgba(0, 184, 212, 0.1);
+	border-bottom-color: 0.1rem solid rgba(0,184,212,0.1);
+	background-color: rgba(0,184,212,0.1);
 }
-
 .admonition.info>.admonition-title:before,
 .admonition.info>summary:before,
 .admonition.todo>.admonition-title:before,
@@ -200,7 +145,6 @@ details.todo>summary:before {
 	color: #00b8d4;
 	content: "\E88E";
 }
-
 .admonition.hint,
 .admonition.important,
 .admonition.tip,
@@ -209,16 +153,6 @@ details.important,
 details.tip {
 	border-left-color: #00bfa5;
 }
-
-[dir=rtl] .admonition.hint,
-[dir=rtl] .admonition.important,
-[dir=rtl] .admonition.tip,
-[dir=rtl] details.hint,
-[dir=rtl] details.important,
-[dir=rtl] details.tip {
-	border-right-color: #00bfa5;
-}
-
 .admonition.hint>.admonition-title,
 .admonition.hint>summary,
 .admonition.important>.admonition-title,
@@ -231,10 +165,9 @@ details.important>.admonition-title,
 details.important>summary,
 details.tip>.admonition-title,
 details.tip>summary {
-	border-bottom-color: 0.1rem solid rgba(0, 191, 165, 0.1);
-	background-color: rgba(0, 191, 165, 0.1);
+	border-bottom-color: 0.1rem solid rgba(0,191,165,0.1);
+	background-color: rgba(0,191,165,0.1);
 }
-
 .admonition.hint>.admonition-title:before,
 .admonition.hint>summary:before,
 .admonition.important>.admonition-title:before,
@@ -250,7 +183,6 @@ details.tip>summary:before {
 	color: #00bfa5;
 	content: "\E80E";
 }
-
 .admonition.check,
 .admonition.done,
 .admonition.success,
@@ -259,16 +191,6 @@ details.done,
 details.success {
 	border-left-color: #00c853;
 }
-
-[dir=rtl] .admonition.check,
-[dir=rtl] .admonition.done,
-[dir=rtl] .admonition.success,
-[dir=rtl] details.check,
-[dir=rtl] details.done,
-[dir=rtl] details.success {
-	border-right-color: #00c853;
-}
-
 .admonition.check>.admonition-title,
 .admonition.check>summary,
 .admonition.done>.admonition-title,
@@ -281,10 +203,9 @@ details.done>.admonition-title,
 details.done>summary,
 details.success>.admonition-title,
 details.success>summary {
-	border-bottom-color: 0.1rem solid rgba(0, 200, 83, 0.1);
-	background-color: rgba(0, 200, 83, 0.1);
+	border-bottom-color: 0.1rem solid rgba(0,200,83,0.1);
+	background-color: rgba(0,200,83,0.1);
 }
-
 .admonition.check>.admonition-title:before,
 .admonition.check>summary:before,
 .admonition.done>.admonition-title:before,
@@ -300,7 +221,6 @@ details.success>summary:before {
 	color: #64dd17;
 	content: "\E876";
 }
-
 .admonition.faq,
 .admonition.help,
 .admonition.question,
@@ -309,16 +229,6 @@ details.help,
 details.question {
 	border-left-color: #64dd17;
 }
-
-[dir=rtl] .admonition.faq,
-[dir=rtl] .admonition.help,
-[dir=rtl] .admonition.question,
-[dir=rtl] details.faq,
-[dir=rtl] details.help,
-[dir=rtl] details.question {
-	border-right-color: #64dd17;
-}
-
 .admonition.faq>.admonition-title,
 .admonition.faq>summary,
 .admonition.help>.admonition-title,
@@ -331,16 +241,15 @@ details.help>.admonition-title,
 details.help>summary,
 details.question>.admonition-title,
 details.question>summary {
-	border-bottom-color: 0.1rem solid rgba(100, 221, 23, 0.1);
-	background-color: rgba(100, 221, 23, 0.1);
+	border-bottom-color: 0.1rem solid rgba(100,221,23,0.1);
+	background-color: rgba(100,221,23,0.1);
 }
-
 .admonition.faq>.admonition-title:before,
 .admonition.faq>summary:before,
 .admonition.help>.admonition-title:before,
 .admonition.help>summary:before,
 .admonition.question>.admonition-title:before,
-.admonition.question>summary:before,
+.admonition.question>summary:befor,
 details.faq>.admonition-title:before,
 details.faq>summary:before,
 details.help>.admonition-title:before,
@@ -350,7 +259,6 @@ details.question>summary:before {
 	color: #32cd32;
 	content: "\E887";
 }
-
 .admonition.attention,
 .admonition.caution,
 .admonition.warning,
@@ -359,16 +267,6 @@ details.caution,
 details.warning {
 	border-left-color: #ff9100;
 }
-
-[dir=rtl] .admonition.attention,
-[dir=rtl] .admonition.caution,
-[dir=rtl] .admonition.warning,
-[dir=rtl] details.attention,
-[dir=rtl] details.caution,
-[dir=rtl] details.warning {
-	border-right-color: #ff9100;
-}
-
 .admonition.attention>.admonition-title,
 .admonition.attention>summary,
 .admonition.caution>.admonition-title,
@@ -381,10 +279,9 @@ details.caution>.admonition-title,
 details.caution>summary,
 details.warning>.admonition-title,
 details.warning>summary {
-	border-bottom-color: 0.1rem solid rgba(255, 145, 0, 0.1);
-	background-color: rgba(255, 145, 0, 0.1);
+	border-bottom-color: 0.1rem solid rgba(255,145,0,0.1);
+	background-color: rgba(255,145,0,0.1);
 }
-
 .admonition.attention>.admonition-title:before,
 .admonition.attention>summary:before,
 .admonition.caution>.admonition-title:before,
@@ -400,7 +297,6 @@ details.warning>summary:before {
 	color: #ff9100;
 	content: "\E002";
 }
-
 .admonition.fail,
 .admonition.failure,
 .admonition.missing,
@@ -409,16 +305,6 @@ details.failure,
 details.missing {
 	border-left-color: #ff5252;
 }
-
-[dir=rtl] .admonition.fail,
-[dir=rtl] .admonition.failure,
-[dir=rtl] .admonition.missing,
-[dir=rtl] details.fail,
-[dir=rtl] details.failure,
-[dir=rtl] details.missing {
-	border-right-color: #ff5252;
-}
-
 .admonition.fail>.admonition-title,
 .admonition.fail>summary,
 .admonition.failure>.admonition-title,
@@ -431,10 +317,9 @@ details.failure>.admonition-title,
 details.failure>summary,
 details.missing>.admonition-title,
 details.missing>summary {
-	border-bottom-color: 0.1rem solid rgba(255, 82, 82, 0.1);
-	background-color: rgba(255, 82, 82, 0.1);
+	border-bottom-color: 0.1rem solid rgba(255,82,82,0.1);
+	background-color: rgba(255,82,82,0.1);
 }
-
 .admonition.fail>.admonition-title:before,
 .admonition.fail>summary:before,
 .admonition.failure>.admonition-title:before,
@@ -450,21 +335,12 @@ details.missing>summary:before {
 	color: #ff5252;
 	content: "\E14C";
 }
-
 .admonition.danger,
 .admonition.error,
 details.danger,
 details.error {
 	border-left-color: #ff1744;
 }
-
-[dir=rtl] .admonition.danger,
-[dir=rtl] .admonition.error,
-[dir=rtl] details.danger,
-[dir=rtl] details.error {
-	border-right-color: #ff1744;
-}
-
 .admonition.danger>.admonition-title,
 .admonition.danger>summary,
 .admonition.error>.admonition-title,
@@ -473,40 +349,31 @@ details.danger>.admonition-title,
 details.danger>summary,
 details.error>.admonition-title,
 details.error>summary {
-	border-bottom-color: 0.1rem solid rgba(255, 23, 68, 0.1);
-	background-color: rgba(255, 23, 68, 0.1);
+	border-bottom-color: 0.1rem solid rgba(255,23,68,0.1);
+	background-color: rgba(255,23,68,0.1);
 }
-
 .admonition.danger>.admonition-title:before,
 .admonition.danger>summary:before,
 .admonition.error>.admonition-title:before,
 .admonition.error>summary:before,
-details.danger>.admonition-title:before,
+details.danger>.admonition-title:befor,
 details.danger>summary:before,
 details.error>.admonition-title:before,
 details.error>summary:before {
 	color: #ff1744;
 	content: "\E3E7";
 }
-
 .admonition.bug,
 details.bug {
 	border-left-color: #f50057;
 }
-
-[dir=rtl] .admonition.bug,
-[dir=rtl] details.bug {
-	border-right-color: #f50057;
-}
-
 .admonition.bug>.admonition-title,
 .admonition.bug>summary,
 details.bug>.admonition-title,
 details.bug>summary {
-	border-bottom-color: 0.1rem solid rgba(245, 0, 87, 0.1);
-	background-color: rgba(245, 0, 87, 0.1);
+	border-bottom-color: 0.1rem solid rgba(245,0,87,0.1);
+	background-color: rgba(245,0,87,0.1);
 }
-
 .admonition.bug>.admonition-title:before,
 .admonition.bug>summary:before,
 details.bug>.admonition-title:before,
@@ -514,47 +381,30 @@ details.bug>summary:before {
 	color: #f50057;
 	content: "\E868";
 }
-
 .admonition.example,
 details.example {
 	border-left-color: #651fff;
 }
-
-[dir=rtl] .admonition.example,
-[dir=rtl] details.example {
-	border-right-color: #651fff;
-}
-
 .admonition.example>.admonition-title,
 .admonition.example>summary,
 details.example>.admonition-title,
 details.example>summary {
-	border-bottom-color: 0.1rem solid rgba(101, 31, 255, 0.1);
-	background-color: rgba(101, 31, 255, 0.1);
+	border-bottom-color: 0.1rem solid rgba(101,31,255,0.1);
+	background-color: rgba(101,31,255,0.1);
 }
-
 .admonition.example>.admonition-title:before,
 .admonition.example>summary:before,
-details.example>.admonition-title:before,
+details.example>.admonition-titl:before,
 details.example>summary:before {
 	color: #651fff;
 	content: "\E242";
 }
-
 .admonition.cite,
 .admonition.quote,
 details.cite,
 details.quote {
 	border-left-color: #9e9e9e;
 }
-
-[dir=rtl] .admonition.cite,
-[dir=rtl] .admonition.quote,
-[dir=rtl] details.cite,
-[dir=rtl] details.quote {
-	border-right-color: #9e9e9e;
-}
-
 .admonition.cite>.admonition-title,
 .admonition.cite>summary,
 .admonition.quote>.admonition-title,
@@ -563,10 +413,9 @@ details.cite>.admonition-title,
 details.cite>summary,
 details.quote>.admonition-title,
 details.quote>summary {
-	border-bottom-color: 0.1rem solid rgba(158, 158, 158, 0.1);
-	background-color: rgba(158, 158, 158, 0.1);
+	border-bottom-color: 0.1rem solid rgba(158,158,158,0.1);
+	background-color: rgba(158,158,158,0.1);
 }
-
 .admonition.cite>.admonition-title:before,
 .admonition.cite>summary:before,
 .admonition.quote>.admonition-title:before,

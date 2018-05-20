@@ -1,0 +1,1 @@
+.russianletters li:before:first-of-type{content:"а."}.russianletters li:before:nth-of-type(2){content:"б."}.russianletters li:before:nth-of-type(3){content:"в."}

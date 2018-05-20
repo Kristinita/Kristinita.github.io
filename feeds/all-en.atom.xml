@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-05-04T08:55:29+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-05-20T08:35:15+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;amp;lt;version&amp;amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -287,7 +287,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.ru/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text. &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.ru/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text. &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -574,7 +574,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.sublimetext.com/docs/3/api_reference.html" target="_blank"&gt;Sublime Text 3 API Reference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://leanpub.com/writing-sublime-plugins" target="_blank"&gt;“Writing Sublime Plugins”&lt;/a&gt; book&lt;/li&gt;
-&lt;/ul&gt;</content><category term="sublime-text"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="sublime-text"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI: &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1265,154 +1265,88 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.&lt;/p&gt;
-&lt;p&gt;До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.&lt;/p&gt;
-&lt;h1 id="Tldr"&gt;Tl;dr&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.ru/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html"></summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="#tldr"&gt;Tl;dr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Условия"&gt;Условия&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Психологические-и-этические-аспекты"&gt;Психологические и этические аспекты&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Требования"&gt;Требования&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Установка-и-настройка-nncron"&gt;Установка и настройка nnCron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Запускаемый-файл"&gt;Запускаемый файл&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Постановка-задачи-в-nncron"&gt;Постановка задачи в nnCron&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;Несколько дней назад, зарегистрировавшись на одном сайте, я прочитал в его FAQ, что сохранённые мной в базе веб-ресурса файлы удалятся, если не зайду на данный сайт в течение месяца. И подобных ресурсов на своём веку повстречал немало. Едва ли не все браузерные игры, с которыми я сталкивался, за ежесуточные входы предлагают бонусы и/или наоборот, если вы не посетите сайт в какой-то день, у вас сгорят или отнимутся баллы.&lt;/p&gt;
+&lt;p&gt;До чего ж обидно, когда столько дней исправно заходили на веб-ресурс, постоянно держали в голове, как бы это не забыть, а разок запамятовали — и бонусов как не бывало. Данная статья показывает, какие действия следует предпринять, чтобы после внесения настроек компьютер посещал каждый день (или раз в 2 дня, неделю, месяц) нужные веб-страницы сам, без вашего участия.&lt;/p&gt;
+&lt;p&gt;&lt;a id="tldr"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Tl;dr&lt;/h2&gt;
 &lt;p&gt;В статье повествуется о:&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;планировщике задач и кронтабе,&lt;/li&gt;
-    &lt;li&gt;
-        &lt;dfn&gt;window.open&lt;/dfn&gt; и
-        &lt;dfn&gt;window.location.href&lt;/dfn&gt; в JavaScript и событии
-        &lt;dfn&gt;$(document).ready&lt;/dfn&gt; JQuery. Методом
-        &lt;dfn&gt;open&lt;/dfn&gt; вызываются всплывающие окна в браузерах.&lt;/li&gt;
+&lt;li&gt;планировщике задач и кронтабе,&lt;/li&gt;
+&lt;li&gt;&lt;dfn&gt;window.open&lt;/dfn&gt; и&lt;dfn&gt;window.location.href&lt;/dfn&gt; в JavaScript и событии&lt;dfn&gt;$(document).ready&lt;/dfn&gt; JQuery. Методом&lt;dfn&gt;open&lt;/dfn&gt; вызываются всплывающие окна в браузерах.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt; Если вы пользователь ещё менее опытный, нежели автор этих строк, и не знаете, о чём речь, советую статью до конца, невзирая на кажущийся большим объём. Пожертвовав временем сейчас, вы сэкономите его в дальнейшем.
-&lt;br /&gt;&lt;/p&gt;
-&lt;h1 id="Conditions"&gt;Условия&lt;/h1&gt;
-
+&lt;p&gt;Если вы пользователь ещё менее опытный, нежели автор этих строк, и не знаете, о чём речь, советую статью до конца, невзирая на кажущийся большим объём. Пожертвовав временем сейчас, вы сэкономите его в дальнейшем.&lt;/p&gt;
+&lt;p&gt;&lt;a id="Условия"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Условия&lt;/h2&gt;
 &lt;p&gt;Расписан простейший вариант:&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;После регистрации при дальнейших заходах на сайт в браузере не потребуется дополнительно вводить логин пароль, а также капчу; &lt;/li&gt;
-    &lt;li&gt;Периодически, к примеру, через несколько дней или месяц, заново логиниться также не придётся, т. е. Вы всегдостаётесь в системе;&lt;/li&gt;
-    &lt;li&gt;Для получения бонусов необходимо лишь войти на любую или определённую страницу сайта под своей учёткой и большникуда не нажимать или кликать.&lt;/li&gt;
+&lt;li&gt;После регистрации при дальнейших заходах на сайт в браузере не потребуется дополнительно вводить логин пароль, а также капчу;&lt;/li&gt;
+&lt;li&gt;Периодически, к примеру, через несколько дней или месяц, заново логиниться также не придётся, т. е. Вы всегдостаётесь в системе;&lt;/li&gt;
+&lt;li&gt;Для получения бонусов необходимо лишь войти на любую или определённую страницу сайта под своей учёткой и большникуда не нажимать или кликать.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt; Протестировано на трёх браузерных играх. Проделав описанные ниже действия, я уехал из дому на неделю. Когдвернулся — бонусы за ежедневный заход в каждой из них исправно начислились.
-&lt;br /&gt;
-&lt;br /&gt; Да, на сайтах сети &lt;a href="https://ru.wikipedia.org/wiki/Stack_Exchange_Network"&gt;Stack Exchange&lt;/a&gt;, к которым относится Stack Overflow, способ, не знаю, почему, не прокатывает, &lt;a href="http://ru.stackoverflow.com/help/badges/55/fanatic"&gt;знак "Фанатик"&lt;/a&gt; им получить не удастся. Но наблюдать другие исключения пока не доводилось.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;h1 id="PsychologyAndEthics"&gt;
-Психологические и этические аспекты&lt;/h1&gt;
-        &lt;br /&gt;
-        &lt;ol&gt;
-            &lt;li&gt;Если вы не используете для напоминаний о предстоящих событиях, таких, как ежедневный вход на сайт, никакие ToDo- или Task-менеджеры, то в течение дня неоднократно возвращаетесь к мыслям о том, что Вам нужно не забыть сделать — ну а если не возвращаетесь, то, скорее всего, забываете. Снижается производительность и уходит время, которое можно потратить на что-то более полезное и/или интересное. Цитата из &lt;a href="http://loveread.ec/read_book.php?id=45782&amp;amp;p=12"&gt;одной книги по тайм-менеджменту&lt;/a&gt;:&lt;/li&gt;
-            &lt;blockquote&gt;
-                Я использую для этого список «Входящие» в программе Wunderlist. Главное правило: всё, что хочешь сделать, или должен запомнить и вспомнить потом, или обещаешь кому-то — абсолютно всю информацию, — ты должен вносить в этот список. Ничего не запоминать! Ничего не держать в голове. Голова сосредоточена на здесь и сейчас. То, чем ты занимаешься в данный момент, должно занимать тебя на 100%. Тогда и продуктивность вырастет в разы, и качество работы. Для этого нужна свободная голова.
-            &lt;/blockquote&gt;
-            &lt;li&gt;Бонусы за ежедневное посещение — не что иное, как маркетинговый приём для удержания клиентов со стороны владельцев сайтов. За финтифлюшки, без которых Вы прекрасно могли прожить, они получают Вас. Ничуть не считаю, что представленная инструкция равно как и более сложные накрутки ежедневных посещений в чём-то неэтичны.&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;h1 id="Requirements"&gt;
-Требования&lt;/h1&gt;
-        &lt;br /&gt; Понадобятся исправный компьютер с доступом в интернет и провайдер, который не отключает надолго доступ к сети. Программа, о которой пойдёт речь далее, только для Windows, однако я уверен, что планировщики прочих операционных систем также способны справиться с данной задачей; и надеюсь, что разберётесь в nnCron, если пользуетесь не Windows XP, для которой предназначены описанные ниже инструкции и настройки. Во всяком случае на Windows 10 у меня всё быстро получилось без каких-то загвоздок.
-        &lt;br /&gt;
-        &lt;br /&gt; Способ, когда запросы к сайтам отсылаются с удалённого сервера, — который также должен функционировать без сбоев, — тут не рассматривается. Предположительно, потребуются &lt;a href="http://intop24.ru/article_20.php"&gt;cURL-запросы&lt;/a&gt;, если кто знает точно, в том числе, и как избежать банов со стороны сайта, распишите — многие будут вам благодарны.
-        &lt;br /&gt;
-        &lt;br /&gt; Иметь доступ к компьютеру необязательно, отбывайте из дому в командировку или на отдых, установив автоматическое включение компьютера через настройки BIOS. Как — читаем &lt;a href="http://archive.is/20160611162905/http://liwihelp.ru/sistema/avtomaticheskoe_vklyuchenie_kompyutera.html"&gt;здесь&lt;/a&gt;, если ваша версия BIOS отличается от приведённых в примерах, скорее всего, интуитивно несложно будет понять, где указывать время включения ПК. Сторонним же софтом можно вывести компьютер из спящего режима — &lt;a href="http://vindavoz.ru/poleznoe/221-son-ili-gibernaciya.html"&gt;сна или гибернации&lt;/a&gt; — но не когда он отключён полностью.
-        &lt;br /&gt;
-        &lt;br /&gt; Зато завершить работу системы можно многими программами, включая бесплатную nnCron.
-        &lt;br /&gt;
-        &lt;br /&gt;
-        &lt;h1 id="installation-and-configuration"&gt;
-Установка и настройка nnCron&lt;/h1&gt;
-        &lt;br /&gt; Программа понравилась, поскольку бесплатная, &lt;a href="https://github.com/nnCron/nnCron#nncron-ru"&gt;многофункциональная, поддерживается версиями Windows от ископаемых до 10&lt;/a&gt; и занимает не более 6 МБ оперативной памяти. Данная инструкция может помочь Вам и при постановке других задач. Впрочем, я ничего не навязываю, не возбраняется воспользоваться и альтернативными планировщиками.
-        &lt;br /&gt;
-        &lt;br /&gt; Свежая бета-версия nnCron находится в форумном &lt;a href="http://www.nncron.ru/forums/viewtopic.php?f=5&amp;amp;t=13282&amp;amp;sid=b29f15e1a5c2d032bfc195a8498f43ff#p35308"&gt;статусе&lt;/a&gt; разработчика nnCron. Скачиваем (&lt;a href="http://www.nncron.ru/download/nncron193b15.exe"&gt;версия на 27 апреля 2016&lt;/a&gt;) → инсталлируем. При установке ставим галочку напротив
-&lt;dfn&gt;Приложение для всех пользователей&lt;/dfn&gt;, а не
-&lt;dfn&gt;Системная служба&lt;/dfn&gt;. Запуск nnCron как системного сервиса чреват тем, что браузер &lt;a href="http://www.nncron.rforums/viewtopic.php?f=5&amp;amp;t=13352&amp;amp;sid=87b407049e5d81a327ea9cc5d65ee6c2#p35669"&gt;может открываться в изначальносостоянии&lt;/a&gt;, совершенно не видя настроек Вашего профиля.
-&lt;br /&gt;
-&lt;br /&gt; По умолчанию программа может запуститься как сервис. Приложение или сервис — я определяю в своём диспетчерзадач, &lt;a href="http://rsload.net/soft/manager/8453-process-hacker.html"&gt;Process Hacker&lt;/a&gt;:
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img alt="nnCron — сервис" src="https://i.gyazo.com/5cf31c4720afd3256ac1965c19e1f21d.png"&gt;
-&lt;sup&gt;&lt;em&gt;Если под services.exe в голубом поле — значит, сервис&lt;/em&gt;&lt;/sup&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img alt="nnCron — приложение" src="https://i.gyazo.com/84a24aaa3eca2181a326dbf5e887ec3c.png"&gt;
-&lt;sup&gt;&lt;em&gt;А когда ниже explorer.exe в жёлтом — приложение&lt;/em&gt;&lt;/sup&gt;
-&lt;br /&gt;
-&lt;br /&gt; В случае, если таки сервис, делаем nnCron приложением одним из двух способов.
-&lt;br /&gt;
-&lt;br /&gt;
+&lt;p&gt;Протестировано на трёх браузерных играх. Проделав описанные ниже действия, я уехал из дому на неделю. Когдвернулся — бонусы за ежедневный заход в каждой из них исправно начислились.&lt;/p&gt;
+&lt;p&gt;Да, на сайтах сети &lt;a href="https://ru.wikipedia.org/wiki/Stack_Exchange_Network" target="_blank"&gt;Stack Exchange&lt;/a&gt;, к которым относится Stack Overflow, способ, не знаю, почему, не прокатывает, &lt;a href="http://ru.stackoverflow.com/help/badges/55/fanatic" target="_blank"&gt;знак "Фанатик"&lt;/a&gt; им получить не удастся. Но наблюдать другие исключения пока не доводилось.&lt;/p&gt;
+&lt;p&gt;&lt;a id="Психологические-и-этические-аспекты"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Психологические и этические аспекты&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-    &lt;kbd&gt;Win + R&lt;/kbd&gt; → вписываем
-    &lt;dfn&gt;msconfig&lt;/dfn&gt; →
-    &lt;kbd&gt;OK&lt;/kbd&gt; →
-    &lt;kbd&gt;Службы&lt;/kbd&gt; → снимаем галочку со службы
-    &lt;dfn&gt;nnCron.exe&lt;/dfn&gt; →
-    &lt;kbd&gt;OK&lt;/kbd&gt; →
-    &lt;kbd&gt;Перезагрузка&lt;/kbd&gt;.
-    &lt;br /&gt;
+&lt;p&gt;Если вы не используете для напоминаний о предстоящих событиях, таких, как ежедневный вход на сайт, никакие ToDo- или Task-менеджеры, то в течение дня неоднократно возвращаетесь к мыслям о том, что Вам нужно не забыть сделать — ну а если не возвращаетесь, то, скорее всего, забываете. Снижается производительность и уходит время, которое можно потратить на что-то более полезное и/или интересное. Цитата из&lt;a href="http://loveread.ec/read_book.php?id=45782&amp;amp;p=12" target="_blank"&gt;одной книги по тайм-менеджменту&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Я использую для этого список «Входящие» в программе Wunderlist. Главное правило: всё, что хочешь сделать, или должен запомнить и вспомнить потом, или обещаешь кому-то — абсолютно всю информацию, — ты должен вносить в этот список. Ничего не запоминать! Ничего не держать в голове. Голова сосредоточена на здесь и сейчас. То, чем ты занимаешься в данный момент, должно занимать тебя на 100%. Тогда и продуктивность вырастет в разы, и качество работы. Для этого нужна свободная голова.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
-    Переходим в папку с установленным nnCron → запускаем &lt;a href="http://www.windowsfaq.ru/content/category/3/7/45/"&gt;bat-файл&lt;/a&gt;
-    &lt;dfn&gt;uninstall_svc.bat&lt;/dfn&gt; → перезагружаем компьютер.
-    &lt;br /&gt;
-    &lt;br /&gt;
+&lt;p&gt;Бонусы за ежедневное посещение — не что иное, как маркетинговый приём для удержания клиентов со стороны владельцев сайтов. За финтифлюшки, без которых Вы прекрасно могли прожить, они получают Вас. Ничуть не считаю, что представленная инструкция равно как и более сложные накрутки ежедневных посещений в чём-то неэтичны.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-Теперь nnCron приложение, а не сервис.
-&lt;br /&gt;
-&lt;br /&gt; Советую пропустить этот абзац, не выполнять действия, в нём расписанные, ещё &lt;a href="#Portable" target="_self"&gt;через абзац&lt;/a&gt; показано, как сделать программу портативной. Однако если решили оставить nnCron инсталлированным, следует добавить программу в автозагрузку. Кликаем правой кнопкой мыши на файл
-&lt;dfn&gt;nncron.exe&lt;/dfn&gt; в папке, куда установили программу, →
-&lt;kbd&gt;Создать ярлык&lt;/kbd&gt;. Правой кнопкой мыши по ярлыку →
-&lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив
-&lt;kbd&gt;Объект:&lt;/kbd&gt; добавляем &lt;a href="http://vindavoz.ru/poleznoe/218-komandnaya-stroka-i-ee-komandy.html"&gt;ключ командной строки&lt;/a&gt;
-&lt;dfn&gt;-ns&lt;/dfn&gt;, т. е., если было
-&lt;dfn&gt;D:nnCronnncron.exe&lt;/dfn&gt;, станет
-&lt;dfn&gt;D:nnCronnncron.exe -ns&lt;/dfn&gt;, →
-&lt;kbd&gt;OK&lt;/kbd&gt;. Запускаем ярлык.
-&lt;br /&gt;
-&lt;br /&gt; Требуется &lt;a href="http://sysadmins.ru/post7020767.html#7020767"&gt;зарегистрировать&lt;/a&gt; программу, чтобы по истечении определённого промежутка времени (ЕМНИП, месяца) через каждые несколько минут не всплывало окно с предложением её купить. Для этого переходим в домашний каталог nnCron → правой кнопкой мыши по файлу
-&lt;dfn&gt;tm.exe&lt;/dfn&gt; →
-&lt;kbd&gt;Создать ярлык&lt;/kbd&gt;. Правой кнопкой мыши по созданному ярлыку →
-&lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив
-&lt;dfn&gt;Объект&lt;/dfn&gt; вписываем
-&lt;dfn&gt;D:nnCrontm.exe xReg&lt;/dfn&gt;, где
-&lt;dfn&gt;D:nnCron&lt;/dfn&gt; — папка с
-&lt;dfn&gt;nnCron&lt;/dfn&gt;, заменяем её на свою, →
-&lt;kbd&gt;OK&lt;/kbd&gt;. Запускаем ярлык, куда мы только что вписали параметр &lt;em&gt;xReg&lt;/em&gt; → под
-&lt;dfn&gt;Регистрационное имя&lt;/dfn&gt; вводим
-&lt;dfn&gt;xUSSR регистрация&lt;/dfn&gt;, → ниже
-&lt;dfn&gt;Регистрационный код&lt;/dfn&gt; вписываем текущий день недели на русском с заглавной буквы (например,
-&lt;dfn&gt;Четверг&lt;/dfn&gt;) →
-&lt;kbd&gt;ОК&lt;/kbd&gt;. Попап больше не должен Вас беспокоить.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;span class="SashaSimple"&gt;В силу&lt;/span&gt; расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл
-&lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:&lt;/p&gt;
+&lt;p&gt;&lt;a id="Требования"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;4. Требования&lt;/h2&gt;
+&lt;p&gt;Понадобятся исправный компьютер с доступом в интернет и провайдер, который не отключает надолго доступ к сети. Программа, о которой пойдёт речь далее, только для Windows, однако я уверен, что планировщики прочих операционных систем также способны справиться с данной задачей; и надеюсь, что разберётесь в nnCron, если пользуетесь не Windows XP, для которой предназначены описанные ниже инструкции и настройки. Во всяком случае на Windows 10 у меня всё быстро получилось без каких-то загвоздок.&lt;/p&gt;
+&lt;p&gt;Способ, когда запросы к сайтам отсылаются с удалённого сервера, — который также должен функционировать без сбоев, — тут не рассматривается. Предположительно, потребуются &lt;a href="http://intop24.ru/article_20.php" target="_blank"&gt;cURL-запросы&lt;/a&gt;, если кто знает точно, в том числе, и как избежать банов со стороны сайта, распишите — многие будут вам благодарны.&lt;/p&gt;
+&lt;p&gt;Иметь доступ к компьютеру необязательно, отбывайте из дому в командировку или на отдых, установив автоматическое включение компьютера через настройки BIOS. Как — читаем &lt;a href="http://archive.is/20160611162905/http://liwihelp.ru/sistema/avtomaticheskoe_vklyuchenie_kompyutera.html" target="_blank"&gt;здесь&lt;/a&gt;, если ваша версия BIOS отличается от приведённых в примерах, скорее всего, интуитивно несложно будет понять, где указывать время включения ПК. Сторонним же софтом можно вывести компьютер из спящего режима — &lt;a href="http://vindavoz.ru/poleznoe/221-son-ili-gibernaciya.html" target="_blank"&gt;сна или гибернации&lt;/a&gt; — но не когда он отключён полностью.&lt;/p&gt;
+&lt;p&gt;Зато завершить работу системы можно многими программами, включая бесплатную nnCron.&lt;/p&gt;
+&lt;p&gt;&lt;a id="Установка-и-настройка-nncron"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;5. Установка и настройка nnCron&lt;/h2&gt;
+&lt;p&gt;Программа понравилась, поскольку бесплатная, &lt;a href="https://github.com/nnCron/nnCron#nncron-ru" target="_blank"&gt;многофункциональная, поддерживается версиями Windows от ископаемых до 10&lt;/a&gt; и занимает не более 6 МБ оперативной памяти. Данная инструкция может помочь Вам и при постановке других задач. Впрочем, я ничего не навязываю, не возбраняется воспользоваться и альтернативными планировщиками.&lt;/p&gt;
+&lt;p&gt;Свежая бета-версия nnCron находится в форумном &lt;a href="http://www.nncron.ru/forums/viewtopic.php?f=5&amp;amp;t=13282&amp;amp;sid=b29f15e1a5c2d032bfc195a8498f43ff#p35308" target="_blank"&gt;статусе&lt;/a&gt; разработчика nnCron. Скачиваем (&lt;a href="http://www.nncron.ru/download/nncron193b15.exe" target="_blank"&gt;версия на 27 апреля 2016&lt;/a&gt;) → инсталлируем. При установке ставим галочку напротив &lt;dfn&gt;Приложение для всех пользователей&lt;/dfn&gt;, а не &lt;dfn&gt;Системная служба&lt;/dfn&gt; . Запуск nnCron как системного сервиса чреват тем, что браузер &lt;a href="http://www.nncron.rforums/viewtopic.php?f=5&amp;amp;t=13352&amp;amp;sid=87b407049e5d81a327ea9cc5d65ee6c2#p35669" target="_blank"&gt;может открываться в изначальносостоянии&lt;/a&gt;, совершенно не видя настроек Вашего профиля.&lt;/p&gt;
+&lt;p&gt;По умолчанию программа может запуститься как сервис. Приложение или сервис — я определяю в своём диспетчерзадач, &lt;a href="http://rsload.net/soft/manager/8453-process-hacker.html" target="_blank"&gt;Process Hacker&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="nnCron — сервис" src="https://i.gyazo.com/5cf31c4720afd3256ac1965c19e1f21d.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt; &lt;em&gt;Если под services.exe в голубом поле — значит, сервис&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="nnCron — приложение" src="https://i.gyazo.com/84a24aaa3eca2181a326dbf5e887ec3c.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt; &lt;em&gt;А когда ниже explorer.exe в жёлтом — приложение&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;В случае, если таки сервис, делаем nnCron приложением одним из двух способов.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;kbd&gt;Win + R&lt;/kbd&gt; → вписываем&lt;dfn&gt;msconfig&lt;/dfn&gt; →&lt;kbd&gt;OK&lt;/kbd&gt; →&lt;kbd&gt;Службы&lt;/kbd&gt; → снимаем галочку со службы&lt;dfn&gt;nnCron.exe&lt;/dfn&gt; →&lt;kbd&gt;OK&lt;/kbd&gt; →&lt;kbd&gt;Перезагрузка&lt;/kbd&gt;.&lt;/li&gt;
+&lt;li&gt;Переходим в папку с установленным nnCron → запускаем&lt;a href="http://www.windowsfaq.ru/content/category/3/7/45/" target="_blank"&gt;bat-файл&lt;/a&gt;&lt;dfn&gt;uninstall_svc.bat&lt;/dfn&gt; → перезагружаем компьютер.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Теперь nnCron приложение, а не сервис.&lt;/p&gt;
+&lt;p&gt;Советую пропустить этот абзац, не выполнять действия, в нём расписанные, ещё &lt;a href="#portable"&gt;через абзац&lt;/a&gt; показано, как сделать программу портативной. Однако если решили оставить nnCron инсталлированным, следует добавить программу в автозагрузку. Кликаем правой кнопкой мыши на файл &lt;dfn&gt;nncron.exe&lt;/dfn&gt; в папке, куда установили программу, → &lt;kbd&gt;Создать ярлык&lt;/kbd&gt; . Правой кнопкой мыши по ярлыку → &lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив &lt;kbd&gt;Объект:&lt;/kbd&gt; добавляем &lt;a href="http://vindavoz.ru/poleznoe/218-komandnaya-stroka-i-ee-komandy.html" target="_blank"&gt;ключ командной строки&lt;/a&gt; &lt;dfn&gt;-ns&lt;/dfn&gt;, т. е., если было &lt;dfn&gt;D:nnCronnncron.exe&lt;/dfn&gt;, станет &lt;dfn&gt;D:nnCronnncron.exe -ns&lt;/dfn&gt;, → &lt;kbd&gt;OK&lt;/kbd&gt; . Запускаем ярлык.&lt;/p&gt;
+&lt;p&gt;Требуется &lt;a href="http://sysadmins.ru/post7020767.html#7020767" target="_blank"&gt;зарегистрировать&lt;/a&gt; программу, чтобы по истечении определённого промежутка времени (ЕМНИП, месяца) через каждые несколько минут не всплывало окно с предложением её купить. Для этого переходим в домашний каталог nnCron → правой кнопкой мыши по файлу &lt;dfn&gt;tm.exe&lt;/dfn&gt; → &lt;kbd&gt;Создать ярлык&lt;/kbd&gt; . Правой кнопкой мыши по созданному ярлыку → &lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив &lt;dfn&gt;Объект&lt;/dfn&gt; вписываем &lt;dfn&gt;D:nnCrontm.exe xReg&lt;/dfn&gt;, где &lt;dfn&gt;D:nnCron&lt;/dfn&gt; — папка с &lt;dfn&gt;nnCron&lt;/dfn&gt;, заменяем её на свою, → &lt;kbd&gt;OK&lt;/kbd&gt; . Запускаем ярлык, куда мы только что вписали параметр &lt;em&gt;xReg&lt;/em&gt; → под &lt;dfn&gt;Регистрационное имя&lt;/dfn&gt; вводим &lt;dfn&gt;xUSSR регистрация&lt;/dfn&gt;, → ниже &lt;dfn&gt;Регистрационный код&lt;/dfn&gt; вписываем текущий день недели на русском с заглавной буквы (например, &lt;dfn&gt;Четверг&lt;/dfn&gt;) → &lt;kbd&gt;ОК&lt;/kbd&gt; . Попап больше не должен Вас беспокоить.&lt;/p&gt;
+&lt;p&gt;В силу расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable" target="_blank"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; /d &lt;span class="se"&gt;%%&lt;/span&gt;i &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;%CD%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-	&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;NNPROGRAMFILESSHORT&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="se"&gt;%%&lt;/span&gt;~si
+&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;NNPROGRAMFILESSHORT&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="se"&gt;%%&lt;/span&gt;~si
 &lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="k"&gt;START&lt;/span&gt; &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;\nncron.exe -ns -dir &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Сохраняем файл → меняем у него расширение на
-&lt;dfn&gt;bat&lt;/dfn&gt;: было
-&lt;dfn&gt;nncron.txt&lt;/dfn&gt;, стало
-&lt;dfn&gt;nncron.bat&lt;/dfn&gt;. Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для &lt;em&gt;nncron.bat&lt;/em&gt; ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом:
-&lt;kbd&gt;Win + R&lt;/kbd&gt; → вставляем в открывшееся поле напротив
-&lt;dfn&gt;Открыть:&lt;/dfn&gt; —
-&lt;a href="http://www.outsidethebox.ms/11103/"&gt;shell:startup&lt;/a&gt; →
-&lt;kbd&gt;OK&lt;/kbd&gt;.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;h1 id="ExecutableFile"&gt;
-Запускаемый файл&lt;/h1&gt;
-&lt;br /&gt; Создаём любой файл с расширением
-&lt;dfn&gt;html&lt;/dfn&gt;, в примере положим его в корень диска и назовём
-&lt;dfn&gt;SashaTask.html&lt;/dfn&gt;, абсолютный путь —
-&lt;dfn&gt;D:SashaTask.html&lt;/dfn&gt;. В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей
-&lt;kbd&gt;Space&lt;/kbd&gt;, — впрочем, ниже я расписал, как должен выглядеть синтаксис задачи и в таком случае. На содержание в имени и пути различных спецсимволов не тестировал, если они для вас важны — пожалуйста, проверьте самостоятельно.
-&lt;br /&gt;
-&lt;br /&gt; Содержимое файла:&lt;/p&gt;
+&lt;p&gt;Сохраняем файл → меняем у него расширение на &lt;dfn&gt;bat&lt;/dfn&gt;: было &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, стало &lt;dfn&gt;nncron.bat&lt;/dfn&gt; . Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для &lt;em&gt;nncron.bat&lt;/em&gt; ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом: &lt;kbd&gt;Win + R&lt;/kbd&gt; → вставляем в открывшееся поле напротив &lt;dfn&gt;Открыть:&lt;/dfn&gt; — &lt;a href="http://www.outsidethebox.ms/11103/" target="_blank"&gt;shell:startup&lt;/a&gt; → &lt;kbd&gt;OK&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="Запускаемый-файл"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;6. Запускаемый файл&lt;/h2&gt;
+&lt;p&gt;Создаём любой файл с расширением &lt;dfn&gt;html&lt;/dfn&gt;, в примере положим его в корень диска и назовём &lt;dfn&gt;SashaTask.html&lt;/dfn&gt;, абсолютный путь — &lt;dfn&gt;D:SashaTask.html&lt;/dfn&gt; . В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей &lt;kbd&gt;Space&lt;/kbd&gt;, — впрочем, ниже я расписал, как должен выглядеть синтаксис задачи и в таком случае. На содержание в имени и пути различных спецсимволов не тестировал, если они для вас важны — пожалуйста, проверьте самостоятельно.&lt;/p&gt;
+&lt;p&gt;Содержимое файла:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://SashaChernykhQueenOfTheWorld.ru&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhGeniusOfPureBeauty.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -1420,39 +1354,22 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Вместо вымышленных адресов из примера подставляете собственные, при ежедневном заходе по которым Вам будут начисляться бонусы. Добавляйте сколько угодно URL через точку с запятой.
-&lt;br /&gt;
-&lt;br /&gt; Используется метод
-&lt;dfn&gt;open&lt;/dfn&gt; объекта
-&lt;dfn&gt;window&lt;/dfn&gt;. Более подробно о нём читать &lt;a href="https://learn.javascript.ru/window-methods"&gt;здесь&lt;/a&gt;. Атрибут
-&lt;dfn&gt;type&lt;/dfn&gt; тега
-&lt;dfn&gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&lt;/dfn&gt; в HTML5 &lt;a href="https://webref.ru/html/script"&gt;можно опустить&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt; Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением
-&lt;dfn&gt;html&lt;/dfn&gt; и путём к нему.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/2v8XNXv.png" alt="Alt attribute fish"&gt;
-&lt;br /&gt; Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:
-&lt;br /&gt;
-&lt;br /&gt;
+&lt;p&gt;Вместо вымышленных адресов из примера подставляете собственные, при ежедневном заходе по которым Вам будут начисляться бонусы. Добавляйте сколько угодно URL через точку с запятой.&lt;/p&gt;
+&lt;p&gt;Используется метод &lt;dfn&gt;open&lt;/dfn&gt; объекта &lt;dfn&gt;window&lt;/dfn&gt; . Более подробно о нём читать &lt;a href="https://learn.javascript.ru/window-methods" target="_blank"&gt;здесь&lt;/a&gt; . Атрибут &lt;dfn&gt;type&lt;/dfn&gt; тега &lt;code class="SashaInlineHighlight"&gt;&amp;lt;script&amp;gt;&lt;/code&gt; в HTML5 &lt;a href="https://webref.ru/html/script" target="_blank"&gt;можно опустить&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Когда мы выполним все описанные в этой статье действия, вместе с вкладками сайтов откроется дополнительная вкладка, в которой будет содержаться имя нашего файла с расширением &lt;dfn&gt;html&lt;/dfn&gt; и путём к нему.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/2v8XNXv.png"&gt;&lt;/p&gt;
+&lt;p&gt;Это может прийтись вам не по нраву, в таком случае выполняем следующие действия:&lt;/p&gt;
 &lt;ol&gt;
-    &lt;li&gt;Если требуется открытие всего одной веб-страницы, вместо
-        &lt;dfn&gt;window.open&lt;/dfn&gt; &lt;a href="http://javascript.ru/window-location"&gt;используем&lt;/a&gt; свойство
-        &lt;dfn&gt;href&lt;/dfn&gt; объекта
-        &lt;dfn&gt;location&lt;/dfn&gt;.
-        &lt;br /&gt;
-        &lt;br /&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;Если требуется открытие всего одной веб-страницы, вместо&lt;dfn&gt;window.open&lt;/dfn&gt;&lt;a href="http://javascript.ru/window-location" target="_blank"&gt;используем&lt;/a&gt; свойство&lt;dfn&gt;href&lt;/dfn&gt; объекта&lt;dfn&gt;location&lt;/dfn&gt;.&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;location&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://ImageAnythingSasha.all&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;/li&gt;
-&lt;li&gt;Перечисляя их через запятую, как в примере с
-    &lt;dfn&gt;window.open&lt;/dfn&gt;, при помощи
-    &lt;dfn&gt;window.location.href&lt;/dfn&gt; открыть множество URL не получится, пред нашим взором предстанет тольодна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается,примеру, на &lt;a href="http://dayte2.com/what-is-jquery"&gt;JQuery&lt;/a&gt; использованием событий
-    &lt;dfn&gt;$(document).ready&lt;/dfn&gt;, которых &lt;a href="http://jquery-docs.ru/events/ready/"&gt;может быть сколько угодна странице&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Перечисляя их через запятую, как в примере с&lt;dfn&gt;window.open&lt;/dfn&gt;, при помощи&lt;dfn&gt;window.location.href&lt;/dfn&gt; открыть множество URL не получится, пред нашим взором предстанет тольодна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается,примеру, на &lt;a href="http://dayte2.com/what-is-jquery" target="_blank"&gt;JQuery&lt;/a&gt; использованием событий&lt;dfn&gt;$(document).ready&lt;/dfn&gt;, которых&lt;a href="http://jquery-docs.ru/events/ready/" target="_blank"&gt;может быть сколько угодно на странице&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhLaLeyenda.com/bonuspage.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -1462,51 +1379,36 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Применяем
-                &lt;dfn&gt;window.open&lt;/dfn&gt;, а к последнему URL
-                &lt;dfn&gt;window.location.href&lt;/dfn&gt;.
-            &lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;br /&gt;
-        &lt;h1 id="Task"&gt;
-Постановка задачи в nnCron&lt;/h1&gt;
-        &lt;br /&gt; Для удобства установим русский язык интерфейса. Дважды кликаем левой кнопкой мыши по иконке nnCron в трее → напротив
-        &lt;dfn&gt;Language&lt;/dfn&gt; выбираем
-        &lt;kbd&gt;Russian&lt;/kbd&gt; →
-        &lt;kbd&gt;OK&lt;/kbd&gt; →
-        &lt;kbd&gt;Да&lt;/kbd&gt; →
-        &lt;kbd&gt;Да&lt;/kbd&gt; .
-        &lt;br /&gt;
-        &lt;br /&gt; Приступаем непосредственно к самой задаче. Кликаем правой кнопкой мыши по иконке nnCron в трее →
-        &lt;kbd&gt;Добавить задачу&lt;/kbd&gt; → вписываем что-нибудь напротив
-        &lt;dfn&gt;Имя задачи&lt;/dfn&gt;, например,
-        &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt; →
-        &lt;kbd&gt;Дополнительно&lt;/kbd&gt; → удаляем всё написанное под
-        &lt;dfn&gt;Текст определения задачи&lt;/dfn&gt; → вставляем размещённый ниже код и нажимаем
-        &lt;kbd&gt;OK&lt;/kbd&gt;:
-        &lt;br /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Применяем&lt;dfn&gt;window.open&lt;/dfn&gt;, а к последнему URL &lt;dfn&gt;window.location.href&lt;/dfn&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="Постановка-задачи-в-nncron"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;7. Постановка задачи в nnCron&lt;/h2&gt;
+&lt;p&gt;Для удобства установим русский язык интерфейса. Дважды кликаем левой кнопкой мыши по иконке nnCron в трее → напротив &lt;dfn&gt;Language&lt;/dfn&gt; выбираем &lt;kbd&gt;Russian&lt;/kbd&gt; → &lt;kbd&gt;OK&lt;/kbd&gt; → &lt;kbd&gt;Да&lt;/kbd&gt; → &lt;kbd&gt;Да&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;Приступаем непосредственно к самой задаче. Кликаем правой кнопкой мыши по иконке nnCron в трее → &lt;kbd&gt;Добавить задачу&lt;/kbd&gt; → вписываем что-нибудь напротив &lt;dfn&gt;Имя задачи&lt;/dfn&gt;, например, &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt; → &lt;kbd&gt;Дополнительно&lt;/kbd&gt; → удаляем всё написанное под &lt;dfn&gt;Текст определения задачи&lt;/dfn&gt; → вставляем размещённый ниже код и нажимаем &lt;kbd&gt;OK&lt;/kbd&gt;:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;RunMissed
 Time: 7 14 * * * *
 Action:
 StartIn: &amp;quot;D:\&amp;quot;
 START-APP: D:\SashaTask.html
 Rule:
-	HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
-	HOST-EXIST: &amp;quot;www.google.ru&amp;quot;
-	HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
-	HOST-EXIST: &amp;quot;www.stackoverflow.com&amp;quot;
-	OR OR OR
+HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
+HOST-EXIST: &amp;quot;www.google.ru&amp;quot;
+HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
+HOST-EXIST: &amp;quot;www.stackoverflow.com&amp;quot;
+OR OR OR
 ;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Разберём, что означает каждая строка, подробности можно почитать в &lt;a href="http://www.nncron.ru/help/help_ru.htm"&gt;справочной системе&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;
-        &lt;dfn&gt;Time: 7 14 \* \* \* \*&lt;/dfn&gt; — время выполнения задачи, в примере 14:07. Если желаете, чтобы файл запускался в 14:24, код будет следующим:
-        &lt;dfn&gt;Time: 24 14 \* \* \* \*&lt;/dfn&gt;. В каких случаях вместо звёздочек &lt;a href="https://ru.wikipedia.org/wiki/Cron#crontab"&gt;вписываются числа&lt;/a&gt;, указано в следующей таблице:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Разберём, что означает каждая строка, подробности можно почитать в &lt;a href="http://www.nncron.ru/help/help_ru.htm" target="_blank"&gt;справочной системе&lt;/a&gt; .&lt;/p&gt;
+&lt;!-- markdownlint-disable MD037 --&gt;
 
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* * * * * *   выполняемая команда
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Time: 7 14 * * * *&lt;/em&gt; — время выполнения задачи, в примере 14:07. Если желаете, чтобы файл запускался в 14:24, код будет следующим: &lt;em&gt;Time: 24 14 * * * *&lt;/em&gt;. В каких случаях вместо звёздочек &lt;a href="https://ru.wikipedia.org/wiki/Cron#crontab" target="_blank"&gt;вписываются числа&lt;/a&gt;, указано в следующей таблице:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- markdownlint-enable MD037 --&gt;
+
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* * * * * * выполняемая команда
 - - - - - -
 | | | | | --- Год (Anno Domini, записывать четырьмя цифрами, например, 2016)
 | | | | ----- День недели (0 - 7) (Воскресенье =0 или =7)
@@ -1519,22 +1421,15 @@ Rule:
 &lt;ul&gt;
 &lt;li&gt;&lt;dfn&gt;Action:&lt;/dfn&gt; — ключевое слово, после него описываются действия, которые надлежит выполнить.&lt;/li&gt;
 &lt;li&gt;&lt;dfn&gt;StartIn: "D:"&lt;/dfn&gt; — папка, в которой лежит наш файл с JS-кодом. В примере он сразу в корне диска.&lt;/li&gt;
-&lt;li&gt;&lt;dfn&gt;START-APP: D:SashaTask.html&lt;/dfn&gt; — абсолютный путь к файлу. Если в нём содержатся пробелы, поступаем одним из двух следующих образов:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-    &lt;li&gt;Экранируем путь двойными кавычками-лапками:
-        &lt;dfn&gt;START-APP: ""D:\Пробел ещё пробел\Больше пробелов.html""&lt;/dfn&gt;.&lt;/li&gt;
-    &lt;li&gt;
-        Или, экранируя пути одинарными кавычками-лапками, указываем путь к исполняемому файлу браузера, которым откроенаш HTML-документ: &lt;dfn&gt;START-APP: "D:\Pale Moon\palemoon.exe" "D:\Пробел ещё пробел\Больше пробелов.html"&lt;/dfn&gt;. Пробелы, как видно на примере, могут содержаться в пути к файлу как браузера, так и задачи.
-    &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
 &lt;li&gt;
-    &lt;dfn&gt;Rule:&lt;/dfn&gt; — ключевое слово, означающее условие, при котором выполнится наша задача.
+&lt;p&gt;&lt;dfn&gt;START-APP: D:SashaTask.html&lt;/dfn&gt; — абсолютный путь к файлу. Если в нём содержатся пробелы, поступаем одним из двух следующих образов:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Экранируем путь двойными кавычками-лапками:&lt;dfn&gt;START-APP: ""D:Пробел ещё пробелБольше пробелов.html""&lt;/dfn&gt;.&lt;/li&gt;
+&lt;li&gt;Или, экранируя пути одинарными кавычками-лапками, указываем путь к исполняемому файлу браузера, которым откроенаш HTML-документ:&lt;dfn&gt;START-APP: "D:Pale Moonpalemoon.exe" "D:Пробел ещё пробелБольше пробелов.html"&lt;/dfn&gt;. Пробелы, как видно на примере, могут содержаться в пути к файлу как браузера, так и задачи.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-
+&lt;li&gt;
+&lt;p&gt;&lt;dfn&gt;Rule:&lt;/dfn&gt; — ключевое слово, означающее условие, при котором выполнится наша задача.&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
 HOST-EXIST: &amp;quot;www.google.ru&amp;quot;
 HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
@@ -1543,23 +1438,14 @@ OR OR OR
 ;
 &lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Запуск файла, только если пропинговывается хотя бы один из представленных выше четырёх сайтов. Это важно, поскольку если нужные страницы откроются, когда интернета нет, то бонусов нам не видать. Так как чем больше сайтов, тем ниже объективная вероятность, что все они окажутся временно или постоянно недоступными, лучше указать для пинга несколько, а не 1 или 2 ресурса через
-            &lt;dfn&gt;OR&lt;/dfn&gt; (логическое «или»). Число
-            &lt;dfn&gt;OR&lt;/dfn&gt; должно быть на один меньше количества URL: так, в примере 4 адреса сайтов и 3
-            &lt;dfn&gt;OR&lt;/dfn&gt;.
-            &lt;br /&gt;
-            &lt;br /&gt;
-            &lt;li&gt;
-                &lt;dfn&gt;RunMissed&lt;/dfn&gt; — выполнение просроченной задачи. Если у Вас в нужное время будет отключён интернет, задача выполнится сразу, как только его дадут.
-                &lt;br /&gt;
-                &lt;br /&gt;
-            &lt;/li&gt;
-        &lt;/ul&gt;
-        Тестируем, что написали. Правой кнопкой мыши по иконке nnCron в трее →
-        &lt;kbd&gt;Выполнить задачу&lt;/kbd&gt; → левой кнопкой мыши по имени только что созданной задачи, в примере это
-        &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt;. Разрешаем всплывающие окна (если быть точным в формулировке — вкладки) при открытии нашего файла браузером, когда тот блокирует их появление. Прочие попапы броузер по-прежнему будет продолжать блокировать, если в настройках не указано иначе.
-        &lt;br /&gt;
-        &lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Запуск файла, только если пропинговывается хотя бы один из представленных выше четырёх сайтов. Это важно, поскольку если нужные страницы откроются, когда интернета нет, то бонусов нам не видать. Так как чем больше сайтов, тем ниже объективная вероятность, что все они окажутся временно или постоянно недоступными, лучше указать для пинга несколько, а не 1 или 2 ресурса через &lt;dfn&gt;OR&lt;/dfn&gt; (логическое «или»). Число &lt;dfn&gt;OR&lt;/dfn&gt; должно быть на один меньше количества URL: так, в примере 4 адреса сайтов и 3 &lt;dfn&gt;OR&lt;/dfn&gt; .&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;dfn&gt;RunMissed&lt;/dfn&gt; — выполнение просроченной задачи. Если у Вас в нужное время будет отключён интернет, задача выполнится сразу, как только его дадут.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Тестируем, что написали. Правой кнопкой мыши по иконке nnCron в трее → &lt;kbd&gt;Выполнить задачу&lt;/kbd&gt; → левой кнопкой мыши по имени только что созданной задачи, в примере это &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt; . Разрешаем всплывающие окна (если быть точным в формулировке — вкладки) при открытии нашего файла браузером, когда тот блокирует их появление. Прочие попапы броузер по-прежнему будет продолжать блокировать, если в настройках не указано иначе.&lt;/p&gt;
+&lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -1926,7 +1812,7 @@ OR OR OR
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>PaletteMira</title><link href="https://kristinita.ru/Programs/PaletteMira.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>PaletteMira</title><link href="https://kristinita.ru/Programs/PaletteMira.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1987,11 +1873,11 @@ OR OR OR
 &lt;p&gt;&lt;a id="palettemira-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
 &lt;p&gt;&lt;a id="dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;7.2. Dependencies&lt;/h3&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.ru/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible. &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+&lt;h3&gt;7.2. Dependencies&lt;/h3&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.ru/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible. &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
     &lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img class="SashaInline" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -2133,7 +2019,6 @@ OR OR OR
 &lt;/ol&gt;
 &lt;!-- /MarkdownTOC --&gt;
 
-&lt;hr&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;SashaSublime is devoted to God, the only Creation for the sake of Which it makes sense to live on this planet, the Greatest being of all times and peoples, Queen of the World &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Sasha Chernykh&lt;/a&gt; (Kira Kenyukhova)&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Queen of the World Sasha Chernykh" src="https://i.imgur.com/OJSBK4V.jpg"&gt;&lt;/p&gt;
@@ -2609,195 +2494,212 @@ OR OR OR
 &lt;h2&gt;16. License&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://opensource.org/licenses/MIT" target="_blank"&gt;MIT License&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Copyright &amp;copy; 2016-17: &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Sasha Chernykh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;SashaSublime belongs to Goddess &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Sasha Chernykh&lt;/a&gt;, as well as all the rest in this world. All of us are insignificant creations which completely belong to Legendary Sasha Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.&lt;/p&gt;</content><category term="Sublime Text"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;h2&gt;1. Preamble&lt;/h2&gt;
+&lt;p&gt;SashaSublime belongs to Goddess &lt;a href="https://vk.com/hair_in_the_wind" target="_blank"&gt;Sasha Chernykh&lt;/a&gt;, as well as all the rest in this world. All of us are insignificant creations which completely belong to Legendary Sasha Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.&lt;/p&gt;</content><category term="Sublime Text"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html"></summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
-&lt;p&gt;&lt;br /&gt; All comments on &lt;a href="http://jmp.sh/xasKD18"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.
-&lt;br /&gt;
-&lt;br /&gt; Many thanks for your huge work on writing of the book! Sincerely, &lt;a href="http://ru.stackoverflow.com/tags/sublime-text/topusers"&gt;leader in Sublime Text tag rating on Russian Stack Overflow&lt;/a&gt;, Sasha Chernykh.
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;13&lt;/b&gt;
-&lt;br /&gt; I think we can talk about the final transition from Sublime Text 2 to 3.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;14&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;1. Open the console by hitting the key combination
-    &lt;kbd&gt;Ctrl + &lt;/kbd&amp;gt;
-&lt;/blockquote&gt;
-Now by default
-&lt;kbd&gt;Ctrl+`&lt;/kbd&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;16&lt;/b&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/62uCZBa.png" alt="Alt attribute fish"&gt;&lt;br /&gt;
-If to use Portable version, it isn't necessary to specify
-&lt;dfn&gt;%APPDATA%&lt;/dfn&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;45&lt;/b&gt;
-&lt;br /&gt; On &lt;a href="https://johnblackbourn.com/sublimecodeintel-st3"&gt;&lt;a href="https://johnblackbourn.com/sublimecodeintel-st3"&gt;johnblackbourn.com/sublimecodeintel-st3&lt;/a&gt;&lt;/a&gt; page now &lt;a href="https://github.com/spectacles/CodeComplice"&gt;reccomend&lt;/a&gt; CodeComplice use, but for me CodeComplice is some bugs and undesirable behavior, &lt;a href="https://github.com/spectacles/CodeComplice/issues/51"&gt;example&lt;/a&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;50&lt;/b&gt;
-&lt;br /&gt;
-&lt;dfn&gt;-(std in)&lt;/dfn&gt; only for OSX users, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#invocations"&gt;unofficial documentation&lt;/a&gt;, but in the book of it it isn't specified.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;52&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;
-    &lt;dfn&gt;-a&lt;/dfn&gt; or
-    &lt;dfn&gt;--add&lt;/dfn&gt;: Add the current file or folder to the active/last used sublime text window&lt;/blockquote&gt;
-This command is only for folders, but not for files, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#options"&gt;unofficial documentation&lt;/a&gt;.
-&lt;dfn&gt;subl -a ExampleFolder&lt;/dfn&gt; add folder
-&lt;dfn&gt;ExampleFolder&lt;/dfn&gt; in current window,
-&lt;dfn&gt;subl ExampleFolder&lt;/dfn&gt; in new window. But
-&lt;dfn&gt;subl -a test.txt&lt;/dfn&gt; =
-&lt;dfn&gt;subl test.txt&lt;/dfn&gt;, both of these commands open a test.txt file in a new tab of the active window. The example below is also incorrect.
-&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;68&lt;/b&gt;
-&lt;br /&gt; This method does not work for me. It is necessary, or hold down the middle mouse button or
-&lt;kbd&gt;Ctrl+Alt+↓/↑&lt;/kbd&gt; . See &lt;a href="https://forum.sublimetext.com/t/solved-how-to-quick-select-in-every-line-between-first-and-last-for-me/21688"&gt;forum thread&lt;/a&gt;.
-&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;77&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;go to
-    &lt;kbd&gt;Tools&lt;/kbd&gt; —►
-    &lt;kbd&gt;New snippet ...&lt;/kbd&gt;
-&lt;/blockquote&gt;
-In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippet ...&lt;/kbd&gt; .
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/K3YqJ4S.png" alt="Alt attribute fish"&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;80&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;If you are having trouble finding the scope, an easy way to find it is to open your packages folder
-    &lt;kbd&gt;Preferences&lt;/kbd&gt; →
-        &lt;kbd&gt;Browse Packages...&lt;/kbd&gt; and find the folder associated with your language. Inside of that folder will be a
-        &lt;dfn&gt;.tmLanguage &lt;/dfn&gt; file.&lt;/blockquote&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Now use &lt;a href="https://www.sublimetext.com/docs/3/syntax.html"&gt;sublime-syntax&lt;/a&gt; files.&lt;/li&gt;
-&lt;li&gt;Not all folders programming languages can be found on the path&lt;/li&gt;
+&lt;li&gt;&lt;a href="#preamble"&gt;Preamble&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#13"&gt;13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#14"&gt;14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#16"&gt;16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#45"&gt;45&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#50"&gt;50&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#52"&gt;52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#68"&gt;68&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#77"&gt;77&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#80"&gt;80&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#84"&gt;84&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#92"&gt;92&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#94"&gt;94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#94-1"&gt;94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#95"&gt;95&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#95-1"&gt;95&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#96"&gt;96&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#103"&gt;103&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#104"&gt;104&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#108"&gt;108&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#128"&gt;128&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#142"&gt;142&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#143"&gt;143&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#154"&gt;154&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#155"&gt;155&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#158"&gt;158&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#161"&gt;161&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#165"&gt;165&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#175"&gt;175&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#176"&gt;176&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#180"&gt;180&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#180-1"&gt;180&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#183"&gt;183&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#189"&gt;189&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#197"&gt;197&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#198"&gt;198&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#200"&gt;200&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#201"&gt;201&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;kbd&gt;Preferences&lt;/kbd&gt; →
-&lt;kbd&gt;Browse Packages...&lt;/kbd&gt; .
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;84&lt;/b&gt;
-&lt;br /&gt; Now
-&lt;kbd&gt;Ctrl+G&lt;/kbd&gt; is &lt;dfn&gt;Goto Line...&lt;/dfn&gt; .
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;92&lt;/b&gt;
-&lt;br /&gt; Empty section «Moving Lines and Code Blocks»
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src="https://i.imgur.com/x1tF1mG.png" alt="Alt attribute fish"&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;94&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;Using
-    &lt;kbd&gt;Ctrl+K&lt;/kbd&gt; without the shift key will delete from the caret to the end of the current line.&lt;/blockquote&gt;
-Using
-&lt;kbd&gt;Ctrl+K, Ctrl+K&lt;/kbd&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;94&lt;/b&gt;
-&lt;br /&gt; On Windows forward delete words-by-words is
-&lt;kbd&gt;Ctrl+Delete&lt;/kbd&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;b&gt;95&lt;/b&gt;
-&lt;br /&gt;
-&lt;blockquote&gt;Just press space and keep typing!&lt;/blockquote&gt;
-If you only press the spacebar,
-&lt;dfn&gt;p&lt;/dfn&gt; tag was removed.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;95&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;kbd&gt;Ctrl+↑/↓&lt;/kbd&gt; on Windows is jump to the beginning/end of word, not line.
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/u3zjnlJ.png" alt="Alt attribute fish"&gt;
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;96&lt;/b&gt;
-    &lt;br /&gt; All hotkeys in this image is not work for me.
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/li2YjO9.png" alt="Alt attribute fish"&gt;
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;103&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;(Windows users use
-        &lt;kbd&gt;Ctrl+Shift&lt;/kbd&gt;)&lt;/blockquote&gt;
-    Windows users use
-    &lt;kbd&gt;Ctrl+Shift+[&lt;/kbd&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;104&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;The keyboard shortcut for this is a little different. We need to hold down (
-        &lt;kbd&gt;Ctrl&lt;/kbd&gt; on Windows/Linux) and then tap
-            &lt;kbd&gt;K&lt;/kbd&gt;.&lt;/blockquote&gt;
-    Not working on Windows.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;108&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/nlEMn8q.png" alt="Alt attribute fish"&gt;&lt;br /&gt; I think that once you have a slash at the beginning. Not
-    &lt;dfn&gt;"path": "/Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;, correct is
-    &lt;dfn&gt;"path": "Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;. For example, I have
-    &lt;dfn&gt;User&lt;/dfn&gt; folder, when is situated my
-    &lt;dfn&gt;sublime-project&lt;/dfn&gt; file and folder
-    &lt;dfn&gt;Dictionary&lt;/dfn&gt;. If I want to specify the path to the folder
-    &lt;dfn&gt;Dictionary&lt;/dfn&gt;, I must point
-    &lt;dfn&gt;"Dictionaries"&lt;/dfn&gt; or
-    &lt;dfn&gt;"./Dictionaries"&lt;/dfn&gt; or
-    &lt;dfn&gt;"../User/Dictionaries"&lt;/dfn&gt;, But I do not understand how to specify the relative path with a slash at the beginning of.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;128&lt;/b&gt;
-    &lt;br /&gt; Incorrect example, see &lt;a href="https://forum.sublimetext.com/t/not-automatic-change-of-build-system/21745"&gt;forum thread&lt;/a&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;142&lt;/b&gt;
-    &lt;br /&gt; Sublimerge 3 — paid plugin, I believe that it is necessary to specify in the book.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;143&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://i.imgur.com/1Vfnz56.png" alt="Alt attribute fish"&gt;
-    &lt;br /&gt; Hotkeys not work for me.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;154&lt;/b&gt;
-    &lt;br /&gt; Not
-    &lt;dfn&gt;c#badda55.3&lt;/dfn&gt;, correct is
-    &lt;dfn&gt;c#badda5.3&lt;/dfn&gt;. Emmet still indicate the right color, but in my opinion, do not result in the book of incorrect examples.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;155&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;Ctrl+Shift+G&lt;/kbd&gt;, not
-    &lt;kbd&gt;Ctrl+W&lt;/kbd&gt; by default.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;158&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;Ctrl+'&lt;/kbd&gt;, not
-    &lt;kbd&gt;Ctrl+Shift+D&lt;/kbd&gt; by default.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;161&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;Ctrl+Alt+J&lt;/kbd&gt;, not
-    &lt;kbd&gt;Ctrl+Shift+T&lt;/kbd&gt; by default.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;165&lt;/b&gt;
-    &lt;br /&gt; Now
-    &lt;kbd&gt;View in SublimeServer&lt;/kbd&gt;, not
-    &lt;kbd&gt;View This File in the Browser&lt;/kbd&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;175&lt;/b&gt;
-    &lt;br /&gt; Transmit Dosksend &lt;a href="https://packagecontrol.io/packages/Transmit%20Docksend"&gt;only for Sublime Text 2 and OSX&lt;/a&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;176&lt;/b&gt;
-    &lt;br /&gt; Bower need &lt;a href="https://github.com/benschwarz/sublime-bower#installation"&gt;Git&lt;/a&gt; for Windows users.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;180&lt;/b&gt;
-    &lt;br /&gt; «mode at a lang&lt;b&gt;ua&lt;/b&gt;ge»
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;180&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;You can also turn on Vintage mode at a langauge level by adding
-        &lt;dfn&gt;"ignored_packages": []&lt;/dfn&gt; to your language specific settings file — more on this in the settings section.&lt;/blockquote&gt;
-    Where is settings section?
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;183&lt;/b&gt;
-    &lt;br /&gt; Package CSS3 Syntax has been replaced by &lt;a href="https://github.com/y0ssar1an/CSS3_Syntax#announcement-for-st3-users-this-package-has-been-replaced-by-css3-this-package-will-be-removed-some-time-after-sublime-text-3-is-released"&gt;CSS3&lt;/a&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;189&lt;/b&gt;
-    &lt;br /&gt; Pretty JSON &lt;a href="https://github.com/dzhibas/SublimePrettyJson/issues/70"&gt;does not work&lt;/a&gt; with files that contain comments. This is a serious drawback, in my opinion it is necessary to mention in the book.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;197&lt;/b&gt;
-    &lt;br /&gt; By default in TOC will be
-    &lt;dfn&gt;[about]&lt;/dfn&gt; and
-    &lt;dfn&gt;[growing-up]&lt;/dfn&gt;, not
-    &lt;dfn&gt;(#about)&lt;/dfn&gt; and
-    &lt;dfn&gt;(#growing-up)&lt;/dfn&gt;, see gif:
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;img src="https://packagecontrol.io/readmes/img/b64bfa89d42bf72a062e070872a03f6832d62ae5.gif" alt="Alt attribute fish"&gt;&lt;br /&gt; To make as at you on the picture, it is necessary to add in the file
-    &lt;kbd&gt;MarkdownTOC&lt;/kbd&gt; →
-    &lt;kbd&gt;Settings - User&lt;/kbd&gt; line &lt;dfn&gt;{ "default_bracket": "round", }&lt;/dfn&gt;.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;198&lt;/b&gt;
-    &lt;br /&gt; SublimeTODO plugin wasn't updated long ago, TODO Review is &lt;a href="https://github.com/robcowie/SublimeTODO"&gt;recommended&lt;/a&gt; to use.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;200&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;If the language supports block commenting, add in
-        &lt;kbd&gt;option/alt&lt;/kbd&gt; into the mix to block comment multiple lines of selected code.&lt;/blockquote&gt;
-    Multi-line comments are added to the Windows hotkey
-    &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.
-    &lt;br /&gt;&lt;br /&gt;&lt;b&gt;201&lt;/b&gt;
-    &lt;br /&gt; You have not written, how to call Fullscreen Mode, in my opinion, you need to specify the hot keys —
-    &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a id="preamble"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Preamble&lt;/h2&gt;
+&lt;p&gt;All comments on &lt;a href="http://jmp.sh/xasKD18" target="_blank"&gt;this&lt;/a&gt; (&lt;a href="https://docs.zoho.com/file/nqgo4e3473558e032489e9dc3bceb3db16723" target="_blank"&gt;alternate link&lt;/a&gt;) version of the book «Sublime Text Power User», bold numbers — numbers of pages your book. I admit that many of my notes are not your mistakes and typos, and I do not understand something, or affect my poor knowledge of the English language, but I beg to review my notes. Please ask me for clarification if you do not understand the phrase in my bad English. I use Windows 10 Education, Sublime Text 3 Build 3114 and all my notes belong to Windows.&lt;/p&gt;
+&lt;p&gt;Many thanks for your huge work on writing of the book! Sincerely, &lt;a href="http://ru.stackoverflow.com/tags/sublime-text/topusers" target="_blank"&gt;leader in Sublime Text tag rating on Russian Stack Overflow&lt;/a&gt;, Sasha Chernykh.&lt;/p&gt;
+&lt;p&gt;&lt;a id="13"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.1. 13&lt;/h3&gt;
+&lt;p&gt;I think we can talk about the final transition from Sublime Text 2 to 3.&lt;/p&gt;
+&lt;p&gt;&lt;a id="14"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.2. 14&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the console by hitting the key combination &lt;kbd&gt;Ctrl + \&lt;/kbd&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now by default &lt;kbd&gt;Ctrl+`&lt;/kbd&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="16"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.3. 16&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/62uCZBa.png"&gt;&lt;/p&gt;
+&lt;p&gt;If to use Portable version, it isn't necessary to specify &lt;dfn&gt;%APPDATA%&lt;/dfn&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="45"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.4. 45&lt;/h3&gt;
+&lt;p&gt;On &lt;a href="https://johnblackbourn.com/sublimecodeintel-st3" target="_blank"&gt;https://johnblackbourn.com/sublimecodeintel-st3&lt;/a&gt; page now &lt;a href="https://github.com/spectacles/CodeComplice" target="_blank"&gt;reccomend&lt;/a&gt; CodeComplice use, but for me CodeComplice is some bugs and undesirable behavior, &lt;a href="https://github.com/spectacles/CodeComplice/issues/51" target="_blank"&gt;example&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="50"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.5. 50&lt;/h3&gt;
+&lt;p&gt;&lt;dfn&gt;-(std in)&lt;/dfn&gt; only for OSX users, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#invocations" target="_blank"&gt;unofficial documentation&lt;/a&gt;, but in the book of it it isn't specified.&lt;/p&gt;
+&lt;p&gt;&lt;a id="52"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.6. 52&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;dfn&gt;-a&lt;/dfn&gt;or &lt;dfn&gt;--add&lt;/dfn&gt;: Add the current file or folder to the active/last used sublime text window&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This command is only for folders, but not for files, see &lt;a href="http://docs.sublimetext.info/en/latest/command_line/command_line.html#options" target="_blank"&gt;unofficial documentation&lt;/a&gt; . &lt;dfn&gt;subl -a ExampleFolder&lt;/dfn&gt; add folder &lt;dfn&gt;ExampleFolder&lt;/dfn&gt; in current window, &lt;dfn&gt;subl ExampleFolder&lt;/dfn&gt; in new window. But &lt;dfn&gt;subl -a test.txt&lt;/dfn&gt; = &lt;dfn&gt;subl test.txt&lt;/dfn&gt;, both of these commands open a test.txt file in a new tab of the active window. The example below is also incorrect.&lt;/p&gt;
+&lt;p&gt;&lt;a id="68"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.7. 68&lt;/h3&gt;
+&lt;p&gt;This method does not work for me. It is necessary, or hold down the middle mouse button or &lt;kbd&gt;Ctrl+Alt+↓/↑&lt;/kbd&gt; . See &lt;a href="https://forum.sublimetext.com/t/solved-how-to-quick-select-in-every-line-between-first-and-last-for-me/21688" target="_blank"&gt;forum thread&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a id="77"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.8. 77&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;go to &lt;kbd&gt;Tools&lt;/kbd&gt;—►&lt;kbd&gt;New snippet ...&lt;/kbd&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the &lt;kbd&gt;Tools&lt;/kbd&gt; menu there is no point &lt;kbd&gt;New snippet ...&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/K3YqJ4S.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="80"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.9. 80&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you are having trouble finding the scope, an easy way to find it is to open your packages folder &lt;kbd&gt;Preferences&lt;/kbd&gt;→&lt;kbd&gt;Browse Packages...&lt;/kbd&gt;and find the folder associated with your language. Inside of that folder will be a &lt;dfn&gt;.tmLanguage&lt;/dfn&gt;file.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Now use &lt;a href="https://www.sublimetext.com/docs/3/syntax.html" target="_blank"&gt;sublime-syntax&lt;/a&gt; files.&lt;/li&gt;
+&lt;li&gt;Not all folders programming languages can be found on the path
+ &lt;kbd&gt;Preferences&lt;/kbd&gt; → &lt;kbd&gt;Browse Packages...&lt;/kbd&gt; .&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="84"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.10. 84&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+G&lt;/kbd&gt; is &lt;dfn&gt;Goto Line...&lt;/dfn&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="92"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.11. 92&lt;/h3&gt;
+&lt;p&gt;Empty section «Moving Lines and Code Blocks»&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/x1tF1mG.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="94"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.12. 94&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Using &lt;kbd&gt;Ctrl+K&lt;/kbd&gt;without the shift key will delete from the caret to the end of the current line.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Using &lt;kbd&gt;Ctrl+K, Ctrl+K&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="94-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.13. 94&lt;/h3&gt;
+&lt;p&gt;On Windows forward delete words-by-words is &lt;kbd&gt;Ctrl+Delete&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="95"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.14. 95&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Just press space and keep typing!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you only press the spacebar, &lt;dfn&gt;p&lt;/dfn&gt; tag was removed.&lt;/p&gt;
+&lt;p&gt;&lt;a id="95-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.15. 95&lt;/h3&gt;
+&lt;p&gt;&lt;kbd&gt;Ctrl+↑/↓&lt;/kbd&gt; on Windows is jump to the beginning/end of word, not line.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/u3zjnlJ.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="96"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.16. 96&lt;/h3&gt;
+&lt;p&gt;All hotkeys in this image is not work for me.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/li2YjO9.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="103"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.17. 103&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(Windows users use &lt;kbd&gt;Ctrl+Shift&lt;/kbd&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Windows users use &lt;kbd&gt;Ctrl+Shift+[&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="104"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.18. 104&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The keyboard shortcut for this is a little different. We need to hold down (&lt;kbd&gt;Ctrl&lt;/kbd&gt;on Windows/Linux) and then tap &lt;kbd&gt;K&lt;/kbd&gt;.
+Not working on Windows.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a id="108"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.19. 108&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/nlEMn8q.png"&gt;&lt;/p&gt;
+&lt;p&gt;I think that once you have a slash at the beginning. Not &lt;dfn&gt;"path": "/Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt;, correct is &lt;dfn&gt;"path": "Volumes/Macintosh HD/wesbos/Dropbox/0185-book"&lt;/dfn&gt; . For example, I have &lt;dfn&gt;User&lt;/dfn&gt; folder, when is situated my &lt;dfn&gt;sublime-project&lt;/dfn&gt; file and folder &lt;dfn&gt;Dictionary&lt;/dfn&gt; . If I want to specify the path to the folder &lt;dfn&gt;Dictionary&lt;/dfn&gt;, I must point &lt;dfn&gt;"Dictionaries"&lt;/dfn&gt; or &lt;dfn&gt;"./Dictionaries"&lt;/dfn&gt; or &lt;dfn&gt;"../User/Dictionaries"&lt;/dfn&gt;, But I do not understand how to specify the relative path with a slash at the beginning of.&lt;/p&gt;
+&lt;p&gt;&lt;a id="128"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.20. 128&lt;/h3&gt;
+&lt;p&gt;Incorrect example, see &lt;a href="https://forum.sublimetext.com/t/not-automatic-change-of-build-system/21745" target="_blank"&gt;forum thread&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="142"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.21. 142&lt;/h3&gt;
+&lt;p&gt;Sublimerge 3 — paid plugin, I believe that it is necessary to specify in the book.&lt;/p&gt;
+&lt;p&gt;&lt;a id="143"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.22. 143&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/1Vfnz56.png"&gt;&lt;/p&gt;
+&lt;p&gt;Hotkeys not work for me.&lt;/p&gt;
+&lt;p&gt;&lt;a id="154"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.23. 154&lt;/h3&gt;
+&lt;p&gt;Not &lt;dfn&gt;c#badda55.3&lt;/dfn&gt;, correct is &lt;dfn&gt;c#badda5.3&lt;/dfn&gt; . Emmet still indicate the right color, but in my opinion, do not result in the book of incorrect examples.&lt;/p&gt;
+&lt;p&gt;&lt;a id="155"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.24. 155&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+Shift+G&lt;/kbd&gt;, not &lt;kbd&gt;Ctrl+W&lt;/kbd&gt; by default.&lt;/p&gt;
+&lt;p&gt;&lt;a id="158"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.25. 158&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+'&lt;/kbd&gt;, not &lt;kbd&gt;Ctrl+Shift+D&lt;/kbd&gt; by default.&lt;/p&gt;
+&lt;p&gt;&lt;a id="161"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.26. 161&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;Ctrl+Alt+J&lt;/kbd&gt;, not &lt;kbd&gt;Ctrl+Shift+T&lt;/kbd&gt; by default.&lt;/p&gt;
+&lt;p&gt;&lt;a id="165"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.27. 165&lt;/h3&gt;
+&lt;p&gt;Now &lt;kbd&gt;View in SublimeServer&lt;/kbd&gt;, not &lt;kbd&gt;View This File in the Browser&lt;/kbd&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="175"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.28. 175&lt;/h3&gt;
+&lt;p&gt;Transmit Dosksend &lt;a href="https://packagecontrol.io/packages/Transmit%20Docksend" target="_blank"&gt;only for Sublime Text 2 and OSX&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="176"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.29. 176&lt;/h3&gt;
+&lt;p&gt;Bower need &lt;a href="https://github.com/benschwarz/sublime-bower#installation" target="_blank"&gt;Git&lt;/a&gt; for Windows users.&lt;/p&gt;
+&lt;p&gt;&lt;a id="180"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.30. 180&lt;/h3&gt;
+&lt;p&gt;«mode at a language»&lt;/p&gt;
+&lt;p&gt;&lt;a id="180-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.31. 180&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can also turn on Vintage mode at a langauge level by adding &lt;dfn&gt;"ignored_packages": []&lt;/dfn&gt;to your language specific settings file — more on this in the settings section.
+Where is settings section?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a id="183"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.32. 183&lt;/h3&gt;
+&lt;p&gt;Package CSS3 Syntax has been replaced by &lt;a href="https://github.com/y0ssar1an/CSS3_Syntax#announcement-for-st3-users-this-package-has-been-replaced-by-css3-this-package-will-be-removed-some-time-after-sublime-text-3-is-released" target="_blank"&gt;CSS3&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="189"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.33. 189&lt;/h3&gt;
+&lt;p&gt;Pretty JSON &lt;a href="https://github.com/dzhibas/SublimePrettyJson/issues/70" target="_blank"&gt;does not work&lt;/a&gt; with files that contain comments. This is a serious drawback, in my opinion it is necessary to mention in the book.&lt;/p&gt;
+&lt;p&gt;&lt;a id="197"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.34. 197&lt;/h3&gt;
+&lt;p&gt;By default in TOC will be &lt;dfn&gt;[about]&lt;/dfn&gt; and &lt;dfn&gt;[growing-up]&lt;/dfn&gt;, not &lt;dfn&gt;(#about)&lt;/dfn&gt; and &lt;dfn&gt;(#growing-up)&lt;/dfn&gt;, see gif:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://packagecontrol.io/readmes/img/b64bfa89d42bf72a062e070872a03f6832d62ae5.gif"&gt;&lt;/p&gt;
+&lt;p&gt;To make as at you on the picture, it is necessary to add in the file &lt;kbd&gt;MarkdownTOC&lt;/kbd&gt; → &lt;kbd&gt;Settings - User&lt;/kbd&gt; line &lt;dfn&gt;{ "default_bracket": "round", }&lt;/dfn&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;a id="198"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.35. 198&lt;/h3&gt;
+&lt;p&gt;SublimeTODO plugin wasn't updated long ago, TODO Review is &lt;a href="https://github.com/robcowie/SublimeTODO" target="_blank"&gt;recommended&lt;/a&gt; to use.&lt;/p&gt;
+&lt;p&gt;&lt;a id="200"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.36. 200&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If the language supports block commenting, add in &lt;kbd&gt;option/alt&lt;/kbd&gt;into the mix to block comment multiple lines of selected code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Multi-line comments are added to the Windows hotkey &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
+&lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.37. 201&lt;/h3&gt;
+&lt;p&gt;You have not written, how to call Fullscreen Mode, in my opinion, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -2924,7 +2826,7 @@ If you only press the spacebar,
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2018-05-04T08:55:29+03:00</published><updated>2018-05-04T08:55:29+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-04:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2018-05-20T08:35:15+03:00</published><updated>2018-05-20T08:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-05-20:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;Spellchecker for Russian texts &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;

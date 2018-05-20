@@ -5,8 +5,11 @@
 * @Last Modified time: 2017-05-09 15:28:17
 */
 
+SashaBlackColor = #f4a900
+
 img
 	margin 0 auto
+	max-width 100%
 
 a
 	&:visited
@@ -18,72 +21,113 @@ a
 	&.SashaButtonCategory
 		font-size 1.75rem
 		text-decoration none
-		color white
 		border-style outset
 		border-color bisque
-		border-radius 0.875rem
-		outline none
-		background rgb(212, 75, 56)
-		box-shadow 0 0 0 3.75rem rgba(0, 0, 0, 0) inset
+		border-radius .875rem
+		outline 0
 
 		&:hover
 			font-size 1.75rem
 			text-decoration none
-			color white
 			border-style solid
 			border-color white
-			border-radius 0.875rem
-			outline none
-			background rgb(212, 75, 56)
-			box-shadow 0 0 0.625rem rgba(0, 0, 0, .5)
+			border-radius .875rem
+			outline 0
+			box-shadow 0 0 .625rem rgba(0 0 0 .5)
 
+		// Comma-separated “box-shadow”:
+		// https://stackoverflow.com/a/8556627/5951529
 		&:active
 			font-size 1.75rem
 			text-decoration none
-			color white
 			border-style solid
 			border-color white
-			border-radius 0.875rem
-			outline none
-			background rgb(212, 75, 56)
-			box-shadow 0 0 0.625rem rgba(0, 0, 0, .5)
-			box-shadow 0 0 0 12.5rem rgba(0, 0, 0, .09) inset
+			border-radius .875rem
+			outline 0
+			box-shadow 0 0 .625rem rgba(0 0 0 .5), 0 0 0 12.5rem rgba(0 0 0 .09) inset
 
 input
 	font-weight bold
 	height 1.3125rem
 	color maroon
-	border-radius 0.4375rem
+	border-radius .4375rem
 
-.SashaCenter
-.SashaReadHelp
-.SashaOnlineScanners
-.SashaDifferentUrl
-.SashaBottom
+$SashaPlaceholderTextAlignCenter
 	text-align center
 
 .SashaOnlineScanners
+	@extend $SashaPlaceholderTextAlignCenter
 	font-size 1.375rem
 	color tomato
 
 .SashaDifferentUrl
+	@extend $SashaPlaceholderTextAlignCenter
 	font-size 1.4375rem
+
+.SashaCategory
+	font-size 2rem
 
 .SashaButtonCategory
 	font-size 2rem
+	color black
 
 .SashaBorderInput
-	border 0.25rem double black
+	border .25rem double black
 	border-style outset
 	border-color darkorange
+	width 90%
 
 .SashaCheckYourSite
-	font-family 'Истина'
+	font-family "Истина"
 	font-size 3.125rem
 	color tomato
 
 .SashaReadHelp
+	@extend $SashaPlaceholderTextAlignCenter
 	font-size 1.4375rem
+	color orchid
 
 .SashaBottom
+	@extend $SashaPlaceholderTextAlignCenter
 	margin-bottom 2rem
+
+.SashaCenter
+	@extend $SashaPlaceholderTextAlignCenter
+	border 0
+	margin 0
+
+.SashaButtonLightSkyBlue
+	background-color lightskyblue
+
+.SashaButtonLimeGreen
+	background-color limegreen
+
+.SashaButtonPlum
+	background-color plum
+
+.SashaButtonSnow
+	background-color snow
+
+.SashaButtonBisque
+	background-color bisque
+
+.SashaButtonOrange
+	background-color SashaBlackColor
+
+.SashaButtonYellow
+	background-color yellow
+
+.SashaButtonDarkOrange
+	background-color darkorange
+
+.SashaButtonSilver
+	background-color silver
+
+.SashaButtonTomato
+	background-color tomato
+
+.SashaButtonSeagreen
+	background-color seagreen
+
+.SashaButtonChocolate
+	background-color chocolate

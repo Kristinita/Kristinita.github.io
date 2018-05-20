@@ -21,12 +21,12 @@ em {
 
 img {
 	-webkit-box-shadow: 0 0 2rem #000;
-	box-shadow: 0 0 2rem #000;
+					box-shadow: 0 0 2rem #000;
 }
 
 .SashaPageLoading {
 	-webkit-box-shadow: none;
-	box-shadow: none;
+					box-shadow: none;
 }
 
 kbd {
@@ -38,8 +38,7 @@ hr {
 	color: #c71585;
 }
 
-td,
-th {
+td,th {
 	border: 0.0625rem solid #738e8b;
 }
 
@@ -68,11 +67,11 @@ blockquote {
 	color: #20b2aa;
 }
 
-.SashaEpigraph>.SashaEpigraphAuthor {
+.SashaEpigraph >.SashaEpigraphAuthor {
 	color: #ba55d3;
 }
 
-.SashaEpigraph>em {
+.SashaEpigraph >em {
 	color: #db7093;
 }
 
@@ -84,7 +83,7 @@ code {
 	background-color: #2f4f4f;
 }
 
-pre>code {
+pre >code {
 	background-color: #000;
 }
 
@@ -95,218 +94,137 @@ pre>code {
 
 ::selection {
 	color: #f08080;
-	background: rgba(255, 228, 181, 0.99);
+	background: rgba(255,228,181,0.99);
 }
 
 ::-moz-selection:window-inactive {
 	color: #f08080;
-	background: rgba(255, 228, 181, 0.99);
+	background: rgba(255,228,181,0.99);
 }
 
 ::selection:window-inactive {
 	color: #f08080;
-	background: rgba(255, 228, 181, 0.99);
+	background: rgba(255,228,181,0.99);
 }
 
 .SashaEmNoColor {
 	color: #738e8b;
 }
 
-.progress {
-	background-color: #f3efd6;
-}
-
-.progress-bar {
-	background-color: #000;
-}
-
-.progress-label {
-	color: #696969;
-}
-
-.progress-100plus .progress-bar {
-	background-color: #c0c0c0;
-}
-
-.progress-90plus .progress-bar {
-	background-color: #ffc0cb;
-}
-
-.progress-80plus .progress-bar {
-	background-color: #ffa07a;
-}
-
-.progress-70plus .progress-bar {
-	background-color: #b0e0e6;
-}
-
-.progress-60plus .progress-bar {
-	background-color: #90ee90;
-}
-
-.progress-50plus .progress-bar {
-	background-color: #f4a460;
-}
-
-.progress-40plus .progress-bar {
-	background-color: #66cdaa;
-}
-
-.progress-30plus .progress-bar {
-	background-color: #db7093;
-}
-
-.progress-20plus .progress-bar {
-	background-color: #cd853f;
-}
-
-.progress-10plus .progress-bar {
-	background-color: #808000;
-}
-
-.progress-0plus .progress-bar {
-	background-color: #9370db;
-}
-
 .tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 3px solid #ffa500;
+	border-bottom: 0.1875rem solid #ffa500;
 	background: #800080;
 }
 
 .tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 3px solid #ff69b4;
+	border-bottom: 0.1875rem solid #ff69b4;
 	background: #228b22;
 }
 
-.SashaInlineHighlight,
-.SashaBlockHighlight {
+.SashaInlineHighlight,.SashaBlockHighlight {
 	background-color: #e7e9db;
 	color: #cd5c5c;
 }
 
-.SashaInlineHighlight .c,
-.SashaBlockHighlight .c {
+.SashaInlineHighlight .c,.SashaBlockHighlight .c {
 	background-color: Sasha-Pygments-Comment-Background;
 	font-style: italic;
 	color: #8d8687;
 }
 
-.SashaInlineHighlight .err,
-.SashaBlockHighlight .err {
+.SashaInlineHighlight .err,.SashaBlockHighlight .err {
 	color: #ef6155;
 }
 
-.SashaInlineHighlight .g,
-.SashaBlockHighlight .g {
+.SashaInlineHighlight .g,.SashaBlockHighlight .g {
 	color: #fff;
 }
 
-.SashaInlineHighlight .k,
-.SashaBlockHighlight .k {
+.SashaInlineHighlight .k,.SashaBlockHighlight .k {
 	color: #815ba4;
 	font-weight: bold;
 }
 
-.SashaInlineHighlight .n,
-.SashaBlockHighlight .n {
+.SashaInlineHighlight .n,.SashaBlockHighlight .n {
 	color: #cd5c5c;
 }
 
-.SashaInlineHighlight .o,
-.SashaBlockHighlight .o {
+.SashaInlineHighlight .o,.SashaBlockHighlight .o {
 	color: #5bc4bf;
 }
 
-.SashaInlineHighlight .x,
-.SashaBlockHighlight .x {
+.SashaInlineHighlight .x,.SashaBlockHighlight .x {
 	color: #fff;
 }
 
-.SashaInlineHighlight .p,
-.SashaBlockHighlight .p {
+.SashaInlineHighlight .p,.SashaBlockHighlight .p {
 	color: #2f1e2e;
 }
 
-.SashaInlineHighlight .c1,
-.SashaBlockHighlight .c1 {
+.SashaInlineHighlight .c1,.SashaBlockHighlight .c1 {
 	color: #789;
 	background-color: Sasha-Pygments-Comment-Single-Background;
 	font-style: italic;
 }
 
-.SashaInlineHighlight .gt,
-.SashaBlockHighlight .gt {
+.SashaInlineHighlight .gt,.SashaBlockHighlight .gt {
 	color: #fff;
 }
 
-.SashaInlineHighlight .kp,
-.SashaBlockHighlight .kp {
+.SashaInlineHighlight .kp,.SashaBlockHighlight .kp {
 	color: #815ba4;
 }
 
-.SashaInlineHighlight .m,
-.SashaBlockHighlight .m {
+.SashaInlineHighlight .m,.SashaBlockHighlight .m {
 	color: #f99b15;
 	font-weight: bold;
 }
 
-.SashaInlineHighlight .s,
-.SashaBlockHighlight .s {
+.SashaInlineHighlight .s,.SashaBlockHighlight .s {
 	color: #48b685;
 }
 
-.SashaInlineHighlight .no,
-.SashaBlockHighlight .no {
+.SashaInlineHighlight .no,.SashaBlockHighlight .no {
 	color: #ef6155;
 }
 
-.SashaInlineHighlight .py,
-.SashaBlockHighlight .py {
+.SashaInlineHighlight .py,.SashaBlockHighlight .py {
 	color: #2f1e2e;
 }
 
-.SashaInlineHighlight .w,
-.SashaBlockHighlight .w {
+.SashaInlineHighlight .w,.SashaBlockHighlight .w {
 	color: #2f1e2e;
 }
 
-.SashaInlineHighlight .sa,
-.SashaBlockHighlight .sa {
+.SashaInlineHighlight .sa,.SashaBlockHighlight .sa {
 	color: #87ceeb;
 }
 
-.SashaInlineHighlight .sd,
-.SashaBlockHighlight .sd {
+.SashaInlineHighlight .sd,.SashaBlockHighlight .sd {
 	color: #8d8687;
 }
 
-.SashaInlineHighlight .s2,
-.SashaBlockHighlight .s2 {
+.SashaInlineHighlight .s2,.SashaBlockHighlight .s2 {
 	color: #48b685;
 }
 
-.SashaInlineHighlight .se,
-.SashaBlockHighlight .se {
+.SashaInlineHighlight .se,.SashaBlockHighlight .se {
 	color: #f99b15;
 }
 
-.SashaInlineHighlight .sh,
-.SashaBlockHighlight .sh {
+.SashaInlineHighlight .sh,.SashaBlockHighlight .sh {
 	color: #48b685;
 }
 
-.SashaInlineHighlight .si,
-.SashaBlockHighlight .si {
+.SashaInlineHighlight .si,.SashaBlockHighlight .si {
 	color: #f99b15;
 }
 
-.SashaInlineHighlight .s1,
-.SashaBlockHighlight .s1 {
+.SashaInlineHighlight .s1,.SashaBlockHighlight .s1 {
 	color: #48b685;
 }
 
-.SashaInlineHighlight .il,
-.SashaBlockHighlight .il {
+.SashaInlineHighlight .il,.SashaBlockHighlight .il {
 	color: #f99b15;
 	font-weight: bold;
 }

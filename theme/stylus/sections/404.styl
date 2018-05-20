@@ -4,10 +4,12 @@
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2017-03-23 10:42:14
 */
+@import "../general/placeholders.styl"
+
 body
 	/* Center background image:
 	https://ru.stackoverflow.com/a/96749/199934 */
-	background url("../../images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed
+	background url("https://kristinita.ru/theme/images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed
 	background-size cover
 	padding 0
 
@@ -21,15 +23,17 @@ img
 	max-width 96%
 
 .Sasha404
-	font-size 4rem
+	@extend $SashaTextAlignCenter
 	margin-bottom 2rem
+	font-size 4rem
 	color orange
 	font-weight bold
 	-webkit-text-stroke .1rem red
 
 .Sasha404Description
-	font-size 2rem
+	@extend $SashaTextAlignCenter
 	margin-bottom 2rem
+	font-size 2rem
 	color honeydew
 	/* text-stroke — border around letters:
 	https://ru.stackoverflow.com/q/196968/199934
@@ -37,10 +41,6 @@ img
 	https://caniuse.com/#feat=text-stroke
 	*/
 	-webkit-text-stroke .04rem
-
-.Sasha404
-.Sasha404Description
-	text-align center
 
 // margin-bottom for images, if small height and page scroll to bottom
 

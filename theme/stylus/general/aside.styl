@@ -13,6 +13,9 @@ aside
 	// Icon the whole aside space
 	background-size cover
 	height 100%
+	// That aside doesn't fell, if browser-update script enabled:
+	// https://i.imgur.com/HxP20ee.png
+	top 0
 
 /* Text in aside bottom */
 
@@ -42,7 +45,7 @@ aside
 
 /* For portrait orientation */
 
-@media screen and (orientation: portrait)
+@media screen and (orientation portrait)
 	aside
 		width 100%
 		/*
@@ -51,12 +54,21 @@ aside
 		*/
 		position relative
 
+	noscript
+		width 100%
+
 /* For landscape orientation */
 
-@media screen and (orientation: landscape)
+@media screen and (orientation landscape)
 	aside
 		width 35%
 		position fixed
 
+	/*
+	* “div.buorg”, not “.buorg” overwrite default width:
+	* https://stackoverflow.com/a/9956515/5951529
+	*/
+	div.buorg
 	main
+	noscript
 		width 65%

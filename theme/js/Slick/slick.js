@@ -32,5 +32,3 @@ $(document).ready(function() {
 		pauseOnHover: false
 	});
 });
-
-//# sourceMappingURL=slick.js.map

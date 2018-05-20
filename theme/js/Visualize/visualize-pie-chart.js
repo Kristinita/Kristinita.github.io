@@ -15,5 +15,3 @@ $(document).ready(function() {
 		legend: true
 	});
 });
-
-//# sourceMappingURL=visualize-pie-chart.js.map

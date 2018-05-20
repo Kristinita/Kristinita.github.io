@@ -1,6 +1,7 @@
 | Name                | Version   | License                                                      |
 |---------------------|-----------|--------------------------------------------------------------|
-| GitPython           | 2.1.9     | BSD License                                                  |
+| Babel               | 2.5.3     | BSD                                                          |
+| GitPython           | 2.1.10    | BSD License                                                  |
 | Jinja2              | 2.10      | BSD                                                          |
 | Markdown            | 2.6.11    | BSD License                                                  |
 | MarkupSafe          | 1.0       | BSD                                                          |
@@ -9,6 +10,7 @@
 | Pygments            | 2.2.0     | BSD License                                                  |
 | Unidecode           | 1.0.22    | GPL                                                          |
 | actdiag             | 0.5.4     | Apache License 2.0                                           |
+| bashate             | 0.5.1     | UNKNOWN                                                      |
 | beautifulsoup4      | 4.6.0     | MIT                                                          |
 | blinker             | 1.4       | MIT License                                                  |
 | blockdiag           | 1.5.3     | Apache License 2.0                                           |
@@ -27,13 +29,14 @@
 | mdx-customspanclass | 1.1.1     | UNKNOWN                                                      |
 | nwdiag              | 1.0.4     | Apache License 2.0                                           |
 | packaging           | 17.1      | BSD or Apache License, Version 2.0                           |
+| pbr                 | 4.0.3     | UNKNOWN                                                      |
 | pelican             | 3.7.1     | UNKNOWN                                                      |
 | pip-review          | 1.0       | BSD                                                          |
 | pyembed             | 1.3.3     | Copyright (c) 2013 Matt Thomson                              |
 | pyembed-markdown    | 1.1.0     | Copyright (c) 2013 Matt Thomson                              |
-| pymdown-extensions  | 4.10.1    | MIT License                                                  |
+| pymdown-extensions  | 4.10.2    | MIT License                                                  |
 | pyparsing           | 2.2.0     | MIT License                                                  |
-| python-dateutil     | 2.7.2     | Dual License                                                 |
+| python-dateutil     | 2.7.3     | Dual License                                                 |
 | pytz                | 2018.4    | MIT                                                          |
 | requests            | 2.18.4    | Apache 2.0                                                   |
 | seqdiag             | 0.9.5     | Apache License 2.0                                           |

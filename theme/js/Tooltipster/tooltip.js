@@ -30,5 +30,3 @@ $(document).ready(function() {
 		side: ['left', 'top', 'bottom', 'right']
 	});
 });
-
-//# sourceMappingURL=tooltip.js.map

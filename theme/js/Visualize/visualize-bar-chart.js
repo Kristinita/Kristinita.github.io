@@ -15,5 +15,3 @@ $(document).ready(function() {
 		legend: true
 	});
 });
-
-//# sourceMappingURL=visualize-bar-chart.js.map

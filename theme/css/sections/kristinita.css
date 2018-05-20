@@ -3,25 +3,6 @@
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2017-05-02 18:46:12
 */
-
-body {
-	padding-right: 0;
-	background: url("https://kristinita.ru/theme/images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed;
-	background-size: cover;
-	background-color: #ffefd5;
-	color: #c71585;
-}
-
-a {
-	text-decoration: none;
-}
-
-html {
-	overflow-x: hidden;
-}
-
-/* Inline displaying some div classes */
-
 .SashaKristinita,
 .SashaBeta,
 .SashaMinimal,
@@ -29,259 +10,242 @@ html {
 .SashaVKontakte {
 	display: inline;
 }
-
+body {
+	padding-right: 0;
+	background: url("../../images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-color: #ffefd5;
+	color: #c71585;
+}
+a {
+	text-decoration: none;
+}
+html {
+	overflow-x: hidden;
+}
 /* Gemini
 	========================================================================== */
-
 img {
 	max-width: 100%;
 }
-
 /* Buttons */
-
 .Sasha {
-	font: 27px Tahoma, Geneva, sans-serif;
+	font: 1.6875rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
 	float: right;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	text-align: center;
 	text-decoration: none;
 	color: #ff8c00;
-	border: solid 4px #ffb6c1;
-	border-radius: 14px;
+	border: solid 0.25rem #ffb6c1;
+	border-radius: 0.875rem;
 	background-color: #ffe4e1;
-	/* To bottom instead of top for Autoprefixer — https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816 */
+/* To bottom instead of top for Autoprefixer — https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816 */
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
-	background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Sasha:hover {
-	font: 36px Tahoma, Geneva, sans-serif;
+	font: 2.25rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	color: #ff8c00;
-	border: solid 4px #ffb6c1;
-	border-radius: 14px;
+	border: solid 0.25rem #ffb6c1;
+	border-radius: 0.875rem;
 	background-color: #ffe4e1;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
-	background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
-	background-position: 0 -32px;
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
+	background-position: 0 -2rem;
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Sasha:active {
-	font: 36px Tahoma, Geneva, sans-serif;
+	font: 2.25rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	color: #ee82ee;
-	border: solid 4px #ffb6c1;
-	border-radius: 14px;
+	border: solid 0.25rem #ffb6c1;
+	border-radius: 0.875rem;
 	background-color: #ffe4e1;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
-	background-image: linear-gradient(to bottom, #ffe4e1 0%, #ffc0cb 100%);
-	background-position: 0 -64px;
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
+	background-position: 0 -4rem;
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Chernykh {
-	font: 27px Tahoma, Geneva, sans-serif;
+	font: 1.6875rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
 	float: right;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	text-align: center;
 	text-decoration: none;
 	color: #ff8c00;
-	border: solid 4px #ffe4c4;
-	border-radius: 14px;
+	border: solid 0.25rem #ffe4c4;
+	border-radius: 0.875rem;
 	background-color: #fdf5e6;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
-	background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #f5fffa, #f0f8ff);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Chernykh:hover {
-	font: 36px Tahoma, Geneva, sans-serif;
+	font: 2.25rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	color: #ff8c00;
-	border: solid 4px #ffe4c4;
-	border-radius: 14px;
+	border: solid 0.25rem #ffe4c4;
+	border-radius: 0.875rem;
 	background-color: #f5fffa;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
-	background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #f5fffa, #f0f8ff);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Chernykh:active {
-	font: 36px Tahoma, Geneva, sans-serif;
+	font: 2.25rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	color: #add8e6;
-	border: solid 4px #ffe4c4;
-	border-radius: 14px;
+	border: solid 0.25rem #ffe4c4;
+	border-radius: 0.875rem;
 	background-color: #f5fffa;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
-	background-image: linear-gradient(to bottom, #f5fffa 0%, #f0f8ff 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #f5fffa, #f0f8ff);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Empress {
-	font: 27px Tahoma, Geneva, sans-serif;
+	font: 1.6875rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
 	float: right;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	text-align: center;
 	text-decoration: none;
 	color: #ff8c00;
-	border: solid 4px #ba55d8;
-	border-radius: 14px;
+	border: solid 0.25rem #ba55d8;
+	border-radius: 0.875rem;
 	background-color: #dda0dd;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
-	background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #ee82ee, #da70d6);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Empress:hover {
-	font: 36px Tahoma, Geneva, sans-serif;
+	font: 2.25rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	color: #ff8c00;
-	border: solid 4px #ba55d8;
-	border-radius: 14px;
+	border: solid 0.25rem #ba55d8;
+	border-radius: 0.875rem;
 	background-color: #ee82ee;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
-	background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #ee82ee, #da70d6);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .Empress:active {
-	font: 36px Tahoma, Geneva, sans-serif;
+	font: 2.25rem Tahoma, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 11px 32px;
+	padding: 0.6875rem 2rem;
 	color: #ffc0cb;
-	border: solid 4px #ba55d8;
-	border-radius: 14px;
+	border: solid 0.25rem #ba55d8;
+	border-radius: 0.875rem;
 	background-color: #ee82ee;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
-	background-image: linear-gradient(to bottom, #ee82ee 0%, #da70d6 100%);
-	-webkit-box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
-	box-shadow: 0 0 2px #bababa, inset 0 0 1px #fff;
+	background-image: linear-gradient(to bottom, #ee82ee, #da70d6);
+	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
-
 .SashaMotto {
-	font-family: 'Cormorant';
-	font-size: 40px;
+	font-family: "Cormorant";
+	font-size: 2.5rem;
 	text-align: center;
 	color: #7fff00;
 }
-
 .SashaMotto:hover {
-	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffefd5, 0 0 70px #ffefd5, 0 0 80px #ffefd5, 0 0 100px #ffefd5;
+	text-shadow: 0 0 0.625rem #fff, 0 0 1.25rem #fff, 0 0 1.875rem #fff, 0 0 2.5rem #ffefd5, 0 0 4.375rem #ffefd5, 0 0 5rem #ffefd5, 0 0 6.25rem #ffefd5;
 }
-
 /* Подвал в head */
-
 .SashaFooter {
 	position: relative;
 	float: left;
 	text-align: left;
 	bottom: 0;
-	/* Фиксированное положение */
+/* Фиксированное положение */
 	left: 0;
-	/* Цвет текста */
+/* Цвет текста */
 	width: 100%;
-	/* Левый нижний угол */
-	margin: 14px;
-	/* Поля вокруг текста */
-	/* Ширина слоя */
+/* Левый нижний угол */
+	margin: 0.875rem;
+/* Поля вокруг текста */
+/* Ширина слоя */
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: #afeeee;
 }
-
 .SashaBowserExplorer,
 .SashaBowserFirefox {
 	position: relative;
 	float: left;
 	text-align: left;
-	vertical-align: 6em;
+	vertical-align: 6rem;
 	bottom: 0;
-	/* Фиксированное положение */
+/* Фиксированное положение */
 	right: 0;
-	/* Цвет текста */
+/* Цвет текста */
 	width: 100%;
-	/* Левый нижний угол */
-	margin: 14px;
-	/* Поля вокруг текста */
-	/* Ширина слоя */
+/* Левый нижний угол */
+	margin: 0.875rem;
+/* Поля вокруг текста */
+/* Ширина слоя */
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: #afeeee;
 }
-
 /* Выравнивание по центру*/
-
 .SashaCenter {
 	text-align: center;
-	/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
-	margin: 21rem 0 0 0;
+/* Отступ от нижнего элемента, чтобы заменить множество br, см. http://ru.stackoverflow.com/a/523379/199934 */
+	margin: 21rem 0 0;
 }
-
 /* Надпись Поиск Кристиниты*/
-
 .SashaKristinita {
-	font-size: 3em;
+	font-size: 3rem;
 	font-style: italic;
-	letter-spacing: 2px;
+	letter-spacing: 0.125rem;
 	color: #ff8c00;
-	text-shadow: 0 1px 0 #ffa500, 0 2px 0 #ffa500, 0 3px 0 #ffd700, 0 4px 0 #ffae42, 0 5px 0 #ffefd5, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+	text-shadow: 0 0.0625rem 0 #ffa500, 0 0.125rem 0 #ffa500, 0 0.1875rem 0 #ffd700, 0 0.25rem 0 #ffae42, 0 0.3125rem 0 #ffefd5, 0 0.375rem 0.0625rem rgba(0,0,0,0.1), 0 0 0.3125rem rgba(0,0,0,0.1), 0 0.0625rem 0.1875rem rgba(0,0,0,0.3), 0 0.1875rem 0.3125rem rgba(0,0,0,0.2), 0 0.3125rem 0.625rem rgba(0,0,0,0.25), 0 0.625rem 0.625rem rgba(0,0,0,0.2), 0 1.25rem 1.25rem rgba(0,0,0,0.15);
 }
-
 /* Надпись beta */
-
 .SashaBeta {
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	font-style: italic;
 	color: #ff8c00;
 }
-
 /* Надпись «Минималистская версия*/
-
 .SashaMinimal {
-	font-family: 'Palatino Linotype, Geneva, sans-serif';
+	font-family: "Palatino Linotype", Geneva, sans-serif;
 	font-style: italic;
 	font-weight: bold;
 	color: #ffbf00;
 }
-
 /* Надпись копирайта */
-
 .SashaCopyright {
-	font-family: 'Palatino Linotype, Geneva, sans-serif';
+	font-family: "Palatino Linotype", Geneva, sans-serif;
 	font-weight: bold;
 	color: #ffd700;
 }
-
-/*Ссылка на Божий профиль ВКонтакте*/
-
+/* Ссылка на Божий профиль ВКонтакте */
 .SashaVKontakte {
 	color: #ffd700;
 }
-
-/*Сашин логотип*/
-
+/* Сашин логотип */
 /* https://www.w3schools.com/tags/att_img_align.asp */
-
 .SashaLogo {
 	float: left;
 	border: 0;
+	width: 18.75rem;
+	height: 15.625rem;
 }

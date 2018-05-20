@@ -8,10 +8,12 @@
 * TOC
 *
 * General
+* - import placeholders
 * - overflow-wrap
 * - HTML, body
 * - Links
 * - Headers
+* - Bold and cursive
 * - KBD
 * - noscript
 * Tables
@@ -46,7 +48,6 @@
 * - Clipboard.js
 * - Tooltipster
 * - JQuery Lazy
-* - Progressbar
 */
 
 /*
@@ -62,33 +63,27 @@
 	> General
 	========================================================================== */
 
+/* >> import placeholders
+	========================================================================== */
+
+@import "placeholders.styl"
+
 /* >> overflow-wrap
 	========================================================================== */
 
-/*
-* Wrap all long words:
-* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap
-*/
-
-*
-	overflow-wrap: break-word
+.SashaBottomAside
+.SashaInlineHighlight
+	@extend $SashaNoHorizontalScrollbar
 
 /* >> HTML, body
 	========================================================================== */
 
-/*
-* For correct gemini-scrollbar displaying, see “body tag” section:
-* https://github.com/noeldelgado/gemini-scrollbar#notes
-* [NOTE] Use “overflow: hidden”! If no, you will get bugs with anchors: scrollbar scroll in begin ofthe page.
-* [NOTE] Both html and body must be included for correct gemini-scrollbar working.
-*/
-
 html
-body
-	height 100%
-	overflow hidden
+	@extend $SashaHTMLBody
 
 body
+	@extend $SashaHTMLBody
+	// Commas between fonts required:
 	font-family Arial, "Helvetica Neue", Helvetica, sans-serif
 	font-size 1.1875rem
 	margin 0
@@ -103,6 +98,7 @@ body
 */
 
 a
+	@extend $SashaNoHorizontalScrollbar
 	text-decoration none
 
 	&:focus
@@ -117,26 +113,12 @@ a
 .headerlink
 	visibility hidden
 
-/* Permalinks visible on hover
-	As https://pythonhosted.org/Markdown/extensions/toc.html page */
-
-/* Stylus parent reference, & symbol
-	http://stylus-lang.com/docs/selectors.html#parent-reference */
-
-h1
-h2
-h3
-h4
-h5
-h6
-	&:hover > .headerlink
-		visibility visible
-
 /* >> Headers
 	========================================================================== */
 
 h1
-	font-family 'Истина'
+	@extend $SashaVisiblePermalinks
+	font-family "Истина"
 	font-size 1.9375rem
 	font-weight lighter
 	font-style normal
@@ -145,28 +127,53 @@ h1
 	filter brightness(97%)
 
 h2
-	font-family 'Мечта'
+	@extend $SashaVisiblePermalinks
+	font-family "Мечта"
 	font-size 1.4rem
+
+h3
+h4
+h5
+h6
+	@extend $SashaVisiblePermalinks
 
 /* Interlineage in h1 header */
 
 .SashaHeader
 	line-height .7rem
 
+/* >> Bold and cursive
+	========================================================================== */
+
+em
+	@extend $SashaNoHorizontalScrollbar
+
 /* >> KBD
 	========================================================================== */
 
 kbd
 	font-weight bold
-	border-radius 0.1875rem
+	border-radius .1875rem
 
 /* >> noscript
 	========================================================================== */
 
+/*
+* Message in top bar, if JavaScript disable:
+* Based on:
+* http://www.w3programmers.com/pure-css-noscript-message/
+*/
+
 noscript
-	>span
-		unicode-bidi bidi-override
-		direction rtl
+	color white
+	font-family sans-serif
+	font-weight bold
+	text-align center
+	padding 1rem 0
+	background rgba(0 0 0 .9)
+	position fixed
+	top 0
+	z-index 900
 
 
 /* ==========================================================================
@@ -181,6 +188,13 @@ td
 th
 	padding .5rem
 
+/*
+* [FIXME] I can't make responsive tables:
+* https://stackoverflow.com/q/50274179/5951529
+* https://github.com/noeldelgado/gemini-scrollbar/issues/62
+*/
+// .justtable
+// 	overflow-x auto
 
 /* ==========================================================================
 	> Lists
@@ -189,7 +203,7 @@ th
 /* >> ol, ul, li
 	========================================================================== */
 
-/* Disable, because incorrect works indents in lists, example:
+/* [DEPRECATED] Incorrect works indents for lists, example:
 <li>
 <p>Kristina</p>
 </li>
@@ -328,11 +342,15 @@ dd
 
 .SashaHeadPageLeft
 .SashaPreviousNeighbor
-	float left
+	@extend $SashaFloatLeft
+	@extend $SashaMargin5Rem
+	@extend $SashaFontSizeChildLink
 
 .SashaNextNeighbor
 .SashaHeadPageRight
-	float right
+	@extend $SashaFloatRight
+	@extend $SashaMargin5Rem
+	@extend $SashaFontSizeChildLink
 
 /*
 * Stop float — https://stackoverflow.com/a/6205224/5951529
@@ -342,36 +360,19 @@ dd
 .SashaClearBoth
 	clear both
 
-.SashaHeadPageLeft
-.SashaPreviousNeighbor
-.SashaNextNeighbor
-.SashaHeadPageRight
-	margin 5rem 0 0
-
-.SashaHeadPageLeft
-.SashaPreviousNeighbor
-.SashaNextNeighbor
-.SashaHeadPageRight
-	a
-		font-size 2rem
-
 /* >> Another footer
 	========================================================================== */
 
-/*
-* Top margin, see http://ru.stackoverflow.com/a/613468/199934
-*/
-
 .SashaEmNoColor
+	@extend $SashaItalic
+	@extend $SashaMargin5Rem
+
 .WorkOnYourself
-	margin 5rem 0 0
+	@extend $SashaMargin5Rem
 
 .SashaEmNoColorBottom
+	@extend $SashaItalic
 	margin 1rem 0 0
-
-.SashaEmNoColor
-.SashaEmNoColorBottom
-	font-style italic
 
 /* ==========================================================================
 	> Images
@@ -389,11 +390,11 @@ img
 
 .leftimg
 	float left
-	margin 0.3125rem 0.3125rem 0.3125rem 0
+	margin .3125rem .3125rem .3125rem 0
 
 .rightimg
 	float right
-	margin 0.3125rem 0 0.3125rem 0.3125rem
+	margin .3125rem 0 .3125rem .3125rem
 
 /* >> Width of images
 	========================================================================== */
@@ -414,11 +415,11 @@ img
 	========================================================================== */
 
 .SashaSign
-	padding 0.4375rem
-	margin 0.3125rem 0 0.3125rem 0
+	padding .4375rem
+	margin .3125rem 0
 
 	figcaption
-		margin 0 auto 0
+		margin 0 auto
 
 /* >> External links image
 	========================================================================== */
@@ -430,8 +431,8 @@ img
 
 .external
 	&:after
-		content url('../../../images/interface_images/external-link.png')
-		margin-left 0.2rem
+		content url("../../../images/interface_images/external-link.png")
+		margin-left .2rem
 
 /* ==========================================================================
 	> Videos
@@ -463,14 +464,14 @@ iframe
 blockquote
 	font-size 1.1875rem
 	font-style italic
-	margin 0.625rem 2.5rem
-	padding 0.9375rem
+	margin .625rem 2.5rem
+	padding .9375rem
 
 /* >> Terms
 	========================================================================== */
 
 .SashaBlockquote
-	padding 0.25rem
+	padding .25rem
 	border-width thick
 	border-top-style ridge
 	border-right-style groove
@@ -487,8 +488,8 @@ blockquote
 	display inline-block
 	margin 1.8rem 0 0
 	font-size 3rem
-	line-height: 0
-	vertical-align -0.2rem
+	line-height 0
+	vertical-align - .2rem
 
 .SashaBottomQuote
 	display inline-block
@@ -533,6 +534,7 @@ code
 */
 
 pre
+	@extend $SashaNoHorizontalScrollbar
 	position relative
 	white-space pre-wrap
 	padding .5rem
@@ -575,7 +577,7 @@ pre
 	========================================================================== */
 
 .SashaShadow
-	font-family 'Times New Roman'
+	font-family "Times New Roman"
 	font-size 1.6rem
 	width auto
 
@@ -597,19 +599,19 @@ pre
 .SashaButton
 	float right
 
+// Width of clipboard button in code blocks
+.SashaNotModify
+	width .8125rem
+
 /* >> Tooltipster
 	========================================================================== */
 
 // Theme
 .tooltipster-punk-purple
-	.tooltipster-box
-		border none
-		border-radius 5px
-
 .tooltipster-punk-aquamarine
 	.tooltipster-box
-		border none
-		border-radius 5px
+		border 0
+		border-radius .3125rem
 
 /* >> JQuery Lazy
 	========================================================================== */
@@ -623,42 +625,3 @@ pre
 
 .SashaLazy
 	min-width 1rem
-
-/* >> Progressbar
-	========================================================================== */
-
-// https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
-.progress-label
-	position absolute
-	text-align center
-	font-weight 700
-	width 100%
-	margin 0
-	line-height 1.2rem
-	white-space nowrap
-	overflow hidden
-
-
-.progress-bar
-	height 1.2rem
-	float left
-
-.progress
-	display block
-	width 100%
-	margin 0.5rem 0
-	height 1.2rem
-	position relative
-
-
-.progress.thin
-	margin-top 0.9rem
-	height 0.4rem
-
-
-.progress.thin .progress-label
-	margin-top -0.4rem
-
-
-.progress.thin .progress-bar
-	height 0.4rem

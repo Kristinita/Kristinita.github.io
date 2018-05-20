@@ -1,15 +1,11 @@
 /*==========================================================================*
 	General
 	========================================================================== */
-
 /* ==========================================================================
 	Malihu
 	========================================================================== */
-
 /* Don't use Malihu, plugin have bugs */
-
 /* See https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/501#issuecomment-275629140 */
-
 /*.mCustomScrollbar .mCSB_scrollTools {
 	right: auto;
 }
@@ -18,23 +14,17 @@
 	margin-right: 0;
 }
 */
-
 /* ==========================================================================
 	Gemini
 	========================================================================== */
-
 /* Scrollbar in left side */
-
 .gm-scrollbar.-vertical {
 	right: auto;
 }
-
 /* ==========================================================================
 	Media
 	========================================================================== */
-
 /* Landscape */
-
 @media screen and (orientation: landscape) {
 	.SashaMargin {
 		margin-right: 1rem;
@@ -44,9 +34,7 @@
 		right: 0;
 	}
 }
-
 /* Portrait */
-
 @media screen and (orientation: portrait) {
 	.SashaMargin {
 		margin-right: 1rem;

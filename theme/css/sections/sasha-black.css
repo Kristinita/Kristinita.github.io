@@ -4,104 +4,126 @@
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2017-05-09 15:28:17
 */
-
 img {
 	margin: 0 auto;
+	max-width: 100%;
 }
-
 a:visited {
 	color: #ffc0cb;
 }
-
 a:active {
 	color: #ffc0cb;
 }
-
 a.SashaButtonCategory {
 	font-size: 1.75rem;
 	text-decoration: none;
-	color: #fff;
 	border-style: outset;
 	border-color: #ffe4c4;
 	border-radius: 0.875rem;
-	outline: none;
-	background: #d44b38;
-	-webkit-box-shadow: 0 0 0 3.75rem rgba(0, 0, 0, 0) inset;
-	box-shadow: 0 0 0 3.75rem rgba(0, 0, 0, 0) inset;
+	outline: 0;
 }
-
 a.SashaButtonCategory:hover {
 	font-size: 1.75rem;
 	text-decoration: none;
-	color: #fff;
 	border-style: solid;
 	border-color: #fff;
 	border-radius: 0.875rem;
-	outline: none;
-	background: #d44b38;
-	-webkit-box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
+	outline: 0;
+	-webkit-box-shadow: 0 0 0.625rem rgba(0,0,0,0.5);
+					box-shadow: 0 0 0.625rem rgba(0,0,0,0.5);
 }
-
 a.SashaButtonCategory:active {
 	font-size: 1.75rem;
 	text-decoration: none;
-	color: #fff;
 	border-style: solid;
 	border-color: #fff;
 	border-radius: 0.875rem;
-	outline: none;
-	background: #d44b38;
-	-webkit-box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
-	box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 0 0 12.5rem rgba(0, 0, 0, 0.09) inset;
-	box-shadow: 0 0 0 12.5rem rgba(0, 0, 0, 0.09) inset;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0.625rem rgba(0,0,0,0.5), 0 0 0 12.5rem rgba(0,0,0,0.09) inset;
+					box-shadow: 0 0 0.625rem rgba(0,0,0,0.5), 0 0 0 12.5rem rgba(0,0,0,0.09) inset;
 }
-
 input {
 	font-weight: bold;
 	height: 1.3125rem;
 	color: #800000;
 	border-radius: 0.4375rem;
 }
-
-.SashaCenter,
-.SashaReadHelp,
 .SashaOnlineScanners,
 .SashaDifferentUrl,
-.SashaBottom {
+.SashaReadHelp,
+.SashaBottom,
+.SashaCenter {
 	text-align: center;
 }
-
 .SashaOnlineScanners {
 	font-size: 1.375rem;
 	color: #ff6347;
 }
-
 .SashaDifferentUrl {
 	font-size: 1.4375rem;
 }
-
-.SashaButtonCategory {
+.SashaCategory {
 	font-size: 2rem;
 }
-
+.SashaButtonCategory {
+	font-size: 2rem;
+	color: #000;
+}
 .SashaBorderInput {
 	border: 0.25rem double #000;
 	border-style: outset;
 	border-color: #ff8c00;
+	width: 90%;
 }
-
 .SashaCheckYourSite {
-	font-family: 'Истина';
+	font-family: "Истина";
 	font-size: 3.125rem;
 	color: #ff6347;
 }
-
 .SashaReadHelp {
 	font-size: 1.4375rem;
+	color: #da70d6;
 }
-
 .SashaBottom {
 	margin-bottom: 2rem;
+}
+.SashaCenter {
+	border: 0;
+	margin: 0;
+}
+.SashaButtonLightSkyBlue {
+	background-color: #87cefa;
+}
+.SashaButtonLimeGreen {
+	background-color: #32cd32;
+}
+.SashaButtonPlum {
+	background-color: #dda0dd;
+}
+.SashaButtonSnow {
+	background-color: #fffafa;
+}
+.SashaButtonBisque {
+	background-color: #ffe4c4;
+}
+.SashaButtonOrange {
+	background-color: #f4a900;
+}
+.SashaButtonYellow {
+	background-color: #ff0;
+}
+.SashaButtonDarkOrange {
+	background-color: #ff8c00;
+}
+.SashaButtonSilver {
+	background-color: #c0c0c0;
+}
+.SashaButtonTomato {
+	background-color: #ff6347;
+}
+.SashaButtonSeagreen {
+	background-color: #2e8b57;
+}
+.SashaButtonChocolate {
+	background-color: #d2691e;
 }

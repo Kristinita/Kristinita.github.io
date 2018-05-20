@@ -4,51 +4,44 @@
 * @Last Modified by:   Kristinita
 * @Last Modified time: 2017-03-23 10:42:14
 */
-
+.Sasha404,
+.Sasha404Description {
+	text-align: center;
+}
 body {
-	/* Center background image:
+/* Center background image:
 	https://ru.stackoverflow.com/a/96749/199934 */
-	background: url("https://kristinita.ru/theme/images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed;
+	background: url("../../images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed;
 	background-size: cover;
 	padding: 0;
 }
-
 a {
 	color: #ffd700;
 }
-
 img {
-	/* Center slide:
+/* Center slide:
 	https://stackoverflow.com/a/34670755/5951529 */
 	margin: auto;
 	max-width: 96%;
 }
-
 .Sasha404 {
-	font-size: 4rem;
 	margin-bottom: 2rem;
+	font-size: 4rem;
 	color: #ffa500;
 	font-weight: bold;
 	-webkit-text-stroke: 0.1rem #f00;
 }
-
 .Sasha404Description {
-	font-size: 2rem;
 	margin-bottom: 2rem;
+	font-size: 2rem;
 	color: #f0fff0;
-	/* text-stroke — border around letters:
+/* text-stroke — border around letters:
 	https://ru.stackoverflow.com/q/196968/199934
 	https://css-tricks.com/almanac/properties/t/text-stroke/
 	https://caniuse.com/#feat=text-stroke
 	*/
 	-webkit-text-stroke: 0.04rem;
 }
-
-.Sasha404,
-.Sasha404Description {
-	text-align: center;
-}
-
 .slider {
 	margin-bottom: 2rem;
 }
