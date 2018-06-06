@@ -10,7 +10,7 @@
 // http://www.bbc.co.uk/schools/gcsebitesize/geography/geographical_skills/graphs_rev3.shtml
 $(document).ready(function() {
 	$('.SashaBarChart').visualize({
-		width: 400,
+		width: 700,
 		type: 'bar',
 		legend: true
 	});

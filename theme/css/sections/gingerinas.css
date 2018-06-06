@@ -111,14 +111,84 @@ pre >code {
 	color: #738e8b;
 }
 
-.tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 0.1875rem solid #ffa500;
-	background: #800080;
+.progress {
+	background-color: #f3efd6;
 }
 
-.tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 0.1875rem solid #ff69b4;
-	background: #228b22;
+.progress-bar {
+	background-color: #000;
+}
+
+.progress-label {
+	color: #696969;
+}
+
+.progress-100plus .progress-bar {
+	background-color: #c0c0c0;
+}
+
+.progress-90plus .progress-bar {
+	background-color: #ffc0cb;
+}
+
+.progress-80plus .progress-bar {
+	background-color: #ffa07a;
+}
+
+.progress-70plus .progress-bar {
+	background-color: #b0e0e6;
+}
+
+.progress-60plus .progress-bar {
+	background-color: #90ee90;
+}
+
+.progress-50plus .progress-bar {
+	background-color: #f4a460;
+}
+
+.progress-40plus .progress-bar {
+	background-color: #66cdaa;
+}
+
+.progress-30plus .progress-bar {
+	background-color: #db7093;
+}
+
+.progress-20plus .progress-bar {
+	background-color: #cd853f;
+}
+
+.progress-10plus .progress-bar {
+	background-color: #9370db;
+}
+
+.progress-0plus .progress-bar {
+	background-color: #808000;
+}
+
+.progress-label {
+	position: absolute;
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+	margin: 0;
+	line-height: 1.2rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.progress-bar {
+	height: 1.2rem;
+	float: left;
+}
+
+.progress {
+	display: block;
+	width: 100%;
+	margin: 0.5rem 0;
+	height: 1.2rem;
+	position: relative;
 }
 
 .SashaInlineHighlight,.SashaBlockHighlight {
@@ -227,4 +297,14 @@ pre >code {
 .SashaInlineHighlight .il,.SashaBlockHighlight .il {
 	color: #f99b15;
 	font-weight: bold;
+}
+
+.tooltipster-punk-purple .tooltipster-box {
+	border-bottom: 0.1875rem solid #ffa500;
+	background: #800080;
+}
+
+.tooltipster-punk-aquamarine .tooltipster-box {
+	border-bottom: 0.1875rem solid #ff69b4;
+	background: #228b22;
 }

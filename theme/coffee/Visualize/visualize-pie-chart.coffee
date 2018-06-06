@@ -9,7 +9,7 @@
 # pie chart:
 # https://www.mathsisfun.com/data/pie-charts.html
 $(document).ready ->
-	$('.SashaBarChart').visualize
+	$('.SashaPieChart').visualize
 		width: 400
 		type: 'pie'
 		legend: true

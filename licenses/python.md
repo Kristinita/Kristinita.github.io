@@ -1,6 +1,6 @@
 | Name                | Version   | License                                                      |
 |---------------------|-----------|--------------------------------------------------------------|
-| Babel               | 2.5.3     | BSD                                                          |
+| Babel               | 2.6.0     | BSD                                                          |
 | GitPython           | 2.1.10    | BSD License                                                  |
 | Jinja2              | 2.10      | BSD                                                          |
 | Markdown            | 2.6.11    | BSD License                                                  |
@@ -16,6 +16,7 @@
 | blockdiag           | 1.5.3     | Apache License 2.0                                           |
 | certifi             | 2018.4.16 | MPL-2.0                                                      |
 | chardet             | 3.0.4     | LGPL                                                         |
+| csvlexer            | 0.1.0     | UNKNOWN                                                      |
 | docutils            | 0.14      | public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt) |
 | feedgenerator       | 1.9       | UNKNOWN                                                      |
 | funcparserlib       | 0.3.6     | MIT                                                          |
@@ -29,7 +30,7 @@
 | mdx-customspanclass | 1.1.1     | UNKNOWN                                                      |
 | nwdiag              | 1.0.4     | Apache License 2.0                                           |
 | packaging           | 17.1      | BSD or Apache License, Version 2.0                           |
-| pbr                 | 4.0.3     | UNKNOWN                                                      |
+| pbr                 | 4.0.4     | UNKNOWN                                                      |
 | pelican             | 3.7.1     | UNKNOWN                                                      |
 | pip-review          | 1.0       | BSD                                                          |
 | pyembed             | 1.3.3     | Copyright (c) 2013 Matt Thomson                              |
@@ -42,5 +43,5 @@
 | seqdiag             | 0.9.5     | Apache License 2.0                                           |
 | six                 | 1.11.0    | MIT                                                          |
 | smmap2              | 2.0.3     | BSD                                                          |
-| urllib3             | 1.22      | MIT                                                          |
+| urllib3             | 1.23      | MIT                                                          |
 | webcolors           | 1.8.1     | BSD 3-Clause                                                 |
