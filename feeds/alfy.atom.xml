@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Alfy</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/alfy.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-12-22T06:21:03+03:00</updated><entry><title>АльFAQ</title><link href="https://kristinita.ru/Gingerinas/%D0%90%D0%BB%D1%8CFAQ.html" rel="alternate"></link><published>2018-12-22T06:21:03+03:00</published><updated>2018-12-22T06:21:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-12-22:/Gingerinas/АльFAQ.html</id><summary type="html">&lt;p&gt;Ответы на надоевшие повторяющиеся фразы Alfy&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Alfy</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/alfy.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-12-22T16:51:32+03:00</updated><entry><title>АльFAQ</title><link href="https://kristinita.ru/Gingerinas/%D0%90%D0%BB%D1%8CFAQ.html" rel="alternate"></link><published>2018-12-22T16:51:32+03:00</published><updated>2018-12-22T16:51:32+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-12-22:/Gingerinas/АльFAQ.html</id><summary type="html">&lt;p&gt;Ответы на надоевшие повторяющиеся фразы Alfy&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Что-это-и-для-чего"&gt;Что это и для чего?&lt;/a&gt;&lt;/li&gt;
@@ -212,7 +212,7 @@
 &lt;p&gt;Как и в любой сфере деятельности, для разговоров у научном подходе к запоминанию нужна «матчасть». Вам вряд ли будет очень приятно спорить о физике с человеком, который ничего по ней не читал, но пытается что-то доказывать.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Тестирования"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;4.3.2. Тестирования&lt;/h4&gt;
-&lt;p&gt;Тестирования — имею в виду не юнит-тесты, а проверки, как запоминается информация с комнатами и без них? — я хотел запустить на этапе, когда уже будут готовы новые функции и проект будет показан специалистам.&lt;/p&gt;
+&lt;p&gt;Тестирования — имею в виду не юнит-тесты, а проверки, как запоминается информация с комнатами и без них, — хотел запустить на этапе, когда уже будут готовы новые функции и проект будет показан специалистам.&lt;/p&gt;
 &lt;p&gt;С ними, желательно, и разработать методику тестирований. Прочитал (частично) &lt;a href="http://b-ok.cc/book/2917088/0e3b87"&gt;книгу о тестированиях в современном профессиональном спорте&lt;/a&gt; — так там очень основательно и основательно подходят. И нужны люди для более-менее репрезентативной выборки.&lt;/p&gt;
 &lt;p&gt;Но о простых тестах можно договариваться хоть сейчас. Людей тоже зовите.&lt;/p&gt;
 &lt;p&gt;Посмотрим, правду о Вас говорят или нет.&lt;/p&gt;
