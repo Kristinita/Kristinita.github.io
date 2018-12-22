@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Критика джинджерин</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/kritika-dzhindzherin.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-06-06T13:46:25+03:00</updated><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%85.html" rel="alternate"></link><published>2018-06-06T13:46:25+03:00</published><updated>2018-06-06T13:46:25+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-06-06:/Gingerinas/Знания-в-джинджеринах.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Критика джинджерин</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/kritika-dzhindzherin.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-12-22T06:21:03+03:00</updated><entry><title>Знания в джинджеринах</title><link href="https://kristinita.ru/Gingerinas/%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B4%D0%B6%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%85.html" rel="alternate"></link><published>2018-12-22T06:21:03+03:00</published><updated>2018-12-22T06:21:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-12-22:/Gingerinas/Знания-в-джинджеринах.html</id><summary type="html">&lt;p&gt;Что такое знания и эрудиция, а что — просто информация&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#О-чём-данная-статья"&gt;О чём данная статья&lt;/a&gt;&lt;/li&gt;
@@ -75,13 +75,17 @@
 
 &lt;p&gt;&lt;a id="О-чём-данная-статья"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1. О чём данная статья&lt;/h2&gt;
-&lt;p&gt;Для того, чтобы отвечать на вопросы &lt;a href="./Джинджерины#Определение" target="_blank"&gt;джинджерин&lt;/a&gt;, требуется следующее:&lt;/p&gt;
+&lt;p&gt;Для того, чтобы отвечать на вопросы &lt;a href="./Джинджерины#Определение"&gt;джинджерин&lt;/a&gt;, требуется следующее:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Иметь в голове какую-то информацию;&lt;/li&gt;
 &lt;li&gt;Навыки логического мышления.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Логическому мышлению посвящён ряд моих других статей. В данной же рассматривается информация, которую нужно иметь человеку для ответов на вопросы джинджерин. Её ещё называют «знанием», но я не согласен с таким громким определением.&lt;/p&gt;
 &lt;p&gt;Статья во многом представляет собой критику существующего положения вещей, в ней выносится множество авторских оценок. Её автор отдаёт себе отчёт в ненейтральности.&lt;/p&gt;
+&lt;!-- TODO: Закон Гудхарта --&gt;
+
+&lt;!-- TODO: После игры с Либером: сорта г… --&gt;
+
 &lt;p&gt;&lt;a id="Классификация-информации"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2. Классификация информации&lt;/h2&gt;
 &lt;p&gt;Информация, необходимая для ответа на вопросы джинджерин.&lt;/p&gt;
@@ -96,7 +100,7 @@
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;Вопрос&lt;/em&gt;: ОН взял завёрнутого в пелёнки Телемаха и положил его на борозду, по которой шёл притворявшийся безумным Одиссей.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ответ&lt;/em&gt;: Паламед&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Комментарий&lt;/em&gt;: Узнал информацию о Паламеде и Одиссее из &lt;a href="http://web.archive.org/web/20121119135103/http://www.litrossia.ru/2007/24/01607.html" target="_blank"&gt;классической&lt;/a&gt; книги «Мифы и легенды Древней Греции» Николая Куна.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Комментарий&lt;/em&gt;: Узнал информацию о Паламеде и Одиссее из &lt;a href="http://web.archive.org/web/20121119135103/http://www.litrossia.ru/2007/24/01607.html"&gt;классической&lt;/a&gt; книги «Мифы и легенды Древней Греции» Николая Куна.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Систематизированные знания автор данной статьи получает, читая по возможности авторитетные научно-популярные книги и статьи энциклопедического характера.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Несистематизированная-информация-Замбони"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -113,14 +117,14 @@
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: ОН является изобретателем машины, служащей для восстановления льда на катках.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;О&lt;/em&gt;: Фрэнк Замбони&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;К&lt;/em&gt;: я читал как хоккейные энциклопедии, так и по истории вещей, но нигде о Замбони и его изобретении не сказано ни слова. Google Books &lt;a href="http://bit.ly/2C5XH9H" target="_blank"&gt;не выдаёт ни одного результата на русском по запросу Фрэнк Замбони&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;К&lt;/em&gt;: я читал как хоккейные энциклопедии, так и по истории вещей, но нигде о Замбони и его изобретении не сказано ни слова. Google Books &lt;a href="http://bit.ly/2C5XH9H"&gt;не выдаёт ни одного результата на русском по запросу Фрэнк Замбони&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Получение-несистематизированной-информации"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;2.1.2.1. Получение несистематизированной информации&lt;/h5&gt;
 &lt;p&gt;От наиболее вероятного к менее для автора данной статьи.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;вопросы, прежде встречавшиеся в джинджеринах,&lt;/li&gt;
-&lt;li&gt;собрания интересных фактов (пример — в них как раз &lt;a href="https://www.google.com/search?q=%D0%A1%D0%B0%D0%BD+%D0%90%D0%BB%D1%8C%D1%84%D0%BE%D0%BD%D1%81%D0%BE+%D0%B4%D0%B5%D0%BB%D1%8C+%D0%9C%D0%B0%D1%80&amp;amp;newwindow=1&amp;amp;source=lnms&amp;amp;tbm=bks&amp;amp;sa=X&amp;amp;ved=0ahUKEwjC_9zV25_YAhXiFJoKHWMpBdAQ_AUIECgB&amp;amp;biw=2144&amp;amp;bih=955" target="_blank"&gt;наличествует информация о Сан-Альфонсо-дель-Мар&lt;/a&gt;),&lt;/li&gt;
+&lt;li&gt;собрания интересных фактов (пример — в них как раз &lt;a href="https://www.google.com/search?q=%D0%A1%D0%B0%D0%BD+%D0%90%D0%BB%D1%8C%D1%84%D0%BE%D0%BD%D1%81%D0%BE+%D0%B4%D0%B5%D0%BB%D1%8C+%D0%9C%D0%B0%D1%80&amp;amp;newwindow=1&amp;amp;source=lnms&amp;amp;tbm=bks&amp;amp;sa=X&amp;amp;ved=0ahUKEwjC_9zV25_YAhXiFJoKHWMpBdAQ_AUIECgB&amp;amp;biw=2144&amp;amp;bih=955"&gt;наличествует информация о Сан-Альфонсо-дель-Мар&lt;/a&gt;),&lt;/li&gt;
 &lt;li&gt;знания, полученные в процессе деятельности, не направленной на то, чтобы получать информацию, необходимую для ответов на вопросы джинджерин. Например, чтение записей друзей в соцсетях или новостей.&lt;/li&gt;
 &lt;li&gt;личный опыт,&lt;/li&gt;
 &lt;li&gt;профессиональная деятельность.&lt;/li&gt;
@@ -130,7 +134,7 @@
 &lt;p&gt;&lt;a id="Значимость-джинджерины-или-форсайт"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;2.2.1. Значимость (джинджерины) или форсайт&lt;/h4&gt;
 &lt;div class="SashaBlockquote"&gt;
-&lt;p&gt;В контексте джинджерин &lt;strong&gt;значимой&lt;/strong&gt; или &lt;strong&gt;форсайтом&lt;/strong&gt;&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; считается информация, являющаяся значимой, важной в самой сфере знаний, по которой задаётся вопрос.&lt;/p&gt;
+&lt;p&gt;В контексте джинджерин &lt;strong&gt;значимой&lt;/strong&gt; или &lt;strong&gt;форсайтом&lt;/strong&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; считается информация, являющаяся значимой, важной в самой сфере знаний, по которой задаётся вопрос.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: В ЭТОМ городе расположен крупнейший в России нефтеперерабатывающий завод (на 2016).&lt;/p&gt;
@@ -193,7 +197,7 @@
 &lt;p&gt;&lt;a id="Фарвы"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.1. Фарвы&lt;/h4&gt;
 &lt;div class="SashaBlockquote"&gt;
-&lt;p&gt;В &lt;strong&gt;фарвах&lt;/strong&gt;&lt;sup id="fnref4-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; игрок должен назвать в самом ответе значимую или нетривиальную информацию.&lt;/p&gt;
+&lt;p&gt;В &lt;strong&gt;фарвах&lt;/strong&gt;&lt;sup id="fnref4:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; игрок должен назвать в самом ответе значимую или нетривиальную информацию.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: ЭТОТ гей был избран на государственный пост в штате Калифорния, а в 1978 году был убит.&lt;/p&gt;
@@ -203,7 +207,7 @@
 &lt;p&gt;&lt;a id="Лефтвичи"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.2. Лефтвичи&lt;/h4&gt;
 &lt;div class="SashaBlockquote"&gt;
-&lt;p&gt;&lt;strong&gt;Лефтвичи&lt;/strong&gt;&lt;sup id="fnref3-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; не содержат в ответе значимой либо нетривиальной информации, но имеют её в вопросе.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Лефтвичи&lt;/strong&gt;&lt;sup id="fnref3:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; не содержат в ответе значимой либо нетривиальной информации, но имеют её в вопросе.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;К лефтвичам можно отнести много числовых вопросов игры «КонКВИЗтадор»:&lt;/p&gt;
 &lt;div class="SashaGingerinasExample"&gt;
@@ -215,7 +219,7 @@
 &lt;p&gt;&lt;a id="Пламмеры"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.3. Пламмеры&lt;/h4&gt;
 &lt;div class="SashaBlockquote"&gt;
-&lt;p&gt;&lt;strong&gt;Пламмер&lt;/strong&gt;&lt;sup id="fnref2-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; — вопросная конструкция, не содержащая значимой и нетривиальной информации ни прямо ни косвенно.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Пламмер&lt;/strong&gt;&lt;sup id="fnref2:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; — вопросная конструкция, не содержащая значимой и нетривиальной информации ни прямо ни косвенно.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Примером пламмера может послужить &lt;a href="#Отсутствие-значимости-и-нетривиальности"&gt;вопрос про Пикасент&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Классификация-подходов-к-получению-знаний"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -223,7 +227,7 @@
 &lt;p&gt;Имеются в виду подходы к усвоению и запоминанию информации.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Гальяно"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.1. Гальяно&lt;/h3&gt;
-&lt;p&gt;Цитата из книги Кена Дженнингса «&lt;a href="https://yadi.sk/i/I1sJp8m_3QswDo" target="_blank"&gt;Brianiac. Удивительные приключения в мире интеллектуальных игр&lt;/a&gt;»:&lt;/p&gt;
+&lt;p&gt;Цитата из книги Кена Дженнингса «&lt;a href="https://yadi.sk/i/I1sJp8m_3QswDo"&gt;Brianiac. Удивительные приключения в мире интеллектуальных игр&lt;/a&gt;»:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Тогда водка с апельсиновым соком. Нет, погоди. Это получается отвёртка. Гальяно! В него ещё входит гальяно.&lt;/p&gt;
 &lt;p&gt;Так же как у игроков в викторины, не читающих и половины книг, на вопросы по которым они могут ответить, у меня нет ни малейшего представления о том, кто или что такое это самое гальяно. Для меня это всего лишь ответ на карточке. Фактически я даже не знаю, каковы на вкус эти многочисленные ингредиенты, за исключением фруктовых соков и сахарного сиропа.&lt;/p&gt;
@@ -241,10 +245,10 @@
 &lt;p&gt;&lt;a id="Много-прочёл-≠-много-запомнил"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;4.1.1.2. Много прочёл ≠ много запомнил&lt;/h5&gt;
 &lt;p&gt;Положим, я прочитал где-то вопрос «ЭТОТ ликёр входит в состав коктейля "Харви Уоллбенгер"» с ответом «Гальяно» и пошёл читать дальше. Вряд ли через сутки я смогу воспроизвести слова «Гальяно» и «Харви Уоллбенгер». Однако если я почитаю статью про данные коктейль и ликёр, поищу фото, как они выглядят, а затем запишу информацию о них в пакет Комнаты Эрика (TODO: статья), который буду иногда повторять, шансы на запоминание намного увеличатся. На это уйдёт время, однако эффект будет лучшим, нежели потратить столько же времени на гальяно.&lt;/p&gt;
-&lt;p&gt;Да, с подходом гальяно можно запихать в голову кучу информации за небольшое количество времени. Но чтобы её запомнить, требуются &lt;a href="http://nbviewer.jupyter.org/github/Kristinita/SashaChernykhBooks/blob/master/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/Dumchev%2C%20Pomnit%20Vsyo.pdf" target="_blank"&gt;другие методы&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Да, с подходом гальяно можно запихать в голову кучу информации за небольшое количество времени. Но чтобы её запомнить, требуются &lt;a href="http://nbviewer.jupyter.org/github/Kristinita/SashaChernykhBooks/blob/master/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/Dumchev%2C%20Pomnit%20Vsyo.pdf"&gt;другие методы&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Удовольствие-и-развитие"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;4.1.1.3. Удовольствие и развитие&lt;/h5&gt;
-&lt;p&gt;В книге Райнера Мартенса «Успешный тренер» описываются &lt;a href="http://nbviewer.jupyter.org/github/Kristinita/SashaChernykhBooks/blob/master/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%20%D0%9C%D0%B0%D1%80%D1%82%D0%B5%D0%BD%D1%81%20%E2%80%94%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B5%D0%BD%D0%B5%D1%80.pdf#page=23" target="_blank"&gt;3 основные задачи тренера&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;В книге Райнера Мартенса «Успешный тренер» описываются &lt;a href="http://nbviewer.jupyter.org/github/Kristinita/SashaChernykhBooks/blob/master/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%20%D0%9C%D0%B0%D1%80%D1%82%D0%B5%D0%BD%D1%81%20%E2%80%94%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B5%D0%BD%D0%B5%D1%80.pdf#page=23"&gt;3 основные задачи тренера&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Цели, которые обычно называют тренеры, разделяются на три большие категории:&lt;/p&gt;
 &lt;ol&gt;
@@ -265,14 +269,14 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Елдесы"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Елдесы&lt;/h2&gt;
-&lt;p&gt;Под словом &lt;strong&gt;елдесы&lt;/strong&gt;&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; автор данных строк объединяет всю требуемую для ответов на вопросы джинджерин информацию, которую знать совсем нет желания. Про ненавидимые им логические ходы см. &lt;a href="./Korvers#Факсаксы" target="_blank"&gt;факсаксы&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Под словом &lt;strong&gt;елдесы&lt;/strong&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="#fn:2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; автор данных строк объединяет всю требуемую для ответов на вопросы джинджерин информацию, которую знать совсем нет желания. Про ненавидимые им логические ходы см. &lt;a href="./Korvers#Факсаксы"&gt;факсаксы&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Взгляды-автора-статьи"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.1. Взгляды автора статьи&lt;/h3&gt;
 &lt;p&gt;В данном подразделе перечисляются темы, по которым мне совсем не хочется видеть вопросы. При этом как составлен вопрос, значения не имеет.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Охота, рыбалка, жестокие «развлечения» с участием животным; мясная, молочная промышленности и прочие виды варварства XXI века, которые многие до сих пор считают нормальным;&lt;/li&gt;
-&lt;li&gt;«Ценности» поколения &lt;a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5" target="_blank"&gt;новых недовольных русских&lt;/a&gt; — проекты с высоким уровнем агрессии, ненависти, оскорблений, унижений. Примеры: сайт Луркоморье, мультсериал South Park, шоу Versus Battle.&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://diesel.elcat.kg/index.php?showtopic=138084" target="_blank"&gt;Коммерческие художественные произведения&lt;/a&gt;, в основном, многие голливудские фильмы.&lt;/li&gt;
+&lt;li&gt;«Ценности» поколения &lt;a href="https://kristinita.ru/Smert-svobode/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5"&gt;новых недовольных русских&lt;/a&gt; — проекты с высоким уровнем агрессии, ненависти, оскорблений, унижений. Примеры: сайт Луркоморье, мультсериал South Park, шоу Versus Battle.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://diesel.elcat.kg/index.php?showtopic=138084"&gt;Коммерческие художественные произведения&lt;/a&gt;, в основном, многие голливудские фильмы.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Значимость-в-художественных-произведениях"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Значимость в художественных произведениях&lt;/h3&gt;
@@ -297,7 +301,7 @@
 &lt;div class="SashaGingerinasExample"&gt;
 &lt;p&gt;&lt;em&gt;В&lt;/em&gt;: ТАК звали сына зицпредседателя Фунта.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;О&lt;/em&gt;: Евсей&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;К&lt;/em&gt;: Попробовал узнать, как на это отвечать. Разыскал &lt;a href="http://www.koreiko.ru/gold-calf_15.htm" target="_blank"&gt;в тексте «Золотого телёнка»&lt;/a&gt; следующие слова: «Я выдал замуж внучку, Голконду Евсеевну». И это нужно было запомнить…&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;К&lt;/em&gt;: Попробовал узнать, как на это отвечать. Разыскал &lt;a href="http://www.koreiko.ru/gold-calf_15.htm"&gt;в тексте «Золотого телёнка»&lt;/a&gt; следующие слова: «Я выдал замуж внучку, Голконду Евсеевну». И это нужно было запомнить…&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Непримечательные-строки"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;5.2.2.2. Непримечательные строки&lt;/h5&gt;
@@ -329,7 +333,7 @@
 &lt;p&gt;&lt;a id="Чены"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.3. Чены&lt;/h3&gt;
 &lt;div class="SashaBlockquote"&gt;
-&lt;p&gt;&lt;strong&gt;Чены&lt;/strong&gt;&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt; — списки однородной информации, по которым задаются вопросы в той или иной джинджерине, формата «джинджерины для джинджерин».&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Чены&lt;/strong&gt;&lt;sup id="fnref:4"&gt;&lt;a class="footnote-ref" href="#fn:4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt; — списки однородной информации, по которым задаются вопросы в той или иной джинджерине, формата «джинджерины для джинджерин».&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Примером ченов могут послужить серии вопросов «Зачинается рассказ» и «Вот и сказочке конец» из телевизионной «Своей игры», один вопрос из которых &lt;a href="#Джинджерины-для-джинджерин"&gt;был рассмотрен ранее&lt;/a&gt;. Игрокам требуется назвать, какие начало/концовка какому литературному произведению соответствуют. Это информация типа «джинджерины для джинджерин», больше нигде знание начал/концовок не пригодится.&lt;/p&gt;
 &lt;p&gt;Ещё примеры:&lt;/p&gt;
@@ -427,17 +431,17 @@
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;
-&lt;p&gt;от &lt;a href="http://f-ps.ru/" target="_blank"&gt;Форсайт&lt;/a&gt; — названия психологического центра — на 2017 места работы Саши Черных;&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;от &lt;a href="http://f-ps.ru/"&gt;Форсайт&lt;/a&gt; — названия психологического центра — на 2017 места работы Саши Черных;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-2"&gt;
-&lt;p&gt;Бретт Фарв, Байрон Лефтвич, Джейк Пламмер — квотербеки НФЛ;&amp;#160;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref3-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref4-2" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Бретт Фарв, Байрон Лефтвич, Джейк Пламмер — квотербеки НФЛ;&amp;#160;&lt;a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref3:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref4:2" rev="footnote" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-3"&gt;
-&lt;p&gt;производное от имён и фамилий &lt;a href="https://ok.ru/profile/329953184247" target="_blank"&gt;Елены Десятниковой&lt;/a&gt; и &lt;a href="https://ok.ru/ulduz.garaev" target="_blank"&gt;Улдуза Гараева&lt;/a&gt;, повинных в &lt;a href="http://donday.ru/devushka-naydennaya-mertvoy-v-novoshahtinske-planirovala-svadbu.html" target="_blank"&gt;гибели Пресвятой Великомученицы Кати Десятниковой&lt;/a&gt;;&amp;#160;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;производное от имён и фамилий &lt;a href="https://ok.ru/profile/329953184247"&gt;Елены Десятниковой&lt;/a&gt; и &lt;a href="https://ok.ru/ulduz.garaev"&gt;Улдуза Гараева&lt;/a&gt;, повинных в &lt;a href="http://donday.ru/devushka-naydennaya-mertvoy-v-novoshahtinske-planirovala-svadbu.html"&gt;гибели Пресвятой Великомученицы Кати Десятниковой&lt;/a&gt;;&amp;#160;&lt;a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id="fn-4"&gt;
-&lt;p&gt;по нику игрока онлайн-джинджерины «КонКВИЗтадор» chenov, который точно отвечал почти на все числовые вопросы в темах «Естественные науки» и «Точные науки».&amp;#160;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;li id="fn:4"&gt;
+&lt;p&gt;по нику игрока онлайн-джинджерины «КонКВИЗтадор» chenov, который точно отвечал почти на все числовые вопросы в темах «Естественные науки» и «Точные науки».&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content><category term="help"></category></entry></feed>

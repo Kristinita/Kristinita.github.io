@@ -222,15 +222,7 @@ pre >code {
 /*
 *  http://ru.stackoverflow.com/a/595809/199934
 */
-::-moz-selection {
-	color: Sasha-Selection-Foreground;
-	background: Sasha-Selection-Mozilla-Background;
-}
 ::selection {
-	color: Sasha-Selection-Foreground;
-	background: Sasha-Selection-Background;
-}
-::-moz-selection:window-inactive {
 	color: Sasha-Selection-Foreground;
 	background: Sasha-Selection-Background;
 }

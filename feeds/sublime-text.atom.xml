@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Text</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-06-06T13:46:25+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.ru/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-06-06T13:46:25+03:00</published><updated>2018-06-06T13:46:25+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-06-06:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text. &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime Text</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2018-12-22T06:21:03+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.ru/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-12-22T06:21:03+03:00</published><updated>2018-12-22T06:21:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2018-12-22:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text. &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -76,8 +76,8 @@
 &lt;p&gt;&lt;a id="sublime-text-console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Sublime Text console&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://docs.sublimetext.info/en/latest/basic_concepts.html#sublime-text-is-programmable" target="_blank"&gt;“Sublime Text is Programmable”&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://softwareengineering.stackexchange.com/q/164225/264224" target="_blank"&gt;“What is the purpose of Console in Sublime Text editor?”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.sublimetext.info/en/latest/basic_concepts.html#sublime-text-is-programmable"&gt;“Sublime Text is Programmable”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://softwareengineering.stackexchange.com/q/164225/264224"&gt;“What is the purpose of Console in Sublime Text editor?”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="console-actions"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.1. Console actions&lt;/h3&gt;
@@ -92,11 +92,11 @@
 &lt;p&gt;place your caret before symbol whose &lt;code class="SashaInlineHighlight"&gt;&lt;span class="nv"&gt;$parameter&lt;/span&gt;&lt;/code&gt; you want to know&lt;/p&gt;
 &lt;div class="admonition caution"&gt;
 &lt;p class="admonition-title"&gt;Caution&lt;/p&gt;
-&lt;p&gt;Please, do not confuse &lt;a href="https://www.computerhope.com/jargon/t/textcurs.htm" target="_blank"&gt;caret&lt;/a&gt; and &lt;a href="https://www.computerhope.com/jargon/m/mouspoin.htm" target="_blank"&gt;mouse pointer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please, do not confuse &lt;a href="https://www.computerhope.com/jargon/t/textcurs.htm"&gt;caret&lt;/a&gt; and &lt;a href="https://www.computerhope.com/jargon/m/mouspoin.htm"&gt;mouse pointer&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;open &lt;a href="https://stackoverflow.com/q/13965877/5951529" target="_blank"&gt;Sublime Text console&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;open &lt;a href="https://stackoverflow.com/q/13965877/5951529"&gt;Sublime Text console&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;paste method from &lt;code class="SashaInlineHighlight"&gt;&lt;span class="nv"&gt;$parameter&lt;/span&gt;&lt;/code&gt; section to Sublime Text console input area → &lt;kbd&gt;Enter&lt;/kbd&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -108,10 +108,10 @@
 &lt;h3&gt;6.1. Packages directory&lt;/h3&gt;
 &lt;p&gt;&lt;a id="what-is-it"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.1.1. What is it?&lt;/h4&gt;
-&lt;p&gt;&lt;a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-packages-directory" target="_blank"&gt;Packages directory&lt;/a&gt; — &lt;em&gt;Data/Packages&lt;/em&gt; — path, where stored:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-packages-directory"&gt;Packages directory&lt;/a&gt; — &lt;em&gt;Data/Packages&lt;/em&gt; — path, where stored:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages" target="_blank"&gt;“user packages” except “installed packages”&lt;/a&gt; in Sublime Text terminology&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;User&lt;/em&gt; folder, where stored &lt;a href="https://www.sublimetext.com/docs/3/settings.html" target="_blank"&gt;user settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages"&gt;“user packages” except “installed packages”&lt;/a&gt; in Sublime Text terminology&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;User&lt;/em&gt; folder, where stored &lt;a href="https://www.sublimetext.com/docs/3/settings.html"&gt;user settings&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="what-should-you-do"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.1.2. What should you do?&lt;/h4&gt;
@@ -123,14 +123,14 @@
 
 &lt;div class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Note&lt;/p&gt;
-&lt;p&gt;That to obtain directory of &lt;a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages" target="_blank"&gt;“installed packages”&lt;/a&gt;, use this method:&lt;/p&gt;
+&lt;p&gt;That to obtain directory of &lt;a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages"&gt;“installed packages”&lt;/a&gt;, use this method:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;installed_packages_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="not-recommended"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.1.4. Not recommended&lt;/h4&gt;
-&lt;p&gt;In some sources (&lt;a href="https://stackoverflow.com/a/19158010/5951529" target="_blank"&gt;example&lt;/a&gt;) you can read similar answers:&lt;/p&gt;
+&lt;p&gt;In some sources (&lt;a href="https://stackoverflow.com/a/19158010/5951529"&gt;example&lt;/a&gt;) you can read similar answers:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;For Sublime 3, the locations are the following:&lt;/p&gt;
 &lt;p&gt;Windows: &lt;em&gt;%APPDATA%Sublime Text 3&lt;/em&gt;,&lt;/p&gt;
@@ -141,14 +141,14 @@
 &lt;ol&gt;
 &lt;li&gt;it less simple&lt;/li&gt;
 &lt;li&gt;in new versions of Sublime Text and/or operating systems paths may be change&lt;/li&gt;
-&lt;li&gt;it &lt;a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-data-directory" target="_blank"&gt;doesn't take&lt;/a&gt; portable Sublime Text on Windows&lt;/li&gt;
+&lt;li&gt;it &lt;a href="http://docs.sublimetext.info/en/sublime-text-3/basic_concepts.html#the-data-directory"&gt;doesn't take&lt;/a&gt; portable Sublime Text on Windows&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="syntax"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.2. Syntax&lt;/h3&gt;
 &lt;p&gt;&lt;a id="what-is-it-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.2.1. What is it?&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.computerhope.com/jargon/s/syntax.htm" target="_blank"&gt;“Syntax” definition&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.computerhope.com/jargon/s/syntax.htm"&gt;“Syntax” definition&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="what-should-you-do-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.2.2. What should you do?&lt;/h4&gt;
@@ -175,7 +175,7 @@
 &lt;p&gt;&lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;
 &lt;div class="admonition hint"&gt;
 &lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
-&lt;p&gt;Also, some parameters contains in &lt;a href="https://www.sublimetext.com/docs/3/settings.html" target="_blank"&gt;&lt;em&gt;Preferences.sublime-settings&lt;/em&gt;&lt;/a&gt; and &lt;em&gt;stTheme&lt;/em&gt; files. &lt;a href="https://stackoverflow.com/a/19582360/5951529" target="_blank"&gt;&lt;em&gt;stTheme&lt;/em&gt;&lt;/a&gt; highlight and stylize regular expressions and another elements in input areas of your &lt;a href="https://www.sublimetext.com/docs/3/themes.html#elements-panels" target="_blank"&gt;“Find”, “Find in Files” and “Replace panels”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also, some parameters contains in &lt;a href="https://www.sublimetext.com/docs/3/settings.html"&gt;&lt;em&gt;Preferences.sublime-settings&lt;/em&gt;&lt;/a&gt; and &lt;em&gt;stTheme&lt;/em&gt; files. &lt;a href="https://stackoverflow.com/a/19582360/5951529"&gt;&lt;em&gt;stTheme&lt;/em&gt;&lt;/a&gt; highlight and stylize regular expressions and another elements in input areas of your &lt;a href="https://www.sublimetext.com/docs/3/themes.html#elements-panels"&gt;“Find”, “Find in Files” and “Replace panels”&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="stTheme" src="https://i.imgur.com/icfjatQ.png"&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="what-should-you-do-2"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -203,7 +203,7 @@
 
 &lt;div class="admonition hint"&gt;
 &lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
-&lt;p&gt;You can get your another &lt;a href="http://docs.sublimetext.info/en/latest/customization/settings.html" target="_blank"&gt;settings&lt;/a&gt;, use &lt;code class="SashaInlineHighlight"&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/code&gt;. &lt;strong&gt;Example&lt;/strong&gt;: to obtain your current font face, you need &lt;code class="SashaInlineHighlight"&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;font_face&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can get your another &lt;a href="http://docs.sublimetext.info/en/latest/customization/settings.html"&gt;settings&lt;/a&gt;, use &lt;code class="SashaInlineHighlight"&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;/code&gt;. &lt;strong&gt;Example&lt;/strong&gt;: to obtain your current font face, you need &lt;code class="SashaInlineHighlight"&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;font_face&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="scope"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.5. Scope&lt;/h3&gt;
@@ -243,9 +243,9 @@
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://forum.sublimetext.com/t/question-terminology-scope-vs-scope-selector/36039?u=sasha_chernykh" target="_blank"&gt;Scope vs. scope selector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://blog.macromates.com/2005/introduction-to-scopes/" target="_blank"&gt;Introduction to scopes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://manual.macromates.com/en/scope_selectors.html" target="_blank"&gt;“Scope selector” definition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://forum.sublimetext.com/t/question-terminology-scope-vs-scope-selector/36039?u=sasha_chernykh"&gt;Scope vs. scope selector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.macromates.com/2005/introduction-to-scopes/"&gt;Introduction to scopes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://manual.macromates.com/en/scope_selectors.html"&gt;“Scope selector” definition&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="what-should-you-do-4"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.5.2. What should you do?&lt;/h4&gt;
@@ -257,7 +257,7 @@
 
 &lt;p&gt;&lt;a id="not-recommended-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.5.4. Not recommended&lt;/h4&gt;
-&lt;p&gt;In some sources (&lt;a href="https://stackoverflow.com/a/15911198/5951529" target="_blank"&gt;example&lt;/a&gt;) you can read similar answers:&lt;/p&gt;
+&lt;p&gt;In some sources (&lt;a href="https://stackoverflow.com/a/15911198/5951529"&gt;example&lt;/a&gt;) you can read similar answers:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Windows — &lt;kbd&gt;Ctrl+Alt+Shift+P&lt;/kbd&gt;,&lt;/p&gt;
 &lt;p&gt;macOS — &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt;.&lt;/p&gt;
@@ -284,6 +284,6 @@
 &lt;p&gt;&lt;a id="external-links"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. External links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sublimetext.com/docs/3/api_reference.html" target="_blank"&gt;Sublime Text 3 API Reference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://leanpub.com/writing-sublime-plugins" target="_blank"&gt;“Writing Sublime Plugins”&lt;/a&gt; book&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sublimetext.com/docs/3/api_reference.html"&gt;Sublime Text 3 API Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://leanpub.com/writing-sublime-plugins"&gt;“Writing Sublime Plugins”&lt;/a&gt; book&lt;/li&gt;
 &lt;/ul&gt;</content><category term="sublime-text"></category></entry></feed>

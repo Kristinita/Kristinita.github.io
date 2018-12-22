@@ -102,17 +102,7 @@ code {
 	background-color: #ffe4c4;
 }
 
-::-moz-selection {
-	color: #f08080;
-	background: #ffe4b5;
-}
-
 ::selection {
-	color: #f08080;
-	background: rgba(255,228,181,0.99);
-}
-
-::-moz-selection:window-inactive {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);
 }

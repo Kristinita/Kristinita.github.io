@@ -67,17 +67,7 @@ pre >code {
 	background-color: Sasha-Multiline-Code;
 }
 
-::-moz-selection {
-	color: rgba(240,128,128,0.467);
-	background: #ffe4b5;
-}
-
 ::selection {
-	color: rgba(240,128,128,0.467);
-	background: rgba(255,228,181,0.99);
-}
-
-::-moz-selection:window-inactive {
 	color: rgba(240,128,128,0.467);
 	background: rgba(255,228,181,0.99);
 }
