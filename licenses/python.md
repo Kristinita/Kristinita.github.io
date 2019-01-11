@@ -5,13 +5,13 @@
 | Jinja2              | 2.10       | BSD                                                          |
 | Markdown            | 3.0.1      | BSD License                                                  |
 | MarkupSafe          | 1.1.0      | BSD                                                          |
-| Pillow              | 5.3.0      | Standard PIL License                                         |
+| Pillow              | 5.4.1      | Standard PIL License                                         |
 | PyYAML              | 3.13       | MIT                                                          |
 | Pygments            | 2.3.1      | BSD License                                                  |
 | Unidecode           | 1.0.23     | GPL                                                          |
 | actdiag             | 0.5.4      | Apache License 2.0                                           |
 | bashate             | 0.6.0      | UNKNOWN                                                      |
-| beautifulsoup4      | 4.6.3      | MIT                                                          |
+| beautifulsoup4      | 4.7.1      | MIT                                                          |
 | blinker             | 1.4        | MIT License                                                  |
 | blockdiag           | 1.5.4      | Apache License 2.0                                           |
 | certifi             | 2018.11.29 | MPL-2.0                                                      |
@@ -37,10 +37,11 @@
 | pymdown-extensions  | 6.0        | MIT License                                                  |
 | pyparsing           | 2.3.0      | MIT License                                                  |
 | python-dateutil     | 2.7.5      | Dual License                                                 |
-| pytz                | 2018.7     | MIT                                                          |
+| pytz                | 2018.9     | MIT                                                          |
 | requests            | 2.21.0     | Apache 2.0                                                   |
 | seqdiag             | 0.9.6      | Apache License 2.0                                           |
 | six                 | 1.12.0     | MIT                                                          |
 | smmap2              | 2.0.5      | BSD                                                          |
+| soupsieve           | 1.7        | MIT License                                                  |
 | urllib3             | 1.24.1     | MIT                                                          |
 | webcolors           | 1.8.1      | BSD 3-Clause                                                 |

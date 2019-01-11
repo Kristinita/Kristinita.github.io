@@ -79,6 +79,11 @@ blockquote {
 	background-color: #d0f0c0;
 }
 
+.SashaGingerinasBadExample {
+	background-color: rgba(240,128,128,0.569);
+	color: #dc143c;
+}
+
 code {
 	background-color: #2f4f4f;
 }

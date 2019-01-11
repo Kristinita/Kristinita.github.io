@@ -70,6 +70,10 @@ blockquote {
 .SashaGingerinasExample {
 	background-color: #d0f0c0;
 }
+.SashaGingerinasBadExample {
+	background-color: Sasha-Gingerinas-Bad-Example;
+	color: Sasha-Gingerinas-Bad-Example-Foreground;
+}
 code {
 	background-color: #2f4f4f;
 }
