@@ -28,20 +28,20 @@
 | mdx-customspanclass | 1.1.1      | UNKNOWN                                                      |
 | mdx-video           | 0.1.8      | UNKNOWN                                                      |
 | nwdiag              | 1.0.4      | Apache License 2.0                                           |
-| packaging           | 18.0       | BSD or Apache License, Version 2.0                           |
-| pbr                 | 5.1.1      | UNKNOWN                                                      |
+| packaging           | 19.0       | BSD or Apache License, Version 2.0                           |
+| pbr                 | 5.1.2      | UNKNOWN                                                      |
 | pelican             | 4.0.1      | AGPLv3                                                       |
 | pip-review          | 1.0        | BSD                                                          |
 | pyembed             | 1.3.3      | Copyright (c) 2013 Matt Thomson                              |
 | pyembed-markdown    | 1.1.0      | Copyright (c) 2013 Matt Thomson                              |
 | pymdown-extensions  | 6.0        | MIT License                                                  |
-| pyparsing           | 2.3.0      | MIT License                                                  |
+| pyparsing           | 2.3.1      | MIT License                                                  |
 | python-dateutil     | 2.7.5      | Dual License                                                 |
 | pytz                | 2018.9     | MIT                                                          |
 | requests            | 2.21.0     | Apache 2.0                                                   |
 | seqdiag             | 0.9.6      | Apache License 2.0                                           |
 | six                 | 1.12.0     | MIT                                                          |
 | smmap2              | 2.0.5      | BSD                                                          |
-| soupsieve           | 1.7        | MIT License                                                  |
+| soupsieve           | 1.7.3      | MIT License                                                  |
 | urllib3             | 1.24.1     | MIT                                                          |
 | webcolors           | 1.8.1      | BSD 3-Clause                                                 |

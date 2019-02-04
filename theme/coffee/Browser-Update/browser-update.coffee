@@ -34,7 +34,7 @@ $buoop =
 
 $buo_f = ->
 	e = document.createElement('script')
-	e.src = '//browser-update.org/update.min.js'
+	e.src = 'https://browser-update.org/update.min.js'
 	document.body.appendChild e
 	return
 

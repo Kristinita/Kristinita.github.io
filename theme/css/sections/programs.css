@@ -150,6 +150,9 @@ pre >code {
 .progress-0plus .progress-bar {
 	background-color: Sasha-Progressbar-0;
 }
+div.a2a_floating_style {
+	background-color: #ffc0cb;
+}
 .tooltipster-punk-purple .tooltipster-box {
 	border-bottom: 0.1875rem solid #ffa500;
 	background: #800080;

@@ -26,18 +26,24 @@
 	========================================================================== */
 /* Landscape */
 @media screen and (orientation: landscape) {
-	.SashaMargin {
+	article {
 		margin-right: 1rem;
 		margin-left: 2rem;
 	}
-	aside {
+	.SashaIconAside {
 		right: 0;
 	}
 }
 /* Portrait */
 @media screen and (orientation: portrait) {
-	.SashaMargin {
+	article {
 		margin-right: 1rem;
-		margin-left: 2rem;
+		margin-left: 3rem;
 	}
+}
+/* ==========================================================================
+	AddToThis
+	========================================================================== */
+.a2a_floating_style {
+	left: 0;
 }

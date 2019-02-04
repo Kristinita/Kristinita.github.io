@@ -7,7 +7,7 @@
 /* ==========================================================================
 	General
 	========================================================================== */
-aside {
+.SashaIconAside {
 	background-size: cover;
 	height: 100%;
 	top: 0;
@@ -36,7 +36,7 @@ aside {
 */
 /* For portrait orientation */
 @media screen and (orientation: portrait) {
-	aside {
+	.SashaIconAside {
 		width: 100%;
 /*
 		* That .SashaBottomAside text will child for <aside> element:
@@ -50,7 +50,7 @@ aside {
 }
 /* For landscape orientation */
 @media screen and (orientation: landscape) {
-	aside {
+	.SashaIconAside {
 		width: 35%;
 		position: fixed;
 	}

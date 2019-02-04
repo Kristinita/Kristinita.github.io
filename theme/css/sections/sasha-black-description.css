@@ -81,6 +81,10 @@ pre >code {
 	color: #ff8c00;
 }
 
+div.a2a_floating_style {
+	background-color: #ffa500;
+}
+
 .tooltipster-punk-purple .tooltipster-box {
 	border-bottom: 0.1875rem solid #ffa500;
 	background: #800080;
@@ -136,6 +140,10 @@ pre >code {
 .SashaBlockHighlight .gh {
 	color: #fff;
 	font-weight: bold;
+}
+
+.SashaBlockHighlight .ld {
+	color: #fff;
 }
 
 .SashaBlockHighlight .m {

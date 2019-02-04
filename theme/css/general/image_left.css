@@ -22,7 +22,7 @@ div.buorg {
 	========================================================================== */
 /* Landscape */
 @media screen and (orientation: landscape) {
-	.SashaMargin {
+	article {
 		margin-right: 2rem;
 		margin-left: 1rem;
 	}
@@ -35,8 +35,14 @@ div.buorg {
 }
 /* Portrait */
 @media screen and (orientation: portrait) {
-	.SashaMargin {
-		margin-right: 2rem;
+	article {
+		margin-right: 3rem;
 		margin-left: 1rem;
 	}
+}
+/* ==========================================================================
+	AddToThis
+	========================================================================== */
+.a2a_floating_style {
+	right: 0;
 }

@@ -79,11 +79,6 @@ blockquote {
 	background-color: #d0f0c0;
 }
 
-.SashaGingerinasBadExample {
-	background-color: rgba(240,128,128,0.569);
-	color: #dc143c;
-}
-
 code {
 	background-color: #2f4f4f;
 }
@@ -162,6 +157,10 @@ pre >code {
 	background-color: #808000;
 }
 
+div.a2a_floating_style {
+	background-color: #87cefa;
+}
+
 .progress-label {
 	position: absolute;
 	text-align: center;
@@ -232,12 +231,21 @@ pre >code {
 	font-style: italic;
 }
 
+.SashaInlineHighlight .gh,.SashaBlockHighlight .gh {
+	color: #2f1e2e;
+	font-weight: bold;
+}
+
 .SashaInlineHighlight .gt,.SashaBlockHighlight .gt {
 	color: #fff;
 }
 
 .SashaInlineHighlight .kp,.SashaBlockHighlight .kp {
 	color: #815ba4;
+}
+
+.SashaInlineHighlight .ld,.SashaBlockHighlight .ld {
+	color: #48b685;
 }
 
 .SashaInlineHighlight .m,.SashaBlockHighlight .m {

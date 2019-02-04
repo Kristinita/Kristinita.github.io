@@ -71,6 +71,10 @@ pre >code {
 	color: #465550;
 }
 
+div.a2a_floating_style {
+	background-color: #9370db;
+}
+
 .tooltipster-punk-purple .tooltipster-box {
 	border-bottom: 0.1875rem solid #ffa500;
 	background: #800080;
@@ -131,6 +135,11 @@ pre >code {
 	font-style: italic;
 }
 
+.SashaInlineHighlight .gh,.SashaBlockHighlight .gh {
+	color: #2f1e2e;
+	font-weight: bold;
+}
+
 .SashaInlineHighlight .go,.SashaBlockHighlight .go {
 	color: #444;
 	background-color: Sasha-Pygments-Generic-Output-Background;
@@ -148,6 +157,10 @@ pre >code {
 .SashaInlineHighlight .kn,.SashaBlockHighlight .kn {
 	color: #5bc4bf;
 	font-weight: bold;
+}
+
+.SashaInlineHighlight .ld,.SashaBlockHighlight .ld {
+	color: #48b685;
 }
 
 .SashaInlineHighlight .m,.SashaBlockHighlight .m {
