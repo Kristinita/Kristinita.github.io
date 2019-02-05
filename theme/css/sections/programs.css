@@ -23,12 +23,10 @@ dfn {
 	color: #db7093;
 }
 img {
-	-webkit-box-shadow: 0 0 2rem #000;
-					box-shadow: 0 0 2rem #000;
+	box-shadow: 0 0 2rem #000;
 }
 .SashaPageLoading {
-	-webkit-box-shadow: none;
-					box-shadow: none;
+	box-shadow: none;
 }
 kbd {
 	color: #ffc0cb;
@@ -93,7 +91,15 @@ pre >code {
 	color: Sasha-Span-Foreground;
 	background-color: Sasha-Span-Background;
 }
+::-moz-selection {
+	color: #f08080;
+	background: #ffe4b5;
+}
 ::selection {
+	color: #f08080;
+	background: rgba(255,228,181,0.99);
+}
+::-moz-selection:window-inactive {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);
 }
