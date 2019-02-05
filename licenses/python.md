@@ -36,7 +36,7 @@
 | pyembed-markdown    | 1.1.0      | Copyright (c) 2013 Matt Thomson                              |
 | pymdown-extensions  | 6.0        | MIT License                                                  |
 | pyparsing           | 2.3.1      | MIT License                                                  |
-| python-dateutil     | 2.7.5      | Dual License                                                 |
+| python-dateutil     | 2.8.0      | Dual License                                                 |
 | pytz                | 2018.9     | MIT                                                          |
 | requests            | 2.21.0     | Apache 2.0                                                   |
 | seqdiag             | 0.9.6      | Apache License 2.0                                           |
