@@ -24,17 +24,18 @@ do ->
 	gcse.async = true
 	gcse.src = 'https://cse.google.com/cse.js?cx=' + cx
 	s = document.getElementsByTagName('script')[0]
-
-	###
-	Add autofocus for Google Custom Search Engine Form:
-	http://bit.ly/2Iq1nGs ;
-	Replace eval: https://github.com/eslint/eslint/issues/7861#issuecomment-270670327
-	###
-
-	# 1000 delay work not always, I increase delay
-	setTimeout (->
-		document.getElementById('gsc-i-id1').focus()
-		return
-	), 1500
 	s.parentNode.insertBefore gcse, s
 	return
+
+###
+[INFO] Add autofocus for Google Custom Search Engine Form:
+http://bit.ly/2Iq1nGs
+[NOTE] Replace eval:
+https://github.com/eslint/eslint/issues/7861#issuecomment-270670327
+[WARNING] Big timeout, because I can get errors “TypeError: document.getElementById(…) is null”:
+https://ru.stackoverflow.com/q/941455/199934
+###
+setTimeout (->
+	document.getElementById('gsc-i-id1').focus()
+	return
+), 4000

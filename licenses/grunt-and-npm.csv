@@ -572,7 +572,7 @@ grunt-legacy-log-utils,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/nod
 grunt-legacy-util,0.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/grunt-legacy-util,(none),MIT,MIT,,
 grunt-legacy-util,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-legacy-util,http://github.com/gruntjs/grunt-legacy-util,MIT,MIT,,
 grunt-license-finder,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-license-finder,http://github.com/iandotkelly/grunt-license-finder,BSD;ISC;MIT;WTFPL,MIT,BSD;ISC;MIT;WTFPL,BSD;MIT
-grunt-markdownlint,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-markdownlint,ssh://git@github.com/sagiegurari/grunt-markdownlint,Apache;Apache-2.0,Apache-2.0,Apache,
+grunt-markdownlint,2.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-markdownlint,ssh://git@github.com/sagiegurari/grunt-markdownlint,Apache;Apache-2.0,Apache-2.0,Apache,
 grunt-minify-html,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-minify-html,https://github.com/sindresorhus/grunt-minify-html,MIT,MIT,MIT,MIT
 grunt-move,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-move,https://github.com/prantlf/grunt-move,MIT,MIT,MIT,MIT
 grunt-newer,1.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-newer,http://github.com/tschaub/grunt-newer,MIT,MIT,,
@@ -863,7 +863,7 @@ map-obj,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/meow/
 map-obj,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-obj,https://github.com/sindresorhus/map-obj,MIT,MIT,MIT,MIT
 map-visit,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-visit,https://github.com/jonschlinkert/map-visit,MIT,MIT,MIT,
 markdown-it,8.4.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/markdown-it,https://github.com/markdown-it/markdown-it,MIT,MIT,,
-markdownlint,0.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/markdownlint,https://github.com/DavidAnson/markdownlint,MIT,MIT,MIT,
+markdownlint,0.12.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/markdownlint,https://github.com/DavidAnson/markdownlint,MIT,MIT,MIT,
 match-stream,0.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/match-stream,https://github.com/EvanOxfeld/match-stream,MIT,MIT,MIT,MIT
 math-expression-evaluator,1.2.17,/home/travis/build/Kristinita/KristinitaPelican/node_modules/math-expression-evaluator,https://github.com/redhivesoftware/math-expression-evaluator#readme,MIT,MIT,MIT,
 maxmin,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/maxmin,https://github.com/sindresorhus/maxmin,MIT,MIT,MIT,MIT
@@ -1343,7 +1343,7 @@ type-check,0.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ty
 typechecker,4.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/typechecker,https://github.com/bevry/typechecker,MIT,MIT,,
 typedarray,0.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/typedarray,http://github.com/substack/typedarray,MIT,MIT,,MIT
 ua-parser-js,0.7.17,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ua-parser-js,https://github.com/faisalman/ua-parser-js,(GPL-2.0 OR MIT);GPL;MIT,(GPL-2.0 OR MIT),,GPL;MIT
-uc.micro,1.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uc.micro,https://github.com/markdown-it/uc.micro,MIT,MIT,,
+uc.micro,1.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uc.micro,https://github.com/markdown-it/uc.micro,MIT,MIT,,
 uglify-js,3.3.22,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uglify-js,https://github.com/mishoo/UglifyJS2,BSD;BSD-2-Clause,BSD-2-Clause,BSD,
 uglify-js,3.4.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-uglify/node_modules/uglify-js,(none),BSD;BSD-2-Clause,BSD-2-Clause,BSD,
 ultron,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ultron,https://github.com/unshiftio/ultron,MIT,MIT,MIT,MIT
