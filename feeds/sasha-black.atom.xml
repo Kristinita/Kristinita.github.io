@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sasha-Black</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sasha-black.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2019-02-07T06:04:39+03:00</updated><entry><title>Sasha Black — проверка репутации сайта</title><link href="https://kristinita.ru/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2019-02-07T06:04:39+03:00</published><updated>2019-02-07T06:04:39+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-07:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sasha-Black</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sasha-black.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2019-02-11T13:33:54+03:00</updated><entry><title>Sasha Black — проверка репутации сайта</title><link href="https://kristinita.ru/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#sasha-black-для-владельцев-сайтов"&gt;Sasha Black для владельцев сайтов&lt;/a&gt;&lt;/li&gt;
@@ -37,7 +37,7 @@
 &lt;h2&gt;1. Sasha Black для владельцев сайтов&lt;/h2&gt;
 &lt;p&gt;Вы — владелец, не собирающийся рассылать спам, размещать вредоносные коды и совершать прочие противоправные действия. Бесплатная проверка на Sasha Black может понадобиться Вам в ряде случаев:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Решили приобрести доменное имя. А оно может быть основательно запятнано. Если именно покупаете у прежнего владельца, а не регистрируете,&lt;a href="#robtex"&gt;удостоверьтесь в наличии записи &lt;em&gt;VERIFIED&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Решили приобрести доменное имя. А оно может быть основательно запятнано. Если именно покупаете у прежнего владельца, а не регистрируете, &lt;a href="#robtex"&gt;удостоверьтесь в наличии записи &lt;em&gt;VERIFIED&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Подбираете хостинг. Обязательно погуглите о нём и пробейте его на Sasha Black, чтобы потом не удивлялись дорвеям в числе соседей по IP, чьё присутствие в блэклистах отразится и на Вас.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;На сайте &lt;a href="https://revisium.com/kb/virusonsite.html" title="Как сайт заражается вирусом?"&gt;без Вашей воли&lt;/a&gt; &lt;a href="https://habrahabr.ru/post/137071/" title="Расшифровка вредоносного Javascript"&gt;появилось вредоносное содержимое&lt;/a&gt;:&lt;/p&gt;
@@ -77,7 +77,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="sasha-black-как-проверка-сторонних-сайтов"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;3. Sasha Black как проверка сторонних сайтов&lt;/h2&gt;
-&lt;p&gt;Перед обращением к Sasha Black введите в Яндекс или Гугл _"testsite.com"_или &lt;em&gt;"testsite.com" отзывы&lt;/em&gt; и обратите внимание на аргументированность мнений о сайте.&lt;/p&gt;
+&lt;p&gt;Перед обращением к Sasha Black введите в Яндекс или Гугл &lt;em&gt;"testsite.com"&lt;/em&gt; или &lt;em&gt;"testsite.com"&lt;/em&gt; отзывы_ и обратите внимание на аргументированность мнений о сайте.&lt;/p&gt;
 &lt;p&gt;Что сразу не показывают поисковики, иногда находится непосредственно на &lt;a href="#web-of-trust"&gt;WOT&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="WOT_проверяет_usenet.nl" src="https://i.imgur.com/HqMe6gh.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Sucuri и MX Toolbox же не видят ничего подозрительного на данном явно мошенническом ресурсе.&lt;/p&gt;
@@ -97,7 +97,7 @@
 &lt;p&gt;Они доверяют антивирусным программам обеспечение безопасности при сёрфинге в интернете, и большинство не подвергает решения ESET'а, Avast'а, СOMODO и прочих сомнениям. Сколько же пострадало невинных сайтов.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Оставляют запущенными рекламорезки и на с., где не всплывают окна и отсутствует прочая навязчивая реклама; как итог — &lt;a href="https://www.admuncher.com/" title="Ad Muncher"&gt;Ad Muncher&lt;/a&gt; «съедает» панель редактора на форумах с BBCode, не позволяет зарегистрироваться в кабинете вебмастера на Mail.ru или оставить комментарий к ответу на Stack Overflow и т. д.&lt;/li&gt;
-&lt;li&gt;Многие, включая[Включите в браузере JavaScript для возможности связаться по электронной почте] , в честь Которой наречена данная служба, заводят почтовый ящик на GMail, кидающий в папку «Спам» половину важных писем, тогда как настоящий спам на почту практически не приходит. &lt;a href="https://productforums.google.com/forum/#!topic/gmail-ru/ydfMTF7IUec" title="Папка «Спам» в GMail"&gt;Разобраться бы&lt;/a&gt;, да мало кто обращает взор на содержимое «Спама».&lt;/li&gt;
+&lt;li&gt;Многие, включая Сашу Черных, в честь Которой наречена данная служба, заводят почтовый ящик на GMail, кидающий в папку «Спам» половину важных писем, тогда как настоящий спам на почту практически не приходит. &lt;a href="https://productforums.google.com/forum/#!topic/gmail-ru/ydfMTF7IUec"&gt;Разобраться бы&lt;/a&gt;, да мало кто обращает взор на содержимое «Спама».&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Почему лучше, если сайт везде покажет такие же 100-процентные результаты, как kristinita.ru на скриншотах ниже.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Онлайн-сканеры"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -129,14 +129,14 @@
 &lt;h2&gt;5. Блэклисты&lt;/h2&gt;
 &lt;p&gt;Сервисы, представленные в этой категории, не сканируют сайты самостоятельно, а проверяют их на наличие в разного рода чёрных списках.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Хуже спама только борьба со спамом — _ &lt;a href="http://www.old.hostobzor.ru/doc/spam.php" title="Спам или без вины виноватые"&gt;народная мудрость&lt;/a&gt;._&lt;/p&gt;
+&lt;p&gt;Хуже спама только борьба со спамом — &lt;a href="http://www.old.hostobzor.ru/doc/spam.php"&gt;&lt;em&gt;народная мудрость&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;В основном, происходит проверка по DNS blacklists (DNSBL), попадание в которые означает восприятие почты как спама. &lt;a href="https://geektimes.ru/post/59598/" title="Что такое DNSBL"&gt;Что это такое, как снизить шансы на попадание и выбраться оттуда&lt;/a&gt;. Настраивать у себя &lt;a href="http://wolandblog.com/3-pochemu-ya-ne-ispolzuyu-dnsbl-v-pomoshh-nachinayushhemu-postmasteru/" title="Почему не рекомендуется использовать DNSBL"&gt;не рекомендуется&lt;/a&gt; без взвешенной оценки всех факторов из-за частого попадания в чс честных релеев. &lt;a href="http://wayback.archive.org/web/20140209073704/http://spamlinks.net/filter-dnsbl-lists.htm" title="Список DNSBL"&gt;Большой список DNSBL&lt;/a&gt; . Для защиты ссылок &lt;em&gt;mailto:&lt;/em&gt; от спам-ботов &lt;a href="http://ru.stackoverflow.com/a/501219/199934" title="MailLink"&gt;воспользуйтесь инструментом MailLink&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;В основном, происходит проверка по DNS blacklists (DNSBL), попадание в которые означает восприятие почты как спама. &lt;a href="https://geektimes.ru/post/59598/"&gt;Что это такое, как снизить шансы на попадание и выбраться оттуда&lt;/a&gt;. Настраивать у себя &lt;a href="http://wolandblog.com/3-pochemu-ya-ne-ispolzuyu-dnsbl-v-pomoshh-nachinayushhemu-postmasteru/"&gt;не рекомендуется&lt;/a&gt; без взвешенной оценки всех факторов из-за частого попадания в чс честных релеев. &lt;a href="http://wayback.archive.org/web/20140209073704/http://spamlinks.net/filter-dnsbl-lists.htm"&gt;Большой список DNSBL&lt;/a&gt; . Для защиты ссылок &lt;em&gt;mailto:&lt;/em&gt; от спам-ботов &lt;a href="http://ru.stackoverflow.com/a/501219/199934"&gt;воспользуйтесь инструментом MailLink&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="robtex"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.1. Robtex&lt;/h3&gt;
 &lt;p&gt;Из огромного разнообразия записей Robtex интерес для рядового пользователя представляют следующие:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Помимо белых и чёрных списков DNS показывается присутствие в &lt;a href="http://seoslim.ru/interesno/kak-dobavit-sajt-v-katalog-dmoz.html" title="Как попасть в DMOZ 2"&gt;пополняемом вручную&lt;/a&gt; &lt;a href="https://devaka.ru/articles/dmoz" title="Как попасть в DMOZ"&gt;каталоге DMOZ&lt;/a&gt;, Web of Trust (если имеется репутация), блэклистах Гугла и Яндекса, &lt;a href="https://www.projecthoneypot.org/"&gt;проекта Honey Pot&lt;/a&gt; — крупнейшего веб-сообщества по борьбе со спамом.&lt;/li&gt;
+&lt;li&gt;Помимо белых и чёрных списков DNS показывается присутствие в &lt;a href="http://seoslim.ru/interesno/kak-dobavit-sajt-v-katalog-dmoz.html"&gt;пополняемом вручную&lt;/a&gt; &lt;a href="https://devaka.ru/articles/dmoz"&gt;каталоге DMOZ&lt;/a&gt;, Web of Trust (если имеется репутация), блэклистах Гугла и Яндекса, &lt;a href="https://www.projecthoneypot.org/"&gt;проекта Honey Pot&lt;/a&gt; — крупнейшего веб-сообщества по борьбе со спамом.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="Robtex1" src="https://i.imgur.com/CbcypA7.jpg"&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -144,7 +144,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="Robtex2" src="https://i.imgur.com/GKZHiN3.jpg"&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;При покупке домена обращайте внимание на графу &lt;em&gt;state:&lt;/em&gt;. Напротив неё должно быть записано &lt;em&gt;REGISTERED, DELEGATED, VERIFIED&lt;/em&gt; . &lt;em&gt;VERIFIED&lt;/em&gt; означает, что владение сайтом подтверждено документально, обычно сканами паспортных данных. Домены со статусом &lt;em&gt;UNVERIFIED&lt;/em&gt; &lt;a href="http://www.introweb.ru/inews/chronicle/news9487.php" title="UNVERIFIED"&gt;нельзя переоформить на другое лицо или перепродать&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;При покупке домена обращайте внимание на графу &lt;em&gt;state:&lt;/em&gt;. Напротив неё должно быть записано &lt;em&gt;REGISTERED, DELEGATED, VERIFIED&lt;/em&gt;. &lt;em&gt;VERIFIED&lt;/em&gt; означает, что владение сайтом подтверждено документально, обычно сканами паспортных данных. Домены со статусом &lt;em&gt;UNVERIFIED&lt;/em&gt; &lt;a href="http://www.introweb.ru/inews/chronicle/news9487.php"&gt;нельзя переоформить на другое лицо или перепродать&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="Robtex3" src="https://i.imgur.com/W9uaM4K.jpg"&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -199,7 +199,9 @@
 &lt;p&gt;Основанный в Дании отзовик для коммерческих веб-ресурсов: если Ваш сайт не таков, то и знать о Trustpilot особо незачем. &lt;a href="http://www.3dnews.ru/573758" title="Принцип работы Trustpilot"&gt;Принцип работы&lt;/a&gt; — общая оценка складывается из отдельных пользовательских, владельцам сайтов предоставляется право ответа.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Ответ владельца сайта в Trustpilot" src="https://i.imgur.com/kDIa9vW.jpg"&gt;
 &lt;img alt="Оценивание Trustpilot" src="https://i.imgur.com/fZoBVaI.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Система не очень понятна: так, сайту на скрине выше выставлены только 100-процентные отзывы, а оценка 7,9.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Система не очень понятна: так, сайту на скрине выше выставлены только 100-процентные отзывы, а оценка 7,9.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Лишь для Chrome выпущен &lt;a href="https://chrome.google.com/webstore/detail/trustpilot/meagmjlgkihmljnchdjagbcgfclobkho" title="Аддон Trustpilot"&gt;аддон&lt;/a&gt;: после установки справа от активных ссылок на сайты, о которых оставлены отзывы на Trustpilot, в поисковой выдаче расположится индикатор репутации. Веб-интерфейс сервиса не поддерживается некоторыми не столь уж и устаревшими браузерами: после регистрации как пользователя вместо содержимого сайта могут показываться только чёрный и белый блоки. &lt;a href="https://en.wikipedia.org/wiki/Trustpilot#Criticism" title="Критика Trustpilot"&gt;Критикуется за фейковые отзывы&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Trustpilot" src="https://i.imgur.com/Cqlny1p.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Не-включены-в-sasha-black"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -222,7 +224,9 @@
 &lt;img alt="TAG.Hosting" src="https://i.imgur.com/Tic5HSg.jpg"&gt;
 &lt;img alt="XSeo" src="https://i.imgur.com/o8zUxSE.jpg"&gt;
 &lt;img alt="urlQuery" src="https://i.imgur.com/o8zUxSE.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;_ &lt;a href="https://2ip.ru/site-virus-scaner/" title="2IP"&gt;2IP&lt;/a&gt;,&lt;a href="taghosting.ru/online_services/antivirus" title="Tag.Hosting"&gt;Tag.Hosting&lt;/a&gt;,&lt;a href="http://xseo.in/viruscan" title="Xseo"&gt;Xseo&lt;/a&gt;,&lt;a href="https://urlquery.net/" title="urlQuery"&gt;urlQuery&lt;/a&gt;._&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href="https://2ip.ru/site-virus-scaner/" title="2IP"&gt;2IP&lt;/a&gt;,&lt;a href="taghosting.ru/online_services/antivirus" title="Tag.Hosting"&gt;Tag.Hosting&lt;/a&gt;,&lt;a href="http://xseo.in/viruscan" title="Xseo"&gt;Xseo&lt;/a&gt;,&lt;a href="https://urlquery.net/" title="urlQuery"&gt;urlQuery&lt;/a&gt;.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;Альтернативы, явно не привносящие ничего нового. Из похожих служб выбираются те, куда на результаты по интересующему сайту доступен переход сразу из Sasha Black, т.е. значение имеет изменчивость адресной строки.&lt;/li&gt;
 &lt;/ol&gt;
@@ -237,7 +241,9 @@
 &lt;li&gt;Службы, оценивающие такие показатели, как PageRank, тИЦ, ссылочную массу, место в&lt;a href="http://ktonanovenkogo.ru/seo/tic-pr-alexa/alexa-rank-ocenka-poseshhaemosti-sajta-alexa-toolbar-statistika-vidzhety-alexa-rank.html" title="Alexa Rank"&gt;Alexa&lt;/a&gt; и т. д. . Оценки, рассчитанные для небольших и новых сайтов, выглядят весьма удручающе, и у воспользовавшихся проверками на таких сервисах может сложиться в корне неверное представление о на самом деле порядочном с. .&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="TrustScam" src="https://i.imgur.com/kQR3a0m.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Конкретно в&lt;a href="https://trustscam.com/ru/" title="TrustScan"&gt;TrustScan&lt;/a&gt; придётся трижды жать на «Scan now».&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Конкретно в &lt;a href="https://trustscam.com/ru/" title="TrustScan"&gt;TrustScan&lt;/a&gt; придётся трижды жать на «Scan now».&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;a id="Послесловие"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;8. Послесловие&lt;/h2&gt;
 &lt;p&gt;Создание Sasha Black обусловлено отсутствием онлайновых служб, где с одной страницы можно достаточно полно исследовать сайт. Автор с радостью готов выслушать вежливо выраженные более компетентные мнения. Учитывайте, пожалуйста, упрощённый для восприятия широкой публикой стиль.&lt;/p&gt;
