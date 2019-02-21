@@ -42,6 +42,6 @@
 | seqdiag             | 0.9.6      | Apache License 2.0                                           |
 | six                 | 1.12.0     | MIT                                                          |
 | smmap2              | 2.0.5      | BSD                                                          |
-| soupsieve           | 1.7.3      | MIT License                                                  |
+| soupsieve           | 1.8        | MIT License                                                  |
 | urllib3             | 1.24.1     | MIT                                                          |
 | webcolors           | 1.8.1      | BSD 3-Clause                                                 |

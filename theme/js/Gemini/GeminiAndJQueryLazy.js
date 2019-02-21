@@ -2,7 +2,7 @@
 @Author: Kristinita
 @Date:	 2017-05-02 11:44:00
 @Last Modified time: 2018-03-24 08:49:55
-*/
+ */
 var internals;
 
 //###################
@@ -12,7 +12,7 @@ var internals;
 Custom scrollbar instead of native body scrollbar:
 https://noeldelgado.github.io/gemini-scrollbar/
 https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
-*/
+ */
 internals = {};
 
 internals.initialize = function() {
@@ -35,7 +35,7 @@ internals.initialize = function() {
 		https://github.com/eisbehr-/jquery.lazy/issues/88#issuecomment-299196388
 		http://jquery.eisbehr.de/lazy/example_callback-functions
 		https://github.com/noeldelgado/gemini-scrollbar#basic-methods
-		*/
+		 */
 		afterLoad: function() {
 			internals.scrollbar.update();
 		}

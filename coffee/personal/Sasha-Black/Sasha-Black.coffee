@@ -7,7 +7,7 @@
 # Sasha-Black #
 ###############
 # Sasha-Black script:
-SashaFunction = (url, SashaSite) ->
+KiraFunction = (url, KiraSite) ->
 	# Select “hostname” from address
 	# [DEPRECATED]
 	# If “Kristinita.ru”, not “https://kristinita.ru”, works incorrect
@@ -21,18 +21,18 @@ SashaFunction = (url, SashaSite) ->
 	l = url.length
 	if url.substring(l - 1, l) is '/'
 		url = url.substring(0, l - 1)
-	query = SashaSite + url
+	query = KiraSite + url
 	# For Robtex:
-	if SashaSite is 'https://www.robtex.com/en/advisory/dns/'
+	if KiraSite is 'https://www.robtex.com/en/advisory/dns/'
 		# Queries as https://www.robtex.com/en/advisory/dns/ru/Kristinita/
 		ms = url.split('.')
 		if l > 1
 			domain = ms[l - 1]
 			adr = ms[l - 2]
 			# Second-level domain:
-			query = SashaSite + domain + '/' + adr + '/'
+			query = KiraSite + domain + '/' + adr + '/'
 			if l is 3
-				query = SashaSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3]
+				query = KiraSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3]
 	# “Window.open(query, "nw"); nw.focus();”
 	window.open(query).focus()
 	return

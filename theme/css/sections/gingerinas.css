@@ -20,13 +20,11 @@ em {
 }
 
 img {
-	-webkit-box-shadow: 0 0 2rem #000;
-					box-shadow: 0 0 2rem #000;
+	box-shadow: 0 0 2rem #000;
 }
 
 .SashaPageLoading {
-	-webkit-box-shadow: none;
-					box-shadow: none;
+	box-shadow: none;
 }
 
 kbd {

@@ -1,18 +1,14 @@
 /*
-* @Author: Kristinita
-* @Date:   2017-03-23 09:42:24
-* @Last Modified by:   Kristinita
-* @Last Modified time: 2017-03-23 10:42:14
-*/
+ * @Author: Kristinita
+ * @Date:   2017-03-23 09:42:24
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2017-03-23 10:42:14
+ */
 .Sasha404,
 .Sasha404Description {
 	text-align: center;
 }
 body {
-/* Center background image:
-	https://ru.stackoverflow.com/a/96749/199934 */
-	background: url("../../images/backgrounds/SashaHangerBackground.jpg") no-repeat center center fixed;
-	background-size: cover;
 	padding: 0;
 }
 a {
@@ -39,9 +35,9 @@ img {
 	https://ru.stackoverflow.com/q/196968/199934
 	https://css-tricks.com/almanac/properties/t/text-stroke/
 	https://caniuse.com/#feat=text-stroke
-	*/
+ */
 	-webkit-text-stroke: 0.04rem;
 }
-.slider {
+.KiraSlider {
 	margin-bottom: 2rem;
 }

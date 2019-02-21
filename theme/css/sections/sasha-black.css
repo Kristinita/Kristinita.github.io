@@ -1,12 +1,18 @@
 /*
-* @Author: Kristinita
-* @Date:   2016-12-27 08:08:41
-* @Last Modified by:   Kristinita
-* @Last Modified time: 2017-05-09 15:28:17
-*/
+ * @Author: Kristinita
+ * @Date:   2016-12-27 08:08:41
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2017-05-09 15:28:17
+ */
 img {
 	margin: 0 auto;
 	max-width: 100%;
+}
+a {
+	font-size: 1.75rem;
+	border-radius: 0.875rem;
+	text-decoration: none;
+	outline: 0;
 }
 a:visited {
 	color: #ffc0cb;
@@ -15,32 +21,18 @@ a:active {
 	color: #ffc0cb;
 }
 a.SashaButtonCategory {
-	font-size: 1.75rem;
-	text-decoration: none;
 	border-style: outset;
 	border-color: #ffe4c4;
-	border-radius: 0.875rem;
-	outline: 0;
 }
 a.SashaButtonCategory:hover {
-	font-size: 1.75rem;
-	text-decoration: none;
 	border-style: solid;
 	border-color: #fff;
-	border-radius: 0.875rem;
-	outline: 0;
-	-webkit-box-shadow: 0 0 0.625rem rgba(0,0,0,0.5);
-					box-shadow: 0 0 0.625rem rgba(0,0,0,0.5);
+	box-shadow: 0 0 0.625rem rgba(0,0,0,0.5);
 }
 a.SashaButtonCategory:active {
-	font-size: 1.75rem;
-	text-decoration: none;
 	border-style: solid;
 	border-color: #fff;
-	border-radius: 0.875rem;
-	outline: 0;
-	-webkit-box-shadow: 0 0 0.625rem rgba(0,0,0,0.5), 0 0 0 12.5rem rgba(0,0,0,0.09) inset;
-					box-shadow: 0 0 0.625rem rgba(0,0,0,0.5), 0 0 0 12.5rem rgba(0,0,0,0.09) inset;
+	box-shadow: 0 0 0.625rem rgba(0,0,0,0.5), 0 0 0 12.5rem rgba(0,0,0,0.09) inset;
 }
 input {
 	font-weight: bold;
@@ -76,7 +68,6 @@ input {
 	width: 90%;
 }
 .SashaCheckYourSite {
-	font-family: "Истина";
 	font-size: 3.125rem;
 	color: #ff6347;
 }

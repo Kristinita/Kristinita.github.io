@@ -1,8 +1,8 @@
 /* @Author: Kristinita
-* @Date:   2016-11-25 10:51:23
-* @Last Modified by:   Kristinita
-* @Last Modified time: 2017-05-02 18:46:12
-*/
+ * @Date:   2016-11-25 10:51:23
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2017-05-02 18:46:12
+ */
 .SashaKristinita,
 .SashaBeta,
 .SashaMinimal,
@@ -12,8 +12,6 @@
 }
 body {
 	padding-right: 0;
-	background: url("../../images/backgrounds/SashaRedLeavesBackground.jpg") no-repeat center center fixed;
-	background-size: cover;
 	background-color: #ffefd5;
 	color: #c71585;
 }
@@ -41,10 +39,7 @@ img {
 	border-radius: 0.875rem;
 	background-color: #ffe4e1;
 /* To bottom instead of top for Autoprefixer — https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816 */
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
-	background-image: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Sasha:hover {
 	font: 2.25rem Tahoma, Geneva, sans-serif;
@@ -54,11 +49,8 @@ img {
 	border: solid 0.25rem #ffb6c1;
 	border-radius: 0.875rem;
 	background-color: #ffe4e1;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
-	background-image: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
 	background-position: 0 -2rem;
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Sasha:active {
 	font: 2.25rem Tahoma, Geneva, sans-serif;
@@ -68,11 +60,8 @@ img {
 	border: solid 0.25rem #ffb6c1;
 	border-radius: 0.875rem;
 	background-color: #ffe4e1;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe4e1), to(#ffc0cb));
-	background-image: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
 	background-position: 0 -4rem;
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Chernykh {
 	font: 1.6875rem Tahoma, Geneva, sans-serif;
@@ -85,10 +74,7 @@ img {
 	border: solid 0.25rem #ffe4c4;
 	border-radius: 0.875rem;
 	background-color: #fdf5e6;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
-	background-image: linear-gradient(to bottom, #f5fffa, #f0f8ff);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Chernykh:hover {
 	font: 2.25rem Tahoma, Geneva, sans-serif;
@@ -98,10 +84,7 @@ img {
 	border: solid 0.25rem #ffe4c4;
 	border-radius: 0.875rem;
 	background-color: #f5fffa;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
-	background-image: linear-gradient(to bottom, #f5fffa, #f0f8ff);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Chernykh:active {
 	font: 2.25rem Tahoma, Geneva, sans-serif;
@@ -111,10 +94,7 @@ img {
 	border: solid 0.25rem #ffe4c4;
 	border-radius: 0.875rem;
 	background-color: #f5fffa;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fffa), to(#f0f8ff));
-	background-image: linear-gradient(to bottom, #f5fffa, #f0f8ff);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Empress {
 	font: 1.6875rem Tahoma, Geneva, sans-serif;
@@ -127,10 +107,7 @@ img {
 	border: solid 0.25rem #ba55d8;
 	border-radius: 0.875rem;
 	background-color: #dda0dd;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
-	background-image: linear-gradient(to bottom, #ee82ee, #da70d6);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Empress:hover {
 	font: 2.25rem Tahoma, Geneva, sans-serif;
@@ -140,10 +117,7 @@ img {
 	border: solid 0.25rem #ba55d8;
 	border-radius: 0.875rem;
 	background-color: #ee82ee;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
-	background-image: linear-gradient(to bottom, #ee82ee, #da70d6);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .Empress:active {
 	font: 2.25rem Tahoma, Geneva, sans-serif;
@@ -153,10 +127,7 @@ img {
 	border: solid 0.25rem #ba55d8;
 	border-radius: 0.875rem;
 	background-color: #ee82ee;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee82ee), to(#da70d6));
-	background-image: linear-gradient(to bottom, #ee82ee, #da70d6);
-	-webkit-box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
-					box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
+	box-shadow: 0 0 0.125rem #bababa, inset 0 0 0.0625rem #fff;
 }
 .SashaMotto {
 	font-family: "Cormorant";

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2019-02-11T13:33:54+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.ru/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.github.io/" rel="alternate"></link><link href="https://kristinita.github.io/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.github.io/</id><updated>2019-02-21T04:38:00+03:00</updated><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.github.io/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command &lt;br&gt;&lt;br&gt; &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -147,7 +147,7 @@ git branch --set-upstream
 	&lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-		&lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;TOKEN_GITHUB_FOR_RELEASE_IT&amp;quot;&lt;/span&gt;
 	&lt;span class="p"&gt;},&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
@@ -261,7 +261,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;changelogCommand&lt;/em&gt; — command, that generate changelog to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;. Command must stdout to console.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-configuration"&gt;post changelog&lt;/a&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; — your &lt;a href="#github-token"&gt;&lt;em&gt;GITHUB_TOKEN&lt;/em&gt; environment variable&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;TOKEN_GITHUB_FOR_RELEASE_IT&lt;/em&gt; — your &lt;a href="#github-token"&gt;&lt;em&gt;TOKEN_GITHUB_FOR_RELEASE_IT&lt;/em&gt; environment variable&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — don't publish release to &lt;a href="https://www.npmjs.com/"&gt;npm&lt;/a&gt;. We are writing Sublime Text package, not npm modules, so needs this parameter.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — that correct version in &lt;code class="SashaInlineHighlight"&gt;https://github.com/&amp;lt;your username&amp;gt;/&amp;lt;your repository&amp;gt;/releases&lt;/code&gt;; see &lt;a href="https://github.com/webpro/release-it/issues/218"&gt;issue&lt;/a&gt; for details.&lt;/li&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;&lt;span class="s2"&gt;&amp;quot;addUntrackedFiles&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;&lt;/code&gt; — add &lt;a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"&gt;untracked file&lt;/a&gt; &lt;em&gt;messages/&amp;lt;version&amp;gt;.txt&lt;/em&gt; &lt;a href="https://github.com/webpro/release-it/issues/233"&gt;to release commit&lt;/a&gt;.&lt;/li&gt;
@@ -287,7 +287,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.ru/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.github.io/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -574,7 +574,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.sublimetext.com/docs/3/api_reference.html"&gt;Sublime Text 3 API Reference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://leanpub.com/writing-sublime-plugins"&gt;“Writing Sublime Plugins”&lt;/a&gt; book&lt;/li&gt;
-&lt;/ul&gt;</content><category term="sublime-text"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.ru/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="sublime-text"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.github.io/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1217,7 +1217,7 @@ C:\Users\SashaChernykh&amp;gt;
 	&lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-		&lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GITHUB_TOKEN&amp;quot;&lt;/span&gt;
+		&lt;span class="nt"&gt;&amp;quot;tokenRef&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;TOKEN_GITHUB_FOR_RELEASE_IT&amp;quot;&lt;/span&gt;
 	&lt;span class="p"&gt;},&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;npm&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;publish&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
@@ -1267,7 +1267,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.ru/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.github.io/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -1643,7 +1643,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>PaletteMira</title><link href="https://kristinita.ru/Programs/PaletteMira.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>PaletteMira</title><link href="https://kristinita.github.io/Programs/PaletteMira.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1704,11 +1704,12 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;&lt;a id="PaletteMira-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;7.2. Dependencies&lt;/h3&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.ru/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
-    &lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
+&lt;h3&gt;7.2. Dependencies&lt;/h3&gt;
+&lt;p&gt;In progress.&lt;/p&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.github.io/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+    &lt;a href="https://kristinita.github.io/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://kristinita.github.io/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -2315,29 +2316,29 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;h2&gt;15. Donate&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Bitcoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.github.io/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.github.io/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.github.io/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.github.io/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Paypal-$"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Paypal-€"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.4. Paypal €&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="License"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;16. License&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://opensource.org/licenses/MIT"&gt;MIT License&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Copyright &amp;copy; 2016-17: &lt;a href="https://vk.com/hair_in_the_wind"&gt;Sasha Chernykh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;SashaSublime belongs to Goddess &lt;a href="https://vk.com/hair_in_the_wind"&gt;Kira Chernykh&lt;/a&gt;, as well as all the rest in this world. Peoples are insignificant creations which totally belong to Legendary Kira Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html">&lt;p&gt;Notes of book “Sublime Text Power User”&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;SashaSublime belongs to Goddess &lt;a href="https://vk.com/hair_in_the_wind"&gt;Kira Chernykh&lt;/a&gt;, as well as all the rest in this world. Peoples are insignificant creations which totally belong to Legendary Kira Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.github.io/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html">&lt;p&gt;Notes of book “Sublime Text Power User”&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Preamble"&gt;Preamble&lt;/a&gt;&lt;ol&gt;
@@ -2541,7 +2542,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;Multi-line comments for Windows is &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
 &lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.37. 201&lt;/h3&gt;
-&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.ru/IT-articles/typo-reporter.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>typo-reporter</title><link href="https://kristinita.github.io/IT-articles/typo-reporter.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/IT-articles/typo-reporter.html</id><summary type="html">&lt;p&gt;Features, problems and it solutions, that not described in official typo-reporter Readme. &lt;br&gt;&lt;br&gt; &lt;img alt="English typo-reporter form" src="https://i.imgur.com/U8pIw0a.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -2610,12 +2611,18 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;Open source,&lt;/li&gt;
 &lt;li&gt;Active maintained (&lt;a href="http://tarampampam.github.io/jquery.textmistake/"&gt;jquery.textmistake&lt;/a&gt; project &lt;a href="https://github.com/tarampampam/jquery.textmistake"&gt;closed&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/psmb/typo-reporter/issues"&gt;Have technical support&lt;/a&gt; (&lt;a href="https://orphus.ru/community/"&gt;Orphus community&lt;/a&gt; spammed),&lt;/li&gt;
-&lt;li&gt;Support CDN — you need paste to your web page &lt;code class="SashaInlineHighlight"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;https://npmcdn.com/typo-reporter/lib/TypoReporter.min.js&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt; (&lt;a href="https://webmasters.stackexchange.com/a/92103/71131"&gt;CDN vs. local files&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support CDN — you need paste to your web page &lt;code class="SashaInlineHighlight"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;https://cdn.jsdelivr.net/npm/typo-reporter/lib/TypoReporter.min.js&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt; (&lt;a href="https://webmasters.stackexchange.com/a/92103/71131"&gt;CDN vs. local files&lt;/a&gt;).&lt;/p&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;NpmCDN, that &lt;a href="https://www.npmjs.com/package/typo-reporter#install-via-plain-old-html-tag"&gt;described in official documentation&lt;/a&gt; hangs for me. I use &lt;a href="https://www.jsdelivr.com/"&gt;JSDelivr&lt;/a&gt; CD instead.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Getting-formId"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Getting formId&lt;/h2&gt;
-&lt;div class="admonition caution"&gt;
-&lt;p class="admonition-title"&gt;Caution&lt;/p&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
 &lt;p&gt;If you try get &lt;em&gt;formId&lt;/em&gt; use &lt;a href="https://productforums.google.com/forum/#!topic/docs/eoPN9F6KTs4"&gt;this method&lt;/a&gt;, typo-reporter &lt;a href="https://github.com/psmb/typo-reporter/issues/4"&gt;will not work&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a href="https://www.npmjs.com/package/typo-reporter#create-a-target-google-form-to-gather-feedback"&gt;Create your spreadsheet&lt;/a&gt; → &lt;em&gt;Form&lt;/em&gt; → &lt;em&gt;Edit form&lt;/em&gt; → &lt;em&gt;Send&lt;/em&gt; → click to link icon → copy link below:&lt;/p&gt;
@@ -2668,7 +2675,7 @@ C:\Users\SashaChernykh&amp;gt;
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.github.io/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;

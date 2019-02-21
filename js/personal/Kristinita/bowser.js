@@ -2,7 +2,7 @@
 @Author: Kristinita
 @Date:   2017-01-30 13:33:35
 @Last Modified time: 2017-01-30 13:39:59
-*/
+ */
 var SashaBowserExplorer, SashaBowserFirefox;
 
 //#########

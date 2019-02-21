@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.ru/" rel="alternate"></link><link href="https://kristinita.ru/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.ru/</id><updated>2019-02-11T13:33:54+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.ru/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.github.io/" rel="alternate"></link><link href="https://kristinita.github.io/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.github.io/</id><updated>2019-02-21T04:38:00+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.github.io/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -12,8 +12,8 @@
 &lt;li&gt;&lt;a href="#60-секундный-режим"&gt;60-секундный режим&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href="#c-использованием-сторонних-программ"&gt;C использованием сторонних программ&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#windows"&gt;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#C-использованием-сторонних-программ"&gt;C использованием сторонних программ&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#Windows"&gt;Windows&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -26,21 +26,21 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#Настройка"&gt;Настройка&lt;/a&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a href="#Активация-шорткатов"&gt;Активация шорткатов&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#autohotkey"&gt;AutoHotkey&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#nncron"&gt;nnCron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#AutoHotkey"&gt;AutoHotkey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#nnCron"&gt;nnCron&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#Опции"&gt;Опции&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Известные-проблемы"&gt;Известные проблемы&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#sacagawea"&gt;Sacagawea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Sacagawea"&gt;Sacagawea&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Зависимости"&gt;Зависимости&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#Примечания"&gt;Примечания&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Программное-обеспечение-при-тестировании"&gt;Программное обеспечение при тестировании&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#todo"&gt;TODO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#TODO"&gt;TODO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Разработка"&gt;Разработка&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Благодарности"&gt;Благодарности&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Лицензии"&gt;Лицензии&lt;/a&gt;&lt;/li&gt;
@@ -86,10 +86,10 @@
 &lt;p&gt;&lt;a id="60-секундный-режим"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;4.1.2. 60-секундный режим&lt;/h4&gt;
 &lt;p&gt;В активном окне Sublime Text 3: игрок нажимает &lt;kbd&gt;Ctrl+Context_Menu&lt;/kbd&gt; — или (зная о &lt;a href="https://umaar.com/dev-tips/36-sublime-fuzzy-search/"&gt;fuzzy-поиске&lt;/a&gt;) набирает в &lt;a href="https://www.youtube.com/watch?v=QDajzykRdn0"&gt;command palette&lt;/a&gt; &lt;em&gt;Suricate: Sacagawea: “What? Where? When?”&lt;/em&gt; → раздаётся звук + открывается вкладка, где 60 секунд происходит обратный отсчёт времени → за 10 секунд до окончания отсчёта раздаётся другой звук → спустя ещё 10 секунд таймер доходит до нуля + раздаётся третий звук + вкладка с таймером закрывается.&lt;/p&gt;
-&lt;p&gt;&lt;a id="c-использованием-сторонних-программ"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="C-использованием-сторонних-программ"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.2. C использованием сторонних программ&lt;/h3&gt;
 &lt;p&gt;Если игрок смотрит запись телепередач, использование Sacagawea без third-party программ неудобно, поскольку приходится переключаться между окнами браузера (или другой программы, где воспроизводится видео) и Sublime Text. К сожалению, вызвать команды Sublime Text, когда окно Sublime Text не находится в активном фокусе &lt;a href="https://forum.sublimetext.com/t/question-is-it-possible-to-use-sublime-text-hotkey-as-global-system-hotkey/27885/2?u=sasha_chernykh"&gt;проблематично&lt;/a&gt;, без сторонних программ.&lt;/p&gt;
-&lt;p&gt;&lt;a id="windows"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="Windows"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;4.2.1. Windows&lt;/h4&gt;
 &lt;p&gt;Прозвучал вопрос → ведущий ТВ-передачи даёт сигнал к началу отсчёта — например, говорит «Время», — игрок нажимает &lt;kbd&gt;Ctrl+Alt+Context_Menu&lt;/kbd&gt; (&lt;a href="https://en.wikipedia.org/wiki/Menu_key"&gt;местонахождение клавиши Context_Menu&lt;/a&gt;) → запускается скрипт.&lt;/p&gt;
 &lt;p&gt;Скрипт автоматически выполняет следующие действия: нажимается пробел — клавишей &lt;kbd&gt;Space&lt;/kbd&gt; в web-плейерах, которые знаю, останавливается воспроизведение видео, → &lt;kbd&gt;Alt+Tab&lt;/kbd&gt; — &lt;a href="https://support.microsoft.com/ru-ru/help/79869/pressing-alt-tab-to-switch-between-applications"&gt;переключение между приложениями&lt;/a&gt;, — в Sublime Text запускается процесс, &lt;a href="#Заявленное-поведение"&gt;описанный в разделе «Заявленное поведение»&lt;/a&gt;, → вновь &lt;kbd&gt;Alt+Tab&lt;/kbd&gt; → происходит возвращение во вкладку браузера со «Что? Где? Когда?».&lt;/p&gt;
@@ -145,7 +145,7 @@
 &lt;p&gt;&lt;img alt="Sacagawea" src="https://i.imgur.com/UdMhDrL.png"&gt;&lt;/p&gt;
 &lt;p&gt;→ горячие клавиши активированы.&lt;/p&gt;
 &lt;p&gt;Если данные хоткеи задействованы в других Ваших плагинах или программах, можете их деактивировать. В активном окне Sublime Text: &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; для Mac) → &lt;em&gt;Suricate: Add Profile&lt;/em&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt; → &lt;a href="https://i.imgur.com/VNC1Kzs.png"&gt;Sacagawea&lt;/a&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a id="autohotkey"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="AutoHotkey"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;5.2.2. AutoHotkey&lt;/h4&gt;
 &lt;p&gt;Создайте и сохраните 2 файла: &lt;em&gt;Sacagawea-CHGK.ahk&lt;/em&gt; и &lt;em&gt;Sacagawea-Blitz.ahk&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Sacagawea-CHGK.ahk&lt;/em&gt;:&lt;/p&gt;
@@ -220,7 +220,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href="http://windata.ru/windows-world/utility/zapusk-skriptov-autohotkey-ot-imeni-administratora/"&gt;Скомпилируйте оба файла&lt;/a&gt; — это можно сделать &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey/blob/master/Default.sublime-commands#L6-L9"&gt;в Sublime Text 3&lt;/a&gt;, если использовать пакет &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey"&gt;Sublime AutoHotkey&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a id="nncron"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="nnCron"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;5.2.3. nnCron&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://www.nncron.ru/help/RU/working/task/starting_task.htm"&gt;Добавьте в кронтаб&lt;/a&gt; следующие строки:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#( Sacagawea-CHGK&lt;/span&gt;
@@ -251,7 +251,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Известные-проблемы"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. Известные проблемы&lt;/h2&gt;
-&lt;p&gt;&lt;a id="sacagawea"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="Sacagawea"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.1. Sacagawea&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Зависимости"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.2. Зависимости&lt;/h3&gt;
@@ -287,7 +287,7 @@
 &lt;li&gt;Sublime Text 3 Build 3126,&lt;/li&gt;
 &lt;li&gt;mpg123 1.24.0.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a id="todo"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="TODO"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;10. TODO&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Unit-тесты?&lt;/li&gt;
@@ -313,11 +313,11 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.soundjay.com/tos.html"&gt;правила использования звуков&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md"&gt;лицензия на Sacagawea — MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.ru/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
-    &lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
+&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.github.io/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+    &lt;a href="https://kristinita.github.io/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://kristinita.github.io/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -924,29 +924,29 @@
 &lt;h2&gt;15. Donate&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Bitcoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kristinita.ru/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.ru/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.github.io/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.github.io/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kristinita.ru/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.ru/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.github.io/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.github.io/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Paypal-$"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Paypal-€"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.4. Paypal €&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.ru/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="License"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;16. License&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://opensource.org/licenses/MIT"&gt;MIT License&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Copyright &amp;copy; 2016-17: &lt;a href="https://vk.com/hair_in_the_wind"&gt;Sasha Chernykh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;SashaSublime belongs to Goddess &lt;a href="https://vk.com/hair_in_the_wind"&gt;Kira Chernykh&lt;/a&gt;, as well as all the rest in this world. Peoples are insignificant creations which totally belong to Legendary Kira Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.ru/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html">&lt;p&gt;Notes of book “Sublime Text Power User”&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;SashaSublime belongs to Goddess &lt;a href="https://vk.com/hair_in_the_wind"&gt;Kira Chernykh&lt;/a&gt;, as well as all the rest in this world. Peoples are insignificant creations which totally belong to Legendary Kira Chernykh. To use SashaSublime, you have to pray to Sasha Chernykh every day and know that She, certainly, the most unsurpassed in the Universe.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.github.io/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html">&lt;p&gt;Notes of book “Sublime Text Power User”&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Preamble"&gt;Preamble&lt;/a&gt;&lt;ol&gt;
@@ -1150,7 +1150,7 @@
 &lt;p&gt;Multi-line comments for Windows is &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
 &lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.37. 201&lt;/h3&gt;
-&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.ru/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2019-02-11T13:33:54+03:00</published><updated>2019-02-11T13:33:54+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.ru,2019-02-11:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.github.io/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2019-02-21T04:38:00+03:00</published><updated>2019-02-21T04:38:00+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-02-21:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;

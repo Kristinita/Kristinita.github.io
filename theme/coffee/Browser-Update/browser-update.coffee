@@ -1,11 +1,11 @@
 ##################
 # Browser-Update #
 ##################
-# Show message, that user install another browser:
+# Show message, that user use bad browser:
 # https://browser-update.org/
-# Options:
+# [INFO] Options:
 # https://browser-update.org/customize.html
-# [WARNING] Different messages for different browsers not support at May 2018:
+# [WARNING] Different messages for different browsers not support at February 2019:
 # https://github.com/browser-update/browser-update/issues/388
 lifewire = 'Lifewire'
 quora1 = 'Quora'
@@ -14,13 +14,17 @@ slant = 'Slant'
 quora2 = 'Quora'
 $buoop =
 	notify:
-		# Browser keys:
-		# https://github.com/browser-update/browser-update/wiki/Details-on-configuration
+		###
+		[INFO] Browsers keys:
+		https://github.com/browser-update/browser-update/wiki/Details-on-configuration
+		[WARNING] Disable all browser versions not support:
+		https://github.com/browser-update/browser-update/pull/324
+		###
 		i: 4147
-	# Required parameter, my value as in default example:
+	# [NOTE] Required parameter, my value as from default example:
 	# https://browser-update.org/
-	api: 2018.05
-	# Show message all the time
+	api: 2019.02
+	# [INFO] Show message all the time
 	reminder: 0
 	text: 'I\'m sorry, {brow_name} and any another IE versions not supported for this site. \
 			Page can be displayed very incorrect. Please, use another browser. \
@@ -34,6 +38,8 @@ $buoop =
 
 $buo_f = ->
 	e = document.createElement('script')
+	# [WARNING] JSDelivr version doesn't work:
+	# https://cdn.jsdelivr.net/npm/browser-update/update.npm.full.min.js
 	e.src = 'https://browser-update.org/update.min.js'
 	document.body.appendChild e
 	return

@@ -1,26 +1,26 @@
 /*
-* @Author: Kristinita
-* @Date:   2018-01-31 18:26:56
-* @Last Modified by:   Kristinita
-* @Last Modified time: 2018-01-31 20:12:29
-*/
+ * @Author: Kristinita
+ * @Date:   2018-01-31 18:26:56
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2018-01-31 20:12:29
+ */
 /**
-* Admonition
-*
-* Warning, error, note, hint etc. code blocks.
-*
-* Python Markdown admonition:
-* https://python-markdown.github.io/extensions/admonition/
-* I ported for Stylus admonition from Material theme of MkDocs:
-* https://squidfunk.github.io/mkdocs-material/extensions/admonition/
-*
-* That icons display correct, I need to use Material icons font:
-* https://ru.stackoverflow.com/a/770153/199934
-* https://github.com/google/material-design-icons
-* https://material.io/icons/
-*
-* [NOTE] I remove [dir=rtl], because personally I don't use right-to-left languages.
-*/
+ * Admonition
+ *
+ * Warning, error, note, hint etc. code blocks.
+ *
+ * Python Markdown admonition:
+ * https://python-markdown.github.io/extensions/admonition/
+ * I ported for Stylus admonition from Material theme of MkDocs:
+ * https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+ *
+ * That icons display correct, I need to use Material icons font:
+ * https://ru.stackoverflow.com/a/770153/199934
+ * https://github.com/google/material-design-icons
+ * https://material.io/icons/
+ *
+ * [NOTE] I remove [dir=rtl], because personally I don't use right-to-left languages.
+ */
 .admonition>.admonition-title:before,
 .admonition>summary:before,
 details>.admonition-title:before,
@@ -39,7 +39,6 @@ summary:after {
 }
 .admonition,
 details {
-	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	position: relative;
 	margin: 1.5625em 0;

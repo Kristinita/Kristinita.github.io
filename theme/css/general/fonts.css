@@ -1,102 +1,55 @@
 /*
-* @Author: Kristinita
-* @Date:   2017-01-30 16:32:10
-* @Last Modified by:   Kristinita
-* @Last Modified time: 2017-05-09 14:46:21
-*/
-@font-face {
-	font-family: "AleksandraC";
-	src: local("AleksandraCRegular"), url("https://kristinita.ru/theme/fonts/AleksandraC/aleksandracregular.woff2") format("woff2"), url("https://kristinita.ru/theme/fonts/AleksandraC/aleksandracregular.woff") format("woff"), url("https://kristinita.ru/theme/fonts/AleksandraC/aleksandracregular.ttf") format("truetype");
-	font-weight: 400;
-}
-/* ==========================================================================
-	Vladivostok
-	========================================================================== */
-/*
-* https://fontstorage.com/font/vladivostok?utm_source=sublime
-* [FIXME]: Make dot and сomma more big.
-* For inline and block code blocks.
-*/
-@font-face {
-	font-family: "Vladivostok";
-	font-weight: 400;
-	src: url("https://kristinita.ru/theme/fonts/Vladivostok/regular.ttf") format("truetype");
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
-}
-@font-face {
-	font-family: "Истина";
-	src: url("https://kristinita.ru/theme/fonts/Истина/Истина.eot");
-	src: url("https://kristinita.ru/theme/fonts/Истина/Истина.eot?#iefix") format("embedded-opentype"), url("https://kristinita.ru/theme/fonts/Истина/Истина.woff") format("woff"), url("https://kristinita.ru/theme/fonts/Истина/Истина.ttf") format("truetype");
-/* Decrease text brightness */
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
-}
-@font-face {
-	font-family: "Мечта";
-	font-weight: 500;
-	font-style: italic;
-	src: url("https://kristinita.ru/theme/fonts/Мечта/Мечта.eot");
-	src: url("https://kristinita.ru/theme/fonts/Мечта/Мечта.eot?#iefix") format("embedded-opentype"), url("https://kristinita.ru/theme/fonts/Мечта/Мечта.woff") format("woff"), url("https://kristinita.ru/theme/fonts/Мечта/Мечта.ttf") format("truetype");
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
-}
-@font-face {
-	font-family: "Кира_Бог";
-	src: url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.eot");
-	src: url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.eot?#iefix") format("embedded-opentype"), url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.woff") format("woff"), url("https://kristinita.ru/theme/fonts/Кира_Бог/Кира_Бог.ttf") format("truetype");
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
-}
-@font-face {
-	font-family: "Волнится_синей_пастой";
-	src: url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot");
-	src: url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.eot?#iefix") format("embedded-opentype"), url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.woff") format("woff"), url("https://kristinita.ru/theme/fonts/Волнится_синей_пастой/Волнится_синей_пастой.ttf") format("truetype");
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
-}
-pre,
-code {
-	font-family: "Vladivostok";
-	font-size: 1.1875rem;
+ * @Author: Kristinita
+ * @Date:   2017-01-30 16:32:10
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2017-05-09 14:46:21
+ */
+h1,
+.SashaCategory,
+.SashaButtonCategory,
+.SashaBottomAside,
+.SashaOnlineScanners,
+.SashaCheckYourSite {
+	font-family: "XoloniumRegular";
 }
 h1,
 .SashaCategory,
 .SashaButtonCategory,
 .SashaBottomAside {
-	font-family: "Истина";
 	font-size: 1.9375rem;
 	font-weight: lighter;
 	font-style: normal;
-/* Decrease text brightness */
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
 }
 h2 {
-	font-family: "Мечта";
+	font-family: "SansusWebissimoRegular";
 	font-size: 1.9375rem;
+	font-style: italic;
 }
 a {
-	font-family: "Мечта";
+	font-family: "ElMessiriRegular";
+	font-size: 1.3rem;
+	font-style: italic;
+	font-weight: bold;
+}
+pre,
+code {
+	font-family: "InconsolataLGCRegular";
 	font-size: 1.1875rem;
 }
 .WorkOnYourself {
-	font-family: "Волнится_синей_пастой";
+	font-family: "MiamaNuevaMedium";
 	font-size: 3.5625rem;
+	margin-bottom: 3rem;
 }
 /* For Sasha Black */
 .SashaOnlineScanners {
-	font-family: "Истина";
 	font-size: 1.375rem;
 	font-weight: lighter;
 	font-style: normal;
 	color: #ff6347;
-/* Decrease text brightness */
-	-webkit-filter: brightness(97%);
-	filter: brightness(97%);
 }
 .SashaDifferentUrl,
 .SashaReadHelp {
-	font-family: "Мечта";
+	font-family: "SansusWebissimoRegular";
 	font-size: 1.4375rem;
 }

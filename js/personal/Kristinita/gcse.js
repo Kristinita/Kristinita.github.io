@@ -2,7 +2,7 @@
 @Author: Kristinita
 @Date:   2017-01-30 13:33:35
 @Last Modified time: 2017-01-30 13:39:59
-*/
+ */
 (function() {  //##############################
 	// Google Custom Search Engine #
 	//##############################
@@ -16,7 +16,7 @@
 	< gcse: search enableHistory = true > < /gcse:search>
 	< gcse: searchbox enableHistory = trueautoCompleteMaxCompletions = 10 >
 	< /gcse:searchbox> < gcse: searchresults > < /gcse:searchresults>
-	*/
+	 */
 	var cx, gcse, s;
 	cx = '013024336414733191742:sps98skj394';
 	gcse = document.createElement('script');
@@ -34,7 +34,7 @@ http://bit.ly/2Iq1nGs
 https://github.com/eslint/eslint/issues/7861#issuecomment-270670327
 [WARNING] Big timeout, because I can get errors “TypeError: document.getElementById(…) is null”:
 https://ru.stackoverflow.com/q/941455/199934
-*/
+ */
 setTimeout((function() {
 	document.getElementById('gsc-i-id1').focus();
 }), 4000);
