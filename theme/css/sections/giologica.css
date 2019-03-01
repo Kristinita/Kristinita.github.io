@@ -8,6 +8,22 @@
 /* Unverified For PurifyCSS
 	========================================================================== */
 
+div.animate-flicker span {
+	color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span {
+	color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span {
+	color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark > footer {
+	border-top-color: Sasha-Wildfire-Foreground;
+}
+
 body {
 	background: #ffe4c4;
 	color: #dc143c;
@@ -71,11 +87,7 @@ code {
 	background: rgba(255,228,181,0.99);
 }
 
-.SashaEmNoColor {
-	color: #dc143c;
-}
-
-div.a2a_floating_style {
+div .a2a_floating_style,div .a2a_default_style {
 	background-color: Sasha-Add-To-Any;
 }
 

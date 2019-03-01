@@ -1,3 +1,19 @@
+div.animate-flicker span {
+	color: #1e90ff;
+}
+
+div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span {
+	color: #1e90ff;
+}
+
+div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span {
+	color: #1e90ff;
+}
+
+div.wf.wf-theme-dark > footer {
+	border-top-color: #1e90ff;
+}
+
 body {
 	background: #f3efd6;
 	color: #738e8b;
@@ -95,10 +111,6 @@ pre >code {
 	background: rgba(255,228,181,0.99);
 }
 
-.SashaEmNoColor {
-	color: #738e8b;
-}
-
 .progress {
 	background-color: #f3efd6;
 }
@@ -111,51 +123,84 @@ pre >code {
 	color: #696969;
 }
 
-.progress-100plus .progress-bar {
-	background-color: #c0c0c0;
-}
-
-.progress-90plus .progress-bar {
-	background-color: #ffc0cb;
-}
-
-.progress-80plus .progress-bar {
-	background-color: #ffa07a;
-}
-
-.progress-70plus .progress-bar {
-	background-color: #b0e0e6;
-}
-
-.progress-60plus .progress-bar {
-	background-color: #90ee90;
-}
-
-.progress-50plus .progress-bar {
-	background-color: #f4a460;
-}
-
-.progress-40plus .progress-bar {
-	background-color: #66cdaa;
-}
-
-.progress-30plus .progress-bar {
-	background-color: #db7093;
-}
-
-.progress-20plus .progress-bar {
-	background-color: #cd853f;
-}
-
-.progress-10plus .progress-bar {
-	background-color: #9370db;
-}
-
 .progress-0plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: #808000;
 }
 
-div.a2a_floating_style {
+.progress-10plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #9370db;
+}
+
+.progress-20plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #cd853f;
+}
+
+.progress-30plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #db7093;
+}
+
+.progress-40plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #66cdaa;
+}
+
+.progress-50plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #f4a460;
+}
+
+.progress-60plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #90ee90;
+}
+
+.progress-70plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #b0e0e6;
+}
+
+.progress-80plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #ffa07a;
+}
+
+.progress-90plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #ffc0cb;
+}
+
+.progress-100plus .progress-bar {
+	/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #c0c0c0;
+}
+
+div .a2a_floating_style,div .a2a_default_style {
 	background-color: #87cefa;
 }
 

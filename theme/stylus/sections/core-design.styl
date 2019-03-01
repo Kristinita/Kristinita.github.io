@@ -9,6 +9,7 @@
  * TOC
  *
  * General
+ * - import wildwire
  * - Body
  * - Links
  * - Cursive
@@ -56,6 +57,11 @@
 /* ==========================================================================
 	> General
 	========================================================================== */
+
+/* >> import wildwire
+	========================================================================== */
+
+@import "wildfire.styl"
 
 /* >> Body
 	========================================================================== */
@@ -271,19 +277,14 @@ pre
 /* >> Custom selection
 	========================================================================== */
 
-/*
- *  http://ru.stackoverflow.com/a/595809/199934
+/* [NOTE] Needs hack, that “::selection” pseudo-element works in all browsers:
+ * https://ru.stackoverflow.com/a/595809/199934
+ * [NOTE] “-moz-” prefix not needed since Firefox 61:
+ * https://caniuse.com/#search=selection
+ * http://ru.stackoverflow.com/a/595809/199934
  */
 
-::-moz-selection
-	color Sasha-Selection-Foreground
-	background Sasha-Selection-Mozilla-Background
-
 ::selection
-	color Sasha-Selection-Foreground
-	background Sasha-Selection-Background
-
-::-moz-selection:window-inactive
 	color Sasha-Selection-Foreground
 	background Sasha-Selection-Background
 
@@ -331,53 +332,24 @@ pre
 .progress-label
 	color Sasha-Progressbar-Text
 
-.progress-100plus
-	.progress-bar
-		background-color Sasha-Progressbar-100
-
-.progress-90plus
-	.progress-bar
-		background-color Sasha-Progressbar-90
-
-.progress-80plus
-	.progress-bar
-		background-color Sasha-Progressbar-80
-
-.progress-70plus
-	.progress-bar
-		background-color Sasha-Progressbar-70
-
-.progress-60plus
-	.progress-bar
-		background-color Sasha-Progressbar-60
-
-.progress-50plus
-	.progress-bar
-		background-color Sasha-Progressbar-50
-
-.progress-40plus
-	.progress-bar
-		background-color Sasha-Progressbar-40
-
-.progress-30plus
-	.progress-bar
-		background-color Sasha-Progressbar-30
-
-.progress-20plus
-	.progress-bar
-		background-color Sasha-Progressbar-20
-
-.progress-10plus
-	.progress-bar
-		background-color Sasha-Progressbar-10
-
-.progress-0plus
-	.progress-bar
-		background-color Sasha-Progressbar-0
+/* [LEARN][STYLUS] Loops in range:
+http://stylus-lang.com/docs/bifs.html#rangestart-stop-step
+http://bit.ly/2Udy4tD */
+for level in range(0, 100, 10)
+	/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+	.progress-{level}plus
+		.progress-bar
+			/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+			background-color Sasha-Progressbar- + level
 
 /* >> AddToAny
 	========================================================================== */
 
 // Overlay of buttons:
-div.a2a_floating_style
-	background-color Sasha-Add-To-Any
+div
+	.a2a_floating_style
+	.a2a_default_style
+		background-color Sasha-Add-To-Any

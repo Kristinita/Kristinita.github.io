@@ -8,6 +8,7 @@
  * TOC
  *
  * General
+ * - import wildwire
  * - Body
  * - Links
  * - Cursive
@@ -52,6 +53,102 @@
 /* ==========================================================================
 	> General
 	========================================================================== */
+/* >> import wildwire
+	========================================================================== */
+div.animate-flicker span {
+	color: Sasha-Wildfire-Foreground;
+}
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,
+div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,
+div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
+	color: #a52a2a;
+}
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,
+div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,
+div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,
+div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,
+div.wf.wf-theme-dark a.wf-use-wildfire span,
+div.wf.wf-theme-dark a.wf-use-wildfire:hover span,
+div.wf.wf-theme-dark .ivu-btn-text,
+div.wf.wf-theme-dark .ivu-btn-text:hover,
+div.wf.wf-theme-dark .wf-separator,
+div.wf.wf-theme-dark .wf-no-content-tip,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,
+div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,
+div.wf.wf-theme-dark .ivu-icon-at,
+div.wf.wf-theme-dark .ivu-menu-item-selected span,
+div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
+div.wf.wf-theme-dark .wf-comment-content,
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text {
+	color: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,
+div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,
+div.wf.wf-theme-dark .ivu-input::placeholder,
+div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,
+div.wf.wf-theme-dark a.wf-use-wildfire span,
+div.wf.wf-theme-dark a.wf-use-wildfire:hover span,
+div.wf.wf-theme-dark .ivu-btn-text,
+div.wf.wf-theme-dark .ivu-btn-text:hover,
+div.wf.wf-theme-dark .wf-separator,
+div.wf.wf-theme-dark .wf-no-content-tip,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,
+div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,
+div.wf.wf-theme-dark .ivu-icon-at,
+div.wf.wf-theme-dark .ivu-menu-item-selected span,
+div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
+div.wf.wf-theme-dark .wf-comment-content,
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text {
+	color: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark .wf-use-wildfire svg path,
+div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
+	fill: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
+	background-color: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark > footer {
+	border-top-color: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover {
+	border-bottom-color: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
+	color: #696969;
+}
+div.wf.wf-theme-dark input.ivu-input::placeholder {
+	color: #696969;
+}
+div.wf.wf-theme-dark .ivu-icon-heart-broken {
+	color: Sasha-Wildfire-Broken-Heart;
+}
+div.wf.wf-theme-dark .ivu-icon-heart {
+	color: Sasha-Wildfire-Heart;
+}
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+	background-color: Sasha-Wildfire-Button-Background;
+}
+div.wf.wf-theme-dark .wf-post-btn[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
+	border-color: Sasha-Wildfire-Foreground;
+}
+div.wf.wf-theme-dark .wf-tip {
+	font-size: 0.7rem;
+}
 /* >> Body
 	========================================================================== */
 body {
@@ -222,8 +319,11 @@ pre >code {
 	========================================================================== */
 /* >> Custom selection
 	========================================================================== */
-/*
- *  http://ru.stackoverflow.com/a/595809/199934
+/* [NOTE] Needs hack, that “::selection” pseudo-element works in all browsers:
+ * https://ru.stackoverflow.com/a/595809/199934
+ * [NOTE] “-moz-” prefix not needed since Firefox 61:
+ * https://caniuse.com/#search=selection
+ * http://ru.stackoverflow.com/a/595809/199934
  */
 ::selection {
 	color: Sasha-Selection-Foreground;
@@ -263,41 +363,100 @@ pre >code {
 .progress-label {
 	color: Sasha-Progressbar-Text;
 }
-.progress-100plus .progress-bar {
-	background-color: Sasha-Progressbar-100;
+/* [LEARN][STYLUS] Loops in range:
+http://stylus-lang.com/docs/bifs.html#rangestart-stop-step
+http://bit.ly/2Udy4tD */
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-0plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-0;
 }
-.progress-90plus .progress-bar {
-	background-color: Sasha-Progressbar-90;
-}
-.progress-80plus .progress-bar {
-	background-color: Sasha-Progressbar-80;
-}
-.progress-70plus .progress-bar {
-	background-color: Sasha-Progressbar-70;
-}
-.progress-60plus .progress-bar {
-	background-color: Sasha-Progressbar-60;
-}
-.progress-50plus .progress-bar {
-	background-color: Sasha-Progressbar-50;
-}
-.progress-40plus .progress-bar {
-	background-color: Sasha-Progressbar-40;
-}
-.progress-30plus .progress-bar {
-	background-color: Sasha-Progressbar-30;
-}
-.progress-20plus .progress-bar {
-	background-color: Sasha-Progressbar-20;
-}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
 .progress-10plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: Sasha-Progressbar-10;
 }
-.progress-0plus .progress-bar {
-	background-color: Sasha-Progressbar-0;
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-20plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-20;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-30plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-30;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-40plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-40;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-50plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-50;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-60plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-60;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-70plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-70;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-80plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-80;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-90plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-90;
+}
+/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+.progress-100plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: Sasha-Progressbar-100;
 }
 /* >> AddToAny
 	========================================================================== */
-div.a2a_floating_style {
+div .a2a_floating_style,
+div .a2a_default_style {
 	background-color: Sasha-Add-To-Any;
 }

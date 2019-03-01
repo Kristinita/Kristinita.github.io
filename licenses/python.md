@@ -4,7 +4,7 @@
 | GitPython           | 2.1.11     | BSD License                                                  |
 | Jinja2              | 2.10       | BSD                                                          |
 | Markdown            | 3.0.1      | BSD License                                                  |
-| MarkupSafe          | 1.1.0      | BSD                                                          |
+| MarkupSafe          | 1.1.1      | BSD-3-Clause                                                 |
 | Pillow              | 5.4.1      | Standard PIL License                                         |
 | PyYAML              | 3.13       | MIT                                                          |
 | Pygments            | 2.3.1      | BSD License                                                  |
@@ -29,7 +29,7 @@
 | mdx-video           | 0.1.8      | UNKNOWN                                                      |
 | nwdiag              | 1.0.4      | Apache License 2.0                                           |
 | packaging           | 19.0       | BSD or Apache License, Version 2.0                           |
-| pbr                 | 5.1.2      | UNKNOWN                                                      |
+| pbr                 | 5.1.3      | UNKNOWN                                                      |
 | pelican             | 4.0.1      | AGPLv3                                                       |
 | pip-review          | 1.0        | BSD                                                          |
 | pyembed             | 1.3.3      | Copyright (c) 2013 Matt Thomson                              |
@@ -45,3 +45,4 @@
 | soupsieve           | 1.8        | MIT License                                                  |
 | urllib3             | 1.24.1     | MIT                                                          |
 | webcolors           | 1.8.1      | BSD 3-Clause                                                 |
+[33mThe option "--format-xxx" is deprecated. Please migrate to "--format=xxx".[0m

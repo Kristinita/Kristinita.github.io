@@ -1,6 +1,34 @@
 /* Unverified For PurifyCSS
 	========================================================================== */
 
+div.animate-flicker span {
+	color: #ffebcd;
+}
+
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-icon-at,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-comment-content {
+	color: #ffebcd;
+}
+
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-icon-at,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-comment-content {
+	color: #ffebcd;
+}
+
+div.wf.wf-theme-dark .wf-use-wildfire svg path,div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
+	fill: #ffebcd;
+}
+
+div.wf.wf-theme-dark > footer {
+	border-top-color: #ffebcd;
+}
+
+div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
+	color: #696969;
+}
+
+div.wf.wf-theme-dark input.ivu-input::placeholder {
+	color: #696969;
+}
+
 body {
 	background: #a0522d;
 	color: #ffc0cb;
@@ -88,10 +116,6 @@ pre >code {
 	background: rgba(255,228,181,0.99);
 }
 
-.SashaEmNoColor {
-	color: #ffc0cb;
-}
-
 .progress {
 	background-color: #a0522d;
 }
@@ -100,7 +124,7 @@ pre >code {
 	background-color: Sasha-Progress-Bar;
 }
 
-div.a2a_floating_style {
+div .a2a_floating_style,div .a2a_default_style {
 	background-color: #ffc0cb;
 }
 

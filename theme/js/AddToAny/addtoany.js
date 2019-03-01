@@ -3,13 +3,14 @@
 //###########
 // Highly customisable share buttons:
 // https://www.addtoany.com
+// API:
+// https://www.addtoany.com/buttons/api/
 var a2a_config;
 
 a2a_config = a2a_config || {};
 
 // Disable tracking:
 // https://blog.futtta.be/2010/01/22/add-to-any-removed-from-here/
-// https://www.addtoany.com/buttons/api/
 a2a_config.no_3p = true;
 
 a2a_config.track_links = false;
@@ -28,4 +29,38 @@ a2a_config.orientation = 'down';
 
 // Prioritize services
 // https://www.addtoany.com/buttons/customize/prioritize_services
-a2a_config.prioritize = ['facebook', 'vk', 'twitter', 'reddit', 'evernote', 'livejournal', 'pinterest', 'linkedin', 'myspace', 'odnoklassniki', 'design_float', 'diary_ru', 'dzone', 'hacker_news', 'known', 'refind', 'blogger', 'skype', 'slashdot', 'tubmlr', 'whatsapp'];
+a2a_config.prioritize = [
+	'facebook',
+	'vk',
+	'twitter',
+	'reddit',
+	'evernote',
+	'livejournal',
+	'pinterest',
+	'linkedin',
+	'myspace',
+	'odnoklassniki',
+	'design_float',
+	'diary_ru',
+	'dzone',
+	'hacker_news',
+	'known',
+	'refind',
+	'blogger',
+	'skype',
+	'slashdot',
+	'tubmlr',
+	'whatsapp',
+	// [INFO] RSS subscribe buttons:
+	// https://www.addtoany.com/subscribe/preferences
+	'the_free_library',
+	'daily_rotation',
+	'newsisfree',
+	'protopage_news_feeds',
+	'bitty_browser_preview',
+	'my_aol',
+	'agregator',
+	'my_yahoo',
+	'feedblitz',
+	'outlook'
+];

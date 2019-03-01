@@ -1,0 +1,122 @@
+/* Wildfire comments themes scaffolding:
+https://wildfire.js.org
+[WARNING] Modifying textarea resizer doesn't support in Firefox and Edge:
+https://css-tricks.com/tricky-textarea-pulltab/
+https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#-webkit-resizer */
+div
+	/* [LEARN][STYLUS] Parent reference:
+	http://stylus-lang.com/docs/selectors.html#parent-reference
+	That compile to “div.animate-flicker span”, not to “div animate-flicker span”
+	 */
+	// https://i.imgur.com/Xnkr2am.png
+	&.animate-flicker span
+		color Sasha-Wildfire-Foreground
+
+	// [INFO] For modal windows
+	&.ivu-modal-body
+		// https://i.imgur.com/z409P8h.png
+		div.ivu-tabs-tabpane div.wf-meta
+		// https://i.imgur.com/KvyxsQR.png
+		.ivu-btn.ivu-btn-text.ivu-btn-small
+		// https://i.imgur.com/qE9MGSe.png
+		div.wf-buttons .ivu-btn.ivu-btn-text
+			// [INFO] Foreground for buttons in modal windows
+			color brown
+
+	// [INFO] Dark theme
+	&.wf.wf-theme-dark
+		// https://i.imgur.com/PJlGHMb.png
+		.wf-comment-header .wf-content .wf-meta
+		// https://i.imgur.com/HHBwcGl.png
+		.wf-comment-item .wf-comment-header
+		// https://i.imgur.com/RZSFO2E.png
+		.ivu-btn-primary[disabled]
+		// https://i.imgur.com/lFMqBgE.png
+		.ivu-btn-text[disabled]
+		.ivu-btn-text[disabled]:hover
+		// https://i.imgur.com/Xfylvuc.png
+		.ivu-input::placeholder
+		// https://i.imgur.com/gXdAqRl.png
+		.wf-comment-body .wf-comment-footer a
+		// https://i.imgur.com/avxpp0s.png
+		a.wf-use-wildfire span
+		a.wf-use-wildfire:hover span
+		// https://i.imgur.com/gKShyPG.png
+		.ivu-btn-text
+		.ivu-btn-text:hover
+		// https://i.imgur.com/CAEjRx3.png
+		.wf-separator
+		// https://i.imgur.com/FVTSegN.png
+		.wf-no-content-tip
+		// https://i.imgur.com/a9oHeEv.png
+		:not(.v-transfer-dom) a
+		:not(.v-transfer-dom) a:hover
+		// https://i.imgur.com/HAshFRM.png
+		.ivu-menu-submenu-title-icon
+		// https://i.imgur.com/8bWpFwn.png
+		.ivu-icon-at
+		// https://i.imgur.com/bbty8vv.png
+		.ivu-menu-item-selected span
+		// https://i.imgur.com/6bycnve.png
+		.ivu-input-wrapper textarea.ivu-input
+		// https://i.imgur.com/cEZ5Xsh.png
+		.wf-comment-content
+		// https://i.imgur.com/JnZ5PjO.png
+		.wf-post-btn[disabled]:hover
+		// https://i.imgur.com/fGuIW18.png
+		.wf-delete-btn.ivu-btn.ivu-btn-text
+			color Sasha-Wildfire-Foreground
+
+		/* [LEARN][CSS] Change svg color via CSS:
+		https://css-tricks.com/cascading-svg-fill-color/ */
+		// https://i.imgur.com/6RS362W.png
+		.wf-use-wildfire svg path
+		.wf-use-wildfire:hover svg path
+			fill Sasha-Wildfire-Foreground
+
+		// https://i.imgur.com/FvUUeIh.png
+		.ivu-menu-horizontal.ivu-menu-light::after
+			background-color Sasha-Wildfire-Foreground
+
+		// https://i.imgur.com/DRAiHJP.png
+		> footer
+			border-top-color Sasha-Wildfire-Foreground
+
+		// https://i.imgur.com/0slfXlQ.png
+		.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active
+		.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover
+			border-bottom-color Sasha-Wildfire-Foreground
+
+		// https://i.imgur.com/jMNFS2c.png
+		input.ivu-input::placeholder
+			// [INFO] Placeholder for modal windows
+			color dimgray
+
+		// [INFO] Broken heart
+		// https://i.imgur.com/AmyL2PW.png
+		.ivu-icon-heart-broken
+			color Sasha-Wildfire-Broken-Heart
+
+		// [INFO] Heart
+		// https://i.imgur.com/q11b5xr.png
+		.ivu-icon-heart
+			color Sasha-Wildfire-Heart
+
+		/* [WARNING] Needs duplicate:
+		https://stackoverflow.com/q/54867285/5951529 */
+		// https://i.imgur.com/AEAcYU4.png
+		.ivu-btn-primary[disabled]
+		// https://i.imgur.com/hGeWPUa.png
+		.wf-post-btn[disabled]:hover
+			background-color Sasha-Wildfire-Button-Background
+
+		// https://i.imgur.com/JnZ5PjO.png
+		.wf-post-btn[disabled]
+		.wf-post-btn[disabled]:hover
+		// https://i.imgur.com/G3bpJcQ.png
+		.ivu-btn-primary[disabled]
+			border-color Sasha-Wildfire-Foreground
+
+		// https://i.imgur.com/mM4vHZD.png
+		.wf-tip
+			font-size .7rem

@@ -8,6 +8,22 @@
 /* Unverified For PurifyCSS
 	========================================================================== */
 
+div.animate-flicker span {
+	color: #d2691e;
+}
+
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-comment-content {
+	color: #d2691e;
+}
+
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-comment-content {
+	color: #d2691e;
+}
+
+div.wf.wf-theme-dark > footer {
+	border-top-color: #d2691e;
+}
+
 body {
 	background: #08054e;
 	color: #fff0f5;
@@ -110,12 +126,8 @@ code {
 	background: rgba(255,228,181,0.99);
 }
 
-.SashaEmNoColor {
-	color: #fff0f5;
-}
-
-div.a2a_floating_style {
-	background-color: Sasha-Add-To-Any;
+div .a2a_floating_style,div .a2a_default_style {
+	background-color: #ff1493;
 }
 
 .tooltipster-punk-purple .tooltipster-box {

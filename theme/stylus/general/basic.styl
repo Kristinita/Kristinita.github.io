@@ -84,8 +84,12 @@ html
 
 body
 	@extend $SashaHTMLBody
-	// Commas between fonts required:
-	font-family Arial, "Helvetica Neue", Helvetica, sans-serif
+	/*
+	[INFO] Safe web fonts
+	http://web.mit.edu/jmorzins/www/fonts.html
+	[NOTE] Commas between fonts required, if multiple:
+	 */
+	font-family Arial
 	font-size 1.1875rem
 	margin 0
 	padding 0
@@ -248,7 +252,7 @@ dd
 	========================================================================== */
 
 /*
- * Russian letters as list markers
+ * [INFO] Russian letters as list markers
  * https://ru.stackoverflow.com/a/523299/199934
  */
 
@@ -259,13 +263,9 @@ dd
 	li
 		margin 0
 
-@-webkit-keyframes fade-in
-	0%
-		opacity 0
-
-	100%
-		opacity 1
-
+/* [INFO] prefix variant “@-webkit-keyframes” not needed at February, 2019:
+https://caniuse.com/#search=%40keyframes
+ */
 @keyframes fade-in
 	0%
 		opacity 0
@@ -273,53 +273,28 @@ dd
 	100%
 		opacity 1
 
-@-webkit-keyframes fade
-	10%
-		-webkit-transform scale(1, 1)
-		transform scale(1, 1)
-
-	35%
-		-webkit-transform scale(1, 1.7)
-		transform scale(1, 1.7)
-
-	40%
-		-webkit-transform scale(1, 1.7)
-		transform scale(1, 1.7)
-
-	50%
-		opacity 1
-
-	60%
-		-webkit-transform scale(1, 1)
-		transform scale(1, 1)
-
-	100%
-		-webkit-transform scale(1, 1)
-		transform scale(1, 1)
-		opacity 0
-
+/* [INFO] prefix variant “-webkit-transform” not needed at February, 2019:
+https://caniuse.com/#search=transform
+[NOTE] Comma required:
+https://github.com/search?l=Stylus&p=1&q=transform+scale%28+extension%3Astyl&type=Code
+ */
 @keyframes fade
 	10%
-		-webkit-transform scale(1, 1)
 		transform scale(1, 1)
 
 	35%
-		-webkit-transform scale(1, 1.7)
 		transform scale(1, 1.7)
 
 	40%
-		-webkit-transform scale(1, 1.7)
 		transform scale(1, 1.7)
 
 	50%
 		opacity 1
 
 	60%
-		-webkit-transform scale(1, 1)
 		transform scale(1, 1)
 
 	100%
-		-webkit-transform scale(1, 1)
 		transform scale(1, 1)
 		opacity 0
 
@@ -647,3 +622,26 @@ pre
 div.a2a_floating_style
 	padding .0625rem
 	top 30%
+
+div.a2a_default_style
+	border-radius .375rem
+	padding .25rem
+	/*
+	 * [LEARN][CSS] Prevent block stretching to all width
+	 * https://toster.ru/q/322812
+	 */
+	float left
+
+/*
+ * [LEARN][CSS] “Easy Clearing Method” or “Clearfix”:
+ * normalize indentation after floating:
+ * https://css-tricks.com/almanac/properties/f/float/
+ * https://www.w3schools.com/howto/howto_css_clearfix.asp
+ */
+.clearfix
+	&:after
+		content ""
+		visibility hidden
+		display block
+		height 0
+		clear both
