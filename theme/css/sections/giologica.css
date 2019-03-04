@@ -16,6 +16,50 @@ div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta {
 	color: #a52a2a;
 }
 
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+	color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+	color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
+	background-color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark > footer {
+	border-top-color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
+	color: #696969;
+}
+
+div.wf.wf-theme-dark input.ivu-input::placeholder {
+	color: #696969;
+}
+
+div.wf.wf-theme-dark .ivu-icon-heart-broken {
+	color: Sasha-Wildfire-Broken-Heart;
+}
+
+div.wf.wf-theme-dark .ivu-icon-heart {
+	color: Sasha-Wildfire-Heart;
+}
+
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+	background-color: Sasha-Wildfire-Button-Background;
+}
+
+div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
+	border-color: Sasha-Wildfire-Foreground;
+}
+
+div.wf.wf-theme-dark .wf-tip {
+	font-size: 0.7rem;
+}
+
 body {
 	background: #ffe4c4;
 	color: #dc143c;
@@ -81,4 +125,14 @@ code {
 
 div .a2a_floating_style,div .a2a_default_style {
 	background-color: Sasha-Add-To-Any;
+}
+
+.tooltipster-punk-purple .tooltipster-box {
+	border-bottom: 0.1875rem solid #ffa500;
+	background: #800080;
+}
+
+.tooltipster-punk-aquamarine .tooltipster-box {
+	border-bottom: 0.1875rem solid #ff69b4;
+	background: #228b22;
 }
