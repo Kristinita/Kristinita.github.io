@@ -85,7 +85,8 @@ div.wf.wf-theme-dark .ivu-menu-item-selected span,
 div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
 div.wf.wf-theme-dark .wf-comment-content,
 div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
-div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text {
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,
+div.wf.wf-theme-dark .ivu-menu {
 	color: Sasha-Wildfire-Foreground;
 }
 div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,
@@ -110,7 +111,8 @@ div.wf.wf-theme-dark .ivu-menu-item-selected span,
 div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
 div.wf.wf-theme-dark .wf-comment-content,
 div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
-div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text {
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,
+div.wf.wf-theme-dark .ivu-menu {
 	color: Sasha-Wildfire-Foreground;
 }
 div.wf.wf-theme-dark .wf-use-wildfire svg path,
