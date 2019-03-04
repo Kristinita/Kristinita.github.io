@@ -2,16 +2,8 @@ div.animate-flicker span {
 	color: #1e90ff;
 }
 
-div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span {
-	color: #1e90ff;
-}
-
-div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span {
-	color: #1e90ff;
-}
-
-div.wf.wf-theme-dark > footer {
-	border-top-color: #1e90ff;
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta {
+	color: #a52a2a;
 }
 
 body {
@@ -348,14 +340,4 @@ div .a2a_floating_style,div .a2a_default_style {
 .SashaInlineHighlight .il,.SashaBlockHighlight .il {
 	color: #f99b15;
 	font-weight: bold;
-}
-
-.tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 0.1875rem solid #ffa500;
-	background: #800080;
-}
-
-.tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 0.1875rem solid #ff69b4;
-	background: #228b22;
 }

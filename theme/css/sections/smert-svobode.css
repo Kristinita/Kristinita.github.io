@@ -12,16 +12,8 @@ div.animate-flicker span {
 	color: #d2691e;
 }
 
-div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-comment-content {
-	color: #d2691e;
-}
-
-div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-comment-content {
-	color: #d2691e;
-}
-
-div.wf.wf-theme-dark > footer {
-	border-top-color: #d2691e;
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta {
+	color: #a52a2a;
 }
 
 body {
@@ -128,14 +120,4 @@ code {
 
 div .a2a_floating_style,div .a2a_default_style {
 	background-color: #ff1493;
-}
-
-.tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 0.1875rem solid #ffa500;
-	background: #800080;
-}
-
-.tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 0.1875rem solid #ff69b4;
-	background: #228b22;
 }
