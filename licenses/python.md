@@ -45,4 +45,3 @@
 | soupsieve           | 1.8        | MIT License                                                  |
 | urllib3             | 1.24.1     | MIT                                                          |
 | webcolors           | 1.8.1      | BSD 3-Clause                                                 |
-[33mThe option "--format-xxx" is deprecated. Please migrate to "--format=xxx".[0m

@@ -10,7 +10,7 @@ h1,
 .SashaBottomAside,
 .SashaOnlineScanners,
 .SashaCheckYourSite {
-	font-family: "XoloniumRegular";
+	font-family: "Play";
 }
 h1,
 .SashaCategory,
@@ -21,25 +21,25 @@ h1,
 	font-style: normal;
 }
 h2 {
-	font-family: "SansusWebissimoRegular";
+	font-family: "Scada";
 	font-size: 1.9375rem;
 	font-style: italic;
 }
 a {
-	font-family: "ElMessiriRegular";
+	font-family: "El Messiri";
 	font-size: 1.3rem;
 	font-style: italic;
 	font-weight: bold;
 }
 pre,
 code {
-	font-family: "InconsolataLGCRegular";
+	font-family: "Fira Mono";
 	font-size: 1.1875rem;
 }
 .WorkOnYourself {
-	font-family: "MiamaNuevaMedium";
+	font-family: "Marck Script";
 	font-size: 3.5625rem;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 /* For Sasha Black */
 .SashaOnlineScanners {
@@ -50,6 +50,6 @@ code {
 }
 .SashaDifferentUrl,
 .SashaReadHelp {
-	font-family: "SansusWebissimoRegular";
+	font-family: "Scada";
 	font-size: 1.4375rem;
 }
