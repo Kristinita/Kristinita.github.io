@@ -1,82 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Life-hacks</title><link href="https://kristinita.github.io/" rel="alternate"></link><link href="https://kristinita.github.io/feeds/life-hacks.atom.xml" rel="self"></link><id>https://kristinita.github.io/</id><updated>2019-03-09T08:53:06+03:00</updated><entry><title>Установка портативной версии Pale Moon в качестве браузера по умолчанию в Windows 10</title><link href="https://kristinita.github.io/Life-hacks/Default-portable-browser-Windows-10.html" rel="alternate"></link><published>2019-03-09T08:53:06+03:00</published><updated>2019-03-09T08:53:06+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-03-09:/Life-hacks/Default-portable-browser-Windows-10.html</id><summary type="html">&lt;p&gt;Description, how to make Pale Moon default browser in Windows&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="#Почему-портативный-браузер"&gt;Почему портативный браузер?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Почему-pale-moon"&gt;Почему Pale Moon?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Установка-pale-moon-браузером-по-умолчанию-обычными-методами"&gt;Установка Pale Moon браузером по умолчанию обычными методами&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Решение"&gt;Решение&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;!-- /MarkdownTOC --&gt;
-
-&lt;p&gt;&lt;a id="Почему-портативный-браузер"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;1. Почему портативный браузер?&lt;/h2&gt;
-&lt;p&gt;Всё нижеперечисленное можно отнести к достоинствам любых других &lt;a href="http://computerstory.ru/?p=3524"&gt;портативных программ&lt;/a&gt;, не только браузеров.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Настройки браузера: профили, расширения, скрипты, стили и т. д. не слетают без всяких дополнительных действий со стороны пользователя при следующих обстоятельствах:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Если предстоит переустановка — число каковых на моём веку перевалило за десяток — операционной системы.&lt;/li&gt;
-&lt;li&gt;Когда вы на некоторое время оказались отлучённым от компьютера, которым обычно пользуетесь. Запустив Pale Moon Portable (далее также просто &lt;em&gt;Pale Moon&lt;/em&gt;, &lt;em&gt;PM&lt;/em&gt;) на чужом компьютере c внешнего съёмного носителя, окажетесь в родной среде, со всеми настройками, которые у вас присутствовали. Портативный браузер можно установить с флэшки, внешнего жёсткого диска, как который допустимо использовать и диск с интерфейсом SATA, подключив его к док-станции.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;При пользовании другим компьютером или замене жёсткого диска, чтобы продолжить работу в PM со всеми накопленными настройками достаточно перенести в новое место только папку, куда установлен этот браузер, — и не придётся ничего копировать с локального диска &lt;dfn&gt;С&lt;/dfn&gt;, переживая, как что-то пойдёт не так. А после переустановки ОС будет достаточно запустить свой портативный браузер, прежде настроенный под ваши предпочтения, не предпринимая иных действий.&lt;/p&gt;
-&lt;p&gt;Существуют отдельные средства для экспорта/импорта паролей, закладок, однако:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;лично у меня они, бывало, отказывали, когда возникала в них острая необходимость,&lt;/li&gt;
-&lt;li&gt;восстанавливают не всё-всё, как было,&lt;/li&gt;
-&lt;li&gt;перенос отнимает время.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;В силу причин &lt;dfn&gt;а&lt;/dfn&gt; и &lt;dfn&gt;в&lt;/dfn&gt; я вообще стараюсь не использовать программы, сохраняющие какие-либо пользовательские данные на системном диске.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Чтобы просмотреть созданные файлы Pale Moon и/или изменить их через проводник Windows либо файловый менеджер, в инсталлированной версии браузера придётся переходить по пути &lt;dfn&gt;C:UsersSashaGoddessAppDataRoamingMoonchild ProductionsPale Moon&lt;/dfn&gt;, используя переносимую — &lt;dfn&gt;E:Pale Moon&lt;/dfn&gt;. Лично для меня второй вариант много удобнее.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Дополнительное подспорье к безопасности ваших данных. Известные мне &lt;a href="http://tophope.ru/threads/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B5%D1%80-%D1%81%D1%82%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-stealer-%D0%B8-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D0%B0-%D1%81-%D0%BD%D0%B8%D0%BC.1965/"&gt;стилеры&lt;/a&gt;, в том числе встроенные в «&lt;a href="http://www.spy-soft.net/chto-takoe-rat/"&gt;ратники&lt;/a&gt;», не воруют пароли из portable программ.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a id="Почему-pale-moon"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;2. Почему Pale Moon?&lt;/h2&gt;
-&lt;p&gt;Pale Moon я рассматриваю как оптимизированную под низкое — по личному опыту, меньшее, нежели у Firefox, Chrome, Opera, Avant, Maxthon и SeaMonkey — потребление оперативной памяти версию Firefox — наиболее функционального на мой взгляд браузера. Аддоны для Mozilla поддерживаются Pale Moon.&lt;/p&gt;
-&lt;p&gt;&lt;a id="Установка-pale-moon-браузером-по-умолчанию-обычными-методами"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;3. Установка Pale Moon браузером по умолчанию обычными методами&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/gQywm8B.png"&gt;&lt;/p&gt;
-&lt;p&gt;Не помогает. В «Выборе программ по умолчанию», «Приложениях по умолчанию» и «Настройке доступа программ и параметров компьютера по умолчанию» Pale Moon Portable нет.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/HCIt8xR.png"&gt;
-&lt;img alt="Alt attribute fish" src="https://i.imgur.com/l9HgjBJ.png"&gt;
-&lt;img alt="Alt attribute fish" src="https://i.imgur.com/LNFEjsi.png"&gt;&lt;/p&gt;
-&lt;p&gt;Связать протоколы с Pale Moon также не получается:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/UiS638u.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a id="Решение"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;4. Решение&lt;/h2&gt;
-&lt;p&gt;Устанавливаем &lt;a href="http://portableapps.com/apps/internet/firefox_portable"&gt;Firefox Portable&lt;/a&gt;, &lt;a href="https://support.mozilla.org/ru/kb/kak-sdelat-firefox-brauzerom-po-umolchaniyu"&gt;делаем Firefox браузером по умолчанию&lt;/a&gt;, — в отличие от Pale Moon «огнелис» становится браузером по умолчанию без особых проблем.&lt;/p&gt;
-&lt;p&gt;Правой кнопкой мыши по окошку меню «Пуск» → &lt;em&gt;Выполнить&lt;/em&gt; → &lt;em&gt;regedit.exe&lt;/em&gt; → проходим по реестру дважды до &lt;em&gt;command&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;HKEY_CLASSES_ROOT
-├───FirefoxHTML
-│ └───shell
-│ └───open
-│ └───command
-└───FirefoxURL
-└───shell
-└───open
-└───command
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Т. е. &lt;em&gt;HKEY_CLASSES_ROOT&lt;/em&gt; → &lt;em&gt;FirefoxHTML&lt;/em&gt; → &lt;em&gt;shell&lt;/em&gt; → &lt;em&gt;open&lt;/em&gt; → &lt;em&gt;command&lt;/em&gt; . Заменяем путь к Firefox на путь к Pale Moon Portable: правой кнопкой мыши на «По умолчанию» → &lt;em&gt;Изменить&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/qKogH11.png"&gt;&lt;/p&gt;
-&lt;p&gt;Например, у меня:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Было: "&lt;em&gt;E:FirefoxPortableAppFirefoxfirefox.exe" -osint -url "%1"&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Стало: "&lt;em&gt;E:Pale MoonPalemoon-Portable.exe" -osint -url "%1&lt;/em&gt;"&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Далее там же в реестре &lt;em&gt;HKEY_CLASSES_ROOT&lt;/em&gt; → &lt;em&gt;FirefoxURL&lt;/em&gt; → &lt;em&gt;shell&lt;/em&gt; → &lt;em&gt;open&lt;/em&gt; → &lt;em&gt;command&lt;/em&gt; . Снова вместо пути к Firefox указываем путь к PM.&lt;/p&gt;
-&lt;p&gt;Пробуем открыть гиперссылку при работе в какой-нибудь программе, например, почтовой, → в диалоговом окне выбираем &lt;em&gt;Palemoon-Portable&lt;/em&gt;, дополнительно поставив галочку напротив &lt;em&gt;Всегда использовать это приложение&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/mcGNijr.png"&gt;&lt;/p&gt;
-&lt;p&gt;Отныне ссылки, кликнутые в любой программе, будут открываться браузером Pale Moon Portable. При открытии файлов с расширениями &lt;em&gt;html&lt;/em&gt;, &lt;em&gt;htm&lt;/em&gt;, &lt;em&gt;xhtml&lt;/em&gt; в появившемся диалоговом окне выбираем &lt;em&gt;Palemoon-Portable.exe&lt;/em&gt;, помня о галочке.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/DjwBc2Q.png"&gt;&lt;/p&gt;
-&lt;p&gt;Pale Moon Portable установлен браузером по умолчанию.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.github.io/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2019-03-09T08:53:06+03:00</published><updated>2019-03-09T08:53:06+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-03-09:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html">&lt;p&gt;Как научить персональный компьютер самому заходить на нужные вам веб-сайты каждый день&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Life-hacks</title><link href="https://kristinita.github.io/" rel="alternate"></link><link href="https://kristinita.github.io/feeds/life-hacks.atom.xml" rel="self"></link><id>https://kristinita.github.io/</id><updated>2019-05-23T14:35:48+03:00</updated><entry><title>Как автоматически заходить на сайты?</title><link href="https://kristinita.github.io/Life-hacks/%D0%9A%D0%B0%D0%BA-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B2%D1%85%D0%BE%D0%B4%D0%B8%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D1%8B.html" rel="alternate"></link><published>2017-03-15T14:16:14+03:00</published><updated>2019-05-23T14:35:20+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2017-03-15:/Life-hacks/Как-автоматически-входить-на-сайты.html</id><summary type="html">&lt;p&gt;Как научить персональный компьютер самому заходить на нужные вам веб-сайты каждый день&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Tldr"&gt;Tl;dr&lt;/a&gt;&lt;/li&gt;
@@ -260,7 +183,84 @@ OR OR OR
 &lt;li&gt;&lt;dfn&gt;RunMissed&lt;/dfn&gt; — выполнение просроченной задачи. Если у Вас в нужное время будет отключён интернет, задача выполнится сразу, как только его дадут.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Тестируем, что написали. Правой кнопкой мыши по иконке nnCron в трее → &lt;kbd&gt;Выполнить задачу&lt;/kbd&gt; → левой кнопкой мыши по имени только что созданной задачи, в примере это &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt; . Разрешаем всплывающие окна (если быть точным в формулировке — вкладки) при открытии нашего файла браузером, когда тот блокирует их появление. Прочие попапы броузер по-прежнему будет продолжать блокировать, если в настройках не указано иначе.&lt;/p&gt;
-&lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Перед-первым-запуском-ARK-Benefit-S401</title><link href="https://kristinita.github.io/Life-hacks/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%BC-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-ARK-Benefit-S401.html" rel="alternate"></link><published>2019-03-09T08:53:06+03:00</published><updated>2019-03-09T08:53:06+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2019-03-09:/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</id><summary type="html">&lt;p&gt;ARK Benefit S401 for dummies&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Введение&lt;/h2&gt;
+&lt;p&gt;Выполняем задачу ещё раз. Если всё сделали правильно, нужные страницы сайтов должны открываться в этот момент и каждый день.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Установка портативной версии Pale Moon в качестве браузера по умолчанию в Windows 10</title><link href="https://kristinita.github.io/Life-hacks/Default-portable-browser-Windows-10.html" rel="alternate"></link><published>2017-03-15T00:11:14+03:00</published><updated>2019-05-23T14:34:04+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2017-03-15:/Life-hacks/Default-portable-browser-Windows-10.html</id><summary type="html">&lt;p&gt;Description, how to make Pale Moon default browser in Windows&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="#Почему-портативный-браузер"&gt;Почему портативный браузер?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Почему-Pale-Moon"&gt;Почему Pale Moon?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Установка-Pale-Moon-браузером-по-умолчанию-обычными-методами"&gt;Установка Pale Moon браузером по умолчанию обычными методами&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Решение"&gt;Решение&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- /MarkdownTOC --&gt;
+
+&lt;p&gt;&lt;a id="Почему-портативный-браузер"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;1. Почему портативный браузер?&lt;/h2&gt;
+&lt;p&gt;Всё нижеперечисленное можно отнести к достоинствам любых других &lt;a href="http://computerstory.ru/?p=3524"&gt;портативных программ&lt;/a&gt;, не только браузеров.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Настройки браузера: профили, расширения, скрипты, стили и т. д. не слетают без всяких дополнительных действий со стороны пользователя при следующих обстоятельствах:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Если предстоит переустановка — число каковых на моём веку перевалило за десяток — операционной системы.&lt;/li&gt;
+&lt;li&gt;Когда вы на некоторое время оказались отлучённым от компьютера, которым обычно пользуетесь. Запустив Pale Moon Portable (далее также просто &lt;em&gt;Pale Moon&lt;/em&gt;, &lt;em&gt;PM&lt;/em&gt;) на чужом компьютере c внешнего съёмного носителя, окажетесь в родной среде, со всеми настройками, которые у вас присутствовали. Портативный браузер можно установить с флэшки, внешнего жёсткого диска, как который допустимо использовать и диск с интерфейсом SATA, подключив его к док-станции.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;При пользовании другим компьютером или замене жёсткого диска, чтобы продолжить работу в PM со всеми накопленными настройками достаточно перенести в новое место только папку, куда установлен этот браузер, — и не придётся ничего копировать с локального диска &lt;dfn&gt;С&lt;/dfn&gt;, переживая, как что-то пойдёт не так. А после переустановки ОС будет достаточно запустить свой портативный браузер, прежде настроенный под ваши предпочтения, не предпринимая иных действий.&lt;/p&gt;
+&lt;p&gt;Существуют отдельные средства для экспорта/импорта паролей, закладок, однако:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;лично у меня они, бывало, отказывали, когда возникала в них острая необходимость,&lt;/li&gt;
+&lt;li&gt;восстанавливают не всё-всё, как было,&lt;/li&gt;
+&lt;li&gt;перенос отнимает время.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В силу причин &lt;dfn&gt;а&lt;/dfn&gt; и &lt;dfn&gt;в&lt;/dfn&gt; я вообще стараюсь не использовать программы, сохраняющие какие-либо пользовательские данные на системном диске.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Чтобы просмотреть созданные файлы Pale Moon и/или изменить их через проводник Windows либо файловый менеджер, в инсталлированной версии браузера придётся переходить по пути &lt;dfn&gt;C:UsersSashaGoddessAppDataRoamingMoonchild ProductionsPale Moon&lt;/dfn&gt;, используя переносимую — &lt;dfn&gt;E:Pale Moon&lt;/dfn&gt;. Лично для меня второй вариант много удобнее.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Дополнительное подспорье к безопасности ваших данных. Известные мне &lt;a href="http://tophope.ru/threads/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%81%D1%82%D0%B8%D0%BB%D0%B5%D1%80-%D1%81%D1%82%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-stealer-%D0%B8-%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D0%B0-%D1%81-%D0%BD%D0%B8%D0%BC.1965/"&gt;стилеры&lt;/a&gt;, в том числе встроенные в «&lt;a href="http://www.spy-soft.net/chto-takoe-rat/"&gt;ратники&lt;/a&gt;», не воруют пароли из portable программ.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a id="Почему-Pale-Moon"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Почему Pale Moon?&lt;/h2&gt;
+&lt;p&gt;Pale Moon я рассматриваю как оптимизированную под низкое — по личному опыту, меньшее, нежели у Firefox, Chrome, Opera, Avant, Maxthon и SeaMonkey — потребление оперативной памяти версию Firefox — наиболее функционального на мой взгляд браузера. Аддоны для Mozilla поддерживаются Pale Moon.&lt;/p&gt;
+&lt;p&gt;&lt;a id="Установка-Pale-Moon-браузером-по-умолчанию-обычными-методами"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Установка Pale Moon браузером по умолчанию обычными методами&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/gQywm8B.png"&gt;&lt;/p&gt;
+&lt;p&gt;Не помогает. В «Выборе программ по умолчанию», «Приложениях по умолчанию» и «Настройке доступа программ и параметров компьютера по умолчанию» Pale Moon Portable нет.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/HCIt8xR.png"&gt;
+&lt;img alt="Alt attribute fish" src="https://i.imgur.com/l9HgjBJ.png"&gt;
+&lt;img alt="Alt attribute fish" src="https://i.imgur.com/LNFEjsi.png"&gt;&lt;/p&gt;
+&lt;p&gt;Связать протоколы с Pale Moon также не получается:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/UiS638u.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id="Решение"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;4. Решение&lt;/h2&gt;
+&lt;p&gt;Устанавливаем &lt;a href="http://portableapps.com/apps/internet/firefox_portable"&gt;Firefox Portable&lt;/a&gt;, &lt;a href="https://support.mozilla.org/ru/kb/kak-sdelat-firefox-brauzerom-po-umolchaniyu"&gt;делаем Firefox браузером по умолчанию&lt;/a&gt;, — в отличие от Pale Moon «огнелис» становится браузером по умолчанию без особых проблем.&lt;/p&gt;
+&lt;p&gt;Правой кнопкой мыши по окошку меню «Пуск» → &lt;em&gt;Выполнить&lt;/em&gt; → &lt;em&gt;regedit.exe&lt;/em&gt; → проходим по реестру дважды до &lt;em&gt;command&lt;/em&gt;:&lt;/p&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;HKEY_CLASSES_ROOT
+├───FirefoxHTML
+│ └───shell
+│ └───open
+│ └───command
+└───FirefoxURL
+└───shell
+└───open
+└───command
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Т. е. &lt;em&gt;HKEY_CLASSES_ROOT&lt;/em&gt; → &lt;em&gt;FirefoxHTML&lt;/em&gt; → &lt;em&gt;shell&lt;/em&gt; → &lt;em&gt;open&lt;/em&gt; → &lt;em&gt;command&lt;/em&gt; . Заменяем путь к Firefox на путь к Pale Moon Portable: правой кнопкой мыши на «По умолчанию» → &lt;em&gt;Изменить&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/qKogH11.png"&gt;&lt;/p&gt;
+&lt;p&gt;Например, у меня:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Было: "&lt;em&gt;E:FirefoxPortableAppFirefoxfirefox.exe" -osint -url "%1"&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Стало: "&lt;em&gt;E:Pale MoonPalemoon-Portable.exe" -osint -url "%1&lt;/em&gt;"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Далее там же в реестре &lt;em&gt;HKEY_CLASSES_ROOT&lt;/em&gt; → &lt;em&gt;FirefoxURL&lt;/em&gt; → &lt;em&gt;shell&lt;/em&gt; → &lt;em&gt;open&lt;/em&gt; → &lt;em&gt;command&lt;/em&gt; . Снова вместо пути к Firefox указываем путь к PM.&lt;/p&gt;
+&lt;p&gt;Пробуем открыть гиперссылку при работе в какой-нибудь программе, например, почтовой, → в диалоговом окне выбираем &lt;em&gt;Palemoon-Portable&lt;/em&gt;, дополнительно поставив галочку напротив &lt;em&gt;Всегда использовать это приложение&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/mcGNijr.png"&gt;&lt;/p&gt;
+&lt;p&gt;Отныне ссылки, кликнутые в любой программе, будут открываться браузером Pale Moon Portable. При открытии файлов с расширениями &lt;em&gt;html&lt;/em&gt;, &lt;em&gt;htm&lt;/em&gt;, &lt;em&gt;xhtml&lt;/em&gt; в появившемся диалоговом окне выбираем &lt;em&gt;Palemoon-Portable.exe&lt;/em&gt;, помня о галочке.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/DjwBc2Q.png"&gt;&lt;/p&gt;
+&lt;p&gt;Pale Moon Portable установлен браузером по умолчанию.&lt;/p&gt;</content><category term="life-hacks"></category><category term="pale-moon"></category></entry><entry><title>Перед-первым-запуском-ARK-Benefit-S401</title><link href="https://kristinita.github.io/Life-hacks/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%BC-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-ARK-Benefit-S401.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2019-05-23T14:35:48+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2017-02-13:/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</id><summary type="html">&lt;p&gt;ARK Benefit S401 for dummies&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Введение&lt;/h2&gt;
 &lt;h3&gt;1.1. Для чего предназначена данная инструкция&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="http://fb.ru/article/254999/stokovaya-proshivka-chto-eto-takoe"&gt;Стоковая прошивка&lt;/a&gt; телефона ARK Benefit S401 содержит вредоносное ПО&lt;/strong&gt; — без Вашего согласия на телефон будут устанавливаться программы. Данная проблема возникла не только у меня, но и у многих прочих участников форума 4PDA, см., например, сообщения &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=340#entry67671845"&gt;1&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=340#entry67600967"&gt;2&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=300#entry64686674"&gt;3&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=300#entry63816408"&gt;4&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=300#entry63247178"&gt;5&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=280#entry61611283"&gt;6&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=280#entry60787829"&gt;7&lt;/a&gt;, &lt;a href="http://4pda.ru/forum/index.php?showtopic=788444&amp;amp;st=220#entry58263044"&gt;8&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Вирусы Dr.Web" src="https://i.imgur.com/t27DFhh.png"&gt;&lt;/p&gt;

@@ -71,7 +71,13 @@ body {
 a,
 em,
 pre {
+/*
+ * [FIXME][NOTE] Disable, because KaiOS partially support it:
+ * https://travis-ci.org/Kristinita/KristinitaPelican/jobs/536645995#L1891
+ */
+/* doiuse-disable wordwrap */
 	overflow-wrap: break-word;
+/* doiuse-enable wordwrap */
 /*
  * [INFO] doiuse just-in-file comments for disabling specific checks:
  * https://www.npmjs.com/package/doiuse#ignoring-file-specific-rules

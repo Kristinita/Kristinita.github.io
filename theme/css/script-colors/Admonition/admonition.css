@@ -98,7 +98,7 @@ details.summary>.admonition-title,
 details.summary>summary,
 details.tldr>.admonition-title,
 details.tldr>summary {
-	border-bottom-color: 0.1rem solid rgba(0,176,255,0.1);
+	border-bottom: 0.1rem solid rgba(0,176,255,0.1);
 	background-color: rgba(0,176,255,0.1);
 }
 .admonition.abstract>.admonition-title:before,
@@ -130,7 +130,7 @@ details.info>.admonition-title,
 details.info>summary,
 details.todo>.admonition-title,
 details.todo>summary {
-	border-bottom-color: 0.1rem solid rgba(0,184,212,0.1);
+	border-bottom: 0.1rem solid rgba(0,184,212,0.1);
 	background-color: rgba(0,184,212,0.1);
 }
 .admonition.info>.admonition-title:before,
@@ -164,7 +164,7 @@ details.important>.admonition-title,
 details.important>summary,
 details.tip>.admonition-title,
 details.tip>summary {
-	border-bottom-color: 0.1rem solid rgba(0,191,165,0.1);
+	border-bottom: 0.1rem solid rgba(0,191,165,0.1);
 	background-color: rgba(0,191,165,0.1);
 }
 .admonition.hint>.admonition-title:before,
@@ -202,7 +202,7 @@ details.done>.admonition-title,
 details.done>summary,
 details.success>.admonition-title,
 details.success>summary {
-	border-bottom-color: 0.1rem solid rgba(0,200,83,0.1);
+	border-bottom: 0.1rem solid rgba(0,200,83,0.1);
 	background-color: rgba(0,200,83,0.1);
 }
 .admonition.check>.admonition-title:before,
@@ -240,7 +240,7 @@ details.help>.admonition-title,
 details.help>summary,
 details.question>.admonition-title,
 details.question>summary {
-	border-bottom-color: 0.1rem solid rgba(100,221,23,0.1);
+	border-bottom: 0.1rem solid rgba(100,221,23,0.1);
 	background-color: rgba(100,221,23,0.1);
 }
 .admonition.faq>.admonition-title:before,
@@ -248,7 +248,7 @@ details.question>summary {
 .admonition.help>.admonition-title:before,
 .admonition.help>summary:before,
 .admonition.question>.admonition-title:before,
-.admonition.question>summary:befor,
+.admonition.question>summary:before,
 details.faq>.admonition-title:before,
 details.faq>summary:before,
 details.help>.admonition-title:before,
@@ -278,7 +278,7 @@ details.caution>.admonition-title,
 details.caution>summary,
 details.warning>.admonition-title,
 details.warning>summary {
-	border-bottom-color: 0.1rem solid rgba(255,145,0,0.1);
+	border-bottom: 0.1rem solid rgba(255,145,0,0.1);
 	background-color: rgba(255,145,0,0.1);
 }
 .admonition.attention>.admonition-title:before,
@@ -316,7 +316,7 @@ details.failure>.admonition-title,
 details.failure>summary,
 details.missing>.admonition-title,
 details.missing>summary {
-	border-bottom-color: 0.1rem solid rgba(255,82,82,0.1);
+	border-bottom: 0.1rem solid rgba(255,82,82,0.1);
 	background-color: rgba(255,82,82,0.1);
 }
 .admonition.fail>.admonition-title:before,
@@ -348,7 +348,7 @@ details.danger>.admonition-title,
 details.danger>summary,
 details.error>.admonition-title,
 details.error>summary {
-	border-bottom-color: 0.1rem solid rgba(255,23,68,0.1);
+	border-bottom: 0.1rem solid rgba(255,23,68,0.1);
 	background-color: rgba(255,23,68,0.1);
 }
 .admonition.danger>.admonition-title:before,
@@ -370,7 +370,7 @@ details.bug {
 .admonition.bug>summary,
 details.bug>.admonition-title,
 details.bug>summary {
-	border-bottom-color: 0.1rem solid rgba(245,0,87,0.1);
+	border-bottom: 0.1rem solid rgba(245,0,87,0.1);
 	background-color: rgba(245,0,87,0.1);
 }
 .admonition.bug>.admonition-title:before,
@@ -388,7 +388,7 @@ details.example {
 .admonition.example>summary,
 details.example>.admonition-title,
 details.example>summary {
-	border-bottom-color: 0.1rem solid rgba(101,31,255,0.1);
+	border-bottom: 0.1rem solid rgba(101,31,255,0.1);
 	background-color: rgba(101,31,255,0.1);
 }
 .admonition.example>.admonition-title:before,
@@ -412,7 +412,7 @@ details.cite>.admonition-title,
 details.cite>summary,
 details.quote>.admonition-title,
 details.quote>summary {
-	border-bottom-color: 0.1rem solid rgba(158,158,158,0.1);
+	border-bottom: 0.1rem solid rgba(158,158,158,0.1);
 	background-color: rgba(158,158,158,0.1);
 }
 .admonition.cite>.admonition-title:before,
