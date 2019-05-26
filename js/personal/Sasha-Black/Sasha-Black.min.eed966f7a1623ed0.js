@@ -1,0 +1,2 @@
+var KiraFunction;KiraFunction=function(s,t){var n,i,r;"http://"===s.substring(0,7)&&(s=s.substring(7)),"https://"===s.substring(0,8)&&(s=s.substring(8)),"www."===s.substring(0,4)&&(s=s.substring(4)),n=s.length,"/"===s.substring(n-1,n)&&(s=s.substring(0,n-1)),r=t+s,"https://www.robtex.com/en/advisory/dns/"===t&&(i=s.split("."),1<n&&(r=t+i[n-1]+"/"+i[n-2]+"/",3===n&&(r=t+i[n-1]+"/"+i[n-2]+"/"+i[n-3]))),window.open(r).focus()};
+//# sourceMappingURL=Sasha-Black.min.js.map
