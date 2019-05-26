@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.github.io/" rel="alternate"></link><link href="https://kristinita.github.io/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.github.io/</id><updated>2019-05-23T14:46:46+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.github.io/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2019-05-23T14:45:10+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.github.io,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-05-23T14:46:46+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.com/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2019-05-23T14:45:10+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.com,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -313,7 +313,7 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.soundjay.com/tos.html"&gt;правила использования звуков&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md"&gt;лицензия на Sacagawea — MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.github.io/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-03T11:17:14+03:00</published><updated>2019-05-23T14:46:46+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2017-04-03:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
+&lt;/ol&gt;</content><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.netlify.com/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-03T11:17:14+03:00</published><updated>2019-05-23T14:46:46+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-04-03:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="SashaEpigraph"&gt;
 &lt;em&gt;i express my gratitude to Her &lt;br&gt;
 for everything She has done for me. &lt;br&gt;
 ValeriyaSpeller devote to &lt;br&gt;
@@ -409,7 +409,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;li&gt;&lt;a href="https://packagecontrol.io/packages/SublimeLinter-contrib-write-good"&gt;write-good&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://packagecontrol.io/packages/Thesaurus"&gt;Thesaurus&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Also in Sublime Text implemented &lt;a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint"&gt;proselint&lt;/a&gt; package, but &lt;a href="https://github.com/amperser/proselint/issues/686"&gt;I have critical CPU usage bug&lt;/a&gt;.&lt;/p&gt;</content><category term="sublime-text"></category><category term="yaspeller"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.github.io/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2019-05-23T14:46:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html">&lt;p&gt;Notes of book “Sublime Text Power User”&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;Also in Sublime Text implemented &lt;a href="https://packagecontrol.io/packages/SublimeLinter-contrib-proselint"&gt;proselint&lt;/a&gt; package, but &lt;a href="https://github.com/amperser/proselint/issues/686"&gt;I have critical CPU usage bug&lt;/a&gt;.&lt;/p&gt;</content><category term="sublime-text"></category><category term="yaspeller"></category></entry><entry><title>Sublime-Text-Power-User-notes</title><link href="https://kristinita.netlify.com/Sublime-Text/Sublime-Text-Power-User-notes.html" rel="alternate"></link><published>2017-02-13T19:15:15+03:00</published><updated>2019-05-23T14:46:03+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-02-13:/Sublime-Text/Sublime-Text-Power-User-notes.html</id><summary type="html">&lt;p&gt;Notes of book “Sublime Text Power User”&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Preamble"&gt;Preamble&lt;/a&gt;&lt;ol&gt;
@@ -613,11 +613,11 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;Multi-line comments for Windows is &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
 &lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.37. 201&lt;/h3&gt;
-&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.github.io/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2019-05-23T14:45:37+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.github.io,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
-    &lt;a href="https://kristinita.github.io/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://kristinita.github.io/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
-    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
+&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.com/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2019-05-23T14:45:37+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+    &lt;a href="https://kristinita.netlify.com/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://kristinita.netlify.com/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
+    &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=VPA8L2LM7EX24"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/PayPal-Donate-Button-Euro.png" alt="PayPal Euro button" class="SashaInline" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -1224,24 +1224,24 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;h2&gt;15. Donate&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Bitcoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kristinita.github.io/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.github.io/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.netlify.com/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.netlify.com/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://kristinita.github.io/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.github.io/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kristinita.netlify.com/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.netlify.com/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Paypal-$"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=W6MP468ZZV66Q"&gt;&lt;img alt="PayPal Dollar button" src="https://kristinita.netlify.com/images/donate_files/PayPal-Donate-Button-Dollar.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Paypal-€"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.4. Paypal €&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.github.io/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=DGT7K29LDD2HQ"&gt;&lt;img alt="PayPal Euro button" src="https://kristinita.netlify.com/images/donate_files/PayPal-Donate-Button-Euro.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="License"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;16. License&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://opensource.org/licenses/MIT"&gt;MIT License&lt;/a&gt;&lt;/p&gt;

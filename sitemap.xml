@@ -4,504 +4,504 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://kristinita.github.io/</loc>
-<lastmod>2019-05-26T13:59:00-00:00</lastmod>
+<loc>https://kristinita.netlify.com/</loc>
+<lastmod>2019-05-26T15:15:23-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/archives.html</loc>
-<lastmod>2019-05-26T13:59:00-00:00</lastmod>
+<loc>https://kristinita.netlify.com/archives.html</loc>
+<lastmod>2019-05-26T15:15:23-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/categories.html</loc>
-<lastmod>2019-05-26T13:59:00-00:00</lastmod>
+<loc>https://kristinita.netlify.com/categories.html</loc>
+<lastmod>2019-05-26T15:15:23-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/404.html</loc>
-<lastmod>2019-05-26T13:59:00-00:00</lastmod>
+<loc>https://kristinita.netlify.com/404.html</loc>
+<lastmod>2019-05-26T15:15:23-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Pages/About-for-developers.html</loc>
+<loc>https://kristinita.netlify.com/Pages/About-for-developers.html</loc>
 <lastmod>2019-05-23T14:36:53+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Sasha-Black.html</loc>
-<lastmod>2019-05-26T13:59:00-00:00</lastmod>
+<loc>https://kristinita.netlify.com/Sasha-Black.html</loc>
+<lastmod>2019-05-26T15:15:23-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Pages/Terms-and-Conditions-and-Privacy-Policy.html</loc>
+<loc>https://kristinita.netlify.com/Pages/Terms-and-Conditions-and-Privacy-Policy.html</loc>
 <lastmod>2019-05-23T14:37:46+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Менеджмент-Комнат-Эрика.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Менеджмент-Комнат-Эрика.html</loc>
 <lastmod>2019-05-23T12:19:52+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/АльFAQ.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/АльFAQ.html</loc>
 <lastmod>2019-05-23T12:03:32+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Обзор-игры-СпортСИ.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Обзор-игры-СпортСИ.html</loc>
 <lastmod>2019-05-23T12:20:12+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/IT-articles/How-to-get-current-…-in-Sublime-Text.html</loc>
+<loc>https://kristinita.netlify.com/IT-articles/How-to-get-current-…-in-Sublime-Text.html</loc>
 <lastmod>2019-05-23T14:28:48+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Programs/PaletteMira.html</loc>
+<loc>https://kristinita.netlify.com/Programs/PaletteMira.html</loc>
 <lastmod>2019-05-23T14:42:05+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/IT-articles/typo-reporter.html</loc>
+<loc>https://kristinita.netlify.com/IT-articles/typo-reporter.html</loc>
 <lastmod>2019-05-23T14:32:22+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</loc>
+<loc>https://kristinita.netlify.com/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</loc>
 <lastmod>2019-05-23T14:30:08+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</loc>
+<loc>https://kristinita.netlify.com/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</loc>
 <lastmod>2019-05-23T12:27:43+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Programs/KristinitaLuckyLink.html</loc>
+<loc>https://kristinita.netlify.com/Programs/KristinitaLuckyLink.html</loc>
 <lastmod>2019-05-23T14:41:15+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Бесплатные-книги-и-учебные-ресурсы-для-джинджерин.html</loc>
 <lastmod>2019-05-23T14:48:08+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Знания-в-джинджеринах.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Знания-в-джинджеринах.html</loc>
 <lastmod>2019-05-23T12:14:57+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Грейзи-Фа.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Грейзи-Фа.html</loc>
 <lastmod>2019-05-23T12:17:50+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Фоны-и-Карта-С.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Фоны-и-Карта-С.html</loc>
 <lastmod>2019-05-23T12:21:53+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Джинджерины.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Джинджерины.html</loc>
 <lastmod>2019-05-23T12:15:26+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Тао.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Тао.html</loc>
 <lastmod>2019-05-23T12:21:00+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Грейс-Ло.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Грейс-Ло.html</loc>
 <lastmod>2019-05-23T12:18:21+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Sublime-Text/Sacagawea.html</loc>
+<loc>https://kristinita.netlify.com/Sublime-Text/Sacagawea.html</loc>
 <lastmod>2019-05-23T14:45:10+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Sublime-Text/ValeriyaSpeller.html</loc>
+<loc>https://kristinita.netlify.com/Sublime-Text/ValeriyaSpeller.html</loc>
 <lastmod>2019-05-23T14:46:46+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Sasha-Black/Sasha-Black-description.html</loc>
+<loc>https://kristinita.netlify.com/Sasha-Black/Sasha-Black-description.html</loc>
 <lastmod>2019-05-23T14:43:01+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.html</loc>
+<loc>https://kristinita.netlify.com/Giologica/Комментарии-к-материалам-о-неконструктивных-методах-ведения-дискуссии.html</loc>
 <lastmod>2019-05-23T12:25:14+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Smert-svobode/Новые-недовольные-русские.html</loc>
+<loc>https://kristinita.netlify.com/Smert-svobode/Новые-недовольные-русские.html</loc>
 <lastmod>2019-05-23T14:43:51+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Giologica/Nas-Izu.html</loc>
+<loc>https://kristinita.netlify.com/Giologica/Nas-Izu.html</loc>
 <lastmod>2019-05-23T12:23:04+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Поиск-книг-для-джинджерин.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Поиск-книг-для-джинджерин.html</loc>
 <lastmod>2019-05-23T12:13:17+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Life-hacks/Как-автоматически-входить-на-сайты.html</loc>
+<loc>https://kristinita.netlify.com/Life-hacks/Как-автоматически-входить-на-сайты.html</loc>
 <lastmod>2019-05-23T14:35:20+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Life-hacks/Default-portable-browser-Windows-10.html</loc>
+<loc>https://kristinita.netlify.com/Life-hacks/Default-portable-browser-Windows-10.html</loc>
 <lastmod>2019-05-23T14:34:04+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Giologica/Демагогия-Нестеренко.html</loc>
+<loc>https://kristinita.netlify.com/Giologica/Демагогия-Нестеренко.html</loc>
 <lastmod>2019-05-23T12:24:25+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</loc>
+<loc>https://kristinita.netlify.com/Life-hacks/Перед-первым-применением-ARK-Benefit-S401.html</loc>
 <lastmod>2019-05-23T14:35:48+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Sublime-Text/Sublime-Text-Power-User-notes.html</loc>
+<loc>https://kristinita.netlify.com/Sublime-Text/Sublime-Text-Power-User-notes.html</loc>
 <lastmod>2019-05-23T14:46:03+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Giologica/Valerywork-Kiravel.html</loc>
+<loc>https://kristinita.netlify.com/Giologica/Valerywork-Kiravel.html</loc>
 <lastmod>2019-05-23T12:23:46+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Gingerinas/Korvers.html</loc>
+<loc>https://kristinita.netlify.com/Gingerinas/Korvers.html</loc>
 <lastmod>2019-05-23T12:16:07+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/Sublime-Text/SashaSublime.html</loc>
+<loc>https://kristinita.netlify.com/Sublime-Text/SashaSublime.html</loc>
 <lastmod>2019-05-23T14:45:37+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/gingerinas.html</loc>
+<loc>https://kristinita.netlify.com/category/gingerinas.html</loc>
 <lastmod>2019-05-23T14:48:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/giologica.html</loc>
+<loc>https://kristinita.netlify.com/category/giologica.html</loc>
 <lastmod>2019-05-23T12:25:14+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/it-articles.html</loc>
+<loc>https://kristinita.netlify.com/category/it-articles.html</loc>
 <lastmod>2019-05-23T14:32:22+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/life-hacks.html</loc>
+<loc>https://kristinita.netlify.com/category/life-hacks.html</loc>
 <lastmod>2019-05-23T14:35:48+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/programs.html</loc>
+<loc>https://kristinita.netlify.com/category/programs.html</loc>
 <lastmod>2019-05-23T14:42:05+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/sasha-black.html</loc>
+<loc>https://kristinita.netlify.com/category/sasha-black.html</loc>
 <lastmod>2019-05-23T14:43:01+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/smert-svobode.html</loc>
+<loc>https://kristinita.netlify.com/category/smert-svobode.html</loc>
 <lastmod>2019-05-23T14:43:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/category/sublime-text.html</loc>
+<loc>https://kristinita.netlify.com/category/sublime-text.html</loc>
 <lastmod>2019-05-23T14:46:46+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/gingerinas.html</loc>
+<loc>https://kristinita.netlify.com/tag/gingerinas.html</loc>
 <lastmod>2019-05-23T14:45:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/gingerinas-analysis.html</loc>
+<loc>https://kristinita.netlify.com/tag/gingerinas-analysis.html</loc>
 <lastmod>2019-05-23T12:20:12+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/sublime-text.html</loc>
+<loc>https://kristinita.netlify.com/tag/sublime-text.html</loc>
 <lastmod>2019-05-23T14:46:46+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/programs.html</loc>
+<loc>https://kristinita.netlify.com/tag/programs.html</loc>
 <lastmod>2019-05-23T14:42:05+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/it-articles.html</loc>
+<loc>https://kristinita.netlify.com/tag/it-articles.html</loc>
 <lastmod>2019-05-23T14:32:22+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/spelling.html</loc>
+<loc>https://kristinita.netlify.com/tag/spelling.html</loc>
 <lastmod>2019-05-23T14:32:22+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/python.html</loc>
+<loc>https://kristinita.netlify.com/tag/python.html</loc>
 <lastmod>2019-05-23T14:30:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/pypi.html</loc>
+<loc>https://kristinita.netlify.com/tag/pypi.html</loc>
 <lastmod>2019-05-23T14:30:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/release.html</loc>
+<loc>https://kristinita.netlify.com/tag/release.html</loc>
 <lastmod>2019-05-23T14:30:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/help.html</loc>
+<loc>https://kristinita.netlify.com/tag/help.html</loc>
 <lastmod>2019-05-23T14:48:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/pumping.html</loc>
+<loc>https://kristinita.netlify.com/tag/pumping.html</loc>
 <lastmod>2019-05-23T12:17:50+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/psychology.html</loc>
+<loc>https://kristinita.netlify.com/tag/psychology.html</loc>
 <lastmod>2019-05-23T12:21:53+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/gingerinas-training.html</loc>
+<loc>https://kristinita.netlify.com/tag/gingerinas-training.html</loc>
 <lastmod>2019-05-23T12:23:04+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/what-where-when.html</loc>
+<loc>https://kristinita.netlify.com/tag/what-where-when.html</loc>
 <lastmod>2019-05-23T14:45:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/yaspeller.html</loc>
+<loc>https://kristinita.netlify.com/tag/yaspeller.html</loc>
 <lastmod>2019-05-23T14:46:46+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/sasha-black.html</loc>
+<loc>https://kristinita.netlify.com/tag/sasha-black.html</loc>
 <lastmod>2019-05-23T14:43:01+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/giologica.html</loc>
+<loc>https://kristinita.netlify.com/tag/giologica.html</loc>
 <lastmod>2019-05-23T12:25:14+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/demagogue.html</loc>
+<loc>https://kristinita.netlify.com/tag/demagogue.html</loc>
 <lastmod>2019-05-23T14:43:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/smert-svobode.html</loc>
+<loc>https://kristinita.netlify.com/tag/smert-svobode.html</loc>
 <lastmod>2019-05-23T14:43:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/ndr.html</loc>
+<loc>https://kristinita.netlify.com/tag/ndr.html</loc>
 <lastmod>2019-05-23T14:43:51+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/life-hacks.html</loc>
+<loc>https://kristinita.netlify.com/tag/life-hacks.html</loc>
 <lastmod>2019-05-23T14:35:20+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/pale-moon.html</loc>
+<loc>https://kristinita.netlify.com/tag/pale-moon.html</loc>
 <lastmod>2019-05-23T14:35:20+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/rom.html</loc>
+<loc>https://kristinita.netlify.com/tag/rom.html</loc>
 <lastmod>2019-05-23T14:35:48+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/tag/android.html</loc>
+<loc>https://kristinita.netlify.com/tag/android.html</loc>
 <lastmod>2019-05-23T14:35:48+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/author/keith-hall.html</loc>
+<loc>https://kristinita.netlify.com/author/keith-hall.html</loc>
 <lastmod>2019-05-23T14:45:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.github.io/author/sasha-chernykh.html</loc>
+<loc>https://kristinita.netlify.com/author/sasha-chernykh.html</loc>
 <lastmod>2019-05-23T14:48:08+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
