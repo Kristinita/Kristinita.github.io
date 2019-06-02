@@ -37,6 +37,7 @@
  * - Terms
  * - Quotes top and bottom
  * - Epigraph
+ * - Blocks for examples
  * Code
  * Sasha tags
  * - Page version
@@ -419,6 +420,12 @@ blockquote {
 	line-height: 1rem;
 	margin: 2rem 0;
 	font-style: italic;
+}
+/* >> Blocks for examples
+	========================================================================== */
+.SashaGingerinasExample,
+.SashaGingerinasBadExample {
+	padding: 0.2rem;
 }
 /* ==========================================================================
 	> Code

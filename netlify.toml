@@ -24,6 +24,8 @@
 	# https://www.netlify.com/docs/netlify-toml-reference/#getting-started
 	# [INFO] Best practices for cache control settings:
 	# https://medium.com/pixelpoint/best-practices-for-cache-control-settings-for-your-website-ff262b38c5a2
+	# [INFO] KeyCDN check tool:
+	# https://tools.keycdn.com/curl
 	[headers.values]
 		cache-control = '''
 		"public,
