@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-05-23T14:42:05+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.com/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-06-14T15:44:14+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.com/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -61,7 +61,7 @@
 &lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.2. Dependencies&lt;/h3&gt;
-&lt;p&gt;In progress.&lt;/p&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.com/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2019-05-23T14:41:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;In progress.&lt;/p&gt;</content><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.com/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2019-06-14T15:44:14+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -193,10 +193,10 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;I'm not affiliated with Google Search or DuckDuckGo Developers. I am not responsible for the fact that there is one or another result in the top of SERP. You can get unexpected link.&lt;/p&gt;
-&lt;p&gt;But if in top of SERP one link, but KristinitaLuckyLink out another link, please make &lt;a href="#incorrect-links"&gt;these actions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But if in top of SERP one link, but KristinitaLuckyLink out another link, please make &lt;a href="#Incorrect-links"&gt;these actions&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;If you don't want by some reasons make actions from &lt;a href="#installation"&gt;installation&lt;/a&gt; and &lt;a href="#activation"&gt;activation&lt;/a&gt; section, please, don't install KristinitaLuckyLink.&lt;/p&gt;
+&lt;p&gt;If you don't want by some reasons make actions from &lt;a href="#Installation"&gt;installation&lt;/a&gt; and &lt;a href="#Activation"&gt;activation&lt;/a&gt; section, please, don't install KristinitaLuckyLink.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Copy from &lt;a href="https://github.com/aviaryan/python-gsearch#warning"&gt;here&lt;/a&gt;:&lt;/p&gt;
@@ -212,7 +212,7 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Personally I use Markdown markup for my articles and Google and DuckDuckGo enough for me. If you use another markups and/or search engines, &lt;a href="#contributing"&gt;pull requests welcome&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Personally I use Markdown markup for my articles and Google and DuckDuckGo enough for me. If you use another markups and/or search engines, &lt;a href="#Contributing"&gt;pull requests welcome&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Installation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;3. Installation&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Depenedencies"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -230,7 +230,7 @@
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;em&gt;Package Control: Add Repository&lt;/em&gt; → paste in opened input field &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink&lt;/code&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt; → &lt;em&gt;Package Control: Install Package&lt;/em&gt; → print &lt;em&gt;KristinitaLuckyLink&lt;/em&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Development-version"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.2.2. Development version&lt;/h4&gt;
-&lt;p&gt;As &lt;a href="#stable-version"&gt;stable version&lt;/a&gt;. Solely replace &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink&lt;/code&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink/tree/SashaDevelop&lt;/code&gt; in instruction above.&lt;/p&gt;
+&lt;p&gt;As &lt;a href="#Stable-version"&gt;stable version&lt;/a&gt;. Solely replace &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink&lt;/code&gt; to &lt;code class="SashaInlineHighlight"&gt;https://github.com/Kristinita/KristinitaLuckyLink/tree/SashaDevelop&lt;/code&gt; in instruction above.&lt;/p&gt;
 &lt;p&gt;You will get all changes from &lt;code class="SashaInlineHighlight"&gt;SashaDevelop&lt;/code&gt; branch in each Sublime Text start.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4. Activation&lt;/h2&gt;

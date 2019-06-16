@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-05-23T14:46:46+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.com/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2019-05-23T14:45:10+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.com,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-06-14T21:23:59+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.com/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2019-06-14T21:23:59+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.com,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -98,8 +98,8 @@
 &lt;p&gt;При записи видео с экрана помимо &lt;a href="#Режим-БлицСуперблицБрейн-Ринг"&gt;вышеупомянутых&lt;/a&gt; использовались следующие приложения:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://addons.mozilla.org/en-us/firefox/addon/tabcinema/"&gt;TabCinema&lt;/a&gt; — дополнение для Firefox, разворачивающее видео в размеры окна, не экрана;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#autohotkey"&gt;AutoHotkey&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#nncron"&gt;nnCron&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="#AutoHotkey"&gt;AutoHotkey&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#nnCron"&gt;nnCron&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="Установка-и-настройка"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Установка и настройка&lt;/h2&gt;
@@ -134,7 +134,7 @@
 &lt;h4&gt;5.1.2. Опционально&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;Пакет &lt;a href="https://packagecontrol.io/packages/Preferences%20Editor"&gt;Preferences Editor&lt;/a&gt; — если пожелаете использовать звуки, отличные от звуков по умолчанию.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.autohotkey.com/"&gt;AutoHotkey&lt;/a&gt;, &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey"&gt;Sublime AutoHotkey&lt;/a&gt;, &lt;a href="http://nncron.ru/"&gt;nnCron&lt;/a&gt; — для пользователей Windows и Firefox, &lt;a href="#autohotkey"&gt;см.&lt;/a&gt; &lt;a href="#nncron"&gt;ниже&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.autohotkey.com/"&gt;AutoHotkey&lt;/a&gt;, &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey"&gt;Sublime AutoHotkey&lt;/a&gt;, &lt;a href="http://nncron.ru/"&gt;nnCron&lt;/a&gt; — для пользователей Windows и Firefox, &lt;a href="#AutoHotkey"&gt;см.&lt;/a&gt; &lt;a href="#nnCron"&gt;ниже&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Настройка"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Настройка&lt;/h3&gt;
@@ -613,7 +613,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;Multi-line comments for Windows is &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
 &lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.37. 201&lt;/h3&gt;
-&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.com/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2019-05-23T14:45:37+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.com/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2019-06-14T15:37:21+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible &lt;br&gt;&lt;br&gt; &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
     &lt;a href="https://kristinita.netlify.com/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://kristinita.netlify.com/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.netlify.com/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
@@ -941,7 +941,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;img alt="SashaSublime scopes" src="https://i.imgur.com/JzT6vnk.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Downloading-and-installation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Downloading and installation&lt;/h2&gt;
-&lt;p&gt;After installation, you need to activate SashaSublime, see &lt;a href="#activation"&gt;Activation&lt;/a&gt; section. Sublime Text no needs restart after installation SashaSublime.&lt;/p&gt;
+&lt;p&gt;After installation, you need to activate SashaSublime, see &lt;a href="#Activation"&gt;Activation&lt;/a&gt; section. Sublime Text no needs restart after installation SashaSublime.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Package-Control"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.1. Package Control&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://packagecontrol.io/"&gt;Package Control&lt;/a&gt; — package manager for Sublime Text, via Package Control you may install thousands of plugins. If you never used Package Control, make steps.&lt;/p&gt;
@@ -1159,8 +1159,8 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Steps-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;10.2.1. Steps&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Theme file&lt;/strong&gt; &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create file &lt;em&gt;Example.sublime-theme&lt;/em&gt;, if you want to make a changes in theme. Instead of &lt;em&gt;Example&lt;/em&gt; you can name your file by any other name. Copy the contents of the file &lt;em&gt;SashaSublime.sublime-theme&lt;/em&gt; into &lt;em&gt;Example.sublime-theme&lt;/em&gt; make a changes and save &lt;em&gt;Example.sublime-theme&lt;/em&gt; file. Via &lt;a href="#themr-and-schemr"&gt;Themr&lt;/a&gt; select Example theme.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scheme file&lt;/strong&gt; &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create file &lt;em&gt;Example.tmTheme&lt;/em&gt;. Instead of &lt;em&gt;Example&lt;/em&gt; you can name your file by any other name. Copy the contents of the file &lt;em&gt;SashaSublime.tmTheme&lt;/em&gt; into &lt;em&gt;Example.tmTheme&lt;/em&gt; make a changes and save &lt;em&gt;Example.tmTheme&lt;/em&gt; file. Via &lt;a href="#themr-and-schemr"&gt;Schemr&lt;/a&gt; select Example scheme.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theme file&lt;/strong&gt; &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create file &lt;em&gt;Example.sublime-theme&lt;/em&gt;, if you want to make a changes in theme. Instead of &lt;em&gt;Example&lt;/em&gt; you can name your file by any other name. Copy the contents of the file &lt;em&gt;SashaSublime.sublime-theme&lt;/em&gt; into &lt;em&gt;Example.sublime-theme&lt;/em&gt; make a changes and save &lt;em&gt;Example.sublime-theme&lt;/em&gt; file. Via &lt;a href="#Themr-and-Schemr"&gt;Themr&lt;/a&gt; select Example theme.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheme file&lt;/strong&gt; &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create file &lt;em&gt;Example.tmTheme&lt;/em&gt;. Instead of &lt;em&gt;Example&lt;/em&gt; you can name your file by any other name. Copy the contents of the file &lt;em&gt;SashaSublime.tmTheme&lt;/em&gt; into &lt;em&gt;Example.tmTheme&lt;/em&gt; make a changes and save &lt;em&gt;Example.tmTheme&lt;/em&gt; file. Via &lt;a href="#Themr-and-Schemr"&gt;Schemr&lt;/a&gt; select Example scheme.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Problem-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;10.2.2. Problem&lt;/h4&gt;

@@ -31,8 +31,8 @@
  * - Width of images
  * - Image border
  * - External links image
- * Videos
- * - Embed iframe videos
+ * Iframes
+ * - Embed iframe
  * Blockquotes
  * - Left-border blockquote
  * - Terms
@@ -407,16 +407,33 @@ img
 		margin-left .2rem
 
 /* ==========================================================================
-	> Videos
+	> Iframes
 	========================================================================== */
 
-/* >> Embed iframe videos
+/* >> Embed iframe
 	========================================================================== */
 
+// PeerTube videos
 .SashaVideo
-	width 100%
-	position relative
+	@extend $SashaIframe
 	padding-bottom 74.380%
+
+// RunKit
+#SashaRunkit
+	@extend $SashaIframe
+	/*
+	[NOTE] Use rem, not percents! Percents works for PeerTube and YouTube,
+	but doesn't work for WebMoney and RunKit
+	[WARNING] Exact value required for different browsers it may be different
+	for supporting all browsers I need set big value,
+	but big blank place may be in another.
+	 */
+	padding-bottom 13rem
+
+// WebMoney widget
+.SashaWebMoneyWidget
+	@extend $SashaIframe
+	padding-bottom 16rem
 
 iframe
 	width 100%

@@ -259,7 +259,7 @@ pre >code {
 	background-color: #c0c0c0;
 }
 
-div .a2a_floating_style,div .a2a_default_style {
+div .a2a_floating_style {
 	background-color: #87cefa;
 }
 
@@ -309,6 +309,10 @@ div .a2a_floating_style,div .a2a_default_style {
 .SashaInlineHighlight .k,.SashaBlockHighlight .k {
 	color: #815ba4;
 	font-weight: bold;
+}
+
+.SashaInlineHighlight .l,.SashaBlockHighlight .l {
+	color: #f99b15;
 }
 
 .SashaInlineHighlight .n,.SashaBlockHighlight .n {

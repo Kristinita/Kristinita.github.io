@@ -12,7 +12,7 @@
 	Site: alfavika.ru
 
 /* SITE */
-	Last update: 2019/6/2
+	Last update: 2019/6/16
 	Standards: HTML5, CoffeeScript, Stylus
 	Components: Pelican, Python Markdown, Grunt, JQuery and many plugins for this components
 	Software: Sublime Text and many plugins for Sublime Text

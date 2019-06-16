@@ -30,8 +30,8 @@
  * - Width of images
  * - Image border
  * - External links image
- * Videos
- * - Embed iframe videos
+ * Iframes
+ * - Embed iframe
  * Blockquotes
  * - Left-border blockquote
  * - Terms
@@ -106,6 +106,13 @@ h6:hover > .headerlink {
 .SashaNextNeighbor,
 .SashaHeadPageRight {
 	float: right;
+}
+.SashaVideo,
+#SashaRunkit,
+.SashaWebMoneyWidget {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
 }
 .SashaHeadPageLeft,
 .SashaPreviousNeighbor,
@@ -347,14 +354,25 @@ img {
 	margin-left: 0.2rem;
 }
 /* ==========================================================================
-	> Videos
+	> Iframes
 	========================================================================== */
-/* >> Embed iframe videos
+/* >> Embed iframe
 	========================================================================== */
 .SashaVideo {
-	width: 100%;
-	position: relative;
 	padding-bottom: 74.38%;
+}
+#SashaRunkit {
+/*
+	[NOTE] Use rem, not percents! Percents works for PeerTube and YouTube,
+	but doesn't work for WebMoney and RunKit
+	[WARNING] Exact value required for different browsers it may be different
+	for supporting all browsers I need set big value,
+	but big blank place may be in another.
+ */
+	padding-bottom: 13rem;
+}
+.SashaWebMoneyWidget {
+	padding-bottom: 16rem;
 }
 iframe {
 	width: 100%;

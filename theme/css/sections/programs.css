@@ -121,9 +121,19 @@ td,th {
 }
 
 blockquote {
-	border-left: solid #e6e6fa 0.5rem;
-	color: #6a5acd;
-	background: #fcfcfc;
+	border-left: solid #cd5c5c 0.5rem;
+	color: #ffebcd;
+	background: #f4a460;
+}
+
+.SashaBlockquote {
+	border-color: #7b68ee;
+	background-color: #ffdab9;
+	color: #191970;
+}
+
+.SashaCitation {
+	color: #fa8072;
 }
 
 .SashaEpigraph {
@@ -136,6 +146,10 @@ blockquote {
 
 .SashaEpigraph >em {
 	color: #ffdc33;
+}
+
+.SashaGingerinasExample {
+	background-color: #d0f0c0;
 }
 
 code {
@@ -353,6 +367,15 @@ div .a2a_floating_style,div .a2a_default_style {
 	color: #87ceeb;
 }
 
+.SashaInlineHighlight .si,.SashaBlockHighlight .si {
+	color: #87ceeb;
+}
+
 .SashaInlineHighlight .s1,.SashaBlockHighlight .s1 {
 	color: #87ceeb;
+}
+
+.SashaInlineHighlight .il,.SashaBlockHighlight .il {
+	color: #0086f7;
+	font-weight: bold;
 }

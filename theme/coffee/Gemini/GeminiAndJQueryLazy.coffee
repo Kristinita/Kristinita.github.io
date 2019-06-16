@@ -12,6 +12,7 @@ https://noeldelgado.github.io/gemini-scrollbar/
 https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
 ###
 
+# [NOTE] Required; not delete this line, scrolling will be incorrect.
 internals = {}
 
 internals.initialize = ->
@@ -45,17 +46,29 @@ internals.handleOrientationChange = ->
 	return
 
 internals.scrollToHash = ->
-	element = undefined
-	hash = undefined
+	# [INFO] Get hash — part of URL after “#” symbol:
+	# https://javascript.ru/window-location
 	hash = location.hash
-	if hash
-		element = document.getElementById(hash.replace('#', ''))
+	###
+	[INFO] Decode URL hash, example:
+	“#%D0%9A%D0%B8%D1%80%D0%B0” → “#Кира”
+	https://www.w3schools.com/jsref/jsref_decodeuri.asp
+	[NOTE] Decoding required for some browsers as Chrome and Opera;
+	without decoding links with anchors will not open;
+	scrollbar will move to top of page:
+	https://stackoverflow.com/a/48218282/5951529
+	###
+	dechash = decodeURI(hash)
+	if dechash
+		# [INFO] Replacing to id, example:
+		#  “#Кира” → “<a id="Кира">”
+		element = document.getElementById(dechash.replace('#', ''))
 		if element
+			# [INFO] Scroll to id
 			internals.scrollingElement.scrollTo 0, element.offsetTop
 	return
 
 # Listeners
-
 window.onload = internals.initialize
 window.onorientationchange = internals.handleOrientationChange
 
@@ -108,4 +121,4 @@ window.onorientationchange = internals.handleOrientationChange
 #		 if(window.myscroolbar)
 #				 window.myscroolbar.destroy();
 #		 window.onload();
-# };
+# }
