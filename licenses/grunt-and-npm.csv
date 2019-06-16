@@ -1281,7 +1281,7 @@ read-pkg,5.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/husk
 read-pkg-up,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/pad-stream/node_modules/read-pkg-up,(none),MIT,MIT,MIT,MIT
 read-pkg-up,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/purify-css/node_modules/read-pkg-up,(none),MIT,MIT,MIT,MIT
 read-pkg-up,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/read-pkg-up,https://github.com/sindresorhus/read-pkg-up,MIT,MIT,MIT,MIT
-readable-stream,1.0.34,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ldjson-stream/node_modules/readable-stream,(none),MIT,MIT,,
+readable-stream,1.0.34,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jsonfilter/node_modules/readable-stream,(none),MIT,MIT,,
 readable-stream,1.1.14,/home/travis/build/Kristinita/KristinitaPelican/node_modules/duplexer2/node_modules/readable-stream,(none),MIT,MIT,,
 readable-stream,2.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/googleapis/node_modules/readable-stream,(none),MIT,MIT,,
 readable-stream,2.3.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/readable-stream,http://github.com/nodejs/readable-stream,MIT,MIT,,
@@ -1553,7 +1553,7 @@ then-fs,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/then-
 thenify,3.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/thenify,https://github.com/thenables/thenify,MIT,MIT,MIT,
 thenify-all,1.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/thenify-all,https://github.com/thenables/thenify-all,MIT,MIT,MIT,
 through,2.3.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/through,https://github.com/dominictarr/through,MIT,MIT,MIT,MIT
-through2,0.6.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ldjson-stream/node_modules/through2,(none),MIT,MIT,MIT,MIT
+through2,0.6.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jsonfilter/node_modules/through2,(none),MIT,MIT,MIT,MIT
 through2,2.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/through2,https://github.com/rvagg/through2,MIT,MIT,MIT,MIT
 through2,3.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/gulp-reporter/node_modules/through2,(none),MIT,MIT,MIT,MIT
 through2-filter,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/through2-filter,(none),MIT,MIT,,MIT
