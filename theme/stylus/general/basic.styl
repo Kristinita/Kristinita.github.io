@@ -185,9 +185,23 @@ noscript
  * Basic style — https://css-tricks.com/complete-guide-table-element/#article-header-id-4
  */
 
+// That table not went beyond the screen
+
+table
+	width 100%
+
+/*
+ * Words wrap in cells of HTML tables:
+ * https://stackoverflow.com/a/1539167/5951529
+ * https://caniuse.com/#search=break-all
+ */
+
 td
 th
 	padding .5rem
+	/* doiuse-disable word-break */
+	word-break break-all
+	/* doiuse-enable word-break */
 
 /*
  * [FIXME] I can't make responsive tables:

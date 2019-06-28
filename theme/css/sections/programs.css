@@ -98,6 +98,11 @@ img {
 	box-shadow: 0 0 2rem #000;
 }
 
+.SashaKristinogradIcon {
+	box-shadow: none;
+	min-width: 2rem;
+}
+
 .SashaPageLoading {
 	box-shadow: none;
 }
@@ -290,6 +295,11 @@ div .a2a_floating_style,div .a2a_default_style {
 	font-weight: bold;
 }
 
+.SashaInlineHighlight .kr,.SashaBlockHighlight .kr {
+	color: #fb660a;
+	font-weight: bold;
+}
+
 .SashaInlineHighlight .ld,.SashaBlockHighlight .ld {
 	color: #fff;
 }
@@ -371,8 +381,16 @@ div .a2a_floating_style,div .a2a_default_style {
 	color: #87ceeb;
 }
 
+.SashaInlineHighlight .sr,.SashaBlockHighlight .sr {
+	color: #87ceeb;
+}
+
 .SashaInlineHighlight .s1,.SashaBlockHighlight .s1 {
 	color: #87ceeb;
+}
+
+.SashaInlineHighlight .vg,.SashaBlockHighlight .vg {
+	color: #fb660a;
 }
 
 .SashaInlineHighlight .il,.SashaBlockHighlight .il {

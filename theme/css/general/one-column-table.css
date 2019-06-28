@@ -1,0 +1,36 @@
+/*
+Styles for one-column tables
+ */
+@media screen and (orientation: portrait) {
+	table {
+/*
+		[INFO][CSS] Show borders for row table:
+		https://stackoverflow.com/a/7175268/5951529
+		https://stackoverflow.com/a/20874246/5951529
+ */
+		border-collapse: collapse;
+	}
+	tr {
+		border: 1px solid;
+	}
+	tr td {
+/*
+			[INFO][CSS] Slick-style for table, if one column:
+			https://stackoverflow.com/a/12348762/5951529
+ */
+		display: table-row;
+		border: 0;
+/*
+			[NOTE] Padding for “td” or “tr” will not work, we need padding for cell elements:
+			https://stackoverflow.com/a/21948408/5951529
+ */
+	}
+	tr td a,
+	tr td img {
+		padding: 0.3rem 0.1rem;
+	}
+	tr td img {
+		max-width: 97%;
+		box-shadow: none;
+	}
+}
