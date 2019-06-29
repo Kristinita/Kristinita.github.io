@@ -91,6 +91,11 @@ img {
 	box-shadow: 0 0 2rem #000;
 }
 
+.SashaKristinogradIcon {
+	box-shadow: none;
+	min-width: 2rem;
+}
+
 .SashaPageLoading {
 	box-shadow: none;
 }
@@ -98,6 +103,10 @@ img {
 kbd {
 	color: #eee8aa;
 	background: #2e8b57;
+}
+
+hr {
+	color: #c71585;
 }
 
 td,th {
@@ -113,6 +122,20 @@ blockquote {
 	border-left: solid #db7093 0.5rem;
 	color: #000080;
 	background: #fcfcfc;
+}
+
+.SashaBlockquote {
+	border-color: #7b68ee;
+	background-color: #ffdab9;
+	color: #191970;
+}
+
+.SashaCitation {
+	color: #fa8072;
+}
+
+.SashaGingerinasExample {
+	background-color: #d0f0c0;
 }
 
 code {
@@ -231,6 +254,11 @@ div .a2a_floating_style {
 	font-weight: bold;
 }
 
+.SashaInlineHighlight .kr,.SashaBlockHighlight .kr {
+	color: #815ba4;
+	font-weight: bold;
+}
+
 .SashaInlineHighlight .ld,.SashaBlockHighlight .ld {
 	color: #48b685;
 }
@@ -282,6 +310,10 @@ div .a2a_floating_style {
 	color: #5bc4bf;
 }
 
+.SashaInlineHighlight .w,.SashaBlockHighlight .w {
+	color: #2f1e2e;
+}
+
 .SashaInlineHighlight .mi,.SashaBlockHighlight .mi {
 	color: #f99b15;
 	font-weight: bold;
@@ -300,6 +332,27 @@ div .a2a_floating_style {
 	color: #f99b15;
 }
 
+.SashaInlineHighlight .sh,.SashaBlockHighlight .sh {
+	color: #48b685;
+}
+
+.SashaInlineHighlight .si,.SashaBlockHighlight .si {
+	color: #f99b15;
+}
+
+.SashaInlineHighlight .sr,.SashaBlockHighlight .sr {
+	color: #48b685;
+}
+
 .SashaInlineHighlight .s1,.SashaBlockHighlight .s1 {
 	color: #48b685;
+}
+
+.SashaInlineHighlight .vg,.SashaBlockHighlight .vg {
+	color: #ef6155;
+}
+
+.SashaInlineHighlight .il,.SashaBlockHighlight .il {
+	color: #f99b15;
+	font-weight: bold;
 }

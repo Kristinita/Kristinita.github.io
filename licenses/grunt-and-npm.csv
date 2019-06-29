@@ -423,7 +423,7 @@ editions,1.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/edit
 editions,2.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/errlop/node_modules/editions,(none),MIT,MIT,,
 editorconfig,0.15.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/editorconfig,http://github.com/editorconfig/editorconfig-core-js,MIT,MIT,,
 ee-first,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ee-first,https://github.com/jonathanong/ee-first,MIT,MIT,MIT,
-electron-to-chromium,1.3.176,/home/travis/build/Kristinita/KristinitaPelican/node_modules/electron-to-chromium,https://github.com/kilian/electron-to-chromium,ISC,ISC,,
+electron-to-chromium,1.3.177,/home/travis/build/Kristinita/KristinitaPelican/node_modules/electron-to-chromium,https://github.com/kilian/electron-to-chromium,ISC,ISC,,
 emoji-regex,7.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/emoji-regex,https://github.com/mathiasbynens/emoji-regex,MIT,MIT,,
 emphasize,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/emphasize,https://github.com/wooorm/emphasize,MIT,MIT,MIT,
 encodeurl,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/encodeurl,https://github.com/pillarjs/encodeurl,MIT,MIT,MIT,
