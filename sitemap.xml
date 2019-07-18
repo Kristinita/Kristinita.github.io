@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/</loc>
-<lastmod>2019-06-29T05:29:57-00:00</lastmod>
+<lastmod>2019-07-18T15:36:58-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/archives.html</loc>
-<lastmod>2019-06-29T05:29:57-00:00</lastmod>
+<lastmod>2019-07-18T15:36:58-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/categories.html</loc>
-<lastmod>2019-06-29T05:29:57-00:00</lastmod>
+<lastmod>2019-07-18T15:36:58-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/404.html</loc>
-<lastmod>2019-06-29T05:29:57-00:00</lastmod>
+<lastmod>2019-07-18T15:36:58-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +40,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Sasha-Black.html</loc>
-<lastmod>2019-06-29T05:29:57-00:00</lastmod>
+<lastmod>2019-07-18T15:36:58-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,14 +54,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Erics-Rooms/Зелёная-Комната-Эрика.html</loc>
-<lastmod>2019-06-28T20:50:06+03:00</lastmod>
+<lastmod>2019-07-03T15:33:27+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/Erics-Rooms/Комнаты-Эрика.html</loc>
-<lastmod>2019-06-28T14:27:28+03:00</lastmod>
+<lastmod>2019-07-18T13:52:45+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -228,8 +228,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://kristinita.netlify.com/Erics-Rooms/Поиск-книг-для-джинджерин.html</loc>
-<lastmod>2019-06-28T16:18:39+03:00</lastmod>
+<loc>https://kristinita.netlify.com/Erics-Rooms/Поиск-книг-для-Комнат-Эрика.html</loc>
+<lastmod>2019-07-18T17:14:10+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -292,7 +292,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/category/erics-rooms.html</loc>
-<lastmod>2019-06-28T20:50:06+02:30</lastmod>
+<lastmod>2019-07-18T17:14:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -355,14 +355,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/tag/gingerinas.html</loc>
-<lastmod>2019-06-28T20:50:06+02:30</lastmod>
+<lastmod>2019-07-18T17:14:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/tag/erics-rooms.html</loc>
-<lastmod>2019-06-28T20:50:06+02:30</lastmod>
+<lastmod>2019-07-18T13:52:45+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -432,7 +432,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/tag/help.html</loc>
-<lastmod>2019-06-28T16:18:39+02:30</lastmod>
+<lastmod>2019-07-18T17:14:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -544,7 +544,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/author/sasha-chernykh.html</loc>
-<lastmod>2019-06-28T20:50:06+02:30</lastmod>
+<lastmod>2019-07-18T17:14:10+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

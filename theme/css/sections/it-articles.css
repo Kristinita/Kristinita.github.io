@@ -324,6 +324,10 @@ div .a2a_floating_style {
 	font-weight: bold;
 }
 
+.SashaInlineHighlight .sa,.SashaBlockHighlight .sa {
+	color: #87ceeb;
+}
+
 .SashaInlineHighlight .s2,.SashaBlockHighlight .s2 {
 	color: #48b685;
 }
