@@ -4,13 +4,19 @@
  * @Last Modified by:   Kristinita
  * @Last Modified time: 2017-05-09 14:46:21
  */
+/* [INFO] Webfonts-helper — site for getting generic-names for Google Fonts:
+https://google-webfonts-helper.herokuapp.com/
+[WARNING] Post comments before tags and classes, not selectors;
+Stylint have a bug:
+https://github.com/SimenB/stylint/issues/457
+ */
 h1,
 .SashaCategory,
 .SashaButtonCategory,
 .SashaBottomAside,
 .SashaOnlineScanners,
 .SashaCheckYourSite {
-	font-family: "Play";
+	font-family: "Play", sans-serif;
 }
 h1,
 .SashaCategory,
@@ -21,23 +27,23 @@ h1,
 	font-style: normal;
 }
 h2 {
-	font-family: "Scada";
+	font-family: "Scada", sans-serif;
 	font-size: 1.9375rem;
 	font-style: italic;
 }
 a {
-	font-family: "El Messiri";
+	font-family: "El Messiri", sans-serif;
 	font-size: 1.3rem;
 	font-style: italic;
 	font-weight: bold;
 }
 pre,
 code {
-	font-family: "Fira Mono";
+	font-family: "Fira Mono", monospace;
 	font-size: 1.1875rem;
 }
 .WorkOnYourself {
-	font-family: "Marck Script";
+	font-family: "Marck Script", fantasy;
 	font-size: 3.5625rem;
 	margin-bottom: 1rem;
 }
@@ -50,6 +56,6 @@ code {
 }
 .SashaDifferentUrl,
 .SashaReadHelp {
-	font-family: "Scada";
+	font-family: "Scada", sans-serif;
 	font-size: 1.4375rem;
 }

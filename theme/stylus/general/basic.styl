@@ -88,9 +88,20 @@ body
 	/*
 	[INFO] Safe web fonts
 	http://web.mit.edu/jmorzins/www/fonts.html
-	[NOTE] Commas between fonts required, if multiple:
+	[NOTE] Commas between fonts required, if multiple.
+	[INFO] generic-family required for Stylelint:
+	https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+	https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword
+	[INFO] generic-family for web safe fonts:
+	https://www.w3schools.com/cssref/css_websafe_fonts.asp
+	https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
+	[INFO] Valid generic-names:
+	https://www.w3.org/TR/CSS2/fonts.html#generic-font-families
+	https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#Values
+	[NOTE] Comma required between font and generic-family:
+	http://stylus-lang.com/try.html#?code=body%0A%09font-family%20Arial%20sans-serif
 	 */
-	font-family Arial
+	font-family Arial, Helvetica, sans-serif
 	font-size 1.1875rem
 	margin 0
 	padding 0
@@ -153,8 +164,12 @@ em
 	========================================================================== */
 
 kbd
-	font-weight bold
-	border-radius .1875rem
+	@extend $KiraKbd
+
+// [INFO] GRights tag
+.KiraGRights
+	@extend $KiraKbd
+	font-style italic
 
 /* >> noscript
 	========================================================================== */
@@ -175,7 +190,6 @@ noscript
 	position fixed
 	top 0
 	z-index 900
-
 
 /* ==========================================================================
 	> Tables
@@ -199,9 +213,7 @@ table
 td
 th
 	padding .5rem
-	/* doiuse-disable word-break */
-	word-break break-all
-	/* doiuse-enable word-break */
+	@extend $SashaNoHorizontalScrollbar
 
 /*
  * [FIXME] I can't make responsive tables:
@@ -234,12 +246,14 @@ ul {
 
 // Left margin in nested lists
 
+ol
 ul
-	li
-		margin-left 1rem
+	> li
+		@extend $SashaNoHorizontalScrollbar
+		@extend $KiraOptimalMarginLeft
 
 .SashaOlMargin
-	margin-left 1rem
+	@extend $KiraOptimalMarginLeft
 
 /* >> TOC
 	========================================================================== */
@@ -597,7 +611,7 @@ pre
 	========================================================================== */
 
 .SashaShadow
-	font-family "Times New Roman"
+	font-family "Times New Roman", Times, serif
 	font-size 1.6rem
 	width auto
 

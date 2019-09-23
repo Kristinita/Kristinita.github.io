@@ -8,5 +8,5 @@ Disallow: /stylus/
 Disallow: /zohoverify/
 User-agent: LinkChecker
 Allow: /
-Sitemap: https://kristinita.ru/sitemap.xml
+Sitemap: https://kristinita.netlify.com/sitemap.xml
 Crawl-delay: 1

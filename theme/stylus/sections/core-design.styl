@@ -9,7 +9,6 @@
  * TOC
  *
  * General
- * - import wildwire
  * - Body
  * - Links
  * - Cursive
@@ -34,11 +33,13 @@
  * - Colored text
  * Different elements
  * - Custom selection
+ * - G-Rights
  * - Child elements
  * - figure
  * External plugins
  * - Progressbar
  * - AddToAny
+ * - import wildwire
  */
 
 /*
@@ -57,11 +58,6 @@
 /* ==========================================================================
 	> General
 	========================================================================== */
-
-/* >> import wildwire
-	========================================================================== */
-
-@import "wildfire.styl"
 
 /* >> Body
 	========================================================================== */
@@ -289,17 +285,22 @@ pre
 /* [NOTE] Needs hack, that “::selection” pseudo-element works in all browsers:
  * https://ru.stackoverflow.com/a/595809/199934
  * [NOTE] “-moz-” prefix not needed since Firefox 61:
- * https://caniuse.com/#search=selection
+ * https://caniuse.com/#search=%3Aselection
  * http://ru.stackoverflow.com/a/595809/199934
+ * [INFO] Exists “:-moz-window-inactive” solely, not “window-inactive”:
+ * https://caniuse.com/#search=window-inactive
  */
 
 ::selection
 	color Sasha-Selection-Foreground
 	background Sasha-Selection-Background
 
-::selection:window-inactive
-	color Sasha-Selection-Foreground
-	background Sasha-Selection-Background
+/* >> G-Rights
+	========================================================================== */
+
+.KiraGRights
+	color Sasha-GR-Foreground
+	background Sasha-GR-Background
 
 /* >> Child elements
 	========================================================================== */
@@ -362,3 +363,14 @@ div
 	.a2a_floating_style
 	.a2a_default_style
 		background-color Sasha-Add-To-Any
+
+/* >> import wildwire
+	========================================================================== */
+
+/* Import
+[NOTE] Place import to the end of document, that “no-descending-specificity”
+Stylelint rule will be applied:
+https://stylelint.io/user-guide/rules/no-descending-specificity
+ */
+
+@import "wildfire.styl"

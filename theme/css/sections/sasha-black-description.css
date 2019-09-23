@@ -8,70 +8,6 @@
 /* Unverified For PurifyCSS
 	========================================================================== */
 
-div.animate-flicker span {
-	color: #c0c0c0;
-}
-
-div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
-	color: #a52a2a;
-}
-
-div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-input::-moz-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: #c0c0c0;
-}
-
-div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: #c0c0c0;
-}
-
-div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: #c0c0c0;
-}
-
-div.wf.wf-theme-dark .wf-use-wildfire svg path,div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
-	fill: #c0c0c0;
-}
-
-div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
-	background-color: #c0c0c0;
-}
-
-div.wf.wf-theme-dark > footer {
-	border-top-color: #c0c0c0;
-}
-
-div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
-	color: #696969;
-}
-
-div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
-	color: #696969;
-}
-
-div.wf.wf-theme-dark input.ivu-input::placeholder {
-	color: #696969;
-}
-
-div.wf.wf-theme-dark .ivu-icon-heart-broken {
-	color: #ee82ee;
-}
-
-div.wf.wf-theme-dark .ivu-icon-heart {
-	color: #dc143c;
-}
-
-div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
-	background-color: rgba(255,255,255,0.2);
-}
-
-div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
-	border-color: #c0c0c0;
-}
-
-div.wf.wf-theme-dark .wf-tip {
-	font-size: 0.7rem;
-}
-
 body {
 	background: #000;
 	color: #ff8c00;
@@ -139,18 +75,72 @@ pre >code {
 	background: rgba(255,228,181,0.99);
 }
 
-::-moz-selection:window-inactive {
-	color: rgba(240,128,128,0.467);
-	background: rgba(255,228,181,0.99);
-}
-
-::selection:window-inactive {
-	color: rgba(240,128,128,0.467);
-	background: rgba(255,228,181,0.99);
-}
-
 div .a2a_floating_style,div .a2a_default_style {
 	background-color: #ffa500;
+}
+
+div.animate-flicker span {
+	color: #c0c0c0;
+}
+
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
+	color: #a52a2a;
+}
+
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::-moz-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
+	color: #c0c0c0;
+}
+
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
+	color: #c0c0c0;
+}
+
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
+	color: #c0c0c0;
+}
+
+div.wf.wf-theme-dark .wf-use-wildfire svg path,div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
+	fill: #c0c0c0;
+}
+
+div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
+	background-color: #c0c0c0;
+}
+
+div.wf.wf-theme-dark > footer {
+	border-top-color: #c0c0c0;
+}
+
+div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
+	color: #696969;
+}
+
+div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
+	color: #696969;
+}
+
+div.wf.wf-theme-dark input.ivu-input::placeholder {
+	color: #696969;
+}
+
+div.wf.wf-theme-dark .ivu-icon-heart-broken {
+	color: #ee82ee;
+}
+
+div.wf.wf-theme-dark .ivu-icon-heart {
+	color: #dc143c;
+}
+
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
+	border-color: #c0c0c0;
+}
+
+div.wf.wf-theme-dark .wf-tip {
+	font-size: 0.7rem;
 }
 
 .tooltipster-punk-purple .tooltipster-box {
