@@ -121,7 +121,7 @@ async,0.9.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-p
 async,1.4.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/htmlhint/node_modules/async,(none),MIT,MIT,,
 async,1.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/async,https://github.com/caolan/async,MIT,MIT,,
 async,2.6.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-clean/node_modules/async,(none),MIT,MIT,,
-async,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-move/node_modules/async,(none),MIT,MIT,,
+async,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-concurrent/node_modules/async,(none),MIT,MIT,,
 async-each,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/async-each,http://github.com/paulmillr/async-each,MIT,MIT,,MIT
 async-each-series,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/async-each-series,ssh://git@github.com/jb55/async-each-series,MIT,MIT,,MIT
 async-each-series,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-dev-update/node_modules/async-each-series,(none),MIT,MIT,,MIT
