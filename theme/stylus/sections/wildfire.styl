@@ -2,7 +2,12 @@
 https://wildfire.js.org
 [WARNING] Modifying textarea resizer doesn't support in Firefox and Edge:
 https://css-tricks.com/tricky-textarea-pulltab/
-https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#-webkit-resizer */
+https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#-webkit-resizer
+[NOTE] “div” and another overqualified elements required for third-party Wildfire tool
+ */
+
+/* csslint overqualified-elements: false */
+
 div
 	/* [LEARN][STYLUS] Parent reference:
 	http://stylus-lang.com/docs/selectors.html#parent-reference
@@ -123,3 +128,5 @@ div
 		// https://i.imgur.com/mM4vHZD.png
 		.wf-tip
 			font-size .7rem
+
+/* csslint overqualified-elements: true */

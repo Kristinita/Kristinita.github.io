@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/</loc>
-<lastmod>2019-09-23T17:09:10-00:00</lastmod>
+<lastmod>2019-10-18T16:44:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/archives.html</loc>
-<lastmod>2019-09-23T17:09:10-00:00</lastmod>
+<lastmod>2019-10-18T16:44:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/categories.html</loc>
-<lastmod>2019-09-23T17:09:10-00:00</lastmod>
+<lastmod>2019-10-18T16:44:19-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/404.html</loc>
-<lastmod>2019-09-23T17:09:10-00:00</lastmod>
+<lastmod>2019-10-18T16:44:19-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/Pages/About-for-developers.html</loc>
-<lastmod>2019-09-23T18:34:12+03:00</lastmod>
+<lastmod>2019-10-17T15:36:28+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/Sasha-Black.html</loc>
-<lastmod>2019-09-23T17:09:10-00:00</lastmod>
+<lastmod>2019-10-18T16:44:19-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,7 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Books-Reviews/Как-читать-архитектуру.html</loc>
-<lastmod>2019-09-19T20:22:10+03:00</lastmod>
+<lastmod>2019-09-24T18:54:37+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -313,7 +313,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/category/books-reviews.html</loc>
-<lastmod>2019-09-19T20:22:10+02:30</lastmod>
+<lastmod>2019-09-24T18:54:37+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -418,7 +418,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/tag/books-reviews.html</loc>
-<lastmod>2019-09-19T20:22:10+02:30</lastmod>
+<lastmod>2019-09-24T18:54:37+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -600,7 +600,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/author/sasha-chernykh.html</loc>
-<lastmod>2019-09-19T21:25:54+02:30</lastmod>
+<lastmod>2019-09-24T18:54:37+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

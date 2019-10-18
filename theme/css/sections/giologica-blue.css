@@ -8,6 +8,9 @@
 /* Unverified For PurifyCSS
 	========================================================================== */
 
+/* Unverified from giologica.styl
+	========================================================================== */
+
 body {
 	background: #f0f8ff;
 	color: #b22222;
@@ -26,7 +29,7 @@ a:focus {
 }
 
 em {
-	color: Sasha-Em;
+	color: #ff69b4;
 }
 
 img {
@@ -67,36 +70,42 @@ code {
 	background: rgba(255,228,181,0.99);
 }
 
+/* csslint ignore:start */
+
 div .a2a_floating_style {
-	background-color: Sasha-Add-To-Any;
+	background-color: #deb887;
 }
 
+/* csslint ignore:end */
+
+/* csslint ignore:start */
+
 div.animate-flicker span {
-	color: Sasha-Wildfire-Foreground;
+	color: #639;
 }
 
 div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta {
 	color: #a52a2a;
 }
 
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-input::-moz-placeholder,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: Sasha-Wildfire-Foreground;
+div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
+	color: #639;
 }
 
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: Sasha-Wildfire-Foreground;
+div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder {
+	color: #639;
 }
 
 div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: Sasha-Wildfire-Foreground;
+	color: #639;
 }
 
 div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
-	background-color: Sasha-Wildfire-Foreground;
+	background-color: #639;
 }
 
 div.wf.wf-theme-dark > footer {
-	border-top-color: Sasha-Wildfire-Foreground;
+	border-top-color: #639;
 }
 
 div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
@@ -112,24 +121,26 @@ div.wf.wf-theme-dark input.ivu-input::placeholder {
 }
 
 div.wf.wf-theme-dark .ivu-icon-heart-broken {
-	color: Sasha-Wildfire-Broken-Heart;
+	color: #ffa07a;
 }
 
 div.wf.wf-theme-dark .ivu-icon-heart {
-	color: Sasha-Wildfire-Heart;
+	color: #ffd700;
 }
 
 div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
-	background-color: Sasha-Wildfire-Button-Background;
+	background-color: #ffe4e1;
 }
 
 div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
-	border-color: Sasha-Wildfire-Foreground;
+	border-color: #639;
 }
 
 div.wf.wf-theme-dark .wf-tip {
 	font-size: 0.7rem;
 }
+
+/* csslint ignore:end */
 
 .tooltipster-punk-purple .tooltipster-box {
 	border-bottom: 0.1875rem solid #ffa500;

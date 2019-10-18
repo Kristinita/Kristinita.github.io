@@ -94,6 +94,7 @@
 	}
 }
 /* For landscape orientation */
+/* csslint ignore:start */
 @media screen and (orientation: landscape) {
 	.SashaIconAside {
 		width: 35%;
@@ -105,3 +106,4 @@
 		width: 65%;
 	}
 }
+/* csslint ignore:end */

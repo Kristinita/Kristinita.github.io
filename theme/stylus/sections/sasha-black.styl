@@ -15,7 +15,10 @@ a
 	font-size 1.75rem
 	border-radius .875rem
 	text-decoration none
-	outline 0
+
+	&:focus
+		outline 0
+		border .0625rem solid red
 
 	&:visited
 		color pink
@@ -65,6 +68,13 @@ $SashaPlaceholderTextAlignCenter
 	color black
 
 .SashaBorderInput
+	/* [INFO] Box model:
+	https://github.com/CSSLint/csslint/wiki/Beware-of-box-model-size
+	https://caniuse.com/#feat=css3-boxsizing
+	https://css-tricks.com/the-css-box-model/
+	https://simonwillison.net/2003/May/26/theBoxModel/
+	 */
+	box-sizing border-box
 	border .25rem double black
 	border-style outset
 	border-color darkorange

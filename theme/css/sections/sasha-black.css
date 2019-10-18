@@ -12,7 +12,10 @@ a {
 	font-size: 1.75rem;
 	border-radius: 0.875rem;
 	text-decoration: none;
+}
+a:focus {
 	outline: 0;
+	border: 0.0625rem solid #f00;
 }
 a:visited {
 	color: #ffc0cb;
@@ -62,6 +65,13 @@ input {
 	color: #000;
 }
 .SashaBorderInput {
+/* [INFO] Box model:
+	https://github.com/CSSLint/csslint/wiki/Beware-of-box-model-size
+	https://caniuse.com/#feat=css3-boxsizing
+	https://css-tricks.com/the-css-box-model/
+	https://simonwillison.net/2003/May/26/theBoxModel/
+ */
+	box-sizing: border-box;
 	border: 0.25rem double #000;
 	border-style: outset;
 	border-color: #ff8c00;

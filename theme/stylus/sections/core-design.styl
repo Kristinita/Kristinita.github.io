@@ -154,7 +154,7 @@ kbd
 	========================================================================== */
 
 hr
-	color Sasha-hr
+	color Sasha-Hr
 
 /* >> Tables
 	========================================================================== */
@@ -241,7 +241,7 @@ code
 /* >> Multiline code
 	========================================================================== */
 
-// All black for sublime-text.styl
+// All black for programs.styl
 
 pre
 	>code
@@ -358,11 +358,22 @@ for level in range(0, 100, 10)
 /* >> AddToAny
 	========================================================================== */
 
+/*
+[NOTE] Overqualified “div” required for third-party AddToAny
+[NOTE] Multi-line buffered comments required in this case:
+http://stylus-lang.com/docs/comments.html#multi-line-buffered
+ */
+
+/*! csslint ignore:start */
+
 // Overlay of buttons:
 div
 	.a2a_floating_style
 	.a2a_default_style
 		background-color Sasha-Add-To-Any
+
+/*! csslint ignore:end */
+
 
 /* >> import wildwire
 	========================================================================== */
@@ -373,4 +384,13 @@ Stylelint rule will be applied:
 https://stylelint.io/user-guide/rules/no-descending-specificity
  */
 
+/*
+[NOTE] Overqualified elements required for wildfire styles
+[NOTE] Multi-line buffered comments required in this case
+ */
+
+/*! csslint ignore:start */
+
 @import "wildfire.styl"
+
+/*! csslint ignore:end */

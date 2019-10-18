@@ -10,6 +10,10 @@ https://google-webfonts-helper.herokuapp.com/
 Stylint have a bug:
 https://github.com/SimenB/stylint/issues/457
  */
+/* [NOTE] Disable “unique-headings” for this file, I get a known bug:
+https://github.com/CSSLint/csslint/issues/80
+ */
+/* csslint ignore:start */
 h1,
 .SashaCategory,
 .SashaButtonCategory,
@@ -59,3 +63,4 @@ code {
 	font-family: "Scada", sans-serif;
 	font-size: 1.4375rem;
 }
+/* csslint ignore:end */

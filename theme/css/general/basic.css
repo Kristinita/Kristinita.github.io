@@ -62,6 +62,7 @@
 	========================================================================== */
 /* >> import placeholders
 	========================================================================== */
+/* csslint ignore:start */
 html,
 body {
 	height: 100%;
@@ -91,7 +92,6 @@ pre {
 	word-break: break-all;
 /* doiuse-enable word-break */
 }
-h1:hover > .headerlink,
 h2:hover > .headerlink,
 h3:hover > .headerlink,
 h4:hover > .headerlink,
@@ -143,6 +143,13 @@ kbd,
 	border-radius: 0.1875rem;
 	padding-right: 0.2rem;
 }
+.SashaTopQuote,
+.SashaBottomQuote {
+	display: inline-block;
+	font-size: 3rem;
+	line-height: 0;
+}
+/* csslint ignore:end */
 /* >> overflow-wrap
 	========================================================================== */
 /* >> HTML, body
@@ -172,15 +179,21 @@ body {
 /*  >> Links
 	========================================================================== */
 /*
- * Disable dotted outline, if user move by links use tab key, see
+ * [INFO] Disable dotted outline, if user move by links use tab key, see
  * https://css-tricks.com/removing-the-dotted-outline/
  */
+/*
+[NOTE] I not disable outline:none; but alternative in design files, not “basic.css”
+[NOTE] Comment beginning before “a”, not “&:focus” required
+ */
+/* csslint ignore:start */
 a {
 	text-decoration: none;
 }
 a:focus {
 	outline: 0;
 }
+/* csslint ignore:end */
 /*
  * Permalinks
  */
@@ -190,14 +203,6 @@ a:focus {
 }
 /* >> Headers
 	========================================================================== */
-h1 {
-	font-size: 1.9375rem;
-	font-weight: lighter;
-	font-style: normal;
-}
-h2 {
-	font-size: 1.4rem;
-}
 /* Interlineage in h1 header */
 .SashaHeader {
 	line-height: 0.7rem;
@@ -385,6 +390,7 @@ img {
 	========================================================================== */
 /* >> Embed iframe
 	========================================================================== */
+/* csslint ignore:start */
 .SashaVideo {
 	padding-bottom: 74.38%;
 }
@@ -401,6 +407,7 @@ img {
 .SashaWebMoneyWidget {
 	padding-bottom: 16rem;
 }
+/* csslint ignore:end */
 iframe {
 	width: 100%;
 	height: 100%;
@@ -435,16 +442,10 @@ blockquote {
 	display: inline-block;
 }
 .SashaTopQuote {
-	display: inline-block;
 	margin: 1.8rem 0 0;
-	font-size: 3rem;
-	line-height: 0;
 	vertical-align: -0.2rem;
 }
 .SashaBottomQuote {
-	display: inline-block;
-	font-size: 3rem;
-	line-height: 0;
 	vertical-align: -2.5rem;
 }
 /* >> Epigraph
@@ -475,9 +476,6 @@ blockquote {
 /* ==========================================================================
 	> Code
 	========================================================================== */
-code {
-	font-size: 1.1875rem;
-}
 /*
  * relative — for correct code block displaying
  * pre-wrap — code wraps to the next line
@@ -488,7 +486,6 @@ pre {
 	position: relative;
 	white-space: pre-wrap;
 	padding: 0.5rem;
-	font-size: 1.1875rem;
 /*
  * [NOTE] Edge not support tab-size:
  * https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csstabsizeproperty/
@@ -577,6 +574,7 @@ pre {
  * “div”, that overwrite default value:
  * https://stackoverflow.com/a/9956515/5951529
  */
+/* csslint ignore:start */
 div.a2a_floating_style {
 	padding: 0.0625rem;
 	top: 30%;
@@ -590,6 +588,7 @@ div.a2a_default_style {
  */
 	float: left;
 }
+/* csslint ignore:end */
 /*
  * [LEARN][CSS] “Easy Clearing Method” or “Clearfix”:
  * normalize indentation after floating:

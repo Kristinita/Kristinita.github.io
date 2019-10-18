@@ -112,12 +112,18 @@ pre >code {
 }
 
 .progress-bar {
-	background-color: Sasha-Progress-Bar;
+	background-color: #000;
 }
+
+/* csslint ignore:start */
 
 div .a2a_floating_style,div .a2a_default_style {
 	background-color: #ffc0cb;
 }
+
+/* csslint ignore:end */
+
+/* csslint ignore:start */
 
 div.animate-flicker span {
 	color: #ffebcd;
@@ -127,11 +133,11 @@ div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,div.ivu-modal-body .ivu-btn.
 	color: #a52a2a;
 }
 
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::-moz-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,div.wf.wf-theme-dark .ivu-menu {
+div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
 	color: #ffebcd;
 }
 
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,div.wf.wf-theme-dark .ivu-menu {
+div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder {
 	color: #ffebcd;
 }
 
@@ -186,6 +192,8 @@ div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[di
 div.wf.wf-theme-dark .wf-tip {
 	font-size: 0.7rem;
 }
+
+/* csslint ignore:end */
 
 .tooltipster-punk-purple .tooltipster-box {
 	border-bottom: 0.1875rem solid #ffa500;

@@ -12,6 +12,12 @@ Stylint have a bug:
 https://github.com/SimenB/stylint/issues/457
  */
 
+/* [NOTE] Disable “unique-headings” for this file, I get a known bug:
+https://github.com/CSSLint/csslint/issues/80
+ */
+
+/* csslint ignore:start */
+
 @import "placeholders.styl"
 
 h1
@@ -69,3 +75,5 @@ code
 
 .SashaCheckYourSite
 	@extend $KiraPlay
+
+/* csslint ignore:end */

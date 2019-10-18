@@ -68,7 +68,12 @@
 /* >> import placeholders
 	========================================================================== */
 
+// [NOTE] Ignoring here required, that ignore id warning for “#SashaRunKit” id
+/* csslint ignore:start */
+
 @import "placeholders.styl"
+
+/* csslint ignore:end */
 
 /* >> overflow-wrap
 	========================================================================== */
@@ -110,9 +115,16 @@ body
 	========================================================================== */
 
 /*
- * Disable dotted outline, if user move by links use tab key, see
+ * [INFO] Disable dotted outline, if user move by links use tab key, see
  * https://css-tricks.com/removing-the-dotted-outline/
  */
+
+/*
+[NOTE] I not disable outline:none; but alternative in design files, not “basic.css”
+[NOTE] Comment beginning before “a”, not “&:focus” required
+ */
+
+/* csslint ignore:start */
 
 a
 	@extend $SashaNoHorizontalScrollbar
@@ -120,6 +132,8 @@ a
 
 	&:focus
 		outline 0
+
+/* csslint ignore:end */
 
 /*
  * Permalinks
@@ -133,16 +147,7 @@ a
 /* >> Headers
 	========================================================================== */
 
-h1
-	@extend $SashaVisiblePermalinks
-	font-size 1.9375rem
-	font-weight lighter
-	font-style normal
-
 h2
-	@extend $SashaVisiblePermalinks
-	font-size 1.4rem
-
 h3
 h4
 h5
@@ -441,6 +446,10 @@ img
 /* >> Embed iframe
 	========================================================================== */
 
+/* csslint ignore:start */
+
+// [NOTE] Id, not class required for #SashaRunKit third-party element
+
 // PeerTube videos
 .SashaVideo
 	@extend $SashaIframe
@@ -462,6 +471,8 @@ img
 .SashaWebMoneyWidget
 	@extend $SashaIframe
 	padding-bottom 16rem
+
+/* csslint ignore:end */
 
 iframe
 	width 100%
@@ -502,16 +513,12 @@ blockquote
 	display inline-block
 
 .SashaTopQuote
-	display inline-block
+	@extend $KiraCitationsQuotes
 	margin 1.8rem 0 0
-	font-size 3rem
-	line-height 0
 	vertical-align - .2rem
 
 .SashaBottomQuote
-	display inline-block
-	font-size 3rem
-	line-height 0
+	@extend $KiraCitationsQuotes
 	vertical-align -2.5rem
 
 /* >> Epigraph
@@ -546,9 +553,6 @@ blockquote
 	> Code
 	========================================================================== */
 
-code
-	font-size 1.1875rem
-
 /*
  * relative — for correct code block displaying
  * pre-wrap — code wraps to the next line
@@ -561,7 +565,6 @@ pre
 	position relative
 	white-space pre-wrap
 	padding .5rem
-	font-size 1.1875rem
 	/*
 	 * [NOTE] Edge not support tab-size:
 	 * https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csstabsizeproperty/
@@ -669,6 +672,9 @@ pre
  * https://stackoverflow.com/a/9956515/5951529
  */
 
+/* csslint ignore:start */
+
+// [NOTE] Rules for third-party Gemini scrollbar plugin
 // Small parent block size
 // Div, that overwrite defailt value
 div.a2a_floating_style
@@ -683,6 +689,8 @@ div.a2a_default_style
 	 * https://toster.ru/q/322812
 	 */
 	float left
+
+/* csslint ignore:end */
 
 /*
  * [LEARN][CSS] “Easy Clearing Method” or “Clearfix”:

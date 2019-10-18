@@ -16,6 +16,13 @@
 	background: transparent;
 	border-right: 0.3125rem solid #b0c4de;
 	border-top: 0.3125rem solid #b0c4de;
+/* [INFO] Box model:
+		https://github.com/CSSLint/csslint/wiki/Beware-of-box-model-size
+		https://caniuse.com/#feat=css3-boxsizing
+		https://css-tricks.com/the-css-box-model/
+		https://simonwillison.net/2003/May/26/theBoxModel/
+ */
+	box-sizing: border-box;
 }
 .SashaBig {
 	font-size: 1.3rem;

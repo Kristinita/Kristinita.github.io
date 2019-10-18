@@ -93,16 +93,21 @@
 
 /* For landscape orientation */
 
+// [NOTE] CSSLint ignoring, because “div.buorg” overqualified element
+/* csslint ignore:start */
+
 @media screen and (orientation landscape)
 	.SashaIconAside
 		width 35%
 		position fixed
 
 	/*
-	 * “div.buorg”, not “.buorg” overwrite default width:
+	 * [NOTE] “div.buorg”, not “.buorg” overwrite default width:
 	 * https://stackoverflow.com/a/9956515/5951529
 	 */
 	div.buorg
 	main
 	noscript
 		width 65%
+
+/* csslint ignore:end */
