@@ -5,28 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/</loc>
-<lastmod>2019-10-18T17:57:33-00:00</lastmod>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://kristinita.netlify.com/archives.html</loc>
-<lastmod>2019-10-18T17:57:33-00:00</lastmod>
+<loc>https://kristinita.netlify.com/tags.html</loc>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/categories.html</loc>
-<lastmod>2019-10-18T17:57:33-00:00</lastmod>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://kristinita.netlify.com/authors.html</loc>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://kristinita.netlify.com/archives.html</loc>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/404.html</loc>
-<lastmod>2019-10-18T17:57:33-00:00</lastmod>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,7 +54,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Sasha-Black.html</loc>
-<lastmod>2019-10-18T17:57:33-00:00</lastmod>
+<lastmod>2020-01-07T07:28:58-00:00</lastmod>
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,7 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Special/Полная-библиография.html</loc>
-<lastmod>2019-09-19T21:25:54+03:00</lastmod>
+<lastmod>2019-11-24T11:51:36+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -82,7 +96,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Erics-Rooms/Комнаты-Эрика.html</loc>
-<lastmod>2019-09-18T14:35:08+03:00</lastmod>
+<lastmod>2019-11-01T08:59:18+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -103,7 +117,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Gingerinas/КейДи.html</loc>
-<lastmod>2019-06-14T16:50:10+03:00</lastmod>
+<lastmod>2020-01-03T20:22:50+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -299,7 +313,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/Gingerinas/Korvers.html</loc>
-<lastmod>2019-05-31T19:26:16+03:00</lastmod>
+<lastmod>2020-01-03T18:43:06+03:00</lastmod>
 <changefreq>always</changefreq>
 <priority>1</priority>
 </url>
@@ -320,14 +334,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/category/erics-rooms.html</loc>
-<lastmod>2019-09-19T21:19:39+02:30</lastmod>
+<lastmod>2019-11-01T08:59:18+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/category/gingerinas.html</loc>
-<lastmod>2019-06-14T21:26:50+02:30</lastmod>
+<lastmod>2020-01-03T20:22:50+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -376,7 +390,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/category/special.html</loc>
-<lastmod>2019-09-19T21:25:54+02:30</lastmod>
+<lastmod>2019-11-24T11:51:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -390,28 +404,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/tag/special.html</loc>
-<lastmod>2019-09-19T21:25:54+02:30</lastmod>
+<lastmod>2019-11-24T11:51:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/tag/gingerinas.html</loc>
-<lastmod>2019-09-19T21:25:54+02:30</lastmod>
+<lastmod>2020-01-03T20:22:50+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/tag/erics-rooms.html</loc>
-<lastmod>2019-09-19T21:25:54+02:30</lastmod>
+<lastmod>2019-11-24T11:51:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/tag/books-search.html</loc>
-<lastmod>2019-09-19T21:25:54+02:30</lastmod>
+<lastmod>2019-11-24T11:51:36+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -425,14 +439,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/tag/gingerinas-analysis.html</loc>
-<lastmod>2019-06-14T21:26:50+02:30</lastmod>
+<lastmod>2020-01-03T20:22:50+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://kristinita.netlify.com/tag/keidi.html</loc>
-<lastmod>2019-06-14T16:50:10+02:30</lastmod>
+<lastmod>2020-01-03T20:22:50+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -600,7 +614,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://kristinita.netlify.com/author/sasha-chernykh.html</loc>
-<lastmod>2019-09-24T18:54:37+02:30</lastmod>
+<lastmod>2020-01-03T20:22:50+02:30</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>

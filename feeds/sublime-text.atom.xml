@@ -224,14 +224,14 @@
 &lt;h4&gt;5.2.3. nnCron&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://www.nncron.ru/help/RU/working/task/starting_task.htm"&gt;Добавьте в кронтаб&lt;/a&gt; следующие строки:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#( Sacagawea-CHGK&lt;/span&gt;
-&lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^{APP}&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^&lt;/span&gt;&lt;span class="si"&gt;{APP}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;Action&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 &lt;span class="n"&gt;StartIn&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;D:\AutoHotkey&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;START&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;APP&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;D&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;\&lt;span class="n"&gt;AutoHotkey&lt;/span&gt;\&lt;span class="n"&gt;Sacagawea&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;CHGK&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt;
 &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
 
 &lt;span class="c1"&gt;#( Sacagawea-Blitz&lt;/span&gt;
-&lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^@{APP}&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^@&lt;/span&gt;&lt;span class="si"&gt;{APP}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;Action&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 &lt;span class="n"&gt;StartIn&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;D:\AutoHotkey&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;START&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;APP&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;D&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;\&lt;span class="n"&gt;AutoHotkey&lt;/span&gt;\&lt;span class="n"&gt;Sacapawea&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Blitz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt;
