@@ -61,6 +61,20 @@ blockquote {
 	background: #fcfcfc;
 }
 
+.SashaBlockquote {
+	border-color: Sasha-Term-Blockquote-Border;
+	background-color: Sasha-Term-Blockquote-Background;
+	color: Sasha-Term-Blockquote-Foreground;
+}
+
+.SashaEpigraph {
+	color: Sasha-Epigraph;
+}
+
+.SashaEpigraph >em {
+	color: Sasha-Epigraph-Em;
+}
+
 code {
 	background-color: #2f4f4f;
 }

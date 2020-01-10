@@ -226,8 +226,8 @@ camelcase-keys,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_module
 camelcase-keys,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/camelcase-keys,(none),MIT,MIT,MIT,MIT
 camelcase-keys,4.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/camelcase-keys,https://github.com/sindresorhus/camelcase-keys,MIT,MIT,MIT,MIT
 caniuse-api,1.6.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-api,https://github.com/nyalab/caniuse-api,MIT,MIT,MIT,
-caniuse-db,1.0.30001019,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-db,https://github.com/Fyrd/caniuse,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
-caniuse-lite,1.0.30001019,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-lite,https://github.com/ben-eb/caniuse-lite,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
+caniuse-db,1.0.30001020,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-db,https://github.com/Fyrd/caniuse,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
+caniuse-lite,1.0.30001020,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-lite,https://github.com/ben-eb/caniuse-lite,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
 capture-stack-trace,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/capture-stack-trace,https://github.com/floatdrop/capture-stack-trace,MIT,MIT,MIT,MIT
 capture-website,0.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/capture-website,https://github.com/sindresorhus/capture-website,MIT,MIT,MIT,
 caseless,0.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/googleapis/node_modules/caseless,(none),Apache;Apache-2.0,Apache-2.0,Apache,
@@ -389,7 +389,7 @@ d,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/d,http://gi
 dargs,4.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/dargs,https://github.com/sindresorhus/dargs,MIT,MIT,MIT,MIT
 dashdash,1.14.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/dashdash,http://github.com/trentm/node-dashdash,MIT,MIT,MIT,
 data-urls,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/data-urls,https://github.com/jsdom/data-urls,MIT,MIT,,
-date-fns,2.8.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/date-fns,https://github.com/date-fns/date-fns,MIT,MIT,MIT,
+date-fns,2.9.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/date-fns,https://github.com/date-fns/date-fns,MIT,MIT,MIT,
 date-format,0.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/date-format,https://github.com/nomiddlename/date-format,MIT,MIT,MIT,
 date-now,0.1.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/date-now,http://github.com/Colingo/date-now,MIT,MIT,,MIT
 date-time,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/date-time,https://github.com/sindresorhus/date-time,MIT,MIT,MIT,MIT
@@ -473,7 +473,7 @@ editions,1.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/edit
 editions,2.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/requirefresh/node_modules/editions,(none),MIT,MIT,,
 editorconfig,0.15.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/editorconfig,http://github.com/editorconfig/editorconfig-core-js,MIT,MIT,,
 ee-first,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ee-first,https://github.com/jonathanong/ee-first,MIT,MIT,MIT,
-electron-to-chromium,1.3.328,/home/travis/build/Kristinita/KristinitaPelican/node_modules/electron-to-chromium,https://github.com/kilian/electron-to-chromium,ISC,ISC,,
+electron-to-chromium,1.3.330,/home/travis/build/Kristinita/KristinitaPelican/node_modules/electron-to-chromium,https://github.com/kilian/electron-to-chromium,ISC,ISC,,
 emoji-regex,7.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/emoji-regex,https://github.com/mathiasbynens/emoji-regex,MIT,MIT,,
 emoji-regex,8.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint/node_modules/emoji-regex,(none),MIT,MIT,,
 emphasize,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/emphasize,https://github.com/wooorm/emphasize,MIT,MIT,MIT,
@@ -796,7 +796,7 @@ http-signature,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_module
 http-signature,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/http-signature,http://github.com/joyent/node-http-signature,MIT,MIT,,
 https-proxy-agent,2.2.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/https-proxy-agent,http://github.com/TooTallNate/node-https-proxy-agent,MIT,MIT,,MIT
 humanize-url,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/humanize-url,https://github.com/sindresorhus/humanize-url,MIT,MIT,MIT,MIT
-husky,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/husky,https://github.com/typicode/husky,MIT,MIT,MIT,MIT
+husky,4.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/husky,https://github.com/typicode/husky,MIT,MIT,MIT,MIT
 iconv-lite,0.2.11,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/iconv-lite,(none),MIT,MIT,,
 iconv-lite,0.4.24,/home/travis/build/Kristinita/KristinitaPelican/node_modules/iconv-lite,http://github.com/ashtuchkin/iconv-lite,MIT,MIT,,
 ieee754,1.1.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ieee754,http://github.com/feross/ieee754,BSD;BSD-3-Clause,BSD-3-Clause,,BSD
@@ -982,7 +982,7 @@ left-pad,1.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/left
 leven,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/leven,https://github.com/sindresorhus/leven,MIT,MIT,MIT,MIT
 levn,0.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/levn,http://github.com/gkz/levn,MIT,MIT,,MIT
 license-generator,0.0.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/license-generator,ssh://git@github.com/arshad/license-generator,MIT,MIT,MIT,MIT
-limiter,1.1.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/limiter,http://github.com/jhurliman/node-rate-limiter,MIT,MIT,,MIT
+limiter,1.1.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/limiter,http://github.com/jhurliman/node-rate-limiter,MIT,MIT,,MIT
 lines-and-columns,1.1.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lines-and-columns,https://github.com/eventualbuddha/lines-and-columns,MIT,MIT,MIT,MIT
 linez,4.1.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/linez,https://github.com/jedmao/linez,MIT,MIT,,MIT
 linkify-it,2.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/linkify-it,https://github.com/markdown-it/linkify-it,MIT,MIT,,
@@ -1145,7 +1145,7 @@ nlf,2.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/nlf,http:
 no-case,2.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/no-case,http://github.com/blakeembrey/no-case,MIT,MIT,MIT,MIT
 no-cliches,0.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/no-cliches,https://github.com/duereg/no-cliches,MIT,MIT,MIT,MIT
 node-forge,0.7.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/node-forge,https://github.com/digitalbazaar/forge,(BSD-3-Clause OR GPL-2.0);BSD;GPL,(BSD-3-Clause OR GPL-2.0),BSD;GPL,BSD;GPL
-node-releases,1.1.44,/home/travis/build/Kristinita/KristinitaPelican/node_modules/node-releases,https://github.com/chicoxyzzy/node-releases,MIT,MIT,MIT,
+node-releases,1.1.45,/home/travis/build/Kristinita/KristinitaPelican/node_modules/node-releases,https://github.com/chicoxyzzy/node-releases,MIT,MIT,MIT,
 node-status-codes,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/node-status-codes,https://github.com/sindresorhus/node-status-codes,MIT,MIT,MIT,MIT
 node-uuid,1.4.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/googleapis/node_modules/node-uuid,(none),MIT,MIT,MIT,
 nopt,1.0.10,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/nopt,(none),MIT,MIT,,
