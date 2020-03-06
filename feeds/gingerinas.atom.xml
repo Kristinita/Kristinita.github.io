@@ -1922,7 +1922,7 @@
 &lt;summary&gt;
 &lt;strong&gt;Нажмите, чтобы увидеть содержимое CSV-файла&lt;/strong&gt;&lt;/summary&gt;
 
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;№ вопроса&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Тема&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Причина неответа&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Аксаксы&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;Комментарии&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;№ вопроса&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Тема&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Причина неответа&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Аксаксы&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;Комментарии&lt;/span&gt;
 &lt;span class="o"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Мультфильмы и комиксы&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Акс&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Giro&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;По ходу вопроса следовало посчитать‚ какие вообще существуют «члены команды супергероев». При слове «вуркалака» представил себе оборотня и замешкался. Версия «Росомаха» появилась сразу‚ но не рискнул‚ ибо совсем не моя тема. За 10 можно было попробовать без проверки.&lt;/span&gt;
 &lt;span class="o"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Мультфильмы и комиксы&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Норм&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Sly&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;Следовало думать по двум направлениям: 1. Посчитать‚ какие бывают группы супергероев из 4-х человек; 2. Какие супергерои известны связью с какой-либо едой.&lt;/span&gt;
 &lt;span class="o"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Мультфильмы и комиксы&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Акс&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Chan&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;Вышел на правильную версию раньше‚ чем нажали соперники. Второй раз за 3 вопроса слишком долго возился‚ хотя в планах было играть агрессивно.&lt;/span&gt;
@@ -1963,7 +1963,7 @@
 &lt;span class="o"&gt;38&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Политика&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;+&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Sly&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;!+ О том‚ что меджлис — что-то типа парламента‚ возможно‚ узнал из заметок о парламентах мира «Коммерсанта» — https://www.kommersant.ru/doc/499547 . Но скорее всего‚ слышал о меджлисе раньше.&lt;/span&gt;
 &lt;span class="o"&gt;39&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;История стран бывшего СССР&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Акс&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Split&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;1. !PROOF? 2. Дата поздняя; я рассматривал документы максимум до начала 1910-х. Что осуществил привязку ко времени и не стал рассматривать более поздние даты‚ считаю правильным и сейчас. А вот к слову «акт» привязываться не следовало. 3. ведущий неожиданно дал много времени на ответ‚ но не смог его продуктивно расходовать; зацикливался на одних и тех же (см. «кэрролл» https://kristinita.ru/Gingerinas/Korvers#%D0%9A%D1%8D%D1%80%D1%80%D0%BE%D0%BB%D0%BB ) размышлениях и боялся‚ когда уже заставят отвечать.&lt;/span&gt;
 &lt;span class="o"&gt;40&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="m"&gt;Фантастическая литература&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;Зн&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="no"&gt;Fast&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s1"&gt;Чейнджапил что-нибудь связанное с неутомимостью‚ затем с лягушками‚ фактами из жизни самого Дика. / Чейнджап редко пригождался для вопросов данного пакета. / Последний вопрос вышел на тему‚ близкую конкуренту‚ а не мне; что не самое лучшее решение для игр‚ в которых нет предвзятости. На предварительных играх темы отбирались игроками случайным образом; в финалах — нет. Надеюсь‚ в дальнейших турнирах на финальные игры также будет распространяться случайный отбор тем.&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/details&gt;
 
@@ -3201,12 +3201,12 @@
 &lt;h4&gt;2.3.3. Hover Image Preview&lt;/h4&gt;
 &lt;p&gt;Аргумент: Пакет позволяет просматривать удалённые изображения прямо в редакторе. Удобно, если забыли, как выглядит что-либо.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://forum.sublimetext.ru/index.php?topic=6.0"&gt;Установите через Package Control&lt;/a&gt; пакет &lt;a href="https://packagecontrol.io/packages/Hover%20Image%20Preview"&gt;Hover Image Preview&lt;/a&gt; → в текстовый файл вставьте ссылку на изображение &lt;a href="http://stackoverflow.com/a/14494775/5951529"&gt;в формате Markdown&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;![Image description](URL of your link)
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;![Image description](URL of your link)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Пример:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;![Герб Чистополя](https://i.imgur.com/zqwGrIt.jpg)
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;![Герб Чистополя](https://i.imgur.com/zqwGrIt.jpg)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Наведите курсор мыши между (круглыми скобками) → должна отобразиться картинка:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Результат" src="https://i.imgur.com/BW3xSNw.png"&gt;&lt;/p&gt;
@@ -3239,10 +3239,10 @@
 &lt;p&gt;Пример 1: знаю персидских писателей Рудаки, Саади и Фирдоуси, но когда спрашивают о фактах из их жизни, путаюсь, несмотря на то, что читал биографии всех троих. Поэтому сделал выписку следующего содержания и повторял впоследствии следующую информацию:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Рудаки — 9 век, родоначальник поэзии на новоперсидском языке, возможно, слепой,
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Рудаки — 9 век, родоначальник поэзии на новоперсидском языке, возможно, слепой,
 Саади — перс, «Гулистан» («Цветочный сад») 13 век, суфий, много где скитался,
 Фирдоуси — «Юсуф и Зулейха», султан отказался заплатить за «Шахнаме», и Фирдоуси вынужден был бежать.
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Какую-информацию-не-следует-выписывать"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4. Какую информацию не следует выписывать?&lt;/h2&gt;
@@ -3286,7 +3286,7 @@
 &lt;details&gt;
 &lt;summary&gt;&lt;strong&gt;Кликните сюда, чтобы увидеть список файлов.&lt;/strong&gt;&lt;/summary&gt;
 
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Авиация&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Авиация&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
 &lt;span class="n"&gt;Авторская_песня&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
 &lt;span class="n"&gt;Американские_фильмы&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
 &lt;span class="n"&gt;Анатомия&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
@@ -3372,7 +3372,7 @@
 &lt;span class="n"&gt;Эпиграфы_и_концовки&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
 &lt;span class="n"&gt;Юмор&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
 &lt;span class="n"&gt;Языкознание&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/details&gt;
 

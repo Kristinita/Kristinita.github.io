@@ -69,24 +69,24 @@
 &lt;p&gt;Советую пропустить этот абзац, не выполнять действия, в нём расписанные, ещё &lt;a href="#Постановка-задачи-в-nnCron"&gt;через абзац&lt;/a&gt; показано, как сделать программу портативной. Однако если решили оставить nnCron инсталлированным, следует добавить программу в автозагрузку. Кликаем правой кнопкой мыши на файл &lt;dfn&gt;nncron.exe&lt;/dfn&gt; в папке, куда установили программу, → &lt;kbd&gt;Создать ярлык&lt;/kbd&gt; . Правой кнопкой мыши по ярлыку → &lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив &lt;kbd&gt;Объект:&lt;/kbd&gt; добавляем &lt;a href="http://vindavoz.ru/poleznoe/218-komandnaya-stroka-i-ee-komandy.html"&gt;ключ командной строки&lt;/a&gt; &lt;dfn&gt;-ns&lt;/dfn&gt;, т. е., если было &lt;dfn&gt;D:nnCronnncron.exe&lt;/dfn&gt;, станет &lt;dfn&gt;D:nnCronnncron.exe -ns&lt;/dfn&gt;, → &lt;kbd&gt;OK&lt;/kbd&gt; . Запускаем ярлык.&lt;/p&gt;
 &lt;p&gt;Требуется &lt;a href="http://sysadmins.ru/post7020767.html#7020767"&gt;зарегистрировать&lt;/a&gt; программу, чтобы по истечении определённого промежутка времени (ЕМНИП, месяца) через каждые несколько минут не всплывало окно с предложением её купить. Для этого переходим в домашний каталог nnCron → правой кнопкой мыши по файлу &lt;dfn&gt;tm.exe&lt;/dfn&gt; → &lt;kbd&gt;Создать ярлык&lt;/kbd&gt; . Правой кнопкой мыши по созданному ярлыку → &lt;kbd&gt;Свойства&lt;/kbd&gt; → напротив &lt;dfn&gt;Объект&lt;/dfn&gt; вписываем &lt;dfn&gt;D:nnCrontm.exe xReg&lt;/dfn&gt;, где &lt;dfn&gt;D:nnCron&lt;/dfn&gt; — папка с &lt;dfn&gt;nnCron&lt;/dfn&gt;, заменяем её на свою, → &lt;kbd&gt;OK&lt;/kbd&gt; . Запускаем ярлык, куда мы только что вписали параметр &lt;em&gt;xReg&lt;/em&gt; → под &lt;dfn&gt;Регистрационное имя&lt;/dfn&gt; вводим &lt;dfn&gt;xUSSR регистрация&lt;/dfn&gt;, → ниже &lt;dfn&gt;Регистрационный код&lt;/dfn&gt; вписываем текущий день недели на русском с заглавной буквы (например, &lt;dfn&gt;Четверг&lt;/dfn&gt;) → &lt;kbd&gt;ОК&lt;/kbd&gt; . Попап больше не должен Вас беспокоить.&lt;/p&gt;
 &lt;p&gt;В силу расписанных &lt;a href="https://kristinita.ru/Life-hacks/Default-portable-browser-Windows-10#Why-Portable"&gt;здесь&lt;/a&gt; причин я очень не Люблю, когда программы что-то прописывают на системном диске, и по возможности всегда пользуюсь портативными. Чтобы сделать nnCron переносным, в папке с программой создаём файл &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, вставляем в него следующий текст:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; /d &lt;span class="se"&gt;%%&lt;/span&gt;i &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;%CD%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;for&lt;/span&gt; /d &lt;span class="se"&gt;%%&lt;/span&gt;i &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;%CD%&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
 &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nv"&gt;NNPROGRAMFILESSHORT&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="se"&gt;%%&lt;/span&gt;~si
 &lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="k"&gt;START&lt;/span&gt; &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;\nncron.exe -ns -dir &lt;span class="nv"&gt;%NNPROGRAMFILESSHORT%&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Сохраняем файл → меняем у него расширение на &lt;dfn&gt;bat&lt;/dfn&gt;: было &lt;dfn&gt;nncron.txt&lt;/dfn&gt;, стало &lt;dfn&gt;nncron.bat&lt;/dfn&gt; . Запускаем свежесозданный bat-файл → отныне nnCron портативный. Создаём для &lt;em&gt;nncron.bat&lt;/em&gt; ярлык → добавляем ярлык в автозагрузку. У Windows 10 папка с автозагрузкой открывается следующим образом: &lt;kbd&gt;Win + R&lt;/kbd&gt; → вставляем в открывшееся поле напротив &lt;dfn&gt;Открыть:&lt;/dfn&gt; — &lt;a href="http://www.outsidethebox.ms/11103/"&gt;shell:startup&lt;/a&gt; → &lt;kbd&gt;OK&lt;/kbd&gt; .&lt;/p&gt;
 &lt;p&gt;&lt;a id="Запускаемый-файл"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Запускаемый файл&lt;/h2&gt;
 &lt;p&gt;Создаём любой файл с расширением &lt;dfn&gt;html&lt;/dfn&gt;, в примере положим его в корень диска и назовём &lt;dfn&gt;SashaTask.html&lt;/dfn&gt;, абсолютный путь — &lt;dfn&gt;D:SashaTask.html&lt;/dfn&gt; . В имени файла и пути к нему допустима кириллица, но нежелательны пробелы, вводимые клавишей &lt;kbd&gt;Space&lt;/kbd&gt;, — впрочем, ниже я расписал, как должен выглядеть синтаксис задачи и в таком случае. На содержание в имени и пути различных спецсимволов не тестировал, если они для вас важны — пожалуйста, проверьте самостоятельно.&lt;/p&gt;
 &lt;p&gt;Содержимое файла:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://SashaChernykhQueenOfTheWorld.ru&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhGeniusOfPureBeauty.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhLaLeyenda.com/bonuspage.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Вместо вымышленных адресов из примера подставляете собственные, при ежедневном заходе по которым Вам будут начисляться бонусы. Добавляйте сколько угодно URL через точку с запятой.&lt;/p&gt;
 &lt;p&gt;Используется метод &lt;dfn&gt;open&lt;/dfn&gt; объекта &lt;dfn&gt;window&lt;/dfn&gt; . Более подробно о нём читать &lt;a href="https://learn.javascript.ru/window-methods"&gt;здесь&lt;/a&gt; . Атрибут &lt;dfn&gt;type&lt;/dfn&gt; тега &lt;code class="SashaInlineHighlight"&gt;&amp;lt;script&amp;gt;&lt;/code&gt; в HTML5 &lt;a href="https://webref.ru/html/script"&gt;можно опустить&lt;/a&gt; .&lt;/p&gt;
@@ -96,22 +96,22 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Если требуется открытие всего одной веб-страницы, вместо&lt;dfn&gt;window.open&lt;/dfn&gt;&lt;a href="http://javascript.ru/window-location"&gt;используем&lt;/a&gt; свойство&lt;dfn&gt;href&lt;/dfn&gt; объекта&lt;dfn&gt;location&lt;/dfn&gt;.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;location&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://ImageAnythingSasha.all&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Перечисляя их через запятую, как в примере с&lt;dfn&gt;window.open&lt;/dfn&gt;, при помощи&lt;dfn&gt;window.location.href&lt;/dfn&gt; открыть множество URL не получится, пред нашим взором предстанет тольодна-единственная вкладка с адресом, указанным нами последним при перечислении. Затруднение разрешается,примеру, на &lt;a href="http://dayte2.com/what-is-jquery"&gt;JQuery&lt;/a&gt; использованием событий&lt;dfn&gt;$(document).ready&lt;/dfn&gt;, которых&lt;a href="http://jquery-docs.ru/events/ready/"&gt;может быть сколько угодно на странице&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 	&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhLaLeyenda.com/bonuspage.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://SashaChernykhGeniusOfPureBeauty.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 		&lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;location&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://SashaChernykhQueenOfTheWorld.ru&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 	&lt;span class="p"&gt;});&lt;/span&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -120,7 +120,7 @@
 &lt;h2&gt;7. Постановка задачи в nnCron&lt;/h2&gt;
 &lt;p&gt;Для удобства установим русский язык интерфейса. Дважды кликаем левой кнопкой мыши по иконке nnCron в трее → напротив &lt;dfn&gt;Language&lt;/dfn&gt; выбираем &lt;kbd&gt;Russian&lt;/kbd&gt; → &lt;kbd&gt;OK&lt;/kbd&gt; → &lt;kbd&gt;Да&lt;/kbd&gt; → &lt;kbd&gt;Да&lt;/kbd&gt; .&lt;/p&gt;
 &lt;p&gt;Приступаем непосредственно к самой задаче. Кликаем правой кнопкой мыши по иконке nnCron в трее → &lt;kbd&gt;Добавить задачу&lt;/kbd&gt; → вписываем что-нибудь напротив &lt;dfn&gt;Имя задачи&lt;/dfn&gt;, например, &lt;dfn&gt;Смерть_маркетингу!&lt;/dfn&gt; → &lt;kbd&gt;Дополнительно&lt;/kbd&gt; → удаляем всё написанное под &lt;dfn&gt;Текст определения задачи&lt;/dfn&gt; → вставляем размещённый ниже код и нажимаем &lt;kbd&gt;OK&lt;/kbd&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;RunMissed
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;RunMissed
 Time: 7 14 * * * *
 Action:
 StartIn: &amp;quot;D:\&amp;quot;
@@ -132,7 +132,7 @@ HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
 HOST-EXIST: &amp;quot;www.stackoverflow.com&amp;quot;
 OR OR OR
 ;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Разберём, что означает каждая строка, подробности можно почитать в &lt;a href="http://www.nncron.ru/help/help_ru.htm"&gt;справочной системе&lt;/a&gt; .&lt;/p&gt;
 &lt;!-- markdownlint-disable MD037 --&gt;
@@ -146,7 +146,7 @@ OR OR OR
 
 &lt;!-- markdownlint-enable MD037 --&gt;
 
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* * * * * * выполняемая команда
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;* * * * * * выполняемая команда
 - - - - - -
 | | | | | --- Год (Anno Domini, записывать четырьмя цифрами, например, 2016)
 | | | | ----- День недели (0 - 7) (Воскресенье =0 или =7)
@@ -154,7 +154,7 @@ OR OR OR
 | | --------- День (1 - 31)
 | ----------- Час (0 - 23)
 ------------- Минута (0 - 59)
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;dfn&gt;Action:&lt;/dfn&gt; — ключевое слово, после него описываются действия, которые надлежит выполнить.&lt;/li&gt;
@@ -168,13 +168,13 @@ OR OR OR
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;dfn&gt;Rule:&lt;/dfn&gt; — ключевое слово, означающее условие, при котором выполнится наша задача.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;HOST-EXIST: &amp;quot;www.kristinita.ru&amp;quot;
 HOST-EXIST: &amp;quot;www.google.ru&amp;quot;
 HOST-EXIST: &amp;quot;www.yandex.ru&amp;quot;
 HOST-EXIST: &amp;quot;www.stackoverflow.com&amp;quot;
 OR OR OR
 ;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -237,7 +237,7 @@ OR OR OR
 &lt;h2&gt;4. Решение&lt;/h2&gt;
 &lt;p&gt;Устанавливаем &lt;a href="http://portableapps.com/apps/internet/firefox_portable"&gt;Firefox Portable&lt;/a&gt;, &lt;a href="https://support.mozilla.org/ru/kb/kak-sdelat-firefox-brauzerom-po-umolchaniyu"&gt;делаем Firefox браузером по умолчанию&lt;/a&gt;, — в отличие от Pale Moon «огнелис» становится браузером по умолчанию без особых проблем.&lt;/p&gt;
 &lt;p&gt;Правой кнопкой мыши по окошку меню «Пуск» → &lt;em&gt;Выполнить&lt;/em&gt; → &lt;em&gt;regedit.exe&lt;/em&gt; → проходим по реестру дважды до &lt;em&gt;command&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;HKEY_CLASSES_ROOT
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;HKEY_CLASSES_ROOT
 ├───FirefoxHTML
 │ └───shell
 │ └───open
@@ -246,7 +246,7 @@ OR OR OR
 └───shell
 └───open
 └───command
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Т. е. &lt;em&gt;HKEY_CLASSES_ROOT&lt;/em&gt; → &lt;em&gt;FirefoxHTML&lt;/em&gt; → &lt;em&gt;shell&lt;/em&gt; → &lt;em&gt;open&lt;/em&gt; → &lt;em&gt;command&lt;/em&gt; . Заменяем путь к Firefox на путь к Pale Moon Portable: правой кнопкой мыши на «По умолчанию» → &lt;em&gt;Изменить&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Alt attribute fish" src="https://i.imgur.com/qKogH11.png"&gt;&lt;/p&gt;

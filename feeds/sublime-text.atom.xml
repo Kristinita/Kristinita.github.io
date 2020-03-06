@@ -115,8 +115,8 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Кроссплатформенный CLI-плейер &lt;a href="http://mpg123.de/"&gt;mpg123&lt;/a&gt;. Для пользователей Windows рекомендовал бы &lt;a href="https://lifehacker.ru/2015/01/08/chocolatey/"&gt;установить Chocolatey&lt;/a&gt;, если ещё не установлен, → &lt;a href="https://chocolatey.org/packages/mpg123/1.24.0"&gt;наберите в терминале&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;choco install mpg123 -y
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;choco install mpg123 -y
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Установка стороннего плейера необходима, поскольку встроенные средства для воспроизведения аудио для Python, на котором написана Sacagawea, — &lt;a href="https://docs.python.org/3/library/ossaudiodev.html"&gt;ossaudiodev&lt;/a&gt; и &lt;a href="https://docs.python.org/3/library/winsound.html"&gt;winsound&lt;/a&gt; — &lt;a href="http://stackoverflow.com/a/34179010/5951529"&gt;не кроссплатформенные&lt;/a&gt; → придётся всё равно что-то дополнительно устанавливать.&lt;/p&gt;
 &lt;/li&gt;
@@ -149,7 +149,7 @@
 &lt;h4&gt;5.2.2. AutoHotkey&lt;/h4&gt;
 &lt;p&gt;Создайте и сохраните 2 файла: &lt;em&gt;Sacagawea-CHGK.ahk&lt;/em&gt; и &lt;em&gt;Sacagawea-Blitz.ahk&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Sacagawea-CHGK.ahk&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mozilla&lt;/span&gt; &lt;span class="n"&gt;Firefox&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;MozillaWindowClass&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mozilla&lt;/span&gt; &lt;span class="n"&gt;Firefox&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;MozillaWindowClass&lt;/span&gt;
 &lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
 &lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Space&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
@@ -181,10 +181,10 @@
 &lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;LAlt&lt;/span&gt; &lt;span class="n"&gt;Up&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
 &lt;span class="nb"&gt;ExitApp&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Sacagawea-Blitz.ahk&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mozilla&lt;/span&gt; &lt;span class="n"&gt;Firefox&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;MozillaWindowClass&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;WinActivate&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Mozilla&lt;/span&gt; &lt;span class="n"&gt;Firefox&lt;/span&gt; &lt;span class="n"&gt;ahk_class&lt;/span&gt; &lt;span class="n"&gt;MozillaWindowClass&lt;/span&gt;
 &lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
 &lt;span class="nb"&gt;Send&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="n"&gt;Space&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
@@ -217,13 +217,13 @@
 &lt;span class="nb"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;300&lt;/span&gt;
 &lt;span class="nb"&gt;ExitApp&lt;/span&gt;
 &lt;span class="nl"&gt;#esc::&lt;/span&gt;&lt;span class="n"&gt;ExitApp&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href="http://windata.ru/windows-world/utility/zapusk-skriptov-autohotkey-ot-imeni-administratora/"&gt;Скомпилируйте оба файла&lt;/a&gt; — это можно сделать &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey/blob/master/Default.sublime-commands#L6-L9"&gt;в Sublime Text 3&lt;/a&gt;, если использовать пакет &lt;a href="https://github.com/ahkscript/SublimeAutoHotkey"&gt;Sublime AutoHotkey&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="nnCron"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;5.2.3. nnCron&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://www.nncron.ru/help/RU/working/task/starting_task.htm"&gt;Добавьте в кронтаб&lt;/a&gt; следующие строки:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#( Sacagawea-CHGK&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;#( Sacagawea-CHGK&lt;/span&gt;
 &lt;span class="n"&gt;WatchHotKey&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;^&lt;/span&gt;&lt;span class="si"&gt;{APP}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;Action&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 &lt;span class="n"&gt;StartIn&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;D:\AutoHotkey&amp;quot;&lt;/span&gt;
@@ -236,7 +236,7 @@
 &lt;span class="n"&gt;StartIn&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;D:\AutoHotkey&amp;quot;&lt;/span&gt;
 &lt;span class="n"&gt;START&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;APP&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;D&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;\&lt;span class="n"&gt;AutoHotkey&lt;/span&gt;\&lt;span class="n"&gt;Sacapawea&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Blitz&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt;
 &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Где:&lt;/p&gt;
 &lt;ul&gt;
@@ -369,7 +369,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;Also you open linting file → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Report (Open Files)&lt;/code&gt; → and see all linting errors and warnings of all your enabled SublimeLinter linters for all  opened files.&lt;/p&gt;
 &lt;h3&gt;6.3. Detail output&lt;/h3&gt;
 &lt;p&gt;You can to give detailed output, example:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller:&lt;/span&gt; &lt;span class="err"&gt;TheChorusGirl.Chekhov&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--check-yo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--find-repeat-words&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-digits&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-latin&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-roman-numerals&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-uppercase&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-urls&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller:&lt;/span&gt; &lt;span class="err"&gt;TheChorusGirl.Chekhov&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--check-yo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--find-repeat-words&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-digits&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-latin&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-roman-numerals&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-uppercase&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-urls&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller&lt;/span&gt; &lt;span class="err"&gt;output:&lt;/span&gt;
 &lt;span class="err"&gt;Checking&lt;/span&gt; &lt;span class="err"&gt;finished:&lt;/span&gt; &lt;span class="mf"&gt;1.154&lt;/span&gt; &lt;span class="err"&gt;sec.&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;ERR&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;stdin&lt;/span&gt; &lt;span class="mi"&gt;710&lt;/span&gt; &lt;span class="err"&gt;ms&lt;/span&gt;
@@ -384,15 +384,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;span class="err"&gt;Letter&lt;/span&gt; &lt;span class="err"&gt;Ё&lt;/span&gt; &lt;span class="err"&gt;(Yo):&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
 &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt; &lt;span class="err"&gt;довел&lt;/span&gt; &lt;span class="err"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;108&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;count:&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;suggest:&lt;/span&gt; &lt;span class="err"&gt;довёл)&lt;/span&gt;
 &lt;span class="err"&gt;-----&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img alt="Detailed output" src="https://i.imgur.com/uC1hthv.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Enable Debug Mode&lt;/code&gt; → open file, which you needs to linting → &lt;a href="http://stackoverflow.com/q/13965877/5951529"&gt;open Sublime Text console&lt;/a&gt; → see output.&lt;/p&gt;
 &lt;h2&gt;7. Description&lt;/h2&gt;
 &lt;h3&gt;7.1. Command line arguments&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.npmjs.com/package/yaspeller"&gt;Description of yaspeller npm module&lt;/a&gt;, &lt;a href="https://www.npmjs.com/package/yaspeller#options"&gt;command line keys&lt;/a&gt;. Default command is&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;7.2. Limits&lt;/h3&gt;
 &lt;p&gt;10 thousands queries and 10 millions symbols in a day, see &lt;a href="https://yandex.ru/legal/speller_api/"&gt;3.2 item&lt;/a&gt; terms of rules.&lt;/p&gt;
@@ -887,9 +887,9 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Build-System-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.5. Build System output console&lt;/h4&gt;
 &lt;p&gt;For get a black and white colors, Install &lt;a href="https://github.com/aziz/SublimeANSI"&gt;SublimeANSI&lt;/a&gt; plugin and &lt;a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel"&gt;add&lt;/a&gt; in your &lt;em&gt;.sublime-build&lt;/em&gt; file these lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;target&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ansi_color_build&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;target&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ansi_color_build&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;syntax&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/ANSIescape/ANSI.tmLanguage&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img alt="Build console" src="https://i.imgur.com/4s81HhM.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="ScopeHunter-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -953,15 +953,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Git"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Git&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → in this folder open terminal, preferable to you, and run command:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/Kristinita/SashaSublime.git
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/Kristinita/SashaSublime.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Hub"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.3. Hub&lt;/h3&gt;
 &lt;p&gt;I recommend use &lt;a href="https://hub.github.com/"&gt;Hub&lt;/a&gt; — a command-line wrapper for git that makes you better at GitHub.&lt;/p&gt;
 &lt;p&gt;If you use Hub, &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → in this folder open terminal, preferable to you, and run command:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hub clone Kristinita/SashaSublime
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;hub clone Kristinita/SashaSublime
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Manually"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.4. Manually&lt;/h3&gt;
@@ -980,15 +980,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Manually-activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.2. Manually activation&lt;/h3&gt;
 &lt;p&gt;&lt;kbd&gt;Alt+N&lt;/kbd&gt; → &lt;em&gt;Settings&lt;/em&gt; → in file in right &lt;a href="http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html"&gt;pane&lt;/a&gt; add 2 lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;color_scheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/SashaSublime/SashaSublime.tmTheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;color_scheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/SashaSublime/SashaSublime.tmTheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;theme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime.sublime-theme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Be attentive, &lt;a href="http://ru.stackoverflow.com/a/238934/199934"&gt;correct place&lt;/a&gt; commas, quotes, brackets and colons.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Preferences"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. Preferences&lt;/h2&gt;
 &lt;p&gt;Also, you can make that all your settings were as at me. Copy into your file &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Settings - User&lt;/em&gt; these lines from my file &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Preferences.sublime-settings&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;always_show_minimap_viewport&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;always_show_minimap_viewport&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;auto_find_in_selection&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;bold_folder_labels&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;caret_style&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;wide&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
@@ -1014,7 +1014,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;span class="s2"&gt;&amp;quot;match_tags&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;menu_visible&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;show_encoding&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Before copying save in a safe place file &lt;em&gt;Preferences.sublime-settings&lt;/em&gt; from the &lt;em&gt;User&lt;/em&gt; folder or, what better, use &lt;a href="https://github.com/vishr/local-history"&gt;Local History&lt;/a&gt; plugin. If you don’t like my preferences, you will be able to return to your preferable settings.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Setting-SashaSublime-for-some-plugins"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1026,7 +1026,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;li&gt;Install plugin BracketHighlighter via Package Control,&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Package Settings&lt;/em&gt; → &lt;em&gt;BracketHighlighter&lt;/em&gt; → &lt;em&gt;Bracket Settings - User&lt;/em&gt; → add in open file this code and save file:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;bracket_styles&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 	&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;unmatched&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -1076,7 +1076,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="GitGutter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;8.2. GitGutter&lt;/h3&gt;
@@ -1117,8 +1117,8 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Title-Bar-and-window-border-color"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.2. Title Bar and window border color&lt;/h3&gt;
 &lt;p&gt;Win+R → insert in input area this text&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ OK → move thumbs. You can preview changes in title bar your window. I select orange color:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Orange Title bar" src="https://i.imgur.com/iZDK322.png"&gt;&lt;/p&gt;
@@ -1181,8 +1181,8 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;h3&gt;11.1. SublimeLinter wrote own color scheme file in preferences&lt;/h3&gt;
 &lt;p&gt;If you use &lt;a href="https://github.com/SublimeLinter/SublimeLinter"&gt;SublimeLinter&lt;/a&gt;, you may not like that Sublime Linter set the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → PackageResourceViewer: &lt;em&gt;Open Resource&lt;/em&gt; → &lt;em&gt;SublimeLinter&lt;/em&gt; → &lt;em&gt;lint&lt;/em&gt; → &lt;em&gt;util.py&lt;/em&gt; → in open file to comment out or remove line 215:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_timeout_async&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generate_color_scheme_async&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_timeout_async&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generate_color_scheme_async&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks &lt;a href="https://github.com/r-stein"&gt;@r-stein&lt;/a&gt; at &lt;a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh"&gt;solution&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Changing-color-of-square-inline-error"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1198,11 +1198,11 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;img alt="Expected phantom" src="https://i.imgur.com/LB5EWfR.png"&gt;&lt;/p&gt;
 &lt;p&gt;In the files of color scheme you can not change the color of the square of minihtml phantoms. You need again edit &lt;em&gt;exec.py&lt;/em&gt; file after each update Sublime Text.&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;PackageResourceViewer: Open Resource&lt;/em&gt; → &lt;em&gt;Default&lt;/em&gt; → &lt;em&gt;exec.py&lt;/em&gt; → between &lt;em&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/em&gt; add these lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;inline-error&lt;/span&gt; &lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;error&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;inline-error&lt;/span&gt; &lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;error&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;
 &lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mh"&gt;#28071a&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ save &lt;em&gt;exec.py&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="See-also"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1226,15 +1226,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://kristinita.netlify.com/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.netlify.com/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://kristinita.netlify.com/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.netlify.com/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Paypal-$"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;

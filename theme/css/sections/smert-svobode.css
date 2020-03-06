@@ -132,10 +132,6 @@ div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
 	color: #d2691e;
 }
 
-div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder {
-	color: #d2691e;
-}
-
 div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
 	color: #d2691e;
 }
@@ -149,10 +145,6 @@ div.wf.wf-theme-dark > footer {
 }
 
 div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
-	color: #696969;
-}
-
-div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
 	color: #696969;
 }
 

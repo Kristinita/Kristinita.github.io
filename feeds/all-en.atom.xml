@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-09-19T21:01:16+03:00</updated><entry><title>Процесс поиска книг</title><link href="https://kristinita.netlify.com/Special/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3.html" rel="alternate"></link><published>2019-09-09T11:46:08+03:00</published><updated>2019-09-19T21:01:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2019-09-09:/Special/Примеры-поиска-книг.html</id><summary type="html">&lt;p&gt;Как подбираются книги для Комнат Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2020-03-02T13:26:43+03:00</updated><entry><title>Процесс поиска книг</title><link href="https://kristinita.netlify.com/Special/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3.html" rel="alternate"></link><published>2019-09-09T11:46:08+03:00</published><updated>2020-03-02T13:26:43+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2019-09-09:/Special/Примеры-поиска-книг.html</id><summary type="html">&lt;p&gt;Как подбираются книги для Комнат Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Описание"&gt;Описание&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Столбцы-таблицы"&gt;Столбцы таблицы&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Таблица"&gt;Таблица&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Столбцы-таблиц"&gt;Столбцы таблиц&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#Таблицы"&gt;Таблицы&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- /MarkdownTOC --&gt;
 
 &lt;p&gt;&lt;a id="Описание"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1. Описание&lt;/h2&gt;
 &lt;p&gt;Служебная страница с таблицей реальных примеров &lt;a href="../Erics-Rooms/Грейзи-Фа#Поиск-литературы"&gt;поиска нужных книг для Комнат Эрика&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a id="Столбцы-таблицы"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;2. Столбцы таблицы&lt;/h2&gt;
+&lt;p&gt;&lt;a id="Столбцы-таблиц"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. Столбцы таблиц&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Тема, по которой есть планы написать пакет для Комнат.&lt;/li&gt;
 &lt;li&gt;Выражения для &lt;a href="../Erics-Rooms/Грейзи-Фа#По-ключевым-словам"&gt;поиска по ключевым словам&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Просмотренные разделы &lt;a href="../Erics-Rooms/Грейзи-Фа#Twirpx"&gt;Twirpx&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Слово, которое должно содержаться в названии при &lt;a href="../Erics-Rooms/Грейзи-Фа#По-названию"&gt;поиске по заглавиям&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a id="Таблица"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;3. Таблица&lt;/h2&gt;
+&lt;p&gt;&lt;a id="Таблицы"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;3. Таблицы&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;16.07.2019:&lt;/li&gt;
+&lt;li&gt;16.7.2019:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;div class="justtable"&gt;
@@ -314,6 +314,72 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;25.2.2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;div class="justtable"&gt;
+    &lt;table&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Президенты США&lt;/th&gt;
+            &lt;th&gt;Ван Бюрен, Филлмор, Кулидж&lt;/th&gt;
+            &lt;th&gt;&lt;/th&gt;
+            &lt;th&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Моря мира&lt;/td&gt;
+                &lt;td&gt;Уэдделла, Тирренское, Флорес&lt;/td&gt;
+                &lt;td&gt;Океанология, Океанология/Энциклопедии, Популярно об океанологии, Популярно об океанологии/Энциклопедии&lt;/td&gt;
+                &lt;td&gt;Моря&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Бондиана&lt;/td&gt;
+                &lt;td&gt;Скайфолл, Блофельд, Манипенни&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Молодёжные субкультуры&lt;/td&gt;
+                &lt;td&gt;риветхед, диггеры&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Экстремальный спорт&lt;/td&gt;
+                &lt;td&gt;гидрофойл, паркур, рафтинг&lt;/td&gt;
+                &lt;td&gt;Физическая культура и спорт&lt;/td&gt;
+                &lt;td&gt;Экстремальный спорт&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Физические приборы&lt;/td&gt;
+                &lt;td&gt;Курвиметр, ареометр&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+                &lt;td&gt;Физические приборы&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Места съёмок фильмов&lt;/td&gt;
+                &lt;td&gt;Ростовский Кремль, Бриллиантовая рука&lt;/td&gt;
+                &lt;td&gt;Популярно о киноискусстве&lt;/td&gt;
+                &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Мировой тяжёлый рок&lt;/td&gt;
+                &lt;td&gt;Blind Guardian, Motörhead, Турунен&lt;/td&gt;
+                &lt;td&gt;Рок, альтернатива и металл; Рок, альтернатива и металл/Энциклопедии&lt;/td&gt;
+                &lt;td&gt;Тяжёлый рок, История рока&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ВИА&lt;/td&gt;
+                &lt;td&gt;Верасы, Орэра, Ялла&lt;/td&gt;
+                &lt;td&gt;Современные массовые музыкальные направления, Русский рок, Эстрадная музыка&lt;/td&gt;
+                &lt;td&gt;ВИА, вокально-инструментальные ансамбли&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;</content><category term="Special"></category><category term="special"></category><category term="books-search"></category></entry><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.com/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2019-06-14T21:25:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -433,14 +499,14 @@
 &lt;p&gt;&lt;a href="#Console-actions"&gt;Actions 1, 4, 5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Method"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.1.3. Method&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;packages_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;packages_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Note&lt;/p&gt;
 &lt;p&gt;That get directory of &lt;a href="http://docs.sublimetext.info/en/latest/extensibility/packages.html#types-of-packages"&gt;“installed packages”&lt;/a&gt;, use this method:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;installed_packages_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;installed_packages_path&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="Not-recommended"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -470,8 +536,8 @@
 &lt;p&gt;&lt;a href="#Console-actions"&gt;Actions 1, 2, 4, 5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Method-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.2.3. Method&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;syntax&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;syntax&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Theme"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.3. Theme&lt;/h3&gt;
@@ -498,8 +564,8 @@
 &lt;p&gt;&lt;a href="#Console-actions"&gt;Actions 1, 2, 4, 5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Method-2"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.3.3. Method&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;theme&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;theme&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Color-scheme"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.4. Color scheme&lt;/h3&gt;
@@ -513,8 +579,8 @@
 &lt;p&gt;&lt;a href="#Console-actions"&gt;Actions 1, 2, 4, 5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Method-3"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.4.3. Method&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;color_scheme&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;color_scheme&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class="admonition hint"&gt;
 &lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
@@ -567,8 +633,8 @@
 &lt;p&gt;&lt;a href="#Console-actions"&gt;Actions 1, 2, 3, 4, 5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Method-4"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.5.3. Method&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;scope_name&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sel&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;begin&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;scope_name&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sel&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;begin&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Not-recommended-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.5.4. Not recommended&lt;/h4&gt;
@@ -593,8 +659,8 @@
 &lt;p&gt;&lt;a href="#Console-actions"&gt;Actions 1, 2, 4, 5&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Method-5"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.6.3. Method&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;scope_name&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;view&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;scope_name&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="External-links"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. External links&lt;/h2&gt;
@@ -877,8 +943,8 @@
 &lt;h2&gt;1. Overview&lt;/h2&gt;
 &lt;p&gt;Tutorial, how you can add your Python package to &lt;a href="https://en.wikipedia.org/wiki/Python_Package_Index"&gt;PyPI — Python Package Index&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you want, that users install your Python &lt;a href="https://stackoverflow.com/a/7948504/5951529"&gt;package&lt;/a&gt; via command:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install &amp;lt;your_package&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install &amp;lt;your_package&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Read this article.&lt;/p&gt;
 &lt;div class="admonition info"&gt;
@@ -921,8 +987,8 @@
 &lt;p&gt;&lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/DjMYPrP.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/rdfBR5j.png"&gt;&lt;/p&gt;
 &lt;p&gt;You can install Erichek, use command:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install erichek
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install erichek
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If you want to have similar behavior, read on.&lt;/p&gt;
 &lt;p&gt;If I have explained something incomprehensibly, see files of &lt;a href="https://github.com/Kristinita/Erichek"&gt;Erichek GitHub repository&lt;/a&gt;.&lt;/p&gt;
@@ -954,7 +1020,7 @@
 &lt;p&gt;&lt;a id="Files"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.1. Files&lt;/h3&gt;
 &lt;p&gt;Simplify configuration. Real project configuration see in &lt;a href="https://github.com/Kristinita/Erichek"&gt;Erichek GitHub repository&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;│   .release-it.json
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;│   .release-it.json
 │   CHANGELOG.md
 │   LICENSE.md
 │   MANIFEST.in
@@ -967,7 +1033,7 @@
 ├───erichek
 │       __init__.py
 │       __main__.py
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In &lt;a href="https://softwareengineering.stackexchange.com/q/301691/264224"&gt;Software Engineering site recommends&lt;/a&gt; use uppercase for README and some another text files.&lt;/p&gt;
 &lt;div class="admonition question"&gt;
@@ -1014,8 +1080,8 @@
 &lt;p&gt;&lt;a id="long_description"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.1. long_description&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;long_description&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;file: Readme.rst&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;long_description&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;file: Readme.rst&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Set your README file as value. Letters &lt;a href="https://github.com/regebro/pyroma/issues/16#issuecomment-362904598"&gt;must be in same register as in file&lt;/a&gt;. For example, if your file is &lt;em&gt;Readme.rst&lt;/em&gt;, you need to set &lt;em&gt;file: README.rst&lt;/em&gt;, not &lt;em&gt;file: Readme.rst&lt;/em&gt; or &lt;em&gt;file: README.RST&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="classifiers"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1025,31 +1091,31 @@
 &lt;p&gt;&lt;a id="zip_safe"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.3. zip_safe&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;zip_safe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;False&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;zip_safe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;False&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If you build your package use Wheels, &lt;a href="https://stackoverflow.com/a/16541150/5951529"&gt;you don't need this parameter&lt;/a&gt;, but pyroma &lt;a href="https://github.com/regebro/pyroma/issues/19"&gt;will show lower value&lt;/a&gt;. And so I recommend add &lt;code class="SashaInlineHighlight"&gt;&lt;span class="na"&gt;zip_safe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;False&lt;/span&gt;&lt;/code&gt; or &lt;code class="SashaInlineHighlight"&gt;&lt;span class="na"&gt;zip_safe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;True&lt;/span&gt;&lt;/code&gt; (unimportant) to your &lt;em&gt;setup.cfg&lt;/em&gt; file.&lt;/p&gt;
 &lt;p&gt;&lt;a id="packages"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.4. packages&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;packages&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;find:&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;packages&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;find:&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If no &lt;code class="SashaInlineHighlight"&gt;&lt;span class="na"&gt;packages&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;find:&lt;/span&gt;&lt;/code&gt;, users doesn't download folder with your Python module.&lt;/p&gt;
 &lt;p&gt;&lt;a id="console_scripts"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.5. console_scripts&lt;/h4&gt;
 &lt;p&gt;What is it. If Erichek user want run Erichek, he/she wrote in console:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python &lt;span class="s2"&gt;&amp;quot;path/to/__main__.py&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python &lt;span class="s2"&gt;&amp;quot;path/to/__main__.py&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;But since &lt;em&gt;console_scripts&lt;/em&gt; exist in &lt;em&gt;setup.cfg&lt;/em&gt;, Erichek user merely can use command, that get same behavior:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;erichek
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;erichek
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;my value:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;console_scripts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;console_scripts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&lt;/span&gt;
 &lt;span class="s"&gt;	erichek = erichek.__main__:main&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Parameter and values:&lt;/p&gt;
 &lt;ul&gt;
@@ -1060,15 +1126,15 @@
 &lt;p&gt;&lt;a id="bdist_wheel"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.5.6. bdist_wheel&lt;/h4&gt;
 &lt;p&gt;my value:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;[bdist_wheel]&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;[bdist_wheel]&lt;/span&gt;
 &lt;span class="na"&gt;python-tag&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;py3&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;See &lt;a href="https://wheel.readthedocs.io/en/stable/"&gt;what is Wheels&lt;/a&gt; and why &lt;a href="https://www.python.org/dev/peps/pep-0427/#comparison-to-egg"&gt;&lt;em&gt;.whl&lt;/em&gt; preferred than &lt;em&gt;.egg&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Erichek — Python 3 package, so I have &lt;code class="SashaInlineHighlight"&gt;&lt;span class="na"&gt;python-tag&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;py3&lt;/span&gt;&lt;/code&gt;. If your package support Python 2 and 3 both, &lt;a href="https://wheel.readthedocs.io/en/stable/#defining-the-python-version"&gt;you need use&lt;/a&gt; next code:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;[bdist_wheel]&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;[bdist_wheel]&lt;/span&gt;
 &lt;span class="na"&gt;universal&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Dependencies"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.6. Dependencies&lt;/h3&gt;
@@ -1083,21 +1149,21 @@
 &lt;p&gt;&lt;a id="install_requires"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;9.6.1.1. install_requires&lt;/h5&gt;
 &lt;p&gt;&lt;em&gt;install_requires&lt;/em&gt; parameter in &lt;em&gt;setup.cfg&lt;/em&gt; or &lt;em&gt;setup.py&lt;/em&gt; show, which packages will install, if user install your package via pip. For example, user install &lt;a href="https://pypi.org/project/sasha/"&gt;clize package&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install clize
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install clize
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href="https://github.com/epsy/clize/blob/3d9804b6b652415215677846a44d59fc7ae8929d/setup.py#L13-L19"&gt;Part of clize &lt;em&gt;setup.py&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;install_requires&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;install_requires&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;
 	&lt;span class="s1"&gt;&amp;#39;six&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="s1"&gt;&amp;#39;sigtools &amp;gt;= 2.0&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="s1"&gt;&amp;#39;attrs &amp;gt;= 17.4.0&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="s1"&gt;&amp;#39;od&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="s1"&gt;&amp;#39;docutils&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 &lt;span class="p"&gt;],&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;In clize installation process &lt;a href="https://github.com/thusoy/sasha/blob/38e50791436859e9e054e50d5c511bbc46011f89/setup.py#L16-L19"&gt;&lt;em&gt;six&lt;/em&gt;, &lt;em&gt;sigtools&lt;/em&gt;, &lt;em&gt;docutils&lt;/em&gt;, &lt;em&gt;od&lt;/em&gt; and &lt;em&gt;attrs&lt;/em&gt; packages&lt;/a&gt; automatically install for user, if this packages no already installed.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;D:&lt;span class="se"&gt;\&amp;gt;&lt;/span&gt;pip install clize
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;D:&lt;span class="se"&gt;\&amp;gt;&lt;/span&gt;pip install clize
 Collecting clize
 	Using cached clize-4.0.3-py2.py3-none-any.whl
 Requirement already satisfied: six in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
@@ -1108,7 +1174,7 @@ Collecting od &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&g
 Requirement already satisfied: attrs&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;17&lt;/span&gt;.4.0 in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Installing collected packages: od, clize
 Successfully installed clize-4.0.3 od-1.0
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="requirementstxt"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h5&gt;9.6.1.2. requirements.txt&lt;/h5&gt;
@@ -1116,8 +1182,8 @@ Successfully installed clize-4.0.3 od-1.0
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;If I want to update local dependencies, I update versions in &lt;em&gt;requirements.txt&lt;/em&gt; → I run in console:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install -r requirements.txt -t . --upgrade
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install -r requirements.txt -t . --upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;it update my local dependencies.&lt;/p&gt;
 &lt;/li&gt;
@@ -1129,7 +1195,7 @@ Successfully installed clize-4.0.3 od-1.0
 &lt;h4&gt;9.6.2. setup.py&lt;/h4&gt;
 &lt;p&gt;In this and 2 next sections I wrote, how you can get &lt;a href="#install_requires"&gt;install_requires behavior&lt;/a&gt;, use solely &lt;em&gt;requirements.txt&lt;/em&gt; file. You don't need add your dependencies to install_requires.&lt;/p&gt;
 &lt;p&gt;Add &lt;a href="https://stackoverflow.com/a/16624700/5951529"&gt;this code&lt;/a&gt; to your &lt;em&gt;setup.py&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;setuptools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;setup&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;setuptools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;setup&lt;/span&gt;
 
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pip.req&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;parse_requirements&lt;/span&gt;
 
@@ -1143,13 +1209,13 @@ Successfully installed clize-4.0.3 od-1.0
 &lt;span class="n"&gt;setup&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
 	&lt;span class="n"&gt;install_requires&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;reqs&lt;/span&gt;
 &lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Note&lt;/p&gt;
 &lt;p&gt;Author of answer by link above doesn't add a line in answer:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;setuptools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;setup&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;setuptools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;setup&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;But you need to add it.&lt;/p&gt;
 &lt;/div&gt;
@@ -1159,19 +1225,19 @@ Successfully installed clize-4.0.3 od-1.0
 &lt;p&gt;&lt;a id="MANIFESTin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;9.6.4. MANIFEST.in&lt;/h4&gt;
 &lt;p&gt;Add a line to &lt;em&gt;MANIFEST.in&lt;/em&gt; file:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;include requirements.txt
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;include requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If no, &lt;a href="https://stackoverflow.com/q/26319101/5951529"&gt;users can't install your package&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="pyroma"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.7. pyroma&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://pypi.python.org/pypi/pyroma/"&gt;pyroma&lt;/a&gt; — PyPI configuration validator.&lt;/p&gt;
 &lt;p&gt;If you set all your configuration files, run command in root directory of your Python module:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pyroma .
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pyroma .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;You need get 10/10 final rating, example:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pyroma .
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ pyroma .
 ------------------------------
 Checking .
 Registered VCS backend: git
@@ -1183,7 +1249,7 @@ Found erichek
 Final rating: &lt;span class="m"&gt;10&lt;/span&gt;/10
 Your cheese is so fresh most people think it&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;s a cream: Mascarpone
 ------------------------------
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If no 10/10, please, see pyroma messages and try fix your package.&lt;/p&gt;
 &lt;p&gt;&lt;a id="TestPyPI"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1211,8 +1277,8 @@ Your cheese is so fresh most people think it&lt;span class="err"&gt;&amp;#39;&lt
 &lt;p&gt;&lt;a id="Build-package"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;10.4. Build package&lt;/h3&gt;
 &lt;p&gt;Print in your terminal:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python setup.py bdist_wheel
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python setup.py bdist_wheel
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Note&lt;/p&gt;
@@ -1225,8 +1291,8 @@ Your cheese is so fresh most people think it&lt;span class="err"&gt;&amp;#39;&lt
 &lt;p&gt;&lt;a id="Publish-to-TestPyPI"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;10.5. Publish to TestPyPI&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://packaging.python.org/guides/using-testpypi/#using-testpypi-with-twine"&gt;Enter in your terminal&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;twine upload --repository-url https://test.pypi.org/legacy/ dist/*
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If no errors in your configuration, package must successful upload to TestPyPI.&lt;/p&gt;
 &lt;div class="admonition bug"&gt;
@@ -1282,7 +1348,7 @@ Your cheese is so fresh most people think it&lt;span class="err"&gt;&amp;#39;&lt
 &lt;p&gt;If you on Windows, please, use &lt;a href="https://conemu.github.io/en/Delusions.html#delusion-2"&gt;standard Windows console&lt;/a&gt; for correct virtualenvwrapper-win works or use plugin for your preferred terminal. You can't use command lines command from this section in &lt;a href="https://pypi.python.org/pypi/virtualenvwrapper-win"&gt;PowerShell&lt;/a&gt; or &lt;a href="https://github.com/FarGroup/FarManager/issues/23"&gt;Far Manager&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Open terminal in any directory. Run these commands:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;C&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\Users\SashaChernykh&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;mkvirtualenv erichekenv&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;C&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\Users\SashaChernykh&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;mkvirtualenv erichekenv&lt;/span&gt;
 Using base prefix &amp;#39;c:\\python36&amp;#39;
 New python executable in C:\Users\SashaChernykh\Envs\erichekenv\Scripts\python.exe
 Installing setuptools, pip, wheel...done.
@@ -1291,7 +1357,7 @@ Installing setuptools, pip, wheel...done.
 
 	Disabled global site-packages
 &lt;span class="p"&gt;(&lt;/span&gt;erichekenv&lt;span class="p"&gt;)&lt;/span&gt; C:\Users\SashaChernykh&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;pip install --extra-index-url https://test.pypi.org/simple/ erichek
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Where:&lt;/p&gt;
 &lt;ul&gt;
@@ -1305,9 +1371,9 @@ Installing setuptools, pip, wheel...done.
 &lt;div class="admonition caution"&gt;
 &lt;p class="admonition-title"&gt;Caution&lt;/p&gt;
 &lt;p&gt;Can take ~10 minutes, before you can install last version of your package. For example, you upload &lt;em&gt;4.14.7&lt;/em&gt; version your package &lt;em&gt;mypackage&lt;/em&gt; to TestPyPI → you print in a terminal &lt;code class="SashaInlineHighlight"&gt;pip install --extra-index-url https://test.pypi.org/simple/ mypackage==4.14.7&lt;/code&gt; → you can get an error:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Could not find a version that satisfies the requirement &lt;span class="nv"&gt;mypackage&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;.14.7 &lt;span class="o"&gt;(&lt;/span&gt;from versions: &lt;span class="m"&gt;4&lt;/span&gt;.14.6&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Could not find a version that satisfies the requirement &lt;span class="nv"&gt;mypackage&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;.14.7 &lt;span class="o"&gt;(&lt;/span&gt;from versions: &lt;span class="m"&gt;4&lt;/span&gt;.14.6&lt;span class="o"&gt;)&lt;/span&gt;
 No matching distribution found &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;mypackage&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;.14.7
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;You may need wait ~10 minutes, that 4.14.7 version index on TestPyPI. You can have a similar problem for PyPI.&lt;/p&gt;
 &lt;/div&gt;
@@ -1315,35 +1381,35 @@ No matching distribution found &lt;span class="k"&gt;for&lt;/span&gt; &lt;span c
 &lt;h4&gt;10.7.3. Checking&lt;/h4&gt;
 &lt;p&gt;If you can't have bugs in installation process, check, that you package works correct. For example, Erichek check, contains errors in &lt;em&gt;.txt&lt;/em&gt; files in a folder or no. I run &lt;em&gt;erichek&lt;/em&gt; console command.&lt;/p&gt;
 &lt;p&gt;If error in one of text file:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;C&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\ErichekExamples&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;erichek&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;C&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\ErichekExamples&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;erichek&lt;/span&gt;
 [2018-02-08 08:49:43.058353] NOTICE: eric_encoding logbook: All files in Windows-1251 encoding
 [2018-02-08 08:49:43.060355] NOTICE: eric_body logbook: All files contains &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;body&amp;gt;
 [2018-02-08 08:49:43.062358] NOTICE: eric_asterisks logbook: All needest lines contains asterisks
 [2018-02-08 08:49:43.063357] ERROR: eric_head logbook: Air_crashes.txt not contains «Постоянный адрес пакета:»
 [2018-02-08 08:49:43.064359] ERROR: eric_head logbook: One or more packages not contains one or more head data. Please, add correct head data to your package.
 [2018-02-08 08:49:43.064359] ERROR: summary logbook: You have errors in your packages. Please, fix them.
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If all &lt;em&gt;.txt&lt;/em&gt; files correct:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;C&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\ErichekExamples&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;erichek&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;C&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\ErichekExamples&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;erichek&lt;/span&gt;
 [2018-02-08 08:51:23.840987] NOTICE: eric_encoding logbook: All files in Windows-1251 encoding
 [2018-02-08 08:51:23.841997] NOTICE: eric_body logbook: All files contains &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;body&amp;gt;
 [2018-02-08 08:51:23.843991] NOTICE: eric_asterisks logbook: All needest lines contains asterisks
 [2018-02-08 08:51:23.844992] NOTICE: eric_head logbook: All files contains correct head data
 [2018-02-08 08:51:23.844992] NOTICE: summary logbook: Congratulations! You haven&amp;#39;t errors in your packages!
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Erichek works as expected.&lt;/p&gt;
 &lt;p&gt;After succsessful checking &lt;a href="https://github.com/davidmarble/virtualenvwrapper-win/#main-commands"&gt;you can remove&lt;/a&gt; your virtual environment (&lt;em&gt;erichekenv&lt;/em&gt; in example):&lt;/p&gt;
 &lt;!-- [NOTE] Plain text lexer:
 http://pygments.org/docs/lexers/#pygments.lexers.special.TextLexer --&gt;
 
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;(erichekenv) C:\Users\SashaChernykh&amp;gt;rmvirtualenv erichekenv
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;(erichekenv) C:\Users\SashaChernykh&amp;gt;rmvirtualenv erichekenv
 
 	Deleted C:\Users\SashaChernykh\Envs\erichekenv
 
 C:\Users\SashaChernykh&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="PyPI"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;11. PyPI&lt;/h2&gt;
@@ -1352,8 +1418,8 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;change version in your &lt;em&gt;setup.cfg&lt;/em&gt; file (it must be &lt;a href="https://semver.org/"&gt;semver&lt;/a&gt;-compatible);&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;in root folder of your package open terminal and print:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python setup.py bdist_wheel &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; twine upload dist/*
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python setup.py bdist_wheel &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; twine upload dist/*
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -1361,8 +1427,8 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;install your package, use pip:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install &amp;lt;your_package&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install &amp;lt;your_package&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -1396,8 +1462,8 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;&lt;a id="Demonstration-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;13.1. Demonstration&lt;/h3&gt;
 &lt;p&gt;I enter command to the terminal:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it -n -V
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;release-it -n -V
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;I get &lt;a href="https://github.com/Kristinita/Erichek/commit/be58c1d53bbc8aeb764807463b0db159b59200f6"&gt;behavior&lt;/a&gt;:&lt;/p&gt;
 &lt;ol&gt;
@@ -1434,7 +1500,7 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;&lt;a id="release-itjson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;13.4.1. .release-it.json&lt;/h4&gt;
 &lt;p&gt;Create a file &lt;em&gt;.release-it.json&lt;/em&gt; in root folder of your repository with content:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -u https:\/\/${repo.host}\/${repo.repository} -f CHANGELOG.md &amp;amp;&amp;amp; sed -i &amp;#39;s\/^version = .*$\/version = ${version}\/g&amp;#39; setup.cfg &amp;amp;&amp;amp; python setup.py bdist_wheel &amp;amp;&amp;amp; twine upload dist\/*&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -1446,7 +1512,7 @@ C:\Users\SashaChernykh&amp;gt;
 	&lt;span class="p"&gt;},&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;safeBump&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Where:&lt;/p&gt;
 &lt;ul&gt;
@@ -1461,8 +1527,8 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;div class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Note&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/Kristinita/Erichek/blob/master/.release-it.json"&gt;In &lt;em&gt;.release-it.json&lt;/em&gt; of real Erichek repository&lt;/a&gt; I add also next text:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="err"&gt;sed&lt;/span&gt; &lt;span class="err"&gt;-i&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;s\/^VERSION&lt;/span&gt; &lt;span class="err"&gt;=&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;.*\&amp;quot;$\/VERSION = \&amp;quot;${version}\&amp;quot;\/g&amp;#39; \&amp;quot;erichek\/eric_config.py\&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="err"&gt;sed&lt;/span&gt; &lt;span class="err"&gt;-i&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;s\/^VERSION&lt;/span&gt; &lt;span class="err"&gt;=&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;.*\&amp;quot;$\/VERSION = \&amp;quot;${version}\&amp;quot;\/g&amp;#39; \&amp;quot;erichek\/eric_config.py\&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;It change a version in &lt;em&gt;eric_config.py&lt;/em&gt; file, that command &lt;code class="SashaInlineHighlight"&gt;erichek --version&lt;/code&gt; works correct.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Version in eric_config.py" src="https://i.imgur.com/xMrSbew.png"&gt;&lt;/p&gt;
@@ -1548,8 +1614,8 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;&lt;a id="Demonstration"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Demonstration&lt;/h2&gt;
 &lt;p&gt;I &lt;a href="https://github.com/Kristinita/SashaSublime/commit/40783aee5a678d62f4e703248c277c725246f1ea"&gt;push commit&lt;/a&gt; to my GitHub repository → I enter in command line:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it -n -V
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;release-it -n -V
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Result: &lt;a href="https://github.com/Kristinita/SashaSublime/commit/b6bbf815fc4e59eff72c99e454898ec92d021990"&gt;1&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/SashaSublime/releases"&gt;2&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;CHANGELOG.md&lt;/em&gt; and &lt;em&gt;messages.json&lt;/em&gt;:&lt;/p&gt;
@@ -1604,9 +1670,9 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;p&gt;&lt;a id="Upstream-branch"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.2. Upstream branch&lt;/h3&gt;
 &lt;p&gt;You need to &lt;a href="https://stackoverflow.com/a/6089415/5951529"&gt;set upstream branch&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git checkout yourbranch
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git checkout yourbranch
 git branch --set-upstream
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;yourbranch&lt;/em&gt; — name of branch, which you want to do upstream. Please, change &lt;em&gt;yourbranch&lt;/em&gt; to real branch name.&lt;/li&gt;
@@ -1616,14 +1682,14 @@ git branch --set-upstream
 &lt;p&gt;Create blank file &lt;em&gt;CHANGELOG.md&lt;/em&gt;. If no, generate-changelog will works incorrect.&lt;/p&gt;
 &lt;p&gt;&lt;a id="packagejson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.4. package.json&lt;/h3&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;4.14.7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;scripts&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;release&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;release-it&amp;quot;&lt;/span&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;SashaSublime&lt;/em&gt; — name of your package,&lt;/li&gt;
@@ -1632,7 +1698,7 @@ git branch --set-upstream
 &lt;p&gt;Replace &lt;em&gt;SashaSublime&lt;/em&gt; and &lt;em&gt;4.14.7&lt;/em&gt; to your real values.&lt;/p&gt;
 &lt;p&gt;&lt;a id="release-itjson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.5. .release-it.json&lt;/h3&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;buildCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f - -u https:\/\/${repo.host}\/${repo.repository} | tee messages\/${version}.txt | cat - CHANGELOG.md &amp;gt; temp &amp;amp;&amp;amp; mv temp CHANGELOG.md &amp;amp;&amp;amp; sed -i &amp;#39;\/\\\&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;,&amp;#39; messages.json &amp;amp;&amp;amp; js-beautify -r messages.json&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;changelogCommand&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;changelog -f -&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;github&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -1648,30 +1714,30 @@ git branch --set-upstream
 		&lt;span class="nt"&gt;&amp;quot;tagName&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;st3-%s&amp;quot;&lt;/span&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class="admonition hint"&gt;
 &lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
 &lt;p&gt;Pay attention to slashes escaping. To convert terminal command to JSON I recommend to use &lt;a href="https://www.freeformatter.com/json-escape.html#ad-output"&gt;freeformatter.com service&lt;/a&gt;. For example:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sed -i &lt;span class="s1"&gt;&amp;#39;/\&amp;quot;install\&amp;quot;\: \&amp;quot;messages\/install\.txt\&amp;quot;/i\&amp;quot;4\.14\.7\&amp;quot;\: \&amp;quot;messages\/4\.14\.7\.txt\&amp;quot;,&amp;#39;&lt;/span&gt; messages.json
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sed -i &lt;span class="s1"&gt;&amp;#39;/\&amp;quot;install\&amp;quot;\: \&amp;quot;messages\/install\.txt\&amp;quot;/i\&amp;quot;4\.14\.7\&amp;quot;\: \&amp;quot;messages\/4\.14\.7\.txt\&amp;quot;,&amp;#39;&lt;/span&gt; messages.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;will convert to:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;sed&lt;/span&gt; &lt;span class="err"&gt;-i&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;\/\\\&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&amp;#39;&lt;/span&gt; &lt;span class="err"&gt;messages.json&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;sed&lt;/span&gt; &lt;span class="err"&gt;-i&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;\/\\\&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;install\\\&amp;quot;: \\\&amp;quot;messages\\\/install\\.txt\\\&amp;quot;\/i\\\&amp;quot;${version}\\\&amp;quot;: \\\&amp;quot;messages\\\/${version}\\.txt\\\&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&amp;#39;&lt;/span&gt; &lt;span class="err"&gt;messages.json&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;p&gt;&lt;a id="messagesjson"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.6. messages.json&lt;/h3&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;install&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;messages/install.txt&amp;quot;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Usage"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;10. Usage&lt;/h2&gt;
 &lt;p&gt;Add, commit and push your changes to remote GitHub repository. Example:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# Make any changes
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;# Make any changes
 D&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;\SashaSublime&lt;/span&gt;&lt;span class="c1"&gt;&amp;gt;git add .&lt;/span&gt;
 
 # I use commitizen instead of git commit
@@ -1702,7 +1768,7 @@ Total 3 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Kristinita/SashaSublime.git
 	0360628..52e517a  SashaDevelop -&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; SashaDevelop
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now run &lt;a href="https://www.npmjs.com/package/release-it#%EF%B8%8F-usage"&gt;one of command&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1718,8 +1784,8 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;If you want to know, how files and commands works, please, read this section.&lt;/p&gt;
 &lt;p&gt;&lt;a id="release-it-command"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;11.1. release-it command&lt;/h3&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;release-it -n -V
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;release-it -n -V
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;-n&lt;/em&gt; — &lt;a href="https://www.npmjs.com/package/release-it#-interactive-vs-non-interactive-mode"&gt;non-interactive mode&lt;/a&gt;. That you don't need input values each time manually.&lt;/li&gt;
@@ -2016,7 +2082,7 @@ To https://github.com/Kristinita/SashaSublime.git
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;If these hotkeys used in you another packages or you don't want use default hotkeys by another reasons: &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse packages…&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create a file &lt;em&gt;Default.suricate-profile&lt;/em&gt;, if no, and add to them these lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;user_commands&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;sasha_kristinitaluckylink_duckduckgo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 			&lt;span class="nt"&gt;&amp;quot;keys&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;super+keypad_multiply&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
@@ -2030,7 +2096,7 @@ To https://github.com/Kristinita/SashaSublime.git
 		&lt;span class="p"&gt;}&lt;/span&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;super+keypad8&lt;/code&gt; and &lt;code class="SashaInlineHighlight"&gt;&amp;lt;c&amp;gt;+super+browser_home&lt;/code&gt; from example to your preferred keys. See &lt;a href="http://docs.sublimetext.info/en/latest/reference/key_bindings.html#bindable-keys"&gt;key name convention&lt;/a&gt; in Sublime Text 3.&lt;/p&gt;
 &lt;p&gt;For detailed information about Suricate key bindings see &lt;a href="https://readthedocs.org/projects/sublime-suricate/"&gt;Sublime Suricate documentation&lt;/a&gt;.&lt;/p&gt;
@@ -2114,22 +2180,22 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;&lt;a id="DuckDuckGo"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.1.2. DuckDuckGo&lt;/h4&gt;
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;Кристина Кива&lt;/code&gt; to your real selection text.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;duckduckgo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;duckduckgo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;! Кристина Кива&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;redirect&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/crazedpsyc/python-duckduckgo"&gt;DuckDuckGo&lt;/a&gt; module problem.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Google"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.1.3. Google&lt;/h4&gt;
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;Кристина Кива&lt;/code&gt; to your real selection text.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pygoogling.googling&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;GoogleSearch&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pygoogling.googling&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;GoogleSearch&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;google_search&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;GoogleSearch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Кристина Кива&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;google_search&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;start_search&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_page&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;glink&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;google_search&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search_result&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;glink&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/essanpupil/pygoogling"&gt;pygoogling&lt;/a&gt; module problem.&lt;/p&gt;
@@ -2209,7 +2275,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;Also you open linting file → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Report (Open Files)&lt;/code&gt; → and see all linting errors and warnings of all your enabled SublimeLinter linters for all  opened files.&lt;/p&gt;
 &lt;h3&gt;6.3. Detail output&lt;/h3&gt;
 &lt;p&gt;You can to give detailed output, example:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller:&lt;/span&gt; &lt;span class="err"&gt;TheChorusGirl.Chekhov&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--check-yo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--find-repeat-words&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-digits&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-latin&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-roman-numerals&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-uppercase&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-urls&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller:&lt;/span&gt; &lt;span class="err"&gt;TheChorusGirl.Chekhov&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;C:\\Users\\SashaChernykh\\AppData\\Roaming\\npm\\yaspeller.cmd&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--check-yo&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--find-repeat-words&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-digits&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-latin&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-roman-numerals&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-uppercase&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;--ignore-urls&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="err"&gt;SublimeLinter:&lt;/span&gt; &lt;span class="err"&gt;valeriyaspeller&lt;/span&gt; &lt;span class="err"&gt;output:&lt;/span&gt;
 &lt;span class="err"&gt;Checking&lt;/span&gt; &lt;span class="err"&gt;finished:&lt;/span&gt; &lt;span class="mf"&gt;1.154&lt;/span&gt; &lt;span class="err"&gt;sec.&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;ERR&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;stdin&lt;/span&gt; &lt;span class="mi"&gt;710&lt;/span&gt; &lt;span class="err"&gt;ms&lt;/span&gt;
@@ -2224,15 +2290,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;span class="err"&gt;Letter&lt;/span&gt; &lt;span class="err"&gt;Ё&lt;/span&gt; &lt;span class="err"&gt;(Yo):&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
 &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt; &lt;span class="err"&gt;довел&lt;/span&gt; &lt;span class="err"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;108&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;count:&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt; &lt;span class="err"&gt;suggest:&lt;/span&gt; &lt;span class="err"&gt;довёл)&lt;/span&gt;
 &lt;span class="err"&gt;-----&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img alt="Detailed output" src="https://i.imgur.com/uC1hthv.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;code class="SashaInlineHighlight"&gt;SublimeLinter: Enable Debug Mode&lt;/code&gt; → open file, which you needs to linting → &lt;a href="http://stackoverflow.com/q/13965877/5951529"&gt;open Sublime Text console&lt;/a&gt; → see output.&lt;/p&gt;
 &lt;h2&gt;7. Description&lt;/h2&gt;
 &lt;h3&gt;7.1. Command line arguments&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.npmjs.com/package/yaspeller"&gt;Description of yaspeller npm module&lt;/a&gt;, &lt;a href="https://www.npmjs.com/package/yaspeller#options"&gt;command line keys&lt;/a&gt;. Default command is&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;yaspeller --check-yo --find-repeat-words --ignore-digits --ignore-latin --ignore-roman-numerals --ignore-uppercase --ignore-urls
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;7.2. Limits&lt;/h3&gt;
 &lt;p&gt;10 thousands queries and 10 millions symbols in a day, see &lt;a href="https://yandex.ru/legal/speller_api/"&gt;3.2 item&lt;/a&gt; terms of rules.&lt;/p&gt;
@@ -2727,9 +2793,9 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Build-System-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;3.4.5. Build System output console&lt;/h4&gt;
 &lt;p&gt;For get a black and white colors, Install &lt;a href="https://github.com/aziz/SublimeANSI"&gt;SublimeANSI&lt;/a&gt; plugin and &lt;a href="https://github.com/aziz/SublimeANSI#using-this-plugin-as-a-dependency-for-your-pluginbuild-output-panel"&gt;add&lt;/a&gt; in your &lt;em&gt;.sublime-build&lt;/em&gt; file these lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;target&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ansi_color_build&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;target&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;ansi_color_build&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;syntax&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/ANSIescape/ANSI.tmLanguage&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img alt="Build console" src="https://i.imgur.com/4s81HhM.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="ScopeHunter-output-console"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -2793,15 +2859,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Git"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Git&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → in this folder open terminal, preferable to you, and run command:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/Kristinita/SashaSublime.git
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/Kristinita/SashaSublime.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Hub"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.3. Hub&lt;/h3&gt;
 &lt;p&gt;I recommend use &lt;a href="https://hub.github.com/"&gt;Hub&lt;/a&gt; — a command-line wrapper for git that makes you better at GitHub.&lt;/p&gt;
 &lt;p&gt;If you use Hub, &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse Packages...&lt;/em&gt; → in this folder open terminal, preferable to you, and run command:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hub clone Kristinita/SashaSublime
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;hub clone Kristinita/SashaSublime
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Manually"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.4. Manually&lt;/h3&gt;
@@ -2820,15 +2886,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Manually-activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.2. Manually activation&lt;/h3&gt;
 &lt;p&gt;&lt;kbd&gt;Alt+N&lt;/kbd&gt; → &lt;em&gt;Settings&lt;/em&gt; → in file in right &lt;a href="http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html"&gt;pane&lt;/a&gt; add 2 lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;color_scheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/SashaSublime/SashaSublime.tmTheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;color_scheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Packages/SashaSublime/SashaSublime.tmTheme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;theme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SashaSublime.sublime-theme&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Be attentive, &lt;a href="http://ru.stackoverflow.com/a/238934/199934"&gt;correct place&lt;/a&gt; commas, quotes, brackets and colons.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Preferences"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. Preferences&lt;/h2&gt;
 &lt;p&gt;Also, you can make that all your settings were as at me. Copy into your file &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Settings - User&lt;/em&gt; these lines from my file &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Preferences.sublime-settings&lt;/em&gt;:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;always_show_minimap_viewport&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;always_show_minimap_viewport&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;auto_find_in_selection&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;bold_folder_labels&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;caret_style&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;wide&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
@@ -2854,7 +2920,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;span class="s2"&gt;&amp;quot;match_tags&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;menu_visible&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;quot;show_encoding&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="err"&gt;,&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Before copying save in a safe place file &lt;em&gt;Preferences.sublime-settings&lt;/em&gt; from the &lt;em&gt;User&lt;/em&gt; folder or, what better, use &lt;a href="https://github.com/vishr/local-history"&gt;Local History&lt;/a&gt; plugin. If you don’t like my preferences, you will be able to return to your preferable settings.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Setting-SashaSublime-for-some-plugins"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -2866,7 +2932,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;li&gt;Install plugin BracketHighlighter via Package Control,&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Package Settings&lt;/em&gt; → &lt;em&gt;BracketHighlighter&lt;/em&gt; → &lt;em&gt;Bracket Settings - User&lt;/em&gt; → add in open file this code and save file:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;bracket_styles&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 	&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;unmatched&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -2916,7 +2982,7 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="GitGutter"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;8.2. GitGutter&lt;/h3&gt;
@@ -2957,8 +3023,8 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;a id="Title-Bar-and-window-border-color"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9.2. Title Bar and window border color&lt;/h3&gt;
 &lt;p&gt;Win+R → insert in input area this text&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rundll32.exe shell32.dll,Control_RunDLL desk.cpl,Advanced,@Advanced
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ OK → move thumbs. You can preview changes in title bar your window. I select orange color:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Orange Title bar" src="https://i.imgur.com/iZDK322.png"&gt;&lt;/p&gt;
@@ -3021,8 +3087,8 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;h3&gt;11.1. SublimeLinter wrote own color scheme file in preferences&lt;/h3&gt;
 &lt;p&gt;If you use &lt;a href="https://github.com/SublimeLinter/SublimeLinter"&gt;SublimeLinter&lt;/a&gt;, you may not like that Sublime Linter set the color scheme in your user settings. To deactivate the color scheme SublimeLinter, follow these steps:&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → PackageResourceViewer: &lt;em&gt;Open Resource&lt;/em&gt; → &lt;em&gt;SublimeLinter&lt;/em&gt; → &lt;em&gt;lint&lt;/em&gt; → &lt;em&gt;util.py&lt;/em&gt; → in open file to comment out or remove line 215:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_timeout_async&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generate_color_scheme_async&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;sublime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_timeout_async&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generate_color_scheme_async&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Restart Sublime Text → SublimeLinter should not prescribe in your preferences own color scheme file. Thanks &lt;a href="https://github.com/r-stein"&gt;@r-stein&lt;/a&gt; at &lt;a href="https://forum.sublimetext.com/t/sublimelinter-write-own-color-scheme-path-in-the-configuration-file/21842/2?u=sasha_chernykh"&gt;solution&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Changing-color-of-square-inline-error"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -3038,11 +3104,11 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;p&gt;&lt;img alt="Expected phantom" src="https://i.imgur.com/LB5EWfR.png"&gt;&lt;/p&gt;
 &lt;p&gt;In the files of color scheme you can not change the color of the square of minihtml phantoms. You need again edit &lt;em&gt;exec.py&lt;/em&gt; file after each update Sublime Text.&lt;/p&gt;
 &lt;p&gt;Install &lt;a href="https://github.com/skuroda/PackageResourceViewer"&gt;PackageResourceViewer&lt;/a&gt; plugin → &lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; → &lt;em&gt;PackageResourceViewer: Open Resource&lt;/em&gt; → &lt;em&gt;Default&lt;/em&gt; → &lt;em&gt;exec.py&lt;/em&gt; → between &lt;em&gt;&amp;lt;style&amp;gt;&amp;lt;/style&amp;gt;&lt;/em&gt; add these lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;inline-error&lt;/span&gt; &lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;error&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;inline-error&lt;/span&gt; &lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;error&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt;
 &lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mh"&gt;#28071a&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;→ save &lt;em&gt;exec.py&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="See-also"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -3066,15 +3132,15 @@ perfect fan of &lt;a href="https://vk.com/hair_in_the_wind"&gt;Goddess&lt;/a&gt;
 &lt;h3&gt;15.1. Bitcoin&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://kristinita.netlify.com/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img alt="Bitcoin Donate Button" src="https://kristinita.netlify.com/images/donate_files/Bitcoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href="http://bitcoin.stackexchange.com/a/48744/41598"&gt;my answer&lt;/a&gt; to Bitcoin Stack Exchange, if you want to know how to make the same button. If you Bitcoin client not supported &lt;a href="https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"&gt;standard bitcoin schema URI&lt;/a&gt;, my Bitcoin address is:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;17uctxtsWG3gpyAy6iJ8AVd5rdSjkJH2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Litecoin"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.2. Litecoin&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://kristinita.netlify.com/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img alt="Litecoin Donate Button" src="https://kristinita.netlify.com/images/donate_files/Litecoin-Donate-button.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you Litecoin client not supported Litecoin schema URI, my Litecoin address is:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;LLVvhNKGMLGHa8QmeRrBsjZUBjSpQMjUkP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Paypal-$"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;15.3. Paypal $&lt;/h3&gt;

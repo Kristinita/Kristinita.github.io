@@ -300,7 +300,7 @@
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;If these hotkeys used in you another packages or you don't want use default hotkeys by another reasons: &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse packages…&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create a file &lt;em&gt;Default.suricate-profile&lt;/em&gt;, if no, and add to them these lines:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;user_commands&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;sasha_kristinitaluckylink_duckduckgo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 			&lt;span class="nt"&gt;&amp;quot;keys&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;super+keypad_multiply&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
@@ -314,7 +314,7 @@
 		&lt;span class="p"&gt;}&lt;/span&gt;
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;super+keypad8&lt;/code&gt; and &lt;code class="SashaInlineHighlight"&gt;&amp;lt;c&amp;gt;+super+browser_home&lt;/code&gt; from example to your preferred keys. See &lt;a href="http://docs.sublimetext.info/en/latest/reference/key_bindings.html#bindable-keys"&gt;key name convention&lt;/a&gt; in Sublime Text 3.&lt;/p&gt;
 &lt;p&gt;For detailed information about Suricate key bindings see &lt;a href="https://readthedocs.org/projects/sublime-suricate/"&gt;Sublime Suricate documentation&lt;/a&gt;.&lt;/p&gt;
@@ -398,22 +398,22 @@
 &lt;p&gt;&lt;a id="DuckDuckGo"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.1.2. DuckDuckGo&lt;/h4&gt;
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;Кристина Кива&lt;/code&gt; to your real selection text.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;duckduckgo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;duckduckgo&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;! Кристина Кива&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;redirect&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/crazedpsyc/python-duckduckgo"&gt;DuckDuckGo&lt;/a&gt; module problem.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Google"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.1.3. Google&lt;/h4&gt;
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;Кристина Кива&lt;/code&gt; to your real selection text.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pygoogling.googling&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;GoogleSearch&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pygoogling.googling&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;GoogleSearch&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;google_search&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;GoogleSearch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Кристина Кива&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;google_search&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;start_search&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_page&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;glink&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;google_search&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search_result&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;glink&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
 &lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/essanpupil/pygoogling"&gt;pygoogling&lt;/a&gt; module problem.&lt;/p&gt;

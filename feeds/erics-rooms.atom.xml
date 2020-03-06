@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Erics-Rooms</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/erics-rooms.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2020-01-09T08:30:21+03:00</updated><entry><title>Зелёная Комната Эрика</title><link href="https://kristinita.netlify.com/Erics-Rooms/%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F-%D0%9A%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0-%D0%AD%D1%80%D0%B8%D0%BA%D0%B0.html" rel="alternate"></link><published>2019-06-21T08:03:57+03:00</published><updated>2020-01-09T08:30:21+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2019-06-21:/Erics-Rooms/Зелёная-Комната-Эрика.html</id><summary type="html">&lt;p&gt;Описание Зелёной Комнаты Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Erics-Rooms</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/erics-rooms.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2020-03-06T14:20:22+03:00</updated><entry><title>Зелёная Комната Эрика</title><link href="https://kristinita.netlify.com/Erics-Rooms/%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F-%D0%9A%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B0-%D0%AD%D1%80%D0%B8%D0%BA%D0%B0.html" rel="alternate"></link><published>2019-06-21T08:03:57+03:00</published><updated>2020-02-23T11:41:57+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2019-06-21:/Erics-Rooms/Зелёная-Комната-Эрика.html</id><summary type="html">&lt;p&gt;Описание Зелёной Комнаты Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Особенности"&gt;Особенности&lt;/a&gt;&lt;ol&gt;
@@ -57,7 +57,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="#Политология"&gt;Политология&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Праздники"&gt;Праздники&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Психология"&gt;Психология&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#Психиатрия-и-психология"&gt;Психиатрия и психология&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="#Сергей-Степанов"&gt;Сергей Степанов&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Фобии"&gt;Фобии&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
@@ -582,22 +583,29 @@
         &lt;/tbody&gt;
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a id="Психология"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;4.18. Психология&lt;/h3&gt;
+&lt;p&gt;&lt;a id="Психиатрия-и-психология"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;4.18. Психиатрия и психология&lt;/h3&gt;
+&lt;p&gt;&lt;a id="Сергей-Степанов"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;4.18.1. Сергей Степанов&lt;/h4&gt;
 &lt;p&gt;
 &lt;div class="justtable"&gt;
     &lt;table&gt;
         &lt;tbody&gt;
             &lt;tr&gt;
+                &lt;td&gt;&lt;img alt="_" src="https://i.imgur.com/FL4fvPa.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Возрастная_и_социальная.txt"&gt;Возрастная и социальная&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Восприятие,_ощущения,_патологии_и_эмоции.txt"&gt;Восприятие, ощущения, патологии и эмоции&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Глубинная,_паранаука,_психоанализ_и_-терапия.txt"&gt;Глубинная, паранаука, психоанализ и -терапия&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Когнитивная.txt"&gt;Когнитивная&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Направления,_психология_животных_и_физиология.txt"&gt;Направления, психология животных и физиология&lt;/a&gt;, &lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Поведение_и_психологическая_защита.txt"&gt;Поведение и психологическая защита&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img class="SashaKristinogradIcon" alt="Is" src="https://kristinita.netlify.com/images/Kristinograd/Blue.png"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
                 &lt;td&gt;&lt;img alt="_" src="https://i.imgur.com/UWSCU98.jpg"&gt;&lt;/td&gt;
-                &lt;td&gt;&lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психология/Эксперименты.txt"&gt;Эксперименты&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://github.com/Kristinita/Erics-Green-Room/blob/master/Психиатрия_и_психология/Эксперименты.txt"&gt;Эксперименты&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;&lt;img class="SashaKristinogradIcon" alt="Is" src="https://kristinita.netlify.com/images/Kristinograd/Blue.png"&gt;&lt;/td&gt;
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Фобии"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;4.18.1. Фобии&lt;/h4&gt;
+&lt;h4&gt;4.18.2. Фобии&lt;/h4&gt;
 &lt;p&gt;
 &lt;div class="justtable"&gt;
     &lt;table&gt;
@@ -987,8 +995,8 @@
 &lt;p&gt;❌ — С другой стороны, привязка к теме может оказаться &lt;a href="#Зомбелины"&gt;зомбелиной&lt;/a&gt; и планируется альтернативный режим, когда вопросы для тренировки составляются из случайно взятых частей разных тематических пакетов.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Варианты-правильных-ответов"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.2.3. Варианты правильных ответов&lt;/h4&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Класс нейтронных звёзд с очень мощным магнитным полем — в тысячи раз мощнее, чем у обычных нейтронных звёзд. Самые намагниченные объекты Вселенной. (мн. ч.)*магнитары*магнетары
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Класс нейтронных звёзд с очень мощным магнитным полем — в тысячи раз мощнее, чем у обычных нейтронных звёзд. Самые намагниченные объекты Вселенной. (мн. ч.)*магнитары*магнетары
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Оба варианта — «магнЕтары» и «магнИтары» — корректны. Откуда отвечающему знать, какой из них выбрать? Для таких случаев на Альфа-хабе (сайте, где находится рабочий прототип Комнат Эрика) был придуман механизм зачёта множества ответов, т. е. для рассматриваемого случая будут приняты как «магнЕтары», так и «магнИтары».&lt;/p&gt;
 &lt;p&gt;❌ — Авторы вопросов бывают не в состоянии уследить за всеми корректными вариантами ответов. Вы поможете проекту, если добавите недостающие. Для этого кликните по &lt;em&gt;Сообщить об ошибке&lt;/em&gt; рядом с вопросом → выберите пункт &lt;em&gt;Хочу добавить дополнительный ответ&lt;/em&gt; → впишите вариант и авторитетный источник, где он встречается в той форме, которую Вы указали, → &lt;em&gt;Отправить&lt;/em&gt;.&lt;/p&gt;
@@ -1003,13 +1011,13 @@
 &lt;p&gt;&lt;a id="wrong"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;6.2.5. wrong&lt;/h4&gt;
 &lt;p&gt;Положим, Вы задали такой вопрос.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;На НЁМ расположена скульптура Медного Всадника*Гром-камень
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;На НЁМ расположена скульптура Медного Всадника*Гром-камень
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Но могут ведь ответить &lt;em&gt;Синь-камень&lt;/em&gt; или &lt;em&gt;Конь-камень&lt;/em&gt;: это не опечатки, а совершенно неправильные варианты, однако &lt;a href="#Опечатки"&gt;степень сходства по string-similarity&lt;/a&gt; составляет 0.6 → предоставляется право отвечать ещё.&lt;/p&gt;
 &lt;p&gt;Авторам неплохо бы отслеживать такие случаи и добавлять поля &lt;em&gt;wrong&lt;/em&gt;. Любая указанная после &lt;em&gt;wrong&lt;/em&gt; версия расценивается как ошибочная вне зависимости от того, насколько она похожа на правильные.&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;На НЁМ расположена скульптура Медного Всадника*Гром-камень*-wrong-Синь-камень*-wrong-Конь-камень
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;На НЁМ расположена скульптура Медного Всадника*Гром-камень*-wrong-Синь-камень*-wrong-Конь-камень
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Повторения"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.3. Повторения&lt;/h3&gt;
@@ -1041,14 +1049,14 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;npt&lt;/em&gt; — не путать понятие вопроса с какими-то другими:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Швейцарский геолог, ботаник и альпинист. Положил начало описательной геологии; 1787 — поднявшись вместе с Жаком Бальма на вершину Монблана, первым зафиксировал, что эта гора является высочайшей в Европе.*Орас де Соссюр*Орас Бенедикт де Соссюр*-wrong-Фердинанд Соссюр*-wrong-Фердинанд де Соссюр*-npt-С также швейцарским, но лингвистом Фердинандом Соссюром
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Швейцарский геолог, ботаник и альпинист. Положил начало описательной геологии; 1787 — поднявшись вместе с Жаком Бальма на вершину Монблана, первым зафиксировал, что эта гора является высочайшей в Европе.*Орас де Соссюр*Орас Бенедикт де Соссюр*-wrong-Фердинанд Соссюр*-wrong-Фердинанд де Соссюр*-npt-С также швейцарским, но лингвистом Фердинандом Соссюром
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;one&lt;/em&gt; — одно и то же, называющееся по-разному:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Шуховская башня вдохновила одного писателя на ЭТОТ роман*Гиперболоид инженера Гарина*-one-Шуховская башня и башня на Шаболовке
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Шуховская башня вдохновила одного писателя на ЭТОТ роман*Гиперболоид инженера Гарина*-one-Шуховская башня и башня на Шаболовке
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1116,7 +1124,7 @@
 &lt;p&gt;&lt;img alt="Основные опции" src="https://i.imgur.com/UVahXLZ.png"&gt;&lt;/p&gt;
 &lt;p&gt;Вы можете увеличить/уменьшить количество отведённых секунд для ответа; настроить время на чтение комментариев (оно зависит от количества символов в них) или сделать так, чтобы сразу осуществлялся бы переход к следующему вопросу, без траты на них драгоценных секунд (полезно при повторах); отыгрывать вопросы пакета рандомно или последовательно и т. д.&lt;/p&gt;
 &lt;p&gt;Полный список опций (также он предстанет перед Вашими глазами после набора команды &lt;em&gt;!opt all&lt;/em&gt;):&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Параметры квеста (полный список):
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Параметры квеста (полный список):
 
 0:                 Вернуться в главное меню
 1:                 .packname = /Металлургия.txt  // Имя пакета
@@ -1139,7 +1147,7 @@
 18:                .scoreLine = 1                // Что показывать в строке &amp;#39;счёт&amp;#39; [Только ответы]
 19:                .numHints = 4                 // Количество подсказок
 20:                .deferHints = false           // Отложенные подсказки
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;(Примечание: «подсказки» существуют только в рабочей версии, окончательная, скорее всего, &lt;a href="#Кроссвордные-подсказки"&gt;не будет их содержать&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;Опции объединены в наборы — &lt;strong&gt;пресеты&lt;/strong&gt;. Введите &lt;em&gt;!preset&lt;/em&gt; → выберите соответствующее число. Рекомендуемый пресет — &lt;em&gt;орнитоптера_Королевы_Александры&lt;/em&gt;, №7.&lt;/p&gt;
@@ -1205,9 +1213,9 @@
 &lt;p&gt;Однажды, за день до телевизионного шоу, Доминика О'Брайена попросили запомнить первые слова каждой страницы книги Джилли Купера «Поло». Страниц было 766! 150 человек экзаменовали его, держа 150 книг перед глазами. Ему задавали номера страниц и он говорил, какое слово на этой странице первое, пока не нашёлся один умник, который сказал слово и попросил назвать страницу, на которой оно написано. Доминика не предупреждали о том, что может произойти подобное.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Даже у суперпрофи мнемоники возникают затруднения, когда спрашивают так. Для джинджерин это проявляется в следующем: Вы, к примеру, легко ответили на вопрос &lt;em&gt;Столицей какого государства является X?&lt;/em&gt;, но не смогли справиться с &lt;em&gt;Какой город является столицей Y?&lt;/em&gt; или наоборот, когда речь идёт об одной паре государство—столица. Для борьбы с данной зомбелиной Комнаты Эрика имеют свойство, называемое &lt;strong&gt;реверсом&lt;/strong&gt;. Вопросы с реверсом выглядят следующим образом:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Тема: Назвать писателя по псевдониму или наоборот
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Тема: Назвать писателя по псевдониму или наоборот
 Борис Полевой*Борис Кампов*-reverse-*-info-Фамилию придумал редактор «Тверской правды»: «Кампус по-латыни, кажется, поле. Вот что: подписывайся-ка ты, друг милый, &amp;quot;Полевой&amp;quot;.»*-proof-97
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Комнаты с равной долей вероятности могут спросить как &lt;em&gt;Борис Полевой&lt;/em&gt;, — тогда Вам нужно назвать настоящее имя писателя, — так и &lt;em&gt;Борис Кампов&lt;/em&gt; — пишите псевдоним.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Для-авторов-вопросов"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1967,7 +1975,7 @@
 &lt;p&gt;Тао, юми — сценические псевдонимы Святой Екатерины Десятниковой. &lt;img alt="Тао" src="https://i.imgur.com/dvKxmBO.png"&gt; &lt;img alt="Юми" src="https://i.imgur.com/xOF3urA.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Erics-Rooms"></category><category term="gingerinas"></category></entry><entry><title>Поиск книг для Комнат Эрика</title><link href="https://kristinita.netlify.com/Erics-Rooms/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%9A%D0%BE%D0%BC%D0%BD%D0%B0%D1%82-%D0%AD%D1%80%D0%B8%D0%BA%D0%B0.html" rel="alternate"></link><published>2017-03-15T14:25:14+03:00</published><updated>2019-09-19T21:09:55+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-03-15:/Erics-Rooms/Поиск-книг-для-Комнат-Эрика.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг для Комнат Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="Erics-Rooms"></category><category term="gingerinas"></category></entry><entry><title>Поиск книг для Комнат Эрика</title><link href="https://kristinita.netlify.com/Erics-Rooms/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B4%D0%BB%D1%8F-%D0%9A%D0%BE%D0%BC%D0%BD%D0%B0%D1%82-%D0%AD%D1%80%D0%B8%D0%BA%D0%B0.html" rel="alternate"></link><published>2017-03-15T14:25:14+03:00</published><updated>2020-03-06T14:20:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-03-15:/Erics-Rooms/Поиск-книг-для-Комнат-Эрика.html</id><summary type="html">&lt;p&gt;Запросы о помощи в поиске книг для Комнат Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Содержание-страницы"&gt;Содержание страницы&lt;/a&gt;&lt;/li&gt;
@@ -2151,7 +2159,7 @@
                 &lt;td&gt; 12 &lt;/td&gt;
                 &lt;td&gt;&lt;a href="https://www.litres.ru/static/or3/view/or.html?art_type=4&amp;amp;bname=%25D0%2597%25D0%25BE%25D0%25BB%25D0%25BE%25D1%2582%25D1%258B%25D0%25B5%2520%25D1%2581%25D1%2582%25D1%2580%25D0%25BE%25D0%25BA%25D0%25B8.%2520%25D0%259B%25D1%2583%25D1%2587%25D1%2588%25D0%25B8%25D0%25B5%2520%25D1%2586%25D0%25B8%25D1%2582%25D0%25B0%25D1%2582%25D1%258B%2520%25D0%25B8%25D0%25B7%2520%25D1%2584%25D0%25B8%25D0%25BB%25D1%258C%25D0%25BC%25D0%25BE%25D0%25B2.%2520%25D0%25A7%25D0%25B0%25D1%2581%25D1%2582%25D1%258C%25201&amp;amp;art=16904354&amp;amp;uuid=9285cf0e-b564-11e5-a5a5-0cc47a5203ba&amp;amp;cover=/static/bookimages/19/93/14/19931420.bin.dir/19931420.cover.jpg&amp;amp;uilang=ru&amp;amp;trial=1"&gt;Золотые строки, лучшие цитаты из фильмов&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/zwHR2ze.jpg"&gt;&lt;/td&gt;
-                &lt;td&gt;Джордж Тиффин&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://peoplepill.com/people/george-tiffin/"&gt;Джордж Тиффин&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;Известные цитаты не из советских/российских фильмов&lt;/td&gt;
                 &lt;td&gt;Э&lt;/td&gt;
                 &lt;td&gt;&lt;a href="https://www.litres.ru/dzhordzh-tiffin/zolotye-stroki-luchshie-citaty-iz-filmov-chast-1-16904354"&gt;200&lt;/a&gt;&lt;/td&gt;
@@ -2196,7 +2204,7 @@
                 &lt;td&gt; 17 &lt;/td&gt;
                 &lt;td&gt;&lt;a href="https://fantlab.ru/edition76137"&gt;Волшебные иллюзии. Зарубежная художественная литература развлекательных жанров&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/71mOacG.jpg"&gt;&lt;/td&gt;
-                &lt;td&gt;М. Е. Бабичева, И. Г. Балашова, Т. В. Постникова&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.kontinent.org/article.php?aid=450af00f723d0"&gt;Майя Евгеньевна Бабичева&lt;/a&gt;, И. Г. Балашова, Т. В. Постникова&lt;/td&gt;
                 &lt;td&gt;Наиболее известные персоналиии произведения массовой литературы XX века&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="http://www.findbook.ru/search/d1?title=%E2%EE%EB%F8%E5%E1%ED%FB%E5+%E8%EB%EB%FE%E7%E8%E8&amp;amp;r=0&amp;amp;s=1&amp;amp;viewsize=15&amp;amp;startidx=0"&gt;1000&lt;/a&gt;&lt;/td&gt;
@@ -2227,6 +2235,78 @@
                 &lt;td&gt;Места Москвы, связанные с известными писателями&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="http://www.findbook.ru/search/d1?title=%EC%EE%F1%EA%E2%E0+%EB%E8%F2%E5%F0%E0%F2%F3%F0%ED%E0%FF&amp;amp;authors=%C7%E0%E1%F0%EE%E4%E8%ED%E0&amp;amp;r=0&amp;amp;s=1&amp;amp;viewsize=15&amp;amp;startidx=0"&gt;284&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 21 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.labirint.ru/reviews/goods/265059/"&gt;Экстремальный спорт и отдых&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/nVkjgld.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://fantlab.ru/publisher8"&gt;Аванта+&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;H&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_qkstremalnmnnyj_sport_i_otdyh_w1t18959384d1fc95a881f1a0f285362c2cbe41.html"&gt;200&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 22 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://velikie-nauki.ru/pdf/himiya.pdf"&gt;Великая химия&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/X0VtxkH.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://elementy.ru/bookclub/author/5275339/derek_loui"&gt;Дерек Лоуи&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;250 основных вех в истории химии&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_loui_derek_b_velikaya_himiya_ot_grecheskogo_ognya_do_grafena_250_osnovnyh_veh_v_istorii_himii_w1t19361b7ac8de4e13e36f2a991e17e97f1ec0.html"&gt;1800&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 23 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://elementy.ru/bookclub/author/5273281/maykl_ch_dzherald"&gt;Великие лекарства&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/BmmbrOV.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://elementy.ru/bookclub/author/5273281/maykl_ch_dzherald"&gt;Майкл Джералд&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;250 основных вех в истории фармакологии&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://chaconne.ru/product/3862717/?ref=fb"&gt;1980&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 24 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://velikie-nauki.ru/pdf/medicina.pdf"&gt;Великая медицина&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/WkOo9r0.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://elementy.ru/bookclub/author/5273059/klifford_a_pikover"&gt;Клиффорд Пиковер&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;250 основных вех в истории медицины&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.avito.ru/smolensk/knigi_i_zhurnaly/velikaya_meditsina_1644558514"&gt;850&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 25 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://velikie-nauki.ru/pdf/psyhologia.pdf"&gt;Великая психология&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/F62CfS6.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://elementy.ru/bookclub/author/5274359/ueyd_pikren"&gt;Уэйд Пикрен&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;250 основных вех в истории психологии&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_pikren_uqjd_velikaya_psihologiya_ot_shamanizma_do_sovremennoj_nevrologii_250_osnovnyh_veh_v_istorii_p_w1t34597998af4bb25bf17807614d992b8ef87e.html"&gt;1500&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 26 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.ozon.ru/context/detail/id/138955641/?stat=YW5fMQ%3D%3D"&gt;История рока. Хроника легендарных рок-групп и исполнителей&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/k8SVEGi.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.amazon.com/David-Roberts/e/B00554JNEK/ref=ntt_dp_epwbk_0"&gt;Дэвид Робертс&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Н&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.avito.ru/moskva/knigi_i_zhurnaly/istoriya_roka._hronika_legendarnyh_rok-grupp_894378338?slocation=621540"&gt;2000&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 27 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.labirint.ru/books/132688/"&gt;Русская литература: Популярная иллюстрированная энциклопедия&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/trVDw6j.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%85%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%92%D1%81%D0%B5%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B2%D0%B8%D1%87"&gt;Сергей Стахорский&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Н&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.avito.ru/smolensk/knigi_i_zhurnaly/entsiklopediya_1595344261"&gt;300&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 28 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.encyclopedia.ru/cat/books/book/34998/"&gt;Энциклопедия литературных произведений&lt;/a&gt;/&lt;a href="http://www.encyclopedia.ru/cat/books/book/7792/"&gt;Энциклопедия мировой литературы&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/jSGfxdS.jpg"&gt; &lt;img alt="О" src="https://i.imgur.com/Qjh9dAO.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%85%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%92%D1%81%D0%B5%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B2%D0%B8%D1%87"&gt;Сергей Стахорский&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Краткое изложение наиболее значительных произведениях мировой литературы&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.ozon.ru/context/detail/id/19427165/"&gt;700&lt;/a&gt;&lt;/td&gt;
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
@@ -2310,7 +2390,7 @@
                 &lt;td&gt; 7 &lt;/td&gt;
                 &lt;td&gt;Детские книги 2000—2012. Библиогид рекомендует. Сказки и фантастика.&lt;/td&gt;
                 &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/eGjTYUC.jpg"&gt;&lt;/td&gt;
-                &lt;td&gt;Пушкинская библиотека&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.pbl.ru/"&gt;Пушкинская библиотека&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;Краткое описание наиболее популярных детских книг последних лет&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;—&lt;/td&gt;
@@ -2319,7 +2399,7 @@
                 &lt;td&gt; 8 &lt;/td&gt;
                 &lt;td&gt;&lt;a href="https://www.labirint.ru/books/315483/"&gt;Музыка наших дней&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/qe6LBw4.png"&gt;&lt;/td&gt;
-                &lt;td&gt;Аванта+&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://fantlab.ru/publisher8"&gt;Аванта+&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;О музыке XX века&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="http://www.findbook.ru/search/d1?title=%EC%F3%E7%FB%EA%E0+%ED%E0%F8%E8%F5+%E4%ED%E5%E9&amp;amp;r=0&amp;amp;s=1&amp;amp;viewsize=15&amp;amp;startidx=0"&gt;200&lt;/a&gt;&lt;/td&gt;
@@ -2342,6 +2422,78 @@
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="http://www.findbook.ru/search/d1?title=%F4%F3%FD%F2%E5+%EE+%E1%E0%EB%E5%F2%E5&amp;amp;r=0&amp;amp;s=1&amp;amp;viewsize=15&amp;amp;startidx=0"&gt;380&lt;/a&gt;&lt;/td&gt;
             &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 11 &lt;/td&gt;
+                &lt;td&gt;Пирамида успеха тренера Вудена&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/n9bC7mK.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.britannica.com/biography/John-Wooden"&gt;Джон Вуден&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Мотивационная книга о психологии спортсмена&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.visson.net/book/piramida-uspekha-trenera-vudena"&gt;160&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 12 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://books.google.ru/books?id=A9gPAwAAQBAJ&amp;amp;printsec=frontcover&amp;amp;source=gbs_ge_summary_r&amp;amp;cad=0#v=onepage&amp;amp;q&amp;amp;f=false"&gt;Правила игр&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/KusRinD.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;Сергей Мазаник&lt;/td&gt;
+                &lt;td&gt;Основные понятия, правила карточных, настольных и активных спортивных игр&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.chitai-gorod.ru/catalog/book/689832/?utm_source=ymarket&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=9646&amp;amp;utm_content=9621&amp;amp;utm_term=689832"&gt;217&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 13 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.labirint.ru/books/705928/"&gt;Президенты США&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/5Bfsqyj.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://gvardiya.ru/publishing/authors/chernjavskij_gi"&gt;Георгий Чернявский&lt;/a&gt;, &lt;a href="http://gvardiya.ru/publishing/authors/dubova_larisa_leonidovna"&gt;Лариса Дубова&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Н&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_chernyavskij_g_dubova_l_prezidenty_ssha_w1t980b4bd1d0ed6aa38d35854f4c7d8a2363b.html"&gt;920&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 14 &lt;/td&gt;
+                &lt;td&gt;Управлять, работать, жить&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/2tgzk6z.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://web.archive.org/web/20110927094752/http://www.post.ch/post-dp-nutze-die-staerken-und-baue-sie-aus.pdf#page=2"&gt;Фредмунд Малик&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Системный подход к управлению&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.labirint.ru/books/163039/"&gt;742&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 15 &lt;/td&gt;
+                &lt;td&gt;Мой новый Вавилон&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/Q2hkTlu.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://web.archive.org/web/20160417051645/http://www.aif.ru/dossier/1327"&gt;Самвел Гарибян&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Словарь ключей запоминания английских слов&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_garibyan_samvel_moj_novyj_vavilon_slovarnmn_klyuchej_zapominaniya_1300_anglijskih_slov_w1t4295da0470abc56d2e2f12773e101cd5f15a.html"&gt;400&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 16 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://books.google.ru/books?id=SFkyDwAAQBAJ&amp;amp;printsec=frontcover&amp;amp;source=gbs_ge_summary_r&amp;amp;cad=0#v=onepage&amp;amp;q&amp;amp;f=false"&gt;Морской этимологический словарь&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/vQeeDBg.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://books.google.ru/books?id=SFkyDwAAQBAJ&amp;amp;pg=PT10&amp;amp;lpg=PT10&amp;amp;dq=Николай+Ткаченко+капитан+дальнего+плавания"&gt;Николай Ткаченко&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Н&lt;/td&gt;
+                &lt;td&gt;Э&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.books.ru/books/morskoi-etimologicheskii-slovar-4764517/"&gt;100&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 17 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.avito.ru/izhevsk/knigi_i_zhurnaly/entsiklopediya_populyarnoy_muzyki._bondarenko_v.v._d_1848356399?slocation=621540#extended"&gt;Энциклопедия популярной музыки&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/pGhDQgW.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://gvardiya.ru/publishing/authors/bondarenko_vv"&gt;Вячеслав Бондаренко&lt;/a&gt;, Юрий Дроздов&lt;/td&gt;
+                &lt;td&gt;357 групп и исполнителей с середины 1950-х по 2005 в алфавитном порядке&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.avito.ru/moskva/knigi_i_zhurnaly/knigi_o_kino_muzyke_1807405306"&gt;100&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 18 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://static.my-shop.ru/product/pdf/242/2413916.pdf"&gt;Энциклопедия Heavy Metal&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/H8jBmZW.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.cnbc.com/daniel-bukszpan/"&gt;Дэниел Букшпан&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Н&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_bukshpan_dqniel_qnciklopediya_heavy_metal_w1t23981caa7ccf461297dba03f035d6cba03d2.html"&gt;800&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -2359,7 +2511,7 @@
             &lt;th&gt;Автор&lt;/th&gt;
             &lt;th&gt;Тематика&lt;/th&gt;
             &lt;th&gt;Версия&lt;/th&gt;
-            &lt;th&gt;Минимальная цена&lt;/th&gt;
+            &lt;th&gt;алва цена&lt;/th&gt;
         &lt;/tr&gt;
         &lt;/thead&gt;
         &lt;tbody&gt;
@@ -2394,7 +2546,7 @@
                 &lt;td&gt; 4 &lt;/td&gt;
                 &lt;td&gt;Блюда с историей&lt;/td&gt;
                 &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/eWYRkou.jpg"&gt;&lt;/td&gt;
-                &lt;td&gt;Альфонс Шубек&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.horeca-magazine.ru/article/2230/"&gt;Альфонс Шубек&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;Н&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="http://www.findbook.ru/search/d1?title=%C1%EB%FE%E4%E0+%F1+%E8%F1%F2%EE%F0%E8%E5%E9&amp;amp;authors=%D8%F3%E1%E5%EA&amp;amp;r=0&amp;amp;s=1&amp;amp;viewsize=15&amp;amp;startidx=0"&gt;650&lt;/a&gt;&lt;/td&gt;
@@ -2466,7 +2618,7 @@
                 &lt;td&gt; 12 &lt;/td&gt;
                 &lt;td&gt;Сокровища исламской архитектуры&lt;/td&gt;
                 &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/GQKXXof.jpg"&gt;&lt;/td&gt;
-                &lt;td&gt;Татьяна Стародуб-Еникеева&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://tekhnosfera.com/stanovlenie-i-razvertyvanie-prostranstvennoy-struktury-traditsionnoy-mecheti-irana"&gt;Татьяна Стародуб-Еникеева&lt;/a&gt;&lt;/td&gt;
                 &lt;td&gt;Н&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="https://www.avito.ru/rossiya/knigi_i_zhurnaly?q=%D1%81%D0%BE%D0%BA%D1%80%D0%BE%D0%B2%D0%B8%D1%89%D0%B0%20%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B"&gt;1700&lt;/a&gt;&lt;/td&gt;
@@ -2479,6 +2631,69 @@
                 &lt;td&gt;Н&lt;/td&gt;
                 &lt;td&gt;Б&lt;/td&gt;
                 &lt;td&gt;&lt;a href="http://www.findbook.ru/search/d1?title=%F2%E5%E0%F2%F0%FB+%CF%E5%F2%E5%F0%E1%F3%F0%E3%E0&amp;amp;authors=%CD%E8%EA%EE%ED&amp;amp;r=0&amp;amp;s=1&amp;amp;viewsize=15&amp;amp;startidx=0"&gt;250&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 14 &lt;/td&gt;
+                &lt;td&gt;Москва Вековечная&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/eHOHBdo.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.rsl.ru/ru/all-news/240112"&gt;Вячеслав Мешков&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Природа, история, архитектура, культура, быт Москвы; художественные произведения о ней&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_meshkov_v_m_moskva_vekovechnaya_bibliograficheskaya_qnciklopediya_w1t65149fc4161ccfa5b7d29210764cf39047c.html"&gt;350&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 15 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.labirint.ru/books/668615/"&gt;Этюды о словах&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/UQDiNvM.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://ta.cfuv.ru/system/files/20180903/Pastukhova.PDF"&gt;Лидия Пастухова&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;О происхождении слов русского языка&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_pastuhova_l_s_qtyudy_o_slovah_w1t306611423384ef222887fdf0a5f1b4be5dc4.html"&gt;90&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 16 &lt;/td&gt;
+                &lt;td&gt;Книга хипстера: атлас-определитель&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/hCQ9UxI.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;Джош Айелло&lt;/td&gt;
+                &lt;td&gt;Описания представителей некоторых молодёжных субкультур&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://www.alib.ru/5_ajello_dzh_kniga_hipstera_atlas_opredelitelnmn_w1t1368a5d5f6993e70c39fefd152b7dcff068b.html"&gt;150&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 17 &lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://kravchuk.ucoz.com/publ/rekordy_prirody/7-1-0-18"&gt;Рекорды природы&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/hbjiwaI.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://uk.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%B2%D1%87%D1%83%D0%BA_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%90%D0%B2%D0%BA%D1%81%D0%B5%D0%BD%D1%82%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87"&gt;Пётр Кравчук&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Рекорды космоса, природы и жвых существ&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://kravchuk.ucoz.com/index/knigi_kravchuka/0-6"&gt;82&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 18 &lt;/td&gt;
+                &lt;td&gt;Популярная энциклопедия звёзд&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/KmMSpoX.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://coollib.net/a/40624-fedor-nbspibatovich-nbsprazzakov"&gt;Фёдор Раззаков&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;Н&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://meshok.net/item/170667969_Книга_quot_Популярная_энциклопедия_звезд_quot_Ф_Раззаков_Москва_2000_Твёрдая_обл_688_с_С"&gt;285&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 19 &lt;/td&gt;
+                &lt;td&gt;История рок-музыки&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/MdRcsfy.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="http://gvardiya.ru/publishing/authors/bondarenko_vv"&gt;Вячеслав Бондаренко&lt;/a&gt;, Юрий Дроздов&lt;/td&gt;
+                &lt;td&gt;Обзор творчества более 500 групп и исполнителей&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.libex.ru/detail/book292842.html"&gt;350&lt;/a&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt; 20 &lt;/td&gt;
+                &lt;td&gt;Так логично&lt;/td&gt;
+                &lt;td&gt;&lt;img alt="О" src="https://i.imgur.com/4OcAonj.jpg"&gt;&lt;/td&gt;
+                &lt;td&gt;Каталина Хаваш&lt;/td&gt;
+                &lt;td&gt;Практическая логика&lt;/td&gt;
+                &lt;td&gt;Б&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.libex.ru/detail/book340037.html"&gt;100&lt;/a&gt;&lt;/td&gt;
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;

@@ -62,17 +62,17 @@ blockquote {
 }
 
 .SashaBlockquote {
-	border-color: Sasha-Term-Blockquote-Border;
-	background-color: Sasha-Term-Blockquote-Background;
-	color: Sasha-Term-Blockquote-Foreground;
+	border-color: #7b68ee;
+	background-color: #ffdab9;
+	color: #191970;
 }
 
 .SashaEpigraph {
-	color: Sasha-Epigraph;
+	color: #20b2aa;
 }
 
 .SashaEpigraph >em {
-	color: Sasha-Epigraph-Em;
+	color: #db7093;
 }
 
 code {
@@ -92,6 +92,10 @@ code {
 .KiraGRights {
 	color: #fafad2;
 	background: #fa8072;
+}
+
+.progress {
+	background-color: #ffe4c4;
 }
 
 /* csslint ignore:start */
@@ -116,10 +120,6 @@ div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
 	color: #639;
 }
 
-div.wf.wf-theme-dark .ivu-input::-ms-input-placeholder {
-	color: #639;
-}
-
 div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
 	color: #639;
 }
@@ -137,10 +137,6 @@ div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,d
 }
 
 div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
-	color: #696969;
-}
-
-div.wf.wf-theme-dark input.ivu-input::-ms-input-placeholder {
 	color: #696969;
 }
 
