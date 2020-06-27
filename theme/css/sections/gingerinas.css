@@ -382,6 +382,10 @@ div.wf.wf-theme-dark .wf-tip {
 	color: #ef6155;
 }
 
+.SashaInlineHighlight .nl,.SashaBlockHighlight .nl {
+	color: #2f1e2e;
+}
+
 .SashaInlineHighlight .py,.SashaBlockHighlight .py {
 	color: #2f1e2e;
 }
