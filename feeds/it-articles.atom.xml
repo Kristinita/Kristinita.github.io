@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2019-08-02T19:06:59+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.app/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2019-06-14T21:25:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T16:02:47+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.app/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2019-06-14T21:25:18+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text &lt;br&gt;&lt;br&gt; &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -419,7 +419,7 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2019-06-14T16:10:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2020-09-18T16:02:47+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -892,7 +892,9 @@ Your cheese is so fresh most people think it&lt;span class="err"&gt;&amp;#39;&lt
 &lt;blockquote&gt;
 &lt;p&gt;Virtualenv is like building a moat around the house. It prevents a fire from spreading — in both directions. Likewise, a virtual environment prevents that Python projects interfere with each other.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt="virtualenv" src="https://i.imgur.com/fRISif0.png"&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;![virtualenv](https://i.imgur.com/fRISif0.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Reasons of use virtual environment for TestPyPI installation:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;You can have bugs in your package. Bugs may have a negative impact of your environment. If you will use virtual environment, these bugs does not affect your global Python environment.&lt;/li&gt;

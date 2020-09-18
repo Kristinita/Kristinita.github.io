@@ -84,10 +84,6 @@ blockquote >p >em {
 	color: #db7093;
 }
 
-code {
-	background-color: #2f4f4f;
-}
-
 ::-moz-selection {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T08:48:20+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.app/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2019-06-14T21:23:59+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.app,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T19:46:18+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.app/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2020-09-18T19:46:18+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.app,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Timer for Russian gingerinas.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -74,7 +74,7 @@
 &lt;p&gt;&lt;a id="Режим-БлицСуперблицБрейн-Ринг"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;4.1.1. Режим Блиц/Суперблиц/Брейн Ринг&lt;/h4&gt;
 &lt;p&gt;В активном окне Sublime Text 3: игрок нажимает &lt;kbd&gt;Ctrl+Alt+Context_Menu&lt;/kbd&gt; — или (зная о &lt;a href="https://umaar.com/dev-tips/36-sublime-fuzzy-search/"&gt;fuzzy-поиске&lt;/a&gt;) набирает в &lt;a href="https://www.youtube.com/watch?v=QDajzykRdn0"&gt;command palette&lt;/a&gt; &lt;em&gt;Suricate: Sacagawea: Blitz/Supeblitz/Brain Ring&lt;/em&gt; → раздаётся звук + открывается вкладка, где 20 секунд происходит обратный отсчёт времени, → за 10 секунд до окончания отсчёта раздаётся другой звук → спустя ещё 10 секунд таймер доходит до нуля + раздаётся третий звук + вкладка с таймером закрывается.&lt;/p&gt;
-&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://streamable.com/s/vsowo/uemzak"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://video.ploud.fr/videos/embed/1c93a77b-371d-446c-a293-6a872a2088a9"&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;При записи видео с экрана использовались следующие приложения:&lt;/p&gt;
 &lt;ul&gt;
@@ -93,7 +93,7 @@
 &lt;h4&gt;4.2.1. Windows&lt;/h4&gt;
 &lt;p&gt;Прозвучал вопрос → ведущий ТВ-передачи даёт сигнал к началу отсчёта — например, говорит «Время», — игрок нажимает &lt;kbd&gt;Ctrl+Alt+Context_Menu&lt;/kbd&gt; (&lt;a href="https://en.wikipedia.org/wiki/Menu_key"&gt;местонахождение клавиши Context_Menu&lt;/a&gt;) → запускается скрипт.&lt;/p&gt;
 &lt;p&gt;Скрипт автоматически выполняет следующие действия: нажимается пробел — клавишей &lt;kbd&gt;Space&lt;/kbd&gt; в web-плейерах, которые знаю, останавливается воспроизведение видео, → &lt;kbd&gt;Alt+Tab&lt;/kbd&gt; — &lt;a href="https://support.microsoft.com/ru-ru/help/79869/pressing-alt-tab-to-switch-between-applications"&gt;переключение между приложениями&lt;/a&gt;, — в Sublime Text запускается процесс, &lt;a href="#Заявленное-поведение"&gt;описанный в разделе «Заявленное поведение»&lt;/a&gt;, → вновь &lt;kbd&gt;Alt+Tab&lt;/kbd&gt; → происходит возвращение во вкладку браузера со «Что? Где? Когда?».&lt;/p&gt;
-&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://streamable.com/s/jbvny/mqofcq"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://video.ploud.fr/videos/embed/8c9305e6-671e-4d4d-9abe-e045cc9740df"&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;При записи видео с экрана помимо &lt;a href="#Режим-БлицСуперблицБрейн-Ринг"&gt;вышеупомянутых&lt;/a&gt; использовались следующие приложения:&lt;/p&gt;
 &lt;ul&gt;

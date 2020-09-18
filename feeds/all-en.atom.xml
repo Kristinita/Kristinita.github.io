@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T08:48:20+03:00</updated><entry><title>Процесс поиска книг</title><link href="https://kristinita.netlify.app/Special/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3.html" rel="alternate"></link><published>2019-09-09T11:46:08+03:00</published><updated>2020-03-02T13:26:43+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2019-09-09:/Special/Примеры-поиска-книг.html</id><summary type="html">&lt;p&gt;Как подбираются книги для Комнат Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T19:32:55+03:00</updated><entry><title>Процесс поиска книг</title><link href="https://kristinita.netlify.app/Special/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3.html" rel="alternate"></link><published>2019-09-09T11:46:08+03:00</published><updated>2020-03-02T13:26:43+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2019-09-09:/Special/Примеры-поиска-книг.html</id><summary type="html">&lt;p&gt;Как подбираются книги для Комнат Эрика&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Описание"&gt;Описание&lt;/a&gt;&lt;/li&gt;
@@ -862,7 +862,7 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2019-06-14T16:10:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2020-09-18T16:02:47+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt; &lt;br&gt;&lt;br&gt; &lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1335,7 +1335,9 @@ Your cheese is so fresh most people think it&lt;span class="err"&gt;&amp;#39;&lt
 &lt;blockquote&gt;
 &lt;p&gt;Virtualenv is like building a moat around the house. It prevents a fire from spreading — in both directions. Likewise, a virtual environment prevents that Python projects interfere with each other.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt="virtualenv" src="https://i.imgur.com/fRISif0.png"&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;![virtualenv](https://i.imgur.com/fRISif0.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Reasons of use virtual environment for TestPyPI installation:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;You can have bugs in your package. Bugs may have a negative impact of your environment. If you will use virtual environment, these bugs does not affect your global Python environment.&lt;/li&gt;
@@ -1843,7 +1845,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-09-18T08:48:19+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-09-18T19:32:55+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -1921,7 +1923,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;It may take a lot of time. Use KristinitaLuckyLink I can make all these actions, &lt;strong&gt;press one shortcut&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Demonstration"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.2. Demonstration&lt;/h3&gt;
-&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://streamable.com/s/bj22k/ykgkws"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://video.ploud.fr/videos/embed/5d800b76-c468-4510-b2af-d84d28def4a9"&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Examples"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.3. Examples&lt;/h3&gt;
@@ -2106,9 +2108,11 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Captions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: DuckDuckGo&lt;/code&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: Google&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: Google&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Command palette" src="https://i.imgur.com/SjWzTcb.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;a id="Documentation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Documentation&lt;/h2&gt;
 &lt;!-- [NOTE:] escapeall facelessuser plugin --&gt;

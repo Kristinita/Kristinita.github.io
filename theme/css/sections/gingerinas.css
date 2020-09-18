@@ -96,14 +96,6 @@ blockquote >p >em {
 	color: #dc143c;
 }
 
-code {
-	background-color: #2f4f4f;
-}
-
-pre >code {
-	background-color: #000;
-}
-
 ::-moz-selection {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);
@@ -366,6 +358,11 @@ div.wf.wf-theme-dark .wf-tip {
 
 .SashaInlineHighlight .kr,.SashaBlockHighlight .kr {
 	color: #815ba4;
+	font-weight: bold;
+}
+
+.SashaInlineHighlight .kt,.SashaBlockHighlight .kt {
+	color: #ff8c00;
 	font-weight: bold;
 }
 

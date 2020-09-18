@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T08:48:19+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.app/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T19:32:55+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.app/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -61,7 +61,7 @@
 &lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.2. Dependencies&lt;/h3&gt;
-&lt;p&gt;In progress.&lt;/p&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-09-18T08:48:19+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;In progress.&lt;/p&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-09-18T19:32:55+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -139,7 +139,7 @@
 &lt;p&gt;It may take a lot of time. Use KristinitaLuckyLink I can make all these actions, &lt;strong&gt;press one shortcut&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Demonstration"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.2. Demonstration&lt;/h3&gt;
-&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://streamable.com/s/bj22k/ykgkws"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://video.ploud.fr/videos/embed/5d800b76-c468-4510-b2af-d84d28def4a9"&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Examples"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.3. Examples&lt;/h3&gt;
@@ -324,9 +324,11 @@
 &lt;p&gt;Captions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: DuckDuckGo&lt;/code&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: Google&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: Google&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Command palette" src="https://i.imgur.com/SjWzTcb.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;a id="Documentation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Documentation&lt;/h2&gt;
 &lt;!-- [NOTE:] escapeall facelessuser plugin --&gt;

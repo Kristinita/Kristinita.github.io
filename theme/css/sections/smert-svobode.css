@@ -88,10 +88,6 @@ blockquote >p >em {
 	color: #ffdc33;
 }
 
-code {
-	background-color: #2f4f4f;
-}
-
 .SashaShadow {
 	text-shadow: 0 0 0.625rem #ff00de, 0 0 1.25rem #ff00de, 0 0 1.875rem #ff00de, 0 0 2.5rem #ff00de, 0 0 3.125rem #ff00de, 0 0 3.75rem #ff00de;
 }
