@@ -58,6 +58,25 @@
 		width 100%
 
 	/*
+	[DECLINED]
+	1. Bigger font-size not required for real Kristinita’s Search site,
+	2. “span.buorg-icon” not increase icon size
+
+	[INFO] Bigger browser-update font size and icons for mobile devices;
+	default values too small, see 3.3 item:
+	https://github.com/browser-update/browser-update/issues/388
+	 */
+
+	/*
+	div.buorg
+		font-size 2rem
+
+	span.buorg-icon
+		width 2rem
+		height 2rem
+	 */
+
+	/*
 	jquery-responsive-tables —
 	plugin for different tables displaying in different orientations:
 	https://www.npmjs.com/package/jquery-responsive-tables
@@ -93,7 +112,7 @@
 
 /* For landscape orientation */
 
-// [NOTE] CSSLint ignoring, because “div.buorg” overqualified element
+// [NOTE] CSSLint ignoring, because “div.buorg” is overqualified elements
 /* csslint ignore:start */
 
 @media screen and (orientation landscape)
@@ -102,8 +121,8 @@
 		position fixed
 
 	/*
-	 * [NOTE] “div.buorg”, not “.buorg” overwrite default width:
-	 * https://stackoverflow.com/a/9956515/5951529
+	[NOTE] “div.buorg”, not “.buorg” overwrite default width:
+	https://stackoverflow.com/a/9956515/5951529
 	 */
 	div.buorg
 	main

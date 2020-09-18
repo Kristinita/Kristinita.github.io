@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-06-14T15:44:14+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.com/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T08:48:19+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.app/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -61,7 +61,7 @@
 &lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.2. Dependencies&lt;/h3&gt;
-&lt;p&gt;In progress.&lt;/p&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.com/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2019-06-14T15:44:14+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;In progress.&lt;/p&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-09-18T08:48:19+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -146,7 +146,7 @@
 &lt;p&gt;Conversion examples:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;kristinitaluckylife&lt;/code&gt; → &lt;code class="SashaInlineHighlight"&gt;[kristinitaluckylife](https://www.instagram.com/kristinitaluckylife/)&lt;/code&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Поиск Кристиниты&lt;/code&gt; → &lt;code class="SashaInlineHighlight"&gt;[Поиск Кристиниты](https://kristinita.ru/)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Поиск Кристиниты&lt;/code&gt; → &lt;code class="SashaInlineHighlight"&gt;[Поиск Кристиниты](https://kristinita.netlify.app/)&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;You select text,&lt;/li&gt;

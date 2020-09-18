@@ -12,7 +12,6 @@
  * - HTML, body
  * - Links
  * - Headers
- * - Bold and cursive
  * - KBD
  * - noscript
  * Tables
@@ -71,11 +70,8 @@ body {
 .SashaBottomAside,
 .SashaInlineHighlight,
 a,
-em,
 td,
 th,
-ol > li,
-ul > li,
 pre {
 /*
  * [FIXME][NOTE] Disable, because KaiOS partially support it:
@@ -113,6 +109,7 @@ h6:hover > .headerlink {
 }
 .SashaVideo,
 #SashaRunkit,
+.SashaDonatePayWidget,
 .SashaWebMoneyWidget {
 	width: 100%;
 	position: relative;
@@ -207,8 +204,6 @@ a:focus {
 .SashaHeader {
 	line-height: 0.7rem;
 }
-/* >> Bold and cursive
-	========================================================================== */
 /* >> KBD
 	========================================================================== */
 .KiraGRights {
@@ -260,17 +255,17 @@ th {
 	========================================================================== */
 /* >> ol, ul, li
 	========================================================================== */
-/* [DEPRECATED] Incorrect works indents for lists, example:
+/*
+[DECLINED] Incorrect works indents for lists, example:
 <li>
 <p>Kristina</p>
 </li>
  */
 /*
-That the bullets not lost on mobile version
-ol,
-ul {
-	list-style-position: inside;
-}
+[INFO] That the bullets not lost on mobile version
+ol
+ul
+	list-style-position inside
  */
 /* >> TOC
 	========================================================================== */
@@ -391,6 +386,11 @@ img {
 /* >> Embed iframe
 	========================================================================== */
 /* csslint ignore:start */
+/*
+[WARNING] Not possible to change iframe style via CSS:
+https://stackoverflow.com/posts/comments/1890034
+https://stackoverflow.com/a/6495816/5951529
+ */
 .SashaVideo {
 	padding-bottom: 74.38%;
 }
@@ -404,9 +404,31 @@ img {
  */
 	padding-bottom: 13rem;
 }
+/*
+.widget
+	background thistle
+ */
+/*
+#payment-text::placeholder
+	opacity .7*/
 .SashaWebMoneyWidget {
 	padding-bottom: 16rem;
 }
+/*
+.crowd-widget-summ label
+.crowd-widget-payment-methods h3
+.crowd-widget-contract-offer span
+#comment::placeholder
+	color black*/
+/*
+[INFO] Remove white stripe below “Поддержать” word:
+Before: https://i.imgur.com/axyTkrh.png
+After: https://i.imgur.com/naqmXB6.png
+ */
+/*
+.crowd-widget
+	padding-bottom 1.125rem
+ */
 /* csslint ignore:end */
 iframe {
 	width: 100%;

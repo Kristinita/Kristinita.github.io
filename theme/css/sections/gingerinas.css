@@ -23,13 +23,18 @@ img {
 	box-shadow: 0 0 2rem #000;
 }
 
-.SashaKristinogradIcon {
+.SashaNoShadowsImage {
 	box-shadow: none;
 	min-width: 2rem;
 }
 
 .SashaPageLoading {
 	box-shadow: none;
+	/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+	 */
+	display: none;
 }
 
 kbd {
@@ -54,6 +59,10 @@ blockquote {
 	border-left: solid #dc143c 0.5rem;
 	color: #bc8f8f;
 	background: #faebd7;
+}
+
+blockquote >p >em {
+	color: #f08080;
 }
 
 .SashaBlockquote {
@@ -378,7 +387,19 @@ div.wf.wf-theme-dark .wf-tip {
 	font-weight: bold;
 }
 
+.SashaInlineHighlight .nc,.SashaBlockHighlight .nc {
+	color: #ff8c00;
+}
+
 .SashaInlineHighlight .no,.SashaBlockHighlight .no {
+	color: #ef6155;
+}
+
+.SashaInlineHighlight .nd,.SashaBlockHighlight .nd {
+	color: #5bc4bf;
+}
+
+.SashaInlineHighlight .ne,.SashaBlockHighlight .ne {
 	color: #ef6155;
 }
 

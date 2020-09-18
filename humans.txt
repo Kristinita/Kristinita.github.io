@@ -3,7 +3,7 @@
 
 /* TEAM */
 	Web Developer: Sasha Chernykh (http://uid.me/sasha_chernykh)
-	Site: https://Kristinita.netlify.com
+	Site: https://Kristinita.netlify.app
 	Contacts: https://vk.com/hair_in_the_wind
 	Location: Там, где Саша
 
@@ -12,7 +12,7 @@
 	Site: alfavika.ru
 
 /* SITE */
-	Last update: 2020/6/27
+	Last update: 2020/9/18
 	Standards: HTML5, CoffeeScript, Stylus
 	Components: Pelican, Python Markdown, Grunt, JQuery and many plugins for this components
 	Software: Sublime Text and many plugins for Sublime Text

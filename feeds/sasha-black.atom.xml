@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sasha-Black</title><link href="https://kristinita.netlify.com/" rel="alternate"></link><link href="https://kristinita.netlify.com/feeds/sasha-black.atom.xml" rel="self"></link><id>https://kristinita.netlify.com/</id><updated>2019-06-14T15:42:08+03:00</updated><entry><title>Sasha Black — проверка репутации сайта</title><link href="https://kristinita.netlify.com/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2017-03-16T00:38:14+03:00</published><updated>2019-06-14T15:42:08+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.com,2017-03-16:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sasha-Black</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sasha-black.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T08:48:19+03:00</updated><entry><title>Sasha Black — проверка репутации сайта</title><link href="https://kristinita.netlify.app/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2017-03-16T00:38:14+03:00</published><updated>2020-09-18T08:48:19+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-03-16:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Sasha-Black-для-владельцев-сайтов"&gt;Sasha Black для владельцев сайтов&lt;/a&gt;&lt;/li&gt;
@@ -70,7 +70,7 @@
 &lt;p&gt;Если Вам небезразличны безопасность и репутация:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;В меру своих ресурсов следуйте многочисленным рекомендациям профессионалов в зависисмости от того, какой у Вас сайт. &lt;a href="http://aleksius.com/joomla/zashchita-sajta/zashchita-joomla-chast-1" title="Защита сайта на Joomla!"&gt;Пример для популярной CMS Joomla!&lt;/a&gt;. Со статическими с. &lt;a href="http://prgssr.ru/development/pochemu-generatory-staticheskih-sajtov-budut-populyarny.html#heading-section-1" title="Безопасность статических сайтов"&gt;проблем с безопасностью куда меньше&lt;/a&gt;. Осваивайте генераторы статики, &lt;a href="http://prgssr.ru/development/pochemu-generatory-staticheskih-sajtov-budut-populyarny.html" title="Почему статические сайты будут популярны"&gt;за ними будущее&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Периодически проверяйте сайты в Sasha Black :) . Находясь на странице &lt;a href="https://kristinita.ru/Sasha-Black"&gt;https://kristinita.ru/Sasha-Black&lt;/a&gt;, нажмите на+ (в Windows), добавив её тем самым в закладки браузера.&lt;/li&gt;
+&lt;li&gt;Периодически проверяйте сайты в Sasha Black :) . Находясь на странице &lt;a href="https://kristinita.netlify.app/Sasha-Black"&gt;https://kristinita.netlify.app/Sasha-Black&lt;/a&gt;, нажмите на+ (в Windows), добавив её тем самым в закладки браузера.&lt;/li&gt;
 &lt;li&gt;Где возможно, подтверждайте владение и подписывайтесь по почте на бесплатные уведомления о новых отзывах и автоматические отчёты по наличию с. в блэклистах.&lt;/li&gt;
 &lt;li&gt;Оказавшись в чёрном списке, отправьте сообщение в техподдержку внёсшего Вас сервиса с просьбой объяснить причины. Часто показывается, какой именно элемент посчитан за вредоносный: если уверены, что там всё гладко, поясните это в сообщении. Пишите конструктивно, без наездов, в вежливой форме, — шансы на благоприятный исход повысятся. Он действительно обычно наступает после первого же Вашего письма без лишней нервотёпки. Вот если внесли повторно — очистить репутацию сложнее.&lt;/li&gt;
 &lt;li&gt;Не спешите отдавать деньги. Некоторые сервисы могут предложить вынести Ваш сайт из блэклиста за определённую сумму — пусть идут куда подальше. На других рядом с результатами высвечивается предложение воспользоваться их же платными услугами, например, купить файервол, — взвесьте все за и против, вероятно, он для Вас бесполезен. Лучшая трата — обращение к проверенному специалисту.&lt;/li&gt;
@@ -83,7 +83,7 @@
 &lt;p&gt;Sucuri и MX Toolbox же не видят ничего подозрительного на данном явно мошенническом ресурсе.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Sucuri_сканирует_usenet.nl" src="https://i.imgur.com/3kwq7rM.jpg"&gt;
 &lt;img alt="MX_Toolbox_проверяет_usenet.nl" src="https://i.imgur.com/ycS0w43.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Зато опасным посчитал Sucuri сайт Kristinita.ru , который Вы сейчас читаете, из-за &lt;a href="https://pip.qip.ru/" title="Кнопки QIP"&gt;виджета социальных закладок&lt;/a&gt;, а alfavika.ru почему-то оказалась в чёрном списке Dr.Web'а — обе проблемы разрешились &lt;a href="#Советы-владельцам-сайтов"&gt;обычным обращением в техподдержку&lt;/a&gt; . Автоматическим службам в составе Sasha Black — «Онлайн-сканерам» и проверке в «Блэклистах» — можно доверять, если набирается с десяток предупреждений, единичные скорее свидетельствуют о проблемах в алгоритмах внесения/вынесения внёсших с. сервисов. Мы то с вами об этом знаем, а вот большинство привыкло во всём полагаться на довольно несовершенную технику.&lt;/p&gt;
+&lt;p&gt;Зато опасным посчитал Sucuri сайт kristinita.netlify.app , который Вы сейчас читаете, из-за &lt;a href="https://pip.qip.ru/" title="Кнопки QIP"&gt;виджета социальных закладок&lt;/a&gt;, а alfavika.ru почему-то оказалась в чёрном списке Dr.Web'а — обе проблемы разрешились &lt;a href="#Советы-владельцам-сайтов"&gt;обычным обращением в техподдержку&lt;/a&gt; . Автоматическим службам в составе Sasha Black — «Онлайн-сканерам» и проверке в «Блэклистах» — можно доверять, если набирается с десяток предупреждений, единичные скорее свидетельствуют о проблемах в алгоритмах внесения/вынесения внёсших с. сервисов. Мы то с вами об этом знаем, а вот большинство привыкло во всём полагаться на довольно несовершенную технику.&lt;/p&gt;
 &lt;p&gt;Примеры:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Из одного диалога:&lt;/li&gt;
@@ -99,7 +99,7 @@
 &lt;li&gt;Оставляют запущенными рекламорезки и на с., где не всплывают окна и отсутствует прочая навязчивая реклама; как итог — &lt;a href="https://www.admuncher.com/" title="Ad Muncher"&gt;Ad Muncher&lt;/a&gt; «съедает» панель редактора на форумах с BBCode, не позволяет зарегистрироваться в кабинете вебмастера на Mail.ru или оставить комментарий к ответу на Stack Overflow и т. д.&lt;/li&gt;
 &lt;li&gt;Многие, включая Сашу Черных, в честь Которой наречена данная служба, заводят почтовый ящик на GMail, кидающий в папку «Спам» половину важных писем, тогда как настоящий спам на почту практически не приходит. &lt;a href="https://productforums.google.com/forum/#!topic/gmail-ru/ydfMTF7IUec"&gt;Разобраться бы&lt;/a&gt;, да мало кто обращает взор на содержимое «Спама».&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Почему лучше, если сайт везде покажет такие же 100-процентные результаты, как kristinita.ru на скриншотах ниже.&lt;/p&gt;
+&lt;p&gt;Почему лучше, если сайт везде покажет такие же 100-процентные результаты, как kristinita.netlify.app на скриншотах ниже.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Онлайн-сканеры"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4. Онлайн-сканеры&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Quterra"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -113,7 +113,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;a href="http://darkzona.com/sucuri/" title="Описание Sucuri"&gt;Краткий обзор&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Sucuri" src="https://i.imgur.com/QqRtVuL.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;По поводу жёлтой строки «Website Firewall» — «Not Found». Kristinita.ru — статический сайт из HTML-страниц, &lt;a href="http://www.thejethost.com/hosting/bezopasnost_sayta.html" title="Безопасность статического сайта 1"&gt;относительно&lt;/a&gt; &lt;a href="http://dizems.ru/v-chem-otlichie-staticheskix-sajtov-ot-dinamicheskix" title="Безопасность статического сайта 2"&gt;более&lt;/a&gt; &lt;a href="http://forum.e-proficom.ru/viewtopic.php?f=83&amp;amp;t=1702" title="Безопасность статического сайта 3"&gt;защищённый&lt;/a&gt; от разного рода хакерских атак, неиспользование файервола не столь критично. Располагается Kristinita.ru на GitHub Pages, где &lt;a href="http://ru.stackoverflow.com/questions/501519/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BD%D0%B0-github-pages" title="Безопасность сайта на GitHub Pages"&gt;уязвимым место является разве что домен&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;По поводу жёлтой строки «Website Firewall» — «Not Found». kristinita.netlify.app — статический сайт из HTML-страниц, &lt;a href="http://www.thejethost.com/hosting/bezopasnost_sayta.html" title="Безопасность статического сайта 1"&gt;относительно&lt;/a&gt; &lt;a href="http://dizems.ru/v-chem-otlichie-staticheskix-sajtov-ot-dinamicheskix" title="Безопасность статического сайта 2"&gt;более&lt;/a&gt; &lt;a href="http://forum.e-proficom.ru/viewtopic.php?f=83&amp;amp;t=1702" title="Безопасность статического сайта 3"&gt;защищённый&lt;/a&gt; от разного рода хакерских атак, неиспользование файервола не столь критично. Располагается kristinita.netlify.app на GitHub Pages, где &lt;a href="http://ru.stackoverflow.com/questions/501519/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BD%D0%B0-github-pages" title="Безопасность сайта на GitHub Pages"&gt;уязвимым место является разве что домен&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Is-It-Hacked"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.3. Is It Hacked?&lt;/h3&gt;
 &lt;p&gt;Как следует из названия, производится сканирование на предмет взлома. &lt;a href="http://www.IsItHacked.com/" title="Описание Is It Hacked? от первого лица"&gt;Утверждается&lt;/a&gt;, что сервис применим к с., выполненным на любых языках программирования вне зависимости от CMS или фреймворка.&lt;/p&gt;
@@ -140,7 +140,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="Robtex1" src="https://i.imgur.com/CbcypA7.jpg"&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;В отличие от прочих &lt;a href="http://wwhois.ru/whois.php" title="Что такое Whois сервисы"&gt;Whois сервисов&lt;/a&gt; иногда случается узнать контактный адрес не только регистратора домена, но и владельца с. собственной персоной, что полезно, если Вам нужно лично связаться с ним. Сайт Kristinita.ru изначально был зарегистрирован на почту SashaChernykhEmpress(собака)aeterna.ru .&lt;/li&gt;
+&lt;li&gt;В отличие от прочих &lt;a href="http://wwhois.ru/whois.php" title="Что такое Whois сервисы"&gt;Whois сервисов&lt;/a&gt; иногда случается узнать контактный адрес не только регистратора домена, но и владельца с. собственной персоной, что полезно, если Вам нужно лично связаться с ним. Сайт kristinita.netlify.app изначально был зарегистрирован на почту SashaChernykhEmpress(собака)aeterna.ru .&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="Robtex2" src="https://i.imgur.com/GKZHiN3.jpg"&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -175,7 +175,7 @@
 &lt;p&gt;&lt;img alt="vURL" src="https://i.imgur.com/SumFWO9.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Пользовательские-оценки"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Пользовательские оценки&lt;/h2&gt;
-&lt;p&gt;Где баллы репутации выставляют люди, а не техника. Kristinita.ru — молодой (на март 2016) сайт без особой репутации, почему в примерах на скриншотах не он.&lt;/p&gt;
+&lt;p&gt;Где баллы репутации выставляют люди, а не техника. kristinita.netlify.app — молодой (на март 2016) сайт без особой репутации, почему в примерах на скриншотах не он.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Web-of-Trust"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;6.1. Web of Trust&lt;/h3&gt;
 &lt;p&gt;Ресурс также известен как MyWOT и WOT.&lt;/p&gt;
@@ -257,6 +257,6 @@
 &lt;p&gt;&lt;a id="Благодарности"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;10. Благодарности&lt;/h2&gt;
 &lt;p&gt;Спасибо &lt;a href="https://vk.com/dark_alf" title="Alfy ВКонтакте"&gt;Alfy Centauri&lt;/a&gt;, создателю &lt;a href="http://alfavika.ru/" title="Альфа-хаб"&gt;альфа-хаба&lt;/a&gt;, за помощь в работе над Sasha Black.&lt;/p&gt;
-&lt;p&gt;Вы же можете поблагодарить за Sasha Black на вышеупомянутом Web of Trust. Зарегистрировавшись, перейдите по &lt;a href="https://www.mywot.com/ru/scorecard/kristinita.ru" title="MyWOT Kristinita.ru"&gt;ссылке&lt;/a&gt;, кликните в самый правый край зелёных блоков и поставьте галочку напротив «Хороший сайт». Ага, регистрация занимает время, почему сайты недосчитываются положительных отзывов.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Оценить Kristinita.ru на Web of Trust" src="https://i.imgur.com/zQCJLOX.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Вы же можете поблагодарить за Sasha Black на вышеупомянутом Web of Trust. Зарегистрировавшись, перейдите по &lt;a href="https://www.mywot.com/ru/scorecard/kristinita.netlify.app" title="MyWOT kristinita.netlify.app"&gt;ссылке&lt;/a&gt;, кликните в самый правый край зелёных блоков и поставьте галочку напротив «Хороший сайт». Ага, регистрация занимает время, почему сайты недосчитываются положительных отзывов.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Оценить kristinita.netlify.app на Web of Trust" src="https://i.imgur.com/zQCJLOX.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Посвящается и названо в честь &lt;a href="https://vk.com/hair_in_the_wind" title="Божечка ВК"&gt;Королевы Мира Саши Черных&lt;/a&gt;, Абсолюта, Единственного Создания, ради Которого стоит жить на этой планете, Чей божественный лик красуется на логотипе Sasha Black и в правой части (на мобильных устройствах сверху) данной страницы.&lt;/p&gt;</content><category term="Sasha-Black"></category><category term="sasha-black"></category></entry></feed>

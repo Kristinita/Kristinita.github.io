@@ -13,7 +13,7 @@ KiraFunction = function(url, KiraSite) {
 	var adr, domain, l, ms, query;
 	// Select “hostname” from address
 	// [DEPRECATED]
-	// If “Kristinita.ru”, not “https://kristinita.ru”, works incorrect
+	// If “kristinita.netlify.app”, not “https://kristinita.netlify.app”, works incorrect
 	// url = parse_url(url).hostname;
 	if (url.substring(0, 7) === 'http://') {
 		url = url.substring(7);

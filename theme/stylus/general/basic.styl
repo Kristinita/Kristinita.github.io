@@ -13,7 +13,6 @@
  * - HTML, body
  * - Links
  * - Headers
- * - Bold and cursive
  * - KBD
  * - noscript
  * Tables
@@ -159,12 +158,6 @@ h6
 .SashaHeader
 	line-height .7rem
 
-/* >> Bold and cursive
-	========================================================================== */
-
-em
-	@extend $SashaNoHorizontalScrollbar
-
 /* >> KBD
 	========================================================================== */
 
@@ -235,26 +228,29 @@ th
 /* >> ol, ul, li
 	========================================================================== */
 
-/* [DEPRECATED] Incorrect works indents for lists, example:
+/*
+[DECLINED] Incorrect works indents for lists, example:
 <li>
 <p>Kristina</p>
 </li>
  */
 
 /*
-That the bullets not lost on mobile version
-ol,
-ul {
-	list-style-position: inside;
-}
+[INFO] That the bullets not lost on mobile version
+ol
+ul
+	list-style-position inside
  */
-
-// Left margin in nested lists
-
 ol
 ul
 	> li
-		@extend $SashaNoHorizontalScrollbar
+		/*
+		[DECLINED] All words in lists breaks in this case, for example:
+		“ca-t” or “c-at”
+		[WARNING] I can’t find, how I can set specific symbols for line breaks
+		 */
+		// @extend $SashaNoHorizontalScrollbar
+		// [INFO] Left margin in nested lists
 		@extend $KiraOptimalMarginLeft
 
 .SashaOlMargin
@@ -448,6 +444,12 @@ img
 
 /* csslint ignore:start */
 
+/*
+[WARNING] Not possible to change iframe style via CSS:
+https://stackoverflow.com/posts/comments/1890034
+https://stackoverflow.com/a/6495816/5951529
+ */
+
 // [NOTE] Id, not class required for #SashaRunKit third-party element
 
 // PeerTube videos
@@ -467,10 +469,43 @@ img
 	 */
 	padding-bottom 13rem
 
+// [INFO] DonatePay widget
+.SashaDonatePayWidget
+	@extend $SashaIframe
+
+// [INFO] Widget background color
+/*
+.widget
+	background thistle
+ */
+
+// [INFO] Placeholder color
+/*
+#payment-text::placeholder
+	opacity .7*/
+
 // WebMoney widget
 .SashaWebMoneyWidget
 	@extend $SashaIframe
 	padding-bottom 16rem
+
+// [INFO] Color for pale elements
+/*
+.crowd-widget-summ label
+.crowd-widget-payment-methods h3
+.crowd-widget-contract-offer span
+#comment::placeholder
+	color black*/
+
+/*
+[INFO] Remove white stripe below “Поддержать” word:
+Before: https://i.imgur.com/axyTkrh.png
+After: https://i.imgur.com/naqmXB6.png
+ */
+/*
+.crowd-widget
+	padding-bottom 1.125rem
+ */
 
 /* csslint ignore:end */
 

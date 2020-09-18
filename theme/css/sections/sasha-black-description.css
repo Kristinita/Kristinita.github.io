@@ -35,6 +35,11 @@ img {
 
 .SashaPageLoading {
 	box-shadow: none;
+	/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+	 */
+	display: none;
 }
 
 kbd {
@@ -55,6 +60,10 @@ blockquote {
 	border-left: solid #ff5a00 0.5rem;
 	color: #333;
 	background: #fcfcfc;
+}
+
+blockquote >p >em {
+	color: #ff69b4;
 }
 
 code {

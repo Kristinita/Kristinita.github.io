@@ -131,17 +131,22 @@ dfn
 img
 	box-shadow 0 0 2rem Sasha-Image-Shadow
 
-
 /*
-Kristinograd categories icons
+[INFO] Disable shadows for small images;
+particularly, for Kristinograd categories icons:
 “min-width”, because icons decrease in mobile tables
  */
-.SashaKristinogradIcon
+.SashaNoShadowsImage
 	box-shadow none
 	min-width 2rem
 
 .SashaPageLoading
 	box-shadow none
+	/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+	 */
+	display none
 
 /* >> KBD
 	========================================================================== */
@@ -188,6 +193,11 @@ blockquote
 	border-left solid Sasha-Left-Border .5rem
 	color Sasha-Left-Border-Foreground
 	background Sasha-Left-Border-Background
+
+	// [INFO] Italic text inside blockquote
+	>p
+		>em
+			color Sasha-Blockquote-Em
 
 /* >> Terms
 	========================================================================== */
