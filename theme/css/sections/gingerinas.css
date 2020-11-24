@@ -2,110 +2,84 @@ body {
 	background: #f3efd6;
 	color: #738e8b;
 }
-
 a {
 	color: #bc8475;
 }
-
 a:hover {
 	background-color: #eee8aa;
 }
-
 a:focus {
 	background: #f0fff0;
 }
-
 em {
 	color: #f08080;
 }
-
 img {
 	box-shadow: 0 0 2rem #000;
 }
-
 .SashaNoShadowsImage {
 	box-shadow: none;
 	min-width: 2rem;
 }
-
 .SashaPageLoading {
 	box-shadow: none;
-	/*
+/*
 	[INFO] Tracking will still:
 	https://en.ryte.com/wiki/Tracking_Pixel
-	 */
+ */
 	display: none;
 }
-
 kbd {
 	color: #fff5ee;
 	background: #6495ed;
 }
-
 hr {
 	color: #c71585;
 }
-
-td,th {
+td,
+th {
 	border: 0.0625rem solid #738e8b;
 }
-
 .SashaBottomAside {
 	color: #fff;
 	bottom: 8%;
 }
-
 blockquote {
 	border-left: solid #dc143c 0.5rem;
 	color: #bc8f8f;
 	background: #faebd7;
 }
-
 blockquote >p >em {
 	color: #f08080;
 }
-
 .SashaBlockquote {
 	border-color: #7b68ee;
 	background-color: #ffdab9;
 	color: #191970;
 }
-
 .SashaCitation {
 	color: #fa8072;
 }
-
 .SashaEpigraph {
 	color: #20b2aa;
 }
-
 .SashaEpigraph >.SashaEpigraphAuthor {
 	color: #ba55d3;
 }
-
 .SashaEpigraph >em {
 	color: #db7093;
 }
-
 .SashaGingerinasExample {
 	background-color: #d0f0c0;
 }
-
 .SashaGingerinasBadExample {
 	background-color: rgba(240,128,128,0.569);
 	color: #dc143c;
 }
-
-::-moz-selection {
-	color: #f08080;
-	background: rgba(255,228,181,0.99);
-}
-
 ::selection {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);
 }
-
 .progress {
 	background-color: #f3efd6;
 	display: block;
@@ -114,13 +88,11 @@ blockquote >p >em {
 	height: 1.2rem;
 	position: relative;
 }
-
 .progress-bar {
 	background-color: #000;
 	height: 1.2rem;
 	float: left;
 }
-
 .progress-label {
 	color: #696969;
 	position: absolute;
@@ -132,337 +104,214 @@ blockquote >p >em {
 	white-space: nowrap;
 	overflow: hidden;
 }
-
 .progress-0plus .progress-bar {
-	/* [LEARN][STYLUS]
+/* [LEARN][STYLUS]
 			[NOTE] Needs concatenate; otherwise space between variables:
 			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: #808000;
 }
-
 .progress-10plus .progress-bar {
-	/* [LEARN][STYLUS]
+/* [LEARN][STYLUS]
 			[NOTE] Needs concatenate; otherwise space between variables:
 			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: #9370db;
 }
-
 .progress-20plus .progress-bar {
-	/* [LEARN][STYLUS]
+/* [LEARN][STYLUS]
 			[NOTE] Needs concatenate; otherwise space between variables:
 			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: #cd853f;
 }
-
 .progress-30plus .progress-bar {
-	/* [LEARN][STYLUS]
+/* [LEARN][STYLUS]
 			[NOTE] Needs concatenate; otherwise space between variables:
 			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: #db7093;
 }
-
-.progress-40plus .progress-bar {
-	/* [LEARN][STYLUS]
-			[NOTE] Needs concatenate; otherwise space between variables:
-			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
-	background-color: #66cdaa;
-}
-
-.progress-50plus .progress-bar {
-	/* [LEARN][STYLUS]
-			[NOTE] Needs concatenate; otherwise space between variables:
-			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
-	background-color: #f4a460;
-}
-
 .progress-60plus .progress-bar {
-	/* [LEARN][STYLUS]
+/* [LEARN][STYLUS]
 			[NOTE] Needs concatenate; otherwise space between variables:
 			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
 	background-color: #90ee90;
 }
-
-.progress-70plus .progress-bar {
-	/* [LEARN][STYLUS]
-			[NOTE] Needs concatenate; otherwise space between variables:
-			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
-	background-color: #b0e0e6;
-}
-
-.progress-80plus .progress-bar {
-	/* [LEARN][STYLUS]
-			[NOTE] Needs concatenate; otherwise space between variables:
-			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
-	background-color: #ffa07a;
-}
-
-.progress-90plus .progress-bar {
-	/* [LEARN][STYLUS]
-			[NOTE] Needs concatenate; otherwise space between variables:
-			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
-	background-color: #ffc0cb;
-}
-
-.progress-100plus .progress-bar {
-	/* [LEARN][STYLUS]
-			[NOTE] Needs concatenate; otherwise space between variables:
-			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
-	background-color: #c0c0c0;
-}
-
 /* csslint ignore:start */
-
-div .a2a_floating_style {
+div.a2a_floating_style {
 	background-color: #87cefa;
 }
-
 /* csslint ignore:end */
-
 /* csslint ignore:start */
-
 div.animate-flicker span {
 	color: #1e90ff;
 }
-
-div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta {
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,
+div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,
+div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
 	color: #a52a2a;
 }
-
-div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,
+div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-text,
+div.wf.wf-theme-dark .ivu-btn-text:hover,
+div.wf.wf-theme-dark .ivu-input::placeholder,
+div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,
+div.wf.wf-theme-dark .ivu-menu-item-selected span,
+div.wf.wf-theme-dark a.wf-use-wildfire span,
+div.wf.wf-theme-dark a.wf-use-wildfire:hover span,
+div.wf.wf-theme-dark .wf-separator,
+div.wf.wf-theme-dark .wf-no-content-tip,
+div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,
+div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,
+div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,
+div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
+div.wf.wf-theme-dark .wf-comment-content,
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,
+div.wf.wf-theme-dark .ivu-menu {
 	color: #1e90ff;
 }
-
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,div.wf.wf-theme-dark .ivu-menu {
-	color: #1e90ff;
+div.wf.wf-theme-dark .wf-use-wildfire svg path,
+div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
+	fill: #1e90ff;
 }
-
 div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
 	background-color: #1e90ff;
 }
-
 div.wf.wf-theme-dark > footer {
 	border-top-color: #1e90ff;
 }
-
-div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
-	color: #696969;
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover {
+	border-bottom-color: #1e90ff;
 }
-
 div.wf.wf-theme-dark input.ivu-input::placeholder {
 	color: #696969;
 }
-
 div.wf.wf-theme-dark .ivu-icon-heart-broken {
 	color: #00008b;
 }
-
 div.wf.wf-theme-dark .ivu-icon-heart {
 	color: #dc143c;
 }
-
-div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
 	background-color: #f0f8ff;
 }
-
-div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
+div.wf.wf-theme-dark .wf-post-btn[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
 	border-color: #1e90ff;
 }
-
 div.wf.wf-theme-dark .wf-tip {
 	font-size: 0.7rem;
 }
-
 /* csslint ignore:end */
-
-.SashaInlineHighlight,.SashaBlockHighlight {
+.SashaInlineHighlight,
+.SashaBlockHighlight {
 	background-color: #e7e9db;
 	color: #cd5c5c;
 }
-
-.SashaInlineHighlight .c,.SashaBlockHighlight .c {
+.SashaInlineHighlight .c,
+.SashaBlockHighlight .c {
 	background-color: #e7e9db;
 	font-style: italic;
 	color: #8d8687;
 }
-
-.SashaInlineHighlight .err,.SashaBlockHighlight .err {
-	color: #ef6155;
-}
-
-.SashaInlineHighlight .g,.SashaBlockHighlight .g {
-	color: #fff;
-}
-
-.SashaInlineHighlight .k,.SashaBlockHighlight .k {
+.SashaInlineHighlight .k,
+.SashaBlockHighlight .k {
 	color: #815ba4;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .l,.SashaBlockHighlight .l {
-	color: #f99b15;
-}
-
-.SashaInlineHighlight .n,.SashaBlockHighlight .n {
+.SashaInlineHighlight .n,
+.SashaBlockHighlight .n {
 	color: #cd5c5c;
 }
-
-.SashaInlineHighlight .o,.SashaBlockHighlight .o {
+.SashaInlineHighlight .o,
+.SashaBlockHighlight .o {
 	color: #5bc4bf;
 }
-
-.SashaInlineHighlight .x,.SashaBlockHighlight .x {
+.SashaInlineHighlight .x,
+.SashaBlockHighlight .x {
 	color: #fff;
 }
-
-.SashaInlineHighlight .p,.SashaBlockHighlight .p {
+.SashaInlineHighlight .p,
+.SashaBlockHighlight .p {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .ch,.SashaBlockHighlight .ch {
+.SashaInlineHighlight .ch,
+.SashaBlockHighlight .ch {
 	color: #008000;
 	background-color: #e7e9db;
 	font-style: italic;
 }
-
-.SashaInlineHighlight .c1,.SashaBlockHighlight .c1 {
-	color: #789;
-	background-color: #e7e9db;
-	font-style: italic;
-}
-
-.SashaInlineHighlight .ge,.SashaBlockHighlight .ge {
-	color: #fff;
-}
-
-.SashaInlineHighlight .gh,.SashaBlockHighlight .gh {
-	color: #2f1e2e;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .gi,.SashaBlockHighlight .gi {
-	color: #48b685;
-}
-
-.SashaInlineHighlight .go,.SashaBlockHighlight .go {
+.SashaInlineHighlight .go,
+.SashaBlockHighlight .go {
 	color: #444;
 	background-color: #e7e9db;
 }
-
-.SashaInlineHighlight .gt,.SashaBlockHighlight .gt {
+.SashaInlineHighlight .gt,
+.SashaBlockHighlight .gt {
 	color: #fff;
 }
-
-.SashaInlineHighlight .kp,.SashaBlockHighlight .kp {
-	color: #815ba4;
-}
-
-.SashaInlineHighlight .kr,.SashaBlockHighlight .kr {
-	color: #815ba4;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .kt,.SashaBlockHighlight .kt {
-	color: #ff8c00;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .ld,.SashaBlockHighlight .ld {
+.SashaInlineHighlight .ld,
+.SashaBlockHighlight .ld {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .m,.SashaBlockHighlight .m {
+.SashaInlineHighlight .m,
+.SashaBlockHighlight .m {
 	color: #f99b15;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .s,.SashaBlockHighlight .s {
+.SashaInlineHighlight .s,
+.SashaBlockHighlight .s {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .na,.SashaBlockHighlight .na {
-	color: #06b6ef;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .nc,.SashaBlockHighlight .nc {
-	color: #ff8c00;
-}
-
-.SashaInlineHighlight .no,.SashaBlockHighlight .no {
+.SashaInlineHighlight .no,
+.SashaBlockHighlight .no {
 	color: #ef6155;
 }
-
-.SashaInlineHighlight .nd,.SashaBlockHighlight .nd {
-	color: #5bc4bf;
-}
-
-.SashaInlineHighlight .ne,.SashaBlockHighlight .ne {
-	color: #ef6155;
-}
-
-.SashaInlineHighlight .nl,.SashaBlockHighlight .nl {
+.SashaInlineHighlight .nl,
+.SashaBlockHighlight .nl {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .py,.SashaBlockHighlight .py {
+.SashaInlineHighlight .py,
+.SashaBlockHighlight .py {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .w,.SashaBlockHighlight .w {
+.SashaInlineHighlight .w,
+.SashaBlockHighlight .w {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .sa,.SashaBlockHighlight .sa {
+.SashaInlineHighlight .sa,
+.SashaBlockHighlight .sa {
 	color: #87ceeb;
 }
-
-.SashaInlineHighlight .sc,.SashaBlockHighlight .sc {
-	color: #2f1e2e;
-}
-
-.SashaInlineHighlight .sd,.SashaBlockHighlight .sd {
-	color: #8d8687;
-}
-
-.SashaInlineHighlight .s2,.SashaBlockHighlight .s2 {
+.SashaInlineHighlight .s2,
+.SashaBlockHighlight .s2 {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .se,.SashaBlockHighlight .se {
+.SashaInlineHighlight .se,
+.SashaBlockHighlight .se {
 	color: #f99b15;
 }
-
-.SashaInlineHighlight .sh,.SashaBlockHighlight .sh {
+.SashaInlineHighlight .sh,
+.SashaBlockHighlight .sh {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .si,.SashaBlockHighlight .si {
+.SashaInlineHighlight .si,
+.SashaBlockHighlight .si {
 	color: #f99b15;
 }
-
-.SashaInlineHighlight .sr,.SashaBlockHighlight .sr {
+.SashaInlineHighlight .s1,
+.SashaBlockHighlight .s1 {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .s1,.SashaBlockHighlight .s1 {
-	color: #48b685;
-}
-
-.SashaInlineHighlight .vg,.SashaBlockHighlight .vg {
-	color: #ef6155;
-}
-
-.SashaInlineHighlight .il,.SashaBlockHighlight .il {
+.SashaInlineHighlight .il,
+.SashaBlockHighlight .il {
 	color: #f99b15;
 	font-weight: bold;
-}
-
-.tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 0.1875rem solid #ffa500;
-	background: #800080;
-}
-
-.tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 0.1875rem solid #ff69b4;
-	background: #228b22;
 }

@@ -21,3 +21,5 @@ typo = new TypoReporter({
 	locale: "en",
 	offset: 44
 }, rootNode);
+
+//# sourceMappingURL=typo-reporter-en.js.map

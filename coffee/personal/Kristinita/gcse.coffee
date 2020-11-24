@@ -38,4 +38,4 @@ https://ru.stackoverflow.com/q/941455/199934
 setTimeout (->
 	document.getElementById('gsc-i-id1').focus()
 	return
-), 4000
+), 7000

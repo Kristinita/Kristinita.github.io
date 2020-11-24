@@ -46,3 +46,5 @@ wildfireConfig = function() {
 		locale: "en"
 	};
 };
+
+//# sourceMappingURL=wildfire.js.map

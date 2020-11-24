@@ -7,7 +7,7 @@
 .SashaBlockHighlight .c {
 	background-color: #0f140f;
 	font-style: italic;
-	color: #008000;
+	color: #7cfc00;
 }
 .SashaInlineHighlight .err,
 .SashaBlockHighlight .err {
@@ -52,13 +52,13 @@
 }
 .SashaInlineHighlight .ch,
 .SashaBlockHighlight .ch {
-	color: #008000;
+	color: #7cfc00;
 	background-color: #0f140f;
 	font-style: italic;
 }
 .SashaInlineHighlight .cm,
 .SashaBlockHighlight .cm {
-	color: #008000;
+	color: #7cfc00;
 	background-color: #0f140f;
 	font-style: italic;
 }
@@ -70,20 +70,20 @@
 }
 .SashaInlineHighlight .cpf,
 .SashaBlockHighlight .cpf {
-	color: #008000;
+	color: #7cfc00;
 	background-color: #0f140f;
 	font-style: italic;
 	font-weight: bold;
 }
 .SashaInlineHighlight .c1,
 .SashaBlockHighlight .c1 {
-	color: #008000;
+	color: #7cfc00;
 	background-color: #0f140f;
 	font-style: italic;
 }
 .SashaInlineHighlight .cs,
 .SashaBlockHighlight .cs {
-	color: #008000;
+	color: #7cfc00;
 	background-color: #0f140f;
 	font-style: italic;
 }
@@ -115,7 +115,7 @@
 }
 .SashaInlineHighlight .gp,
 .SashaBlockHighlight .gp {
-	color: #dc143c;
+	color: #ff97bb;
 }
 .SashaInlineHighlight .gs,
 .SashaBlockHighlight .gs {
@@ -165,7 +165,7 @@
 }
 .SashaInlineHighlight .m,
 .SashaBlockHighlight .m {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }
 .SashaInlineHighlight .s,
@@ -241,27 +241,27 @@
 }
 .SashaInlineHighlight .mb,
 .SashaBlockHighlight .mb {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }
 .SashaInlineHighlight .mf,
 .SashaBlockHighlight .mf {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }
 .SashaInlineHighlight .mh,
 .SashaBlockHighlight .mh {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }
 .SashaInlineHighlight .mi,
 .SashaBlockHighlight .mi {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }
 .SashaInlineHighlight .mo,
 .SashaBlockHighlight .mo {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }
 .SashaInlineHighlight .sa,
@@ -343,6 +343,6 @@
 }
 .SashaInlineHighlight .il,
 .SashaBlockHighlight .il {
-	color: #0086f7;
+	color: #00bfff;
 	font-weight: bold;
 }

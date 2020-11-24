@@ -12,3 +12,5 @@ add_target_blank_to_external_links = function() {
 jQuery(document).ready(function() {
 	add_target_blank_to_external_links();
 });
+
+//# sourceMappingURL=target-blank.js.map

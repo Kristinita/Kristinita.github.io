@@ -2,399 +2,313 @@ body {
 	background: #87e1be;
 	color: #465550;
 }
-
 a {
 	color: #dc3f17;
 }
-
 a:hover {
 	background-color: rgba(240,128,128,0.6);
 }
-
 a:focus {
 	background: #f5f5f5;
 }
-
 em {
 	color: #008b8b;
 }
-
 img {
 	box-shadow: 0 0 2rem #000;
 }
-
 .SashaNoShadowsImage {
 	box-shadow: none;
 	min-width: 2rem;
 }
-
 .SashaPageLoading {
 	box-shadow: none;
-	/*
+/*
 	[INFO] Tracking will still:
 	https://en.ryte.com/wiki/Tracking_Pixel
-	 */
+ */
 	display: none;
 }
-
 kbd {
 	color: #eee8aa;
 	background: #2e8b57;
 }
-
 hr {
 	color: #c71585;
 }
-
-td,th {
+td,
+th {
 	border: 0.0625rem solid #465550;
 }
-
 .SashaBottomAside {
 	color: #fff;
 	bottom: 8%;
 }
-
 blockquote {
 	border-left: solid #db7093 0.5rem;
 	color: #000080;
 	background: #fcfcfc;
 }
-
 blockquote >p >em {
 	color: #008b8b;
 }
-
 .SashaBlockquote {
 	border-color: #7b68ee;
 	background-color: #ffdab9;
 	color: #191970;
 }
-
 .SashaCitation {
 	color: #fa8072;
 }
-
 .SashaEpigraph {
 	color: #ffdc33;
 }
-
 .SashaEpigraph >.SashaEpigraphAuthor {
 	color: #ffb6c1;
 }
-
 .SashaEpigraph >em {
 	color: #ffdc33;
 }
-
 .SashaGingerinasExample {
 	background-color: #d0f0c0;
 }
-
-::-moz-selection {
-	color: #f08080;
-	background: rgba(255,228,181,0.99);
-}
-
 ::selection {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);
 }
-
 /* csslint ignore:start */
-
-div .a2a_floating_style {
+div.a2a_floating_style {
 	background-color: #9370db;
 }
-
 /* csslint ignore:end */
-
 /* csslint ignore:start */
-
 div.animate-flicker span {
 	color: #696969;
 }
-
-div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,
+div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,
+div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
 	color: #a52a2a;
 }
-
-div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,
+div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-text,
+div.wf.wf-theme-dark .ivu-btn-text:hover,
+div.wf.wf-theme-dark .ivu-input::placeholder,
+div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,
+div.wf.wf-theme-dark .ivu-menu-item-selected span,
+div.wf.wf-theme-dark a.wf-use-wildfire span,
+div.wf.wf-theme-dark a.wf-use-wildfire:hover span,
+div.wf.wf-theme-dark .wf-separator,
+div.wf.wf-theme-dark .wf-no-content-tip,
+div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,
+div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,
+div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,
+div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
+div.wf.wf-theme-dark .wf-comment-content,
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,
+div.wf.wf-theme-dark .ivu-menu {
 	color: #696969;
 }
-
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled],div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-text,div.wf.wf-theme-dark .ivu-btn-text:hover,div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,div.wf.wf-theme-dark .ivu-menu {
-	color: #696969;
-}
-
-div.wf.wf-theme-dark .wf-use-wildfire svg path,div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
+div.wf.wf-theme-dark .wf-use-wildfire svg path,
+div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
 	fill: #696969;
 }
-
 div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
 	background-color: #696969;
 }
-
 div.wf.wf-theme-dark > footer {
 	border-top-color: #696969;
 }
-
-div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover {
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover {
 	border-bottom-color: #696969;
 }
-
-div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
-	color: #696969;
-}
-
 div.wf.wf-theme-dark input.ivu-input::placeholder {
 	color: #696969;
 }
-
 div.wf.wf-theme-dark .ivu-icon-heart-broken {
 	color: #008080;
 }
-
 div.wf.wf-theme-dark .ivu-icon-heart {
 	color: #b22222;
 }
-
-div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
 	background-color: rgba(255,255,255,0.2);
 }
-
-div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
+div.wf.wf-theme-dark .wf-post-btn[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
 	border-color: #696969;
 }
-
 div.wf.wf-theme-dark .wf-tip {
 	font-size: 0.7rem;
 }
-
 /* csslint ignore:end */
-
-.tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 0.1875rem solid #ffa500;
-	background: #800080;
-}
-
-.tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 0.1875rem solid #ff69b4;
-	background: #228b22;
-}
-
-.SashaInlineHighlight,.SashaBlockHighlight {
+.SashaInlineHighlight,
+.SashaBlockHighlight {
 	background-color: #e7e9db;
 	color: #cd5c5c;
 }
-
-.SashaInlineHighlight .c,.SashaBlockHighlight .c {
+.SashaInlineHighlight .c,
+.SashaBlockHighlight .c {
 	background-color: #e7e9db;
 	font-style: italic;
 	color: #8d8687;
 }
-
-.SashaInlineHighlight .err,.SashaBlockHighlight .err {
+.SashaInlineHighlight .err,
+.SashaBlockHighlight .err {
 	color: #ef6155;
 }
-
-.SashaInlineHighlight .g,.SashaBlockHighlight .g {
+.SashaInlineHighlight .g,
+.SashaBlockHighlight .g {
 	color: #fff;
 }
-
-.SashaInlineHighlight .k,.SashaBlockHighlight .k {
+.SashaInlineHighlight .k,
+.SashaBlockHighlight .k {
 	color: #815ba4;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .l,.SashaBlockHighlight .l {
+.SashaInlineHighlight .l,
+.SashaBlockHighlight .l {
 	color: #f99b15;
 }
-
-.SashaInlineHighlight .n,.SashaBlockHighlight .n {
+.SashaInlineHighlight .n,
+.SashaBlockHighlight .n {
 	color: #cd5c5c;
 }
-
-.SashaInlineHighlight .o,.SashaBlockHighlight .o {
+.SashaInlineHighlight .o,
+.SashaBlockHighlight .o {
 	color: #5bc4bf;
 }
-
-.SashaInlineHighlight .x,.SashaBlockHighlight .x {
-	color: #fff;
-}
-
-.SashaInlineHighlight .p,.SashaBlockHighlight .p {
+.SashaInlineHighlight .p,
+.SashaBlockHighlight .p {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .ch,.SashaBlockHighlight .ch {
+.SashaInlineHighlight .ch,
+.SashaBlockHighlight .ch {
 	color: #008000;
 	background-color: #e7e9db;
 	font-style: italic;
 }
-
-.SashaInlineHighlight .c1,.SashaBlockHighlight .c1 {
+.SashaInlineHighlight .c1,
+.SashaBlockHighlight .c1 {
 	color: #789;
 	background-color: #e7e9db;
 	font-style: italic;
 }
-
-.SashaInlineHighlight .ge,.SashaBlockHighlight .ge {
-	color: #fff;
-}
-
-.SashaInlineHighlight .gh,.SashaBlockHighlight .gh {
-	color: #2f1e2e;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .gi,.SashaBlockHighlight .gi {
-	color: #48b685;
-}
-
-.SashaInlineHighlight .go,.SashaBlockHighlight .go {
+.SashaInlineHighlight .go,
+.SashaBlockHighlight .go {
 	color: #444;
 	background-color: #e7e9db;
 }
-
-.SashaInlineHighlight .gt,.SashaBlockHighlight .gt {
+.SashaInlineHighlight .gt,
+.SashaBlockHighlight .gt {
 	color: #fff;
 }
-
-.SashaInlineHighlight .kc,.SashaBlockHighlight .kc {
+.SashaInlineHighlight .kc,
+.SashaBlockHighlight .kc {
 	color: #815ba4;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .kn,.SashaBlockHighlight .kn {
+.SashaInlineHighlight .kn,
+.SashaBlockHighlight .kn {
 	color: #5bc4bf;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .kr,.SashaBlockHighlight .kr {
-	color: #815ba4;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .kt,.SashaBlockHighlight .kt {
-	color: #ff8c00;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .ld,.SashaBlockHighlight .ld {
+.SashaInlineHighlight .ld,
+.SashaBlockHighlight .ld {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .m,.SashaBlockHighlight .m {
+.SashaInlineHighlight .m,
+.SashaBlockHighlight .m {
 	color: #f99b15;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .s,.SashaBlockHighlight .s {
+.SashaInlineHighlight .s,
+.SashaBlockHighlight .s {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .na,.SashaBlockHighlight .na {
+.SashaInlineHighlight .na,
+.SashaBlockHighlight .na {
 	color: #06b6ef;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .nb,.SashaBlockHighlight .nb {
+.SashaInlineHighlight .nb,
+.SashaBlockHighlight .nb {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .nc,.SashaBlockHighlight .nc {
-	color: #ff8c00;
-}
-
-.SashaInlineHighlight .no,.SashaBlockHighlight .no {
+.SashaInlineHighlight .no,
+.SashaBlockHighlight .no {
 	color: #ef6155;
 }
-
-.SashaInlineHighlight .nd,.SashaBlockHighlight .nd {
-	color: #5bc4bf;
-}
-
-.SashaInlineHighlight .ne,.SashaBlockHighlight .ne {
-	color: #ef6155;
-}
-
-.SashaInlineHighlight .nl,.SashaBlockHighlight .nl {
+.SashaInlineHighlight .nl,
+.SashaBlockHighlight .nl {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .nn,.SashaBlockHighlight .nn {
+.SashaInlineHighlight .nn,
+.SashaBlockHighlight .nn {
 	color: #ff8c00;
 }
-
-.SashaInlineHighlight .py,.SashaBlockHighlight .py {
+.SashaInlineHighlight .py,
+.SashaBlockHighlight .py {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .nt,.SashaBlockHighlight .nt {
+.SashaInlineHighlight .nt,
+.SashaBlockHighlight .nt {
 	color: #5bc4bf;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .nv,.SashaBlockHighlight .nv {
+.SashaInlineHighlight .nv,
+.SashaBlockHighlight .nv {
 	color: #ef6155;
 }
-
-.SashaInlineHighlight .ow,.SashaBlockHighlight .ow {
+.SashaInlineHighlight .ow,
+.SashaBlockHighlight .ow {
 	color: #5bc4bf;
 }
-
-.SashaInlineHighlight .w,.SashaBlockHighlight .w {
+.SashaInlineHighlight .w,
+.SashaBlockHighlight .w {
 	color: #2f1e2e;
 }
-
-.SashaInlineHighlight .mi,.SashaBlockHighlight .mi {
+.SashaInlineHighlight .mi,
+.SashaBlockHighlight .mi {
 	color: #f99b15;
 	font-weight: bold;
 }
-
-.SashaInlineHighlight .mo,.SashaBlockHighlight .mo {
-	color: #f99b15;
-	font-weight: bold;
-}
-
-.SashaInlineHighlight .sa,.SashaBlockHighlight .sa {
+.SashaInlineHighlight .sa,
+.SashaBlockHighlight .sa {
 	color: #87ceeb;
 }
-
-.SashaInlineHighlight .sc,.SashaBlockHighlight .sc {
-	color: #2f1e2e;
-}
-
-.SashaInlineHighlight .s2,.SashaBlockHighlight .s2 {
+.SashaInlineHighlight .s2,
+.SashaBlockHighlight .s2 {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .se,.SashaBlockHighlight .se {
+.SashaInlineHighlight .se,
+.SashaBlockHighlight .se {
 	color: #f99b15;
 }
-
-.SashaInlineHighlight .sh,.SashaBlockHighlight .sh {
+.SashaInlineHighlight .sh,
+.SashaBlockHighlight .sh {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .si,.SashaBlockHighlight .si {
+.SashaInlineHighlight .si,
+.SashaBlockHighlight .si {
 	color: #f99b15;
 }
-
-.SashaInlineHighlight .sr,.SashaBlockHighlight .sr {
+.SashaInlineHighlight .s1,
+.SashaBlockHighlight .s1 {
 	color: #48b685;
 }
-
-.SashaInlineHighlight .s1,.SashaBlockHighlight .s1 {
-	color: #48b685;
-}
-
-.SashaInlineHighlight .vg,.SashaBlockHighlight .vg {
-	color: #ef6155;
-}
-
-.SashaInlineHighlight .il,.SashaBlockHighlight .il {
+.SashaInlineHighlight .il,
+.SashaBlockHighlight .il {
 	color: #f99b15;
 	font-weight: bold;
 }

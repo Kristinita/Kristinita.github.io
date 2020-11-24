@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "addtoany.js",
+	"sourceRoot": "../../coffee/AddToAny/",
+	"sources": [
+		"addtoany.coffee"
+	],
+	"names": [],
+	"mappings": "AAMuC;;;;;;;AAAA,IAAA;;AACvC,UAAA,GAAa,UAAA,IAAc,CAAA,EADY;;;;AAIvC,UAAU,CAAC,KAAX,GAAmB;;AACnB,UAAU,CAAC,WAAX,GAAyB,MALc;;;;AAQvC,UAAU,CAAC,UAAX,GAAwB,wBARe;;;;AAWvC,UAAU,CAAC,YAAX,GAA0B,GAXa;;;;AAcvC,UAAU,CAAC,WAAX,GAAyB,OAdc;;;;AAiBvC,UAAU,CAAC,UAAX,GAAwB;EACtB,UADsB;EAEtB,IAFsB;EAGtB,SAHsB;EAItB,QAJsB;EAKtB,UALsB;EAMtB,aANsB;EAOtB,WAPsB;EAQtB,UARsB;EAStB,SATsB;EAUtB,eAVsB;EAWtB,cAXsB;EAYtB,UAZsB;EAatB,OAbsB;EActB,aAdsB;EAetB,OAfsB;EAgBtB,QAhBsB;EAiBtB,SAjBsB;EAkBtB,OAlBsB;EAmBtB,UAnBsB;EAoBtB,QApBsB;EAqBtB,UArBsB;;;EAwBtB,kBAxBsB;EAyBtB,gBAzBsB;EA0BtB,YA1BsB;EA2BtB,sBA3BsB;EA4BtB,uBA5BsB;EA6BtB,QA7BsB;EA8BtB,WA9BsB;EA+BtB,UA/BsB;EAgCtB,WAhCsB;EAiCtB,SAjCsB",
+	"sourcesContent": [
+		"############\n# AddToAny #\n############\n# Highly customisable share buttons:\n# https://www.addtoany.com\n# API:\n# https://www.addtoany.com/buttons/api/\na2a_config = a2a_config or {}\n# Disable tracking:\n# https://blog.futtta.be/2010/01/22/add-to-any-removed-from-here/\na2a_config.no_3p = true\na2a_config.track_links = false\n# Icons color:\n# https://www.addtoany.com/buttons/customize/icon_color\na2a_config.icon_color = 'seashell,midnightblue'\n# Number of services:\n# https://www.addtoany.com/buttons/customize/number_services\na2a_config.num_services = 10\n# Menu orientation\n# https://www.addtoany.com/buttons/customize/orientation\na2a_config.orientation = 'down'\n# Prioritize services\n# https://www.addtoany.com/buttons/customize/prioritize_services\na2a_config.prioritize = [\n  'facebook'\n  'vk'\n  'twitter'\n  'reddit'\n  'evernote'\n  'livejournal'\n  'pinterest'\n  'linkedin'\n  'myspace'\n  'odnoklassniki'\n  'design_float'\n  'diary_ru'\n  'dzone'\n  'hacker_news'\n  'known'\n  'refind'\n  'blogger'\n  'skype'\n  'slashdot'\n  'tubmlr'\n  'whatsapp'\n  # [INFO] RSS subscribe buttons:\n  # https://www.addtoany.com/subscribe/preferences\n  'the_free_library'\n  'daily_rotation'\n  'newsisfree'\n  'protopage_news_feeds'\n  'bitty_browser_preview'\n  'my_aol'\n  'agregator'\n  'my_yahoo'\n  'feedblitz'\n  'outlook'\n]\n"
+	]
+}

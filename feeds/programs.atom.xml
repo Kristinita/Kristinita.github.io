@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-18T19:32:55+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.app/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2019-05-23T14:42:05+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Programs</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/programs.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-11-03T09:36:16+03:00</updated><entry><title>PaletteMira</title><link href="https://kristinita.netlify.app/Programs/PaletteMira.html" rel="alternate"></link><published>2018-04-04T16:33:14+03:00</published><updated>2020-09-24T13:13:17+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-04:/Programs/PaletteMira.html</id><summary type="html">&lt;p&gt;Add to command palette commands from external Sublime Text packages&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -22,8 +22,8 @@
 
 &lt;p&gt;&lt;a id="Overview"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1. Overview&lt;/h2&gt;
-&lt;p&gt;Sublime Text package, that add to &lt;a href="http://docs.sublimetext.info/en/latest/reference/command_palette.html"&gt;command palette&lt;/a&gt; existing commands from third-party packages, if author(s) of them did not do this.&lt;/p&gt;
-&lt;p&gt;I include to PaletteMira commands of all known packages, that doesn't have command palette caption, not obsolete and haven't critical errors.&lt;/p&gt;
+&lt;p&gt;Sublime Text package, that add to &lt;a href="https://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/command_palette.html" rel="noopener" target="_blank"&gt;command palette&lt;/a&gt; existing commands from third-party packages, if author(s) of them did not do this.&lt;/p&gt;
+&lt;p&gt;I include to PaletteMira commands of all known packages, that doesn’t have command palette caption, not obsolete and haven’t critical errors.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Limitations"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2. Limitations&lt;/h2&gt;
 &lt;ol&gt;
@@ -41,11 +41,11 @@
 &lt;p&gt;&lt;a id="Dependencies"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.1. Dependencies&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Install &lt;a href="https://packagecontrol.io/packages/Suricate"&gt;Suricate&lt;/a&gt; &lt;a href="https://packagecontrol.io/docs/usage"&gt;via Package Control&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install &lt;a href="https://packagecontrol.io/packages/Suricate" rel="noopener" target="_blank"&gt;Suricate&lt;/a&gt; &lt;a href="https://packagecontrol.io/docs/usage" rel="noopener" target="_blank"&gt;via Package Control&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="PaletteMira"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.2. PaletteMira&lt;/h3&gt;
-&lt;p&gt;Install PaletteMira, using &lt;a href="https://stackoverflow.com/a/44441455/5951529"&gt;&lt;em&gt;Package Control: Add Repository&lt;/em&gt;&lt;/a&gt; with tree &lt;a href="https://github.com/Kristinita/PaletteMira/tree/SashaDevelop"&gt;github.com/Kristinita/PaletteMira/tree/SashaDevelop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Install PaletteMira, using &lt;a href="https://stackoverflow.com/a/44441455/5951529" rel="noopener" target="_blank"&gt;&lt;em&gt;Package Control: Add Repository&lt;/em&gt;&lt;/a&gt; with tree &lt;a href="https://github.com/Kristinita/PaletteMira/tree/SashaDevelop" rel="noopener" target="_blank"&gt;github.com/Kristinita/PaletteMira/tree/SashaDevelop&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Activation"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5. Activation&lt;/h2&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;em&gt;Suricate: Add Profile&lt;/em&gt; → Select &lt;em&gt;PaletteMira&lt;/em&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
@@ -53,7 +53,7 @@
 &lt;p&gt;&lt;a id="Usage"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Usage&lt;/h2&gt;
 &lt;p&gt;After activation, you can run commands of packages from list. Print package name in command palette → you get result: &lt;em&gt;Suricate: &amp;#60;Your Package&amp;#62;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Example for &lt;a href="https://github.com/titoBouzout/Open-Include"&gt;Sublime OpenInclude&lt;/a&gt; package:&lt;/p&gt;
+&lt;p&gt;Example for &lt;a href="https://github.com/titoBouzout/Open-Include" rel="noopener" target="_blank"&gt;Sublime OpenInclude&lt;/a&gt; package:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="OpenInclude" src="https://i.imgur.com/EQNWf9y.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a id="Known-problems-and-bugs"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7. Known problems and bugs&lt;/h2&gt;
@@ -61,7 +61,8 @@
 &lt;h3&gt;7.1. PaletteMira&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Dependencies-1"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;7.2. Dependencies&lt;/h3&gt;
-&lt;p&gt;In progress.&lt;/p&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-09-18T19:32:55+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL &lt;br&gt;&lt;br&gt; &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;p&gt;In progress.&lt;/p&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-11-03T09:36:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL
+&lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Description"&gt;Description&lt;/a&gt;&lt;ol&gt;
@@ -139,7 +140,7 @@
 &lt;p&gt;It may take a lot of time. Use KristinitaLuckyLink I can make all these actions, &lt;strong&gt;press one shortcut&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Demonstration"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.2. Demonstration&lt;/h3&gt;
-&lt;div class="SashaVideo"&gt;&lt;iframe class="SashaLazy" data-src="https://video.ploud.fr/videos/embed/5d800b76-c468-4510-b2af-d84d28def4a9"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class="SashaVideo"&gt;&lt;iframe class="lazyload" title="KristinitaLuckyLink demonstration" data-src="https://video.ploud.fr/videos/embed/5d800b76-c468-4510-b2af-d84d28def4a9"&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a id="Examples"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.3. Examples&lt;/h3&gt;
@@ -159,14 +160,14 @@
 &lt;h3&gt;1.4. Saving time&lt;/h3&gt;
 &lt;p&gt;When I wrote this article, I get these links, use KristinitaLuckyLink:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="https://www.instagram.com/kristinitaluckylife/"&gt;kristinitaluckylife&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/essanpupil/pygoogling"&gt;pygoogling&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/nsubiron/SublimeSuricate"&gt;Sublime Suricate&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/wuub/SublimeREPL"&gt;SublimeREPL&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.python.org/dev/peps/pep-0008/"&gt;PEP8&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://lintly.com/"&gt;Lintly&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/keith-hall"&gt;keith-hall&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/facelessuser"&gt;facelessuser&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.instagram.com/kristinitaluckylife/" rel="noopener" target="_blank"&gt;kristinitaluckylife&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/essanpupil/pygoogling" rel="noopener" target="_blank"&gt;pygoogling&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nsubiron/SublimeSuricate" rel="noopener" target="_blank"&gt;Sublime Suricate&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/wuub/SublimeREPL" rel="noopener" target="_blank"&gt;SublimeREPL&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/dev/peps/pep-0008/" rel="noopener" target="_blank"&gt;PEP8&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lintly.com/" rel="noopener" target="_blank"&gt;Lintly&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keith-hall" rel="noopener" target="_blank"&gt;keith-hall&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/facelessuser" rel="noopener" target="_blank"&gt;facelessuser&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I save minutes of my time.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Supported-search-engines"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -196,10 +197,10 @@
 &lt;p&gt;But if in top of SERP one link, but KristinitaLuckyLink out another link, please make &lt;a href="#Incorrect-links"&gt;these actions&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;If you don't want by some reasons make actions from &lt;a href="#Installation"&gt;installation&lt;/a&gt; and &lt;a href="#Activation"&gt;activation&lt;/a&gt; section, please, don't install KristinitaLuckyLink.&lt;/p&gt;
+&lt;p&gt;If you don’t want by some reasons make actions from &lt;a href="#Installation"&gt;installation&lt;/a&gt; and &lt;a href="#Activation"&gt;activation&lt;/a&gt; section, please, don’t install KristinitaLuckyLink.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Copy from &lt;a href="https://github.com/aviaryan/python-gsearch#warning"&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From &lt;a href="https://github.com/aviaryan/python-gsearch#warning" rel="noopener" target="_blank"&gt;Python Google Search unofficial API&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Overusing KristinitaLuckyLink might lead to your IP being blocked by Google Search servers. Searches through browser might still work but KristinitaLuckyLink will stop working. I recommend keeping a 5 seconds gap after each usage of this library. In most cases, much lower gaps or even continuous use of the library will still work but still this is something to be kept in mind. If you see a 'rate limit' or a 503 error, it's best to stop using the library and try back after some time (~1 minute).&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -219,9 +220,9 @@
 &lt;h3&gt;3.1. Depenedencies&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;You need to install Python 3 with pip to your computer, if no.&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;pip install git+https://github.com/Kristinita/python-duckduckgo&lt;/code&gt; — install &lt;a href="https://github.com/crazedpsyc/python-duckduckgo"&gt;DuckDuckGo module&lt;/a&gt;, that I &lt;a href="https://github.com/Kristinita/python-duckduckgo"&gt;ported for Python 3&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;pip install pygoogling&lt;/code&gt; — install &lt;a href="https://github.com/essanpupil/pygoogling"&gt;pygoogling&lt;/a&gt; module.&lt;/li&gt;
-&lt;li&gt;Install &lt;a href="https://github.com/nsubiron/SublimeSuricate"&gt;Sublime Suricate&lt;/a&gt; package &lt;a href="https://stackoverflow.com/a/19598084/5951529"&gt;via Package Control&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;pip install git+https://github.com/Kristinita/python-duckduckgo&lt;/code&gt; — install &lt;a href="https://github.com/crazedpsyc/python-duckduckgo" rel="noopener" target="_blank"&gt;DuckDuckGo module&lt;/a&gt;, that I &lt;a href="https://github.com/Kristinita/python-duckduckgo" rel="noopener" target="_blank"&gt;ported for Python 3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;pip install pygoogling&lt;/code&gt; — install &lt;a href="https://github.com/essanpupil/pygoogling" rel="noopener" target="_blank"&gt;pygoogling&lt;/a&gt; module.&lt;/li&gt;
+&lt;li&gt;Install &lt;a href="https://github.com/nsubiron/SublimeSuricate" rel="noopener" target="_blank"&gt;Sublime Suricate&lt;/a&gt; package &lt;a href="https://stackoverflow.com/a/19598084/5951529" rel="noopener" target="_blank"&gt;via Package Control&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="KristinitaLuckyLink"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;3.2. KristinitaLuckyLink&lt;/h3&gt;
@@ -236,7 +237,7 @@
 &lt;h2&gt;4. Activation&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Environment-variable"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.1. Environment variable&lt;/h3&gt;
-&lt;p&gt;In your operating system add environment variable &lt;code class="SashaInlineHighlight"&gt;PYTHONPACKAGES&lt;/code&gt; with value — your Python &lt;code class="SashaInlineHighlight"&gt;site-packages&lt;/code&gt; folder, if already no. To find out your path, see “&lt;a href="https://docs.python.org/3/install/index.html#how-installation-works"&gt;How installation works&lt;/a&gt;” item of Python documentation.&lt;/p&gt;
+&lt;p&gt;In your operating system add environment variable &lt;code class="SashaInlineHighlight"&gt;PYTHONPACKAGES&lt;/code&gt; with value — your Python &lt;code class="SashaInlineHighlight"&gt;site-packages&lt;/code&gt; folder, if already no. To find out your path, see “&lt;a href="https://docs.python.org/3/install/index.html#how-installation-works" rel="noopener" target="_blank"&gt;How installation works&lt;/a&gt;” item of Python documentation.&lt;/p&gt;
 &lt;p&gt;
 &lt;div class="justtable"&gt;
     &lt;table&gt;
@@ -259,8 +260,8 @@
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;For example, &lt;code class="SashaInlineHighlight"&gt;C:\\Python36\\Lib\\site-packages&lt;/code&gt; — path on my Windows.&lt;/p&gt;
-&lt;p&gt;See &lt;a href="https://www.schrodinger.com/kb/1842"&gt;examples&lt;/a&gt;, how you can add environment variable in your operating system.&lt;/p&gt;
-&lt;p&gt;If you know, how possible develop a plugin without adding new environment variable, please, answer to &lt;a href="https://stackoverflow.com/q/48276861/5951529"&gt;this question&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See &lt;a href="https://www.schrodinger.com/kb/1842" rel="noopener" target="_blank"&gt;examples&lt;/a&gt;, how you can add environment variable in your operating system.&lt;/p&gt;
+&lt;p&gt;If you know, how possible develop a plugin without adding new environment variable, please, answer to &lt;a href="https://stackoverflow.com/q/48276861/5951529" rel="noopener" target="_blank"&gt;this question&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Commands-and-hotkeys"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;4.2. Commands and hotkeys&lt;/h3&gt;
 &lt;p&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;em&gt;Suricate: Add Profile&lt;/em&gt; → select &lt;em&gt;KristinitaLuckyLink&lt;/em&gt; → &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
@@ -299,7 +300,7 @@
         &lt;/tbody&gt;
     &lt;/table&gt;
 &lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;If these hotkeys used in you another packages or you don't want use default hotkeys by another reasons: &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse packages…&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create a file &lt;em&gt;Default.suricate-profile&lt;/em&gt;, if no, and add to them these lines:&lt;/p&gt;
+&lt;p&gt;If these hotkeys used in you another packages or you don’t want use default hotkeys by another reasons: &lt;em&gt;Preferences&lt;/em&gt; → &lt;em&gt;Browse packages…&lt;/em&gt; → &lt;em&gt;User&lt;/em&gt; → create a file &lt;em&gt;Default.suricate-profile&lt;/em&gt;, if no, and add to them these lines:&lt;/p&gt;
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 	&lt;span class="nt"&gt;&amp;quot;user_commands&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
 		&lt;span class="nt"&gt;&amp;quot;sasha_kristinitaluckylink_duckduckgo&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -315,12 +316,11 @@
 	&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;super+keypad8&lt;/code&gt; and &lt;code class="SashaInlineHighlight"&gt;&amp;lt;c&amp;gt;+super+browser_home&lt;/code&gt; from example to your preferred keys. See &lt;a href="http://docs.sublimetext.info/en/latest/reference/key_bindings.html#bindable-keys"&gt;key name convention&lt;/a&gt; in Sublime Text 3.&lt;/p&gt;
-&lt;p&gt;For detailed information about Suricate key bindings see &lt;a href="https://readthedocs.org/projects/sublime-suricate/"&gt;Sublime Suricate documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;super+keypad8&lt;/code&gt; and &lt;code class="SashaInlineHighlight"&gt;&amp;lt;c&amp;gt;+super+browser_home&lt;/code&gt; from example to your preferred keys. See &lt;a href="https://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/key_bindings.html#bindable-keys" rel="noopener" target="_blank"&gt;key name convention&lt;/a&gt; in Sublime Text 3.&lt;/p&gt;
+&lt;p&gt;For detailed information about Suricate key bindings see &lt;a href="https://readthedocs.org/projects/sublime-suricate/" rel="noopener" target="_blank"&gt;Sublime Suricate documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Command-palette"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;5.2. Command palette&lt;/h3&gt;
-&lt;p&gt;… use &lt;a href="https://www.youtube.com/watch?v=VYNkebGdl9Q"&gt;command palette&lt;/a&gt;. Wait a moment to … the result.&lt;/p&gt;
+&lt;p&gt;… use &lt;a href="https://www.tutorialspoint.com/sublime_text/sublime_text_command_palette.htm" rel="noopener" target="_blank"&gt;command palette&lt;/a&gt;. Wait a moment to … the result.&lt;/p&gt;
 &lt;p&gt;Captions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class="SashaInlineHighlight"&gt;Suricate: KristinitaLuckyLink: DuckDuckGo&lt;/code&gt;,&lt;/li&gt;
@@ -354,11 +354,11 @@
         &lt;tbody&gt;
             &lt;tr&gt;
                 &lt;td&gt;Kristina Kiva&lt;/td&gt;
-                &lt;td&gt;&lt;a href="https://www.facebook.com/public/Kristina-Kiva"&gt;www.facebook.com/public/Kristina-Kiva&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.facebook.com/public/Kristina-Kiva" rel="noopener" target="_blank"&gt;www.facebook.com/public/Kristina-Kiva&lt;/a&gt;&lt;/td&gt;
             &lt;/tr&gt;
             &lt;tr&gt;
                 &lt;td&gt;Kristina Kiva Marbella&lt;/td&gt;
-                &lt;td&gt;&lt;a href="https://www.instagram.com/kristinitaluckylife/"&gt;www.instagram.com/kristinitaluckylife/&lt;/a&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;a href="https://www.instagram.com/kristinitaluckylife/" rel="noopener" target="_blank"&gt;www.instagram.com/kristinitaluckylife/&lt;/a&gt;&lt;/td&gt;
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
@@ -387,14 +387,14 @@
 &lt;h3&gt;10.2. External&lt;/h3&gt;
 &lt;p&gt;&lt;a id="Troubleshooting"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;11. Troubleshooting&lt;/h2&gt;
-&lt;p&gt;About all detected bugs please report to &lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/issues"&gt;issues&lt;/a&gt; page. Please, add information about your operation system, Sublime Text 3 and KristinitaLuckyLink versions.&lt;/p&gt;
+&lt;p&gt;About all detected bugs please report to &lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/issues" rel="noopener" target="_blank"&gt;issues&lt;/a&gt; page. Please, add information about your operation system, Sublime Text 3 and KristinitaLuckyLink versions.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Incorrect-links"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;11.1. Incorrect links&lt;/h3&gt;
 &lt;p&gt;If use KristinitaLuckyLink you get not top link of Google or DuckDuckGo SERP, please, make actions below.&lt;/p&gt;
 &lt;p&gt;&lt;a id="SublimeREPL"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.1.1. SublimeREPL&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;Install &lt;a href="https://github.com/wuub/SublimeREPL"&gt;SublimeREPL&lt;/a&gt; via Package Control.&lt;/li&gt;
+&lt;li&gt;Install &lt;a href="https://github.com/wuub/SublimeREPL" rel="noopener" target="_blank"&gt;SublimeREPL&lt;/a&gt; via Package Control.&lt;/li&gt;
 &lt;li&gt;&lt;kbd&gt;Ctrl+Shift+P&lt;/kbd&gt; (&lt;kbd&gt;⌘⇧p&lt;/kbd&gt; for Mac) → &lt;em&gt;SublimeREPL: Python&lt;/em&gt;. Paste to opened tab code below.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="DuckDuckGo"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -404,9 +404,8 @@
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;! Кристина Кива&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;redirect&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;dlink&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 &lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
-&lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/crazedpsyc/python-duckduckgo"&gt;DuckDuckGo&lt;/a&gt; module problem.&lt;/p&gt;
+&lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/crazedpsyc/python-duckduckgo" rel="noopener" target="_blank"&gt;DuckDuckGo&lt;/a&gt; module problem.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Google"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;11.1.3. Google&lt;/h4&gt;
 &lt;p&gt;Replace &lt;code class="SashaInlineHighlight"&gt;Кристина Кива&lt;/code&gt; to your real selection text.&lt;/p&gt;
@@ -416,21 +415,20 @@
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;glink&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;google_search&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;search_result&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="gp"&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class="n"&gt;glink&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 &lt;p&gt;Press &lt;kbd&gt;Enter&lt;/kbd&gt;.&lt;/p&gt;
-&lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/essanpupil/pygoogling"&gt;pygoogling&lt;/a&gt; module problem.&lt;/p&gt;
+&lt;p&gt;If link, that you get via KristinitaLuckyLink, and this link match; it &lt;a href="https://github.com/essanpupil/pygoogling" rel="noopener" target="_blank"&gt;pygoogling&lt;/a&gt; module problem.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Contributing"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;12. Contributing&lt;/h2&gt;
 &lt;p&gt;Pull requests welcome! But, please, adhere to the following rules.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Please, not add inside this package external modules. My code “philosophy” is that all modules must installed separately.&lt;/li&gt;
-&lt;li&gt;Code must match &lt;a href="https://www.python.org/dev/peps/pep-0008/"&gt;PEP8&lt;/a&gt; rules. Max line length — 120 symbols. Desirable, 100% for &lt;a href="https://lintly.com/"&gt;Lintly&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Code must match &lt;a href="https://www.python.org/dev/peps/pep-0008/" rel="noopener" target="_blank"&gt;PEP8&lt;/a&gt; rules. Max line length — 120 symbols.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Thanks"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;13. Thanks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/keith-hall"&gt;keith-hall&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/facelessuser"&gt;facelessuser&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/keith-hall" rel="noopener" target="_blank"&gt;keith-hall&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/facelessuser" rel="noopener" target="_blank"&gt;facelessuser&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a id="Terms-and-conditions"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;14. Terms and conditions&lt;/h2&gt;
@@ -438,5 +436,5 @@
 &lt;p&gt;&lt;a id="License"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" rel="noopener" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry></feed>

@@ -6,3 +6,5 @@
 $(document).ready(function() {
 	$.responsiveTables();
 });
+
+//# sourceMappingURL=jquery-responsive-tables.js.map

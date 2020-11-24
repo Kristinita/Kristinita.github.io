@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "accesskeys.js",
+	"sourceRoot": "../../../coffee/personal/Kristinita/",
+	"sources": [
+		"accesskeys.coffee"
+	],
+	"names": [],
+	"mappings": "AAIG;;;;;;;;;;;AAOH,CAAA,CAAE,QAAF,CAAW,CAAC,KAAZ,CAAkB,QAAA,CAAA,CAAA;AAElB,MAAA;EAAC,YAAA,GAAe,QAAA,CAAA,CAAA;IACd,IAAG,CAAA,CAAE,YAAF,CAAe,CAAC,MAAhB,KAA0B,CAA7B;MACC,UAAA,CAAW,YAAX,EAAyB,GAAzB,EADD;KAAA,MAAA;MAGC,CAAA,CAAE,YAAF,CAAe,CAAC,IAAhB,CAAqB,WAArB,EAAkC,GAAlC,EAHD;;EADc,EAAhB;;EAOC,UAAA,CAAW,YAAX,EAAyB,GAAzB;AATiB,CAAlB",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:   2017-01-30 13:33:35\n@Last Modified time: 2017-01-30 13:41:06\n###\n##############\n# accesskeys #\n##############\n# Hotkeys for Google Custom Search Engine form:\n# [WARNING] Works for Firefox and Internet Explorer:\n# http://ru.stackoverflow.com/a/560571/199934\n$(document).ready ->\n\n\tsetAccessKey = ->\n\t\tif $('#gsc-i-id1').length is 0\n\t\t\tsetTimeout setAccessKey, 500\n\t\telse\n\t\t\t$('#gsc-i-id1').attr 'accesskey', 'k'\n\t\treturn\n\t# Timeout, because form can load after another page:\n\tsetTimeout setAccessKey, 500\n\treturn\n"
+	]
+}

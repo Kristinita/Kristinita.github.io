@@ -44,5 +44,7 @@ KiraFunction = function(url, KiraSite) {
 		}
 	}
 	// “Window.open(query, "nw"); nw.focus();”
-	window.open(query).focus();
+	return window.open(query).focus();
 };
+
+//# sourceMappingURL=Sasha-Black.js.map

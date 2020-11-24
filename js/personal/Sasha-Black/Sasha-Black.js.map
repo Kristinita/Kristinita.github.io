@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "Sasha-Black.js",
+	"sourceRoot": "../../../coffee/personal/Sasha-Black/",
+	"sources": [
+		"Sasha-Black.coffee"
+	],
+	"names": [],
+	"mappings": "AAIG;;;;;AAAA,IAAA,YAAA;;;;;;AAKH,YAAA,GAAe,QAAA,CAAC,GAAD,EAAM,QAAN,CAAA;AACf,MAAA,GAAA,EAAA,MAAA,EAAA,CAAA,EAAA,EAAA,EAAA,KAAA;;;;;EAIC,IAAG,GAAG,CAAC,SAAJ,CAAc,CAAd,EAAiB,CAAjB,CAAA,KAAuB,SAA1B;IACC,GAAA,GAAM,GAAG,CAAC,SAAJ,CAAc,CAAd,EADP;;EAEA,IAAG,GAAG,CAAC,SAAJ,CAAc,CAAd,EAAiB,CAAjB,CAAA,KAAuB,UAA1B;IACC,GAAA,GAAM,GAAG,CAAC,SAAJ,CAAc,CAAd,EADP;;EAEA,IAAG,GAAG,CAAC,SAAJ,CAAc,CAAd,EAAiB,CAAjB,CAAA,KAAuB,MAA1B;IACC,GAAA,GAAM,GAAG,CAAC,SAAJ,CAAc,CAAd,EADP;;EAEA,CAAA,GAAI,GAAG,CAAC;EACR,IAAG,GAAG,CAAC,SAAJ,CAAc,CAAA,GAAI,CAAlB,EAAqB,CAArB,CAAA,KAA2B,GAA9B;IACC,GAAA,GAAM,GAAG,CAAC,SAAJ,CAAc,CAAd,EAAiB,CAAA,GAAI,CAArB,EADP;;EAEA,KAAA,GAAQ,QAAA,GAAW,IAbpB;;EAeC,IAAG,QAAA,KAAY,yCAAf;;IAEC,EAAA,GAAK,GAAG,CAAC,KAAJ,CAAU,GAAV;IACL,IAAG,CAAA,GAAI,CAAP;MACC,MAAA,GAAS,EAAE,CAAC,CAAA,GAAI,CAAL;MACX,GAAA,GAAM,EAAE,CAAC,CAAA,GAAI,CAAL,EADX;;MAGG,KAAA,GAAQ,QAAA,GAAW,MAAX,GAAoB,GAApB,GAA0B,GAA1B,GAAgC;MACxC,IAAG,CAAA,KAAK,CAAR;QACC,KAAA,GAAQ,QAAA,GAAW,EAAE,CAAC,CAAA,GAAI,CAAL,CAAb,GAAuB,GAAvB,GAA6B,EAAE,CAAC,CAAA,GAAI,CAAL,CAA/B,GAAyC,GAAzC,GAA+C,EAAE,CAAC,CAAA,GAAI,CAAL,EAD1D;OALD;KAHD;GAfD;;SA0BC,MAAM,CAAC,IAAP,CAAY,KAAZ,CAAkB,CAAC,KAAnB,CAAA;AA3Bc",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:   2017-03-17 17:16:39\n@Last Modified time: 2018-02-24 17:55:50\n###\n###############\n# Sasha-Black #\n###############\n# Sasha-Black script:\nKiraFunction = (url, KiraSite) ->\n\t# Select “hostname” from address\n\t# [DEPRECATED]\n\t# If “kristinita.netlify.app”, not “https://kristinita.netlify.app”, works incorrect\n\t# url = parse_url(url).hostname;\n\tif url.substring(0, 7) is 'http://'\n\t\turl = url.substring(7)\n\tif url.substring(0, 8) is 'https://'\n\t\turl = url.substring(8)\n\tif url.substring(0, 4) is 'www.'\n\t\turl = url.substring(4)\n\tl = url.length\n\tif url.substring(l - 1, l) is '/'\n\t\turl = url.substring(0, l - 1)\n\tquery = KiraSite + url\n\t# For Robtex:\n\tif KiraSite is 'https://www.robtex.com/en/advisory/dns/'\n\t\t# Queries as https://www.robtex.com/en/advisory/dns/ru/Kristinita/\n\t\tms = url.split('.')\n\t\tif l > 1\n\t\t\tdomain = ms[l - 1]\n\t\t\tadr = ms[l - 2]\n\t\t\t# Second-level domain:\n\t\t\tquery = KiraSite + domain + '/' + adr + '/'\n\t\t\tif l is 3\n\t\t\t\tquery = KiraSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3]\n\t# “Window.open(query, \"nw\"); nw.focus();”\n\twindow.open(query).focus()\n"
+	]
+}

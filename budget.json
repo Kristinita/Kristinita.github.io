@@ -1,0 +1,24 @@
+[
+{
+	"resourceSizes": [
+	{
+		"resourceType": "document",
+		"budget": 50
+	},
+	{
+		"resourceType": "stylesheet",
+		"budget": 70
+	},
+	{
+		"resourceType": "font",
+		"budget": 200
+	},
+	{
+		"resourceType": "image",
+		"budget": 150
+	},
+	{
+		"resourceType": "script",
+		"budget": 200
+	}]
+}]

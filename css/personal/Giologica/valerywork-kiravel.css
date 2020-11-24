@@ -3,11 +3,13 @@
 	width: 5rem;
 	height: 0.3125rem;
 	background: #b0c4de;
+	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
 .arrow:after {
 	position: absolute;
 	content: "";
+	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	top: -0.625rem;
 	right: 0;

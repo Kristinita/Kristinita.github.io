@@ -12,7 +12,7 @@ https://browser-update.org/customize.html
 [INFO] If we add “#test-bu” to the end of any URL with browser-update,
 browser-update message will always show:
 http://browser-update.org/customize.html
-[NOTE] If “#test-bu”, test message will always show as if
+[INFO] If “#test-bu”, test message will always show as if
 “test:true”
 [INFO] If we add “#ignorecookie-bu” to the end of any URL with browser-update,
 browser-update will ignore cookies:
@@ -73,7 +73,7 @@ $buoop = {
 	get the latest version from home page:
 	https://browser-update.org/
 	 */
-	api: 2020.09,
+	api: 2020.10,
 	// [INFO] Show browser-update messsage always
 	reminder: 0,
 	/*
@@ -164,3 +164,5 @@ try {
 	e = error;
 	window.attachEvent('onload', $buo_f);
 }
+
+//# sourceMappingURL=browser-update.js.map

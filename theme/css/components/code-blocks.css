@@ -1,0 +1,79 @@
+/* >> import placeholders
+	========================================================================== */
+pre {
+/*
+ * [FIXME][NOTE] Disable, because KaiOS partially support it:
+ * https://travis-ci.org/Kristinita/KristinitaPelican/jobs/536645995#L1891
+ */
+/* doiuse-disable wordwrap */
+	overflow-wrap: break-word;
+/* doiuse-enable wordwrap */
+/*
+ * [INFO] doiuse just-in-file comments for disabling specific checks:
+ * https://www.npmjs.com/package/doiuse#ignoring-file-specific-rules
+ */
+/* doiuse-disable word-break */
+	word-break: break-all;
+/* doiuse-enable word-break */
+	position: relative;
+	white-space: pre-wrap;
+	padding: 0.5rem;
+/*
+ * [NOTE] Edge not support tab-size:
+ * https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csstabsizeproperty/
+ * https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6524689-tab-size-property
+ * But BrowserStack testing show, that it no serious problem.
+ * [NOTE] Partial support integer, not length values → I can disable doiuse:
+ * https://caniuse.com/#search=tab-size
+ * [LEARN][CSS] Length values:
+ * https://tympanus.net/codrops/css_reference/length/
+ * https://tympanus.net/codrops/css_reference/tab-size/
+ */
+/* doiuse-disable css3-tabsize */
+	tab-size: 4;
+/* doiuse-enable css3-tabsize */
+}
+/* ==========================================================================
+	> Code
+	========================================================================== */
+/*
+ * relative — for correct code block displaying
+ * pre-wrap — code wraps to the next line
+ * padding — padding code from the code block
+ * tab-size — because tab=8 in Rainbow code
+ */
+/* >> balloon-css
+	========================================================================== */
+/*
+[INFO] Balloon.css options:
+https://github.com/kazzkiq/balloon.css#customizing-tooltips
+
+[LEARN][CSS] Double dashes in CSS variables:
+https://stackoverflow.com/a/52911125/5951529
+https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+
+[WARNING] csslint doesn’t support double dash syntax:
+https://github.com/CSSLint/csslint/issues/720
+https://github.com/CSSLint/csslint/issues/682
+ */
+/* csslint ignore:start */
+:root {
+	--balloon-font-size: 1.1rem;
+	--balloon-text-color: #ffefd5;
+}
+.SashaButton {
+	--balloon-color: #a52a2a;
+}
+.SashaClick {
+	--balloon-color: #008000;
+}
+/*
+[REQUIRED] Both: “[aria-label]” and “[data-balloon-pos]”
+
+[FIXME][ISSUE][BALLOON_CSS] Slow unqualified attribute:
+https://github.com/CSSLint/csslint/wiki/Disallow-unqualified-attribute-selectors
+ */
+[aria-label][data-balloon-pos]:after {
+	font-weight: bold;
+}
+/* csslint ignore:end */

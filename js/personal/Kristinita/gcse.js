@@ -37,4 +37,6 @@ https://ru.stackoverflow.com/q/941455/199934
  */
 setTimeout((function() {
 	document.getElementById('gsc-i-id1').focus();
-}), 4000);
+}), 7000);
+
+//# sourceMappingURL=gcse.js.map

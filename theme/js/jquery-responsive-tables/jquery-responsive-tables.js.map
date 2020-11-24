@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "jquery-responsive-tables.js",
+	"sourceRoot": "../../coffee/jquery-responsive-tables/",
+	"sources": [
+		"jquery-responsive-tables.coffee"
+	],
+	"names": [],
+	"mappings": "AAIwD;;;;;AACxD,CAAA,CAAE,QAAF,CAAW,CAAC,KAAZ,CAAkB,QAAA,CAAA,CAAA;EACjB,CAAC,CAAC,gBAAF,CAAA;AADiB,CAAlB",
+	"sourcesContent": [
+		"############################\n# jquery-responsive-tables #\n############################\n# Make HTML tables responsive:\n# https://www.npmjs.com/package/jquery-responsive-tables\n$(document).ready ->\n\t$.responsiveTables()\n\treturn\n"
+	]
+}

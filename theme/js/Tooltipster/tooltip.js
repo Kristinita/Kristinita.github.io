@@ -9,7 +9,7 @@
 //##############
 /*
 Custom tooltips
-http://iamceege.github.io/tooltipster/
+https://calebjacob.github.io/tooltipster/
 https://ru.stackoverflow.com/a/584718/199934
  */
 $(document).ready(function() {
@@ -30,3 +30,5 @@ $(document).ready(function() {
 		side: ['left', 'top', 'bottom', 'right']
 	});
 });
+
+//# sourceMappingURL=tooltip.js.map

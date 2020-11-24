@@ -1,18 +1,18 @@
-/* humans.txt file for Kristinita's Search */
+/* humans.txt file for Kristinita’s Search */
 /* humanstxt.org */
 
 /* TEAM */
 	Web Developer: Sasha Chernykh (http://uid.me/sasha_chernykh)
 	Site: https://Kristinita.netlify.app
-	Contacts: https://vk.com/hair_in_the_wind
-	Location: Там, где Саша
+	Contacts: https://vk.com/psychologist_kira_k
+	Location: Там, где Кира
 
 /* THANKS */
 	Name: Alfy Centauri
 	Site: alfavika.ru
 
 /* SITE */
-	Last update: 2020/9/18
+	Last update: 2020/11/24
 	Standards: HTML5, CoffeeScript, Stylus
 	Components: Pelican, Python Markdown, Grunt, JQuery and many plugins for this components
 	Software: Sublime Text and many plugins for Sublime Text

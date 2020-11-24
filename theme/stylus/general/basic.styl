@@ -38,17 +38,19 @@
  * - Quotes top and bottom
  * - Epigraph
  * - Blocks for examples
- * Code
  * Sasha tags
  * - Page version
  * - Center element
  * - Inline and block
  * - Shadows
+ * Animation
  * External scripts and plugins
  * - Clipboard.js
  * - Tooltipster
  * - JQuery Lazy
  * - AddToAny
+ * - Chocolat
+ * - hes-gallery
  */
 
 /*
@@ -120,6 +122,7 @@ body
 
 /*
 [NOTE] I not disable outline:none; but alternative in design files, not “basic.css”
+
 [NOTE] Comment beginning before “a”, not “&:focus” required
  */
 
@@ -133,6 +136,47 @@ a
 		outline 0
 
 /* csslint ignore:end */
+
+/*
+[INFO] Icon for PDF links
+
+[INFO] I don’t use style links depending on a destination.
+I may have performance issues:
+https://github.com/CSSLint/csslint/wiki/Disallow-selectors-that-look-like-regular-expressions#performance-issues
+https://stackoverflow.com/a/18378485/5951529
+https://css-tricks.com/snippets/css/style-links-depending-on-destination/
+
+[PURPOSE] Inform users about PDF link:
+https://blog.pope.tech/2018/08/09/results-icon-dictionary/#link_pdf
+
+[LICENSE] PDF.io image:
+Original source:
+https://static.123apps.com/pdf/i/fav/32.png
+
+[LEARN][GOOGLE_IMAGES]
+Google images has “Icon” filter, Яндекс.Картинки — no:
+https://webapps.stackexchange.com/a/66307/122122
+
+[NOTE] I couldn’t find the better icon in:
+1. Flaticon — https://www.flaticon.com/search?word=pdf&search-type=icons&license=selection&order_by=4&color=2&grid=big
+2. DeviantArt — https://www.deviantart.com/search?q=pdf%20icon
+3. Wikimedia Commons — https://commons.wikimedia.org/wiki/Category:PDF_icons
+4. Yandex images — https://yandex.ru/images/search?text=pdf%20icon&isize=small&icolor=color
+ */
+.KiraPDFLink:after
+	@extend $KiraMarginNonTextLinks
+	content url(../../images/interface-images/pdf.png)
+
+
+/*
+[INFO] Styles for YouTube links
+
+[LICENSE] “Social Media” pack of Freepik:
+https://www.flaticon.com/free-icon/youtube_1384060?term=YouTube&page=1&position=1
+ */
+.KiraYouTubeLink:after
+	@extend $KiraMarginNonTextLinks
+	content url(../../images/interface-images/youtube.png)
 
 /*
  * Permalinks
@@ -584,37 +628,6 @@ blockquote
 .SashaGingerinasBadExample
 	padding .2rem
 
-/* ==========================================================================
-	> Code
-	========================================================================== */
-
-/*
- * relative — for correct code block displaying
- * pre-wrap — code wraps to the next line
- * padding — padding code from the code block
- * tab-size — because tab=8 in Rainbow code
- */
-
-pre
-	@extend $SashaNoHorizontalScrollbar
-	position relative
-	white-space pre-wrap
-	padding .5rem
-	/*
-	 * [NOTE] Edge not support tab-size:
-	 * https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csstabsizeproperty/
-	 * https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6524689-tab-size-property
-	 * But BrowserStack testing show, that it no serious problem.
-	 * [NOTE] Partial support integer, not length values → I can disable doiuse:
-	 * https://caniuse.com/#search=tab-size
-	 * [LEARN][CSS] Length values:
-	 * https://tympanus.net/codrops/css_reference/length/
-	 * https://tympanus.net/codrops/css_reference/tab-size/
-	 */
-	/* doiuse-disable css3-tabsize */
-	tab-size 4
-	/* doiuse-enable css3-tabsize */
-
 
 /* ==========================================================================
 	> Sasha tags
@@ -655,6 +668,34 @@ pre
 
 
 /* ==========================================================================
+	> Animation
+	========================================================================== */
+
+
+/* [FIXME] Enable this feature after migration from Gemini Scrollbar
+to native scrollbars:
+https://www.digitalocean.com/community/tutorials/css-scrollbars
+It doesn’t work with Gemini Scrollbar.
+
+[INFO] Smooth scrolling:
+https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/
+https://github.com/cferdinandi/smooth-scroll
+
+[INFO] Polyfill:
+https://github.com/iamdustan/smoothscroll
+
+
+html
+	scroll-behavior smooth
+
+@media screen and (prefers-reduced-motion: reduce)
+	html
+		scroll-behavior auto
+ */
+
+
+
+/* ==========================================================================
 	> External scripts and plugins
 	========================================================================== */
 
@@ -669,11 +710,13 @@ pre
  */
 
 .SashaButton
+.SashaClick
 	float right
 
 // Width of clipboard button in code blocks
 .SashaNotModify
 	width .8125rem
+
 
 /* >> Tooltipster
 	========================================================================== */
@@ -684,6 +727,7 @@ pre
 	.tooltipster-box
 		border 0
 		border-radius .3125rem
+
 
 /* >> JQuery Lazy
 	========================================================================== */
@@ -697,6 +741,7 @@ pre
 
 .SashaLazy
 	min-width 1rem
+
 
 /* >> AddToAny
 	========================================================================== */
@@ -715,6 +760,22 @@ pre
 div.a2a_floating_style
 	padding .0625rem
 	top 30%
+
+	/* [INFO] Smaller “z-index” so as not to overlap lightbox buttons:
+	https://i.imgur.com/NVaVOox.png
+
+	[INFO] “.gm-scrollbar” has “z-index: 1” by default;
+	buttons must have a little bit value
+	 */
+	z-index 10
+
+	/*
+	[INFO] Color for accessibility tools.
+	“a” tag in AddToAny icons haven’t any text; we click to icons, not to text.
+	But accessibility tolor mark AddToAny “a” color as error anyway
+	 */
+	>a
+		color navy
 
 div.a2a_default_style
 	border-radius .375rem
@@ -740,3 +801,171 @@ div.a2a_default_style
 		display block
 		height 0
 		clear both
+
+
+/*
+[INFO] Hide AddToAny until the script “https://static.addtoany.com/menu/page.js” is run;
+The script run after 7 seconds, the tag after 8:
+https://stackoverflow.com/a/46799062/5951529
+
+Otherwise, strip in the top of the page:
+https://i.imgur.com/WnrhzRI.png
+ */
+.KiraAddToAny
+	animation KiraAddToAnyHide 0s 8s forwards
+	visibility hidden
+
+@keyframes KiraAddToAnyHide
+	to
+		visibility visible
+
+
+/* >> Chocolat
+	========================================================================== */
+
+// .chocolat-overlay
+// 	background-color darkgoldenrod
+
+// // [REQUIRED] “.chocolat-wrapper” for these selectors so that overwrite default values
+// .chocolat-wrapper
+// 	.chocolat-close
+// 		/* [LICENSE] “Banking and finance” pack from Kiranshastry:
+// 		https://www.flaticon.com/packs/banking-and-finance-22
+
+// 		[FIXME][ISSUE][PELICAN] Paths in Stylus
+// 		*/
+// 		background-image url(../../images/interface-images/Chocolat/close.png)
+
+// 	.chocolat-left
+// 		/* [LICENSE] “Arrows Icon” pack from Pixel perfect:
+// 		https://www.flaticon.com/packs/arrows-50
+// 		[INFO] Left and right icons both from this pack
+// 		*/
+// 		background-image url(../../images/interface-images/Chocolat/left-arrow.png)
+// 		/* [INFO] Margin for preventing conflict with AddToAny:
+// 		https://i.imgur.com/yimIlTX.png
+// 		*/
+// 		margin-left 2rem
+
+// 	.chocolat-right
+// 		background-image url(../../images/interface-images/Chocolat/right-arrow.png)
+// 		margin-right 2rem
+
+// 	.chocolat-fullscreen
+// 		/* [LICENSE] “Arrows and Infographic” pack from Freepik:
+// 		https://www.flaticon.com/free-icon/expand_3558024
+// 		*/
+// 		background-image url(../../images/interface-images/Chocolat/fullscreen.png)
+
+// 	.chocolat-bottom
+// 		color papayawhip
+// 		font-size 1.2rem
+
+
+/* >> hes-gallery
+	========================================================================== */
+
+/* [REQUIRED] csslint anti-patterns
+:
+1. “div” and “img” overqualified elements,
+2. ids, no classes
+ */
+
+/* csslint ignore:start */
+
+div
+
+	/*
+	[INFO] Lightbox background color
+	[NOTE] In this case “div” overqualified element not required;
+	but since it required for “#hg-bg::after” I added it for syntax simplify
+	 */
+	&#hg-bg
+
+		// [INFO] Goldenrod with opacity
+		background-color #daa52082
+
+		/*
+		[INFO] “Close” button
+
+		[NOTE] We can close lightbox by click to any free area
+
+		[WARNING] Image overlapped this element:
+		https://github.com/demtario/hes-gallery/issues/9
+		 */
+		&::after
+
+			/* [LICENSE] “Banking and finance” pack from Kiranshastry:
+			https://www.flaticon.com/packs/banking-and-finance-22
+
+			[FIXME][ISSUE][STYLUS] Get paths from YAML in Stylus
+			 */
+			background-image url(../../images/interface-images/hes-gallery/close.png)
+			width 2.5rem
+			height 2.5rem
+			top 1.25rem
+			right 1.25rem
+
+	// [INFO] Text below image in the lightbox
+	&#hg-howmany
+		color papayawhip
+		font-size 1.1rem
+		bottom -1.875rem
+
+	// [INFO] Left and right arrows
+	&#hgallery button
+
+		/* [LICENSE] “Arrows Icon” pack from Pixel perfect:
+		https://www.flaticon.com/packs/arrows-50
+		[INFO] Left and right icons both from this pack
+		 */
+		background-image url(../../images/interface-images/hes-gallery/right-arrow.png)
+		width 2.5rem
+		height 2.5rem
+
+		/*
+		[INFO] Overlap lightbox image
+
+		[LEARN][CSS] “inherit” — get a property from the parent element:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+		 */
+		z-index inherit
+		opacity .4
+
+		&:hover
+			opacity 1
+
+		// [INFO] Disable margins for left and right arrows
+		&#hg-prev
+			left 0
+
+		&#hg-next
+			right 0
+
+
+img#hg-pic
+	/*
+	[LEARN][CSS] Overwrite “min-height” and “min-width”:
+	https://stackoverflow.com/a/27582386/5951529
+
+	[PURPOSE] It disable white borders.
+	[COMPARE]
+	https://i.imgur.com/3mXbJW4.png
+	https://i.imgur.com/9Gl7vOT.png
+	 */
+	min-height 0
+	min-width 0
+
+	/*
+	[LEARN][CSS] Viewport-Relative length:
+	https://stackoverflow.com/a/16837667/5951529
+	[INFO] It specify “max-height” property to the screen size:
+	https://stackoverflow.com/a/43639067/5951529
+
+	[COMPARE]
+	85vh — https://i.imgur.com/YA340vy.png
+	90vh (default) — https://i.imgur.com/NArND6X.png
+	 */
+	max-height 85vh
+
+/* csslint ignore:end */

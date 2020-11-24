@@ -64,3 +64,5 @@ a2a_config.prioritize = [
 	'feedblitz',
 	'outlook'
 ];
+
+//# sourceMappingURL=addtoany.js.map

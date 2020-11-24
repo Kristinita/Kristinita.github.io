@@ -5,15 +5,49 @@
  * @Last Modified time: 2017-05-09 14:46:21
  */
 
-/* [INFO] Webfonts-helper — site for getting generic-names for Google Fonts:
+
+/*
+[INFO] Webfonts-helper — site for getting generic-names for Google Fonts:
 https://google-webfonts-helper.herokuapp.com/
-[WARNING] Post comments before tags and classes, not selectors;
+
+[BUG][STYLINT] Post comments before tags and classes, not selectors;
 Stylint have a bug:
 https://github.com/SimenB/stylint/issues/457
  */
 
-/* [NOTE] Disable “unique-headings” for this file, I get a known bug:
+
+/*
+[BUG][CSSLINT] Disable “unique-headings” for this file, I get a known bug:
 https://github.com/CSSLint/csslint/issues/80
+https://github.com/CSSLint/csslint/issues/759
+ */
+
+
+/*
+[INFO] FOUT — using fallback fonts, FOIT — no;
+“FOIT is our enemy”:
+https://www.zachleat.com/web/webfont-glossary/#fout
+https://stackoverflow.com/a/6996646/5951529
+
+[INFO] Web safe fallback fonts:
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+[NOTE] “font-size” of fallback font must be the same as for original
+
+
+[INFO] Font style matcher — service for fallback fonts selection:
+https://meowni.ca/font-style-matcher/
+https://github.com/notwaldorf/font-style-matcher
+
+[NOTE] Font style matcher is not the greatest tool;
+it doesn’t support “font-style” and “font-weight”:
+https://github.com/notwaldorf/font-style-matcher/issues/24
+But we haven’t anything better:
+
+[FIXME][ISSUE] Font style matcher succesfully works for Chromium solely,
+not for Firefox
+[COMPARE] https://i.imgur.com/jv5Tw9m.png
+https://i.imgur.com/0BPOg9u.png
  */
 
 /* csslint ignore:start */
@@ -25,39 +59,88 @@ h1
 .SashaButtonCategory
 .SashaBottomAside
 	@extend $KiraPlay
+
+	/*
+	[INFO] “font-weight” for fallback font, but it doesn’t affect
+	to original Google font
+	 */
+	font-weight bold
 	font-size 1.9375rem
-	font-weight lighter
+
+
+/*
+[INFO] Scada — sans-serif:
+https://google-webfonts-helper.herokuapp.com/fonts/scada
+ */
+h2
+	/*
+	[INFO] Palatino Linotype as fallback font:
+	https://i.imgur.com/0PH617U.png
+
+	[NOTE] Scada is sans-serif font, but
+	best fit “Palatino Linotype”.
+	I selected “Palatino Linotype”, but the last fallback font
+	is “sans-serif”, not “serif”
+
+	[NOTREQUIRED] “Quotes” around Google font, but from fallback fonts,
+	if font name haven’t spaces
+	 */
+	font-family Scada, "Palatino Linotype", "Book Antiqua", Palatino, sans-serif
+	font-size 1.9375rem
+
+	/*
+	[INFO] No “italic” for Palatino Linotype; if “normal” —
+	difference between “Palatino Linotype” and “Scada” will less
+	 */
 	font-style normal
 
-// [INFO] sans-serif:
-// https://google-webfonts-helper.herokuapp.com/fonts/scada
-h2
-	font-family "Scada", sans-serif
-	font-size 1.9375rem
-	font-style italic
 
-// [INFO] sans-serif:
-// https://google-webfonts-helper.herokuapp.com/fonts/el-messiri
+/*
+[INFO] El Messiri — sans-serif:
+https://google-webfonts-helper.herokuapp.com/fonts/el-messiri
+ */
 a
-	font-family "El Messiri", sans-serif
+	font-family "El Messiri", "Trebuchet MS", Helvetica, sans-serif
 	font-size 1.3rem
 	font-style italic
 	font-weight bold
 
-// [INFO] monospace:
-// https://google-webfonts-helper.herokuapp.com/fonts/fira-mono
+
+/*
+[INFO] Fira Mono — monospace:
+https://google-webfonts-helper.herokuapp.com/fonts/fira-mono
+ */
 pre
 code
-	font-family "Fira Mono", monospace
+
+	/*
+	[INFO] Lucida Console fallback font:
+	https://i.imgur.com/gE1WGfR.png
+	 */
+	font-family "Fira Mono", "Lucida Console", Monaco, monospace
 	font-size 1.1875rem
 
-// [INFO] handwriting:
-// https://google-webfonts-helper.herokuapp.com/fonts/marck-script
-// [NOTE] Stylelint doesn't support “handwriting”
+
+/*
+[INFO] Marck Script — handwriting:
+https://google-webfonts-helper.herokuapp.com/fonts/marck-script
+ */
 .WorkOnYourself
-	font-family "Marck Script", fantasy
+	/*
+	[INFO] “Palatino Linotype” fallback font;
+	all safe web fonts are not great here:
+	https://i.imgur.com/bYXlzzp.png
+
+	[NOTE] “Palatino Linotype” is a “serif” font, but I use it,
+	because no “handwriting” safe fonts.
+
+	[FIXME][ISSUE][STYLELINT]
+	Stylelint doesn’t support “handwriting” type
+	 */
+	font-family "Marck Script", "Palatino Linotype", "Book Antiqua", Palatino, fantasy
 	font-size 3.5625rem
 	margin-bottom 1rem
+
 
 /* For Sasha Black */
 
@@ -70,7 +153,7 @@ code
 
 .SashaDifferentUrl
 .SashaReadHelp
-	font-family "Scada", sans-serif
+	font-family Scada, "Palatino Linotype", "Book Antiqua", Palatino, sans-serif
 	font-size 1.4375rem
 
 .SashaCheckYourSite

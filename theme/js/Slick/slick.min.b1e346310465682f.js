@@ -1,2 +1,0 @@
-$(document).ready(function(){$(".KiraSlider").slick({lazyLoad:"ondemand",autoplay:!0,variableWidth:!1,adaptiveHeight:!0,slidesToShow:1,fade:!0,speed:1e3,arrows:!1,slidesToScroll:1,autoplaySpeed:2e3,pauseOnFocus:!1,pauseOnHover:!1})}),$(".KiraSlider").on("lazyLoaded",function(a){$(a.currentTarget).find("source").each(function(a,e){var d=$(e);d.attr("srcset",d.data("lazy-srcset"))})});
-//# sourceMappingURL=slick.min.js.map

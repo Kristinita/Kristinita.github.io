@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "visualize-bar-chart.js",
+	"sourceRoot": "../../coffee/Visualize/",
+	"sources": [
+		"visualize-bar-chart.coffee"
+	],
+	"names": [],
+	"mappings": "AAIG;;;;;;;;;;AAMH,CAAA,CAAE,QAAF,CAAW,CAAC,KAAZ,CAAkB,QAAA,CAAA,CAAA;EACjB,CAAA,CAAE,gBAAF,CAAmB,CAAC,SAApB,CACC;IAAA,KAAA,EAAO,GAAP;IACA,IAAA,EAAM,KADN;IAEA,MAAA,EAAQ;EAFR,CADD;AADiB,CAAlB",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:   2017-12-28 13:35:33\n@Last Modified time: 2017-12-28 13:46:50\n###\n#############\n# visualize #\n#############\n# bar chart:\n# http://www.bbc.co.uk/schools/gcsebitesize/geography/geographical_skills/graphs_rev3.shtml\n$(document).ready ->\n\t$('.SashaBarChart').visualize\n\t\twidth: 700\n\t\ttype: 'bar'\n\t\tlegend: true\n\treturn\n"
+	]
+}

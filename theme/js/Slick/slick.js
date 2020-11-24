@@ -48,3 +48,5 @@ $('.KiraSlider').on('lazyLoaded', function(evt) {
 		$source.attr('srcset', $source.data('lazy-srcset'));
 	});
 });
+
+//# sourceMappingURL=slick.js.map

@@ -21,3 +21,5 @@ $(document).ready(function() {
 	// Timeout, because form can load after another page:
 	setTimeout(setAccessKey, 500);
 });
+
+//# sourceMappingURL=accesskeys.js.map

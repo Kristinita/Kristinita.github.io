@@ -4,187 +4,158 @@
  * @Last Modified by:   Kristinita
  * @Last Modified time: 2017-05-09 15:19:54
  */
-
 /* Unverified For PurifyCSS
 	========================================================================== */
-
 body {
 	background: #08054e;
 	color: #fff0f5;
 }
-
 a {
 	color: #dda0dd;
 }
-
 a:hover {
 	background-color: #eee8aa;
 }
-
 a:focus {
 	background: #f0fff0;
 }
-
 em {
 	color: #6495ed;
 }
-
 img {
 	box-shadow: 0 0 2rem #000;
 }
-
 .SashaPageLoading {
 	box-shadow: none;
-	/*
+/*
 	[INFO] Tracking will still:
 	https://en.ryte.com/wiki/Tracking_Pixel
-	 */
+ */
 	display: none;
 }
-
 kbd {
 	color: #fff5ee;
 	background: #6495ed;
 }
-
-hr {
-	color: #c71585;
-}
-
 .SashaBottomAside {
 	color: #fff;
 	bottom: 8%;
 }
-
 blockquote {
 	border-left: solid #e6e6fa 0.5rem;
 	color: #6a5acd;
 	background: #fcfcfc;
 }
-
 blockquote >p >em {
 	color: #6495ed;
 }
-
 .SashaBlockquote {
 	border-color: #ff5730;
 	background-color: #ffdab9;
 	color: #c71585;
 }
-
 .SashaCitation {
 	color: #90ee90;
 }
-
 .SashaEpigraph {
 	color: #ffe4c4;
 }
-
 .SashaEpigraph >.SashaEpigraphAuthor {
 	color: #ffb6c1;
 }
-
 .SashaEpigraph >em {
 	color: #ffdc33;
 }
-
 .SashaShadow {
 	text-shadow: 0 0 0.625rem #ff00de, 0 0 1.25rem #ff00de, 0 0 1.875rem #ff00de, 0 0 2.5rem #ff00de, 0 0 3.125rem #ff00de, 0 0 3.75rem #ff00de;
 }
-
 .SashaDot {
 	border-bottom: 0.0625rem dotted #c71585;
 }
-
 .SashaDotLight {
 	border-bottom: 0.0625rem dotted #fff8dc;
 }
-
 .SashaSpan {
 	color: #c71585;
 	background-color: #ffe4c4;
 }
-
-::-moz-selection {
-	color: #f08080;
-	background: rgba(255,228,181,0.99);
-}
-
 ::selection {
 	color: #f08080;
 	background: rgba(255,228,181,0.99);
 }
-
 /* csslint ignore:start */
-
-div .a2a_floating_style {
+div.a2a_floating_style {
 	background-color: #ff1493;
 }
-
 /* csslint ignore:end */
-
 /* csslint ignore:start */
-
 div.animate-flicker span {
 	color: #d2691e;
 }
-
-div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta {
+div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,
+div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,
+div.ivu-modal-body div.wf-buttons .ivu-btn.ivu-btn-text {
 	color: #a52a2a;
 }
-
-div.wf.wf-theme-dark .ivu-input::-moz-placeholder {
+div.wf.wf-theme-dark :not(.v-transfer-dom) a,
+div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,
+div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,
+div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled],
+div.wf.wf-theme-dark .ivu-btn-text[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-text,
+div.wf.wf-theme-dark .ivu-btn-text:hover,
+div.wf.wf-theme-dark .ivu-input::placeholder,
+div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,
+div.wf.wf-theme-dark .ivu-menu-item-selected span,
+div.wf.wf-theme-dark a.wf-use-wildfire span,
+div.wf.wf-theme-dark a.wf-use-wildfire:hover span,
+div.wf.wf-theme-dark .wf-separator,
+div.wf.wf-theme-dark .wf-no-content-tip,
+div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,
+div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,
+div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,
+div.wf.wf-theme-dark .ivu-input-wrapper textarea.ivu-input,
+div.wf.wf-theme-dark .wf-comment-content,
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,
+div.wf.wf-theme-dark .ivu-menu {
 	color: #d2691e;
 }
-
-div.wf.wf-theme-dark :not(.v-transfer-dom) a,div.wf.wf-theme-dark :not(.v-transfer-dom) a:hover,div.wf.wf-theme-dark .wf-comment-header .wf-content .wf-meta,div.wf.wf-theme-dark .wf-comment-item .wf-comment-header,div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .ivu-input::placeholder,div.wf.wf-theme-dark .wf-comment-body .wf-comment-footer a,div.wf.wf-theme-dark .ivu-menu-item-selected span,div.wf.wf-theme-dark a.wf-use-wildfire span,div.wf.wf-theme-dark a.wf-use-wildfire:hover span,div.wf.wf-theme-dark .wf-separator,div.wf.wf-theme-dark .wf-no-content-tip,div.wf.wf-theme-dark .ivu-menu-submenu-title-icon,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at,div.wf.wf-theme-dark .ivu-icon.ivu-icon-at.wf-inactive,div.wf.wf-theme-dark .wf-comment-content,div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-menu {
-	color: #d2691e;
+div.wf.wf-theme-dark .wf-use-wildfire svg path,
+div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
+	fill: #d2691e;
 }
-
 div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
 	background-color: #d2691e;
 }
-
 div.wf.wf-theme-dark > footer {
 	border-top-color: #d2691e;
 }
-
-div.wf.wf-theme-dark input.ivu-input::-moz-placeholder {
-	color: #696969;
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover {
+	border-bottom-color: #d2691e;
 }
-
 div.wf.wf-theme-dark input.ivu-input::placeholder {
 	color: #696969;
 }
-
 div.wf.wf-theme-dark .ivu-icon-heart-broken {
 	color: #7b68ee;
 }
-
 div.wf.wf-theme-dark .ivu-icon-heart {
 	color: #b8860b;
 }
-
-div.wf.wf-theme-dark .ivu-btn-primary[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
+div.wf.wf-theme-dark .ivu-btn-primary[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
 	background-color: rgba(255,255,255,0.2);
 }
-
-div.wf.wf-theme-dark .wf-post-btn[disabled],div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
+div.wf.wf-theme-dark .wf-post-btn[disabled],
+div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
+div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
 	border-color: #d2691e;
 }
-
 div.wf.wf-theme-dark .wf-tip {
 	font-size: 0.7rem;
 }
-
 /* csslint ignore:end */
-
-.tooltipster-punk-purple .tooltipster-box {
-	border-bottom: 0.1875rem solid #ffa500;
-	background: #800080;
-}
-
-.tooltipster-punk-aquamarine .tooltipster-box {
-	border-bottom: 0.1875rem solid #ff69b4;
-	background: #228b22;
-}

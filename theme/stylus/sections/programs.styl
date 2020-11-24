@@ -1,9 +1,15 @@
 // General
 
 Sasha-Body-Background = sienna
-Sasha-Body-Foreground = pink
 
-Sasha-Link = violet
+// [NOTE] “pink” has 3.65 contrast
+Sasha-Body-Foreground = papayawhip
+
+/*
+[INFO] “Отборный жёлтый” Yandex
+[NOTE] “violet” has 2.42 contrast
+ */
+Sasha-Link = #ffba00
 // lightcoral 60%
 Sasha-Hover-Link = #f0808099
 Sasha-Focus-Link = whitesmoke
@@ -11,7 +17,12 @@ Sasha-Dead-Link = #e52b50
 
 // Sasha-Begin-Cursive = yellow
 // Sasha-End-Cursive = red
-Sasha-Em = orange
+
+/*
+[INFO] “Снежный синий” Yandex + contrast finder
+[NOTE] “orange” has 2.84 contrast
+ */
+Sasha-Em = #aaf2fd
 
 Sasha-Image-Shadow = black
 
@@ -30,9 +41,11 @@ Sasha-Bottom-Percent = 7%
 // Blockquotes
 
 Sasha-Left-Border = indianred
-Sasha-Left-Border-Foreground = blanchedalmond
-Sasha-Left-Border-Background = sandybrown
-Sasha-Blockquote-Em = indianred
+// [NOTE] “blanchedalmond” has 1.74 contrast
+Sasha-Left-Border-Blockquote-Foreground = indigo
+Sasha-Left-Border-Blockquote-Background = sandybrown
+// [INFO] “Сангина” Yandex
+Sasha-Blockquote-Em = #92000a
 
 // Nt
 Sasha-Term-Blockquote-Border = mediumslateblue
@@ -44,9 +57,10 @@ Sasha-Term-Blockquote-Foreground = midnightblue
 // Nt
 Sasha-Citation-Between-Quotes = salmon
 
-Sasha-Epigraph = #ffdc33
+// [INFO] “Аквамариновый” Yandex
+Sasha-Epigraph = #7fffd4
 Sasha-Epigraph-Author = lightpink
-Sasha-Epigraph-Em = #ffdc33
+Sasha-Epigraph-Em = #7fffd4
 
 // Nt
 Sasha-Gingerinas-Example = #d0f0c0
@@ -63,10 +77,6 @@ Sasha-Multiline-Code = black
 Sasha-Selection-Foreground = lightcoral
 Sasha-Selection-Background = rgba(255 228 181 .99)
 
-
-// Progressbar
-
-Sasha-Progress-Bar = black
 
 // AddToAny
 
@@ -86,5 +96,4 @@ Sasha-Dfn = palevioletred
 
 // Imports
 @import "core-design.styl"
-@import "../script-colors/Tooltipster/tooltipster-default.styl"
 @import "../script-colors/Pygments/pygments-fruity.styl"

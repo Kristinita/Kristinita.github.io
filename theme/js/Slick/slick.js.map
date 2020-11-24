@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "slick.js",
+	"sourceRoot": "../../coffee/Slick/",
+	"sources": [
+		"slick.coffee"
+	],
+	"names": [],
+	"mappings": "AAIG;;;;;;;;;;;;AAQH,CAAA,CAAE,QAAF,CAAW,CAAC,KAAZ,CAAkB,QAAA,CAAA,CAAA;EACjB,CAAA,CAAE,aAAF,CAAgB,CAAC,KAAjB,CAQC,CAAA;;;;;;;;IAAA,QAAA,EAAU,UAAV;IACA,QAAA,EAAU,IADV;;IAGA,aAAA,EAAe,KAHf;IAIA,cAAA,EAAgB,IAJhB;IAKA,YAAA,EAAc,CALd;IAMA,IAAA,EAAM,IANN;IAOA,KAAA,EAAO,IAPP;IAQA,MAAA,EAAQ,KARR;IASA,cAAA,EAAgB,CAThB;IAUA,aAAA,EAAe,IAVf;IAWA,YAAA,EAAc,KAXd;IAYA,YAAA,EAAc;EAZd,CARD;AADiB,CAAlB,EARG;;;;;;;;AAsCH,CAAA,CAAE,aAAF,CAAgB,CAAC,EAAjB,CAAoB,YAApB,EAAkC,QAAA,CAAC,GAAD,CAAA;EACjC,CAAA,CAAE,GAAG,CAAC,aAAN,CAAoB,CAAC,IAArB,CAA0B,QAA1B,CAAmC,CAAC,IAApC,CAAyC,QAAA,CAAC,CAAD,EAAI,MAAJ,CAAA;AAC1C,QAAA;IAAE,OAAA,GAAU,CAAA,CAAE,MAAF;IACV,OAAO,CAAC,IAAR,CAAa,QAAb,EAAuB,OAAO,CAAC,IAAR,CAAa,aAAb,CAAvB;EAFwC,CAAzC;AADiC,CAAlC",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:\t 2018-03-20 10:35:20\n@Last Modified time: 2018-03-21 09:49:03\n###\n#########\n# Slick #\n#########\n# JQuery carousel and/or slideshow:\n# http://kenwheeler.github.io/slick/\n# Options:\n# http://kenwheeler.github.io/slick/#settings\n$(document).ready ->\n\t$('.KiraSlider').slick\n\t\t###\n\t\t[NOTE] If “ondemand”, need wrap each image in <div>:\n\t\thttps://github.com/kenwheeler/slick/issues/1473#issuecomment-150086856\n\t\t“ondemand” vs “progressive”:\n\t\thttps://stackoverflow.com/a/25726743/5951529\n\t\t[NOTE] First 3 images load not lazy, after images load lazy.\n\t\t###\n\t\tlazyLoad: 'ondemand'\n\t\tautoplay: true\n\t\t# [NOTE] If true, slides works incorrect.\n\t\tvariableWidth: false\n\t\tadaptiveHeight: true\n\t\tslidesToShow: 1\n\t\tfade: true\n\t\tspeed: 1000\n\t\tarrows: false\n\t\tslidesToScroll: 1\n\t\tautoplaySpeed: 2000\n\t\tpauseOnFocus: false\n\t\tpauseOnHover: false\n\treturn\n\n# [INFO] srcset support:\n# https://github.com/kenwheeler/slick/pull/1661#issuecomment-386572834\n# [WARNING] PageSpeed Insights doesn't support it:\n# https://github.com/GoogleChrome/lighthouse/issues/7245\n# [FIXME] Migrate to Swiper:\n# http://idangero.us/swiper/get-started/\n$('.KiraSlider').on 'lazyLoaded', (evt) ->\n\t$(evt.currentTarget).find('source').each (i, source) ->\n\t\t$source = $(source)\n\t\t$source.attr 'srcset', $source.data('lazy-srcset')\n\t\treturn\n\treturn\n"
+	]
+}

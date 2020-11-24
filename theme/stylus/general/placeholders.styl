@@ -90,9 +90,15 @@ $SashaFontSizeChildLink
 		font-size 2rem
 
 $KiraPlay
-	// [INFO] sans-serif:
-	// https://google-webfonts-helper.herokuapp.com/fonts/play
-	font-family "Play", sans-serif
+	/*
+	[INFO] sans-serif:
+	https://google-webfonts-helper.herokuapp.com/fonts/play
+
+	[INFO] Arial as fallback font:
+	https://i.imgur.com/HVsZeky.png
+	Georgia and Palatino Linotype may also be available
+	 */
+	font-family Play, Arial, Helvetica, sans-serif
 
 $KiraBreakWords
 	word-break break-all
@@ -117,3 +123,9 @@ $KiraCitationsQuotes
 	display inline-block
 	font-size 3rem
 	line-height 0
+
+/*
+[INFO] Margin between link and image for links to PDF files, YouTube and so on
+ */
+$KiraMarginNonTextLinks
+	margin 0 .1rem 0 .4rem

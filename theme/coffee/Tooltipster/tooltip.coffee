@@ -9,7 +9,7 @@
 ###############
 ###
 Custom tooltips
-http://iamceege.github.io/tooltipster/
+https://calebjacob.github.io/tooltipster/
 https://ru.stackoverflow.com/a/584718/199934
 ###
 

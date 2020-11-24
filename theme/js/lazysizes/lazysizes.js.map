@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "lazysizes.js",
+	"sourceRoot": "../../coffee/lazysizes/",
+	"sources": [
+		"lazysizes.coffee"
+	],
+	"names": [],
+	"mappings": "AAEa;;;;;;;;;;;;;;AAab,QAAQ,CAAC,gBAAT,CAA0B,kBAA1B,EAA8C,QAAA,CAAA,CAAA;SAC7C,SAAS,CAAC,SAAS,CAAC,MAApB,CAAA;AAD6C,CAA9C",
+	"sourcesContent": [
+		"#############\n# lazysizes #\n#############\n###\n[INFO] Lazy loading images and iframes:\nhttps://github.com/aFarkas/lazysizes#js-api---events\nhttps://afarkas.github.io/lazysizes/index.html\n###\n\n###\n[INFO] Update the scrollbar after image loading,\notherwise Gemini Scrollbar will have incorrect positions:\nhttps://github.com/aFarkas/lazysizes#js-api---events\nhttps://github.com/noeldelgado/gemini-scrollbar#basic-methods\n###\ndocument.addEventListener 'lazybeforeunveil', ->\n\tinternals.scrollbar.update()\n"
+	]
+}

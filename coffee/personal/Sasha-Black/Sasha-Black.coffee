@@ -35,4 +35,3 @@ KiraFunction = (url, KiraSite) ->
 				query = KiraSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3]
 	# “Window.open(query, "nw"); nw.focus();”
 	window.open(query).focus()
-	return
