@@ -14,13 +14,13 @@ a {
 	color: #c71585;
 }
 a:hover {
-	background-color: #eee8aa;
+	background-color: #d8bfd8;
 }
 a:focus {
 	background: #f0fff0;
 }
 em {
-	color: #ff69b4;
+	color: #556b2f;
 }
 img {
 	box-shadow: 0 0 2rem #000;
@@ -34,8 +34,8 @@ img {
 	display: none;
 }
 kbd {
-	color: #fff5ee;
-	background: #6495ed;
+	color: #fffff0;
+	background: #5f9ea0;
 }
 hr {
 	color: #c71585;
@@ -54,7 +54,7 @@ blockquote {
 	background: #fcfcfc;
 }
 blockquote >p >em {
-	color: #ff69b4;
+	color: #556b2f;
 }
 .SashaBlockquote {
 	border-color: #7b68ee;

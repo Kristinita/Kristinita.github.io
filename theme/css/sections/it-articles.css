@@ -188,6 +188,10 @@ div.wf.wf-theme-dark .wf-tip {
 .SashaBlockHighlight .o {
 	color: #5bc4bf;
 }
+.SashaInlineHighlight .x,
+.SashaBlockHighlight .x {
+	color: #fff;
+}
 .SashaInlineHighlight .p,
 .SashaBlockHighlight .p {
 	color: #2f1e2e;
