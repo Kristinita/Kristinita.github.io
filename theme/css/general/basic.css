@@ -14,7 +14,6 @@
  * - Headers
  * - KBD
  * - noscript
- * Tables
  * Lists
  * - ol, ul, li
  * - TOC
@@ -70,10 +69,7 @@ body {
 	overflow: hidden;
 }
 .SashaBottomAside,
-.SashaInlineHighlight,
-a,
-td,
-th {
+.SashaInlineHighlight {
 /*
  * [FIXME][NOTE] Disable, because KaiOS partially support it:
  * https://travis-ci.org/Kristinita/KristinitaPelican/jobs/536645995#L1891
@@ -192,6 +188,18 @@ body {
 /* csslint ignore:start */
 a {
 	text-decoration: none;
+/*
+	[DECLINED][FIXME] “margin-right”, “padding-right” or “:after”
+	causes big spaces between headers:
+	https://i.imgur.com/vANDiDa.png
+
+	[INFO] Distance between link and symbol after it
+
+	[BEFORE] https://i.imgur.com/cB8n5Rq.png
+	[AFTER] https://i.imgur.com/jwjwBHk.png
+
+	margin-right .15rem
+ */
 }
 a:focus {
 	outline: 0;
@@ -272,29 +280,6 @@ noscript {
 	z-index: 900;
 }
 /* ==========================================================================
-	> Tables
-	========================================================================== */
-/*
- * Basic style — https://css-tricks.com/complete-guide-table-element/#article-header-id-4
- */
-table {
-	width: 100%;
-}
-/*
- * Words wrap in cells of HTML tables:
- * https://stackoverflow.com/a/1539167/5951529
- * https://caniuse.com/#search=break-all
- */
-td,
-th {
-	padding: 0.5rem;
-}
-/*
- * [FIXME] I can't make responsive tables:
- * https://stackoverflow.com/q/50274179/5951529
- * https://github.com/noeldelgado/gemini-scrollbar/issues/62
- */
-/* ==========================================================================
 	> Lists
 	========================================================================== */
 /* >> ol, ul, li
@@ -311,6 +296,14 @@ ol
 ul
 	list-style-position inside
  */
+ol,
+ul {
+/* [ACTION] Smaller indentation between list items:
+	https://stackoverflow.com/a/28597518/5951529
+	[PURPOSE] On mobile devices indentation takes up too much area
+ */
+	padding-left: 0.7rem;
+}
 /* >> TOC
 	========================================================================== */
 .SashaTOC {
@@ -380,6 +373,9 @@ https://github.com/search?l=Stylus&p=1&q=transform+scale%28+extension%3Astyl&typ
 img {
 	max-width: 100%;
 	margin: 0 auto;
+}
+.SashaKristinogradIcon {
+	box-shadow: none;
 }
 /* >> Left and right
 	========================================================================== */
@@ -489,7 +485,7 @@ iframe {
 blockquote {
 	font-size: 1.1875rem;
 	font-style: italic;
-	margin: 0.625rem 2.5rem;
+	margin: 0.625rem 1rem;
 	padding: 0.9375rem;
 }
 /* >> Terms

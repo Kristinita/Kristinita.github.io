@@ -76,39 +76,6 @@
 		height 2rem
 	 */
 
-	/*
-	jquery-responsive-tables —
-	plugin for different tables displaying in different orientations:
-	https://www.npmjs.com/package/jquery-responsive-tables
-	http://ryanwells.com/examples/responsive-tables/
-	 */
-
-	/*
-	Disable borders for portrait table:
-	https://webref.ru/css/border-bottom-width
-	[NOTE] “.jrt” required
-	 */
-	.jrt td
-		border-bottom-width 0
-
-	/*
-	[LEARN][STYLUS] Selector interpolation:
-	http://stylus-lang.com/docs/interpolation.html#selector-interpolation
-	Range:
-	http://stylus-lang.com/docs/operators.html#range--
-	[NOTE] “td” required for “white-space”;
-	not required for “margin-bottom”, but not removed for code simplicity
-	[INFO] margin-bottom for long titles:
-	https://github.com/ryanwellsdotcom/jquery-responsive-tables/issues/1
-	[INFO] Line breaking for “content” CSS property:
-	https://alligator.io/css/line-break-content-property/
-	 */
-	for column in 1..7
-		td.jrt-cell-{column}
-			margin-bottom 2rem
-			&::before
-				white-space normal
-
 
 /* For landscape orientation */
 

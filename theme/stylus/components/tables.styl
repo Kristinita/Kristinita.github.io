@@ -1,0 +1,169 @@
+/* ==========================================================================
+	> Tables
+	========================================================================== */
+
+/*
+[INFO] Basic style:
+https://css-tricks.com/complete-guide-table-element
+ */
+
+// [INFO] That table not went beyond the screen
+
+table
+	width 100%
+
+// [INFO] Padding in table cells
+td
+th
+	padding .5rem
+	/* [REQUIRED]
+	https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+	 */
+	border-style solid
+
+
+/*
+[INFO] Words wrap in cells of HTML tables with a big number of columns:
+https://stackoverflow.com/a/1539167/5951529
+https://caniuse.com/#search=break-all
+
+[REQUIRED] Post “doiuse-disable” comments before “@media”.
+Otherwise, comments will be deleted and doiuse will show errors.
+ */
+
+
+/* doiuse-disable wordwrap */
+/* doiuse-disable word-break */
+@media screen and (orientation landscape)
+	td
+		/* [NOTE] Disable, because KaiOS partially support it:
+		https://travis-ci.org/Kristinita/KristinitaPelican/jobs/536645995#L1891
+		 */
+		overflow-wrap break-word
+
+		/* [NOTE] Partial support — “break-all” support → I can disable doiuse:
+		https://caniuse.com/#search=word-break*/
+		word-break break-all
+/* doiuse-enable word-break */
+/* doiuse-enable wordwrap */
+
+
+@media screen and (orientation portrait)
+	td
+		/* [INFO] Disable top and bottom borders, medium border
+		on the left and right sides:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
+		 */
+		border-width 0 medium
+
+		// [REQUIRED]
+		display block
+
+
+		/*
+		[INFO] Styles for first and last child elements:
+		https://webref.ru/layout/structural-pseudo-classes/first-child
+		 */
+		&:first-child
+			// [INFO] Margin between table items
+			margin-top 1.875rem
+			// [INFO] Preserve a high border
+			border-top-width medium
+		&:last-child
+			// [INFO] Preserve a bottom border
+			border-bottom-width medium
+
+
+	/* [INFO] Hide table headers, but not “display: none”
+	for accessibility */
+	thead tr
+		position absolute
+		top -624.938rem
+		left -624.938rem
+
+
+/*
+[INFO] Try responsive tables
+[FIXME] I can't make responsive tables without breakpoints:
+https://stackoverflow.com/q/50274179/5951529
+https://github.com/noeldelgado/gemini-scrollbar/issues/62
+
+
+.justtable
+	overflow-x auto
+ */
+
+
+
+/* >> jquery-responsive-tables
+	========================================================================== */
+
+/*
+[DECLINED] I migrated from this plugin, because I get unexpected flexbox results:
+https://ru.stackoverflow.com/q/1228244/199934
+
+[INFO] Display tables on mobile devices;
+via flex we have very bad results.
+
+display:
+[BEFORE] https://i.imgur.com/ofqKyX4.png
+[AFTER] https://i.imgur.com/kTKiVKp.png
+
+margin-bottom:
+[BEFORE] https://i.imgur.com/1MR6MWN.png
+[AFTER] https://i.imgur.com/UtTsJW0.png
+
+[REQUIRED] “tr” that overwrite default plugin value.
+
+
+.jrt tr td
+	display block
+	margin-bottom 0
+
+
+@media screen and (orientation portrait)
+
+	/*
+	jquery-responsive-tables —
+	plugin for different tables displaying in different orientations:
+	https://www.npmjs.com/package/jquery-responsive-tables
+	http://ryanwells.com/examples/responsive-tables/
+
+
+
+	Disable borders for portrait table:
+	https://webref.ru/css/border-bottom-width
+	[NOTE] “.jrt” required
+
+	.jrt td
+		border-bottom-width 0
+
+
+	[LEARN][STYLUS] Selector interpolation:
+	http://stylus-lang.com/docs/interpolation.html#selector-interpolation
+	Range:
+	http://stylus-lang.com/docs/operators.html#range--
+	[NOTE] “td” required for “white-space”;
+	not required for “margin-bottom”, but not removed for code simplicity
+	[INFO] margin-bottom for long titles:
+	https://github.com/ryanwellsdotcom/jquery-responsive-tables/issues/1
+	[INFO] Line breaking for “content” CSS property:
+	https://alligator.io/css/line-break-content-property/
+
+
+	for column in 1..7
+		td.jrt-cell-{column}
+			margin-bottom 2rem
+			&::before
+				white-space normal
+
+
+	[INFO] Tables borders on mobile devices with jquery-responsive-tables plugin:
+	https://github.com/ryanwellsdotcom/jquery-responsive-tables
+	[REQUIRED] “tbody” that overwrite default border color
+	td
+	th
+	.jrt tbody tr
+	.jrt tbody td
+		border .0625rem solid Sasha-Body-Foreground
+	 */

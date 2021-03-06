@@ -722,8 +722,8 @@
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;erichek
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;my value:&lt;/p&gt;
-&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;console_scripts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&lt;/span&gt;
-&lt;span class="s"&gt;	erichek = erichek.__main__:main&lt;/span&gt;
+&lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;console_scripts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;
+	&lt;span class="na"&gt;erichek&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;erichek.__main__:main&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Parameter and values:&lt;/p&gt;
 &lt;ul&gt;
@@ -770,12 +770,12 @@
 &lt;div class="SashaBlockHighlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;D:&lt;span class="se"&gt;\&amp;gt;&lt;/span&gt;pip install clize
 Collecting clize
 	Using cached clize-4.0.3-py2.py3-none-any.whl
-Requirement already satisfied: six in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
-Requirement already satisfied: sigtools&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;.0 in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
-Requirement already satisfied: docutils in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
+Requirement already satisfied: six &lt;span class="k"&gt;in&lt;/span&gt; c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
+Requirement already satisfied: sigtools&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;.0 &lt;span class="k"&gt;in&lt;/span&gt; c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
+Requirement already satisfied: docutils &lt;span class="k"&gt;in&lt;/span&gt; c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Collecting od &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 	Using cached od-1.0-py3-none-any.whl
-Requirement already satisfied: attrs&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;17&lt;/span&gt;.4.0 in c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
+Requirement already satisfied: attrs&amp;gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;17&lt;/span&gt;.4.0 &lt;span class="k"&gt;in&lt;/span&gt; c:&lt;span class="se"&gt;\p&lt;/span&gt;ython36&lt;span class="se"&gt;\l&lt;/span&gt;ib&lt;span class="se"&gt;\s&lt;/span&gt;ite-packages &lt;span class="o"&gt;(&lt;/span&gt;from clize&lt;span class="o"&gt;)&lt;/span&gt;
 Installing collected packages: od, clize
 Successfully installed clize-4.0.3 od-1.0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;

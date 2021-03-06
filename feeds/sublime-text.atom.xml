@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-11-03T09:36:17+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.app/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2020-11-03T09:36:17+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.app,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Таймер для джинджерин “Что? Где? Когда?”, “Брейн Ринг”&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-12-28T17:26:38+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.app/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2020-12-28T17:26:38+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.app,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Таймер для джинджерин “Что? Где? Когда?”, “Брейн Ринг”&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -63,7 +63,7 @@
 &lt;h2&gt;3. Ограничения к использованию&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Пакет должен корректно работать в Windows не раньше Windows XP, macOS и *nix-подобных операционных системах.&lt;/li&gt;
-&lt;li&gt;Если не хотите производить действия, описанные в разделах &lt;a href="#Установка"&gt;«Установка»&lt;/a&gt; и &lt;a href="#Настройка"&gt;«Настройка»&lt;/a&gt;, пожалуйста, не пользуйтесь таймером. я ненавижу писать самостоятельно то, что уже качественно написано до меня.&lt;/li&gt;
+&lt;li&gt;Если не хотите производить действия, описанные в разделах «&lt;a href="#Установка"&gt;Установка&lt;/a&gt;» и «&lt;a href="#Настройка"&gt;Настройка&lt;/a&gt;», пожалуйста, не пользуйтесь таймером. я ненавижу писать самостоятельно то, что уже качественно написано до меня.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;На установку и настройку должно уйти не более нескольких минут.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Заявленное-поведение"&gt;&lt;/a&gt;&lt;/p&gt;

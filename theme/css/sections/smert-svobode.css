@@ -35,7 +35,7 @@ img {
 }
 kbd {
 	color: #fff5ee;
-	background: #6495ed;
+	background: #a52a2a;
 }
 .SashaBottomAside {
 	color: #fff;
@@ -49,10 +49,19 @@ blockquote {
 blockquote >p >em {
 	color: #6495ed;
 }
+blockquote >p >a {
+	color: Sasha-Blockquote-Link;
+}
 .SashaBlockquote {
 	border-color: #ff5730;
 	background-color: #ffdab9;
-	color: #c71585;
+	color: #bf0a7c;
+}
+.SashaBlockquote >p >em {
+	color: #9b4d28;
+}
+.SashaBlockquote >p >a {
+	color: #4169e1;
 }
 .SashaCitation {
 	color: #90ee90;
@@ -70,7 +79,7 @@ blockquote >p >em {
 	text-shadow: 0 0 0.625rem #ff00de, 0 0 1.25rem #ff00de, 0 0 1.875rem #ff00de, 0 0 2.5rem #ff00de, 0 0 3.125rem #ff00de, 0 0 3.75rem #ff00de;
 }
 .SashaDot {
-	border-bottom: 0.0625rem dotted #c71585;
+	border-bottom: 0.0625rem dotted #bf0a7c;
 }
 .SashaDotLight {
 	border-bottom: 0.0625rem dotted #fff8dc;

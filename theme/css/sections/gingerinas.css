@@ -1,9 +1,9 @@
 body {
 	background: #f3efd6;
-	color: #738e8b;
+	color: #37756e;
 }
 a {
-	color: #bc8475;
+	color: #cd5c5c;
 }
 a:hover {
 	background-color: #eee8aa;
@@ -12,7 +12,7 @@ a:focus {
 	background: #f0fff0;
 }
 em {
-	color: #f08080;
+	color: #8a2be2;
 }
 img {
 	box-shadow: 0 0 2rem #000;
@@ -31,14 +31,14 @@ img {
 }
 kbd {
 	color: #fff5ee;
-	background: #6495ed;
+	background: #4889fd;
 }
 hr {
 	color: #c71585;
 }
 td,
 th {
-	border: 0.0625rem solid #738e8b;
+	border-color: #37756e;
 }
 .SashaBottomAside {
 	color: #fff;
@@ -50,12 +50,21 @@ blockquote {
 	background: #faebd7;
 }
 blockquote >p >em {
-	color: #f08080;
+	color: #8a2be2;
+}
+blockquote >p >a {
+	color: Sasha-Blockquote-Link;
 }
 .SashaBlockquote {
 	border-color: #7b68ee;
 	background-color: #ffdab9;
 	color: #191970;
+}
+.SashaBlockquote >p >em {
+	color: Sasha-Term-Blockquote-Em;
+}
+.SashaBlockquote >p >a {
+	color: Sasha-Term-Blockquote-Link;
 }
 .SashaCitation {
 	color: #fa8072;
@@ -270,6 +279,11 @@ div.wf.wf-theme-dark .wf-tip {
 .SashaBlockHighlight .s {
 	color: #48b685;
 }
+.SashaInlineHighlight .na,
+.SashaBlockHighlight .na {
+	color: #06b6ef;
+	font-weight: bold;
+}
 .SashaInlineHighlight .no,
 .SashaBlockHighlight .no {
 	color: #ef6155;
@@ -281,6 +295,11 @@ div.wf.wf-theme-dark .wf-tip {
 .SashaInlineHighlight .py,
 .SashaBlockHighlight .py {
 	color: #2f1e2e;
+}
+.SashaInlineHighlight .nt,
+.SashaBlockHighlight .nt {
+	color: #5bc4bf;
+	font-weight: bold;
 }
 .SashaInlineHighlight .w,
 .SashaBlockHighlight .w {

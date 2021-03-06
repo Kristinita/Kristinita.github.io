@@ -47,11 +47,11 @@ kbd {
 	background: #800000;
 }
 hr {
-	color: #c71585;
+	color: #ffefd5;
 }
 td,
 th {
-	border: 0.0625rem solid #ffefd5;
+	border-color: #ffefd5;
 }
 .SashaBottomAside {
 	color: #fff;
@@ -65,10 +65,19 @@ blockquote {
 blockquote >p >em {
 	color: #92000a;
 }
+blockquote >p >a {
+	color: Sasha-Blockquote-Link;
+}
 .SashaBlockquote {
 	border-color: #7b68ee;
 	background-color: #ffdab9;
 	color: #191970;
+}
+.SashaBlockquote >p >em {
+	color: Sasha-Term-Blockquote-Em;
+}
+.SashaBlockquote >p >a {
+	color: Sasha-Term-Blockquote-Link;
 }
 .SashaCitation {
 	color: #fa8072;

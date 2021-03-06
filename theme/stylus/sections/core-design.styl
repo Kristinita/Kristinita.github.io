@@ -170,13 +170,14 @@ kbd
 hr
 	color Sasha-Hr
 
+
 /* >> Tables
 	========================================================================== */
 
-/* Basic tables style — https://css-tricks.com/complete-guide-table-element/#article-header-id-4 */
+/* [REQUIRED] */
 td
 th
-	border .0625rem solid Sasha-Body-Foreground
+	border-color Sasha-Body-Foreground
 
 
 /* ==========================================================================
@@ -203,10 +204,13 @@ blockquote
 	color Sasha-Left-Border-Blockquote-Foreground
 	background Sasha-Left-Border-Blockquote-Background
 
-	// [INFO] Italic text inside blockquote
 	>p
+		// [INFO] Italic text inside blockquote
 		>em
 			color Sasha-Blockquote-Em
+		// [INFO] Link inside blockquote
+		>a
+			color Sasha-Blockquote-Link
 
 /* >> Terms
 	========================================================================== */
@@ -215,6 +219,14 @@ blockquote
 	border-color Sasha-Term-Blockquote-Border
 	background-color Sasha-Term-Blockquote-Background
 	color Sasha-Term-Blockquote-Foreground
+
+	>p
+		// [INFO] Italic text inside blockquote
+		>em
+			color Sasha-Term-Blockquote-Em
+		// [INFO] Link inside term blockquote
+		>a
+			color Sasha-Term-Blockquote-Link
 
 /* >> Quotes top and bottom
 	========================================================================== */

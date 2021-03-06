@@ -3,7 +3,7 @@ body {
 	color: #465550;
 }
 a {
-	color: #dc3f17;
+	color: #ca320b;
 }
 a:hover {
 	background-color: rgba(240,128,128,0.6);
@@ -12,7 +12,7 @@ a:focus {
 	background: #f5f5f5;
 }
 em {
-	color: #008b8b;
+	color: #0d43e4;
 }
 img {
 	box-shadow: 0 0 2rem #000;
@@ -38,7 +38,7 @@ hr {
 }
 td,
 th {
-	border: 0.0625rem solid #465550;
+	border-color: #465550;
 }
 .SashaBottomAside {
 	color: #fff;
@@ -50,12 +50,21 @@ blockquote {
 	background: #fcfcfc;
 }
 blockquote >p >em {
-	color: #008b8b;
+	color: #0d43e4;
+}
+blockquote >p >a {
+	color: Sasha-Blockquote-Link;
 }
 .SashaBlockquote {
 	border-color: #7b68ee;
 	background-color: #ffdab9;
 	color: #191970;
+}
+.SashaBlockquote >p >em {
+	color: Sasha-Term-Blockquote-Em;
+}
+.SashaBlockquote >p >a {
+	color: Sasha-Term-Blockquote-Link;
 }
 .SashaCitation {
 	color: #fa8072;
@@ -83,7 +92,7 @@ div.a2a_floating_style {
 /* csslint ignore:end */
 /* csslint ignore:start */
 div.animate-flicker span {
-	color: #696969;
+	color: #465550;
 }
 div.ivu-modal-body div.ivu-tabs-tabpane div.wf-meta,
 div.ivu-modal-body .ivu-btn.ivu-btn-text.ivu-btn-small,
@@ -114,21 +123,21 @@ div.wf.wf-theme-dark .wf-comment-content,
 div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
 div.wf.wf-theme-dark .wf-delete-btn.ivu-btn.ivu-btn-text,
 div.wf.wf-theme-dark .ivu-menu {
-	color: #696969;
+	color: #465550;
 }
 div.wf.wf-theme-dark .wf-use-wildfire svg path,
 div.wf.wf-theme-dark .wf-use-wildfire:hover svg path {
-	fill: #696969;
+	fill: #465550;
 }
 div.wf.wf-theme-dark .ivu-menu-horizontal.ivu-menu-light::after {
-	background-color: #696969;
+	background-color: #465550;
 }
 div.wf.wf-theme-dark > footer {
-	border-top-color: #696969;
+	border-top-color: #465550;
 }
 div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
 div.wf.wf-theme-dark .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active:hover {
-	border-bottom-color: #696969;
+	border-bottom-color: #465550;
 }
 div.wf.wf-theme-dark input.ivu-input::placeholder {
 	color: #696969;
@@ -146,7 +155,7 @@ div.wf.wf-theme-dark .wf-post-btn[disabled]:hover {
 div.wf.wf-theme-dark .wf-post-btn[disabled],
 div.wf.wf-theme-dark .wf-post-btn[disabled]:hover,
 div.wf.wf-theme-dark .ivu-btn-primary[disabled] {
-	border-color: #696969;
+	border-color: #465550;
 }
 div.wf.wf-theme-dark .wf-tip {
 	font-size: 0.7rem;
