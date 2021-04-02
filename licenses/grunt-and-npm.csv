@@ -1,27 +1,27 @@
 name,version,directory,repository,summary,from package.json,from license,from readme
 @babel/code-frame,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/code-frame,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/compat-data,7.13.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/compat-data,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/core,7.13.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/core,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/compat-data,7.13.12,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/compat-data,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/core,7.13.14,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/core,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/generator,7.13.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/generator,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helper-compilation-targets,7.13.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-compilation-targets,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helper-compilation-targets,7.13.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-compilation-targets,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/helper-function-name,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-function-name,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/helper-get-function-arity,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-get-function-arity,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helper-member-expression-to-functions,7.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-member-expression-to-functions,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helper-module-imports,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-module-imports,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helper-module-transforms,7.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-module-transforms,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helper-member-expression-to-functions,7.13.12,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-member-expression-to-functions,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helper-module-imports,7.13.12,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-module-imports,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helper-module-transforms,7.13.14,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-module-transforms,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/helper-optimise-call-expression,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-optimise-call-expression,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helper-replace-supers,7.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-replace-supers,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helper-simple-access,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-simple-access,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helper-replace-supers,7.13.12,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-replace-supers,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helper-simple-access,7.13.12,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-simple-access,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/helper-split-export-declaration,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-split-export-declaration,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/helper-validator-identifier,7.12.11,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-validator-identifier,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/helper-validator-option,7.12.17,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helper-validator-option,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/helpers,7.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helpers,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/highlight,7.13.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/highlight,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/parser,7.13.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/parser,https://github.com/babel/babel,MIT,MIT,,
-@babel/runtime,7.13.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/runtime,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/helpers,7.13.10,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/helpers,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/highlight,7.13.10,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/highlight,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/parser,7.13.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/parser,https://github.com/babel/babel,MIT,MIT,,
+@babel/runtime,7.13.10,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/runtime,https://github.com/babel/babel,MIT,MIT,MIT,
 @babel/template,7.12.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/template,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/traverse,7.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/traverse,https://github.com/babel/babel,MIT,MIT,MIT,
-@babel/types,7.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/types,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/traverse,7.13.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/traverse,https://github.com/babel/babel,MIT,MIT,MIT,
+@babel/types,7.13.14,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@babel/types,https://github.com/babel/babel,MIT,MIT,MIT,
 @commitlint/cli,11.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@commitlint/cli,https://github.com/conventional-changelog/commitlint,MIT,MIT,MIT,
 @commitlint/ensure,11.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@commitlint/ensure,https://github.com/conventional-changelog/commitlint,MIT,MIT,MIT,
 @commitlint/execute-rule,11.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@commitlint/execute-rule,https://github.com/conventional-changelog/commitlint,MIT,MIT,MIT,
@@ -62,9 +62,9 @@ name,version,directory,repository,summary,from package.json,from license,from re
 @types/keyv,3.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/keyv,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
 @types/mdast,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/mdast,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
 @types/mime-types,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/mime-types,https://www.github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
-@types/minimatch,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/minimatch,https://www.github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
+@types/minimatch,3.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/minimatch,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
 @types/minimist,1.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/minimist,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
-@types/node,14.14.31,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/node,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
+@types/node,14.14.37,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/node,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
 @types/normalize-package-data,2.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/normalize-package-data,https://www.github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
 @types/parse-json,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/parse-json,https://www.github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
 @types/q,1.5.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/@types/q,https://github.com/DefinitelyTyped/DefinitelyTyped,MIT,MIT,MIT,
@@ -79,7 +79,8 @@ accepts,1.3.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/accep
 acorn,2.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/acorn,https://github.com/ternjs/acorn,MIT,MIT,,
 acorn,5.7.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-purge/node_modules/acorn,(none),MIT,MIT,,
 acorn,6.4.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-purge/node_modules/acorn-globals/node_modules/acorn,(none),MIT,MIT,,
-acorn,7.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/acorn,(none),MIT,MIT,MIT,
+acorn,7.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/acorn-globals/node_modules/acorn,(none),MIT,MIT,MIT,
+acorn,8.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/acorn,(none),MIT,MIT,MIT,
 acorn-globals,1.0.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/acorn-globals,https://github.com/ForbesLindesay/acorn-globals,MIT,MIT,,MIT
 acorn-globals,4.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-purge/node_modules/acorn-globals,(none),MIT,MIT,,MIT
 acorn-globals,6.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/acorn-globals,(none),MIT,MIT,,MIT
@@ -92,7 +93,7 @@ agent-base,6.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ag
 aggregate-error,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/aggregate-error,sindresorhus/aggregate-error,MIT,MIT,MIT,
 ajv,5.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-curl/node_modules/ajv,(none),MIT,MIT,MIT,
 ajv,6.12.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ajv,https://github.com/ajv-validator/ajv,MIT,MIT,MIT,
-ajv,7.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/table/node_modules/ajv,(none),MIT,MIT,MIT,
+ajv,8.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/table/node_modules/ajv,(none),MIT,MIT,MIT,
 alphanum-sort,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/alphanum-sort,https://github.com/TrySound/alphanum-sort,MIT,MIT,,MIT
 amdefine,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/amdefine,https://github.com/jrburke/amdefine,BSD;BSD-3-Clause OR MIT;MIT,BSD-3-Clause OR MIT,BSD;MIT,BSD
 ansi-align,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ansi-align,https://github.com/nexdrew/ansi-align,ISC,ISC,,ISC
@@ -101,7 +102,7 @@ ansi-colors,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/a
 ansi-cyan,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ansi-cyan,jonschlinkert/ansi-cyan,MIT,MIT,MIT,MIT
 ansi-escapes,1.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inquirer/node_modules/ansi-escapes,(none),MIT,MIT,MIT,MIT
 ansi-escapes,3.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ansi-escapes,sindresorhus/ansi-escapes,MIT,MIT,MIT,MIT
-ansi-escapes,4.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/terminal-link/node_modules/ansi-escapes,(none),MIT,MIT,MIT,
+ansi-escapes,4.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/terminal-link/node_modules/ansi-escapes,(none),MIT,MIT,MIT,
 ansi-gray,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ansi-gray,jonschlinkert/ansi-gray,MIT,MIT,MIT,MIT
 ansi-red,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ansi-red,jonschlinkert/ansi-red,MIT,MIT,MIT,MIT
 ansi-regex,2.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ansi-regex,chalk/ansi-regex,MIT,MIT,MIT,MIT
@@ -176,7 +177,7 @@ autoprefixer,10.2.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules
 aws-sign2,0.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/aws-sign2,https://github.com/mikeal/aws-sign,Apache;Apache-2.0,Apache-2.0,Apache,
 aws4,1.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/aws4,github:mhart/aws4,MIT,MIT,,
 axios,0.18.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/axios,https://github.com/axios/axios,MIT,MIT,,MIT
-axios,0.21.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/localtunnel/node_modules/axios,(none),MIT,MIT,,
+axios,0.21.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/rfg-api/node_modules/axios,(none),MIT,MIT,,
 backo2,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/backo2,mokesmokes/backo,MIT,MIT,,MIT
 bail,1.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bail,wooorm/bail,MIT,MIT,MIT,
 balanced-match,0.4.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/reduce-css-calc/node_modules/balanced-match,(none),MIT,MIT,MIT,MIT
@@ -252,8 +253,8 @@ camelcase,5.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cam
 camelcase-keys,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lpad-align/node_modules/camelcase-keys,(none),MIT,MIT,MIT,MIT
 camelcase-keys,6.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/camelcase-keys,sindresorhus/camelcase-keys,MIT,MIT,MIT,
 caniuse-api,1.6.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-api,https://github.com/nyalab/caniuse-api,MIT,MIT,MIT,
-caniuse-db,1.0.30001196,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-db,https://github.com/Fyrd/caniuse,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
-caniuse-lite,1.0.30001196,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-lite,ben-eb/caniuse-lite,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
+caniuse-db,1.0.30001205,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-db,https://github.com/Fyrd/caniuse,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
+caniuse-lite,1.0.30001205,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caniuse-lite,ben-eb/caniuse-lite,CC-BY-4.0;Public Domain,CC-BY-4.0,Public Domain,
 capture-stack-trace,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/capture-stack-trace,floatdrop/capture-stack-trace,MIT,MIT,MIT,MIT
 caseless,0.12.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caseless,https://github.com/mikeal/caseless,Apache;Apache-2.0,Apache-2.0,Apache,
 caw,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/caw,kevva/caw,MIT,MIT,MIT,MIT
@@ -358,7 +359,7 @@ conventional-commits-parser,3.2.1,/home/travis/build/Kristinita/KristinitaPelica
 convert-source-map,1.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/convert-source-map,http://github.com/thlorenz/convert-source-map,MIT,MIT,,
 cookie,0.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cookie,jshttp/cookie,MIT,MIT,MIT,
 copy-descriptor,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/copy-descriptor,jonschlinkert/copy-descriptor,MIT,MIT,MIT,
-core-js,3.9.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/core-js,https://github.com/zloirock/core-js,MIT,MIT,,
+core-js,3.10.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/core-js,https://github.com/zloirock/core-js,MIT,MIT,,
 core-util-is,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/core-util-is,http://github.com/isaacs/core-util-is,MIT,MIT,,
 corser,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/corser,https://github.com/agrueneberg/Corser,MIT,MIT,,
 cosmiconfig,7.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cosmiconfig,https://github.com/davidtheclark/cosmiconfig,MIT,MIT,MIT,
@@ -396,7 +397,7 @@ css-system-font-keywords,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/n
 css-tokenize,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-tokenize,https://github.com/anandthakker/css-tokenize,MIT,MIT,MIT,
 css-tree,1.0.0-alpha.28,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-tree,csstree/csstree,MIT,MIT,,MIT
 css-tree,1.0.0-alpha.37,/home/travis/build/Kristinita/KristinitaPelican/node_modules/svgo/node_modules/css-tree,(none),MIT,MIT,,MIT
-css-tree,1.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/csso/node_modules/css-tree,(none),MIT,MIT,,MIT
+css-tree,1.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/csso/node_modules/css-tree,(none),MIT,MIT,,MIT
 css-url-parser,1.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-url-parser,http://github.com/website-scraper/node-css-url-parser,MIT,MIT,MIT,
 css-what,2.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-what,https://github.com/fb55/css-what,BSD-2-Clause,BSD-2-Clause,,
 css-what,3.4.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/svgo/node_modules/css-what,(none),BSD-2-Clause,BSD-2-Clause,,
@@ -413,7 +414,7 @@ cssstyle,1.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-
 cssstyle,2.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/cssstyle,(none),MIT,MIT,,
 cuint,0.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cuint,https://github.com/pierrec/js-cuint,MIT,MIT,,MIT
 currently-unhandled,0.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/currently-unhandled,jamestalmage/currently-unhandled,MIT,MIT,MIT,MIT
-customizr,2.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/customizr,https://github.com/Modernizr/customizr,MIT,MIT,MIT,MIT
+customizr,2.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/customizr,https://github.com/Modernizr/customizr,MIT,MIT,MIT,MIT
 cwebp-bin,5.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/imagemin-webp/node_modules/cwebp-bin,(none),MIT,MIT,MIT,MIT
 cwebp-bin,6.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cwebp-bin,imagemin/cwebp-bin,MIT,MIT,MIT,MIT
 d,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/d,http://github.com/medikoo/d,ISC,ISC,ISC,
@@ -498,9 +499,9 @@ editions,1.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/edit
 editions,2.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/requirefresh/node_modules/editions,(none),MIT,MIT,,
 editorconfig,0.15.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/editorconfig,http://github.com/editorconfig/editorconfig-core-js,MIT,MIT,,
 ee-first,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ee-first,jonathanong/ee-first,MIT,MIT,MIT,
-electron-to-chromium,1.3.682,/home/travis/build/Kristinita/KristinitaPelican/node_modules/electron-to-chromium,https://github.com/kilian/electron-to-chromium/,ISC,ISC,,
+electron-to-chromium,1.3.705,/home/travis/build/Kristinita/KristinitaPelican/node_modules/electron-to-chromium,https://github.com/kilian/electron-to-chromium/,ISC,ISC,,
 emoji-regex,7.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/emoji-regex,https://github.com/mathiasbynens/emoji-regex,MIT,MIT,,
-emoji-regex,8.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint/node_modules/emoji-regex,(none),MIT,MIT,,
+emoji-regex,8.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yargs/node_modules/emoji-regex,(none),MIT,MIT,,
 emphasize,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/emphasize,wooorm/emphasize,MIT,MIT,MIT,
 encodeurl,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/encodeurl,pillarjs/encodeurl,MIT,MIT,MIT,
 end-of-stream,1.4.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/end-of-stream,http://github.com/mafintosh/end-of-stream,MIT,MIT,MIT,MIT
@@ -526,10 +527,12 @@ escape-html,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/e
 escape-string-regexp,1.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/escape-string-regexp,sindresorhus/escape-string-regexp,MIT,MIT,MIT,MIT
 escape-string-regexp,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-image-inliner/node_modules/escape-string-regexp,(none),MIT,MIT,MIT,
 escodegen,1.14.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/escodegen,http://github.com/estools/escodegen,BSD-2-Clause,BSD-2-Clause,,
+escodegen,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/escodegen,(none),BSD-2-Clause,BSD-2-Clause,,
 esprima,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/esprima,(none),BSD,BSD,,
 esprima,2.7.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-svgo/node_modules/esprima,(none),BSD;BSD-2-Clause,BSD-2-Clause,,BSD
 esprima,4.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/esprima,https://github.com/jquery/esprima,BSD;BSD-2-Clause,BSD-2-Clause,,BSD
 estraverse,4.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/estraverse,http://github.com/estools/estraverse,BSD-2-Clause,BSD-2-Clause,,
+estraverse,5.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/estraverse,(none),BSD-2-Clause,BSD-2-Clause,,
 esutils,2.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/esutils,http://github.com/estools/esutils,BSD-2-Clause,BSD-2-Clause,,
 etag,1.8.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/etag,jshttp/etag,MIT,MIT,MIT,
 event-emitter,0.3.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/event-emitter,http://github.com/medikoo/event-emitter,MIT,MIT,,
@@ -570,6 +573,7 @@ fast-glob,3.2.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fas
 fast-json-stable-stringify,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fast-json-stable-stringify,http://github.com/epoberezkin/fast-json-stable-stringify,MIT,MIT,MIT,
 fast-levenshtein,2.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fast-levenshtein,https://github.com/hiddentao/fast-levenshtein,MIT,MIT,,MIT
 fast-text-encoding,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fast-text-encoding,https://github.com/samthor/fast-text-encoding,Apache;Apache-2.0,Apache-2.0,Apache,
+fast-xml-parser,3.19.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fast-xml-parser,https://github.com/NaturalIntelligence/fast-xml-parser,MIT,MIT,MIT,MIT
 fastest-levenshtein,1.0.12,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fastest-levenshtein,https://github.com/ka-weihe/fastest-levenshtein,MIT,MIT,MIT,MIT
 fastq,1.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fastq,https://github.com/mcollina/fastq,ISC,ISC,,ISC
 fault,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/fault,wooorm/fault,MIT,MIT,MIT,
@@ -615,7 +619,7 @@ flatted,3.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/flatt
 flatten,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/flatten,https://github.com/mk-pmb/flatten-js,MIT,MIT,MIT,
 flush-write-stream,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/flush-write-stream,https://github.com/mafintosh/flush-write-stream,MIT,MIT,MIT,MIT
 follow-redirects,1.5.10,/home/travis/build/Kristinita/KristinitaPelican/node_modules/follow-redirects,git@github.com:follow-redirects/follow-redirects,MIT,MIT,,
-follow-redirects,1.13.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/localtunnel/node_modules/follow-redirects,(none),MIT,MIT,,
+follow-redirects,1.13.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/rfg-api/node_modules/follow-redirects,(none),MIT,MIT,,
 for-in,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/for-in,jonschlinkert/for-in,MIT,MIT,MIT,
 for-own,0.1.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/object.omit/node_modules/for-own,(none),MIT,MIT,MIT,
 for-own,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/for-own,jonschlinkert/for-own,MIT,MIT,MIT,
@@ -667,7 +671,7 @@ glob-all,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob
 glob-base,0.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-base,http://github.com/jonschlinkert/glob-base,MIT,MIT,MIT,MIT
 glob-parent,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylint/node_modules/glob-parent,(none),ISC,ISC,ISC,
 glob-parent,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-stream/node_modules/glob-parent,(none),ISC,ISC,ISC,
-glob-parent,5.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-parent,gulpjs/glob-parent,ISC,ISC,ISC,ISC
+glob-parent,5.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-parent,gulpjs/glob-parent,ISC,ISC,ISC,ISC
 glob-stream,6.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-stream,gulpjs/glob-stream,MIT,MIT,MIT,MIT
 glob-to-regexp,0.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-to-regexp,https://github.com/fitzgen/glob-to-regexp,BSD,BSD,,
 global-dirs,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/global-dirs,sindresorhus/global-dirs,MIT,MIT,MIT,MIT
@@ -681,7 +685,7 @@ global-prefix,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules
 globals,11.12.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/globals,sindresorhus/globals,MIT,MIT,MIT,MIT
 globby,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-prettify/node_modules/globby,(none),MIT,MIT,,MIT
 globby,8.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/imagemin/node_modules/globby,(none),MIT,MIT,MIT,MIT
-globby,11.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/globby,sindresorhus/globby,MIT,MIT,MIT,
+globby,11.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/globby,sindresorhus/globby,MIT,MIT,MIT,
 globjoin,0.1.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/globjoin,https://github.com/amobiz/globjoin,MIT,MIT,MIT,MIT
 globule,1.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/globule,http://github.com/cowboy/node-globule,MIT,MIT,,MIT
 gonzales-pe,4.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/gonzales-pe,http://github.com/tonyganch/gonzales-pe,MIT,MIT,,
@@ -744,7 +748,7 @@ grunt-legacy-util,0.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_mod
 grunt-legacy-util,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-legacy-util,http://github.com/gruntjs/grunt-legacy-util,MIT,MIT,,
 grunt-license-finder,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-license-finder,http://github.com/iandotkelly/grunt-license-finder,BSD;ISC;MIT;WTFPL,MIT,BSD;ISC;MIT;WTFPL,BSD;MIT
 grunt-markdownlint,3.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-markdownlint,http://github.com/sagiegurari/grunt-markdownlint,Apache;Apache-2.0,Apache-2.0,Apache,
-grunt-modernizr,3.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-modernizr,https://github.com/Modernizr/grunt-modernizr,MIT,MIT,MIT,MIT
+grunt-modernizr,3.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-modernizr,https://github.com/Modernizr/grunt-modernizr,MIT,MIT,MIT,MIT
 grunt-move,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-move,https://github.com/prantlf/grunt-move,MIT,MIT,MIT,MIT
 grunt-newer,1.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-newer,http://github.com/tschaub/grunt-newer,MIT,MIT,,
 grunt-notify,0.4.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-notify,https://github.com/dylang/grunt-notify,MIT,MIT,,
@@ -799,7 +803,7 @@ hoek,4.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/hoek,htt
 homedir-polyfill,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/homedir-polyfill,doowb/homedir-polyfill,MIT,MIT,MIT,
 hooker,0.2.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/hooker,http://github.com/cowboy/javascript-hooker,MIT,MIT,,MIT
 hosted-git-info,2.8.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/npm-package-arg/node_modules/hosted-git-info,(none),ISC,ISC,,
-hosted-git-info,3.0.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/hosted-git-info,https://github.com/npm/hosted-git-info,ISC,ISC,,
+hosted-git-info,4.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/hosted-git-info,https://github.com/npm/hosted-git-info,ISC,ISC,,
 html-comment-regex,1.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/html-comment-regex,stevemao/html-comment-regex,MIT,MIT,,MIT
 html-encoding-sniffer,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/html-encoding-sniffer,jsdom/html-encoding-sniffer,MIT,MIT,,
 html-encoding-sniffer,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/html-encoding-sniffer,(none),MIT,MIT,,
@@ -829,7 +833,7 @@ iconv-lite,0.2.11,/home/travis/build/Kristinita/KristinitaPelican/node_modules/g
 iconv-lite,0.4.24,/home/travis/build/Kristinita/KristinitaPelican/node_modules/iconv-lite,http://github.com/ashtuchkin/iconv-lite,MIT,MIT,,
 ieee754,1.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ieee754,http://github.com/feross/ieee754,BSD;BSD-3-Clause,BSD-3-Clause,,BSD
 ignore,3.3.10,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ignore,git@github.com:kaelzhang/node-ignore,MIT,MIT,,
-ignore,5.1.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint/node_modules/ignore,(none),MIT,MIT,,
+ignore,5.1.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified-engine/node_modules/ignore,(none),MIT,MIT,,
 imagemin,6.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/imagemin,imagemin/imagemin,MIT,MIT,MIT,MIT
 imagemin-gifsicle,6.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/imagemin-gifsicle,imagemin/imagemin-gifsicle,MIT,MIT,MIT,MIT
 imagemin-jpegtran,6.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/imagemin-jpegtran,imagemin/imagemin-jpegtran,MIT,MIT,MIT,MIT
@@ -859,7 +863,6 @@ interpret,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/int
 into-stream,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/into-stream,sindresorhus/into-stream,MIT,MIT,MIT,MIT
 invert-kv,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/merge-source-maps/node_modules/invert-kv,(none),MIT,MIT,,MIT
 invert-kv,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/invert-kv,sindresorhus/invert-kv,MIT,MIT,MIT,MIT
-ip-regex,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ip-regex,sindresorhus/ip-regex,MIT,MIT,MIT,MIT
 irregular-plurals,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/irregular-plurals,sindresorhus/irregular-plurals,MIT,MIT,MIT,MIT
 is-absolute,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-absolute,jonschlinkert/is-absolute,MIT,MIT,MIT,
 is-absolute-url,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-absolute-url,sindresorhus/is-absolute-url,MIT,MIT,MIT,MIT
@@ -894,7 +897,7 @@ is-extglob,2.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is
 is-finite,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-finite,sindresorhus/is-finite,MIT,MIT,MIT,
 is-fullwidth-code-point,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-fullwidth-code-point,sindresorhus/is-fullwidth-code-point,MIT,MIT,MIT,MIT
 is-fullwidth-code-point,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/string-width/node_modules/is-fullwidth-code-point,(none),MIT,MIT,MIT,MIT
-is-fullwidth-code-point,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint/node_modules/is-fullwidth-code-point,(none),MIT,MIT,MIT,MIT
+is-fullwidth-code-point,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yargs/node_modules/is-fullwidth-code-point,(none),MIT,MIT,MIT,MIT
 is-gif,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-gif,sindresorhus/is-gif,MIT,MIT,MIT,MIT
 is-glob,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-dev-update/node_modules/is-glob,(none),MIT,MIT,MIT,MIT
 is-glob,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/liftoff/node_modules/is-glob,(none),MIT,MIT,MIT,
@@ -917,7 +920,7 @@ is-obj,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-
 is-obj,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-obj,sindresorhus/is-obj,MIT,MIT,MIT,MIT
 is-object,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-object,http://github.com/inspect-js/is-object,MIT,MIT,,MIT
 is-path-cwd,2.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-path-cwd,sindresorhus/is-path-cwd,MIT,MIT,MIT,MIT
-is-path-inside,3.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-path-inside,sindresorhus/is-path-inside,MIT,MIT,MIT,
+is-path-inside,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-path-inside,sindresorhus/is-path-inside,MIT,MIT,MIT,
 is-plain-obj,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-plain-obj,sindresorhus/is-plain-obj,MIT,MIT,MIT,MIT
 is-plain-obj,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified-engine/node_modules/is-plain-obj,(none),MIT,MIT,MIT,
 is-plain-object,2.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-plain-object,jonschlinkert/is-plain-object,MIT,MIT,MIT,
@@ -935,11 +938,12 @@ is-stream,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/exe
 is-stream,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-stream,sindresorhus/is-stream,MIT,MIT,MIT,MIT
 is-string,1.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-string,http://github.com/ljharb/is-string,MIT,MIT,MIT,
 is-svg,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-svgo/node_modules/is-svg,(none),MIT,MIT,MIT,MIT
-is-svg,4.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-svg,sindresorhus/is-svg,MIT,MIT,MIT,
+is-svg,4.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-svg,sindresorhus/is-svg,MIT,MIT,MIT,
 is-symbol,1.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-symbol,http://github.com/inspect-js/is-symbol,MIT,MIT,MIT,
 is-text-path,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-text-path,sindresorhus/is-text-path,MIT,MIT,MIT,MIT
 is-typedarray,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-typedarray,http://github.com/hughsk/is-typedarray,MIT,MIT,MIT,
 is-unc-path,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-unc-path,jonschlinkert/is-unc-path,MIT,MIT,MIT,
+is-unicode-supported,0.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-unicode-supported,sindresorhus/is-unicode-supported,MIT,MIT,MIT,
 is-utf8,0.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-utf8,https://github.com/wayfind/is-utf8,MIT,MIT,MIT,
 is-valid-glob,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/is-valid-glob,jonschlinkert/is-valid-glob,MIT,MIT,MIT,
 is-windows,0.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/resolve-dir/node_modules/is-windows,(none),MIT,MIT,MIT,
@@ -969,7 +973,7 @@ jsbn,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jsbn,htt
 jsdom,6.5.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jsdom,tmpvar/jsdom,MIT,MIT,,
 jsdom,7.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cheerio/node_modules/jsdom,(none),MIT,MIT,,
 jsdom,11.12.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-purge/node_modules/jsdom,(none),MIT,MIT,,
-jsdom,16.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/jsdom,(none),MIT,MIT,,
+jsdom,16.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/jsdom,(none),MIT,MIT,,
 jsesc,2.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jsesc,https://github.com/mathiasbynens/jsesc,MIT,MIT,,
 jshint,2.8.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jshint,https://github.com/jshint/jshint,(MIT AND JSON);MIT,(MIT AND JSON),,MIT
 json-bigint,0.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/json-bigint,git@github.com:sidorares/json-bigint,MIT,MIT,MIT,
@@ -1064,8 +1068,9 @@ lodash.rest,4.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/l
 lodash.set,4.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lodash.set,lodash/lodash,MIT,MIT,,
 lodash.some,4.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lodash.some,lodash/lodash,MIT,MIT,,
 lodash.sortby,4.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lodash.sortby,lodash/lodash,MIT,MIT,,
+lodash.truncate,4.4.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lodash.truncate,lodash/lodash,MIT,MIT,,
 lodash.uniq,4.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lodash.uniq,lodash/lodash,MIT,MIT,,
-log-symbols,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/log-symbols,sindresorhus/log-symbols,MIT,MIT,MIT,
+log-symbols,4.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/log-symbols,sindresorhus/log-symbols,MIT,MIT,MIT,
 logalot,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/logalot,imagemin/logalot,MIT,MIT,,MIT
 longest,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/longest,https://github.com/jonschlinkert/longest,MIT,MIT,MIT,MIT
 longest-streak,2.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/longest-streak,wooorm/longest-streak,MIT,MIT,MIT,
@@ -1087,7 +1092,7 @@ make-iterator,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules
 map-age-cleaner,0.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-age-cleaner,SamVerschueren/map-age-cleaner,MIT,MIT,MIT,MIT
 map-cache,0.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-cache,jonschlinkert/map-cache,MIT,MIT,MIT,
 map-obj,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/decamelize-keys/node_modules/map-obj,(none),MIT,MIT,MIT,MIT
-map-obj,4.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-obj,sindresorhus/map-obj,MIT,MIT,MIT,
+map-obj,4.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-obj,sindresorhus/map-obj,MIT,MIT,MIT,
 map-visit,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/map-visit,jonschlinkert/map-visit,MIT,MIT,MIT,
 markdown-it,10.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/modernizr/node_modules/markdown-it,(none),MIT,MIT,,
 markdown-it,12.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/markdown-it,markdown-it/markdown-it,MIT,MIT,,
@@ -1127,8 +1132,8 @@ micromatch,4.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mi
 mime,1.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/send/node_modules/mime,(none),MIT,MIT,MIT,
 mime,1.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mime,https://github.com/broofa/node-mime,MIT,MIT,MIT,
 mime,2.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/gtoken/node_modules/mime,(none),MIT,MIT,MIT,
-mime-db,1.46.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mime-db,jshttp/mime-db,MIT,MIT,MIT,
-mime-types,2.1.29,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mime-types,jshttp/mime-types,MIT,MIT,MIT,
+mime-db,1.47.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mime-db,jshttp/mime-db,MIT,MIT,MIT,
+mime-types,2.1.30,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mime-types,jshttp/mime-types,MIT,MIT,MIT,
 mimic-fn,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mimic-fn,sindresorhus/mimic-fn,MIT,MIT,MIT,MIT
 mimic-fn,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/onetime/node_modules/mimic-fn,(none),MIT,MIT,MIT,MIT
 mimic-response,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mimic-response,sindresorhus/mimic-response,MIT,MIT,MIT,MIT
@@ -1146,7 +1151,7 @@ mitt,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mitt,dev
 mixin-deep,1.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mixin-deep,jonschlinkert/mixin-deep,MIT,MIT,MIT,
 mkdirp,0.5.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-robots-txt/node_modules/mkdirp,(none),MIT,MIT,,MIT
 mkdirp,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mkdirp,https://github.com/isaacs/node-mkdirp,MIT,MIT,MIT,MIT
-modernizr,3.11.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/modernizr,https://github.com/Modernizr/Modernizr,MIT,MIT,MIT,
+modernizr,3.11.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/modernizr,https://github.com/Modernizr/Modernizr,MIT,MIT,MIT,
 moment,2.29.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/moment,https://github.com/moment/moment,MIT,MIT,,
 mout,0.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mout,http://github.com/mout/mout,MIT,MIT,MIT,
 ms,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ms,zeit/ms,MIT,MIT,MIT,
@@ -1158,7 +1163,7 @@ multimatch,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/lo
 multimatch,5.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/multimatch,sindresorhus/multimatch,MIT,MIT,MIT,
 mute-stream,0.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mute-stream,http://github.com/isaacs/mute-stream,ISC,ISC,ISC,
 mz,2.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/mz,normalize/mz,MIT,MIT,MIT,
-nanoid,3.1.20,/home/travis/build/Kristinita/KristinitaPelican/node_modules/nanoid,ai/nanoid,MIT,MIT,MIT,
+nanoid,3.1.22,/home/travis/build/Kristinita/KristinitaPelican/node_modules/nanoid,ai/nanoid,MIT,MIT,MIT,
 nanomatch,1.2.13,/home/travis/build/Kristinita/KristinitaPelican/node_modules/nanomatch,micromatch/nanomatch,MIT,MIT,MIT,
 natives,1.1.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/natives,https://github.com/addaleax/natives,ISC,ISC,ISC,
 negotiator,0.6.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/negotiator,jshttp/negotiator,MIT,MIT,MIT,
@@ -1181,7 +1186,7 @@ nopt,4.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-cl
 nopt,5.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/js-beautify/node_modules/nopt,(none),ISC,ISC,ISC,
 normalize-newline,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/normalize-newline,sindresorhus/normalize-newline,MIT,MIT,MIT,MIT
 normalize-package-data,2.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/normalize-package-data,(none),BSD;BSD-2-Clause,BSD-2-Clause,BSD,
-normalize-package-data,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/normalize-package-data,http://github.com/npm/normalize-package-data,BSD;BSD-2-Clause,BSD-2-Clause,BSD,
+normalize-package-data,3.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/normalize-package-data,http://github.com/npm/normalize-package-data,BSD;BSD-2-Clause,BSD-2-Clause,BSD,
 normalize-path,2.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-dev-update/node_modules/normalize-path,(none),MIT,MIT,MIT,
 normalize-path,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/normalize-path,jonschlinkert/normalize-path,MIT,MIT,MIT,
 normalize-range,0.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/normalize-range,jamestalmage/normalize-range,MIT,MIT,MIT,MIT
@@ -1239,7 +1244,7 @@ p-all,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/p-all,s
 p-cancelable,0.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/download/node_modules/p-cancelable,(none),MIT,MIT,MIT,MIT
 p-cancelable,0.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bin-wrapper/node_modules/p-cancelable,(none),MIT,MIT,MIT,MIT
 p-cancelable,1.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/p-cancelable,(none),MIT,MIT,MIT,MIT
-p-cancelable,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/p-cancelable,sindresorhus/p-cancelable,MIT,MIT,MIT,MIT
+p-cancelable,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/p-cancelable,sindresorhus/p-cancelable,MIT,MIT,MIT,
 p-defer,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/p-defer,sindresorhus/p-defer,MIT,MIT,MIT,MIT
 p-event,1.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/p-event,sindresorhus/p-event,MIT,MIT,MIT,MIT
 p-event,2.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bin-wrapper/node_modules/p-event,(none),MIT,MIT,MIT,MIT
@@ -1279,7 +1284,7 @@ parse-node-version,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_mo
 parse-passwd,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/parse-passwd,doowb/parse-passwd,MIT,MIT,MIT,
 parse5,1.5.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/parse5,http://github.com/inikulin/parse5,MIT,MIT,,
 parse5,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-purge/node_modules/parse5,(none),MIT,MIT,,
-parse5,5.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/parse5,(none),MIT,MIT,,
+parse5,6.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/parse5,(none),MIT,MIT,,
 parseqs,0.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/parseqs,https://github.com/get/querystring,MIT,MIT,MIT,
 parserlib,0.2.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/htmlhint/node_modules/parserlib,(none),MIT,MIT,,
 parserlib,1.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/parserlib,https://github.com/CSSLint/parser-lib,MIT,MIT,,
@@ -1328,7 +1333,7 @@ posix-character-classes,0.1.1,/home/travis/build/Kristinita/KristinitaPelican/no
 postcss,5.2.18,/home/travis/build/Kristinita/KristinitaPelican/node_modules/cssnano/node_modules/postcss,(none),MIT,MIT,MIT,
 postcss,7.0.35,/home/travis/build/Kristinita/KristinitaPelican/node_modules/critical/node_modules/postcss,(none),MIT,MIT,MIT,
 postcss,8.0.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/poststylus/node_modules/postcss,(none),MIT,MIT,MIT,
-postcss,8.2.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss,postcss/postcss,MIT,MIT,MIT,
+postcss,8.2.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss,postcss/postcss,MIT,MIT,MIT,
 postcss-calc,5.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-calc,https://github.com/postcss/postcss-calc,MIT,MIT,MIT,
 postcss-colormin,2.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-colormin,ben-eb/postcss-colormin,MIT,MIT,,MIT
 postcss-combine-duplicated-selectors,10.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-combine-duplicated-selectors,https://github.com/ChristianMurphy/postcss-combine-duplicated-selectors,MIT,MIT,MIT,
@@ -1407,10 +1412,10 @@ q,2.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/clean-conso
 qs,2.3.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/union/node_modules/qs,(none),BSD,BSD,,
 qs,6.2.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/qs,https://github.com/ljharb/qs,BSD-3-Clause,BSD-3-Clause,,
 qs,6.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/request/node_modules/qs,(none),BSD-3-Clause,BSD-3-Clause,,
-qs,6.9.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/googleapis-common/node_modules/qs,(none),BSD;BSD-3-Clause,BSD-3-Clause,BSD,
+qs,6.10.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/googleapis-common/node_modules/qs,(none),BSD;BSD-3-Clause,BSD-3-Clause,BSD,
 query-string,4.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-normalize-url/node_modules/query-string,(none),MIT,MIT,MIT,MIT
 query-string,5.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/query-string,sindresorhus/query-string,MIT,MIT,MIT,MIT
-queue-microtask,1.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/queue-microtask,http://github.com/feross/queue-microtask,MIT,MIT,MIT,
+queue-microtask,1.2.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/queue-microtask,http://github.com/feross/queue-microtask,MIT,MIT,MIT,
 quick-lru,4.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/camelcase-keys/node_modules/quick-lru,(none),MIT,MIT,MIT,
 quick-lru,5.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/quick-lru,sindresorhus/quick-lru,MIT,MIT,MIT,
 quote,0.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/quote,git@github.com:bahmutov/quote,MIT,MIT,MIT,MIT
@@ -1540,7 +1545,7 @@ responselike,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/
 restore-cursor,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/restore-cursor,sindresorhus/restore-cursor,MIT,MIT,MIT,MIT
 ret,0.1.15,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ret,http://github.com/fent/ret.js,MIT,MIT,,MIT
 reusify,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/reusify,https://github.com/mcollina/reusify,MIT,MIT,MIT,MIT
-rfg-api,0.5.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/rfg-api,git@github.com:RealFaviconGenerator/rfg-api,MIT,MIT,,
+rfg-api,0.5.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/rfg-api,git@github.com:RealFaviconGenerator/rfg-api,MIT,MIT,,
 rimraf,2.2.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/rimraf,(none),MIT,MIT,,
 rimraf,2.7.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-clean/node_modules/rimraf,(none),ISC,ISC,ISC,
 rimraf,3.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/rimraf,http://github.com/isaacs/rimraf,ISC,ISC,ISC,
@@ -1563,6 +1568,7 @@ semver,2.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/update
 semver,5.7.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-dev-update/node_modules/semver,(none),ISC,ISC,ISC,
 semver,6.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylus/node_modules/semver,(none),ISC,ISC,ISC,
 semver,7.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/semver,https://github.com/npm/node-semver,ISC,ISC,ISC,
+semver,7.3.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/normalize-package-data/node_modules/semver,(none),ISC,ISC,ISC,
 semver-compare,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/semver-compare,http://github.com/substack/semver-compare,MIT,MIT,MIT,MIT
 semver-diff,2.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/semver-diff,sindresorhus/semver-diff,MIT,MIT,MIT,MIT
 semver-diff,3.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/semver-diff,(none),MIT,MIT,MIT,
@@ -1586,6 +1592,7 @@ shebang-regex,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules
 shelljs,0.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/jshint/node_modules/shelljs,(none),BSD;BSD*,BSD*,BSD,
 shelljs,0.7.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/shelljs,http://github.com/shelljs/shelljs,BSD;BSD-3-Clause,BSD-3-Clause,BSD,
 showdown,1.8.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/showdown,https://github.com/showdownjs/showdown,BSD-3-Clause,BSD-3-Clause,,
+side-channel,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/side-channel,https://github.com/ljharb/side-channel,MIT,MIT,MIT,
 sigmund,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/sigmund,http://github.com/isaacs/sigmund,ISC,ISC,ISC,
 signal-exit,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/signal-exit,https://github.com/tapjs/signal-exit,ISC,ISC,ISC,
 slash,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/imagemin/node_modules/slash,(none),MIT,MIT,,MIT
@@ -1650,7 +1657,7 @@ string-template,0.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modul
 string-width,1.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inquirer/node_modules/string-width,(none),MIT,MIT,MIT,MIT
 string-width,2.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/eclint/node_modules/string-width,(none),MIT,MIT,MIT,MIT
 string-width,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/string-width,sindresorhus/string-width,MIT,MIT,MIT,MIT
-string-width,4.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint/node_modules/string-width,(none),MIT,MIT,MIT,
+string-width,4.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yargs/node_modules/string-width,(none),MIT,MIT,MIT,
 string.prototype.trimend,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/string.prototype.trimend,http://github.com/es-shims/String.prototype.trimEnd,MIT,MIT,MIT,
 string.prototype.trimstart,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/string.prototype.trimstart,http://github.com/es-shims/String.prototype.trimStart,MIT,MIT,MIT,
 string_decoder,0.10.31,/home/travis/build/Kristinita/KristinitaPelican/node_modules/string_decoder,http://github.com/rvagg/string_decoder,MIT,MIT,,
@@ -1672,7 +1679,7 @@ strip-json-comments,1.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_m
 strip-json-comments,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-contrib-csslint/node_modules/strip-json-comments,(none),MIT,MIT,MIT,MIT
 strip-outer,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/strip-outer,sindresorhus/strip-outer,MIT,MIT,MIT,MIT
 style-search,0.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/style-search,https://github.com/davidtheclark/style-search,ISC,ISC,,
-stylelint,13.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint,stylelint/stylelint,MIT,MIT,MIT,MIT
+stylelint,13.12.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint,stylelint/stylelint,MIT,MIT,MIT,MIT
 stylelint-config-recommended,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint-config-recommended,https://github.com/stylelint/stylelint-config-recommended,MIT,MIT,MIT,
 stylelint-no-unsupported-browser-features,4.1.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylelint-no-unsupported-browser-features,https://github.com/ismay/stylelint-no-unsupported-browser-features,MIT,MIT,,
 stylint,1.5.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylint,https://github.com/SimenB/stylint,GPL-3.0,GPL-3.0,,
@@ -1691,13 +1698,13 @@ svgo,1.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/svgo,htt
 symbol,0.2.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/symbol,seanmonstar/symbol,MPL;MPLv2.0,MPLv2.0,MPL,
 symbol-observable,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/symbol-observable,blesh/symbol-observable,MIT,MIT,MIT,MIT
 symbol-tree,3.2.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/symbol-tree,https://github.com/jsdom/js-symbol-tree,MIT,MIT,MIT,
-table,6.0.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/table,https://github.com/gajus/table,BSD-3-Clause,BSD-3-Clause,,
+table,6.0.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/table,https://github.com/gajus/table,BSD-3-Clause,BSD-3-Clause,,
 tar-stream,1.6.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tar-stream,https://github.com/mafintosh/tar-stream,MIT,MIT,MIT,MIT
 tcomb,2.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tcomb,https://github.com/gcanti/tcomb,MIT,MIT,MIT,MIT
 temp-dir,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/temp-dir,sindresorhus/temp-dir,MIT,MIT,MIT,MIT
 temp-dir,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tempy/node_modules/temp-dir,(none),MIT,MIT,MIT,MIT
 tempfile,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tempfile,sindresorhus/tempfile,MIT,MIT,MIT,MIT
-tempy,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tempy,sindresorhus/tempy,MIT,MIT,MIT,
+tempy,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tempy,sindresorhus/tempy,MIT,MIT,MIT,
 term-size,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/term-size,sindresorhus/term-size,MIT,MIT,MIT,MIT
 term-size,2.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/term-size,(none),MIT,MIT,MIT,
 terminal-link,2.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/terminal-link,sindresorhus/terminal-link,MIT,MIT,MIT,
@@ -1736,7 +1743,7 @@ toidentifier,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/
 too-wordy,0.3.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/too-wordy,https://github.com/duereg/too-wordy,MIT,MIT,MIT,MIT
 tough-cookie,2.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-curl/node_modules/tough-cookie,(none),BSD-3-Clause;MPL,BSD-3-Clause,MPL,
 tough-cookie,2.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tough-cookie,http://github.com/salesforce/tough-cookie,BSD-3-Clause,BSD-3-Clause,,
-tough-cookie,3.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/tough-cookie,(none),BSD-3-Clause,BSD-3-Clause,,
+tough-cookie,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/tough-cookie,(none),BSD-3-Clause,BSD-3-Clause,,
 tr46,0.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tr46,https://github.com/Sebmaster/tr46.js,MIT,MIT,,
 tr46,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/whatwg-url/node_modules/tr46,(none),MIT,MIT,MIT,
 tr46,2.0.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/tr46,(none),MIT,MIT,MIT,
@@ -1749,31 +1756,31 @@ trough,1.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/trough
 tunnel-agent,0.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tunnel-agent,https://github.com/mikeal/tunnel-agent,Apache;Apache-2.0,Apache-2.0,Apache,
 tweetnacl,0.14.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tweetnacl,https://github.com/dchest/tweetnacl-js,Unlicense,Unlicense,,
 type,1.2.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/type,medikoo/type,ISC,ISC,ISC,
-type,2.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ext/node_modules/type,(none),ISC,ISC,ISC,
+type,2.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ext/node_modules/type,(none),ISC,ISC,ISC,
 type-check,0.3.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/type-check,http://github.com/gkz/type-check,MIT,MIT,,MIT
 type-fest,0.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/read-pkg/node_modules/type-fest,(none),(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
 type-fest,0.8.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/read-pkg-up/node_modules/type-fest,(none),(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
-type-fest,0.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/terminal-link/node_modules/type-fest,(none),(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
 type-fest,0.13.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/type-fest,(none),(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
 type-fest,0.16.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/tempy/node_modules/type-fest,(none),(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
 type-fest,0.18.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/type-fest,sindresorhus/type-fest,(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
+type-fest,0.21.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/terminal-link/node_modules/type-fest,(none),(MIT OR CC0-1.0);MIT,(MIT OR CC0-1.0),MIT,
 typechecker,4.11.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/typechecker,https://github.com/bevry/typechecker,MIT,MIT,,
 typedarray,0.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/typedarray,http://github.com/substack/typedarray,MIT,MIT,,MIT
 typedarray-to-buffer,3.1.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/typedarray-to-buffer,http://github.com/feross/typedarray-to-buffer,MIT,MIT,MIT,
-ua-parser-js,0.7.24,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ua-parser-js,https://github.com/faisalman/ua-parser-js,MIT,MIT,MIT,MIT
+ua-parser-js,0.7.27,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ua-parser-js,https://github.com/faisalman/ua-parser-js,MIT,MIT,MIT,MIT
 uc.micro,1.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uc.micro,markdown-it/uc.micro,MIT,MIT,,
-uglify-js,3.13.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uglify-js,mishoo/UglifyJS,BSD;BSD-2-Clause,BSD-2-Clause,BSD,
-unbox-primitive,1.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unbox-primitive,https://github.com/ljharb/unbox-primitive,MIT,MIT,MIT,
+uglify-js,3.13.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/uglify-js,mishoo/UglifyJS,BSD;BSD-2-Clause,BSD-2-Clause,BSD,
+unbox-primitive,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unbox-primitive,https://github.com/ljharb/unbox-primitive,MIT,MIT,MIT,
 unbzip2-stream,1.4.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unbzip2-stream,https://github.com/regular/unbzip2-stream,MIT,MIT,,
 unc-path-regex,0.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unc-path-regex,https://github.com/regexhq/unc-path-regex,MIT,MIT,MIT,MIT
 underscore,1.7.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/underscore,(none),MIT,MIT,,
-underscore,1.12.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/underscore,http://github.com/jashkenas/underscore,MIT,MIT,,
+underscore,1.12.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/underscore,http://github.com/jashkenas/underscore,MIT,MIT,,
 underscore.string,2.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/underscore.string,(none),MIT,MIT,,MIT
 underscore.string,2.3.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-prettify/node_modules/underscore.string,(none),MIT,MIT,,MIT
 underscore.string,2.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/argparse/node_modules/underscore.string,(none),MIT,MIT,,MIT
 underscore.string,3.3.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/underscore.string,https://github.com/epeli/underscore.string,MIT,MIT,,MIT
 unified,9.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified,unifiedjs/unified,MIT,MIT,MIT,
-unified-engine,8.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified-engine,unifiedjs/unified-engine,MIT,MIT,MIT,
+unified-engine,8.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified-engine,unifiedjs/unified-engine,MIT,MIT,MIT,
 unified-lint-rule,1.0.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified-lint-rule,https://github.com/remarkjs/remark-lint/tree/main/packages/unified-lint-rule,MIT,MIT,,
 unified-message-control,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unified-message-control,unifiedjs/unified-message-control,MIT,MIT,MIT,
 union,0.4.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/union,http://github.com/flatiron/union,MIT,,,MIT
@@ -1786,7 +1793,7 @@ unist-util-find-all-after,3.0.2,/home/travis/build/Kristinita/KristinitaPelican/
 unist-util-generated,1.1.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-generated,syntax-tree/unist-util-generated,MIT,MIT,MIT,
 unist-util-inspect,5.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-inspect,syntax-tree/unist-util-inspect,MIT,MIT,MIT,
 unist-util-is,3.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-visit-parents/node_modules/unist-util-is,(none),MIT,MIT,MIT,
-unist-util-is,4.0.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-is,syntax-tree/unist-util-is,MIT,MIT,MIT,
+unist-util-is,4.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-is,syntax-tree/unist-util-is,MIT,MIT,MIT,
 unist-util-position,3.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-position,syntax-tree/unist-util-position,MIT,MIT,MIT,
 unist-util-stringify-position,2.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-stringify-position,syntax-tree/unist-util-stringify-position,MIT,MIT,MIT,
 unist-util-visit,1.4.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/unist-util-visit,syntax-tree/unist-util-visit,MIT,MIT,MIT,
@@ -1854,7 +1861,7 @@ whatwg-encoding,1.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modul
 whatwg-mimetype,2.3.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/whatwg-mimetype,jsdom/whatwg-mimetype,MIT,MIT,,
 whatwg-url,6.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/whatwg-url,jsdom/whatwg-url,MIT,MIT,MIT,
 whatwg-url,7.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/data-urls/node_modules/whatwg-url,(none),MIT,MIT,MIT,
-whatwg-url,8.4.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/whatwg-url,(none),MIT,MIT,MIT,
+whatwg-url,8.5.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/inline-critical/node_modules/whatwg-url,(none),MIT,MIT,MIT,
 whatwg-url-compat,0.6.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/whatwg-url-compat,jsdom/whatwg-url,MIT,MIT,MIT,
 whet.extend,0.9.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/whet.extend,https://github.com/Meettya/whet.extend,MIT,MIT,,
 which,1.0.9,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-project-update/node_modules/which,(none),ISC,ISC,ISC,
@@ -1879,7 +1886,7 @@ write-file-atomic,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_mod
 write-good,1.0.8,/home/travis/build/Kristinita/KristinitaPelican/node_modules/write-good,https://github.com/btford/write-good,MIT,MIT,MIT,MIT
 ws,5.2.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/css-purge/node_modules/ws,(none),MIT,MIT,MIT,
 ws,6.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/ws,websockets/ws,MIT,MIT,MIT,
-ws,7.4.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/engine.io/node_modules/ws,(none),MIT,MIT,MIT,
+ws,7.4.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/engine.io/node_modules/ws,(none),MIT,MIT,MIT,
 xdg-basedir,1.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/xdg-basedir,sindresorhus/xdg-basedir,MIT,MIT,MIT,MIT
 xdg-basedir,2.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/grunt-robots-txt/node_modules/xdg-basedir,(none),MIT,MIT,MIT,MIT
 xdg-basedir,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/psi/node_modules/xdg-basedir,(none),MIT,MIT,MIT,MIT
@@ -1900,7 +1907,7 @@ y18n,5.0.5,/home/travis/build/Kristinita/KristinitaPelican/node_modules/doiuse/n
 yallist,2.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yallist,https://github.com/isaacs/yallist,ISC,ISC,ISC,
 yallist,3.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/google-auth-library/node_modules/yallist,(none),ISC,ISC,ISC,
 yallist,4.0.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/hosted-git-info/node_modules/yallist,(none),ISC,ISC,ISC,
-yaml,1.10.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yaml,github:eemeli/yaml,ISC,ISC,,ISC
+yaml,1.10.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yaml,github:eemeli/yaml,ISC,ISC,,ISC
 yargs,1.2.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/glob-all/node_modules/yargs,(none),MIT/X11,MIT/X11,,
 yargs,4.7.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/stylint/node_modules/yargs,(none),MIT,MIT,,
 yargs,6.6.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/merge-source-maps/node_modules/yargs,(none),MIT,MIT,,
@@ -1913,7 +1920,7 @@ yargs-parser,4.2.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/
 yargs-parser,8.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/showdown/node_modules/yargs-parser,(none),ISC,ISC,,ISC
 yargs-parser,11.1.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/eclint/node_modules/yargs-parser,(none),ISC,ISC,,ISC
 yargs-parser,18.1.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yargs/node_modules/yargs-parser,(none),ISC,ISC,,ISC
-yargs-parser,20.2.6,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yargs-parser,https://github.com/yargs/yargs-parser,ISC,ISC,,ISC
+yargs-parser,20.2.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yargs-parser,https://github.com/yargs/yargs-parser,ISC,ISC,,ISC
 yauzl,2.10.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yauzl,https://github.com/thejoshwolfe/yauzl,MIT,MIT,MIT,
 yeast,0.1.2,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yeast,https://github.com/unshiftio/yeast,MIT,MIT,MIT,
 yocto-queue,0.1.0,/home/travis/build/Kristinita/KristinitaPelican/node_modules/yocto-queue,sindresorhus/yocto-queue,MIT,MIT,MIT,

@@ -80,6 +80,7 @@ blockquote >p >a {
 }
 .SashaGingerinasExample {
 	background-color: #d0f0c0;
+	color: Sasha-Gingerinas-Example-Foreground;
 }
 ::selection {
 	color: #f08080;
@@ -164,7 +165,7 @@ div.wf.wf-theme-dark .wf-tip {
 .SashaInlineHighlight,
 .SashaBlockHighlight {
 	background-color: #e7e9db;
-	color: #cd5c5c;
+	color: #b22222;
 }
 .SashaInlineHighlight .c,
 .SashaBlockHighlight .c {

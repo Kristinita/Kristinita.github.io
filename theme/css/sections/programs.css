@@ -93,6 +93,7 @@ blockquote >p >a {
 }
 .SashaGingerinasExample {
 	background-color: #d0f0c0;
+	color: Sasha-Gingerinas-Example-Foreground;
 }
 ::selection {
 	color: #f08080;

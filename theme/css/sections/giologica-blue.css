@@ -22,7 +22,7 @@ a:focus {
 	background: #f0fff0;
 }
 em {
-	color: #ff69b4;
+	color: #006400;
 }
 img {
 	box-shadow: 0 0 2rem #000;
@@ -36,8 +36,8 @@ img {
 	display: none;
 }
 kbd {
-	color: #fff5ee;
-	background: #6495ed;
+	color: #191970;
+	background: #d8bfd8;
 }
 .SashaBottomAside {
 	color: #fff;
@@ -49,7 +49,7 @@ blockquote {
 	background: #fcfcfc;
 }
 blockquote >p >em {
-	color: #ff69b4;
+	color: #006400;
 }
 blockquote >p >a {
 	color: Sasha-Blockquote-Link;

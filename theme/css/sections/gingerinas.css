@@ -46,7 +46,7 @@ th {
 }
 blockquote {
 	border-left: solid #dc143c 0.5rem;
-	color: #bc8f8f;
+	color: #639;
 	background: #faebd7;
 }
 blockquote >p >em {
@@ -67,7 +67,7 @@ blockquote >p >a {
 	color: Sasha-Term-Blockquote-Link;
 }
 .SashaCitation {
-	color: #fa8072;
+	color: #800000;
 }
 .SashaEpigraph {
 	color: #20b2aa;
@@ -80,6 +80,7 @@ blockquote >p >a {
 }
 .SashaGingerinasExample {
 	background-color: #d0f0c0;
+	color: #191970;
 }
 .SashaGingerinasBadExample {
 	background-color: rgba(240,128,128,0.569);
@@ -222,7 +223,7 @@ div.wf.wf-theme-dark .wf-tip {
 .SashaInlineHighlight,
 .SashaBlockHighlight {
 	background-color: #e7e9db;
-	color: #cd5c5c;
+	color: #b22222;
 }
 .SashaInlineHighlight .c,
 .SashaBlockHighlight .c {
