@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-11-03T09:36:16+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.app/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2020-09-24T13:12:11+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/all-en.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2021-07-19T07:54:34+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.app/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2020-09-24T13:12:11+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text
 &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -476,10 +476,15 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2020-09-24T13:12:35+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI
+&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2021-07-19T07:52:59+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI
 &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt;
 &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt;
-&lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Outdated data&lt;/p&gt;
+&lt;p&gt;I wrote this tutorial in January 2018. Some information from it may be out of date. As of 2021, Warehouse replaced the previous PyPI code base shown in this article.&lt;/p&gt;
+&lt;p&gt;June 6 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1140,11 +1145,16 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.netlify.app/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-23T10:43:14+03:00</published><updated>2020-09-24T13:04:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-23:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command
+&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.netlify.app/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-23T10:43:14+03:00</published><updated>2021-07-19T07:52:59+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-23:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command
 &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt;
 &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt;
 &lt;img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt;
-&lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Possibly outdated data&lt;/p&gt;
+&lt;p&gt;I wrote this article in January 2018. Some information from it may be out of date.&lt;/p&gt;
+&lt;p&gt;June 6 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1412,7 +1422,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Testing-environment"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;13. Testing environment&lt;/h2&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Node.js 9.4.0,&lt;/li&gt;
 &lt;li&gt;git 2.16.0.windows.2,&lt;/li&gt;
@@ -1423,7 +1433,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-11-03T09:36:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL
+&lt;/ol&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry><entry><title>KristinitaLuckyLink</title><link href="https://kristinita.netlify.app/Programs/KristinitaLuckyLink.html" rel="alternate"></link><published>2018-01-09T19:27:14+03:00</published><updated>2020-11-03T09:36:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-09:/Programs/KristinitaLuckyLink.html</id><summary type="html">&lt;p&gt;Sublime Text 3 package, that wrap the selected text to DuckDuckGo or Google top query URL
 &lt;img alt="KristinitaLuckyLink" src="https://i.imgur.com/TuyxneV.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -1799,8 +1809,13 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h2&gt;15. License&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/KristinitaLuckyLink/blob/SashaDevelop/License.md" rel="noopener" target="_blank"&gt;MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.netlify.app/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-03T11:17:14+03:00</published><updated>2020-10-28T13:36:21+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-04-03:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text
-&lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Briefly&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="Programs"></category><category term="programs"></category><category term="sublime-text"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.netlify.app/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-03T11:17:14+03:00</published><updated>2021-07-19T07:54:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-04-03:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text
+&lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Outdated code&lt;/p&gt;
+&lt;p&gt;ValeriyaSpeller worked for me in 2017, but it looks like its code isn’t compatible with newer SublimeLinter versions.&lt;/p&gt;
+&lt;p&gt;June 6 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;1. Briefly&lt;/h2&gt;
 &lt;p&gt;Russian-language spellchecker for Sublime Text.&lt;/p&gt;
 &lt;h2&gt;2. Demonstration&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="Sublime Text Window" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;
@@ -1809,13 +1824,13 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;i need extra spellchecker for Russian-language texts.&lt;/p&gt;
 &lt;h2&gt;4. Testing&lt;/h2&gt;
 &lt;p&gt;Tested on:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Sublime Text Build 3126,&lt;/li&gt;
 &lt;li&gt;Node.js v7.8.0,&lt;/li&gt;
 &lt;li&gt;yaspeller 3.1.0,&lt;/li&gt;
 &lt;li&gt;literature works of Chekhov, Dostoyevsky, Leonid Andreyev and Oliver Sacks (in Russian translation) — favorite Valeria writers.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;Must be works in macOS and *nix operating systems.&lt;/p&gt;
 &lt;h2&gt;5. Installation&lt;/h2&gt;
 &lt;ol&gt;
@@ -1827,12 +1842,12 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;h2&gt;6. Usage&lt;/h2&gt;
 &lt;h3&gt;6.1. Required&lt;/h3&gt;
 &lt;p&gt;ValeriyaSpeller highlight/output typos in next types of files:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Markdown,&lt;/li&gt;
 &lt;li&gt;HTML,&lt;/li&gt;
 &lt;li&gt;LaTeX,&lt;/li&gt;
 &lt;li&gt;Comments in any language.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;Note: ValeryaLinter must work in most cases. If no, &lt;a href="https://www.sublimetext.com/docs/3/syntax.html" rel="noopener" target="_blank"&gt;your syntax&lt;/a&gt; don’t have any of these &lt;a href="https://www.sublimetext.com/docs/3/scope_naming.html" rel="noopener" target="_blank"&gt;scopes&lt;/a&gt; — &lt;code class="SashaInlineHighlight"&gt;text.html.markdown&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;text.plain&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;text.tex.latex&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;comment&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;After installation open any of these files → and see:&lt;/p&gt;
 &lt;ol&gt;
@@ -2086,10 +2101,15 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;p&gt;Multi-line comments for Windows is &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
 &lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.37. 201&lt;/h3&gt;
-&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="Sublime-Text"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.app/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2020-10-30T08:54:51+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible
+&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="Sublime-Text"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.app/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2021-06-06T20:26:36+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible
 &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt;
 &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt;
-&lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+&lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Долгое отсутствие обновлений&lt;/p&gt;
+&lt;p&gt;я по-прежнему ежедневно успешно пользуюсь SashaSublime, однако с февраля 2018 &lt;a href="https://github.com/Kristinita/SashaSublime/releases" rel="noopener" target="_blank"&gt;не вносил изменений&lt;/a&gt; в эту программу.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
     &lt;a href="https://kristinita.netlify.app/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.app/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://kristinita.netlify.app/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.app/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.netlify.app/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
@@ -2100,7 +2120,7 @@ To https://github.com/Kristinita/SashaSublime.git
     &lt;img src="https://img.shields.io/badge/Release-1.3.1-orange.svg" alt="Release" class="SashaInline" /&gt;
     &lt;img src="https://img.shields.io/github/stars/Kristinita/SashaSublime.svg" alt="Stars" /&gt;
     &lt;img src="https://img.shields.io/github/forks/Kristinita/SashaSublime.svg" alt="Forks" /&gt;
-    &lt;img src="https://img.shields.io/maintenance/STATUS/2020.svg" alt="Maintained" /&gt;
+    &lt;img src="https://img.shields.io/maintenance/STATUS/2021.svg" alt="Maintained" /&gt;
     &lt;a href="https://github.com/Kristinita/SashaSublime/issues"&gt;&lt;img src="https://img.shields.io/github/issues/Kristinita/SashaSublime.svg" alt="GitHub issues" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
@@ -2222,13 +2242,6 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;&lt;a href="#See-also"&gt;See also&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Thanks"&gt;Thanks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Contacts"&gt;Contacts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Donate"&gt;Donate&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#Bitcoin"&gt;Bitcoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Litecoin"&gt;Litecoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Paypal-$"&gt;Paypal $&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Paypal-€"&gt;Paypal €&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
 &lt;li&gt;&lt;a href="#License"&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- /MarkdownTOC --&gt;

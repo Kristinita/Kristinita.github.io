@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Gingerinas</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/gingerinas.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-11-10T14:38:45+03:00</updated><entry><title>Проблемы менеджмента Комнат Эрика</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82-%D0%9A%D0%BE%D0%BC%D0%BD%D0%B0%D1%82-%D0%AD%D1%80%D0%B8%D0%BA%D0%B0.html" rel="alternate"></link><published>2018-12-26T10:16:21+03:00</published><updated>2020-09-23T17:10:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-12-26:/Gingerinas/Менеджмент-Комнат-Эрика.html</id><summary type="html">&lt;p&gt;О наиболее важных по мнению автора статьи проблемах управления Комнатами Эрика на конец 2018&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Gingerinas</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/gingerinas.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2021-06-06T20:21:07+03:00</updated><entry><title>Проблемы менеджмента Комнат Эрика</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82-%D0%9A%D0%BE%D0%BC%D0%BD%D0%B0%D1%82-%D0%AD%D1%80%D0%B8%D0%BA%D0%B0.html" rel="alternate"></link><published>2018-12-26T10:16:21+03:00</published><updated>2020-09-23T17:10:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-12-26:/Gingerinas/Менеджмент-Комнат-Эрика.html</id><summary type="html">&lt;p&gt;О наиболее важных по мнению автора статьи проблемах управления Комнатами Эрика на конец 2018&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#О-чём-данная-статья"&gt;О чём данная статья&lt;/a&gt;&lt;ol&gt;
@@ -518,7 +518,7 @@
 &lt;div class="SashaVideo"&gt;&lt;iframe class="lazyload" title="Monologue from Monologue film" data-src="https://www.youtube.com/embed/SCHN3b_Utw0"&gt;
 
 &lt;/iframe&gt;
-&lt;/div&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category><category term="gingerinas-analysis"></category></entry><entry><title>КейДи</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%9A%D0%B5%D0%B9%D0%94%D0%B8.html" rel="alternate"></link><published>2018-12-17T16:51:59+03:00</published><updated>2020-11-05T20:16:16+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-12-17:/Gingerinas/КейДи.html</id><summary type="html">&lt;p&gt;Управление рисками в «Своей игре»&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category><category term="gingerinas-analysis"></category></entry><entry><title>КейДи</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%9A%D0%B5%D0%B9%D0%94%D0%B8.html" rel="alternate"></link><published>2018-12-17T16:51:59+03:00</published><updated>2021-06-06T16:40:14+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-12-17:/Gingerinas/КейДи.html</id><summary type="html">&lt;p&gt;Управление рисками в «Своей игре»&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#О-чём-данная-статья"&gt;О чём данная статья?&lt;/a&gt;&lt;ol&gt;
@@ -570,6 +570,11 @@
 &lt;/ol&gt;
 &lt;!-- /MarkdownTOC --&gt;
 
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Статья не базируется на научной основе&lt;/p&gt;
+&lt;p&gt;Нет достаточных эмпирических подтверждений представленным в статье выводам. Теория КейДи должна подкрепляться куда большим количеством данных.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;a id="О-чём-данная-статья"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;1. О чём данная статья?&lt;/h2&gt;
 &lt;p&gt;Игрокам в джинджерины постоянно приходится принимать решения, рисковать или нет. У кого-то с этим очень плохо; приходилось наблюдать следующие противоположные типы игроков:&lt;/p&gt;
@@ -1401,7 +1406,12 @@
 &lt;p&gt;&lt;img alt="сори" src="https://i.imgur.com/yZu1Tu5.png"&gt; &lt;img alt="блабл" src="https://i.imgur.com/eJFRoIm.png"&gt; &lt;img alt="аррапапа" src="https://i.imgur.com/zYJqzn3.png"&gt; &lt;img alt="меги" src="https://i.imgur.com/vehggK5.png"&gt; &lt;img alt="безума" src="https://i.imgur.com/h7CWDCJ.png"&gt; &lt;img alt="муак" src="https://i.imgur.com/GbMc9fJ.png"&gt; &lt;img alt="тонто" src="https://i.imgur.com/XCUMMBk.png"&gt; &lt;img alt="жанга" src="https://i.imgur.com/zjfMHxS.png"&gt; &lt;img alt="аюбыли" src="https://i.imgur.com/lXLZXib.png"&gt; &lt;img alt="десна" src="https://i.imgur.com/UvbQI17.png"&gt; &lt;img alt="дурчок" src="https://i.imgur.com/O6kJOG0.png"&gt; &lt;img alt="приедц" src="https://i.imgur.com/LWAuZfU.png"&gt; &lt;img alt="пультеа" src="https://i.imgur.com/BX05QYp.png"&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category><category term="gingerinas-analysis"></category><category term="keidi"></category></entry><entry><title>Обзор игры СпортСИ</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80-%D0%B8%D0%B3%D1%80%D1%8B-%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%A1%D0%98.html" rel="alternate"></link><published>2018-06-03T19:34:14+03:00</published><updated>2020-09-23T17:10:25+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-06-03:/Gingerinas/Обзор-игры-СпортСИ.html</id><summary type="html">&lt;p&gt;Разбор «суперфинала четырёх городов» по СпортСИ в ноябре 2017, в котором автор этих строк принимал участие&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category><category term="gingerinas-analysis"></category><category term="keidi"></category></entry><entry><title>Обзор игры СпортСИ</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80-%D0%B8%D0%B3%D1%80%D1%8B-%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%A1%D0%98.html" rel="alternate"></link><published>2018-06-03T19:34:14+03:00</published><updated>2021-06-06T20:21:07+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-06-03:/Gingerinas/Обзор-игры-СпортСИ.html</id><summary type="html">&lt;p&gt;Разбор «суперфинала четырёх городов» по СпортСИ в ноябре 2017, в котором автор этих строк принимал участие&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Устаревшие данные&lt;/p&gt;
+&lt;p&gt;Статья построена на теории аксаксов по состоянию на 2018 год, с тех пор сильно изменившейся.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Вступление"&gt;Вступление&lt;/a&gt;&lt;/li&gt;
@@ -2556,7 +2566,12 @@
 &lt;p&gt;по нику игрока онлайн-джинджерины «КонКВИЗтадор» chenov, который точно отвечал почти на все числовые вопросы в темах «Естественные науки» и «Точные науки».&amp;#160;&lt;a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Gingerinas"></category><category term="help"></category></entry><entry><title>Фоны и Карта С</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%A4%D0%BE%D0%BD%D1%8B-%D0%B8-%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%A1.html" rel="alternate"></link><published>2017-07-26T11:09:14+03:00</published><updated>2020-09-18T08:44:36+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-07-26:/Gingerinas/Фоны-и-Карта-С.html</id><summary type="html">&lt;p&gt;Психологические проблемы автора в соревновательный период, и предпринимаемые для борьбы с ними меры.&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="Gingerinas"></category><category term="help"></category></entry><entry><title>Фоны и Карта С</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%A4%D0%BE%D0%BD%D1%8B-%D0%B8-%D0%9A%D0%B0%D1%80%D1%82%D0%B0-%D0%A1.html" rel="alternate"></link><published>2017-07-26T11:09:14+03:00</published><updated>2021-06-06T16:43:20+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-07-26:/Gingerinas/Фоны-и-Карта-С.html</id><summary type="html">&lt;p&gt;Психологические проблемы автора в соревновательный период, и предпринимаемые для борьбы с ними меры.&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Статья не базируется на научной основе&lt;/p&gt;
+&lt;p&gt;Неплохо бы подкрепить теорией представленные в данной статье практические выводы.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Фон"&gt;Фон&lt;/a&gt;&lt;ol&gt;
@@ -2912,7 +2927,12 @@
 &lt;p&gt;От &lt;em&gt;ginger&lt;/em&gt; — игрового ника Людмилы Черкашиной&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category></entry><entry><title>Грейс Ло</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:44:14+03:00</published><updated>2020-09-24T13:01:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;/div&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category></entry><entry><title>Грейс Ло</title><link href="https://kristinita.netlify.app/Gingerinas/%D0%93%D1%80%D0%B5%D0%B9%D1%81-%D0%9B%D0%BE.html" rel="alternate"></link><published>2017-05-10T09:44:14+03:00</published><updated>2021-06-06T16:36:43+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-05-10:/Gingerinas/Грейс-Ло.html</id><summary type="html">&lt;p&gt;Практическая методика запоминания информации для джинджерин&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Статья не базируется на научной основе&lt;/p&gt;
+&lt;p&gt;Необходимо обосновывать свои выводы источниками, связанными с когнитивной психологией.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Основная-информация"&gt;Основная информация&lt;/a&gt;&lt;ol&gt;
@@ -3335,7 +3355,12 @@
 &lt;p&gt;&lt;a id="Повторение"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6. Повторение&lt;/h2&gt;
 &lt;p&gt;&lt;a id="Мнемоника"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;7. Мнемоника&lt;/h2&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category><category term="gingerinas-training"></category></entry><entry><title>Korvers</title><link href="https://kristinita.netlify.app/Gingerinas/Korvers.html" rel="alternate"></link><published>2017-02-13T09:24:30+03:00</published><updated>2020-11-10T14:38:45+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-02-13:/Gingerinas/Korvers.html</id><summary type="html">&lt;p&gt;Техники поиска версий в джинджеринах&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;h2&gt;7. Мнемоника&lt;/h2&gt;</content><category term="Gingerinas"></category><category term="gingerinas"></category><category term="gingerinas-training"></category></entry><entry><title>Korvers</title><link href="https://kristinita.netlify.app/Gingerinas/Korvers.html" rel="alternate"></link><published>2017-02-13T09:24:30+03:00</published><updated>2021-06-06T20:20:12+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-02-13:/Gingerinas/Korvers.html</id><summary type="html">&lt;p&gt;Техники поиска версий в джинджеринах&lt;/p&gt;</summary><content type="html">&lt;div class="admonition error"&gt;
+&lt;p class="admonition-title"&gt;Статья не базируется на научной основе&lt;/p&gt;
+&lt;p&gt;Переписать статью, делая упор на том, когда, при каких обстоятельствах следует применять те или иные аксаксы и прочие описанные решения.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Предисловие"&gt;Предисловие&lt;/a&gt;&lt;/li&gt;

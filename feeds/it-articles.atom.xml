@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-09-24T13:12:49+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.app/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2020-09-24T13:12:11+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - IT-articles</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/it-articles.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2021-07-19T07:52:59+03:00</updated><entry><title>How to get current … in Sublime Text</title><link href="https://kristinita.netlify.app/IT-articles/How-to-get-current-%E2%80%A6-in-Sublime-Text.html" rel="alternate"></link><published>2018-04-05T07:30:14+03:00</published><updated>2020-09-24T13:12:11+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-04-05:/IT-articles/How-to-get-current-…-in-Sublime-Text.html</id><summary type="html">&lt;p&gt;Tutorial, how to get some variable parameters for your Sublime Text
 &lt;img alt="Color scheme and theme" src="https://i.imgur.com/nwNgLkR.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -414,10 +414,15 @@
             &lt;/tr&gt;
         &lt;/tbody&gt;
     &lt;/table&gt;
-&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2020-09-24T13:12:35+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI
+&lt;/div&gt;&lt;/p&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="spelling"></category></entry><entry><title>How to publish your package to PyPI, 2018</title><link href="https://kristinita.netlify.app/IT-articles/How-to-publish-your-package-to-PyPI-2018.html" rel="alternate"></link><published>2018-01-27T10:59:14+03:00</published><updated>2021-07-19T07:52:59+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-27:/IT-articles/How-to-publish-your-package-to-PyPI-2018.html</id><summary type="html">&lt;p&gt;Tutorial, how you can publish your Python package to PyPI
 &lt;img alt="Erichek on pypi.python.org" src="https://i.imgur.com/IzSH7BK.png"&gt;
 &lt;img alt="Erichek on pypi.org" src="https://i.imgur.com/4P3w8TP.png"&gt;
-&lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;img alt="Erichek on pypi.org 2" src="https://i.imgur.com/IxsUDu4.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Outdated data&lt;/p&gt;
+&lt;p&gt;I wrote this tutorial in January 2018. Some information from it may be out of date. As of 2021, Warehouse replaced the previous PyPI code base shown in this article.&lt;/p&gt;
+&lt;p&gt;June 6 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1078,11 +1083,16 @@ C:\Users\SashaChernykh&amp;gt;
 &lt;li&gt;release-it 7.0.0,&lt;/li&gt;
 &lt;li&gt;changelog 1.7.0,&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.netlify.app/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-23T10:43:14+03:00</published><updated>2020-09-24T13:04:22+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-23:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command
+&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="python"></category><category term="pypi"></category><category term="release"></category></entry><entry><title>Fastest way to add new version of your Sublime Text package</title><link href="https://kristinita.netlify.app/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html" rel="alternate"></link><published>2018-01-23T10:43:14+03:00</published><updated>2021-07-19T07:52:59+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2018-01-23:/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html</id><summary type="html">&lt;p&gt;Tutorial, how you can make release and changelog, use only one command
 &lt;img alt="Package Control messages" src="https://i.imgur.com/J5AuHmX.png"&gt;
 &lt;img alt="*CHANGELOG.md* and *messages.json*" src="https://i.imgur.com/12fFJsX.png"&gt;
 &lt;img alt="*messages/&amp;lt;version&amp;gt;.txt* and *package.json*" src="https://i.imgur.com/kkKjiv5.png"&gt;
-&lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+&lt;img alt="Releases page" src="https://i.imgur.com/FwPHBZS.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Possibly outdated data&lt;/p&gt;
+&lt;p&gt;I wrote this article in January 2018. Some information from it may be out of date.&lt;/p&gt;
+&lt;p&gt;June 6 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -1350,7 +1360,7 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Testing-environment"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;13. Testing environment&lt;/h2&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Node.js 9.4.0,&lt;/li&gt;
 &lt;li&gt;git 2.16.0.windows.2,&lt;/li&gt;
@@ -1361,4 +1371,4 @@ To https://github.com/Kristinita/SashaSublime.git
 &lt;li&gt;mv (GNU coreutils) 8.26, packaged by Cygwin (8.26-1),&lt;/li&gt;
 &lt;li&gt;sed (GNU sed) 4.2.2,&lt;/li&gt;
 &lt;li&gt;js-beautify 1.7.5.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry></feed>
+&lt;/ol&gt;</content><category term="IT-articles"></category><category term="it-articles"></category><category term="sublime-text"></category><category term="release"></category></entry></feed>

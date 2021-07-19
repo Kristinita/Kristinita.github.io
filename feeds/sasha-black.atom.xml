@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sasha-Black</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sasha-black.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2021-01-09T15:35:15+03:00</updated><entry><title>Sasha Black — проверка репутации сайта</title><link href="https://kristinita.netlify.app/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2017-03-16T00:38:14+03:00</published><updated>2021-01-09T15:35:15+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-03-16:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;!-- MarkdownTOC --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sasha-Black</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sasha-black.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2021-06-06T19:44:59+03:00</updated><entry><title>Sasha Black — проверка репутации сайта</title><link href="https://kristinita.netlify.app/Sasha-Black/Sasha-Black-description.html" rel="alternate"></link><published>2017-03-16T00:38:14+03:00</published><updated>2021-06-06T19:44:59+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-03-16:/Sasha-Black/Sasha-Black-description.html</id><summary type="html">&lt;p&gt;Sasha Black — проверка репутации сайта, на наличие его в чёрных списках&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Устаревшие данные&lt;/p&gt;
+&lt;p&gt;С момента написания данной статьи в марте 2017 информация о Web of Trust и включённых в Sasha Black сервисах могла сильно устареть.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="#Sasha-Black-для-владельцев-сайтов"&gt;Sasha Black для владельцев сайтов&lt;/a&gt;&lt;/li&gt;
@@ -58,7 +63,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="Предупреждение_Аваста" src="https://i.imgur.com/yDJ135R.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Подробнее о Web of Trust см. в&lt;a href="#Web-of-Trust"&gt;посвящённом ему разделе&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Подробнее о Web of Trust см. в &lt;a href="#Web-of-Trust"&gt;посвящённом ему разделе&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Окажете медвежью услугу соседям по IP и хостингу,&lt;/li&gt;
 &lt;li&gt;Приостановление предоставления услуг Вашим HSP.&lt;/li&gt;
@@ -83,7 +88,7 @@
 &lt;p&gt;Sucuri и MX Toolbox же не видят ничего подозрительного на данном явно мошенническом ресурсе.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Sucuri_сканирует_usenet.nl" src="https://i.imgur.com/3kwq7rM.jpg"&gt;
 &lt;img alt="MX_Toolbox_проверяет_usenet.nl" src="https://i.imgur.com/ycS0w43.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Зато опасным посчитал Sucuri сайт kristinita.netlify.app , который Вы сейчас читаете, из-за &lt;a href="https://pip.qip.ru/" rel="noopener" target="_blank"&gt;виджета социальных закладок&lt;/a&gt;, а alfavika.ru почему-то оказалась в чёрном списке Dr.Web'а — обе проблемы разрешились &lt;a href="#Советы-владельцам-сайтов"&gt;обычным обращением в техподдержку&lt;/a&gt; . Автоматическим службам в составе Sasha Black — «Онлайн-сканерам» и проверке в «Блэклистах» — можно доверять, если набирается с десяток предупреждений, единичные скорее свидетельствуют о проблемах в алгоритмах внесения/вынесения внёсших с. сервисов. Мы то с вами об этом знаем, а вот большинство привыкло во всём полагаться на довольно несовершенную технику.&lt;/p&gt;
+&lt;p&gt;Зато опасным посчитал Sucuri сайт kristinita.netlify.app, который Вы сейчас читаете, из-за &lt;a href="https://pip.qip.ru/" rel="noopener" target="_blank"&gt;виджета социальных закладок&lt;/a&gt;, а alfavika.ru почему-то оказалась в чёрном списке Dr.Web'а — обе проблемы разрешились &lt;a href="#Советы-владельцам-сайтов"&gt;обычным обращением в техподдержку&lt;/a&gt; . Автоматическим службам в составе Sasha Black — «Онлайн-сканерам» и проверке в «Блэклистах» — можно доверять, если набирается с десяток предупреждений, единичные скорее свидетельствуют о проблемах в алгоритмах внесения/вынесения внёсших сайт сервисов. Мы то с вами об этом знаем, а вот большинство привыкло во всём полагаться на довольно несовершенную технику.&lt;/p&gt;
 &lt;p&gt;Примеры:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Из одного диалога:&lt;/li&gt;
@@ -220,10 +225,10 @@
 &lt;p&gt;Сервисы с меньшим функционалом в сравнении с теми, что включены в Sasha Black:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img alt="2IP" src="https://i.imgur.com/d3GTJJS.jpg"&gt;
-&lt;img alt="TAG.Hosting" src="https://i.imgur.com/Tic5HSg.jpg"&gt;
-&lt;img alt="XSeo" src="https://i.imgur.com/o8zUxSE.jpg"&gt;
-&lt;img alt="urlQuery" src="https://i.imgur.com/o8zUxSE.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="2IP" src="https://i.imgur.com/d3GTJJS.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="TAG.Hosting" src="https://i.imgur.com/Tic5HSg.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="XSeo" src="https://i.imgur.com/o8zUxSE.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="urlQuery" src="https://i.imgur.com/o8zUxSE.jpg"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;&lt;a href="https://2ip.ru/site-virus-scaner/" rel="noopener" target="_blank"&gt;2IP&lt;/a&gt;,&lt;a href="https://taghosting.ru/online_services/antivirus" rel="noopener" target="_blank"&gt;Tag.Hosting&lt;/a&gt;,&lt;a href="http://xseo.in/viruscan" rel="noopener" target="_blank"&gt;Xseo&lt;/a&gt;,&lt;a href="https://urlquery.net/" rel="noopener" target="_blank"&gt;urlQuery&lt;/a&gt;.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -249,11 +254,11 @@
 &lt;p&gt;Создание Sasha Black обусловлено отсутствием онлайновых служб, где с одной страницы можно достаточно полно исследовать сайт. Автор с радостью готов выслушать вежливо выраженные более компетентные мнения. Учитывайте, пожалуйста, упрощённый для восприятия широкой публикой стиль.&lt;/p&gt;
 &lt;p&gt;&lt;a id="Глоссарий"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;9. Глоссарий&lt;/h2&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;C. — сайт, ресурс, веб-ресурс;&lt;/li&gt;
 &lt;li&gt;Серв. — &lt;a href="https://slovari.yandex.ru/~%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81/?ncrnd=1609" rel="noopener" target="_blank"&gt;веб-сервис&lt;/a&gt;, онлайн-служба, онлайновая служба, инструмент;&lt;/li&gt;
 &lt;li&gt;Чс — чёрные списки, блэклисты, blacklists.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;a id="Благодарности"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;10. Благодарности&lt;/h2&gt;
 &lt;p&gt;Спасибо &lt;a href="https://vk.com/dark_alf" rel="noopener" target="_blank"&gt;Alfy Centauri&lt;/a&gt;, создателю &lt;a href="http://alfavika.ru/" rel="noopener" target="_blank"&gt;альфа-хаба&lt;/a&gt;, за помощь в работе над Sasha Black.&lt;/p&gt;

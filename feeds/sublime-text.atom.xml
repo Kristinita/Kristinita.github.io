@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2020-12-28T17:26:38+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.app/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2020-12-28T17:26:38+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.app,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Таймер для джинджерин “Что? Где? Когда?”, “Брейн Ринг”&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Поиск Кристиниты - Sublime-Text</title><link href="https://kristinita.netlify.app/" rel="alternate"></link><link href="https://kristinita.netlify.app/feeds/sublime-text.atom.xml" rel="self"></link><id>https://kristinita.netlify.app/</id><updated>2021-07-19T07:54:34+03:00</updated><entry><title>Sacagawea</title><link href="https://kristinita.netlify.app/Sublime-Text/Sacagawea.html" rel="alternate"></link><published>2017-05-05T06:49:14+03:00</published><updated>2021-06-06T19:46:10+03:00</updated><author><name>Keith Hall</name></author><id>tag:kristinita.netlify.app,2017-05-05:/Sublime-Text/Sacagawea.html</id><summary type="html">&lt;p&gt;Таймер для джинджерин “Что? Где? Когда?”, “Брейн Ринг”&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;code class="SashaInlineHighlight"&gt;“What? Where? When?” has great popularity in the Russian language, not English, so the description of the package in Russian.&lt;/code&gt;&lt;/p&gt;
 &lt;!-- MarkdownTOC --&gt;
 
 &lt;ol&gt;
@@ -278,11 +278,11 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Программное-обеспечение-при-тестировании"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;9. Программное обеспечение при тестировании&lt;/h2&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Sublime Text 3 Build 3126,&lt;/li&gt;
 &lt;li&gt;mpg123 1.24.0.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;a id="TODO"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;10. TODO&lt;/h2&gt;
 &lt;ol&gt;
@@ -301,16 +301,21 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;a id="Благодарности"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;12. Благодарности&lt;/h2&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;&lt;a href="https://github.com/keith-hall" rel="noopener" target="_blank"&gt;@keith-hall&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;a id="Лицензии"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;13. Лицензии&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://www.soundjay.com/tos.html" rel="noopener" target="_blank"&gt;правила использования звуков&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Kristinita/Sacagawea/blob/SashaDevelop/License.md" rel="noopener" target="_blank"&gt;лицензия на Sacagawea — MIT&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="Sublime-Text"></category><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.netlify.app/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-03T11:17:14+03:00</published><updated>2020-10-28T13:36:21+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-04-03:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text
-&lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;1. Briefly&lt;/h2&gt;
+&lt;/ol&gt;</content><category term="Sublime-Text"></category><category term="sublime-text"></category><category term="gingerinas"></category><category term="what-where-when"></category></entry><entry><title>ValeriyaSpeller</title><link href="https://kristinita.netlify.app/Sublime-Text/ValeriyaSpeller.html" rel="alternate"></link><published>2017-04-03T11:17:14+03:00</published><updated>2021-07-19T07:54:34+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-04-03:/Sublime-Text/ValeriyaSpeller.html</id><summary type="html">&lt;p&gt;yaspeller implementation for Sublime Text
+&lt;img alt="ValeriyaSpeller" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Outdated code&lt;/p&gt;
+&lt;p&gt;ValeriyaSpeller worked for me in 2017, but it looks like its code isn’t compatible with newer SublimeLinter versions.&lt;/p&gt;
+&lt;p&gt;June 6 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;1. Briefly&lt;/h2&gt;
 &lt;p&gt;Russian-language spellchecker for Sublime Text.&lt;/p&gt;
 &lt;h2&gt;2. Demonstration&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="Sublime Text Window" src="https://i.imgur.com/bqRl8eD.png"&gt;&lt;/p&gt;
@@ -319,13 +324,13 @@
 &lt;p&gt;i need extra spellchecker for Russian-language texts.&lt;/p&gt;
 &lt;h2&gt;4. Testing&lt;/h2&gt;
 &lt;p&gt;Tested on:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Windows 10 Enterprise LTSB 64-bit EN,&lt;/li&gt;
 &lt;li&gt;Sublime Text Build 3126,&lt;/li&gt;
 &lt;li&gt;Node.js v7.8.0,&lt;/li&gt;
 &lt;li&gt;yaspeller 3.1.0,&lt;/li&gt;
 &lt;li&gt;literature works of Chekhov, Dostoyevsky, Leonid Andreyev and Oliver Sacks (in Russian translation) — favorite Valeria writers.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;Must be works in macOS and *nix operating systems.&lt;/p&gt;
 &lt;h2&gt;5. Installation&lt;/h2&gt;
 &lt;ol&gt;
@@ -337,12 +342,12 @@
 &lt;h2&gt;6. Usage&lt;/h2&gt;
 &lt;h3&gt;6.1. Required&lt;/h3&gt;
 &lt;p&gt;ValeriyaSpeller highlight/output typos in next types of files:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;Markdown,&lt;/li&gt;
 &lt;li&gt;HTML,&lt;/li&gt;
 &lt;li&gt;LaTeX,&lt;/li&gt;
 &lt;li&gt;Comments in any language.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;p&gt;Note: ValeryaLinter must work in most cases. If no, &lt;a href="https://www.sublimetext.com/docs/3/syntax.html" rel="noopener" target="_blank"&gt;your syntax&lt;/a&gt; don’t have any of these &lt;a href="https://www.sublimetext.com/docs/3/scope_naming.html" rel="noopener" target="_blank"&gt;scopes&lt;/a&gt; — &lt;code class="SashaInlineHighlight"&gt;text.html.markdown&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;text.plain&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;text.tex.latex&lt;/code&gt;, &lt;code class="SashaInlineHighlight"&gt;comment&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;After installation open any of these files → and see:&lt;/p&gt;
 &lt;ol&gt;
@@ -596,10 +601,15 @@
 &lt;p&gt;Multi-line comments for Windows is &lt;kbd&gt;Ctrl+Shift+/&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; is not used.&lt;/p&gt;
 &lt;p&gt;&lt;a id="201"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;1.37. 201&lt;/h3&gt;
-&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="Sublime-Text"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.app/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2020-10-30T08:54:51+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible
+&lt;p&gt;You have not written, how to call Fullscreen Mode; I think, you need to specify the hot keys — &lt;kbd&gt;Shift+F11&lt;/kbd&gt;.&lt;/p&gt;</content><category term="Sublime-Text"></category><category term="sublime-text"></category></entry><entry><title>SashaSublime</title><link href="https://kristinita.netlify.app/Sublime-Text/SashaSublime.html" rel="alternate"></link><published>2017-01-31T09:13:30+03:00</published><updated>2021-06-06T20:26:36+03:00</updated><author><name>Sasha Chernykh</name></author><id>tag:kristinita.netlify.app,2017-01-31:/Sublime-Text/SashaSublime.html</id><summary type="html">&lt;p&gt;Theme and color scheme for Sublime Text, where all colors have good visible
 &lt;img alt="Hex Viewer" src="https://i.imgur.com/c0t0Iqy.png"&gt;
 &lt;img alt="GoTo Anything" src="https://i.imgur.com/2hRinyv.png"&gt;
-&lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;
+&lt;img alt="JSON" src="https://i.imgur.com/N2LvbNZ.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Долгое отсутствие обновлений&lt;/p&gt;
+&lt;p&gt;я по-прежнему ежедневно успешно пользуюсь SashaSublime, однако с февраля 2018 &lt;a href="https://github.com/Kristinita/SashaSublime/releases" rel="noopener" target="_blank"&gt;не вносил изменений&lt;/a&gt; в эту программу.&lt;/p&gt;
+&lt;p&gt;6 июня 2021&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
     &lt;a href="https://kristinita.netlify.app/images/donate_files/Bitcoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.app/images/donate_files/Bitcoin-Donate-button.png" alt="Bitcoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://kristinita.netlify.app/images/donate_files/Litecoin-HTML-Redirect.html"&gt;&lt;img src="https://kristinita.netlify.app/images/donate_files/Litecoin-Donate-button.png" alt="Litecoin Donate Button" class="SashaInline" /&gt;&lt;/a&gt;
     &lt;a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=63KC7VJTRVNVQ"&gt;&lt;img src="https://kristinita.netlify.app/images/donate_files/PayPal-Donate-Button-Dollar.png" alt="PayPal Dollar button" class="SashaInline" /&gt;&lt;/a&gt;
@@ -610,7 +620,7 @@
     &lt;img src="https://img.shields.io/badge/Release-1.3.1-orange.svg" alt="Release" class="SashaInline" /&gt;
     &lt;img src="https://img.shields.io/github/stars/Kristinita/SashaSublime.svg" alt="Stars" /&gt;
     &lt;img src="https://img.shields.io/github/forks/Kristinita/SashaSublime.svg" alt="Forks" /&gt;
-    &lt;img src="https://img.shields.io/maintenance/STATUS/2020.svg" alt="Maintained" /&gt;
+    &lt;img src="https://img.shields.io/maintenance/STATUS/2021.svg" alt="Maintained" /&gt;
     &lt;a href="https://github.com/Kristinita/SashaSublime/issues"&gt;&lt;img src="https://img.shields.io/github/issues/Kristinita/SashaSublime.svg" alt="GitHub issues" /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
@@ -732,13 +742,6 @@
 &lt;li&gt;&lt;a href="#See-also"&gt;See also&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Thanks"&gt;Thanks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#Contacts"&gt;Contacts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Donate"&gt;Donate&lt;/a&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href="#Bitcoin"&gt;Bitcoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Litecoin"&gt;Litecoin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Paypal-$"&gt;Paypal $&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#Paypal-€"&gt;Paypal €&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
 &lt;li&gt;&lt;a href="#License"&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- /MarkdownTOC --&gt;
