@@ -8,6 +8,14 @@ img {
 	margin: 0 auto;
 	max-width: 100%;
 }
+.SashaPageLoading {
+	box-shadow: none;
+/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+ */
+	display: none;
+}
 a {
 	font-size: 1.75rem;
 	border-radius: 0.875rem;

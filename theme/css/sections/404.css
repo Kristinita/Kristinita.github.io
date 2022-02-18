@@ -20,6 +20,14 @@ img {
 	margin: auto;
 	max-width: 96%;
 }
+.SashaPageLoading {
+	box-shadow: none;
+/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+ */
+	display: none;
+}
 .Sasha404 {
 	margin-bottom: 2rem;
 	font-size: 4rem;
