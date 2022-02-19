@@ -235,7 +235,7 @@ browser-sync,2.27.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules
 browser-sync-client,2.27.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browser-sync-client,http://github.com/shakyshane/browser-sync-client,Apache;ISC;MIT,ISC;MIT,Apache,MIT
 browser-sync-ui,2.27.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browser-sync-ui,BrowserSync/UI,Apache;Apache-2.0;MIT,Apache-2.0,Apache;MIT,
 browserslist,1.7.7,/home/travis/build/Kristinita/KristinitaPelican/node_modules/postcss-merge-rules/node_modules/browserslist,(none),MIT,MIT,MIT,
-browserslist,4.19.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browserslist,browserslist/browserslist,MIT,MIT,MIT,
+browserslist,4.19.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/browserslist,browserslist/browserslist,MIT,MIT,MIT,
 bs-html-injector,3.0.3,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bs-html-injector,http://github.com/shakyshane/html-injector,MIT,MIT,,
 bs-recipes,1.3.4,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bs-recipes,BrowserSync/recipes,ISC,ISC,,
 bs-snippet-injector,2.0.1,/home/travis/build/Kristinita/KristinitaPelican/node_modules/bs-snippet-injector,git@github.com:shakyShane/bs-snippet-injector,MIT,MIT,,
