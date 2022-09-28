@@ -1,0 +1,109 @@
+/**
+ * gemini-scrollbar
+ * @version 1.5.3
+ * @link http://noeldelgado.github.io/gemini-scrollbar/
+ * @license MIT
+ */
+
+/* disable selection while dragging */
+.gm-scrollbar-disable-selection {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* fallback for native floating scrollbars */
+.gm-prevented {
+	-webkit-overflow-scrolling: touch;
+}
+.gm-prevented > .gm-scrollbar {
+	display: none;
+}
+
+/* actual gemini-scrollbar styles */
+.gm-scrollbar-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.gm-scrollbar {
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	z-index: 1;
+	border-radius: 3px;
+}
+
+.gm-scrollbar.-vertical {
+	width: 6px;
+	top: 2px;
+}
+
+.gm-scrollbar.-horizontal {
+	height: 6px;
+	left: 2px;
+}
+
+.gm-scrollbar .thumb {
+	position: relative;
+	display: block;
+	width: 0;
+	height: 0;
+	cursor: pointer;
+	border-radius: inherit;
+	background-color: rgba(0,0,0,.2);
+	transform: translate3d(0,0,0);
+}
+
+.gm-scrollbar .thumb:hover,
+.gm-scrollbar .thumb:active {
+	background-color: rgba(0,0,0,.3);
+}
+
+.gm-scrollbar.-vertical .thumb {
+	width: 100%;
+}
+
+.gm-scrollbar.-horizontal .thumb {
+	height: 100%;
+}
+
+.gm-scrollbar-container .gm-scroll-view {
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	transform: translate3d(0,0,0);
+	-webkit-overflow-scrolling: touch;
+}
+
+/* @option: autoshow */
+.gm-scrollbar-container.gm-autoshow .gm-scrollbar {
+	opacity: 0;
+	transition: opacity 120ms ease-out;
+}
+.gm-scrollbar-container.gm-autoshow:hover > .gm-scrollbar,
+.gm-scrollbar-container.gm-autoshow:active > .gm-scrollbar,
+.gm-scrollbar-container.gm-autoshow:focus > .gm-scrollbar {
+	opacity: 1;
+	transition: opacity 340ms ease-out;
+}
+
+.gm-resize-trigger {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	pointer-events: none;
+	z-index: -1;
+	opacity: 0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL25vZGVfbW9kdWxlcy9nZW1pbmktc2Nyb2xsYmFyL2dlbWluaS1zY3JvbGxiYXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0M7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNEO0FBQ0E7QUFDQTtBQUNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNGO0FBQ0E7QUFDQTtBQUNBO0FBQ0U7QUFDRjtBQUNBO0FBQ0U7QUFDRjtBQUNBO0FBQ0E7QUFDQTtBQUNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0Y7QUFDQTtBQUNBO0FBQ0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNGO0FBQ0E7QUFDQTtBQUNFO0FBQ0E7QUFDRjtBQUNBO0FBQ0E7QUFDRTtBQUNBO0FBQ0Y7QUFDQTtBQUNBO0FBQ0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNGO0FBQ0E7QUFDQTtBQUNBO0FBQ0U7QUFDRjtBQUNBO0FBQ0E7QUFDRTtBQUNGO0FBQ0E7QUFDQTtBQUNFO0FBQ0Y7QUFDQTtBQUNBO0FBQ0U7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNGO0FBQ0E7QUFDQTtBQUNBO0FBQ0U7QUFDQTtBQUNGO0FBQ0E7QUFDQTtBQUNBO0FBQ0U7QUFDQTtBQUNGO0FBQ0E7QUFDQTtBQUNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0Y7QUFDQSIsImZpbGUiOiJnZW1pbmkuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBnZW1pbmktc2Nyb2xsYmFyXG4gKiBAdmVyc2lvbiAxLjUuM1xuICogQGxpbmsgaHR0cDovL25vZWxkZWxnYWRvLmdpdGh1Yi5pby9nZW1pbmktc2Nyb2xsYmFyL1xuICogQGxpY2Vuc2UgTUlUXG4gKi9cblxuLyogZGlzYWJsZSBzZWxlY3Rpb24gd2hpbGUgZHJhZ2dpbmcgKi9cbi5nbS1zY3JvbGxiYXItZGlzYWJsZS1zZWxlY3Rpb24ge1xuICAtd2Via2l0LXRvdWNoLWNhbGxvdXQ6IG5vbmU7XG4gIC13ZWJraXQtdXNlci1zZWxlY3Q6IG5vbmU7XG4gIC1raHRtbC11c2VyLXNlbGVjdDogbm9uZTtcbiAgLW1vei11c2VyLXNlbGVjdDogbm9uZTtcbiAgLW1zLXVzZXItc2VsZWN0OiBub25lO1xuICB1c2VyLXNlbGVjdDogbm9uZTtcbn1cblxuLyogZmFsbGJhY2sgZm9yIG5hdGl2ZSBmbG9hdGluZyBzY3JvbGxiYXJzICovXG4uZ20tcHJldmVudGVkIHtcbiAgLXdlYmtpdC1vdmVyZmxvdy1zY3JvbGxpbmc6IHRvdWNoO1xufVxuLmdtLXByZXZlbnRlZCA+IC5nbS1zY3JvbGxiYXIge1xuICBkaXNwbGF5OiBub25lO1xufVxuXG4vKiBhY3R1YWwgZ2VtaW5pLXNjcm9sbGJhciBzdHlsZXMgKi9cbi5nbS1zY3JvbGxiYXItY29udGFpbmVyIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4uZ20tc2Nyb2xsYmFyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMnB4O1xuICBib3R0b206IDJweDtcbiAgei1pbmRleDogMTtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xufVxuXG4uZ20tc2Nyb2xsYmFyLi12ZXJ0aWNhbCB7XG4gIHdpZHRoOiA2cHg7XG4gIHRvcDogMnB4O1xufVxuXG4uZ20tc2Nyb2xsYmFyLi1ob3Jpem9udGFsIHtcbiAgaGVpZ2h0OiA2cHg7XG4gIGxlZnQ6IDJweDtcbn1cblxuLmdtLXNjcm9sbGJhciAudGh1bWIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMDtcbiAgaGVpZ2h0OiAwO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGJvcmRlci1yYWRpdXM6IGluaGVyaXQ7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwwLDAsLjIpO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDAsMCwwKTtcbn1cblxuLmdtLXNjcm9sbGJhciAudGh1bWI6aG92ZXIsXG4uZ20tc2Nyb2xsYmFyIC50aHVtYjphY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsMCwwLC4zKTtcbn1cblxuLmdtLXNjcm9sbGJhci4tdmVydGljYWwgLnRodW1iIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5nbS1zY3JvbGxiYXIuLWhvcml6b250YWwgLnRodW1iIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4uZ20tc2Nyb2xsYmFyLWNvbnRhaW5lciAuZ20tc2Nyb2xsLXZpZXcge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xuICBvdmVyZmxvdzogc2Nyb2xsO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKDAsMCwwKTtcbiAgLXdlYmtpdC1vdmVyZmxvdy1zY3JvbGxpbmc6IHRvdWNoO1xufVxuXG4vKiBAb3B0aW9uOiBhdXRvc2hvdyAqL1xuLmdtLXNjcm9sbGJhci1jb250YWluZXIuZ20tYXV0b3Nob3cgLmdtLXNjcm9sbGJhciB7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IG9wYWNpdHkgMTIwbXMgZWFzZS1vdXQ7XG59XG4uZ20tc2Nyb2xsYmFyLWNvbnRhaW5lci5nbS1hdXRvc2hvdzpob3ZlciA+IC5nbS1zY3JvbGxiYXIsXG4uZ20tc2Nyb2xsYmFyLWNvbnRhaW5lci5nbS1hdXRvc2hvdzphY3RpdmUgPiAuZ20tc2Nyb2xsYmFyLFxuLmdtLXNjcm9sbGJhci1jb250YWluZXIuZ20tYXV0b3Nob3c6Zm9jdXMgPiAuZ20tc2Nyb2xsYmFyIHtcbiAgb3BhY2l0eTogMTtcbiAgdHJhbnNpdGlvbjogb3BhY2l0eSAzNDBtcyBlYXNlLW91dDtcbn1cblxuLmdtLXJlc2l6ZS10cmlnZ2VyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBibG9jaztcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICBoZWlnaHQ6IDEwMCU7XG4gIHdpZHRoOiAxMDAlO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBwb2ludGVyLWV2ZW50czogbm9uZTtcbiAgei1pbmRleDogLTE7XG4gIG9wYWNpdHk6IDA7XG59XG4iXX0= */

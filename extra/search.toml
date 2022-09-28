@@ -1,0 +1,768 @@
+[input]
+base_directory = "D:/Kristinita/output"
+html_selector = "section"
+
+[[input.files]]
+path = "404.html"
+url = "/404.html"
+title = "404"
+
+[[input.files]]
+path = "Pages/About-for-developers.html"
+url = "/Pages/About-for-developers.html"
+title = "For developers"
+
+[[input.files]]
+path = "Sasha-Black.html"
+url = "/Sasha-Black.html"
+title = "Sasha Black"
+
+[[input.files]]
+path = "Pages/Terms-and-Conditions-and-Privacy-Policy.html"
+url = "/Pages/Terms-and-Conditions-and-Privacy-Policy.html"
+title = "Terms and Conditions and Privacy Policy"
+
+[[input.files]]
+path = "Library-for-life/Мир-(миръ).html"
+url = "/Library-for-life/Мир-(миръ).html"
+title = "Мир (миръ)"
+
+[[input.files]]
+path = "Library-for-life/Авторитаризм.html"
+url = "/Library-for-life/Авторитаризм.html"
+title = "Авторитаризм"
+
+[[input.files]]
+path = "Library-for-life/Беловоротничковая-преступность.html"
+url = "/Library-for-life/Беловоротничковая-преступность.html"
+title = "Беловоротничковая преступность"
+
+[[input.files]]
+path = "Library-for-life/Экономическое-развитие.html"
+url = "/Library-for-life/Экономическое-развитие.html"
+title = "Экономическое развитие"
+
+[[input.files]]
+path = "Library-for-life/Экстремизм.html"
+url = "/Library-for-life/Экстремизм.html"
+title = "Экстремизм"
+
+[[input.files]]
+path = "Library-for-life/Геополитика.html"
+url = "/Library-for-life/Геополитика.html"
+title = "Геополитика"
+
+[[input.files]]
+path = "Library-for-life/Государство.html"
+url = "/Library-for-life/Государство.html"
+title = "Государство"
+
+[[input.files]]
+path = "Library-for-life/Космос.html"
+url = "/Library-for-life/Космос.html"
+title = "Космос"
+
+[[input.files]]
+path = "Library-for-life/Левые.html"
+url = "/Library-for-life/Левые.html"
+title = "Левые"
+
+[[input.files]]
+path = "Library-for-life/Неолиберализм.html"
+url = "/Library-for-life/Неолиберализм.html"
+title = "Неолиберализм"
+
+[[input.files]]
+path = "Library-for-life/Неравенство.html"
+url = "/Library-for-life/Неравенство.html"
+title = "Неравенство"
+
+[[input.files]]
+path = "Library-for-life/Новые-медиа.html"
+url = "/Library-for-life/Новые-медиа.html"
+title = "Новые медиа"
+
+[[input.files]]
+path = "Library-for-life/Поколения.html"
+url = "/Library-for-life/Поколения.html"
+title = "Поколения"
+
+[[input.files]]
+path = "Library-for-life/Популизм.html"
+url = "/Library-for-life/Популизм.html"
+title = "Популизм"
+
+[[input.files]]
+path = "Library-for-life/Поведение.html"
+url = "/Library-for-life/Поведение.html"
+title = "Поведение"
+
+[[input.files]]
+path = "Library-for-life/Правые.html"
+url = "/Library-for-life/Правые.html"
+title = "Правые"
+
+[[input.files]]
+path = "Library-for-life/Преступления-против-человечности.html"
+url = "/Library-for-life/Преступления-против-человечности.html"
+title = "Преступления против человечности"
+
+[[input.files]]
+path = "Library-for-life/Рынок.html"
+url = "/Library-for-life/Рынок.html"
+title = "Рынок"
+
+[[input.files]]
+path = "Library-for-life/Счастье.html"
+url = "/Library-for-life/Счастье.html"
+title = "Счастье"
+
+[[input.files]]
+path = "Library-for-life/Социальный-контроль.html"
+url = "/Library-for-life/Социальный-контроль.html"
+title = "Социальный контроль"
+
+[[input.files]]
+path = "Library-for-life/Библиотека-для-жизни.html"
+url = "/Library-for-life/Библиотека-для-жизни.html"
+title = "Библиотека для жизни"
+
+[[input.files]]
+path = "Library-for-life/Мир-(мiръ).html"
+url = "/Library-for-life/Мир-(мiръ).html"
+title = "Мир (мiръ)"
+
+[[input.files]]
+path = "Library-for-life/Аргументация-и-логика.html"
+url = "/Library-for-life/Аргументация-и-логика.html"
+title = "Аргументация и логика"
+
+[[input.files]]
+path = "Library-for-life/Атеизм-и-религия.html"
+url = "/Library-for-life/Атеизм-и-религия.html"
+title = "Атеизм и религия"
+
+[[input.files]]
+path = "Library-for-life/Бедность.html"
+url = "/Library-for-life/Бедность.html"
+title = "Бедность"
+
+[[input.files]]
+path = "Library-for-life/Безопасность.html"
+url = "/Library-for-life/Безопасность.html"
+title = "Безопасность"
+
+[[input.files]]
+path = "Library-for-life/Библиотечное-дело.html"
+url = "/Library-for-life/Библиотечное-дело.html"
+title = "Библиотечное дело"
+
+[[input.files]]
+path = "Library-for-life/Биология.html"
+url = "/Library-for-life/Биология.html"
+title = "Биология"
+
+[[input.files]]
+path = "Library-for-life/Благополучие.html"
+url = "/Library-for-life/Благополучие.html"
+title = "Благополучие и счастье"
+
+[[input.files]]
+path = "Library-for-life/Будущее.html"
+url = "/Library-for-life/Будущее.html"
+title = "Будущее"
+
+[[input.files]]
+path = "Library-for-life/Человек.html"
+url = "/Library-for-life/Человек.html"
+title = "Человек"
+
+[[input.files]]
+path = "Library-for-life/Демократия.html"
+url = "/Library-for-life/Демократия.html"
+title = "Демократия"
+
+[[input.files]]
+path = "Library-for-life/Дискриминация-и-предрассудки.html"
+url = "/Library-for-life/Дискриминация-и-предрассудки.html"
+title = "Дискриминация и предрассудки"
+
+[[input.files]]
+path = "Library-for-life/Добро.html"
+url = "/Library-for-life/Добро.html"
+title = "Добро"
+
+[[input.files]]
+path = "Library-for-life/Экономика.html"
+url = "/Library-for-life/Экономика.html"
+title = "Экономика"
+
+[[input.files]]
+path = "Library-for-life/Этика.html"
+url = "/Library-for-life/Этика.html"
+title = "Этика"
+
+[[input.files]]
+path = "Library-for-life/Эволюция.html"
+url = "/Library-for-life/Эволюция.html"
+title = "Эволюция"
+
+[[input.files]]
+path = "Library-for-life/Философия.html"
+url = "/Library-for-life/Философия.html"
+title = "Философия"
+
+[[input.files]]
+path = "Library-for-life/Физика.html"
+url = "/Library-for-life/Физика.html"
+title = "Физика"
+
+[[input.files]]
+path = "Library-for-life/Гендер.html"
+url = "/Library-for-life/Гендер.html"
+title = "Гендер"
+
+[[input.files]]
+path = "Library-for-life/География.html"
+url = "/Library-for-life/География.html"
+title = "География"
+
+[[input.files]]
+path = "Library-for-life/Языки.html"
+url = "/Library-for-life/Языки.html"
+title = "Языки"
+
+[[input.files]]
+path = "Library-for-life/Игры.html"
+url = "/Library-for-life/Игры.html"
+title = "Игры"
+
+[[input.files]]
+path = "Library-for-life/Инакомыслие-и-конформность.html"
+url = "/Library-for-life/Инакомыслие-и-конформность.html"
+title = "Инакомыслие и конформность"
+
+[[input.files]]
+path = "Library-for-life/Индивидуализм.html"
+url = "/Library-for-life/Индивидуализм.html"
+title = "Индивидуализм"
+
+[[input.files]]
+path = "Library-for-life/Информационные-технологии.html"
+url = "/Library-for-life/Информационные-технологии.html"
+title = "Информационные технологии"
+
+[[input.files]]
+path = "Library-for-life/Инновации.html"
+url = "/Library-for-life/Инновации.html"
+title = "Инновации"
+
+[[input.files]]
+path = "Library-for-life/Интеллект-и-мышление.html"
+url = "/Library-for-life/Интеллект-и-мышление.html"
+title = "Интеллект и мышление"
+
+[[input.files]]
+path = "Library-for-life/Интеллектуалы.html"
+url = "/Library-for-life/Интеллектуалы.html"
+title = "Интеллектуалы"
+
+[[input.files]]
+path = "Library-for-life/История.html"
+url = "/Library-for-life/История.html"
+title = "История"
+
+[[input.files]]
+path = "Library-for-life/Капитализм.html"
+url = "/Library-for-life/Капитализм.html"
+title = "Капитализм"
+
+[[input.files]]
+path = "Library-for-life/Химия.html"
+url = "/Library-for-life/Химия.html"
+title = "Химия"
+
+[[input.files]]
+path = "Library-for-life/Книги.html"
+url = "/Library-for-life/Книги.html"
+title = "Книги"
+
+[[input.files]]
+path = "Library-for-life/Коммуникация.html"
+url = "/Library-for-life/Коммуникация.html"
+title = "Коммуникация"
+
+[[input.files]]
+path = "Library-for-life/Конфликт.html"
+url = "/Library-for-life/Конфликт.html"
+title = "Конфликт"
+
+[[input.files]]
+path = "Library-for-life/Критическое-мышление.html"
+url = "/Library-for-life/Критическое-мышление.html"
+title = "Критическое мышление"
+
+[[input.files]]
+path = "Library-for-life/Культура.html"
+url = "/Library-for-life/Культура.html"
+title = "Культура"
+
+[[input.files]]
+path = "Library-for-life/Культурные-войны.html"
+url = "/Library-for-life/Культурные-войны.html"
+title = "Культурные войны"
+
+[[input.files]]
+path = "Library-for-life/Литературоведение.html"
+url = "/Library-for-life/Литературоведение.html"
+title = "Литературоведение"
+
+[[input.files]]
+path = "Library-for-life/Любовь.html"
+url = "/Library-for-life/Любовь.html"
+title = "Любовь"
+
+[[input.files]]
+path = "Library-for-life/Ложь-и-постправда.html"
+url = "/Library-for-life/Ложь-и-постправда.html"
+title = "Ложь и постправда"
+
+[[input.files]]
+path = "Library-for-life/Математика.html"
+url = "/Library-for-life/Математика.html"
+title = "Математика"
+
+[[input.files]]
+path = "Library-for-life/Медиа.html"
+url = "/Library-for-life/Медиа.html"
+title = "Медиа"
+
+[[input.files]]
+path = "Library-for-life/Менеджмент.html"
+url = "/Library-for-life/Менеджмент.html"
+title = "Менеджмент"
+
+[[input.files]]
+path = "Library-for-life/Ментальное-здоровье.html"
+url = "/Library-for-life/Ментальное-здоровье.html"
+title = "Ментальное здоровье"
+
+[[input.files]]
+path = "Library-for-life/Миграция.html"
+url = "/Library-for-life/Миграция.html"
+title = "Миграция"
+
+[[input.files]]
+path = "Library-for-life/Молодые-люди.html"
+url = "/Library-for-life/Молодые-люди.html"
+title = "Молодые люди"
+
+[[input.files]]
+path = "Library-for-life/Написание-текстов.html"
+url = "/Library-for-life/Написание-текстов.html"
+title = "Написание текстов"
+
+[[input.files]]
+path = "Library-for-life/Насилие.html"
+url = "/Library-for-life/Насилие.html"
+title = "Насилие"
+
+[[input.files]]
+path = "Library-for-life/Наука.html"
+url = "/Library-for-life/Наука.html"
+title = "Наука"
+
+[[input.files]]
+path = "Library-for-life/Нейронауки.html"
+url = "/Library-for-life/Нейронауки.html"
+title = "Нейронауки"
+
+[[input.files]]
+path = "Library-for-life/Образ-жизни.html"
+url = "/Library-for-life/Образ-жизни.html"
+title = "Образ жизни"
+
+[[input.files]]
+path = "Library-for-life/Образование.html"
+url = "/Library-for-life/Образование.html"
+title = "Образование"
+
+[[input.files]]
+path = "Library-for-life/Общество.html"
+url = "/Library-for-life/Общество.html"
+title = "Общество"
+
+[[input.files]]
+path = "Library-for-life/Обучение.html"
+url = "/Library-for-life/Обучение.html"
+title = "Обучение"
+
+[[input.files]]
+path = "Library-for-life/Осуждение.html"
+url = "/Library-for-life/Осуждение.html"
+title = "Осуждение"
+
+[[input.files]]
+path = "Library-for-life/Открытость.html"
+url = "/Library-for-life/Открытость.html"
+title = "Открытость"
+
+[[input.files]]
+path = "Library-for-life/Отношения.html"
+url = "/Library-for-life/Отношения.html"
+title = "Отношения"
+
+[[input.files]]
+path = "Library-for-life/Питание.html"
+url = "/Library-for-life/Питание.html"
+title = "Питание"
+
+[[input.files]]
+path = "Library-for-life/Поляризация.html"
+url = "/Library-for-life/Поляризация.html"
+title = "Поляризация"
+
+[[input.files]]
+path = "Library-for-life/Политика.html"
+url = "/Library-for-life/Политика.html"
+title = "Политика"
+
+[[input.files]]
+path = "Library-for-life/Потребление.html"
+url = "/Library-for-life/Потребление.html"
+title = "Потребление"
+
+[[input.files]]
+path = "Library-for-life/Повседневность.html"
+url = "/Library-for-life/Повседневность.html"
+title = "Повседневность"
+
+[[input.files]]
+path = "Library-for-life/Правозащита.html"
+url = "/Library-for-life/Правозащита.html"
+title = "Правозащита"
+
+[[input.files]]
+path = "Library-for-life/Преступность.html"
+url = "/Library-for-life/Преступность.html"
+title = "Преступность"
+
+[[input.files]]
+path = "Library-for-life/Психология.html"
+url = "/Library-for-life/Психология.html"
+title = "Психология"
+
+[[input.files]]
+path = "Library-for-life/Психотерапия.html"
+url = "/Library-for-life/Психотерапия.html"
+title = "Психотерапия"
+
+[[input.files]]
+path = "Library-for-life/Работа.html"
+url = "/Library-for-life/Работа.html"
+title = "Работа"
+
+[[input.files]]
+path = "Library-for-life/Расизм.html"
+url = "/Library-for-life/Расизм.html"
+title = "Расизм"
+
+[[input.files]]
+path = "Library-for-life/Рациональность.html"
+url = "/Library-for-life/Рациональность.html"
+title = "Рациональность"
+
+[[input.files]]
+path = "Library-for-life/Разное.html"
+url = "/Library-for-life/Разное.html"
+title = "Разное"
+
+[[input.files]]
+path = "Library-for-life/Саморазвитие.html"
+url = "/Library-for-life/Саморазвитие.html"
+title = "Саморазвитие"
+
+[[input.files]]
+path = "Library-for-life/Секс.html"
+url = "/Library-for-life/Секс.html"
+title = "Секс"
+
+[[input.files]]
+path = "Library-for-life/Селебрити.html"
+url = "/Library-for-life/Селебрити.html"
+title = "Селебрити"
+
+[[input.files]]
+path = "Library-for-life/Сельское-хозяйство.html"
+url = "/Library-for-life/Сельское-хозяйство.html"
+title = "Сельское хозяйство"
+
+[[input.files]]
+path = "Library-for-life/Семья.html"
+url = "/Library-for-life/Семья.html"
+title = "Семья"
+
+[[input.files]]
+path = "Library-for-life/Сильные-мира-сего.html"
+url = "/Library-for-life/Сильные-мира-сего.html"
+title = "Сильные мира сего"
+
+[[input.files]]
+path = "Library-for-life/Смерть.html"
+url = "/Library-for-life/Смерть.html"
+title = "Смерть"
+
+[[input.files]]
+path = "Library-for-life/Сопротивление.html"
+url = "/Library-for-life/Сопротивление.html"
+title = "Сопротивление"
+
+[[input.files]]
+path = "Library-for-life/Социальная-психология.html"
+url = "/Library-for-life/Социальная-психология.html"
+title = "Социальная психология"
+
+[[input.files]]
+path = "Library-for-life/Социальные-науки.html"
+url = "/Library-for-life/Социальные-науки.html"
+title = "Социальные науки"
+
+[[input.files]]
+path = "Library-for-life/Социология.html"
+url = "/Library-for-life/Социология.html"
+title = "Социология"
+
+[[input.files]]
+path = "Library-for-life/Спорт.html"
+url = "/Library-for-life/Спорт.html"
+title = "Спорт"
+
+[[input.files]]
+path = "Library-for-life/Справедливость.html"
+url = "/Library-for-life/Справедливость.html"
+title = "Справедливость"
+
+[[input.files]]
+path = "Library-for-life/Старость.html"
+url = "/Library-for-life/Старость.html"
+title = "Старость"
+
+[[input.files]]
+path = "Library-for-life/Статистика.html"
+url = "/Library-for-life/Статистика.html"
+title = "Статистика"
+
+[[input.files]]
+path = "Library-for-life/Свобода.html"
+url = "/Library-for-life/Свобода.html"
+title = "Свобода"
+
+[[input.files]]
+path = "Library-for-life/Технологии.html"
+url = "/Library-for-life/Технологии.html"
+title = "Технологии"
+
+[[input.files]]
+path = "Library-for-life/Ценности.html"
+url = "/Library-for-life/Ценности.html"
+title = "Ценности"
+
+[[input.files]]
+path = "Library-for-life/Урбанистика.html"
+url = "/Library-for-life/Урбанистика.html"
+title = "Урбанистика"
+
+[[input.files]]
+path = "Library-for-life/Утопия.html"
+url = "/Library-for-life/Утопия.html"
+title = "Утопия"
+
+[[input.files]]
+path = "Library-for-life/Внешность.html"
+url = "/Library-for-life/Внешность.html"
+title = "Внешность"
+
+[[input.files]]
+path = "Library-for-life/Война.html"
+url = "/Library-for-life/Война.html"
+title = "Война"
+
+[[input.files]]
+path = "Library-for-life/Закон.html"
+url = "/Library-for-life/Закон.html"
+title = "Закон"
+
+[[input.files]]
+path = "Library-for-life/Здоровье.html"
+url = "/Library-for-life/Здоровье.html"
+title = "Здоровье"
+
+[[input.files]]
+path = "Library-for-life/Земля.html"
+url = "/Library-for-life/Земля.html"
+title = "Земля"
+
+[[input.files]]
+path = "Library-for-life/Знание.html"
+url = "/Library-for-life/Знание.html"
+title = "Знание"
+
+[[input.files]]
+path = "Library-for-life/Зоозащита.html"
+url = "/Library-for-life/Зоозащита.html"
+title = "Зоозащита"
+
+[[input.files]]
+path = "Library-for-life/Вишлист-библиотеки-для-жизни.html"
+url = "/Library-for-life/Вишлист-библиотеки-для-жизни.html"
+title = "Вишлист библиотеки для жизни"
+
+[[input.files]]
+path = "Gingerinas/Библиотека-для-джинджерин.html"
+url = "/Gingerinas/Библиотека-для-джинджерин.html"
+title = "Библиотека для джинджерин"
+
+[[input.files]]
+path = "Nelias-Rooms/Допустимые-способы-привлечения-средств.html"
+url = "/Nelias-Rooms/Допустимые-способы-привлечения-средств.html"
+title = "Допустимые способы привлечения средств"
+
+[[input.files]]
+path = "Library-for-life/Библиотека-непрерывного-обучения.html"
+url = "/Library-for-life/Библиотека-непрерывного-обучения.html"
+title = "Библиотека непрерывного обучения"
+
+[[input.files]]
+path = "Gingerinas/Таблицы-поиска-книг-для-джинджерин.html"
+url = "/Gingerinas/Таблицы-поиска-книг-для-джинджерин.html"
+title = "Таблицы поиска книг для джинджерин"
+
+[[input.files]]
+path = "Books-Reviews/Как-читать-архитектуру.html"
+url = "/Books-Reviews/Как-читать-архитектуру.html"
+title = "Как читать архитектуру"
+
+[[input.files]]
+path = "Nelias-Rooms/Зелёная-Комната-Нели.html"
+url = "/Nelias-Rooms/Зелёная-Комната-Нели.html"
+title = "Зелёная Комната Нели"
+
+[[input.files]]
+path = "Nelias-Rooms/Комнаты-Нели.html"
+url = "/Nelias-Rooms/Комнаты-Нели.html"
+title = "Комнаты Нели"
+
+[[input.files]]
+path = "Gingerinas/КейДи.html"
+url = "/Gingerinas/КейДи.html"
+title = "КейДи"
+
+[[input.files]]
+path = "Gingerinas/Пример-разбора-игры-СпортСИ.html"
+url = "/Gingerinas/Пример-разбора-игры-СпортСИ.html"
+title = "Пример разбора игры СпортСИ"
+
+[[input.files]]
+path = "IT-articles/How-to-get-current-…-in-Sublime-Text.html"
+url = "/IT-articles/How-to-get-current-…-in-Sublime-Text.html"
+title = "How to get current … in Sublime Text"
+
+[[input.files]]
+path = "IT-articles/typo-reporter.html"
+url = "/IT-articles/typo-reporter.html"
+title = "typo-reporter"
+
+[[input.files]]
+path = "IT-articles/How-to-publish-your-package-to-PyPI-2018.html"
+url = "/IT-articles/How-to-publish-your-package-to-PyPI-2018.html"
+title = "How to publish your package to PyPI, 2018"
+
+[[input.files]]
+path = "IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html"
+url = "/IT-articles/Fastest-way-to-add-new-version-of-Sublime-Text-3-package.html"
+title = "Fastest way to add new version of your Sublime Text package"
+
+[[input.files]]
+path = "Sublime-Text/KristinitaLuckyLink.html"
+url = "/Sublime-Text/KristinitaLuckyLink.html"
+title = "KristinitaLuckyLink"
+
+[[input.files]]
+path = "Gingerinas/Знания-в-джинджеринах.html"
+url = "/Gingerinas/Знания-в-джинджеринах.html"
+title = "Знания в джинджеринах"
+
+[[input.files]]
+path = "Gingerinas/Грейзи-Фа.html"
+url = "/Gingerinas/Грейзи-Фа.html"
+title = "Грейзи Фа"
+
+[[input.files]]
+path = "Gingerinas/Фоны-и-Карта-С.html"
+url = "/Gingerinas/Фоны-и-Карта-С.html"
+title = "Фоны и Карта С"
+
+[[input.files]]
+path = "Gingerinas/Джинджерины.html"
+url = "/Gingerinas/Джинджерины.html"
+title = "Джинджерины"
+
+[[input.files]]
+path = "Gingerinas/Тао.html"
+url = "/Gingerinas/Тао.html"
+title = "Тао"
+
+[[input.files]]
+path = "Gingerinas/Грейс-Ло.html"
+url = "/Gingerinas/Грейс-Ло.html"
+title = "Грейс Ло"
+
+[[input.files]]
+path = "Sublime-Text/Sacagawea.html"
+url = "/Sublime-Text/Sacagawea.html"
+title = "Sacagawea"
+
+[[input.files]]
+path = "Sublime-Text/ValeriyaSpeller.html"
+url = "/Sublime-Text/ValeriyaSpeller.html"
+title = "ValeriyaSpeller"
+
+[[input.files]]
+path = "Sasha-Black/Sasha-Black.html"
+url = "/Sasha-Black/Sasha-Black.html"
+title = "Sasha Black"
+
+[[input.files]]
+path = "Nelias-Rooms/Поиск-книг-для-Комнат-Нели.html"
+url = "/Nelias-Rooms/Поиск-книг-для-Комнат-Нели.html"
+title = "Поиск книг для Комнат Нели"
+
+[[input.files]]
+path = "Life-hacks/Default-portable-browser-Windows-10.html"
+url = "/Life-hacks/Default-portable-browser-Windows-10.html"
+title = "Портативный браузер по умолчанию в Windows 10"
+
+[[input.files]]
+path = "Giologica/Демагогия-Нестеренко.html"
+url = "/Giologica/Демагогия-Нестеренко.html"
+title = "Демагогия Нестеренко"
+
+[[input.files]]
+path = "IT-articles/Перед-первым-применением-ARK-Benefit-S401.html"
+url = "/IT-articles/Перед-первым-применением-ARK-Benefit-S401.html"
+title = "Перед-первым-запуском-ARK-Benefit-S401"
+
+[[input.files]]
+path = "Sublime-Text/Sublime-Text-Power-User-notes.html"
+url = "/Sublime-Text/Sublime-Text-Power-User-notes.html"
+title = "Sublime Text Power User notes"
+
+[[input.files]]
+path = "Gingerinas/Korvers.html"
+url = "/Gingerinas/Korvers.html"
+title = "Korvers"
+
+[[input.files]]
+path = "Sublime-Text/SashaSublime.html"
+url = "/Sublime-Text/SashaSublime.html"
+title = "SashaSublime"

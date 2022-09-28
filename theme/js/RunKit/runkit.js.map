@@ -6,8 +6,8 @@
 		"runkit.coffee"
 	],
 	"names": [],
-	"mappings": "AAS0E;;;;;;;;;;AAAA,IAAA;;AAC1E,QAAA,GAAW,MAAM,CAAC,cAAP,CAEV,CAAA;;EAAA,OAAA,EAAS,QAAQ,CAAC,cAAT,CAAwB,aAAxB,CAAT;;EAEA,MAAA,EAAQ,mIAFR;;EAKA,KAAA,EAAO;AALP,CAFU",
+	"mappings": "AAEU;;;;;;;;;;;;;;AAAA,IAAA;;AAYV,QAAA,GAAW,MAAM,CAAC,cAAP,CAEV,CAAA;;EAAA,OAAA,EAAS,QAAQ,CAAC,cAAT,CAAwB,aAAxB,CAAT;;EAGA,MAAA,EAAQ,mIAHR;;EAOA,KAAA,EAAO;AAPP,CAFU",
 	"sourcesContent": [
-		"##########\n# RunKit #\n##########\n# Run npm code online in browser:\n# https://runkit.com\n# Needs use theme-maker, that change styles:\n# https://stackoverflow.com/a/56545110/5951529\n# https://runkit.com/docs/theme-maker\n# [NOTE] It not documented:\n# https://github.com/runkitdev/runkit-demo/issues/4#issuecomment-359939358\nnotebook = RunKit.createNotebook(\n\t# [NOTE] Id required, class will not work\n\telement: document.getElementById('SashaRunkit')\n\t# [NOTE] You need paste here content of your RunKit notebook even if it long:\n\tsource: 'var stringSimilarity = require(\\'string-similarity\\')\\n\\n\\\n\t\t\t\tvar similarity = stringSimilarity.compareTwoStrings(\\'Кира\\', \\'Кирк\\');'\n\t# [INFO] https://runkit.com/docs/theme-maker/untilted-2jxk2crve1p7 theme\n\ttheme: 'untilted-028u85ijnoyr')\n"
+		"##########\n# RunKit #\n##########\n###\n[OVERVIEW] Run npm code online in browser:\nhttps://runkit.com\n\n[REQUIRED] theme-maker for changing styles:\nhttps://stackoverflow.com/a/56545110/5951529\nhttps://runkit.com/docs/theme-maker\n\n[NOTE] It not documented:\nhttps://github.com/runkitdev/runkit-demo/issues/4#issuecomment-359939358\n###\nnotebook = RunKit.createNotebook(\n\t# [NOTE] Id required, class will not work\n\telement: document.getElementById('SashaRunkit')\n\n\t# [NOTE] You need paste here content of your RunKit notebook even if it long:\n\tsource: 'var stringSimilarity = require(\\'string-similarity\\')\\n\\n\\\n\t\t\t\tvar similarity = stringSimilarity.compareTwoStrings(\\'Кира\\', \\'Кирк\\');'\n\n\t# [INFO] https://runkit.com/docs/theme-maker/untilted-2jxk2crve1p7 theme\n\ttheme: 'untilted-028u85ijnoyr')\n"
 	]
 }

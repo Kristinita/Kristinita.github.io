@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../stylus/specific-categories/Nelias-Rooms/kristinograd-icons.styl"],"names":[],"mappings":"AACA,uBACC,eAAA","file":"kristinograd-icons.min.faa60a7df72d078b.css","sourcesContent":["// [INFO] Disable shadows for Kristinograd icons\n.SashaKristinogradIcon\n\tbox-shadow none\n"]}

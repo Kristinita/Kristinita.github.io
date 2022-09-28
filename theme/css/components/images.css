@@ -1,0 +1,117 @@
+/* >> lazy loading polyfill
+	========================================================================== */
+/*
+[OVERVIEW] Polyfill for the native loading="lazy" attribute:
+https://github.com/mfranzke/loading-attribute-polyfill
+
+[INFO] Content of “loading-attribute-polyfill.css”:
+https://cdn.jsdelivr.net/npm/loading-attribute-polyfill/dist/loading-attribute-polyfill.min.css
+ */
+img[data-lazy-src] {
+	will-change: contents;
+}
+/* >> hes-gallery
+	========================================================================== */
+/* [REQUIRED] csslint anti-patterns
+:
+1. “div” and “img” overqualified elements,
+2. ids, no classes
+ */
+/* csslint ignore:start */
+div#hg-bg {
+	background-color: rgba(218,165,32,0.51);
+/*
+		[INFO] “Close” button
+
+		[NOTE] We can close lightbox by click to any free area
+
+		[WARNING] Image overlapped this element:
+		https://github.com/demtario/hes-gallery/issues/9
+ */
+}
+div#hg-bg::after {
+/* [LICENSE] “Banking and finance” pack from Kiranshastry:
+			https://www.flaticon.com/packs/banking-and-finance-22
+
+			[INFO] It overwrite default close icon
+
+			[NOTE] Use “.png” format for these icons, not “.webp”
+
+			[LEARN][STYLUS] Using templates in URLs
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391
+
+			[FIXME][ISSUE][STYLUS] Get paths from YAML in Stylus
+ */
+	background-image: url("../../images/interface-images/hes-gallery/close.png");
+	width: 2.5rem;
+	height: 2.5rem;
+	top: 1.25rem;
+	right: 1.25rem;
+}
+div#hg-howmany {
+	color: #ffefd5;
+	font-size: 1.2rem;
+	bottom: -2rem;
+}
+div#hgallery button {
+/*
+		[INFO] Arrows overlay lightbox images
+
+		[LEARN][CSS] “inherit” — get a property from the parent element:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+ */
+	z-index: inherit;
+}
+div#hgallery button img {
+/*
+			[LICENSE] “Arrows Icon” pack from Pixel perfect:
+			https://www.flaticon.com/packs/arrows-50
+
+			[INFO] Left and right icons both from this pack
+
+			[INFO] Overwrite default arrows icons:
+			https://stackoverflow.com/a/62851001/5951529
+
+			[NOTE] Overwrite via “background-image” doesn’t work for me:
+			https://stackoverflow.com/a/28832261/5951529
+
+			[INFO] Yes, single icon required for right and left arrows
+ */
+	content: url("../../images/interface-images/hes-gallery/right-arrow.png");
+	width: 90%;
+	height: 80%;
+	box-shadow: none;
+	opacity: 0.4;
+}
+div#hgallery button img:hover {
+	opacity: 1;
+}
+img#hg-pic {
+/*
+	[LEARN][CSS] Overwrite “min-height” and “min-width”:
+	https://stackoverflow.com/a/27582386/5951529
+
+	[PURPOSE] It disable white borders.
+
+	[COMPARE]
+	https://i.imgur.com/3mXbJW4.png
+	https://i.imgur.com/9Gl7vOT.png
+ */
+	min-height: 0;
+	min-width: 0;
+/*
+	[LEARN][CSS] Viewport-Relative length:
+	https://stackoverflow.com/a/16837667/5951529
+
+	[INFO] It specify “max-height” property to the screen size:
+	https://stackoverflow.com/a/43639067/5951529
+
+	[PURPOSE] That “#hg-howmany” value didn’t go off screen
+
+	[COMPARE]
+	85vh — https://i.imgur.com/YA340vy.png
+	90vh (default) — https://i.imgur.com/NArND6X.png
+ */
+	max-height: 85vh;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3N0eWx1cy9jb21wb25lbnRzL2ltYWdlcy5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUdBOzs7Ozs7O0FBT0E7RUFDQyxhQUFZLFNBQVo7O0FBR0Q7O0FBR0E7Ozs7O0FBTUE7QUFVQztFQUdDLGtCQUFpQixzQkFBakI7QUFFQTs7Ozs7Ozs7O0FBUUE7QUFFQzs7Ozs7Ozs7Ozs7O0VBWUEsa0JBQXdFLDJEQUF4RTtFQUNBLE9BQU0sT0FBTjtFQUNBLFFBQU8sT0FBUDtFQUNBLEtBQUksUUFBSjtFQUNBLE9BQU0sUUFBTjs7QUFHRjtFQUNDLE9BQU0sUUFBTjtFQUNBLFdBQVUsT0FBVjtFQUNBLFFBQU8sTUFBUDs7QUFHRDtBQUVDOzs7Ozs7RUFNQSxTQUFRLFFBQVI7O0FBU0E7QUFDQzs7Ozs7Ozs7Ozs7Ozs7RUFjQSxTQUFxRSxpRUFBckU7RUFHQSxPQUFNLElBQU47RUFDQSxRQUFPLElBQVA7RUFFQSxZQUFXLEtBQVg7RUFDQSxTQUFRLElBQVI7O0FBRUE7RUFDQyxTQUFRLEVBQVI7O0FBR0o7QUFDQzs7Ozs7Ozs7OztFQVVBLFlBQVcsRUFBWDtFQUNBLFdBQVUsRUFBVjtBQUVBOzs7Ozs7Ozs7Ozs7O0VBYUEsWUFBVyxLQUFYIiwiZmlsZSI6ImltYWdlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiA+PiBsYXp5IGxvYWRpbmcgcG9seWZpbGxcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLypcbltPVkVSVklFV10gUG9seWZpbGwgZm9yIHRoZSBuYXRpdmUgbG9hZGluZz1cImxhenlcIiBhdHRyaWJ1dGU6XG5odHRwczovL2dpdGh1Yi5jb20vbWZyYW56a2UvbG9hZGluZy1hdHRyaWJ1dGUtcG9seWZpbGxcblxuW0lORk9dIENvbnRlbnQgb2Yg4oCcbG9hZGluZy1hdHRyaWJ1dGUtcG9seWZpbGwuY3Nz4oCdOlxuaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9sb2FkaW5nLWF0dHJpYnV0ZS1wb2x5ZmlsbC9kaXN0L2xvYWRpbmctYXR0cmlidXRlLXBvbHlmaWxsLm1pbi5jc3NcbiovXG5pbWdbZGF0YS1sYXp5LXNyY11cblx0d2lsbC1jaGFuZ2UgY29udGVudHNcblxuXG4vKiA+PiBoZXMtZ2FsbGVyeVxuXHQ9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vKiBbUkVRVUlSRURdIGNzc2xpbnQgYW50aS1wYXR0ZXJuc1xuOlxuMS4g4oCcZGl24oCdIGFuZCDigJxpbWfigJ0gb3ZlcnF1YWxpZmllZCBlbGVtZW50cyxcbjIuIGlkcywgbm8gY2xhc3Nlc1xuKi9cblxuLyogY3NzbGludCBpZ25vcmU6c3RhcnQgKi9cblxuZGl2XG5cblx0Lypcblx0W0lORk9dIExpZ2h0Ym94IGJhY2tncm91bmQgY29sb3JcblxuXHRbTk9URV0gSW4gdGhpcyBjYXNlIOKAnGRpduKAnSBvdmVycXVhbGlmaWVkIGVsZW1lbnQgbm90IHJlcXVpcmVkO1xuXHRidXQgc2luY2UgaXQgcmVxdWlyZWQgZm9yIOKAnCNoZy1iZzo6YWZ0ZXLigJ0gSSBhZGRlZCBpdCBmb3Igc3ludGF4IHNpbXBsaWZ5XG5cdCovXG5cdCYjaGctYmdcblxuXHRcdC8vIFtJTkZPXSBHb2xkZW5yb2Qgd2l0aCBvcGFjaXR5XG5cdFx0YmFja2dyb3VuZC1jb2xvciAjZGFhNTIwODJcblxuXHRcdC8qXG5cdFx0W0lORk9dIOKAnENsb3Nl4oCdIGJ1dHRvblxuXG5cdFx0W05PVEVdIFdlIGNhbiBjbG9zZSBsaWdodGJveCBieSBjbGljayB0byBhbnkgZnJlZSBhcmVhXG5cblx0XHRbV0FSTklOR10gSW1hZ2Ugb3ZlcmxhcHBlZCB0aGlzIGVsZW1lbnQ6XG5cdFx0aHR0cHM6Ly9naXRodWIuY29tL2RlbXRhcmlvL2hlcy1nYWxsZXJ5L2lzc3Vlcy85XG5cdFx0Ki9cblx0XHQmOjphZnRlclxuXG5cdFx0XHQvKiBbTElDRU5TRV0g4oCcQmFua2luZyBhbmQgZmluYW5jZeKAnSBwYWNrIGZyb20gS2lyYW5zaGFzdHJ5OlxuXHRcdFx0aHR0cHM6Ly93d3cuZmxhdGljb24uY29tL3BhY2tzL2JhbmtpbmctYW5kLWZpbmFuY2UtMjJcblxuXHRcdFx0W0lORk9dIEl0IG92ZXJ3cml0ZSBkZWZhdWx0IGNsb3NlIGljb25cblxuXHRcdFx0W05PVEVdIFVzZSDigJwucG5n4oCdIGZvcm1hdCBmb3IgdGhlc2UgaWNvbnMsIG5vdCDigJwud2VicOKAnVxuXG5cdFx0XHRbTEVBUk5dW1NUWUxVU10gVXNpbmcgdGVtcGxhdGVzIGluIFVSTHNcblx0XHRcdGh0dHBzOi8vZ2l0aHViLmNvbS9zdHlsdXMvc3R5bHVzL2lzc3Vlcy8yMTQ3I2lzc3VlY29tbWVudC0xOTczMzgzOTFcblxuXHRcdFx0W0ZJWE1FXVtJU1NVRV1bU1RZTFVTXSBHZXQgcGF0aHMgZnJvbSBZQU1MIGluIFN0eWx1c1xuXHRcdFx0Ki9cblx0XHRcdGJhY2tncm91bmQtaW1hZ2UgdXJsKC4uLy4uL2ltYWdlcy9pbnRlcmZhY2UtaW1hZ2VzL2hlcy1nYWxsZXJ5L2Nsb3NlLnBuZylcblx0XHRcdHdpZHRoIDIuNXJlbVxuXHRcdFx0aGVpZ2h0IDIuNXJlbVxuXHRcdFx0dG9wIDEuMjVyZW1cblx0XHRcdHJpZ2h0IDEuMjVyZW1cblxuXHQvLyBbSU5GT10gVGV4dCBiZWxvdyBpbWFnZSBpbiB0aGUgbGlnaHRib3hcblx0JiNoZy1ob3dtYW55XG5cdFx0Y29sb3IgcGFwYXlhd2hpcFxuXHRcdGZvbnQtc2l6ZSAxLjJyZW1cblx0XHRib3R0b20gLTJyZW1cblxuXHQvLyBbSU5GT10gTGVmdCBhbmQgcmlnaHQgYXJyb3dzXG5cdCYjaGdhbGxlcnkgYnV0dG9uXG5cblx0XHQvKlxuXHRcdFtJTkZPXSBBcnJvd3Mgb3ZlcmxheSBsaWdodGJveCBpbWFnZXNcblxuXHRcdFtMRUFSTl1bQ1NTXSDigJxpbmhlcml04oCdIOKAlCBnZXQgYSBwcm9wZXJ0eSBmcm9tIHRoZSBwYXJlbnQgZWxlbWVudDpcblx0XHRodHRwczovL2RldmVsb3Blci5tb3ppbGxhLm9yZy9lbi1VUy9kb2NzL1dlYi9DU1MvaW5oZXJpdFxuXHRcdCovXG5cdFx0ei1pbmRleCBpbmhlcml0XG5cblx0XHQvLyBbSU5GT10gRGlzYWJsZSBtYXJnaW5zIGZvciBsZWZ0IGFuZCByaWdodCBhcnJvd3Ncblx0XHQvLyAmI2hnLXByZXZcblx0XHQvLyBcdGxlZnQgMFxuXG5cdFx0Ly8gJiNoZy1uZXh0XG5cdFx0Ly8gXHRyaWdodCAwXG5cblx0XHRpbWdcblx0XHRcdC8qXG5cdFx0XHRbTElDRU5TRV0g4oCcQXJyb3dzIEljb27igJ0gcGFjayBmcm9tIFBpeGVsIHBlcmZlY3Q6XG5cdFx0XHRodHRwczovL3d3dy5mbGF0aWNvbi5jb20vcGFja3MvYXJyb3dzLTUwXG5cblx0XHRcdFtJTkZPXSBMZWZ0IGFuZCByaWdodCBpY29ucyBib3RoIGZyb20gdGhpcyBwYWNrXG5cblx0XHRcdFtJTkZPXSBPdmVyd3JpdGUgZGVmYXVsdCBhcnJvd3MgaWNvbnM6XG5cdFx0XHRodHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL2EvNjI4NTEwMDEvNTk1MTUyOVxuXG5cdFx0XHRbTk9URV0gT3ZlcndyaXRlIHZpYSDigJxiYWNrZ3JvdW5kLWltYWdl4oCdIGRvZXNu4oCZdCB3b3JrIGZvciBtZTpcblx0XHRcdGh0dHBzOi8vc3RhY2tvdmVyZmxvdy5jb20vYS8yODgzMjI2MS81OTUxNTI5XG5cblx0XHRcdFtJTkZPXSBZZXMsIHNpbmdsZSBpY29uIHJlcXVpcmVkIGZvciByaWdodCBhbmQgbGVmdCBhcnJvd3Ncblx0XHRcdCovXG5cdFx0XHRjb250ZW50IHVybCguLi8uLi9pbWFnZXMvaW50ZXJmYWNlLWltYWdlcy9oZXMtZ2FsbGVyeS9yaWdodC1hcnJvdy5wbmcpXG5cblx0XHRcdC8vIFtJTkZPXSBBcnJvd3Mgc2l6ZVxuXHRcdFx0d2lkdGggOTAlXG5cdFx0XHRoZWlnaHQgODAlXG5cblx0XHRcdGJveC1zaGFkb3cgbm9uZVxuXHRcdFx0b3BhY2l0eSAuNFxuXG5cdFx0XHQmOmhvdmVyXG5cdFx0XHRcdG9wYWNpdHkgMVxuXG5cbmltZyNoZy1waWNcblx0Lypcblx0W0xFQVJOXVtDU1NdIE92ZXJ3cml0ZSDigJxtaW4taGVpZ2h04oCdIGFuZCDigJxtaW4td2lkdGjigJ06XG5cdGh0dHBzOi8vc3RhY2tvdmVyZmxvdy5jb20vYS8yNzU4MjM4Ni81OTUxNTI5XG5cblx0W1BVUlBPU0VdIEl0IGRpc2FibGUgd2hpdGUgYm9yZGVycy5cblxuXHRbQ09NUEFSRV1cblx0aHR0cHM6Ly9pLmltZ3VyLmNvbS8zbVhiSlc0LnBuZ1xuXHRodHRwczovL2kuaW1ndXIuY29tLzlHbDd2T1QucG5nXG5cdCovXG5cdG1pbi1oZWlnaHQgMFxuXHRtaW4td2lkdGggMFxuXG5cdC8qXG5cdFtMRUFSTl1bQ1NTXSBWaWV3cG9ydC1SZWxhdGl2ZSBsZW5ndGg6XG5cdGh0dHBzOi8vc3RhY2tvdmVyZmxvdy5jb20vYS8xNjgzNzY2Ny81OTUxNTI5XG5cblx0W0lORk9dIEl0IHNwZWNpZnkg4oCcbWF4LWhlaWdodOKAnSBwcm9wZXJ0eSB0byB0aGUgc2NyZWVuIHNpemU6XG5cdGh0dHBzOi8vc3RhY2tvdmVyZmxvdy5jb20vYS80MzYzOTA2Ny81OTUxNTI5XG5cblx0W1BVUlBPU0VdIFRoYXQg4oCcI2hnLWhvd21hbnnigJ0gdmFsdWUgZGlkbuKAmXQgZ28gb2ZmIHNjcmVlblxuXG5cdFtDT01QQVJFXVxuXHQ4NXZoIOKAlCBodHRwczovL2kuaW1ndXIuY29tL1lBMzQwdnkucG5nXG5cdDkwdmggKGRlZmF1bHQpIOKAlCBodHRwczovL2kuaW1ndXIuY29tL05Bck5ENlgucG5nXG5cdCovXG5cdG1heC1oZWlnaHQgODV2aFxuIl19 */

@@ -8,13 +8,16 @@ var KiraFunction;
 //##############
 // Sasha-Black #
 //##############
-// Sasha-Black script:
+// [INFO] Sasha Black script:
 KiraFunction = function(url, KiraSite) {
 	var adr, domain, l, ms, query;
-	// Select “hostname” from address
-	// [DEPRECATED]
-	// If “kristinita.netlify.app”, not “https://kristinita.netlify.app”, works incorrect
-	// url = parse_url(url).hostname;
+	/*
+	[DEPRECATED]
+	If “kristinita.netlify.app”, not “https://kristinita.netlify.app”, works incorrect
+
+	url = parse_url(url).hostname;
+	 */
+	// [INFO] Select “hostname” from address
 	if (url.substring(0, 7) === 'http://') {
 		url = url.substring(7);
 	}
@@ -29,21 +32,20 @@ KiraFunction = function(url, KiraSite) {
 		url = url.substring(0, l - 1);
 	}
 	query = KiraSite + url;
-	// For Robtex:
+	// [INFO] For Robtex:
 	if (KiraSite === 'https://www.robtex.com/en/advisory/dns/') {
-		// Queries as https://www.robtex.com/en/advisory/dns/ru/Kristinita/
+		// [INFO] Queries as https://www.robtex.com/en/advisory/dns/ru/Kristinita/
 		ms = url.split('.');
 		if (l > 1) {
 			domain = ms[l - 1];
 			adr = ms[l - 2];
-			// Second-level domain:
+			// [INFO] Second-level domain:
 			query = KiraSite + domain + '/' + adr + '/';
 			if (l === 3) {
 				query = KiraSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3];
 			}
 		}
 	}
-	// “Window.open(query, "nw"); nw.focus();”
 	return window.open(query).focus();
 };
 

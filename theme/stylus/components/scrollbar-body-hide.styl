@@ -1,0 +1,19 @@
+/* [INFO] Hide body scrollbar for Firefox without disable scrolling:
+https://stackoverflow.com/a/60185637/5951529
+
+[NOTE] Doesn’t work for me “body: scrollbar-width none”
+as recommended in some answers:
+https://stackoverflow.com/a/49278385/5951529
+https://stackoverflow.com/a/53787170/5951529
+
+Apply this prorerty for “html” tag, not for “body” */
+html
+	scrollbar-width none
+
+/* [LEARN][CSS] Hide scrollbar for WebKit browsers:
+https://stackoverflow.com/a/49278385/5951529
+https://caniuse.com/?search=-webkit-scrollbar */
+body
+	&::-webkit-scrollbar
+		width 0
+		height 0

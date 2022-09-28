@@ -1,0 +1,39 @@
+details.faq,
+.admonition.faq,
+details.help,
+.admonition.help,
+details.question,
+.admonition.question {
+	border-left-color: #64dd17;
+}
+details.faq>.admonition-title,
+.admonition.faq>.admonition-title,
+details.help>.admonition-title,
+.admonition.help>.admonition-title,
+details.question>.admonition-title,
+.admonition.question>.admonition-title,
+details.faq>summary,
+.admonition.faq>summary,
+details.help>summary,
+.admonition.help>summary,
+details.question>summary,
+.admonition.question>summary {
+	border-bottom: 0.1rem solid rgba(100,221,23,0.1);
+	background-color: rgba(100,221,23,0.1);
+}
+details.faq>.admonition-title::before,
+.admonition.faq>.admonition-title::before,
+details.help>.admonition-title::before,
+.admonition.help>.admonition-title::before,
+details.question>.admonition-title::before,
+.admonition.question>.admonition-title::before,
+details.faq>summary::before,
+.admonition.faq>summary::before,
+details.help>summary::before,
+.admonition.help>summary::before,
+details.question>summary::before,
+.admonition.question>summary::before {
+	color: #64dd17;
+	content: "\E887";
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy90aGlyZC1wYXJ0eS9BZG1vbml0aW9uL2FkbW9uaXRpb24tcXVlc3Rpb24uc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQztBQUNBO0FBQ0E7Ozs7RUFDQyxtQkFBa0IsUUFBbEI7O0FBRUE7QUFDQTs7Ozs7Ozs7Ozs7RUFDQyxlQUFjLGtDQUFkO0VBQ0Esa0JBQWlCLHFCQUFqQjs7QUFFQTs7Ozs7Ozs7Ozs7O0VBQ0MsT0FBTSxRQUFOO0VBQ0EsU0FBUSxRQUFSIiwiZmlsZSI6ImFkbW9uaXRpb24tcXVlc3Rpb24uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGV0YWlsc1xuLmFkbW9uaXRpb25cblxuXHQmLmZhcVxuXHQmLmhlbHBcblx0Ji5xdWVzdGlvblxuXHRcdGJvcmRlci1sZWZ0LWNvbG9yICM2NGRkMTdcblxuXHRcdCY+LmFkbW9uaXRpb24tdGl0bGVcblx0XHQmPnN1bW1hcnlcblx0XHRcdGJvcmRlci1ib3R0b20gLjFyZW0gc29saWQgcmdiYSgxMDAgMjIxIDIzIC4xKVxuXHRcdFx0YmFja2dyb3VuZC1jb2xvciByZ2JhKDEwMCAyMjEgMjMgLjEpXG5cblx0XHRcdCY6OmJlZm9yZVxuXHRcdFx0XHRjb2xvciAjNjRkZDE3XG5cdFx0XHRcdGNvbnRlbnQgXCJcXEU4ODdcIlxuIl19 */

@@ -1,0 +1,11 @@
+/* >> Leftborderstyle blockquotes
+	========================================================================== */
+/* [INFO] Left border style blockquotes:
+https://i.imgur.com/CuqjmHJ.png */
+blockquote {
+	font-size: 1.1875rem;
+	font-style: italic;
+	margin: 0.625rem 1rem;
+	padding: 0.9375rem;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy9jb21wb25lbnRzL0Jsb2NrcXVvdGVzL2Jsb2NrcXVvdGVzLWxlZnRib3JkZXJzdHlsZS5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUdBOztBQUVBO0VBQ0MsV0FBVSxVQUFWO0VBQ0EsWUFBVyxPQUFYO0VBQ0EsUUFBTyxjQUFQO0VBQ0EsU0FBUSxVQUFSIiwiZmlsZSI6ImJsb2NrcXVvdGVzLWxlZnRib3JkZXJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiA+PiBMZWZ0Ym9yZGVyc3R5bGUgYmxvY2txdW90ZXNcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyogW0lORk9dIExlZnQgYm9yZGVyIHN0eWxlIGJsb2NrcXVvdGVzOlxuaHR0cHM6Ly9pLmltZ3VyLmNvbS9DdXFqbUhKLnBuZyAqL1xuYmxvY2txdW90ZVxuXHRmb250LXNpemUgMS4xODc1cmVtXG5cdGZvbnQtc3R5bGUgaXRhbGljXG5cdG1hcmdpbiAuNjI1cmVtIDFyZW1cblx0cGFkZGluZyAuOTM3NXJlbVxuIl19 */

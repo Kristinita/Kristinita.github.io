@@ -1,0 +1,13 @@
+/* >> Blockstyle blockquotes
+	========================================================================== */
+/* [INFO] Blockstyle blockquotes:
+https://i.imgur.com/s9W2wzd.png */
+.SashaBlockquoteBlockstyle {
+	padding: 0.25rem;
+	border-width: thick;
+	border-top-style: ridge;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: ridge;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy9jb21wb25lbnRzL0Jsb2NrcXVvdGVzL2Jsb2NrcXVvdGVzLWJsb2Nrc3R5bGUuc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFHQTs7QUFFQTtFQUNDLFNBQVEsUUFBUjtFQUNBLGNBQWEsTUFBYjtFQUNBLGtCQUFpQixNQUFqQjtFQUNBLG9CQUFtQixPQUFuQjtFQUNBLHFCQUFvQixPQUFwQjtFQUNBLG1CQUFrQixNQUFsQiIsImZpbGUiOiJibG9ja3F1b3Rlcy1ibG9ja3N0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qID4+IEJsb2Nrc3R5bGUgYmxvY2txdW90ZXNcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyogW0lORk9dIEJsb2Nrc3R5bGUgYmxvY2txdW90ZXM6XG5odHRwczovL2kuaW1ndXIuY29tL3M5VzJ3emQucG5nICovXG4uU2FzaGFCbG9ja3F1b3RlQmxvY2tzdHlsZVxuXHRwYWRkaW5nIC4yNXJlbVxuXHRib3JkZXItd2lkdGggdGhpY2tcblx0Ym9yZGVyLXRvcC1zdHlsZSByaWRnZVxuXHRib3JkZXItcmlnaHQtc3R5bGUgZ3Jvb3ZlXG5cdGJvcmRlci1ib3R0b20tc3R5bGUgZ3Jvb3ZlXG5cdGJvcmRlci1sZWZ0LXN0eWxlIHJpZGdlXG4iXX0= */

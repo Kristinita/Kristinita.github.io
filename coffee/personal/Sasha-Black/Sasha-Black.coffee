@@ -6,12 +6,15 @@
 ###############
 # Sasha-Black #
 ###############
-# Sasha-Black script:
+# [INFO] Sasha Black script:
 KiraFunction = (url, KiraSite) ->
-	# Select “hostname” from address
-	# [DEPRECATED]
-	# If “kristinita.netlify.app”, not “https://kristinita.netlify.app”, works incorrect
-	# url = parse_url(url).hostname;
+	###
+	[DEPRECATED]
+	If “kristinita.netlify.app”, not “https://kristinita.netlify.app”, works incorrect
+
+	url = parse_url(url).hostname;
+	###
+	# [INFO] Select “hostname” from address
 	if url.substring(0, 7) is 'http://'
 		url = url.substring(7)
 	if url.substring(0, 8) is 'https://'
@@ -22,16 +25,15 @@ KiraFunction = (url, KiraSite) ->
 	if url.substring(l - 1, l) is '/'
 		url = url.substring(0, l - 1)
 	query = KiraSite + url
-	# For Robtex:
+	# [INFO] For Robtex:
 	if KiraSite is 'https://www.robtex.com/en/advisory/dns/'
-		# Queries as https://www.robtex.com/en/advisory/dns/ru/Kristinita/
+		# [INFO] Queries as https://www.robtex.com/en/advisory/dns/ru/Kristinita/
 		ms = url.split('.')
 		if l > 1
 			domain = ms[l - 1]
 			adr = ms[l - 2]
-			# Second-level domain:
+			# [INFO] Second-level domain:
 			query = KiraSite + domain + '/' + adr + '/'
 			if l is 3
 				query = KiraSite + ms[l - 1] + '/' + ms[l - 2] + '/' + ms[l - 3]
-	# “Window.open(query, "nw"); nw.focus();”
 	window.open(query).focus()

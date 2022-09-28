@@ -1,0 +1,76 @@
+.progress {
+	background-color: #f3efd6;
+}
+.progress-bar {
+	background-color: #000;
+}
+.progress-label {
+	color: #800080;
+}
+.progress-0plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #808000;
+}
+.progress-10plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #9370db;
+}
+.progress-20plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #cd853f;
+}
+.progress-30plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #db7093;
+}
+.progress-40plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #66cdaa;
+}
+.progress-50plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #f4a460;
+}
+.progress-60plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #90ee90;
+}
+.progress-70plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #b0e0e6;
+}
+.progress-80plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #ffa07a;
+}
+.progress-90plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #ffc0cb;
+}
+.progress-100plus .progress-bar {
+/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+	background-color: #c0c0c0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy9uZWxpY2FuLXRoZW1lcy10aGlyZC1wYXJ0eS9Qcm9ncmVzc0Jhci9wcm9ncmVzc2Jhci1jb3JlLnN0eWwiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0E7RUFDQyxrQkFBaUIsUUFBakI7O0FBR0Q7RUFDQyxrQkFBaUIsS0FBakI7O0FBR0Q7RUFDQyxPQUFNLFFBQU47O0FBVUM7QUFFQzs7O0VBR0Esa0JBQXNDLFFBQXRDOztBQUxEO0FBRUM7OztFQUdBLGtCQUFzQyxRQUF0Qzs7QUFMRDtBQUVDOzs7RUFHQSxrQkFBc0MsUUFBdEM7O0FBTEQ7QUFFQzs7O0VBR0Esa0JBQXNDLFFBQXRDOztBQUxEO0FBRUM7OztFQUdBLGtCQUFzQyxRQUF0Qzs7QUFMRDtBQUVDOzs7RUFHQSxrQkFBc0MsUUFBdEM7O0FBTEQ7QUFFQzs7O0VBR0Esa0JBQXNDLFFBQXRDOztBQUxEO0FBRUM7OztFQUdBLGtCQUFzQyxRQUF0Qzs7QUFMRDtBQUVDOzs7RUFHQSxrQkFBc0MsUUFBdEM7O0FBTEQ7QUFFQzs7O0VBR0Esa0JBQXNDLFFBQXRDOztBQUxEO0FBRUM7OztFQUdBLGtCQUFzQyxRQUF0QyIsImZpbGUiOiJwcm9ncmVzc2Jhci1naW5nZXJpbmFzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qID4+IFByb2dyZXNzYmFyXG5cdD09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbi8vIGh0dHBzOi8vZmFjZWxlc3N1c2VyLmdpdGh1Yi5pby9weW1kb3duLWV4dGVuc2lvbnMvZXh0ZW5zaW9ucy9wcm9ncmVzc2Jhci8jc3R5bGluZy13aXRoLWNzc1xuLy8gVGhlIGJhbmRzLCBvbiB3aGljaCBpcyBwcm9ncmVzcy1iYXJcbi5wcm9ncmVzc1xuXHRiYWNrZ3JvdW5kLWNvbG9yIFNhc2hhLUJvZHktQmFja2dyb3VuZFxuXG4vLyBbSU5GT10gSSBkb27igJl0IHVuZGVyc3RhbmQsIHdoYXQgaXMgaXQuIERlZmF1bHQgY29sb3I/XG4ucHJvZ3Jlc3MtYmFyXG5cdGJhY2tncm91bmQtY29sb3IgU2FzaGEtUHJvZ3Jlc3MtQmFyXG5cbi8vIFRleHQgaW4gcHJvZ3Jlc3MtYmFyXG4ucHJvZ3Jlc3MtbGFiZWxcblx0Y29sb3IgU2FzaGEtUHJvZ3Jlc3NiYXItVGV4dFxuXG4vKiBbTEVBUk5dW1NUWUxVU10gTG9vcHMgaW4gcmFuZ2U6XG5odHRwOi8vc3R5bHVzLWxhbmcuY29tL2RvY3MvYmlmcy5odG1sI3Jhbmdlc3RhcnQtc3RvcC1zdGVwXG5odHRwOi8vYml0Lmx5LzJVZHk0dEQgKi9cbmZvciBsZXZlbCBpbiByYW5nZSgwLCAxMDAsIDEwKVxuXG5cdC8qIFtOT1RFXSBCcmFjZXMgcmVxdWlyZWQgZm9yIHByb3BlcnRpZXMsIGJ1dCBub3QgZm9yIHNlbGVjdG9yczpcblx0aHR0cDovL3N0eWx1cy1sYW5nLmNvbS9kb2NzL2JpZnMuaHRtbCNyYW5nZXN0YXJ0LXN0b3Atc3RlcCAqL1xuXHQucHJvZ3Jlc3Mte2xldmVsfXBsdXNcblx0XHQucHJvZ3Jlc3MtYmFyXG5cblx0XHRcdC8qIFtMRUFSTl1bU1RZTFVTXVxuXHRcdFx0W05PVEVdIE5lZWRzIGNvbmNhdGVuYXRlOyBvdGhlcndpc2Ugc3BhY2UgYmV0d2VlbiB2YXJpYWJsZXM6XG5cdFx0XHRodHRwczovL2dpdGh1Yi5jb20vc3R5bHVzL3N0eWx1cy9pc3N1ZXMvMjE0NyNpc3N1ZWNvbW1lbnQtMTk3MzM4MzkxICovXG5cdFx0XHRiYWNrZ3JvdW5kLWNvbG9yIFNhc2hhLVByb2dyZXNzYmFyLSArIGxldmVsXG4iXX0= */

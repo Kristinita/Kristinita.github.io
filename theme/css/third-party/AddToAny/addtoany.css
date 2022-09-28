@@ -1,0 +1,71 @@
+/* >> AddToAny
+	========================================================================== */
+/* csslint ignore:start */
+/*
+[LEARN][HTML] “div”, that overwrite default value:
+https://stackoverflow.com/a/9956515/5951529
+ */
+div.a2a_floating_style {
+	padding: 0.0625rem;
+	top: 30%;
+/* [INFO] Smaller “z-index” so as not to overlap lightbox buttons:
+	https://i.imgur.com/NVaVOox.png
+
+	[INFO] Bulma navbar has z-index 30, I created “z-index” for AddToAny a bit more
+
+	[INFO] “.gm-scrollbar” has “z-index: 1” by default;
+	buttons must have a little bit value
+ */
+	z-index: 40;
+/*
+	[INFO] Color for accessibility tools.
+	“a” tag in AddToAny icons haven’t any text; we click to icons, not to text.
+	But accessibility tolor mark AddToAny “a” color as error anyway
+ */
+}
+div.a2a_floating_style >a {
+	color: #000080;
+}
+div.a2a_default_style {
+	border-radius: 0.375rem;
+	padding: 0.25rem;
+/*
+	[LEARN][CSS] Prevent block stretching to all width
+	https://toster.ru/q/322812
+ */
+	float: left;
+}
+/* csslint ignore:end */
+/*
+[INFO] Hide AddToAny until the script “https://static.addtoany.com/menu/page.js” is run;
+The script run after 7 seconds, the tag after 8:
+https://stackoverflow.com/a/46799062/5951529
+
+Otherwise, strip in the top of the page:
+https://i.imgur.com/WnrhzRI.png
+ */
+.KiraAddToAny {
+	animation: KiraAddToAnyHide 0s 8s forwards;
+	visibility: hidden;
+}
+@-moz-keyframes KiraAddToAnyHide {
+	to {
+		visibility: visible;
+	}
+}
+@-webkit-keyframes KiraAddToAnyHide {
+	to {
+		visibility: visible;
+	}
+}
+@-o-keyframes KiraAddToAnyHide {
+	to {
+		visibility: visible;
+	}
+}
+@keyframes KiraAddToAnyHide {
+	to {
+		visibility: visible;
+	}
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy90aGlyZC1wYXJ0eS9BZGRUb0FueS9hZGR0b2FueS5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUdBO0FBRUE7Ozs7QUFJQTtFQUNDLFNBQVEsVUFBUjtFQUNBLEtBQUksSUFBSjtBQUVBOzs7Ozs7OztFQVFBLFNBQVEsR0FBUjtBQUVBOzs7Ozs7QUFLQTtFQUNDLE9BQU0sUUFBTjs7QUFFRjtFQUNDLGVBQWMsU0FBZDtFQUNBLFNBQVEsUUFBUjtBQUNBOzs7O0VBSUEsT0FBTSxLQUFOOztBQUVEO0FBR0E7Ozs7Ozs7O0FBUUE7RUFDQyxXQUFVLGdDQUFWO0VBQ0EsWUFBVyxPQUFYOztBQUVEO0FBQ0M7SUFDQyxZQUFXLFFBQVg7OztBQUZGO0FBQ0M7SUFDQyxZQUFXLFFBQVg7OztBQUZGO0FBQ0M7SUFDQyxZQUFXLFFBQVg7OztBQUZGO0FBQ0M7SUFDQyxZQUFXLFFBQVgiLCJmaWxlIjoiYWRkdG9hbnkuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogPj4gQWRkVG9Bbnlcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyogY3NzbGludCBpZ25vcmU6c3RhcnQgKi9cblxuLypcbltMRUFSTl1bSFRNTF0g4oCcZGl24oCdLCB0aGF0IG92ZXJ3cml0ZSBkZWZhdWx0IHZhbHVlOlxuaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzk5NTY1MTUvNTk1MTUyOVxuKi9cbmRpdi5hMmFfZmxvYXRpbmdfc3R5bGVcblx0cGFkZGluZyAuMDYyNXJlbVxuXHR0b3AgMzAlXG5cblx0LyogW0lORk9dIFNtYWxsZXIg4oCcei1pbmRleOKAnSBzbyBhcyBub3QgdG8gb3ZlcmxhcCBsaWdodGJveCBidXR0b25zOlxuXHRodHRwczovL2kuaW1ndXIuY29tL05WYVZPb3gucG5nXG5cblx0W0lORk9dIEJ1bG1hIG5hdmJhciBoYXMgei1pbmRleCAzMCwgSSBjcmVhdGVkIOKAnHotaW5kZXjigJ0gZm9yIEFkZFRvQW55IGEgYml0IG1vcmVcblxuXHRbSU5GT10g4oCcLmdtLXNjcm9sbGJhcuKAnSBoYXMg4oCcei1pbmRleDogMeKAnSBieSBkZWZhdWx0O1xuXHRidXR0b25zIG11c3QgaGF2ZSBhIGxpdHRsZSBiaXQgdmFsdWVcblx0Ki9cblx0ei1pbmRleCA0MFxuXG5cdC8qXG5cdFtJTkZPXSBDb2xvciBmb3IgYWNjZXNzaWJpbGl0eSB0b29scy5cblx04oCcYeKAnSB0YWcgaW4gQWRkVG9BbnkgaWNvbnMgaGF2ZW7igJl0IGFueSB0ZXh0OyB3ZSBjbGljayB0byBpY29ucywgbm90IHRvIHRleHQuXG5cdEJ1dCBhY2Nlc3NpYmlsaXR5IHRvbG9yIG1hcmsgQWRkVG9Bbnkg4oCcYeKAnSBjb2xvciBhcyBlcnJvciBhbnl3YXlcblx0Ki9cblx0PmFcblx0XHRjb2xvciBuYXZ5XG5cbmRpdi5hMmFfZGVmYXVsdF9zdHlsZVxuXHRib3JkZXItcmFkaXVzIC4zNzVyZW1cblx0cGFkZGluZyAuMjVyZW1cblx0Lypcblx0W0xFQVJOXVtDU1NdIFByZXZlbnQgYmxvY2sgc3RyZXRjaGluZyB0byBhbGwgd2lkdGhcblx0aHR0cHM6Ly90b3N0ZXIucnUvcS8zMjI4MTJcblx0Ki9cblx0ZmxvYXQgbGVmdFxuXG4vKiBjc3NsaW50IGlnbm9yZTplbmQgKi9cblxuXG4vKlxuW0lORk9dIEhpZGUgQWRkVG9BbnkgdW50aWwgdGhlIHNjcmlwdCDigJxodHRwczovL3N0YXRpYy5hZGR0b2FueS5jb20vbWVudS9wYWdlLmpz4oCdIGlzIHJ1bjtcblRoZSBzY3JpcHQgcnVuIGFmdGVyIDcgc2Vjb25kcywgdGhlIHRhZyBhZnRlciA4OlxuaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9hLzQ2Nzk5MDYyLzU5NTE1MjlcblxuT3RoZXJ3aXNlLCBzdHJpcCBpbiB0aGUgdG9wIG9mIHRoZSBwYWdlOlxuaHR0cHM6Ly9pLmltZ3VyLmNvbS9XbnJoelJJLnBuZ1xuKi9cbi5LaXJhQWRkVG9Bbnlcblx0YW5pbWF0aW9uIEtpcmFBZGRUb0FueUhpZGUgMHMgOHMgZm9yd2FyZHNcblx0dmlzaWJpbGl0eSBoaWRkZW5cblxuQGtleWZyYW1lcyBLaXJhQWRkVG9BbnlIaWRlXG5cdHRvXG5cdFx0dmlzaWJpbGl0eSB2aXNpYmxlXG4iXX0= */

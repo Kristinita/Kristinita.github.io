@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "programmable-search-engine-kristinitas-search.js",
+	"sourceRoot": "../../../coffee/personal/Kristinita/",
+	"sources": [
+		"programmable-search-engine-kristinitas-search.coffee"
+	],
+	"names": [],
+	"mappings": "AAIG;;;;;AAkBA,CAAA,QAAA,CAAA,CAAA,EAAA;;;;;;;;;;;;;;;;;AACH,MAAA,EAAA,EAAA,IAAA,EAAA;EAAC,EAAA,GAAK;EACL,IAAA,GAAO,QAAQ,CAAC,aAAT,CAAuB,QAAvB;EACP,IAAI,CAAC,IAAL,GAAY;EACZ,IAAI,CAAC,KAAL,GAAa;EACb,IAAI,CAAC,GAAL,GAAW,mCAAA,GAAsC;EACjD,CAAA,GAAI,QAAQ,CAAC,oBAAT,CAA8B,QAA9B,CAAuC,CAAC,CAAD;EAC3C,CAAC,CAAC,UAAU,CAAC,YAAb,CAA0B,IAA1B,EAAgC,CAAhC;AAPE,CAAA,IAlBA;;;;;;;;;;;;;AAwCH,UAAA,CAAW,CAAC,QAAA,CAAA,CAAA;EACX,QAAQ,CAAC,cAAT,CAAwB,WAAxB,CAAoC,CAAC,KAArC,CAAA;AADW,CAAD,CAAX,EAGG,IAHH",
+	"sourcesContent": [
+		"###\n@Author: Kristinita\n@Date:   2017-01-30 13:33:35\n@Last Modified time: 2017-01-30 13:39:59\n###\n###############################\n# Google Custom Search Engine #\n###############################\n###\n[OVERVIEW] Programmable Search Engine:\nhttps://programmablesearchengine.google.com/about/\n\n[INFO] New search engine, because in old error “X-Frame-Options”:\nhttp://stackoverflow.com/a/32696709/5951529\n\n[INFO] “enableHistory = true” enables history management.\n\n[DEPRECATED] Old form.\n< gcse: search enableHistory = true > < /gcse:search>\n< gcse: searchbox enableHistory = trueautoCompleteMaxCompletions = 10 >\n< /gcse:searchbox> < gcse: searchresults > < /gcse:searchresults>\n###\ndo ->\n\tcx = '013024336414733191742:sps98skj394'\n\tgcse = document.createElement('script')\n\tgcse.type = 'text/javascript'\n\tgcse.async = true\n\tgcse.src = 'https://cse.google.com/cse.js?cx=' + cx\n\ts = document.getElementsByTagName('script')[0]\n\ts.parentNode.insertBefore gcse, s\n\treturn\n\n\n###\n[INFO] Add autofocus for Programmable Search Engine Form:\nhttp://bit.ly/2Iq1nGs\n\n[LEARN][JAVASCRIPT] Replace eval:\nhttps://github.com/eslint/eslint/issues/7861#issuecomment-270670327\n\n[NOTE] Big timeout, because I can get errors in browsers console:\n“TypeError: document.getElementById(…) is null”:\nhttps://ru.stackoverflow.com/q/941455/199934\n###\nsetTimeout (->\n\tdocument.getElementById('gsc-i-id1').focus()\n\treturn\n), 7000\n"
+	]
+}

@@ -1,0 +1,133 @@
+/* [OVERVIEW] Pure CSS fade slideshow:
+https://codeconvey.com/pure-css-fading-slideshow/
+
+[DEMO] https://codepen.io/Kristinita/pen/yLKwmpw
+
+[INFO] My modifications for the Muhammad Asif solution:
+	1. Responsive design
+	2. Lazy loading
+
+[REQUIRED] All “.KiraSlider” properties here
+ */
+.KiraSlider {
+	margin: 2rem auto;
+/*
+	[INFO] Images on my slideshow has width — 807 and height — 537;
+	proportion is 807/537 = 1000/665.4 ≈ 3/2
+ */
+	width: 50.4375rem;
+	height: 33.5625rem;
+	position: relative;
+}
+.KiraSlider > div {
+	width: 100%;
+	height: 100%;
+/* [REQUIRED] “background-repeat” and “background-size” properties
+		for successful display slideshow on mobile devices */
+	background-repeat: no-repeat;
+/* [INFO] “background-size contain”
+		https://stackoverflow.com/a/27941378/5951529 */
+	background-size: contain;
+	position: absolute;
+/* [LEARN][CSS] Infinite CSS animation, can also be written as
+		“animation-iteration-count: infinite”
+		https://ricardometring.com/infinite-animation-in-css
+		https://css-tricks.com/almanac/properties/a/animation/
+ */
+	animation: kira-fade-slideshow 35s infinite;
+	opacity: 0;
+/* [LEARN][STYLUS] Iteration:
+		https://stylus-docs.netlify.app/docs/iteration
+
+		[LEARN][STYLUS] Range:
+		https://stylus-docs.netlify.app/docs/operators.html#range
+ */
+}
+.KiraSlider > div:nth-child(2) {
+/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+	animation-delay: 5s;
+}
+.KiraSlider > div:nth-child(3) {
+/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+	animation-delay: 10s;
+}
+.KiraSlider > div:nth-child(4) {
+/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+	animation-delay: 15s;
+}
+.KiraSlider > div:nth-child(5) {
+/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+	animation-delay: 20s;
+}
+.KiraSlider > div:nth-child(6) {
+/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+	animation-delay: 25s;
+}
+.KiraSlider > div:nth-child(7) {
+/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+	animation-delay: 30s;
+}
+/* [LEARN][STYLUS] “@keyframes” syntax:
+https://stylus-docs.netlify.app/docs/keyframes
+ */
+@media screen and (orientation: landscape) {
+	.KiraSlider {
+		max-width: 50%;
+	}
+}
+@media screen and (orientation: portrait) {
+	.KiraSlider {
+		max-width: 96%;
+	}
+}
+@-moz-keyframes kira-fade-slideshow {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes kira-fade-slideshow {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+}
+@-o-keyframes kira-fade-slideshow {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+}
+@keyframes kira-fade-slideshow {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3N0eWx1cy9jb21wb25lbnRzL3NsaWRlc2hvdy1mYWRlLnN0eWwiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7O0FBV0E7RUFDQyxRQUFPLFVBQVA7QUFDQTs7OztFQUlBLE9BQU0sV0FBTjtFQUNBLFFBQU8sV0FBUDtFQUNBLFVBQVMsU0FBVDs7QUFDQTtFQUNDLE9BQU0sS0FBTjtFQUNBLFFBQU8sS0FBUDtBQUVBOztFQUVBLG1CQUFrQixVQUFsQjtBQUVBOztFQUVBLGlCQUFnQixRQUFoQjtFQUNBLFVBQVMsU0FBVDtBQUVBOzs7OztFQUtBLFdBQVUsaUNBQVY7RUFDQSxTQUFRLEVBQVI7QUFFQTs7Ozs7OztBQVFDO0FBQ0M7O0VBRUEsaUJBQTZCLEdBQTdCOztBQUhEO0FBQ0M7O0VBRUEsaUJBQTZCLElBQTdCOztBQUhEO0FBQ0M7O0VBRUEsaUJBQTZCLElBQTdCOztBQUhEO0FBQ0M7O0VBRUEsaUJBQTZCLElBQTdCOztBQUhEO0FBQ0M7O0VBRUEsaUJBQTZCLElBQTdCOztBQUhEO0FBQ0M7O0VBRUEsaUJBQTZCLElBQTdCOztBQUdKOzs7QUFhd0M7QUFDdkM7SUFDQyxXQUFVLElBQVY7OztBQUVxQztBQUN0QztJQUNDLFdBQVUsSUFBVjs7O0FBaEJGO0FBQ0M7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7OztBQU5GO0FBQ0M7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7OztBQU5GO0FBQ0M7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7OztBQU5GO0FBQ0M7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVI7O0FBQ0Q7SUFDQyxTQUFRLEVBQVIiLCJmaWxlIjoic2xpZGVzaG93LWZhZGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogW09WRVJWSUVXXSBQdXJlIENTUyBmYWRlIHNsaWRlc2hvdzpcbmh0dHBzOi8vY29kZWNvbnZleS5jb20vcHVyZS1jc3MtZmFkaW5nLXNsaWRlc2hvdy9cblxuW0RFTU9dIGh0dHBzOi8vY29kZXBlbi5pby9LcmlzdGluaXRhL3Blbi95TEt3bXB3XG5cbltJTkZPXSBNeSBtb2RpZmljYXRpb25zIGZvciB0aGUgTXVoYW1tYWQgQXNpZiBzb2x1dGlvbjpcblx0MS4gUmVzcG9uc2l2ZSBkZXNpZ25cblx0Mi4gTGF6eSBsb2FkaW5nXG5cbltSRVFVSVJFRF0gQWxsIOKAnC5LaXJhU2xpZGVy4oCdIHByb3BlcnRpZXMgaGVyZVxuKi9cbi5LaXJhU2xpZGVyXG5cdG1hcmdpbiAycmVtIGF1dG9cblx0Lypcblx0W0lORk9dIEltYWdlcyBvbiBteSBzbGlkZXNob3cgaGFzIHdpZHRoIOKAlCA4MDcgYW5kIGhlaWdodCDigJQgNTM3O1xuXHRwcm9wb3J0aW9uIGlzIDgwNy81MzcgPSAxMDAwLzY2NS40IOKJiCAzLzJcblx0Ki9cblx0d2lkdGggNTAuNDM3NXJlbVxuXHRoZWlnaHQgMzMuNTYyNXJlbVxuXHRwb3NpdGlvbiByZWxhdGl2ZVxuXHQmID4gZGl2XG5cdFx0d2lkdGggMTAwJVxuXHRcdGhlaWdodCAxMDAlXG5cblx0XHQvKiBbUkVRVUlSRURdIOKAnGJhY2tncm91bmQtcmVwZWF04oCdIGFuZCDigJxiYWNrZ3JvdW5kLXNpemXigJ0gcHJvcGVydGllc1xuXHRcdGZvciBzdWNjZXNzZnVsIGRpc3BsYXkgc2xpZGVzaG93IG9uIG1vYmlsZSBkZXZpY2VzICovXG5cdFx0YmFja2dyb3VuZC1yZXBlYXQgbm8tcmVwZWF0XG5cblx0XHQvKiBbSU5GT10g4oCcYmFja2dyb3VuZC1zaXplIGNvbnRhaW7igJ1cblx0XHRodHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL2EvMjc5NDEzNzgvNTk1MTUyOSAqL1xuXHRcdGJhY2tncm91bmQtc2l6ZSBjb250YWluXG5cdFx0cG9zaXRpb24gYWJzb2x1dGVcblxuXHRcdC8qIFtMRUFSTl1bQ1NTXSBJbmZpbml0ZSBDU1MgYW5pbWF0aW9uLCBjYW4gYWxzbyBiZSB3cml0dGVuIGFzXG5cdFx04oCcYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGXigJ1cblx0XHRodHRwczovL3JpY2FyZG9tZXRyaW5nLmNvbS9pbmZpbml0ZS1hbmltYXRpb24taW4tY3NzXG5cdFx0aHR0cHM6Ly9jc3MtdHJpY2tzLmNvbS9hbG1hbmFjL3Byb3BlcnRpZXMvYS9hbmltYXRpb24vXG5cdFx0Ki9cblx0XHRhbmltYXRpb24ga2lyYS1mYWRlLXNsaWRlc2hvdyAzNXMgaW5maW5pdGVcblx0XHRvcGFjaXR5IDBcblxuXHRcdC8qIFtMRUFSTl1bU1RZTFVTXSBJdGVyYXRpb246XG5cdFx0aHR0cHM6Ly9zdHlsdXMtZG9jcy5uZXRsaWZ5LmFwcC9kb2NzL2l0ZXJhdGlvblxuXG5cdFx0W0xFQVJOXVtTVFlMVVNdIFJhbmdlOlxuXHRcdGh0dHBzOi8vc3R5bHVzLWRvY3MubmV0bGlmeS5hcHAvZG9jcy9vcGVyYXRvcnMuaHRtbCNyYW5nZVxuXHRcdCovXG5cdFx0Zm9yIEtpcmEtSWNvbiBpbiAyLi43XG5cdFx0XHQvLyBbTEVBUk5dW1NUWUxVU11bUkVRVUlSRURdIHticmFjZXN9XG5cdFx0XHQmOm50aC1jaGlsZCh7S2lyYS1JY29ufSlcblx0XHRcdFx0LyogW0xFQVJOXVtTVFlMVVNdW05PVEVdIOKAnGtpcmFpY29uKjUtNXPigJ0gZG9lc27igJl0IHdvcmsgb24gU3R5bHVzLlxuXHRcdFx0XHRTdHlsdXMgZG9lc27igJl0IGFjY2VwdCDigJwt4oCdLiAqL1xuXHRcdFx0XHRhbmltYXRpb24tZGVsYXkgLTUrS2lyYS1JY29uKjVzXG5cblxuLyogW0xFQVJOXVtTVFlMVVNdIOKAnEBrZXlmcmFtZXPigJ0gc3ludGF4OlxuaHR0cHM6Ly9zdHlsdXMtZG9jcy5uZXRsaWZ5LmFwcC9kb2NzL2tleWZyYW1lc1xuICovXG5Aa2V5ZnJhbWVzIGtpcmEtZmFkZS1zbGlkZXNob3dcblx0MTAlXG5cdFx0b3BhY2l0eSAxXG5cdDIwJVxuXHRcdG9wYWNpdHkgMVxuXHQzMCVcblx0XHRvcGFjaXR5IDBcblxuXG4vLyBbSU5GT10gU2l6ZSBvZiBzbGlkZXNob3cgZm9yIGxhbmRzY2FwZSBhbmQgcG9ydHJhaXQgb3JpZW50YXRpb25cbkBtZWRpYSBzY3JlZW4gYW5kIChvcmllbnRhdGlvbiBsYW5kc2NhcGUpXG5cdC5LaXJhU2xpZGVyXG5cdFx0bWF4LXdpZHRoIDUwJVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAob3JpZW50YXRpb24gcG9ydHJhaXQpXG5cdC5LaXJhU2xpZGVyXG5cdFx0bWF4LXdpZHRoIDk2JVxuIl19 */

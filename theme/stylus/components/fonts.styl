@@ -1,0 +1,119 @@
+/*
+ * @Author: Kristinita
+ * @Date:   2017-01-30 16:32:10
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2017-05-09 14:46:21
+ */
+
+
+/*
+[INFO] Webfonts-helper — site for getting generic-names for Google Fonts:
+https://google-webfonts-helper.herokuapp.com/
+
+[BUG][STYLINT] Post comments before tags and classes, not before selectors;
+Stylint have a bug:
+https://github.com/SimenB/stylint/issues/457
+ */
+
+
+/*
+[BUG][CSSLINT] Disable “unique-headings” for this file, I get a known bug:
+https://github.com/CSSLint/csslint/issues/80
+https://github.com/CSSLint/csslint/issues/759
+ */
+
+
+/*
+[INFO] FOUT — using fallback fonts, FOIT — no;
+“FOIT is our enemy”:
+https://www.zachleat.com/web/webfont-glossary/#fout
+https://stackoverflow.com/a/6996646/5951529
+
+[INFO] Web safe fallback fonts:
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+[INFO] Fallback fonts usage:
+https://www.w3schools.com/cssref/css_fonts_fallbacks.asp
+
+[NOTE] “font-size” of fallback font must be the same as for original
+
+
+[INFO] Font style matcher — service for fallback fonts selection:
+https://meowni.ca/font-style-matcher/
+https://github.com/notwaldorf/font-style-matcher
+
+[FIXME][ISSUE] Font style matcher succesfully works for Chromium solely,
+not for Firefox
+[COMPARE] https://i.imgur.com/jv5Tw9m.png
+https://i.imgur.com/0BPOg9u.png
+ */
+
+
+@import "placeholders.styl"
+
+h1
+.SashaCategory
+.SashaButtonCategory
+.SashaAsideBottomText
+	@extend $KiraPlay
+
+	/*
+	[INFO] “font-weight” for fallback font, but it doesn’t affect
+	to original Google font
+	 */
+	font-weight bold
+	font-size 1.9375rem
+
+
+/*
+[INFO] Scada — sans-serif:
+https://google-webfonts-helper.herokuapp.com/fonts/scada
+ */
+h2
+	/*
+	[INFO] Arial is the most suitable web safe fallback fon:
+	https://i.imgur.com/mEgbnQg.png
+
+	[NOTREQUIRED] “Quotes” around Google font, but from fallback fonts,
+	if font name haven’t spaces
+	 */
+	font-family Scada, Arial, Helvetica, sans-serif
+	font-size 1.9375rem
+	font-style normal
+
+
+/*
+[INFO] El Messiri — sans-serif:
+https://google-webfonts-helper.herokuapp.com/fonts/el-messiri
+ */
+a
+	/* [NOTE] Font style matcher doesn’t support “font-style” and “font-weight”.
+	I tested italic fonts use “font-style normal”:
+	https://github.com/notwaldorf/font-style-matcher/issues/24
+
+	[NOTE] Not good result for Arial fallback font,
+	but for all other sans-serif fonts the result is even worse:
+	https://i.imgur.com/Qvi2VXX.png
+	 */
+	font-family "El Messiri", Arial, Helvetica, sans-serif
+	font-size 1.3rem
+	font-style italic
+	font-weight bold
+
+
+/*
+[INFO] Marck Script — handwriting:
+https://google-webfonts-helper.herokuapp.com/fonts/marck-script
+ */
+.SashaWorkOnYourself
+	/*
+	[INFO] “cursive” font family name for handwriting fonts:
+	https://stackoverflow.com/a/2747607/5951529
+
+	[NOTE] "Brush Script MT" isn’t a good alternative, but no others web save cursive fonts:
+	https://i.imgur.com/AFXpiLU.png
+
+	 */
+	font-family "Marck Script", "Brush Script MT", cursive
+	font-size 3.5625rem
+	margin-bottom 1rem

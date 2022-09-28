@@ -1,0 +1,53 @@
+/* ==========================================================================
+	> Footer
+	========================================================================== */
+
+@import "placeholders.styl"
+
+/* >> Neighbors Pelican
+	========================================================================== */
+
+/*
+[INFO] Add links for previous and next buttons:
+https://github.com/getpelican/pelican-plugins/tree/master/neighbors
+
+[INFO] Example:
+https://github.com/whatifrussian/website/blob/9e29831dcf61c85e711a392709aaf711212ba7c9themes/whatif/templates/includes/article_content.html
+ */
+
+.SashaNeighborsMainPageLeft
+.SashaNeighborsPreviousPage
+	@extend $SashaFloatLeft
+	@extend $SashaMargin5Rem
+	@extend $SashaFontSizeChildLink
+
+.SashaNeighborsMainPageRight
+.SashaNeighborsNextPage
+	@extend $SashaFloatRight
+	@extend $SashaMargin5Rem
+	@extend $SashaFontSizeChildLink
+
+/*
+[LEARN][CSS] “Easy Clearing Method” or “Clearfix”:
+normalize indentation after floating:
+https://css-tricks.com/almanac/properties/f/float/
+https://www.w3schools.com/howto/howto_css_clearfix.asp
+
+ */
+.KiraNeighborsClearfix
+	&:after
+		content ""
+		visibility hidden
+		display block
+		height 0
+		clear both
+
+/* >> Footer actions
+	========================================================================== */
+
+.SashaWorkOnYourself
+	@extend $SashaMargin5Rem
+
+.SashaFooterActions
+	@extend $SashaItalic
+	margin 1rem 0 0

@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "mermaid.js",
+	"sourceRoot": "../../coffee/Mermaid/",
+	"sources": [
+		"mermaid.coffee"
+	],
+	"names": [],
+	"mappings": "AAEW;;;;;;;;;;AAQX,OAAO,CAAC,UAAR,CAAmB;EAAA,WAAA,EAAa;AAAb,CAAnB",
+	"sourcesContent": [
+		"###########\n# Mermaid #\n###########\n###\n[OVERVIEW] Mermaid — charts and diagrams:\nhttps://mermaid-js.github.io\n\n[INFO] HTML usage:\nhttps://mermaid-js.github.io/mermaid/#/n00b-gettingStarted?id=requirements-for-the-mermaid-api\n###\nmermaid.initialize startOnLoad: true\n"
+	]
+}

@@ -3,27 +3,37 @@
 ###########
 # [INFO] Publish to Netlify:
 # https://medium.com/the-codelog/how-to-deploy-a-website-to-netlify-35274f478144
+#
 # [INFO] netlify.toml:
 # https://www.netlify.com/docs/netlify-toml-reference/
-# HTTP: Cache Headers — Guide:
-# https://www.keycdn.com/blog/http-cache-headers
-# [INFO] Cache-Control: immutable:
-# https://www.keycdn.com/blog/cache-control-immutable
-# [INFO] Netlify cache control:
-# https://stackoverflow.com/a/52323443/5951529
+#
 # [INFO] netlify.toml examples:
 # https://github.com/search?p=1&q=Cache-Control+filename%3Anetlify.toml&type=Code
+#
 # [INFO] “max-age=0, must-revalidate, public” + “etag” by default:
 # https://www.netlify.com/blog/2017/02/23/better-living-through-caching/
 # https://macoshita.me/blog/2018-04-18-move-netlify/
+#
+#
+# [INFO] HTTP: Cache Headers — Guide:
+# https://www.keycdn.com/blog/http-cache-headers
+#
+# [INFO] Cache-Control: immutable:
+# https://www.keycdn.com/blog/cache-control-immutable
+#
+# [INFO] Netlify cache control:
+# https://stackoverflow.com/a/52323443/5951529
 [[headers]]
 	# [LEARN][TOML] Multiple extensions:
 	# https://github.com/benji6/webnotes/blob/8f573e732b42ad68c517f42368a68ee6555de6d7/netlify.toml#L5
 	for = "*.(apng|bmp|css|ico|jpeg|jpg|js|png|svg|webp)"
+
 	# [LEARN][TOML] Multiline:
 	# https://www.netlify.com/docs/netlify-toml-reference/#getting-started
+	#
 	# [INFO] Best practices for cache control settings:
 	# https://medium.com/pixelpoint/best-practices-for-cache-control-settings-for-your-website-ff262b38c5a2
+	#
 	# [INFO] KeyCDN check tool:
 	# https://tools.keycdn.com/curl
 	[headers.values]

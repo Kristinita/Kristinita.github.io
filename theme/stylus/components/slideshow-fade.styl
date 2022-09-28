@@ -1,0 +1,75 @@
+/* [OVERVIEW] Pure CSS fade slideshow:
+https://codeconvey.com/pure-css-fading-slideshow/
+
+[DEMO] https://codepen.io/Kristinita/pen/yLKwmpw
+
+[INFO] My modifications for the Muhammad Asif solution:
+	1. Responsive design
+	2. Lazy loading
+
+[REQUIRED] All “.KiraSlider” properties here
+ */
+.KiraSlider
+	margin 2rem auto
+	/*
+	[INFO] Images on my slideshow has width — 807 and height — 537;
+	proportion is 807/537 = 1000/665.4 ≈ 3/2
+	 */
+	width 50.4375rem
+	height 33.5625rem
+	position relative
+	& > div
+		width 100%
+		height 100%
+
+		/* [REQUIRED] “background-repeat” and “background-size” properties
+		for successful display slideshow on mobile devices */
+		background-repeat no-repeat
+
+		/* [INFO] “background-size contain”
+		https://stackoverflow.com/a/27941378/5951529 */
+		background-size contain
+		position absolute
+
+		/* [LEARN][CSS] Infinite CSS animation, can also be written as
+		“animation-iteration-count: infinite”
+		https://ricardometring.com/infinite-animation-in-css
+		https://css-tricks.com/almanac/properties/a/animation/
+		 */
+		animation kira-fade-slideshow 35s infinite
+		opacity 0
+
+		/* [LEARN][STYLUS] Iteration:
+		https://stylus-docs.netlify.app/docs/iteration
+
+		[LEARN][STYLUS] Range:
+		https://stylus-docs.netlify.app/docs/operators.html#range
+		 */
+		for Kira-Icon in 2..7
+			// [LEARN][STYLUS][REQUIRED] {braces}
+			&:nth-child({Kira-Icon})
+				/* [LEARN][STYLUS][NOTE] “kiraicon*5-5s” doesn’t work on Stylus.
+				Stylus doesn’t accept “-”. */
+				animation-delay -5+Kira-Icon*5s
+
+
+/* [LEARN][STYLUS] “@keyframes” syntax:
+https://stylus-docs.netlify.app/docs/keyframes
+ */
+@keyframes kira-fade-slideshow
+	10%
+		opacity 1
+	20%
+		opacity 1
+	30%
+		opacity 0
+
+
+// [INFO] Size of slideshow for landscape and portrait orientation
+@media screen and (orientation landscape)
+	.KiraSlider
+		max-width 50%
+
+@media screen and (orientation portrait)
+	.KiraSlider
+		max-width 96%

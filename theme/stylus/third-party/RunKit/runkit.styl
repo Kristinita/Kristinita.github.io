@@ -1,0 +1,14 @@
+@import "../../components/placeholders.styl"
+
+// [NOTE] Id, not class required for #SashaRunKit third-party element
+#SashaRunkit
+	@extend $SashaIframe
+	/*
+	[NOTE] Use rem, not percents! Percents works for PeerTube and YouTube,
+	but doesn't work for WebMoney and RunKit
+
+	[WARNING] Exact value required for different browsers it may be different
+	for supporting all browsers I need set big value,
+	but big blank place may be in another.
+	 */
+	padding-bottom 13rem

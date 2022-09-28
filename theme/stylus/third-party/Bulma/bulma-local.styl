@@ -1,0 +1,99 @@
+/* >> Navbar
+	========================================================================== */
+
+/* [INFO] Wrap menu:
+https://i.imgur.com/Azcb1rh.png
+ */
+.navbar
+	width 100%
+
+.navbar-menu
+	width inherit
+
+/* [LEARN][CSS] “flex-wrap”:
+https://css-tricks.com/almanac/properties/f/flex-wrap/
+ */
+.navbar-start
+.navbar-end
+	flex-wrap wrap
+
+// [INFO] Navbar design
+.navbar-link
+	padding .25rem
+
+	/* [INFO] Dropdown menu arrow:
+	https://i.imgur.com/80Vt40H.png */
+	&:not(.is-arrowless)
+		padding-right 2rem
+
+		&::after
+			width .5rem
+			height .5rem
+			right .7rem
+
+
+/* [INFO] Position the burger on the left, not the right side:
+https://i.imgur.com/pD2OrGy.png */
+.navbar-burger
+	margin-left initial
+
+	/* [INFO] Visibility of close button:
+	[COMPARE] https://i.imgur.com/fqSDzoR.png
+	https://i.imgur.com/2raifhY.png	 */
+	span
+		height .125rem
+
+
+/* [FIXME][PURGECSS] Bulma navbar classes, which PurgeCSS removes.
+
+I use “.is-active” class in the Bulma script:
+https://bulma.io/documentation/components/navbar/#navbar-menu
+
+I don’t know, how I can preserve them, use PurgeCSS “safelist” option:
+https://purgecss.com/configuration.html
+ */
+.navbar-burger.is-active span:nth-child
+
+	&(1)
+		transform translateY(.3125rem) rotate(45deg)
+
+	&(2)
+		opacity 0
+
+	&(3)
+		transform translateY(-.3125rem) rotate(-45deg)
+
+
+@media screen and (orientation: portrait)
+	/* [INFO] Clickable dropdown menu in portrait orientation:
+	https://i.imgur.com/2Le5U67.png */
+	.navbar-menu.is-active
+		display block
+
+	.is-hidden-portrait
+		display none
+
+	/* [INFO] Padding to prevent AddToAny share buttons from obscuring navbar menu items:
+	https://i.imgur.com/UCwogPI.png */
+	.navbar-dropdown .navbar-item
+			padding-left 3rem
+
+	.navbar-link:not(.is-arrowless)
+		padding-left 2rem
+
+		/* [INFO] Right margin for pages with right scrollbar:
+		https://i.imgur.com/erVQ9MT.png */
+		&::after
+			right 2rem
+
+/* >> Tags
+	========================================================================== */
+
+.tags
+	margin-top 1rem
+
+	&.are-medium .tag:not(.is-normal):not(.is-large)
+		font-size 1.2rem
+
+.tag:not(body)
+	height 1.8rem

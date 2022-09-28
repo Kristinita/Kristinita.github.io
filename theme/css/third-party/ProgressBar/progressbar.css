@@ -1,0 +1,34 @@
+/* >> Progressbar
+	========================================================================== */
+/* [OVERVIEW] ProgressBar — pure CSS progress/status bar:
+https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/
+
+[INFO] Styling ProgressBar by CSS:
+https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
+ */
+.progress-label {
+	position: absolute;
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+	margin: 0;
+	line-height: 1.2rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.progress-bar {
+	height: 1.2rem;
+	float: left;
+}
+.progress {
+	display: block;
+	width: 100%;
+	margin: 0.5rem 0;
+	height: 1.2rem;
+	position: relative;
+}
+.progress.thin {
+	margin-top: 0.9rem;
+	height: 0.4rem;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy90aGlyZC1wYXJ0eS9Qcm9ncmVzc0Jhci9wcm9ncmVzc2Jhci5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUdBOzs7Ozs7QUFNQTtFQUNDLFVBQVMsU0FBVDtFQUNBLFlBQVcsT0FBWDtFQUNBLGFBQVksSUFBWjtFQUNBLE9BQU0sS0FBTjtFQUNBLFFBQU8sRUFBUDtFQUNBLGFBQVksT0FBWjtFQUNBLGFBQVksT0FBWjtFQUNBLFVBQVMsT0FBVDs7QUFFRDtFQUNDLFFBQU8sT0FBUDtFQUNBLE9BQU0sS0FBTjs7QUFFRDtFQUNDLFNBQVEsTUFBUjtFQUNBLE9BQU0sS0FBTjtFQUNBLFFBQU8sU0FBUDtFQUNBLFFBQU8sT0FBUDtFQUNBLFVBQVMsU0FBVDs7QUFFRDtFQUNDLFlBQVcsT0FBWDtFQUNBLFFBQU8sT0FBUCIsImZpbGUiOiJwcm9ncmVzc2Jhci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiA+PiBQcm9ncmVzc2JhclxuXHQ9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vKiBbT1ZFUlZJRVddIFByb2dyZXNzQmFyIOKAlCBwdXJlIENTUyBwcm9ncmVzcy9zdGF0dXMgYmFyOlxuaHR0cHM6Ly9mYWNlbGVzc3VzZXIuZ2l0aHViLmlvL3B5bWRvd24tZXh0ZW5zaW9ucy9leHRlbnNpb25zL3Byb2dyZXNzYmFyL1xuXG5bSU5GT10gU3R5bGluZyBQcm9ncmVzc0JhciBieSBDU1M6XG5odHRwczovL2ZhY2VsZXNzdXNlci5naXRodWIuaW8vcHltZG93bi1leHRlbnNpb25zL2V4dGVuc2lvbnMvcHJvZ3Jlc3NiYXIvI3N0eWxpbmctd2l0aC1jc3NcbiovXG4ucHJvZ3Jlc3MtbGFiZWxcblx0cG9zaXRpb24gYWJzb2x1dGVcblx0dGV4dC1hbGlnbiBjZW50ZXJcblx0Zm9udC13ZWlnaHQgNzAwXG5cdHdpZHRoIDEwMCVcblx0bWFyZ2luIDBcblx0bGluZS1oZWlnaHQgMS4ycmVtXG5cdHdoaXRlLXNwYWNlIG5vd3JhcFxuXHRvdmVyZmxvdyBoaWRkZW5cblxuLnByb2dyZXNzLWJhclxuXHRoZWlnaHQgMS4ycmVtXG5cdGZsb2F0IGxlZnRcblxuLnByb2dyZXNzXG5cdGRpc3BsYXkgYmxvY2tcblx0d2lkdGggMTAwJVxuXHRtYXJnaW4gLjVyZW0gMFxuXHRoZWlnaHQgMS4ycmVtXG5cdHBvc2l0aW9uIHJlbGF0aXZlXG5cbi5wcm9ncmVzcy50aGluXG5cdG1hcmdpbi10b3AgLjlyZW1cblx0aGVpZ2h0IC40cmVtXG4iXX0= */

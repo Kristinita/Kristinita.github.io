@@ -1,0 +1,56 @@
+// [INFO] Custom CSS for Stork search
+
+
+/* [LEARN][CSS] To center an “input” form “text-align center”
+must be applied to the containing div, not to the “input” itself:
+https://stackoverflow.com/a/9264857/5951529
+ */
+.KiraStorkSearch
+	text-align center
+
+input[data-stork="kira-stork"]
+	height 2rem
+	font-size 1rem
+
+.stork-output-visible
+	width 70%
+	/* [LEARN][CSS] Horizontally center a block element:
+	https://www.w3schools.com/css/css_align.asp
+	 */
+	margin auto
+
+.stork-message
+.stork-title
+	font-size 1.2rem
+
+.stork-excerpt
+	font-size 1rem
+
+// [INFO] Stork search results by center
+.stork-result p
+	margin auto
+
+// [INFO] Hide “Powered by Stork” text
+.stork-attribution
+	display none
+
+
+// [INFO] Input form width on desktop and mobile devices
+@media screen and (orientation landscape)
+	input[data-stork="kira-stork"]
+		width 40%
+
+@media screen and (orientation portrait)
+	input[data-stork="kira-stork"]
+		width 85%
+
+
+/* [INFO] Hide label for input Stork search:
+https://blog.pope.tech/2020/02/28/missing-form-label-search/ */
+.KiraStorkLabel
+	position absolute
+	left -625rem
+	top auto
+	width .0625rem
+	height .0625rem
+	overflow hidden

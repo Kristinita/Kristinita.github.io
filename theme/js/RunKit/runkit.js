@@ -1,13 +1,17 @@
 //#########
 // RunKit #
 //#########
-// Run npm code online in browser:
-// https://runkit.com
-// Needs use theme-maker, that change styles:
-// https://stackoverflow.com/a/56545110/5951529
-// https://runkit.com/docs/theme-maker
-// [NOTE] It not documented:
-// https://github.com/runkitdev/runkit-demo/issues/4#issuecomment-359939358
+/*
+[OVERVIEW] Run npm code online in browser:
+https://runkit.com
+
+[REQUIRED] theme-maker for changing styles:
+https://stackoverflow.com/a/56545110/5951529
+https://runkit.com/docs/theme-maker
+
+[NOTE] It not documented:
+https://github.com/runkitdev/runkit-demo/issues/4#issuecomment-359939358
+ */
 var notebook;
 
 notebook = RunKit.createNotebook({

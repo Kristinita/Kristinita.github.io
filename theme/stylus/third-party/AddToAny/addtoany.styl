@@ -1,0 +1,58 @@
+/* >> AddToAny
+	========================================================================== */
+
+/* csslint ignore:start */
+
+/*
+[LEARN][HTML] “div”, that overwrite default value:
+https://stackoverflow.com/a/9956515/5951529
+ */
+div.a2a_floating_style
+	padding .0625rem
+	top 30%
+
+	/* [INFO] Smaller “z-index” so as not to overlap lightbox buttons:
+	https://i.imgur.com/NVaVOox.png
+
+	[INFO] Bulma navbar has z-index 30, I created “z-index” for AddToAny a bit more
+
+	[INFO] “.gm-scrollbar” has “z-index: 1” by default;
+	buttons must have a little bit value
+	 */
+	z-index 40
+
+	/*
+	[INFO] Color for accessibility tools.
+	“a” tag in AddToAny icons haven’t any text; we click to icons, not to text.
+	But accessibility tolor mark AddToAny “a” color as error anyway
+	 */
+	>a
+		color navy
+
+div.a2a_default_style
+	border-radius .375rem
+	padding .25rem
+	/*
+	[LEARN][CSS] Prevent block stretching to all width
+	https://toster.ru/q/322812
+	 */
+	float left
+
+/* csslint ignore:end */
+
+
+/*
+[INFO] Hide AddToAny until the script “https://static.addtoany.com/menu/page.js” is run;
+The script run after 7 seconds, the tag after 8:
+https://stackoverflow.com/a/46799062/5951529
+
+Otherwise, strip in the top of the page:
+https://i.imgur.com/WnrhzRI.png
+ */
+.KiraAddToAny
+	animation KiraAddToAnyHide 0s 8s forwards
+	visibility hidden
+
+@keyframes KiraAddToAnyHide
+	to
+		visibility visible

@@ -1,1 +1,0 @@
-'use strict';var notebook;notebook=RunKit.createNotebook({element:document.getElementById("SashaRunkit"),source:"var stringSimilarity = require('string-similarity')\n\nvar similarity = stringSimilarity.compareTwoStrings('\u041a\u0438\u0440\u0430', '\u041a\u0438\u0440\u043a');",theme:"untilted-028u85ijnoyr"});

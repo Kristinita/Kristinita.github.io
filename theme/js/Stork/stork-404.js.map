@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "stork-404.js",
+	"sourceRoot": "../../coffee/Stork/",
+	"sources": [
+		"stork-404.coffee"
+	],
+	"names": [],
+	"mappings": "AAAA,KAAK,CAAC,QAAN,CAAe,YAAf,EAA6B,mBAA7B",
+	"sourcesContent": [
+		"stork.register 'kira-stork', './search-index.st'\n"
+	]
+}

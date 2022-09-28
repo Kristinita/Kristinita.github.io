@@ -1,1 +1,0 @@
-'use strict';var add_target_blank_to_external_links;add_target_blank_to_external_links=function(){$('a[href^="http://"], a[href^="https://"]').not('a[href*="'+location.hostname+'"]').attr("target","_blank")};jQuery(document).ready(function(){add_target_blank_to_external_links()});

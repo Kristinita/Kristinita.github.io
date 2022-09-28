@@ -1,0 +1,3 @@
+.admonition.info,.admonition.todo,details.info,details.todo{border-left-color:#00b8d4}.admonition.info>.admonition-title,.admonition.info>summary,.admonition.todo>.admonition-title,.admonition.todo>summary,details.info>.admonition-title,details.info>summary,details.todo>.admonition-title,details.todo>summary{background-color:#00b8d41a;border-bottom:.1rem solid #00b8d41a}.admonition.info>.admonition-title:before,.admonition.info>summary:before,.admonition.todo>.admonition-title:before,.admonition.todo>summary:before,details.info>.admonition-title:before,details.info>summary:before,details.todo>.admonition-title:before,details.todo>summary:before{color:#00b8d4;content:"\E88E"}
+
+/*# sourceMappingURL=admonition-info.min.bc428a8650fa56cf.css.map */

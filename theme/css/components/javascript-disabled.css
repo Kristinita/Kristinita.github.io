@@ -1,0 +1,24 @@
+/* >> Disabled JavaScript
+	========================================================================== */
+/*
+[INFO] Message in top bar, if user disable JavaScript in the browser:
+
+[INFO] Based on:
+http://www.w3programmers.com/pure-css-noscript-message/
+
+[INFO] Use class name “.SashaDisabledJavaScriptMessage”, not “<noscript>”.
+Native lazy loading polyfill used “<noscript>”:
+https://github.com/mfranzke/loading-attribute-polyfill
+ */
+.SashaDisabledJavaScriptMessage {
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 1rem 0;
+	background: rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0;
+	z-index: 900;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3N0eWx1cy9jb21wb25lbnRzL2phdmFzY3JpcHQtZGlzYWJsZWQuc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFHQTs7Ozs7Ozs7OztBQVVBO0VBQ0MsT0FBTSxLQUFOO0VBQ0EsYUFBWSxXQUFaO0VBQ0EsYUFBWSxLQUFaO0VBQ0EsWUFBVyxPQUFYO0VBQ0EsU0FBUSxPQUFSO0VBQ0EsWUFBVyxnQkFBWDtFQUNBLFVBQVMsTUFBVDtFQUNBLEtBQUksRUFBSjtFQUNBLFNBQVEsSUFBUiIsImZpbGUiOiJqYXZhc2NyaXB0LWRpc2FibGVkLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qID4+IERpc2FibGVkIEphdmFTY3JpcHRcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLypcbltJTkZPXSBNZXNzYWdlIGluIHRvcCBiYXIsIGlmIHVzZXIgZGlzYWJsZSBKYXZhU2NyaXB0IGluIHRoZSBicm93c2VyOlxuXG5bSU5GT10gQmFzZWQgb246XG5odHRwOi8vd3d3LnczcHJvZ3JhbW1lcnMuY29tL3B1cmUtY3NzLW5vc2NyaXB0LW1lc3NhZ2UvXG5cbltJTkZPXSBVc2UgY2xhc3MgbmFtZSDigJwuU2FzaGFEaXNhYmxlZEphdmFTY3JpcHRNZXNzYWdl4oCdLCBub3Qg4oCcPG5vc2NyaXB0PuKAnS5cbk5hdGl2ZSBsYXp5IGxvYWRpbmcgcG9seWZpbGwgdXNlZCDigJw8bm9zY3JpcHQ+4oCdOlxuaHR0cHM6Ly9naXRodWIuY29tL21mcmFuemtlL2xvYWRpbmctYXR0cmlidXRlLXBvbHlmaWxsXG4qL1xuLlNhc2hhRGlzYWJsZWRKYXZhU2NyaXB0TWVzc2FnZVxuXHRjb2xvciB3aGl0ZVxuXHRmb250LWZhbWlseSBzYW5zLXNlcmlmXG5cdGZvbnQtd2VpZ2h0IGJvbGRcblx0dGV4dC1hbGlnbiBjZW50ZXJcblx0cGFkZGluZyAxcmVtIDBcblx0YmFja2dyb3VuZCByZ2JhKDAgMCAwIC45KVxuXHRwb3NpdGlvbiBmaXhlZFxuXHR0b3AgMFxuXHR6LWluZGV4IDkwMFxuIl19 */

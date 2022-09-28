@@ -1,0 +1,56 @@
+/*
+ * @Author: Kristinita
+ * @Date: 2017-03-23 09:42:24
+ * @Last Modified by: Kristinita
+ * @Last Modified time: 2017-03-23 10:42:14
+ */
+@import "../components/placeholders.styl"
+
+
+body
+	/* [INFO] Color overlay to a background image:
+	https://stackoverflow.com/a/36679903/5951529
+
+	[INFO] I select “linear-gradient”, not more popular “box-shadow” method,
+	because accessibility tools as WAVE Web Accessibility Evaluation Tool
+	detect “linear-gradient”, but not detect “box-shadow”.
+
+	[LEARN][CSS] Background image styles:
+	https://web.dev/optimize-css-background-images-with-media-queries/#understand-responsive-background-images
+	 */
+	background linear-gradient(0deg, #800080bf, #800080bf), url("../../images/backgrounds/SashaHangerBackground.webp") no-repeat center center/cover fixed
+
+a
+	color orange
+	text-decoration none
+
+.SashaPageLoading
+	box-shadow none
+	/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+	 */
+	display none
+
+.Sasha404
+	@extend $SashaTextAlignCenter
+	margin-bottom 1.5rem
+	font-size 3rem
+	color orange
+	font-weight bold
+	/* [INFO] text-stroke — border around letters:
+	https://ru.stackoverflow.com/q/196968/199934
+	https://css-tricks.com/almanac/properties/t/text-stroke/
+	https://caniuse.com/#feat=text-stroke
+	 */
+	-webkit-text-stroke .1rem red
+
+.Sasha404Description
+	@extend $SashaTextAlignCenter
+	margin-bottom 1rem
+	/* [INFO][CSS] “clamp” — method for cross-browser fonts;
+	possibly, the best method for responsive fonts in 2022:
+	https://stackoverflow.com/a/62808509/5951529 */
+	font-size clamp(1.2rem, 2vw, 1.6rem)
+	color honeydew
+	-webkit-text-stroke .02rem

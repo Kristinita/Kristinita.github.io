@@ -1,0 +1,146 @@
+/* >> lazy loading polyfill
+	========================================================================== */
+
+/*
+[OVERVIEW] Polyfill for the native loading="lazy" attribute:
+https://github.com/mfranzke/loading-attribute-polyfill
+
+[INFO] Content of “loading-attribute-polyfill.css”:
+https://cdn.jsdelivr.net/npm/loading-attribute-polyfill/dist/loading-attribute-polyfill.min.css
+ */
+img[data-lazy-src]
+	will-change contents
+
+
+/* >> hes-gallery
+	========================================================================== */
+
+/* [REQUIRED] csslint anti-patterns
+:
+1. “div” and “img” overqualified elements,
+2. ids, no classes
+ */
+
+/* csslint ignore:start */
+
+div
+
+	/*
+	[INFO] Lightbox background color
+
+	[NOTE] In this case “div” overqualified element not required;
+	but since it required for “#hg-bg::after” I added it for syntax simplify
+	 */
+	&#hg-bg
+
+		// [INFO] Goldenrod with opacity
+		background-color #daa52082
+
+		/*
+		[INFO] “Close” button
+
+		[NOTE] We can close lightbox by click to any free area
+
+		[WARNING] Image overlapped this element:
+		https://github.com/demtario/hes-gallery/issues/9
+		 */
+		&::after
+
+			/* [LICENSE] “Banking and finance” pack from Kiranshastry:
+			https://www.flaticon.com/packs/banking-and-finance-22
+
+			[INFO] It overwrite default close icon
+
+			[NOTE] Use “.png” format for these icons, not “.webp”
+
+			[LEARN][STYLUS] Using templates in URLs
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391
+
+			[FIXME][ISSUE][STYLUS] Get paths from YAML in Stylus
+			 */
+			background-image url(../../images/interface-images/hes-gallery/close.png)
+			width 2.5rem
+			height 2.5rem
+			top 1.25rem
+			right 1.25rem
+
+	// [INFO] Text below image in the lightbox
+	&#hg-howmany
+		color papayawhip
+		font-size 1.2rem
+		bottom -2rem
+
+	// [INFO] Left and right arrows
+	&#hgallery button
+
+		/*
+		[INFO] Arrows overlay lightbox images
+
+		[LEARN][CSS] “inherit” — get a property from the parent element:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+		 */
+		z-index inherit
+
+		// [INFO] Disable margins for left and right arrows
+		// &#hg-prev
+		// 	left 0
+
+		// &#hg-next
+		// 	right 0
+
+		img
+			/*
+			[LICENSE] “Arrows Icon” pack from Pixel perfect:
+			https://www.flaticon.com/packs/arrows-50
+
+			[INFO] Left and right icons both from this pack
+
+			[INFO] Overwrite default arrows icons:
+			https://stackoverflow.com/a/62851001/5951529
+
+			[NOTE] Overwrite via “background-image” doesn’t work for me:
+			https://stackoverflow.com/a/28832261/5951529
+
+			[INFO] Yes, single icon required for right and left arrows
+			 */
+			content url(../../images/interface-images/hes-gallery/right-arrow.png)
+
+			// [INFO] Arrows size
+			width 90%
+			height 80%
+
+			box-shadow none
+			opacity .4
+
+			&:hover
+				opacity 1
+
+
+img#hg-pic
+	/*
+	[LEARN][CSS] Overwrite “min-height” and “min-width”:
+	https://stackoverflow.com/a/27582386/5951529
+
+	[PURPOSE] It disable white borders.
+
+	[COMPARE]
+	https://i.imgur.com/3mXbJW4.png
+	https://i.imgur.com/9Gl7vOT.png
+	 */
+	min-height 0
+	min-width 0
+
+	/*
+	[LEARN][CSS] Viewport-Relative length:
+	https://stackoverflow.com/a/16837667/5951529
+
+	[INFO] It specify “max-height” property to the screen size:
+	https://stackoverflow.com/a/43639067/5951529
+
+	[PURPOSE] That “#hg-howmany” value didn’t go off screen
+
+	[COMPARE]
+	85vh — https://i.imgur.com/YA340vy.png
+	90vh (default) — https://i.imgur.com/NArND6X.png
+	 */
+	max-height 85vh

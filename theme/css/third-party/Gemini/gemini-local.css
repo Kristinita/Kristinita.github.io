@@ -1,0 +1,84 @@
+/*
+ * @Author: Kristinita
+ * @Date:   2017-05-02 11:33:47
+ * @Last Modified by:   Kristinita
+ * @Last Modified time: 2017-05-02 11:37:12
+ */
+/* ==========================================================================
+	Don't use Malihu! It have at least bugs.
+	========================================================================== */
+/*
+ * 1. Ctrl+F problem — https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/486#issuecomment-298243647 ,
+ * 2. problem with lazy load plugins,
+ * 3. doesn't work links to article anchors,
+ * 4. different behavior for left and right scrollbars.
+ */
+/*****************************************************************************
+ * See full documentation here — http://manos.malihu.gr/jquery-custom-content-scroller/
+ * Settings — http://manos.malihu.gr/jquery-custom-content-scroller/
+ * Theme elements — http://manos.malihu.gr/wp-content/uploads/2012/07/scrollbar_layout.png
+ *****************************************************
+ */
+/* ==========================================================================
+	Gemini scrollbar
+	========================================================================== */
+/* Description — https://github.com/noeldelgado/gemini-scrollbar */
+/*
+ * Don't scroll <aside>, if orientation — landscape:
+ * https://stackoverflow.com/q/49296892/5951529
+ * https://github.com/noeldelgado/gemini-scrollbar/issues/46#issuecomment-374928170
+ * https://stackoverflow.com/a/15256339/5951529
+ */
+/*
+[INFO][REQUIRED] For Gemini scrollbar instead of native body scrollbar:
+https://github.com/noeldelgado/gemini-scrollbar#notes
+ */
+html {
+	height: 100%;
+}
+body {
+/* [REQUIRED] If Gemini scrollbar used
+
+	[COMPARE]
+	https://i.imgur.com/HKRTvr5.png
+	https://i.imgur.com/zuUmgiJ.png
+ */
+	margin: 0;
+}
+/*
+[NOTE] Required for minimal Gemini Scrollbar usage;
+full list for minimal Gemini usage here:
+https://repl.it/@Kristinita/KiraFancyBoxGeminitopscrolling
+ */
+.gm-scrollbar-container .gm-scroll-view {
+	transform: initial;
+}
+/* Radius of scrollbar borders*/
+.gm-scrollbar {
+	border-radius: 0.4rem;
+}
+.gm-scrollbar.-vertical {
+	width: 0.8rem;
+	background-color: #ffdab9;
+/* Disable top and bottom margins */
+	top: 0;
+	bottom: 0;
+}
+.gm-scrollbar.-horizontal {
+/* [INFO] Hide horizontal Gemini scrollbar.
+		I don’t use horizontal scrollbars in my site.
+
+		Gemini have some bugs and shows horizontal scrollbar
+		in some unexpected cases. Related bug:
+		https://github.com/noeldelgado/gemini-scrollbar/issues/59 */
+	display: none;
+}
+.gm-scrollbar .thumb {
+	background-color: rgba(128,74,125,0.6);
+}
+/* Thumb — scrollbar container */
+.gm-scrollbar .thumb:hover,
+.gm-scrollbar .thumb:active {
+	background-color: rgba(128,74,125,0.6);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy90aGlyZC1wYXJ0eS9HZW1pbmkvZ2VtaW5pLWxvY2FsLnN0eWwiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7OztBQU9BOzs7QUFHQTs7Ozs7O0FBT0E7Ozs7OztBQU9BOzs7QUFJQTtBQUVBOzs7Ozs7QUFTQTs7OztBQUlBO0VBQ0MsUUFBTyxLQUFQOztBQUVEO0FBQ0M7Ozs7OztFQU1BLFFBQU8sRUFBUDs7QUFFRDs7Ozs7QUFLQTtFQUNDLFdBQVUsUUFBVjs7QUFFRDtBQUVBO0VBQ0MsZUFBYyxPQUFkOztBQUVBO0VBQ0MsT0FBTSxPQUFOO0VBQ0Esa0JBQWlCLFFBQWpCO0FBQ0E7RUFDQSxLQUFJLEVBQUo7RUFDQSxRQUFPLEVBQVA7O0FBRUQ7QUFDQzs7Ozs7O0VBTUEsU0FBUSxLQUFSOztBQUVEO0VBQ0Msa0JBQWlCLHFCQUFqQjs7QUFFRjtBQUVBO0FBQ0E7RUFDQyxrQkFBaUIscUJBQWpCIiwiZmlsZSI6ImdlbWluaS1sb2NhbC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuKiBAQXV0aG9yOiBLcmlzdGluaXRhXG4qIEBEYXRlOiAgIDIwMTctMDUtMDIgMTE6MzM6NDdcbiogQExhc3QgTW9kaWZpZWQgYnk6ICAgS3Jpc3Rpbml0YVxuKiBATGFzdCBNb2RpZmllZCB0aW1lOiAyMDE3LTA1LTAyIDExOjM3OjEyXG4qL1xuXG4vKiA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuXHREb24ndCB1c2UgTWFsaWh1ISBJdCBoYXZlIGF0IGxlYXN0IGJ1Z3MuXG5cdD09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG4vKlxuKiAxLiBDdHJsK0YgcHJvYmxlbSDigJQgaHR0cHM6Ly9naXRodWIuY29tL21hbGlodS9tYWxpaHUtY3VzdG9tLXNjcm9sbGJhci1wbHVnaW4vaXNzdWVzLzQ4NiNpc3N1ZWNvbW1lbnQtMjk4MjQzNjQ3ICxcbiogMi4gcHJvYmxlbSB3aXRoIGxhenkgbG9hZCBwbHVnaW5zLFxuKiAzLiBkb2Vzbid0IHdvcmsgbGlua3MgdG8gYXJ0aWNsZSBhbmNob3JzLFxuKiA0LiBkaWZmZXJlbnQgYmVoYXZpb3IgZm9yIGxlZnQgYW5kIHJpZ2h0IHNjcm9sbGJhcnMuXG4qL1xuXG4vKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKipcbiogU2VlIGZ1bGwgZG9jdW1lbnRhdGlvbiBoZXJlIOKAlCBodHRwOi8vbWFub3MubWFsaWh1LmdyL2pxdWVyeS1jdXN0b20tY29udGVudC1zY3JvbGxlci9cbiogU2V0dGluZ3Mg4oCUIGh0dHA6Ly9tYW5vcy5tYWxpaHUuZ3IvanF1ZXJ5LWN1c3RvbS1jb250ZW50LXNjcm9sbGVyL1xuKiBUaGVtZSBlbGVtZW50cyDigJQgaHR0cDovL21hbm9zLm1hbGlodS5nci93cC1jb250ZW50L3VwbG9hZHMvMjAxMi8wNy9zY3JvbGxiYXJfbGF5b3V0LnBuZ1xuKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKipcbiovXG5cbi8qID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG5cdEdlbWluaSBzY3JvbGxiYXJcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyogRGVzY3JpcHRpb24g4oCUIGh0dHBzOi8vZ2l0aHViLmNvbS9ub2VsZGVsZ2Fkby9nZW1pbmktc2Nyb2xsYmFyICovXG5cbi8qXG4qIERvbid0IHNjcm9sbCA8YXNpZGU+LCBpZiBvcmllbnRhdGlvbiDigJQgbGFuZHNjYXBlOlxuKiBodHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL3EvNDkyOTY4OTIvNTk1MTUyOVxuKiBodHRwczovL2dpdGh1Yi5jb20vbm9lbGRlbGdhZG8vZ2VtaW5pLXNjcm9sbGJhci9pc3N1ZXMvNDYjaXNzdWVjb21tZW50LTM3NDkyODE3MFxuKiBodHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL2EvMTUyNTYzMzkvNTk1MTUyOVxuKi9cblxuU2FzaGFHZW1pbmlDb2xvciA9ICM4MDRhN2Q5OVxuXG4vKlxuW0lORk9dW1JFUVVJUkVEXSBGb3IgR2VtaW5pIHNjcm9sbGJhciBpbnN0ZWFkIG9mIG5hdGl2ZSBib2R5IHNjcm9sbGJhcjpcbmh0dHBzOi8vZ2l0aHViLmNvbS9ub2VsZGVsZ2Fkby9nZW1pbmktc2Nyb2xsYmFyI25vdGVzXG4qL1xuaHRtbFxuXHRoZWlnaHQgMTAwJVxuXG5ib2R5XG5cdC8qIFtSRVFVSVJFRF0gSWYgR2VtaW5pIHNjcm9sbGJhciB1c2VkXG5cblx0W0NPTVBBUkVdXG5cdGh0dHBzOi8vaS5pbWd1ci5jb20vSEtSVHZyNS5wbmdcblx0aHR0cHM6Ly9pLmltZ3VyLmNvbS96dVVtZ2lKLnBuZ1xuXHQqL1xuXHRtYXJnaW4gMFxuXG4vKlxuW05PVEVdIFJlcXVpcmVkIGZvciBtaW5pbWFsIEdlbWluaSBTY3JvbGxiYXIgdXNhZ2U7XG5mdWxsIGxpc3QgZm9yIG1pbmltYWwgR2VtaW5pIHVzYWdlIGhlcmU6XG5odHRwczovL3JlcGwuaXQvQEtyaXN0aW5pdGEvS2lyYUZhbmN5Qm94R2VtaW5pdG9wc2Nyb2xsaW5nXG4qL1xuLmdtLXNjcm9sbGJhci1jb250YWluZXIgLmdtLXNjcm9sbC12aWV3XG5cdHRyYW5zZm9ybSBpbml0aWFsXG5cbi8qIFJhZGl1cyBvZiBzY3JvbGxiYXIgYm9yZGVycyovXG5cbi5nbS1zY3JvbGxiYXJcblx0Ym9yZGVyLXJhZGl1cyAuNHJlbVxuXG5cdCYuLXZlcnRpY2FsXG5cdFx0d2lkdGggLjhyZW1cblx0XHRiYWNrZ3JvdW5kLWNvbG9yIHBlYWNocHVmZlxuXHRcdC8qIERpc2FibGUgdG9wIGFuZCBib3R0b20gbWFyZ2lucyAqL1xuXHRcdHRvcCAwXG5cdFx0Ym90dG9tIDBcblxuXHQmLi1ob3Jpem9udGFsXG5cdFx0LyogW0lORk9dIEhpZGUgaG9yaXpvbnRhbCBHZW1pbmkgc2Nyb2xsYmFyLlxuXHRcdEkgZG9u4oCZdCB1c2UgaG9yaXpvbnRhbCBzY3JvbGxiYXJzIGluIG15IHNpdGUuXG5cblx0XHRHZW1pbmkgaGF2ZSBzb21lIGJ1Z3MgYW5kIHNob3dzIGhvcml6b250YWwgc2Nyb2xsYmFyXG5cdFx0aW4gc29tZSB1bmV4cGVjdGVkIGNhc2VzLiBSZWxhdGVkIGJ1Zzpcblx0XHRodHRwczovL2dpdGh1Yi5jb20vbm9lbGRlbGdhZG8vZ2VtaW5pLXNjcm9sbGJhci9pc3N1ZXMvNTkgKi9cblx0XHRkaXNwbGF5IG5vbmVcblxuXHQudGh1bWJcblx0XHRiYWNrZ3JvdW5kLWNvbG9yIFNhc2hhR2VtaW5pQ29sb3JcblxuLyogVGh1bWIg4oCUIHNjcm9sbGJhciBjb250YWluZXIgKi9cblxuLmdtLXNjcm9sbGJhciAudGh1bWI6aG92ZXJcbi5nbS1zY3JvbGxiYXIgLnRodW1iOmFjdGl2ZVxuXHRiYWNrZ3JvdW5kLWNvbG9yIFNhc2hhR2VtaW5pQ29sb3JcbiJdfQ== */

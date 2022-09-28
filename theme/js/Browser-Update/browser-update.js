@@ -6,22 +6,24 @@ var $buo_f, $buoop, alternative, arguments_en, arguments_ru, e, lifewire, quora1
 /*
 [PURPOSE] Show message, if user use bad or outdated browser:
 https://browser-update.org/
+
 [INFO] Options:
 https://browser-update.org/customize.html
 
 [INFO] If we add “#test-bu” to the end of any URL with browser-update,
 browser-update message will always show:
 http://browser-update.org/customize.html
+
 [INFO] If “#test-bu”, test message will always show as if
 “test:true”
+
 [INFO] If we add “#ignorecookie-bu” to the end of any URL with browser-update,
 browser-update will ignore cookies:
 https://github.com/browser-update/browser-update/wiki/Test-the-notification#ignore-the-cookie
 
 [INFO] Whitelist of bots and niche browsers:
 https://github.com/browser-update/browser-update/wiki/Ignore-Browser-List
- */
-/*
+
 [INFO] Custom links:
 https://github.com/browser-update/browser-update/issues/390
  */
@@ -46,6 +48,7 @@ $buoop = {
 		/*
 		[INFO] Supported browsers:
 		https://github.com/browser-update/browser-update/wiki/Details-on-configuration#browsers
+
 		[NOTE] Use “4147” or another big number for disable all browser versions:
 		https://github.com/browser-update/browser-update/pull/324
 		 */
@@ -53,6 +56,7 @@ $buoop = {
 		/*
 		[INFO] “-1” — 2 latest browser versions required for user:
 		https://github.com/browser-update/browser-update/wiki/Details-on-configuration#configure-browser-versions-to-notify
+
 		[NOTE] We need add each browser separately, Browserslist doesn’t supported:
 		https://github.com/browser-update/browser-update/issues/389
 		 */
@@ -113,6 +117,7 @@ $buoop = {
 	shift_page_down: true,
 	/*
 	[INFO] I don’t want notify Firefox ESR.
+
 	[LEARN][FIREFOX] Firefox ESR — version for large organizations
 	for security and stability fixes:
 	https://support.mozilla.org/en-US/kb/switch-to-firefox-extended-support-release-esr
@@ -125,6 +130,7 @@ $buoop = {
 	/*
 	[INFO] Custom text:
 	https://github.com/browser-update/browser-update/wiki/Details-on-configuration#custom-text
+
 	[INFO] “{brow_name} — browser name from user-agent string”
 	 */
 	text: 'Please, update your browser. {brow_name} is outdated version. See the ' + arguments_en.link('https://browser-update.org/update-browser.html') + ', why this is primarily beneficial for yourself as a user.',
@@ -149,6 +155,7 @@ $buo_f = function() {
 	/*
 	[NOTE] Link to browser-update.org required:
 	https://github.com/browser-update/browser-update/issues/504
+
 	We can’t use in this script CDN links as these:
 	https://cdn.jsdelivr.net/npm/browser-update/update.npm.full.min.js
 	https://cdn.jsdelivr.net/npm/browser-update/update.npm.js

@@ -1,0 +1,30 @@
+/* >> Progressbar
+	========================================================================== */
+
+// https://facelessuser.github.io/pymdown-extensions/extensions/progressbar/#styling-with-css
+// The bands, on which is progress-bar
+.progress
+	background-color Sasha-Body-Background
+
+// [INFO] I don’t understand, what is it. Default color?
+.progress-bar
+	background-color Sasha-Progress-Bar
+
+// Text in progress-bar
+.progress-label
+	color Sasha-Progressbar-Text
+
+/* [LEARN][STYLUS] Loops in range:
+http://stylus-lang.com/docs/bifs.html#rangestart-stop-step
+http://bit.ly/2Udy4tD */
+for level in range(0, 100, 10)
+
+	/* [NOTE] Braces required for properties, but not for selectors:
+	http://stylus-lang.com/docs/bifs.html#rangestart-stop-step */
+	.progress-{level}plus
+		.progress-bar
+
+			/* [LEARN][STYLUS]
+			[NOTE] Needs concatenate; otherwise space between variables:
+			https://github.com/stylus/stylus/issues/2147#issuecomment-197338391 */
+			background-color Sasha-Progressbar- + level

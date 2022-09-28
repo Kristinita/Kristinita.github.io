@@ -1,0 +1,111 @@
+/* >> import placeholders
+	========================================================================== */
+
+@import "../placeholders.styl"
+
+
+/* ==========================================================================
+	> Code
+	========================================================================== */
+
+
+/* [SOON] CSS “:has()” syntax:
+pre:has(> code)
+https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+
+As of September 2022 it’s not supported by some browsers:
+https://caniuse.com/?search=%3Ahas()
+ */
+
+.SashaBlockHighlight > pre
+	// [INFO] padding — padding code from the code block
+	padding .5rem
+
+
+pre > code
+	@extend $SashaNoHorizontalScrollbar
+	/*
+	[INFO] Fira Mono — monospace:
+	https://google-webfonts-helper.herokuapp.com/fonts/fira-mono
+
+	[INFO] “Courier New” fallback font:
+	https://i.imgur.com/dBkKvxJ.png
+	 */
+	font-family "Fira Mono", "Courier New", Courier, monospace
+	font-size 1.1875rem
+
+	// [INFO] relative — for correct code block displaying
+	position relative
+
+	// [INFO] pre-wrap — code wraps to the next line
+	white-space pre-wrap
+
+	/*
+	[LEARN][CSS] Length values:
+	https://tympanus.net/codrops/css_reference/length/
+	https://tympanus.net/codrops/css_reference/tab-size/
+
+	[INFO] By default, tab = 8 spaces in code blocks.
+	Visually, it looks like a big value.
+	Therefore, I set “tab-size 4”
+
+	[COMPARE]
+	https://i.imgur.com/cct9xKk.png
+	https://i.imgur.com/XosB5tK.png
+	 */
+	tab-size 4
+
+
+/* >> Clipboard.js and balloon-css
+	========================================================================== */
+
+/*
+[INFO] Styles for Clipboard.js button
+
+[INFO] Using “float: right” instead of “position: absolute”,
+That button not block a text, see:
+http://bit.ly/2EwrJBH
+ */
+
+/*
+[INFO] Balloon.css options:
+https://github.com/kazzkiq/balloon.css#customizing-tooltips
+
+[LEARN][CSS] Double dashes in CSS variables:
+https://stackoverflow.com/a/52911125/5951529
+https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+
+[WARNING] csslint doesn’t support double dash syntax:
+https://github.com/CSSLint/csslint/issues/720
+https://github.com/CSSLint/csslint/issues/682
+ */
+.SashaClipboardButton
+	@extend $SashaFloatRight
+	// [INFO] Color by hover
+	--balloon-color brown
+
+.SashaBalloonAfterClick
+	@extend $SashaFloatRight
+	// [INFO] Color by click
+	--balloon-color green
+
+// [INFO] Width of clipboard button in code blocks
+.SashaClipboardImage
+	width .8125rem
+
+/* csslint ignore:start */
+
+:root
+	--balloon-font-size 1.1rem
+	--balloon-text-color papayawhip
+
+/*
+[REQUIRED] Both: “[aria-label]” and “[data-balloon-pos]”
+
+[FIXME][ISSUE][BALLOON_CSS] Slow unqualified attribute:
+https://github.com/CSSLint/csslint/wiki/Disallow-unqualified-attribute-selectors
+ */
+[aria-label][data-balloon-pos]:after
+	font-weight bold
+
+/* csslint ignore:end */

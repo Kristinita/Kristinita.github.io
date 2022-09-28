@@ -1,0 +1,51 @@
+/*==========================================================================*
+	General
+	========================================================================== */
+/* ==========================================================================
+	Malihu
+	========================================================================== */
+/* [INFO] Don’t use Malihu, plugin have bugs:
+https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/501#issuecomment-275629140
+
+.mCustomScrollbar .mCSB_scrollTools {
+	right: auto;
+}
+
+.mCustomScrollbar .mCSB_inside > .mCSB_container {
+	margin-right: 0;
+}
+ */
+/* ==========================================================================
+	Gemini
+	========================================================================== */
+/* Scrollbar in left side */
+.gm-scrollbar.-vertical {
+	right: auto;
+}
+/* ==========================================================================
+	Media
+	========================================================================== */
+/* Landscape */
+@media screen and (orientation: landscape) {
+	article {
+		margin-right: 1rem;
+		margin-left: 2rem;
+	}
+	.SashaIconAside {
+		right: 0;
+	}
+}
+/* Portrait */
+@media screen and (orientation: portrait) {
+	article {
+		margin-right: 1rem;
+		margin-left: 3rem;
+	}
+}
+/* ==========================================================================
+	AddToAny
+	========================================================================== */
+.a2a_floating_style {
+	left: 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy9jb21wb25lbnRzL0FzaWRlLWljb25zL2FzaWRlLWljb24tcmlnaHQuc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0FBSUE7OztBQUlBOzs7Ozs7Ozs7OztBQVlBOzs7QUFJQTtBQUdDO0VBQ0MsT0FBTSxLQUFOOztBQUVGOzs7QUFJQTtBQUV3QztBQUl2QztJQUNDLGNBQWEsS0FBYjtJQUNBLGFBQVksS0FBWjs7QUFTRDtJQUNDLE9BQU0sRUFBTjs7O0FBRUY7QUFFdUM7QUFTdEM7SUFDQyxjQUFhLEtBQWI7SUFDQSxhQUFZLEtBQVo7OztBQUVGOzs7QUFNQTtFQUNDLE1BQUssRUFBTCIsImZpbGUiOiJhc2lkZS1pY29uLXJpZ2h0LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0qXG5cdEdlbmVyYWxcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cblx0TWFsaWh1XG5cdD09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbi8qIFtJTkZPXSBEb27igJl0IHVzZSBNYWxpaHUsIHBsdWdpbiBoYXZlIGJ1Z3M6XG5odHRwczovL2dpdGh1Yi5jb20vbWFsaWh1L21hbGlodS1jdXN0b20tc2Nyb2xsYmFyLXBsdWdpbi9pc3N1ZXMvNTAxI2lzc3VlY29tbWVudC0yNzU2MjkxNDBcblxuLm1DdXN0b21TY3JvbGxiYXIgLm1DU0Jfc2Nyb2xsVG9vbHMge1xuXHRyaWdodDogYXV0bztcbn1cblxuLm1DdXN0b21TY3JvbGxiYXIgLm1DU0JfaW5zaWRlID4gLm1DU0JfY29udGFpbmVyIHtcblx0bWFyZ2luLXJpZ2h0OiAwO1xufVxuKi9cblxuLyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cblx0R2VtaW5pXG5cdD09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovXG5cbi8qIFNjcm9sbGJhciBpbiBsZWZ0IHNpZGUgKi9cblxuLmdtLXNjcm9sbGJhclxuXHQmLi12ZXJ0aWNhbFxuXHRcdHJpZ2h0IGF1dG9cblxuLyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT1cblx0TWVkaWFcblx0PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gKi9cblxuLyogTGFuZHNjYXBlICovXG5cbkBtZWRpYSBzY3JlZW4gYW5kIChvcmllbnRhdGlvbiBsYW5kc2NhcGUpXG5cblx0LyogQ29udGFpbmVyIHdpdGhvdXQgc2Nyb2xsYmFyICovXG5cblx0YXJ0aWNsZVxuXHRcdG1hcmdpbi1yaWdodCAxcmVtXG5cdFx0bWFyZ2luLWxlZnQgMnJlbVxuXG5cdC8qXG5cdFtJTkZPXSBGaXggPGFzaWRlPiB0byByaWdodCBzaWRlLCBpZiDigJxwb3NpdGlvbjogZml4ZWTigJ1cblxuXHRbSU5GT10g4oCcZmxvYXQ6cmlnaHTigJ0gZG9lc24ndCB3b3JrOlxuXHRodHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL2EvMTQ5OTE3OTAvNTk1MTUyOVxuXHQqL1xuXG5cdC5TYXNoYUljb25Bc2lkZVxuXHRcdHJpZ2h0IDBcblxuLyogUG9ydHJhaXQgKi9cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG9yaWVudGF0aW9uIHBvcnRyYWl0KVxuXHQvKiBbREVDTElORURdIEkgZG9u4oCZdCB1c2UgTWFsaWh1XG5cblx0Lm1DdXN0b21TY3JvbGxiYXIgLm1DU0Jfc2Nyb2xsVG9vbHMge1xuXHRcdFx0XHRyaWdodDogYXV0bztcblx0fSovXG5cblx0LyogQ29udGFpbmVyIHdpdGhvdXQgc2Nyb2xsYmFyICovXG5cblx0YXJ0aWNsZVxuXHRcdG1hcmdpbi1yaWdodCAxcmVtXG5cdFx0bWFyZ2luLWxlZnQgM3JlbVxuXG4vKiA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuXHRBZGRUb0FueVxuXHQ9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vLyBbSU5GT10gU29jaWFsIGJ1dHRvbnMgaW4gbGVmdCBzaWRlXG5cbi5hMmFfZmxvYXRpbmdfc3R5bGVcblx0bGVmdCAwXG4iXX0= */

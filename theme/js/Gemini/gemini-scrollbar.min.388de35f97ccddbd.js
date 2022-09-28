@@ -1,3 +1,0 @@
-'use strict';var internals;
-internals={initialize:function(){internals.scrollbar=(new GeminiScrollbar({element:document.querySelector("body"),autoshow:!0,forceGemini:!0})).create();internals.scrollingElement=internals.scrollbar.getViewElement();return internals.scrollToHash()},handleOrientationChange:function(){internals.scrollbar.update();internals.scrollToHash()},scrollToHash:function(){var $dechash_element$$;($dechash_element$$=decodeURI(location.hash))&&($dechash_element$$=document.getElementById($dechash_element$$.replace("#","")))&&
-internals.scrollingElement.scrollTo(0,$dechash_element$$.offsetTop)}};window.onload=internals.initialize;window.onorientationchange=internals.handleOrientationChange;

@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "hes-gallery.js",
+	"sourceRoot": "../../coffee/hes-gallery/",
+	"sources": [
+		"hes-gallery.coffee"
+	],
+	"names": [],
+	"mappings": "AAEe;;;;;;;;;;AAQf,UAAU,CAAC,IAAX,CAIC,CAAA;;;;EAAA,UAAA,EAAY,IAAZ;;;;;;;;;;;;;;;EAgBA,YAAA,EAAc;AAhBd,CAJD",
+	"sourcesContent": [
+		"###############\n# hes-gallery #\n###############\n###\n[OVERVIEW] Light, dependency free responsive lightbox/gallery:\nhttps://github.com/demtario/hes-gallery\nhttps://demtario.github.io/hes-gallery/demo/\n\n[OPTIONS] https://github.com/demtario/hes-gallery#global-options\n###\nHesGallery.init\n\t###\n\t[INFO] “Create loop on gallery, you can go from last photo to first with one click”\n\t###\n\twrapAround: true\n\n\t###\n\t[INFO] Disable request to styles from hes-gallery script:\n\thttps://github.com/demtario/hes-gallery/blob/b5cd99a14177bfa9eea50fe1110dc608cbca8365/src/hes-gallery.js#L76-L78\n\n\tReasons:\n\t\t1. “element.innerHTML +=” is bad for web performance:\n\t\thttps://stackoverflow.com/a/11515395/5951529\n\t\t2. I can do a hes-gallery script and styles uploading parallel, not sequential.\n\t\tThis is a plus for a web-performance.\n\t\t3. Non-critical styles are best loaded with Defer.js:\n\t\thttps://github.com/shinsenter/defer.js#Defer.css\n\t\t4. My experience shows that unpkg works less stable than JSDelivr.\n\t\tSite loading sometimes hangs due to slow unpkg.\n\t###\n\thostedStyles: false\n"
+	]
+}

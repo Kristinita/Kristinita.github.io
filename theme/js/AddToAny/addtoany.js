@@ -1,47 +1,63 @@
 //###########
 // AddToAny #
 //###########
-// Highly customisable share buttons:
-// https://www.addtoany.com
-// API:
-// https://www.addtoany.com/buttons/api/
+/*
+[OVERVIEW] Highly customisable share buttons:
+https://www.addtoany.com
+
+[INFO] API:
+https://www.addtoany.com/buttons/api/
+ */
 var a2a_config;
 
 a2a_config = a2a_config || {};
 
-// Disable tracking:
-// https://blog.futtta.be/2010/01/22/add-to-any-removed-from-here/
+/*
+[INFO] Disable tracking:
+https://blog.futtta.be/2010/01/22/add-to-any-removed-from-here/
+ */
 a2a_config.no_3p = true;
 
 a2a_config.track_links = false;
 
-// Icons color:
-// https://www.addtoany.com/buttons/customize/icon_color
+/*
+[INFO] Icons color:
+https://www.addtoany.com/buttons/customize/icon_color
+ */
 a2a_config.icon_color = 'seashell,midnightblue';
 
-// Number of services:
-// https://www.addtoany.com/buttons/customize/number_services
+/*
+[INFO] Number of services:
+https://www.addtoany.com/buttons/customize/number_services
+ */
 a2a_config.num_services = 10;
 
-// Menu orientation
-// https://www.addtoany.com/buttons/customize/orientation
+/*
+[INFO] Menu orientation:
+https://www.addtoany.com/buttons/customize/orientation
+ */
 a2a_config.orientation = 'down';
 
-// Prioritize services
-// https://www.addtoany.com/buttons/customize/prioritize_services
+/*
+[INFO] Prioritize services:
+https://www.addtoany.com/buttons/customize/prioritize_services
+ */
 a2a_config.prioritize = [
 	'facebook',
 	'vk',
 	'twitter',
-	'reddit',
 	'evernote',
 	'livejournal',
-	'pinterest',
-	'linkedin',
+	'viber',
+	'whatsapp',
 	'myspace',
 	'odnoklassniki',
+	'telegram',
+	'pinterest',
 	'design_float',
 	'diary_ru',
+	'linkedin',
+	'reddit',
 	'dzone',
 	'hacker_news',
 	'known',
@@ -50,7 +66,6 @@ a2a_config.prioritize = [
 	'skype',
 	'slashdot',
 	'tubmlr',
-	'whatsapp',
 	// [INFO] RSS subscribe buttons:
 	// https://www.addtoany.com/subscribe/preferences
 	'the_free_library',

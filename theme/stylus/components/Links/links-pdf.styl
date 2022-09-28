@@ -1,0 +1,31 @@
+@import "../placeholders.styl"
+
+/*
+[INFO] Icon for PDF links
+
+[INFO] I don’t use style links depending on a destination.
+I may have performance issues:
+https://github.com/CSSLint/csslint/wiki/Disallow-selectors-that-look-like-regular-expressions#performance-issues
+https://stackoverflow.com/a/18378485/5951529
+https://css-tricks.com/snippets/css/style-links-depending-on-destination/
+
+[PURPOSE] Inform users about PDF link:
+https://blog.pope.tech/2018/08/09/results-icon-dictionary/#link_pdf
+
+[LICENSE] PDF.io image:
+Original source:
+https://static.123apps.com/pdf/i/fav/32.png
+
+[LEARN][GOOGLE_IMAGES]
+Google images has “Icon” filter, Яндекс.Картинки — no:
+https://webapps.stackexchange.com/a/66307/122122
+
+[NOTE] I couldn’t find the better icon in:
+1. Flaticon — https://www.flaticon.com/search?word=pdf&search-type=icons&license=selection&order_by=4&color=2&grid=big
+2. DeviantArt — https://www.deviantart.com/search?q=pdf%20icon
+3. Wikimedia Commons — https://commons.wikimedia.org/wiki/Category:PDF_icons
+4. Yandex images — https://yandex.ru/images/search?text=pdf%20icon&isize=small&icolor=color
+ */
+.KiraPDFLink:after
+	@extend $KiraMarginNonTextLinks
+	content url(../../../images/interface-images/pdf.png)

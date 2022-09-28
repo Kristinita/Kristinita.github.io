@@ -1,0 +1,73 @@
+/* ==========================================================================
+	General
+	========================================================================== */
+
+/* ==========================================================================
+	Mailhu
+	========================================================================== */
+
+/* [NOTE] Don't use Malihu, plugin have bugs:
+https://github.com/malihu/malihu-custom-scrollbar-plugin/issues/501#issuecomment-275629140
+
+.mCustomScrollbar .mCSB_scrollTools {
+	left: auto;
+}
+
+.mCustomScrollbar .mCSB_inside > .mCSB_container {
+	margin-left: 0;
+} */
+
+@import "../placeholders.styl"
+
+/* ==========================================================================
+	Media
+	========================================================================== */
+
+/* Landscape */
+
+@media screen and (orientation landscape)
+
+	/* [INFO] Container without scrollbar */
+
+	article
+		margin-right 2rem
+		margin-left 1rem
+
+	/*
+	[INFO] main in right side
+
+	[INFO] “right: 0” doesn't work here
+	 */
+
+	main
+		float right
+
+	noscript
+		@extend $SashaRightZero
+
+	/*
+	[INFO] Overwrite “left:0” for default browser-update settings:
+	https://stackoverflow.com/a/10102950/5951529
+	 */
+	div.buorg
+		@extend $SashaRightZero
+		left auto
+
+/* Portrait */
+
+@media screen and (orientation portrait)
+
+	/* [INFO] Container without scrollbar */
+
+	article
+		margin-right 3rem
+		margin-left 1rem
+
+/* ==========================================================================
+	AddToAny
+	========================================================================== */
+
+// [INFO] Social buttons in right side
+
+.a2a_floating_style
+	right 0

@@ -1,0 +1,133 @@
+/*
+[LEARN][STYLUS] @extend:
+http://stylus-lang.com/docs/extend
+[INFO] Placeholder selectors:
+http://stylus-lang.com/docs/extend.html#extending-placeholder-selectors
+
+[NOTE] import placeholders with @extend must be in file beginning,
+import variables must be in end of file:
+https://stackoverflow.com/q/47971246/5951529
+ */
+
+/*
+[INFO] For correct gemini-scrollbar displaying, see “body tag” section:
+https://github.com/noeldelgado/gemini-scrollbar#notes
+
+[NOTE] Use “overflow: hidden”! If no, you will get bugs with anchors: scrollbar scroll in begin of the page.
+
+[NOTE] Both html and body must include for correct gemini-scrollbar working.
+ */
+$SashaHTMLBody
+	height 100%
+	overflow hidden
+
+
+/*
+[INFO] Wrap all long words:
+https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap
+
+[NOTE] “overflow-wrap break-word” doesn't work in iOS.
+“word-break break all” works for all browsers:
+https://webref.ru/css/word-break
+
+[NOTE] Don’t use universal selector:
+https://www.npmjs.com/package/stylint#universal--default-false-never--false-
+ */
+$SashaNoHorizontalScrollbar
+	overflow-wrap break-word
+	word-break break-all
+
+
+/*
+[INFO] Make permalinks visible on hover:
+As https://pythonhosted.org/Markdown/extensions/toc.html page
+
+[LEARN][STYLUS] Stylus parent reference, & symbol
+http://stylus-lang.com/docs/selectors.html#parent-reference
+ */
+$SashaVisiblePermalinks
+	&:hover > .KiraAnchorPermanentLink
+		visibility visible
+
+$SashaItalic
+	font-style italic
+
+$SashaFloatLeft
+	float left
+
+$SashaFloatRight
+	float right
+
+$SashaRightZero
+	right 0
+
+$SashaTextAlignCenter
+	text-align center
+
+$SashaPlaceholderDisplayInline
+	display inline
+
+
+/*
+[INFO] Placeholder used for third-party id #SashaRunkit
+For tags, that wrap iframe
+ */
+$SashaIframe
+	width 100%
+	position relative
+	overflow hidden
+
+$SashaMargin5Rem
+	margin 5rem 0 0
+
+$SashaFontSizeChildLink
+	a
+		font-size 2rem
+
+$KiraPlay
+	/*
+	[INFO] sans-serif:
+	https://google-webfonts-helper.herokuapp.com/fonts/play
+
+	[INFO] Arial as fallback font:
+	https://i.imgur.com/HVsZeky.png
+
+	Georgia and Palatino Linotype may also be available
+	 */
+	font-family Play, Arial, Helvetica, sans-serif
+
+$KiraBreakWords
+	word-break break-all
+
+$KiraOptimalMarginLeft
+	margin-left 1rem
+
+/*
+[INFO] “padding-right” — italic text goes beyond container:
+https://stackoverflow.com/a/26297605/5951529
+ */
+$KiraKbd
+	font-weight bold
+	border-radius .1875rem
+	padding-right .2rem
+
+/*
+[INFO] Style of quotes in citations
+ */
+$KiraCitationsQuotes
+	display inline-block
+	font-size 3rem
+	line-height 0
+
+/*
+[INFO] Margin between link and image for links to PDF files, YouTube and so on
+ */
+$KiraMarginNonTextLinks
+	margin 0 .1rem 0 .4rem
+
+// [INFO] margin-bottom 1.5rem ≈ 1br
+$KiraMarginBottomBr
+	margin-bottom 1.5rem
+
+$KiraMarginTopBr
+	margin-top 1.5rem

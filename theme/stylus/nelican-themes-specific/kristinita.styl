@@ -1,0 +1,115 @@
+/* @Author: Kristinita
+ * @Date: 2016-11-25 10:51:23
+ * @Last Modified by: Kristinita
+ * @Last Modified time: 2017-05-02 18:46:12
+ */
+
+/* Main
+	========================================================================== */
+
+body
+	/* [LEARN][CSS] Use “center/cover”, that set “background-size: cover” for “background” property:
+
+	https://webref.ru/css/background
+	https://stackoverflow.com/a/17093346/5951529
+	https://stackoverflow.com/q/45575802/5951529
+
+	[REQUIRED] Leading slash
+	 */
+	background linear-gradient(0deg, #dc143c7f, #dc143c7f), url("/theme/images/backgrounds/SashaRedLeavesBackground.webp") no-repeat center center/cover fixed
+	color mediumvioletred
+	margin 0
+
+a
+	text-decoration none
+
+.SashaPageLoading
+	box-shadow none
+	/*
+	[INFO] Tracking will still:
+	https://en.ryte.com/wiki/Tracking_Pixel
+	 */
+	display none
+
+
+/* Navigation buttons
+	========================================================================== */
+
+/* [INFO] Center an element horizontally using flexbox:
+https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
+nav
+	display flex
+	justify-content center
+	flex-wrap wrap
+
+.SashaNavigationButton
+	display flex
+
+.SashaNavigationLink
+	font-size clamp(1.3rem, 2.5vw, 1.6875rem)
+	font-family Tahoma, Geneva, sans-serif
+	color #df5400
+	font-weight bold
+	padding .6875rem clamp(.6rem, 2vw, 2rem)
+	text-decoration none
+	border-radius .875rem
+	border-style solid
+	border-width .25rem
+	/* [INFO] Place “box-shadow” to bottom instead of top for Autoprefixer:
+	https://github.com/postcss/autoprefixer/issues/530#issuecomment-143785816
+
+	[REQUIRED] Comma
+	 */
+	box-shadow 0 0 .125rem #bababa, inset 0 0 .0625rem white
+
+.Sasha
+	border-color lightpink
+	background-color mistyrose
+
+.Chernykh
+	border-color bisque
+	background-color oldlace
+
+.Empress
+	border-color wheat
+	background-color khaki
+
+
+/* Kristinita’s Search status and motto
+	========================================================================== */
+
+/* [FIXME] Programmable Search Engine centering is better, because
+currently I’m not getting the desired behavior for landscape orientation on mobile devices.
+I need to migrate to centering.
+
+[INFO] Status of the Kristinita’s Search
+
+[NOTE] Centering via “top: 50%” and “transform: translateY” not work for Programmable Search Engine,
+Search results display incorrectly:
+https://i.imgur.com/HpzJx2c.png
+https://stackoverflow.com/a/27532367/5951529
+
+[NOTE] I get the same bad result if I try centering PSE via flexbox:
+https://stackoverflow.com/a/41164964/5951529
+ */
+
+.SashaStatus
+	font-size clamp(2rem, 4vw, 3rem)
+	font-family Vollkorn, Georgia, serif;
+	font-style italic
+	font-weight bold
+	color #ffe300
+	text-align center
+	margin-top clamp(11rem, 20vw, 17rem)
+	margin-bottom 1rem
+
+// [INFO] Motto of the Kristinita’s Search
+
+.SashaMotto
+	margin-top 1rem
+	margin-bottom 1rem
+	font-size clamp(1.6rem, 3vw, 2.5rem)
+	font-weight bold
+	font-style italic
+	text-align center
+	color mistyrose

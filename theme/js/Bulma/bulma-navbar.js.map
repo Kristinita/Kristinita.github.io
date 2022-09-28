@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "bulma-navbar.js",
+	"sourceRoot": "../../coffee/Bulma/",
+	"sources": [
+		"bulma-navbar.coffee"
+	],
+	"names": [],
+	"mappings": "AAEgB;;;;;;;;;;;;;;;;;;;;;;;AAsBhB,QAAQ,CAAC,gBAAT,CAA0B,kBAA1B,EAA8C,QAAA,CAAA,CAAA;AAE9C,MAAA,cAAA;;EACC,cAAA,GAAiB,KAAK,CAAA,SAAE,CAAA,KAAK,CAAC,IAAb,CAAkB,QAAQ,CAAC,gBAAT,CAA0B,gBAA1B,CAAlB,EAA+D,CAA/D,EADlB;;EAIC,cAAc,CAAC,OAAf,CAAuB,QAAA,CAAC,EAAD,CAAA;IACtB,EAAE,CAAC,gBAAH,CAAoB,OAApB,EAA6B,QAAA,CAAA,CAAA;AAE/B,UAAA,OAAA,EAAA,MAAA;;MACG,MAAA,GAAS,EAAE,CAAC,OAAO,CAAC;MACpB,OAAA,GAAU,QAAQ,CAAC,sBAAT,CAAgC,MAAhC,CAAuC,CAAC,CAAD,EAFpD;;MAKG,EAAE,CAAC,SAAS,CAAC,MAAb,CAAoB,WAApB;MACA,OAAO,CAAC,SAAS,CAAC,MAAlB,CAAyB,WAAzB;IAR4B,CAA7B;EADsB,CAAvB;AAN6C,CAA9C,EAtBgB;;;;;;;AAgDhB,QAAQ,CAAC,gBAAT,CAA0B,cAA1B,CAAyC,CAAC,OAA1C,CAAkD,QAAA,CAAC,UAAD,CAAA;EACjD,UAAU,CAAC,gBAAX,CAA4B,OAA5B,EAAqC,QAAA,CAAA,CAAA;IACpC,UAAU,CAAC,kBAAkB,CAAC,SAAS,CAAC,MAAxC,CAA+C,oBAA/C;EADoC,CAArC;AADiD,CAAlD",
+	"sourcesContent": [
+		"################\n# Bulma navbar #\n################\n###\n[OVERVIEW] Bulma navbar:\nhttps://bulma.io/documentation/components/navbar/\n\n[INFO] I use hoverable menu expanding on landscape screens\nand toggable for portrait screens.\n\n[INFO] If hoverable — the dropdown menu will open/close on hover on desktop devices\nand on tap on mobile.\nElse toggable — dropdown menu will need to be manually opened/closed by clicking on desktop devices\nand tapping on mobile.\n\n[INFO] If toggable for landscape orientation,\nclick required to close dropdown menu:\nhttps://i.imgur.com/8dVbsTC.png\n###\n\n###\n[INFO] Open menu on mobile devices by tap/click on burger button:\nhttps://bulma.io/documentation/components/navbar/#navbar-menu\n###\ndocument.addEventListener 'DOMContentLoaded', ->\n\n\t# [INFO] Get all \"navbar-burger\" elements\n\t$navbarBurgers = Array::slice.call(document.querySelectorAll('.navbar-burger'), 0)\n\n\t# [INFO] Add a click event on each of them\n\t$navbarBurgers.forEach (el) ->\n\t\tel.addEventListener 'click', ->\n\n\t\t\t# [INFO] Get the target from the \"data-target\" attribute\n\t\t\ttarget = el.dataset.target\n\t\t\t$target = document.getElementsByClassName(target)[0]\n\n\t\t\t# [INFO] Toggle the \"is-active\" class on both the \"navbar-burger\" and the \"navbar-menu\"\n\t\t\tel.classList.toggle 'is-active'\n\t\t\t$target.classList.toggle 'is-active'\n\t\t\treturn\n\t\treturn\n\treturn\n\n\n###\n[INFO] Toggle dropdown menu by click:\nhttps://github.com/jgthms/bulma/issues/1567#issue-284766970\nhttps://codepen.io/tanmaydas/pen/dKbBQK\n###\ndocument.querySelectorAll('.navbar-link').forEach (navbarLink) ->\n\tnavbarLink.addEventListener 'click', ->\n\t\tnavbarLink.nextElementSibling.classList.toggle 'is-hidden-portrait'\n\t\treturn\n\treturn\n"
+	]
+}

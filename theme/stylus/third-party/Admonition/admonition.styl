@@ -1,0 +1,70 @@
+/*
+@Author: Kristinita
+@Date: 2018-01-31 18:26:56
+@Last Modified by: Kristinita
+@Last Modified time: 2018-01-31 20:12:29
+ */
+
+/*
+[OVERVIEW] Admonition
+Warning, error, note, hint etc. code blocks.
+
+[INFO] Python Markdown admonition:
+https://python-markdown.github.io/extensions/admonition/
+
+[INFO] I ported for Stylus admonition from Material theme of MkDocs:
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+
+[INFO] That icons display correct, I need to use Material icons font:
+https://ru.stackoverflow.com/a/770153/199934
+https://github.com/google/material-design-icons
+https://material.io/icons/
+
+[INFO] I remove [dir=rtl], because personally I don’t use right-to-left languages.
+ */
+details
+.admonition
+	-webkit-box-shadow 0 .125rem .125rem 0 rgba(0 0 0 .14), 0 .0625rem .3125rem 0 rgba(0 0 0 .12), 0 .1875rem .0625rem -.125rem rgba(0 0 0 .2)
+	box-shadow 0 .125rem .125rem 0 rgba(0 0 0 .14), 0 .0625rem .3125rem 0 rgba(0 0 0 .12), 0 .1875rem .0625rem -.125rem rgba(0 0 0 .2)
+	position relative
+	margin 1.5625em 0
+	padding 0 1.2rem
+	border-left .4rem solid #448aff
+	border-radius .2rem
+	font-size 1.28rem
+	overflow auto
+
+	&>:last-child
+		margin-bottom 1.2rem
+
+	&>.admonition-title
+	&>summary
+		margin 0 -1.2rem
+		padding .8rem 1.2rem .8rem 4rem
+		border-bottom .1rem solid rgba(68 138 255 .1)
+		background-color rgba(68 138 255 .1)
+		font-weight 700
+
+		&:last-child
+			margin-bottom 0
+
+		&::before
+			position absolute
+			left 1.2rem
+			color #448aff
+			font-size 2rem
+			content "\e3c9"
+
+			/* [INFO] Generic name:
+			https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#Values
+
+			[NOTE] Stylelint doesn't support “emoji” generic font family */
+			font-family "Material Icons", fantasy
+			font-style normal
+			font-variant normal
+			font-weight 400
+			line-height 1
+			text-transform none
+			white-space nowrap
+			word-wrap normal
+			direction ltr

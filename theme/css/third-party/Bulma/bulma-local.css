@@ -1,0 +1,90 @@
+/* >> Navbar
+	========================================================================== */
+/* [INFO] Wrap menu:
+https://i.imgur.com/Azcb1rh.png
+ */
+.navbar {
+	width: 100%;
+}
+.navbar-menu {
+	width: inherit;
+}
+/* [LEARN][CSS] “flex-wrap”:
+https://css-tricks.com/almanac/properties/f/flex-wrap/
+ */
+.navbar-start,
+.navbar-end {
+	flex-wrap: wrap;
+}
+.navbar-link {
+	padding: 0.25rem;
+/* [INFO] Dropdown menu arrow:
+	https://i.imgur.com/80Vt40H.png */
+}
+.navbar-link:not(.is-arrowless) {
+	padding-right: 2rem;
+}
+.navbar-link:not(.is-arrowless)::after {
+	width: 0.5rem;
+	height: 0.5rem;
+	right: 0.7rem;
+}
+/* [INFO] Position the burger on the left, not the right side:
+https://i.imgur.com/pD2OrGy.png */
+.navbar-burger {
+	margin-left: initial;
+/* [INFO] Visibility of close button:
+	[COMPARE] https://i.imgur.com/fqSDzoR.png
+	https://i.imgur.com/2raifhY.png	 */
+}
+.navbar-burger span {
+	height: 0.125rem;
+}
+/* [FIXME][PURGECSS] Bulma navbar classes, which PurgeCSS removes.
+
+I use “.is-active” class in the Bulma script:
+https://bulma.io/documentation/components/navbar/#navbar-menu
+
+I don’t know, how I can preserve them, use PurgeCSS “safelist” option:
+https://purgecss.com/configuration.html
+ */
+.navbar-burger.is-active span:nth-child(1) {
+	transform: translateY(0.3125rem) rotate(45deg);
+}
+.navbar-burger.is-active span:nth-child(2) {
+	opacity: 0;
+}
+.navbar-burger.is-active span:nth-child(3) {
+	transform: translateY(-0.3125rem) rotate(-45deg);
+}
+@media screen and (orientation: portrait) {
+	.navbar-menu.is-active {
+		display: block;
+	}
+	.is-hidden-portrait {
+		display: none;
+	}
+	.navbar-dropdown .navbar-item {
+		padding-left: 3rem;
+	}
+	.navbar-link:not(.is-arrowless) {
+		padding-left: 2rem;
+/* [INFO] Right margin for pages with right scrollbar:
+		https://i.imgur.com/erVQ9MT.png */
+	}
+	.navbar-link:not(.is-arrowless)::after {
+		right: 2rem;
+	}
+}
+/* >> Tags
+	========================================================================== */
+.tags {
+	margin-top: 1rem;
+}
+.tags.are-medium .tag:not(.is-normal):not(.is-large) {
+	font-size: 1.2rem;
+}
+.tag:not(body) {
+	height: 1.8rem;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3N0eWx1cy90aGlyZC1wYXJ0eS9CdWxtYS9idWxtYS1sb2NhbC5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUdBOzs7QUFHQTtFQUNDLE9BQU0sS0FBTjs7QUFFRDtFQUNDLE9BQU0sUUFBTjs7QUFFRDs7O0FBR0E7QUFDQTtFQUNDLFdBQVUsS0FBVjs7QUFHRDtFQUNDLFNBQVEsUUFBUjtBQUVBOzs7QUFFQTtFQUNDLGVBQWMsS0FBZDs7QUFFQTtFQUNDLE9BQU0sT0FBTjtFQUNBLFFBQU8sT0FBUDtFQUNBLE9BQU0sT0FBTjs7QUFHSDs7QUFFQTtFQUNDLGFBQVksUUFBWjtBQUVBOzs7O0FBR0E7RUFDQyxRQUFPLFNBQVA7O0FBR0Y7Ozs7Ozs7O0FBVUM7RUFDQyxXQUFVLG9DQUFWOztBQUVEO0VBQ0MsU0FBUSxFQUFSOztBQUVEO0VBQ0MsV0FBVSxzQ0FBVjs7QUFHc0M7QUFHdkM7SUFDQyxTQUFRLE1BQVI7O0FBRUQ7SUFDQyxTQUFRLEtBQVI7O0FBSUQ7SUFDRSxjQUFhLEtBQWI7O0FBRUY7SUFDQyxjQUFhLEtBQWI7QUFFQTs7O0FBRUE7SUFDQyxPQUFNLEtBQU47OztBQUVIOztBQUdBO0VBQ0MsWUFBVyxLQUFYOztBQUVBO0VBQ0MsV0FBVSxPQUFWOztBQUVGO0VBQ0MsUUFBTyxPQUFQIiwiZmlsZSI6ImJ1bG1hLWxvY2FsLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qID4+IE5hdmJhclxuXHQ9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4vKiBbSU5GT10gV3JhcCBtZW51OlxuaHR0cHM6Ly9pLmltZ3VyLmNvbS9BemNiMXJoLnBuZ1xuKi9cbi5uYXZiYXJcblx0d2lkdGggMTAwJVxuXG4ubmF2YmFyLW1lbnVcblx0d2lkdGggaW5oZXJpdFxuXG4vKiBbTEVBUk5dW0NTU10g4oCcZmxleC13cmFw4oCdOlxuaHR0cHM6Ly9jc3MtdHJpY2tzLmNvbS9hbG1hbmFjL3Byb3BlcnRpZXMvZi9mbGV4LXdyYXAvXG4qL1xuLm5hdmJhci1zdGFydFxuLm5hdmJhci1lbmRcblx0ZmxleC13cmFwIHdyYXBcblxuLy8gW0lORk9dIE5hdmJhciBkZXNpZ25cbi5uYXZiYXItbGlua1xuXHRwYWRkaW5nIC4yNXJlbVxuXG5cdC8qIFtJTkZPXSBEcm9wZG93biBtZW51IGFycm93OlxuXHRodHRwczovL2kuaW1ndXIuY29tLzgwVnQ0MEgucG5nICovXG5cdCY6bm90KC5pcy1hcnJvd2xlc3MpXG5cdFx0cGFkZGluZy1yaWdodCAycmVtXG5cblx0XHQmOjphZnRlclxuXHRcdFx0d2lkdGggLjVyZW1cblx0XHRcdGhlaWdodCAuNXJlbVxuXHRcdFx0cmlnaHQgLjdyZW1cblxuXG4vKiBbSU5GT10gUG9zaXRpb24gdGhlIGJ1cmdlciBvbiB0aGUgbGVmdCwgbm90IHRoZSByaWdodCBzaWRlOlxuaHR0cHM6Ly9pLmltZ3VyLmNvbS9wRDJPckd5LnBuZyAqL1xuLm5hdmJhci1idXJnZXJcblx0bWFyZ2luLWxlZnQgaW5pdGlhbFxuXG5cdC8qIFtJTkZPXSBWaXNpYmlsaXR5IG9mIGNsb3NlIGJ1dHRvbjpcblx0W0NPTVBBUkVdIGh0dHBzOi8vaS5pbWd1ci5jb20vZnFTRHpvUi5wbmdcblx0aHR0cHM6Ly9pLmltZ3VyLmNvbS8ycmFpZmhZLnBuZ1x0ICovXG5cdHNwYW5cblx0XHRoZWlnaHQgLjEyNXJlbVxuXG5cbi8qIFtGSVhNRV1bUFVSR0VDU1NdIEJ1bG1hIG5hdmJhciBjbGFzc2VzLCB3aGljaCBQdXJnZUNTUyByZW1vdmVzLlxuXG5JIHVzZSDigJwuaXMtYWN0aXZl4oCdIGNsYXNzIGluIHRoZSBCdWxtYSBzY3JpcHQ6XG5odHRwczovL2J1bG1hLmlvL2RvY3VtZW50YXRpb24vY29tcG9uZW50cy9uYXZiYXIvI25hdmJhci1tZW51XG5cbkkgZG9u4oCZdCBrbm93LCBob3cgSSBjYW4gcHJlc2VydmUgdGhlbSwgdXNlIFB1cmdlQ1NTIOKAnHNhZmVsaXN04oCdIG9wdGlvbjpcbmh0dHBzOi8vcHVyZ2Vjc3MuY29tL2NvbmZpZ3VyYXRpb24uaHRtbFxuKi9cbi5uYXZiYXItYnVyZ2VyLmlzLWFjdGl2ZSBzcGFuOm50aC1jaGlsZFxuXG5cdCYoMSlcblx0XHR0cmFuc2Zvcm0gdHJhbnNsYXRlWSguMzEyNXJlbSkgcm90YXRlKDQ1ZGVnKVxuXG5cdCYoMilcblx0XHRvcGFjaXR5IDBcblxuXHQmKDMpXG5cdFx0dHJhbnNmb3JtIHRyYW5zbGF0ZVkoLS4zMTI1cmVtKSByb3RhdGUoLTQ1ZGVnKVxuXG5cbkBtZWRpYSBzY3JlZW4gYW5kIChvcmllbnRhdGlvbjogcG9ydHJhaXQpXG5cdC8qIFtJTkZPXSBDbGlja2FibGUgZHJvcGRvd24gbWVudSBpbiBwb3J0cmFpdCBvcmllbnRhdGlvbjpcblx0aHR0cHM6Ly9pLmltZ3VyLmNvbS8yTGU1VTY3LnBuZyAqL1xuXHQubmF2YmFyLW1lbnUuaXMtYWN0aXZlXG5cdFx0ZGlzcGxheSBibG9ja1xuXG5cdC5pcy1oaWRkZW4tcG9ydHJhaXRcblx0XHRkaXNwbGF5IG5vbmVcblxuXHQvKiBbSU5GT10gUGFkZGluZyB0byBwcmV2ZW50IEFkZFRvQW55IHNoYXJlIGJ1dHRvbnMgZnJvbSBvYnNjdXJpbmcgbmF2YmFyIG1lbnUgaXRlbXM6XG5cdGh0dHBzOi8vaS5pbWd1ci5jb20vVUN3b2dQSS5wbmcgKi9cblx0Lm5hdmJhci1kcm9wZG93biAubmF2YmFyLWl0ZW1cblx0XHRcdHBhZGRpbmctbGVmdCAzcmVtXG5cblx0Lm5hdmJhci1saW5rOm5vdCguaXMtYXJyb3dsZXNzKVxuXHRcdHBhZGRpbmctbGVmdCAycmVtXG5cblx0XHQvKiBbSU5GT10gUmlnaHQgbWFyZ2luIGZvciBwYWdlcyB3aXRoIHJpZ2h0IHNjcm9sbGJhcjpcblx0XHRodHRwczovL2kuaW1ndXIuY29tL2VyVlE5TVQucG5nICovXG5cdFx0Jjo6YWZ0ZXJcblx0XHRcdHJpZ2h0IDJyZW1cblxuLyogPj4gVGFnc1xuXHQ9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSAqL1xuXG4udGFnc1xuXHRtYXJnaW4tdG9wIDFyZW1cblxuXHQmLmFyZS1tZWRpdW0gLnRhZzpub3QoLmlzLW5vcm1hbCk6bm90KC5pcy1sYXJnZSlcblx0XHRmb250LXNpemUgMS4ycmVtXG5cbi50YWc6bm90KGJvZHkpXG5cdGhlaWdodCAxLjhyZW1cbiJdfQ== */
